@@ -1,0 +1,3 @@
+[submodule "report/cse-505-project"]
+	path = report/cse-505-project
+	url = https://github.com/AdebayoBraimah/cse-505-project.git
