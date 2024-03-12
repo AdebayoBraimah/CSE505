@@ -23,3 +23,5 @@ For changes/updates made in the submodule:
 ```sh
 git submodule update
 ```
+
+For details for ``Git Submodule`` can be found [here](https://gist.github.com/gitaarik/8735255).
