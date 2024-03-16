@@ -1,0 +1,14 @@
+# Dev
+jupyter
+notebook # prototyping & testing [NOTE: This is a new non-standard feature]
+black
+flake8
+
+# # Documents
+# sphinx 
+# sphinx-autodoc-typehints 
+# sphinx_rtd_theme 
+# sphinx-autodoc-napoleon-typehints 
+# sphinx-argparse
+# rst.linker
+# sphinx-autopackagesummary
