@@ -1,2 +1,3 @@
-# Will not commit for now -- as settings are still being configured
+# Will not commit vscode for now -- as settings are still being configured
 *.vscode/
+.env
