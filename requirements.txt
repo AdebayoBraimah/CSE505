@@ -1,2 +1,10 @@
 # Knowledge graphs
 # pygraft
+
+# Web scraping/interfacing
+# beautifulsoup4
+selenuim
+webdriver-manager
+
+# Data manipulation
+pandas
