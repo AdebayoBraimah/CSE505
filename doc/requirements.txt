@@ -1,0 +1,8 @@
+# Documentation requirements
+sphinx 
+sphinx-autodoc-typehints 
+sphinx_rtd_theme 
+sphinx-autodoc-napoleon-typehints 
+sphinx-argparse
+rst.linker
+sphinx-autopackagesummary
