@@ -21,6 +21,15 @@ def file_parts(file: str) -> Tuple[str, str, str]:
         * filename (no file path, no file extension)
         * file extension
 
+    Usage example:
+        >>> path_name, file_name, file_ext = file_parts('/Users/username/Desktop/file.txt')
+        >>> path_name
+        '/Users/username/Desktop'
+        >>> file_name
+        'file'
+        >>> file_ext
+        '.txt'
+
     Args:
         file: Input file filename.
 
