@@ -15,7 +15,8 @@ from typing import Tuple
 
 
 def file_parts(file: str) -> Tuple[str, str, str]:
-    """Similar to MATLAB's ``fileparts`` function.
+    """Similar to MATLAB's ``fileparts`` function shown `here <https://www.mathworks.com/help/matlab/ref/fileparts.html>`_.
+
     Splits a full filename into:
         * file path
         * filename (no file path, no file extension)
