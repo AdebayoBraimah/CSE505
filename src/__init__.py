@@ -15,6 +15,8 @@
 """Project python package for CSE 505 project using ErgoAI.
 
 ..autosummary::
+    ergoai
+    kg
     utils
 """
 
