@@ -1,3 +1,6 @@
+[![Documentation Status](https://readthedocs.org/projects/cse505/badge/?version=latest)](https://cse505.readthedocs.io/en/latest/?badge=latest)
+      
+
 # CSE505 Course Project
 Stony Brook CSE505 project repository
 
