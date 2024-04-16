@@ -2,7 +2,6 @@
 # pygraft
 
 # Web scraping/interfacing
-# beautifulsoup4
 selenuim
 webdriver-manager
 
