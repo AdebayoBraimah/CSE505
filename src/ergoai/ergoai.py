@@ -3,7 +3,7 @@
 
 import os
 
-from typing import Union
+from typing import Optional, Union
 
 from src import ERGOROOT, XSBARCHDIR
 from src.utils.util import file_parts
@@ -36,8 +36,35 @@ from pyergo import (
 )
 
 
-def json_to_ergo(json_file: str) -> str:
-    pass
+def json_to_ergo(json_file: str, output_file: Optional[str] = None) -> str:
+    """Converts a JSON file to an ERGO file.
+
+    NOTE:
+        - If a JSON file needs to be converted to an ERGO file, this function MUST be called before calling ``pyergo_query``.
+
+    Args:
+        json_file: Input JSON file to be converted to ERGO file.
+        output_file: Output filename. If not specified, then a new file of the same name is created, with a '.ergo' file extension. Defaults to None.
+
+    Returns:
+        Path to the output ERGO file.
+    """
+    # If output file is not provided, use the same filename
+    if (output_file is None) or (output_file == ""):
+        _filepath, _filename, _ = file_parts(json_file)
+        output_file = os.path.join(_filepath, f"{_filename}.ergo")
+
+    # Start ErgoAI session
+    pyergo_start_session(XSBARCHDIR, ERGOROOT)
+
+    # Perform command
+    ergoai_command = f"'{json_file}'[parse2file('{output_file}')]@\json."
+    pyergo_command(ergoai_command)
+
+    # End ErgoAI session
+    pyergo_end_session()
+
+    return output_file
 
 
 def query_ergoai(
