@@ -3,3 +3,4 @@
 .env
 .ergo_aux_files/
 __pycache__
+doc/build/*
