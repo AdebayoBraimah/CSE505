@@ -1,9 +1,2120 @@
 ?- \@[add_json_root(\##1)]@\json.
-\##1['aaa' -> 1].
-\##1['bbb' -> \##2].
-\##2['ccc' -> [1, 2, \##3]].
-\##3['111' -> 3].
-\##3['ppp' -> 4].
-\##2['ddd' -> 'ppp'].
+\##1['CSE 101' -> \##2].
+\##2['Course Title' -> 'Computer Science Principles'].
+\##2['Career' -> 'Undergraduate'].
+\##2['Units' -> '3.00'].
+\##2['Grading Basis' -> 'Student Option'].
+\##2['Enrollment Requirement' -> 'Prerequisite: Level 3 or higher on the mathematics placement examination Anti-requisite: May not be taken by students with credit for CSE 114 or CSE 160'].
+\##2['Course Components' -> ['Laboratory', 'Lecture']].
+\##2['Academic Group' -> 'Engring & App Sci, College of'].
+\##2['Academic Organization' -> 'Computer Science'].
+\##2['Description' -> 'Introduces central ideas of computing and computer science, instills practices of algorithmic and computational thinking, and engages students in the creative aspects of the field. Also introduces appropriate computing technology as a means for solving computational problems and exploring creative endeavors. Includes weekly computer programming assignments, but assumes no previous programming experience. May not be taken by students with credit for CSE 114 or CSE 160.'].
+\##1['CSE 102' -> \##3].
+\##3['Course Title' -> 'Introduction to Web Design and Programming'].
+\##3['Career' -> 'Undergraduate'].
+\##3['Units' -> '3.00'].
+\##3['Grading Basis' -> 'Student Option'].
+\##3['Enrollment Requirement' -> 'Advisory Prerequisite: CSE 101 or basic computer skills'].
+\##3['Course Components' -> ['Lecture']].
+\##3['Academic Group' -> 'College of Engring & App Sci'].
+\##3['Academic Organization' -> 'Computer Science'].
+\##3['Description' -> 'An introduction to the design of Web pages, specifically the development of browser and device independent HTML, with an emphasis on the XHTML standards. Includes the use of style sheets (CSS) and tools for page layout and verification.  HTML is presented as a mark-up language, exploring the rules of HTML elements and attributes. Students learn the separation of page viewing information from the HTML through CSS style sheets as well as the use of block layout without using HTML tables. Addresses HTML display properties including text, color, image, and graphic elements as well as approaches to HTML validation and techniques.'].
+\##1['CSE 110' -> \##4].
+\##4['Course Title' -> 'Introduction to Computer Science'].
+\##4['Career' -> 'Undergraduate'].
+\##4['Units' -> '3.00'].
+\##4['Grading Basis' -> 'Student Option'].
+\##4['Enrollment Requirement' -> 'Prerequisite: Level 3 or higher on the mathematics placement examination'].
+\##4['Course Components' -> ['Laboratory', 'Lecture']].
+\##4['Academic Group' -> 'College of Engring & App Sci'].
+\##4['Academic Organization' -> 'Computer Science'].
+\##4['Description' -> 'An introduction to fundamentals of computer science. Topics covered include algorithmic design, problem-solving techniques for computer programming, fundamentals of digital logic and computer organization, the role of the operating system, introductory programming methodology including variables, assignment statements, control statements and subroutines (methods), programming paradigms, the compilation process, theoretical limits of computation, social and ethical issues.  Intended for students who have not taken any college-level computer science course containing programming assignments in a high-level programming language.'].
+\##1['CSE (113)' -> \##5].
+\##5['Course Title' -> 'Foundations of Computer Science I
+
+** available as of 08/20/2024'].
+\##5['Career' -> 'Undergraduate'].
+\##5['Units' -> '4.00'].
+\##5['Grading Basis' -> 'A Through F Undergraduate'].
+\##5['Enrollment Requirement' -> 'Prerequisite: AMS 151 or MAT 125 or MAT 131 or level 6 on the mathematics placement examination'].
+\##5['Course Components' -> ['Lecture', 'Recitation']].
+\##5['Academic Group' -> 'Engring & App Sci, College of'].
+\##5['Academic Organization' -> 'Computer Science'].
+\##5['Description' -> 'Introduction to the mathematical foundations of computer science. Topics include logic (propositional and predicate); proof techniques (induction/recursion, contradiction, and others); and key concepts of mathematical structures (sequences, sets, functions, relations, and graphs). Not for credit in addition to CSE 215.'].
+\##1['CSE 114' -> \##6].
+\##6['Course Title' -> 'Introduction to Object-Oriented Programming'].
+\##6['Career' -> 'Undergraduate'].
+\##6['Units' -> '4.00'].
+\##6['Grading Basis' -> 'A Through F Undergraduate'].
+\##6['Enrollment Requirement' -> 'Prerequisite: Level 5 or higher on the math placement exam Advisory Prerequisite: CSE 101 or ISE 108'].
+\##6['Course Components' -> ['Laboratory', 'Lecture']].
+\##6['Academic Group' -> 'Engring & App Sci, College of'].
+\##6['Academic Organization' -> 'Computer Science'].
+\##6['Description' -> 'An introduction to procedural and object-oriented  programming methodology. Topics include program structure, conditional and iterative programming, procedures, arrays and records, object classes, encapsulation, information hiding, inheritance, polymorphism, file I/O, and exceptions. Includes required laboratory. This course has been designated as a High Demand/Controlled Access (HD/CA) course. Students registering for HD/CA courses for the first time will have priority to do so.'].
+\##1['CSE 130' -> \##7].
+\##7['Course Title' -> 'Introduction to Programming in C'].
+\##7['Career' -> 'Undergraduate'].
+\##7['Units' -> '3.00'].
+\##7['Grading Basis' -> 'Student Option'].
+\##7['Enrollment Requirement' -> 'Prerequisite: Level 3 or higher on the mathematics placement examination'].
+\##7['Course Components' -> ['Laboratory', 'Lecture']].
+\##7['Academic Group' -> 'College of Engring & App Sci'].
+\##7['Academic Organization' -> 'Computer Science'].
+\##7['Description' -> 'Introduces programming concepts using the C language.  Variables, data types, and expressions.  Conditional and iterative statements, functions, and structures.  Pointers, arrays, and strings.  Scope of variables and program organization.  Includes programming projects of an interdisciplinary nature.  Suitable as an introductory programming course for non-CSE majors.'].
+\##1['CSE 150' -> \##8].
+\##8['Course Title' -> 'Foundations of Computer Science: Honors'].
+\##8['Career' -> 'Undergraduate'].
+\##8['Units' -> '4.00'].
+\##8['Grading Basis' -> 'A Through F Undergraduate'].
+\##8['Enrollment Requirement' -> 'Prerequisite: one MAT course that satisfies D.E.C. C or QPS or score of level 4 on the math placement exam; admission to Honors in Computer Science or the Honors College or the WISE Honors Program or University Scholars.'].
+\##8['Course Components' -> ['Lecture', 'Recitation']].
+\##8['Academic Group' -> 'Engring & App Sci, College of'].
+\##8['Academic Organization' -> 'Computer Science'].
+\##8['Description' -> 'Introduction to the logical and mathematical foundations of computer science for computer science honors students. Topics include functions, relations, and sets; recursion and functional programming; basic logic; and mathematical induction and other proof techniques.'].
+\##1['CSE 160' -> \##9].
+\##9['Course Title' -> 'Computer Science A: Honors'].
+\##9['Career' -> 'Undergraduate'].
+\##9['Units' -> '3.00'].
+\##9['Grading Basis' -> 'A Through F Undergraduate'].
+\##9['Enrollment Requirement' -> 'Prerequisite: Honors in Computer Science or the Honors College or the WISE Honors Program or University Scholars. Corequisite: CSE 161'].
+\##9['Course Components' -> ['Lecture']].
+\##9['Academic Group' -> 'Engring & App Sci, College of'].
+\##9['Academic Organization' -> 'Computer Science'].
+\##9['Description' -> 'First part of a two-semester sequence, CSE 160 and CSE 260.  An introduction to procedural and object-oriented programming methodology and basic data structures. Topics include program structure, conditional and iterative programming, procedures, arrays, object classes, encapsulation, information hiding, inheritance, polymorphism, file I/O, exceptions and simple data structures, such as lists, queues and stacks.'].
+\##1['CSE 161' -> \##10].
+\##10['Course Title' -> 'Laboratory for Computer Science A: Honors'].
+\##10['Career' -> 'Undergraduate'].
+\##10['Units' -> '1.00'].
+\##10['Grading Basis' -> 'A Through F Undergraduate'].
+\##10['Enrollment Requirement' -> 'Corequisite: CSE 160'].
+\##10['Course Components' -> ['Laboratory']].
+\##10['Academic Group' -> 'Engring & App Sci, College of'].
+\##10['Academic Organization' -> 'Computer Science'].
+\##10['Description' -> 'Must be taken concurrently with lecture component, CSE 160; a common grade for both courses will be assigned. Laboratory sessions will focus on development of pragmatic programming skills and use of programming environments and tools in a supervised setting.'].
+\##1['CSE 190' -> \##11].
+\##11['Course Title' -> 'Special Topics in Practice and Applications of Computer Science'].
+\##11['Career' -> 'Undergraduate'].
+\##11['Units' -> '3.00'].
+\##11['Grading Basis' -> 'Student Option'].
+\##11['Enrollment Requirement' -> ''].
+\##11['Course Components' -> ['Lecture']].
+\##11['Academic Group' -> 'Engring & App Sci, College of'].
+\##11['Academic Organization' -> 'Computer Science'].
+\##11['Description' -> 'A lecture course on a current topic in the practice and application of computer science. May be repeated as the topic changes.'].
+\##1['CSE 191' -> \##12].
+\##12['Course Title' -> 'Special Topics in Practice and Applications for Computer Science'].
+\##12['Career' -> 'Undergraduate'].
+\##12['Units' -> '3.00'].
+\##12['Grading Basis' -> 'Student Option'].
+\##12['Enrollment Requirement' -> ''].
+\##12['Course Components' -> ['Lecture']].
+\##12['Academic Group' -> 'Engring & App Sci, College of'].
+\##12['Academic Organization' -> 'Computer Science'].
+\##12['Description' -> 'A lecture course on a current topic in the practice and application of computer science.  May be repeated as the topic changes.'].
+\##1['CSE 192' -> \##13].
+\##13['Course Title' -> 'Special Topics in Practice and Applications for Computer Science'].
+\##13['Career' -> 'Undergraduate'].
+\##13['Units' -> '3.00'].
+\##13['Grading Basis' -> 'Student Option'].
+\##13['Enrollment Requirement' -> ''].
+\##13['Course Components' -> ['Lecture']].
+\##13['Academic Group' -> 'Engring & App Sci, College of'].
+\##13['Academic Organization' -> 'Computer Science'].
+\##13['Description' -> 'A lecture course on a current topic in the practice and application of computer science. May be repeated as the topic changes.'].
+\##1['CSE (213)' -> \##14].
+\##14['Course Title' -> 'Foundations of Computer Science II
+
+** available as of 08/20/2025'].
+\##14['Career' -> 'Undergraduate'].
+\##14['Units' -> '4.00'].
+\##14['Grading Basis' -> 'A Through F Undergraduate'].
+\##14['Enrollment Requirement' -> 'Prerequisite: CSE 113; CSE major'].
+\##14['Course Components' -> ['Lecture', 'Recitation']].
+\##14['Academic Group' -> 'Engring & App Sci, College of'].
+\##14['Academic Organization' -> 'Computer Science'].
+\##14['Description' -> 'A continuation of CSE 113 covering the mathematical foundations of computer science. Topics include counting techniques, graph theory, and finite automata.'].
+\##1['CSE 214' -> \##15].
+\##15['Course Title' -> 'Data Structures'].
+\##15['Career' -> 'Undergraduate'].
+\##15['Units' -> '4.00'].
+\##15['Grading Basis' -> 'A Through F Undergraduate'].
+\##15['Enrollment Requirement' -> 'Prerequisite: C or higher in CSE 114'].
+\##15['Course Components' -> ['Lecture', 'Recitation']].
+\##15['Academic Group' -> 'Engring & App Sci, College of'].
+\##15['Academic Organization' -> 'Computer Science'].
+\##15['Description' -> 'An extension of programming methodology to data storage and manipulation on complex data sets. Topics include: programming and applications of data structures; stacks, queues, lists, binary trees, heaps, priority queues, balanced trees and graphs. Recursive programming is heavily utilized. Fundamental sorting and searching algorithms are examined along with informal efficiency comparisons.'].
+\##1['CSE 215' -> \##16].
+\##16['Course Title' -> 'Foundations of Computer Science'].
+\##16['Career' -> 'Undergraduate'].
+\##16['Units' -> '4.00'].
+\##16['Grading Basis' -> 'A Through F Undergraduate'].
+\##16['Enrollment Requirement' -> 'Prerequisite: AMS 151 or MAT 125 or MAT 131'].
+\##16['Course Components' -> ['Lecture', 'Recitation']].
+\##16['Academic Group' -> 'Engring & App Sci, College of'].
+\##16['Academic Organization' -> 'Computer Science'].
+\##16['Description' -> 'Introduction to the logical and mathematical foundations of computer science. Topics include functions, relations, and sets; recursion; elementary logic; and mathematical induction and other proof techniques.'].
+\##1['CSE 216' -> \##17].
+\##17['Course Title' -> 'Programming Abstractions'].
+\##17['Career' -> 'Undergraduate'].
+\##17['Units' -> '4.00'].
+\##17['Grading Basis' -> 'A Through F Undergraduate'].
+\##17['Enrollment Requirement' -> 'Prerequisites: C or higher in CSE 214; CSE major'].
+\##17['Course Components' -> ['Lecture', 'Recitation']].
+\##17['Academic Group' -> 'Engring & App Sci, College of'].
+\##17['Academic Organization' -> 'Computer Science'].
+\##17['Description' -> 'Intermediate-level programming concepts and paradigms, including  functional programming, object-orientation, basics of type systems, memory management, program and data abstractions, parameter passing, modularity, and parallel programming. Includes weekly recitations, which provide students with experience in the practice of programming in a variety of high-level languages.'].
+\##1['CSE 220' -> \##18].
+\##18['Course Title' -> 'Systems Fundamentals I'].
+\##18['Career' -> 'Undergraduate'].
+\##18['Units' -> '4.00'].
+\##18['Grading Basis' -> 'A Through F Undergraduate'].
+\##18['Enrollment Requirement' -> 'Prerequisites: C or higher in CSE 214 or co-requisite CSE 260 and CSE major'].
+\##18['Course Components' -> ['Lecture', 'Recitation']].
+\##18['Academic Group' -> 'Engring & App Sci, College of'].
+\##18['Academic Organization' -> 'Computer Science'].
+\##18['Description' -> 'Introduces systems-level programming concepts using the C language and assembly language, and explores the correspondence of programming constructs in these languages. Topics include internal data representation, basic instructions and control structures, bitwise operations, arithmetic operations, memory management, pointers, function calls and parameter passing, linking and loading. Included is an overview of computer architecture and organization topics, including von Neumann architecture, the memory hierarchy, and basics of pipelining.'].
+\##1['CSE 230' -> \##19].
+\##19['Course Title' -> 'Intermediate Programming in C and C++'].
+\##19['Career' -> 'Undergraduate'].
+\##19['Units' -> '3.00'].
+\##19['Grading Basis' -> 'Student Option'].
+\##19['Enrollment Requirement' -> 'Prerequisite: CSE 130 or CSE 220 or ESE 124 or ESG 111 or BME 120 or MEC 102'].
+\##19['Course Components' -> ['Lecture']].
+\##19['Academic Group' -> 'College of Engring & App Sci'].
+\##19['Academic Organization' -> 'Computer Science'].
+\##19['Description' -> 'Intermediate programming concepts using the C language in a UNIX environment. Files, systems calls, stream I/O, the C preprocessor, bitwise operations, the use of makefiles, advanced formatting of input and output, conversions. Introduction to object-oriented programming using C++; classes, objects, inheritance, aggregation, and overloading. Suitable for all majors.'].
+\##1['CSE 260' -> \##20].
+\##20['Course Title' -> 'Computer Science B: Honors'].
+\##20['Career' -> 'Undergraduate'].
+\##20['Units' -> '3.00'].
+\##20['Grading Basis' -> 'A Through F Undergraduate'].
+\##20['Enrollment Requirement' -> 'Prerequisite: CSE 160 Corequisite: CSE 261'].
+\##20['Course Components' -> ['Lecture']].
+\##20['Academic Group' -> 'Engring & App Sci, College of'].
+\##20['Academic Organization' -> 'Computer Science'].
+\##20['Description' -> 'Second part of a two-semester sequence, CSE 160 and CSE 260. Applies object-oriented programming methodology to data storage and manipulation on complex data sets, such as, binary trees, heaps, priority queues, balanced trees and graphs. Recursive programming is heavily utilized. Fundamental sorting and searching algorithms are examined along with informal efficiency comparisons. Intermediate-level programming language concepts and paradigms, including functional programming, basics of type systems, program and data abstractions, and modularity.'].
+\##1['CSE 261' -> \##21].
+\##21['Course Title' -> 'Laboratory for Computer Science B: Honors'].
+\##21['Career' -> 'Undergraduate'].
+\##21['Units' -> '1.00'].
+\##21['Grading Basis' -> 'A Through F Undergraduate'].
+\##21['Enrollment Requirement' -> 'Corequisite: CSE 260'].
+\##21['Course Components' -> ['Laboratory']].
+\##21['Academic Group' -> 'Engring & App Sci, College of'].
+\##21['Academic Organization' -> 'Computer Science'].
+\##21['Description' -> 'Must be taken concurrently with lecture component, CSE 260; a common grade for both courses will be assigned. Weekly laboratories provide students with experience in the practice of programming in a variety of high-level languages such as Java, Scala, Haskell, Python or Javascript.'].
+\##1['CSE 300' -> \##22].
+\##22['Course Title' -> 'Technical Communications'].
+\##22['Career' -> 'Undergraduate'].
+\##22['Units' -> '3.00'].
+\##22['Grading Basis' -> 'Undergraduate Graded'].
+\##22['Enrollment Requirement' -> 'Prerequisites: WRT 102, CSE or ISE major, U3 or U4 standing'].
+\##22['Course Components' -> ['Lecture']].
+\##22['Academic Group' -> 'College of Engring & App Sci'].
+\##22['Academic Organization' -> 'Computer Science'].
+\##22['Description' -> 'Principles of professional technical communications for Computer Science and Information Systems majors. Topics include writing business communications, user manuals, press releases, literature reviews, and research abstracts. Persuasive oral communications and effective presentation techniques, to address a range of audiences, will also be covered. This course satisfies the upper-division writing requirement for CSE and ISE majors.'].
+\##1['CSE 301' -> \##23].
+\##23['Course Title' -> 'History of Computing'].
+\##23['Career' -> 'Undergraduate'].
+\##23['Units' -> '3.00'].
+\##23['Grading Basis' -> 'Student Option'].
+\##23['Enrollment Requirement' -> 'Prerequisite: U2 standing or higher Advisory Prerequisite: one course in computing'].
+\##23['Course Components' -> ['Lecture']].
+\##23['Academic Group' -> 'College of Engring & App Sci'].
+\##23['Academic Organization' -> 'Computer Science'].
+\##23['Description' -> 'A study of the history of computational devices from the early ages through the end of the 20th century. Topics include needs for computation in ancient times, development of computational models and devices through the 1800's and early 1900's, World War II and the development of the first modern computer, and early uses in business. Creation of programming languages and the microchip. Societal changes in computer usage due to the microcomputer, emergence of the Internet, the World Wide Web, and mobile computing. Legal and social impacts of modern computing. Cannot be used as a technical elective for the CSE major or minor.  This course is offered as both CSE 301 and ISE 301.'].
+\##1['CSE 303' -> \##24].
+\##24['Course Title' -> 'Introduction to the Theory of Computation'].
+\##24['Career' -> 'Undergraduate'].
+\##24['Units' -> '3.00'].
+\##24['Grading Basis' -> 'A Through F Undergraduate'].
+\##24['Enrollment Requirement' -> 'Prerequisites: C or higher: CSE 160 or CSE 214; CSE 150 or CSE 215; CSE major'].
+\##24['Course Components' -> ['Lecture']].
+\##24['Academic Group' -> 'Engring & App Sci, College of'].
+\##24['Academic Organization' -> 'Computer Science'].
+\##24['Description' -> 'An introduction to the abstract notions encountered in machine computation. Topics include finite automata, regular expressions, and formal languages, with emphasis on regular and context-free grammars. Questions relating to what can and cannot be done by machines are covered by considering various models of computation, including Turing machines, recursive functions, and universal machines. Not for credit in addition to CSE 350.'].
+\##1['CSE 304' -> \##25].
+\##25['Course Title' -> 'Compiler Design'].
+\##25['Career' -> 'Undergraduate'].
+\##25['Units' -> '3.00'].
+\##25['Grading Basis' -> 'A Through F Undergraduate'].
+\##25['Enrollment Requirement' -> 'Prerequisites: C or higher: CSE 216 or CSE 260; CSE 220 Advisory Prerequisites: CSE 303 or CSE 350'].
+\##25['Course Components' -> ['Lecture']].
+\##25['Academic Group' -> 'Engring & App Sci, College of'].
+\##25['Academic Organization' -> 'Computer Science'].
+\##25['Description' -> 'Topics studied include formal description of programming languages, lexical analysis, syntax analysis, symbol tables and memory allocation, code generation, and interpreters. Students undertake a semester project that includes the design and implementation of a compiler for a language chosen by the instructor.'].
+\##1['CSE 305' -> \##26].
+\##26['Course Title' -> 'Principles of Database Systems'].
+\##26['Career' -> 'Undergraduate'].
+\##26['Units' -> '3.00'].
+\##26['Grading Basis' -> 'A Through F Undergraduate'].
+\##26['Enrollment Requirement' -> 'Prerequisites: C or higher: CSE 216 or CSE 260; CSE major'].
+\##26['Course Components' -> ['Lecture']].
+\##26['Academic Group' -> 'Engring & App Sci, College of'].
+\##26['Academic Organization' -> 'Computer Science'].
+\##26['Description' -> 'The design of database management systems to obtain consistency, integrity, and availability of data. Conceptual models and schemas of data: relational, hierarchical, and network. Students undertake a semester project that includes the design and implementation of a database system.'].
+\##1['CSE 306' -> \##27].
+\##27['Course Title' -> 'Operating Systems'].
+\##27['Career' -> 'Undergraduate'].
+\##27['Units' -> '3.00'].
+\##27['Grading Basis' -> 'A Through F Undergraduate'].
+\##27['Enrollment Requirement' -> 'Prerequisites: C or higher: CSE 216  or CSE 260; CSE 320 or ESE 380; CSE Major or ECE major.'].
+\##27['Course Components' -> ['Lecture']].
+\##27['Academic Group' -> 'Engring & App Sci, College of'].
+\##27['Academic Organization' -> 'Computer Science'].
+\##27['Description' -> 'Students are introduced to the structure of modern operating systems. Topics include virtual memory, resource allocation strategies, concurrency, and protection. The design and implementation of a simple operating system are performed. This course focuses on teaching the skills required to design and build modules of an operating system kernel. It covers key algorithms and architectures. A companion course, CSE 320, teaches complementary skills from the application programmer's point of view.'].
+\##1['CSE 307' -> \##28].
+\##28['Course Title' -> 'Principles of Programming Languages'].
+\##28['Career' -> 'Undergraduate'].
+\##28['Units' -> '3.00'].
+\##28['Grading Basis' -> 'A Through F Undergraduate'].
+\##28['Enrollment Requirement' -> 'Prerequisites: C or higher: CSE 216 or CSE 260; CSE 220; CSE major.'].
+\##28['Course Components' -> ['Lecture']].
+\##28['Academic Group' -> 'Engring & App Sci, College of'].
+\##28['Academic Organization' -> 'Computer Science'].
+\##28['Description' -> 'An introduction to programming languages paradigms, including functional and logic programming, and the suitability of various languages for particular programming tasks. Students write sample programs in the studied languages. The languages are used to illustrate programming language constructs such as scoping and binding, type systems, storage management and operating environments. This illustration is accompanied by an introduction to the implementation of programming languages, such as parsing, semantic analysis, symbol tables, memory allocation and code generation. Students complete a series of assignments to implement a language chosen by the instructor.'].
+\##1['CSE 310' -> \##29].
+\##29['Course Title' -> 'Computer Networks'].
+\##29['Career' -> 'Undergraduate'].
+\##29['Units' -> '3.00'].
+\##29['Grading Basis' -> 'A Through F Undergraduate'].
+\##29['Enrollment Requirement' -> 'Prerequisites: C or higher: CSE 214 or 260; CSE 220 or ISE 218; CSE major or ISE major. Advisory Pre- or Corequisite: AMS 310'].
+\##29['Course Components' -> ['Lecture']].
+\##29['Academic Group' -> 'Engring & App Sci, College of'].
+\##29['Academic Organization' -> 'Computer Science'].
+\##29['Description' -> 'Overview of computer networks and the Internet. Concept of end systems, access networks, clients and servers. Connection-oriented and connectionless services. Circuit switching and packet switching. Description of Internet protocol layers, including application layer, transport layer, network layer and link layer. Architecture of the current Internet and the World-Wide Web. TCP/IP protocol stack. Internet routing and addressing. Local area network protocols, Ethernet hubs and switches. Wireless LANs. Multimedia networking. May not be taken by students with credit for ESE 346.'].
+\##1['CSE 311' -> \##30].
+\##30['Course Title' -> 'Systems Administration'].
+\##30['Career' -> 'Undergraduate'].
+\##30['Units' -> '3.00'].
+\##30['Grading Basis' -> 'A Through F Undergraduate'].
+\##30['Enrollment Requirement' -> 'Prerequisites: CSE 214 or CSE 230 or CSE 260 or ISE 208; ISE or CSE major'].
+\##30['Course Components' -> ['Lecture']].
+\##30['Academic Group' -> 'Engring & App Sci, College of'].
+\##30['Academic Organization' -> 'Computer Science'].
+\##30['Description' -> 'This course covers practical techniques to manage information systems, also known as IT Systems Administration.  Students will learn how to install computers for assorted hardware and software platforms (Windows, Unix/Linux, OS-X).  Install networking equipment and configure it.  Install server software on several systems (e.g. web, database, mail) and configure it.  Secure the network, hosts, and services, and apply system patches.  Set up redundant computing services, virtual machines/services, and hardware so that services can survive some hardware/software failures.  Evaluate the performance, reliability, and security of the overall system. This course is offered as both CSE 311 and ISE 311.'].
+\##1['CSE 312' -> \##31].
+\##31['Course Title' -> 'Social, Legal, and Ethical Issues in Computing'].
+\##31['Career' -> 'Undergraduate'].
+\##31['Units' -> '3.00'].
+\##31['Grading Basis' -> 'A Through F Undergraduate'].
+\##31['Enrollment Requirement' -> 'Prerequisites: CSE or ISE major; U3 or U4 standing; one D.E.C. E or SNW  course'].
+\##31['Course Components' -> ['Lecture']].
+\##31['Academic Group' -> 'Engring & App Sci, College of'].
+\##31['Academic Organization' -> 'Computer Science'].
+\##31['Description' -> 'This course deals with the impact of computers on us as individuals and on our society.  Rapid changes in computing technology and in our use of that technology have changed the ways we work, play, and interact with other people.  These changes have created a flood of new social, legal and ethical issues that demand critical examination. This course is offered as both CSE 312 and ISE 312.'].
+\##1['CSE 316' -> \##32].
+\##32['Course Title' -> 'Fundamentals of Software Development'].
+\##32['Career' -> 'Undergraduate'].
+\##32['Units' -> '3.00'].
+\##32['Grading Basis' -> 'A Through F Undergraduate'].
+\##32['Enrollment Requirement' -> 'Prerequisites: C or higher in CSE 216 or CSE 260; CSE major'].
+\##32['Course Components' -> ['Lecture']].
+\##32['Academic Group' -> 'Engring & App Sci, College of'].
+\##32['Academic Organization' -> 'Computer Science'].
+\##32['Description' -> 'Introduction to systematic design, development and testing of software systems, including event-driven and Web programming, information management, databases, principles and practices for secure computing, and version control. Students apply these skills in the construction of large, robust programs.'].
+\##1['CSE 320' -> \##33].
+\##33['Course Title' -> 'Systems Fundamentals II'].
+\##33['Career' -> 'Undergraduate'].
+\##33['Units' -> '3.00'].
+\##33['Grading Basis' -> 'A Through F Undergraduate'].
+\##33['Enrollment Requirement' -> 'Prerequisite: C or higher: CSE 220 and CSE major.'].
+\##33['Course Components' -> ['Lecture']].
+\##33['Academic Group' -> 'Engring & App Sci, College of'].
+\##33['Academic Organization' -> 'Computer Science'].
+\##33['Description' -> 'This course introduces C programming and essential concepts of operating systems, concurrency, and performance analysis, focused around several cross-cutting examples, such as memory management, error handling, and threaded programming. In this course, operating systems concepts are considered from the point of view of the application programmer, and the focus is on APIs for interacting with an operating system. A companion course, CSE 306, considers operating systems from the point of view of the OS kernel implementer.'].
+\##1['CSE 323' -> \##34].
+\##34['Course Title' -> 'Human-Computer Interaction'].
+\##34['Career' -> 'Undergraduate'].
+\##34['Units' -> '3.00'].
+\##34['Grading Basis' -> 'A Through F Undergraduate'].
+\##34['Enrollment Requirement' -> 'Prerequisites: CSE 214 or CSE 230 or CSE 260 or ISE 208'].
+\##34['Course Components' -> ['Lecture']].
+\##34['Academic Group' -> 'Engring & App Sci, College of'].
+\##34['Academic Organization' -> 'Computer Science'].
+\##34['Description' -> 'A survey course designed to introduce students to Human-Computer Interaction and prepare them for further study in the specialized topics of their choice.  Students will have the opportunity to delve deeper in the course through a course project, and through a two-three week special topic selected at the instructor's discretion. Course is cross-listed as CSE 323, EST 323 and ISE 323.'].
+\##1['CSE 325' -> \##35].
+\##35['Course Title' -> 'Computers and Sculpture'].
+\##35['Career' -> 'Undergraduate'].
+\##35['Units' -> '3.00'].
+\##35['Grading Basis' -> 'Student Option'].
+\##35['Enrollment Requirement' -> 'Prerequisite: CSE 110 or CSE 101 or CSE 114'].
+\##35['Course Components' -> ['Lecture']].
+\##35['Academic Group' -> 'Engring & App Sci, College of'].
+\##35['Academic Organization' -> 'Computer Science'].
+\##35['Description' -> 'This multidisciplinary class surveys how computer science and computer technology are used in sculpture. Case studies with slides, videos, and software demonstrations illustrate a range of approaches of sculptors incorporating computers in their creative process. Various state-of-the art fabrication technologies are studied (with site visits if available on campus). Mathematical foundations are emphasized so students can recognize them when analyzing sculpture and choose the right tool when designing. In the weekly laboratory, these ideas are reinforced with projects using a range of available software and inexpensive construction materials, e.g., paper, cardboard, and foamcore.'].
+\##1['CSE 327' -> \##36].
+\##36['Course Title' -> 'Fundamentals of Computer Vision'].
+\##36['Career' -> 'Undergraduate'].
+\##36['Units' -> '3.00'].
+\##36['Grading Basis' -> 'A Through F Undergraduate'].
+\##36['Enrollment Requirement' -> 'Prerequisites: CSE 214 or CSE 230 or CSE 260; AMS 210 or MAT 211; CSE or ISE major'].
+\##36['Course Components' -> ['Lecture']].
+\##36['Academic Group' -> 'Engring & App Sci, College of'].
+\##36['Academic Organization' -> 'Computer Science'].
+\##36['Description' -> 'Introduces fundamental concepts, algorithms, and techniques in visual information processing. Covers image formation, binary image processing, image features, model fitting, optics, illumination, texture, motion, segmentation, and object recognition.'].
+\##1['CSE 328' -> \##37].
+\##37['Course Title' -> 'Fundamentals of Computer Graphics'].
+\##37['Career' -> 'Undergraduate'].
+\##37['Units' -> '3.00'].
+\##37['Grading Basis' -> 'A Through F Undergraduate'].
+\##37['Enrollment Requirement' -> 'Prerequisites: C or higher: CSE 216 or CSE 260; CSE 220; CSE major'].
+\##37['Course Components' -> ['Lecture']].
+\##37['Academic Group' -> 'Engring & App Sci, College of'].
+\##37['Academic Organization' -> 'Computer Science'].
+\##37['Description' -> 'An introduction to computer graphics including graphics application programming; data structures for graphics; representing and specifying color; fundamental hardware and software concepts for calligraphic and raster displays; two-dimensional, geometric transformations; introduction to three-dimensional graphics; graphics standards; and input devices, interaction handling, and user-computer interface.'].
+\##1['CSE 331' -> \##38].
+\##38['Course Title' -> 'Computer Security Fundamentals'].
+\##38['Career' -> 'Undergraduate'].
+\##38['Units' -> '3.00'].
+\##38['Grading Basis' -> 'A Through F Undergraduate'].
+\##38['Enrollment Requirement' -> 'Prerequisite: CSE 220; CSE major Advisory pre-or corequisite: CSE 320'].
+\##38['Course Components' -> ['Lecture']].
+\##38['Academic Group' -> 'College of Engring & App Sci'].
+\##38['Academic Organization' -> 'Computer Science'].
+\##38['Description' -> 'Introduces the basic concepts and terminology of computer security. Covers basic security topics such as cryptography, operating systems security, network security, and language-based security.'].
+\##1['CSE 332' -> \##39].
+\##39['Course Title' -> 'Introduction to Visualization'].
+\##39['Career' -> 'Undergraduate'].
+\##39['Units' -> '3.00'].
+\##39['Grading Basis' -> 'A Through F Undergraduate'].
+\##39['Enrollment Requirement' -> 'Prerequisites: CSE 214 or CSE 260; MAT 211 or AMS 210; AMS 110 or AMS 310; CSE or ISE major'].
+\##39['Course Components' -> ['Lecture']].
+\##39['Academic Group' -> 'Engring & App Sci, College of'].
+\##39['Academic Organization' -> 'Computer Science'].
+\##39['Description' -> 'This course is an introduction to both the foundations and applications of visualization and visual analytics, for the purpose of understanding complex data in science, medicine, business, finance, and many others. It will begin with the basics - visual perception, cognition, human-computer interaction, the sense-making process, data mining, computer graphics, and information visualization. It will then move to discuss how these elementary techniques are coupled into an effective visual analytics pipeline that allows humans to interactively think with data and gain insight. Students will get hands-on experience via several programming projects, using popular public-domain statistics and visualization libraries and APIs. This course is offered as both CSE 332 and  ISE 332.'].
+\##1['CSE 333' -> \##40].
+\##40['Course Title' -> 'User Interface Development'].
+\##40['Career' -> 'Undergraduate'].
+\##40['Units' -> '3.00'].
+\##40['Grading Basis' -> 'A Through F Undergraduate'].
+\##40['Enrollment Requirement' -> 'Prerequisite: CSE 214 or CSE 260; CSE or ISE major'].
+\##40['Course Components' -> ['Lecture']].
+\##40['Academic Group' -> 'Engring & App Sci, College of'].
+\##40['Academic Organization' -> 'Computer Science'].
+\##40['Description' -> 'Survey of user interface systems, with emphasis on responsive and adaptive strategies to accommodate cross-platform deployment across multiple devices such as desktops and mobile devices. Demonstration of the use of tool kits for designing user interfaces. Additional topics include human factors, design standards, and visual languages. Students participate in a project involving the design and implementation of  user interface systems. This course is offered as both CSE 333 and ISE 333.'].
+\##1['CSE 334' -> \##41].
+\##41['Course Title' -> 'Introduction to Multimedia Systems'].
+\##41['Career' -> 'Undergraduate'].
+\##41['Units' -> '3.00'].
+\##41['Grading Basis' -> 'A Through F Undergraduate'].
+\##41['Enrollment Requirement' -> 'Prerequisite: U2, U3 or U4 standing; CSE or ISE major'].
+\##41['Course Components' -> ['Lecture']].
+\##41['Academic Group' -> 'Engring & App Sci, College of'].
+\##41['Academic Organization' -> 'Computer Science'].
+\##41['Description' -> 'Survey of technologies available for user interfaces. Discussion of hypertext; voice, music, and video together with tools and models for capturing, editing, presenting, and combining them. Capabilities and characteristics of a range of peripheral devices including devices based on posture, gesture, head movement, and touch. Case studies of academic and commercial multimedia systems including virtual reality systems. Students participate in laboratory exercises and build a multimedia project. This course is offered as both CSE 334 and  ISE 334.'].
+\##1['CSE 336' -> \##42].
+\##42['Course Title' -> 'Internet Programming'].
+\##42['Career' -> 'Undergraduate'].
+\##42['Units' -> '3.00'].
+\##42['Grading Basis' -> 'A Through F Undergraduate'].
+\##42['Enrollment Requirement' -> 'Prerequisites: C or higher in CSE 216 or CSE 260; CSE major'].
+\##42['Course Components' -> ['Lecture']].
+\##42['Academic Group' -> 'Engring & App Sci, College of'].
+\##42['Academic Organization' -> 'Computer Science'].
+\##42['Description' -> 'Introduces the design and development of software for Internet commerce. Topics include extended markup language, servlets, cookies, sessions, Internet media types, Web protocols, digital signatures, certificates, encryption, and the wireless Internet.'].
+\##1['CSE 337' -> \##43].
+\##43['Course Title' -> 'Scripting Languages'].
+\##43['Career' -> 'Undergraduate'].
+\##43['Units' -> '3.00'].
+\##43['Grading Basis' -> 'A Through F Undergraduate'].
+\##43['Enrollment Requirement' -> 'Prerequisites: CSE 214 or CSE 260; CSE or ISE major; U3 or U4 standing'].
+\##43['Course Components' -> ['Lecture']].
+\##43['Academic Group' -> 'Engring & App Sci, College of'].
+\##43['Academic Organization' -> 'Computer Science'].
+\##43['Description' -> 'Scripting languages are widely used in the IT industry. Programming with scripting languages, also known as scripting, has several advantages compared to programming with other types of languages in that scripts facilitate rapid program development; can automate high-level jobs or tasks very effectively; and can be used to compose various software components, even binaries, into more complex and powerful applications. This course introduces the principles of scripting, covers one or two selected scripting languages in depth, and illustrates the advanced use of scripting by extensive case studies in application areas such as system administration, web application development, graphical user interface development, and text processing.'].
+\##1['CSE 350' -> \##44].
+\##44['Course Title' -> 'Theory of Computation: Honors'].
+\##44['Career' -> 'Undergraduate'].
+\##44['Units' -> '4.00'].
+\##44['Grading Basis' -> 'A Through F Undergraduate'].
+\##44['Enrollment Requirement' -> 'Prerequisites: CSE 150 or CSE 215; AMS 210 or MAT 211; Honors in Computer Science or the Honors College or the WISE Honors Program or University Scholars.'].
+\##44['Course Components' -> ['Lecture', 'Recitation']].
+\##44['Academic Group' -> 'Engring & App Sci, College of'].
+\##44['Academic Organization' -> 'Computer Science'].
+\##44['Description' -> 'Introduces the abstract notions of machine computation for honors students. Includes finite automata, regular expressions, and formal languages, with emphasis on regular and context-free grammars. Explores what can and cannot be computed by considering various models of computation including Turing machines, recursive functions, and universal machines. Not for credit in addition to CSE 303.'].
+\##1['CSE 351' -> \##45].
+\##45['Course Title' -> 'Introduction to Data Science'].
+\##45['Career' -> 'Undergraduate'].
+\##45['Units' -> '3.00'].
+\##45['Grading Basis' -> 'A Through F Undergraduate'].
+\##45['Enrollment Requirement' -> 'Prerequisites: CSE 214 or CSE 260; AMS 310; CSE major'].
+\##45['Course Components' -> ['Lecture']].
+\##45['Academic Group' -> 'Engring & App Sci, College of'].
+\##45['Academic Organization' -> 'Computer Science'].
+\##45['Description' -> 'This multidisciplinary course introduces both theoretical concepts and practical approaches to extract knowledge from data. Topics include linear algebra, probability, statistics, machine learning, and programming. Using large data sets collected from real-world problems in areas of science, technology, and medicine, we introduce how to preprocess data, identify the best model that describes the data, make predictions, evaluate the results, and finally report the results using proper visualization methods. This course also teaches state-of-the art tools for data analysis, such as Python and its scientific libraries.'].
+\##1['CSE 352' -> \##46].
+\##46['Course Title' -> 'Artificial Intelligence'].
+\##46['Career' -> 'Undergraduate'].
+\##46['Units' -> '3.00'].
+\##46['Grading Basis' -> 'A Through F Undergraduate'].
+\##46['Enrollment Requirement' -> 'Prerequisites: C or higher in CSE 216 or CSE 260; CSE major'].
+\##46['Course Components' -> ['Lecture']].
+\##46['Academic Group' -> 'Engring & App Sci, College of'].
+\##46['Academic Organization' -> 'Computer Science'].
+\##46['Description' -> 'Topics covered include critique of artificial intelligence research; state-space problem representations and search algorithms; game-playing programs; theorem-proving programs; programs for the study and simulation of cognitive processes and pattern recognition. Further topics in current research as time permits.'].
+\##1['CSE 353' -> \##47].
+\##47['Course Title' -> 'Machine Learning'].
+\##47['Career' -> 'Undergraduate'].
+\##47['Units' -> '3.00'].
+\##47['Grading Basis' -> 'A Through F Undergraduate'].
+\##47['Enrollment Requirement' -> 'Prerequisites: CSE 216 or CSE 260; CSE major Pre- or Co-requisite: AMS 310 or AMS 311 or AMS 412'].
+\##47['Course Components' -> ['Lecture']].
+\##47['Academic Group' -> 'Engring & App Sci, College of'].
+\##47['Academic Organization' -> 'Computer Science'].
+\##47['Description' -> 'Covers fundamental concepts for intelligent systems that autonomously learn to perform a task and improve with experience, including problem formulations (e.g., selecting input features and outputs) and learning frameworks (e.g., supervised vs. unsupervised), standard models, methods, computational tools, algorithms and modern techniques, as well as methodologies to evaluate learning ability and to automatically select optimal models. Applications to areas such as computer vision (e.g., character and digit recognition), natural-language processing (e.g., spam filtering) and robotics (e.g., navigating complex environments) will motivate the coursework and material.'].
+\##1['CSE 354' -> \##48].
+\##48['Course Title' -> 'Natural Language Processing'].
+\##48['Career' -> 'Undergraduate'].
+\##48['Units' -> '3.00'].
+\##48['Grading Basis' -> 'A Through F Undergraduate'].
+\##48['Enrollment Requirement' -> 'Prerequisites: CSE 216 or CSE 260; CSE major'].
+\##48['Course Components' -> ['Lecture']].
+\##48['Academic Group' -> 'Engring & App Sci, College of'].
+\##48['Academic Organization' -> 'Computer Science'].
+\##48['Description' -> 'Natural language processing techniques power many intelligent language based applications. This course will introduce basic language analysis tasks such as language modeling and syntactic analysis, as well as core applications such as text classification, information extraction, question answering, and machine translation. The course will cover relevant algorithms, machine learning solutions, and evaluation methodologies.'].
+\##1['CSE 355' -> \##49].
+\##49['Course Title' -> 'Computational Geometry'].
+\##49['Career' -> 'Undergraduate'].
+\##49['Units' -> '3.00'].
+\##49['Grading Basis' -> 'Student Option'].
+\##49['Enrollment Requirement' -> 'Prerequisites: AMS 301; programming knowledge of C or C++ or Java'].
+\##49['Course Components' -> ['Lecture']].
+\##49['Academic Group' -> 'College of Engring & App Sci'].
+\##49['Academic Organization' -> 'Computer Science'].
+\##49['Description' -> 'The design and analysis of efficient algorithms to solve geometric problems that arise in computer graphics, robotics, geographical information systems, manufacturing, and optimization. Topics include convex hulls, triangulation, Voronoi diagrams, visibility, intersection, robot motion planning, and arrangements. This course is offered as both  AMS 345 and CSE 355.'].
+\##1['CSE 356' -> \##50].
+\##50['Course Title' -> 'Cloud Computing'].
+\##50['Career' -> 'Undergraduate'].
+\##50['Units' -> '3.00'].
+\##50['Grading Basis' -> 'A Through F Undergraduate'].
+\##50['Enrollment Requirement' -> 'Prerequisites: C or higher: CSE 316; CSE 320; CSE major'].
+\##50['Course Components' -> ['Lecture']].
+\##50['Academic Group' -> 'Engring & App Sci, College of'].
+\##50['Academic Organization' -> 'Computer Science'].
+\##50['Description' -> 'Creating online services capable of handling millions of users requires a different mindset compared to traditional software development and deployment. Rather than building monolithic software packages from the ground up, bringing up modern online services calls for architecting systems by gluing together mature existing technologies deployed across many unreliable servers, working in concert to provide high-availability robust services. In this course, students will be exposed to the concepts and technologies behind deploying and scaling online services on the computing resources available in modern datacenters.'].
+\##1['CSE 357' -> \##51].
+\##51['Course Title' -> 'Statistical Methods for Data Science'].
+\##51['Career' -> 'Undergraduate'].
+\##51['Units' -> '3.00'].
+\##51['Grading Basis' -> 'A Through F Undergraduate'].
+\##51['Enrollment Requirement' -> 'Prerequisite: C or higher in CSE 216 or CSE 260; AMS 310; CSE major'].
+\##51['Course Components' -> ['Lecture']].
+\##51['Academic Group' -> 'Engring & App Sci, College of'].
+\##51['Academic Organization' -> 'Computer Science'].
+\##51['Description' -> 'This interdisciplinary course introduces the mathematical concepts required to interpret results and subsequently draw conclusions from data in an applied manner. The course presents different techniques for applied statistical inference and data analysis, including their implementation in Python, such as parameter and distribution estimators, hypothesis testing, Bayesian inference, and likelihood.'].
+\##1['CSE 360' -> \##52].
+\##52['Course Title' -> 'Software Security'].
+\##52['Career' -> 'Undergraduate'].
+\##52['Units' -> '3.00'].
+\##52['Grading Basis' -> 'A Through F Undergraduate'].
+\##52['Enrollment Requirement' -> 'Prerequisites: CSE 220; CSE major Advisory Pre-or corequisite: CSE 320'].
+\##52['Course Components' -> ['Lecture']].
+\##52['Academic Group' -> 'Engring & App Sci, College of'].
+\##52['Academic Organization' -> 'Computer Science'].
+\##52['Description' -> 'This course will describe the principles and practice of securing software systems. Topics will include: software vulnerabilities; static and dynamic analysis techniques for vulnerability detection; exploit detection and prevention; secure software development techniques and defensive programming; malware detection and analysis; security policies and sandboxing; information flow.'].
+\##1['CSE 361' -> \##53].
+\##53['Course Title' -> 'Web Security'].
+\##53['Career' -> 'Undergraduate'].
+\##53['Units' -> '3.00'].
+\##53['Grading Basis' -> 'A Through F Undergraduate'].
+\##53['Enrollment Requirement' -> 'Prerequisites: CSE 220; CSE major Advisory Pre-or corequisite: CSE 320'].
+\##53['Course Components' -> ['Lecture']].
+\##53['Academic Group' -> 'Engring & App Sci, College of'].
+\##53['Academic Organization' -> 'Computer Science'].
+\##53['Description' -> 'This course will cover all aspects of web security, including browser security, web server security, and web application security. Topics include: SOP and JavaScript; application and protocol vulnerabilities; probing, surveillance, and tracking; penetration testing; modern social engineering techniques; monetary incentives and monetization.'].
+\##1['CSE 362' -> \##54].
+\##54['Course Title' -> 'Mobile Security'].
+\##54['Career' -> 'Undergraduate'].
+\##54['Units' -> '3.00'].
+\##54['Grading Basis' -> 'A Through F Undergraduate'].
+\##54['Enrollment Requirement' -> 'Prerequisites: CSE 220; CSE major Advisory Pre-or corequisite: CSE 320'].
+\##54['Course Components' -> ['Lecture']].
+\##54['Academic Group' -> 'Engring & App Sci, College of'].
+\##54['Academic Organization' -> 'Computer Science'].
+\##54['Description' -> 'The course covers the latest security technologies for mobile platforms (e.g., Android and iOS). It first introduces the security issues plaguing mobile apps and discusses defensive mechanisms, such as code signing, app permissions, and sandbox. It then peeks into mobile OS, explaining how jailbreaking/rooting works and the internals of iOS/Android security designs. Finally, it surveys modern hardware-level security features, such as secure booting, TrustZone, and biometrics.'].
+\##1['CSE 363' -> \##55].
+\##55['Course Title' -> 'Offensive Security'].
+\##55['Career' -> 'Undergraduate'].
+\##55['Units' -> '3.00'].
+\##55['Grading Basis' -> 'A Through F Undergraduate'].
+\##55['Enrollment Requirement' -> 'Prerequisites: CSE 220; CSE major Advisory Pre-or corequisite: CSE 320'].
+\##55['Course Components' -> ['Lecture']].
+\##55['Academic Group' -> 'Engring & App Sci, College of'].
+\##55['Academic Organization' -> 'Computer Science'].
+\##55['Description' -> 'Hands-on course with the goal of understanding various security problems in depth, through a more adversarial way of thinking. By focusing on finding and exploiting vulnerabilities, the course will cover a broad range of topics, including the ethics of offensive security, reverse engineering, software vulnerability discovery and exploitation, malicious code analysis, network traffic interception and manipulation, reconnaissance and information gathering, physical security, and social engineering. All topics will be covered from a highly practical perspective, following a hands-on approach and tutorial-like sessions, along with programming assignments.'].
+\##1['CSE 364' -> \##56].
+\##56['Course Title' -> 'Advanced Multimedia Techniques'].
+\##56['Career' -> 'Undergraduate'].
+\##56['Units' -> '3.00'].
+\##56['Grading Basis' -> 'A Through F Undergraduate'].
+\##56['Enrollment Requirement' -> 'Prerequisites: CSE/ISE 334'].
+\##56['Course Components' -> ['Lecture']].
+\##56['Academic Group' -> 'Engring & App Sci, College of'].
+\##56['Academic Organization' -> 'Computer Science'].
+\##56['Description' -> 'Digital media production techniques for high-bandwidth applications such as electronic magazine illustration, broadcast television, and motion picture special effects. Students explore techniques such as 3D modeling and character animation, video compositing, and high-resolution image processing in a state-of-the art multimedia computing laboratory. High-capacity mutlimedia storage, high-speed networks, and new technologies such as DVD, HDTV, and broadband will be reviewed. This course is offered as both CSE 364 and  ISE 364.'].
+\##1['CSE 366' -> \##57].
+\##57['Course Title' -> 'Introduction to Virtual Reality'].
+\##57['Career' -> 'Undergraduate'].
+\##57['Units' -> '3.00'].
+\##57['Grading Basis' -> 'A Through F Undergraduate'].
+\##57['Enrollment Requirement' -> 'Prerequisites: CSE 328 or CSE/ISE 332; CSE major'].
+\##57['Course Components' -> ['Lecture']].
+\##57['Academic Group' -> 'Engring & App Sci, College of'].
+\##57['Academic Organization' -> 'Computer Science'].
+\##57['Description' -> 'An introduction to the practical issues in the design and implementation of virtual environments. Topics covered include the fundamentals of systems requirements, transformations, user-interaction models, human vision models, tracking systems, input/output devices and techniques, and augmented reality. The topics covered are explained through the use of real-life applications of virtual-reality systems in engineering, science, and medicine.'].
+\##1['CSE 370' -> \##58].
+\##58['Course Title' -> 'Wireless and Mobile Networking'].
+\##58['Career' -> 'Undergraduate'].
+\##58['Units' -> '3.00'].
+\##58['Grading Basis' -> 'A Through F Undergraduate'].
+\##58['Enrollment Requirement' -> 'Prerequisite: CSE 310; CSE major'].
+\##58['Course Components' -> ['Lecture']].
+\##58['Academic Group' -> 'Engring & App Sci, College of'].
+\##58['Academic Organization' -> 'Computer Science'].
+\##58['Description' -> 'The fundamentals of wireless communication. Link, network and transcript layer protocols for wireless and mobile networking. Cellular networks. Wireless LANs. Wireless multihop networks. Mobile applications.'].
+\##1['CSE 371' -> \##59].
+\##59['Course Title' -> 'Logic'].
+\##59['Career' -> 'Undergraduate'].
+\##59['Units' -> '3.00'].
+\##59['Grading Basis' -> 'A Through F Undergraduate'].
+\##59['Enrollment Requirement' -> 'Prerequisite: CSE 150 or CSE 215 or MAT 200 or MAT 250'].
+\##59['Course Components' -> ['Lecture']].
+\##59['Academic Group' -> 'Engring & App Sci, College of'].
+\##59['Academic Organization' -> 'Computer Science'].
+\##59['Description' -> 'A survey of the logical foundations of mathematics: development of propositional calculus and quantification theory, the notions of a proof and of a model, the completeness theorem, Goedel's incompleteness theorem. This course is offered as both CSE 371 and MAT 371.'].
+\##1['CSE 373' -> \##60].
+\##60['Course Title' -> 'Analysis of Algorithms'].
+\##60['Career' -> 'Undergraduate'].
+\##60['Units' -> '3.00'].
+\##60['Grading Basis' -> 'Student Option'].
+\##60['Enrollment Requirement' -> 'Prerequisites: C or higher in: CSE 150 or CSE 215 or MAT 200 or MAT 250; MAT 211 or AMS 210; CSE 214 or CSE 260; CSE or MAT major'].
+\##60['Course Components' -> ['Lecture']].
+\##60['Academic Group' -> 'Engring & App Sci, College of'].
+\##60['Academic Organization' -> 'Computer Science'].
+\##60['Description' -> 'Mathematical analysis of a variety of computer algorithms including searching, sorting, matrix multiplication, fast Fourier transform, and graph algorithms. Time and space complexity. Upper-bound, lower- bound, and average-case analysis. Introduction to NP completeness. Some machine computation is required for the implementation and comparison of algorithms. This course is offered as CSE 373 and MAT 373. Not for credit in addition to CSE 385.'].
+\##1['CSE 376' -> \##61].
+\##61['Course Title' -> 'Advanced Systems Programming in UNIX/C'].
+\##61['Career' -> 'Undergraduate'].
+\##61['Units' -> '3.00'].
+\##61['Grading Basis' -> 'Student Option'].
+\##61['Enrollment Requirement' -> 'Prerequisites: C or higher: CSE 216 or 260; CSE 320; CSE major'].
+\##61['Course Components' -> ['Lecture']].
+\##61['Academic Group' -> 'Engring & App Sci, College of'].
+\##61['Academic Organization' -> 'Computer Science'].
+\##61['Description' -> 'Focuses on several aspects of producing commercial-grade system software: reliability, portability, security, and survivability.   Uses Unix and C, heavily used in industry when developing systems and embedded systems code. Emphasizes techniques and tools to produce reliable, secure, and highly portable code.  Requires substantial programming as well as a course project.'].
+\##1['CSE 377' -> \##62].
+\##62['Course Title' -> 'Introduction to Medical Imaging'].
+\##62['Career' -> 'Undergraduate'].
+\##62['Units' -> '3.00'].
+\##62['Grading Basis' -> 'Undergraduate Graded'].
+\##62['Enrollment Requirement' -> 'Prerequisites: AMS 161 or MAT 127 or 132 or 142; AMS 210 or MAT 211'].
+\##62['Course Components' -> ['Lecture']].
+\##62['Academic Group' -> 'College of Engring & App Sci'].
+\##62['Academic Organization' -> 'Computer Science'].
+\##62['Description' -> 'An introduction to the mathematical, physical, and computational principles underlying modern medical imaging systems. Covers fundamentals of X-ray computer tomography, ultrasonic imaging, nuclear imaging, and magnetic resonance imaging (MRI), as well as more general concepts required for these, such as linear systems theory and the Fourier transform. Popular techniques for the visualization, segmentation, and analysis of medical image data are discussed, as well as applications of medical imaging, such as image-guided intervention. The course is appropriate for computer science, biomedical engineering, and electrical engineering majors.'].
+\##1['CSE 378' -> \##63].
+\##63['Course Title' -> 'Introduction to Robotics'].
+\##63['Career' -> 'Undergraduate'].
+\##63['Units' -> '3.00'].
+\##63['Grading Basis' -> 'A Through F Undergraduate'].
+\##63['Enrollment Requirement' -> 'Prerequisites: AMS 161 or MAT 127 or 132 or 142; AMS 210 or MAT 211 or MEC 262'].
+\##63['Course Components' -> ['Lecture']].
+\##63['Academic Group' -> 'College of Engring & App Sci'].
+\##63['Academic Organization' -> 'Computer Science'].
+\##63['Description' -> 'Introduces basic concepts in robotics including coordinate transformation, kinematics, dynamics, Laplace transforms, equations of motion, feedback and feedforward control, and trajectory planning. Covers simple and complex sensors (such as cameras), hybrid and behavior based control and path planning. Concepts are illustrated through laboratories using the LEGO Robot Kit.'].
+\##1['CSE 380' -> \##64].
+\##64['Course Title' -> '2D Game Programming'].
+\##64['Career' -> 'Undergraduate'].
+\##64['Units' -> '3.00'].
+\##64['Grading Basis' -> 'A Through F Undergraduate'].
+\##64['Enrollment Requirement' -> 'Prerequisite: CSE 216 or CSE 220 or CSE 260; CSE major'].
+\##64['Course Components' -> ['Lecture']].
+\##64['Academic Group' -> 'Engring & App Sci, College of'].
+\##64['Academic Organization' -> 'Computer Science'].
+\##64['Description' -> 'An introduction to the fundamental concepts of computer game programming. Students design and develop original games for PCs applying proven game design and software engineering principles.'].
+\##1['CSE 381' -> \##65].
+\##65['Course Title' -> '3D Game Programming'].
+\##65['Career' -> 'Undergraduate'].
+\##65['Units' -> '3.00'].
+\##65['Grading Basis' -> 'A Through F Undergraduate'].
+\##65['Enrollment Requirement' -> 'Prerequisite: CSE 216 or CSE 220 or CSE 260; CSE major'].
+\##65['Course Components' -> ['Lecture']].
+\##65['Academic Group' -> 'Engring & App Sci, College of'].
+\##65['Academic Organization' -> 'Computer Science'].
+\##65['Description' -> 'This course explores the concepts and technologies behind making 3D, networked games. This will include the examination of game engine creation as well as the use of middleware to build graphically sophisticated game systems.'].
+\##1['CSE 385' -> \##66].
+\##66['Course Title' -> 'Analysis of Algorithms: Honors'].
+\##66['Career' -> 'Undergraduate'].
+\##66['Units' -> '4.00'].
+\##66['Grading Basis' -> 'A Through F Undergraduate'].
+\##66['Enrollment Requirement' -> 'Prerequisites: CSE 150 or CSE 215 or MAT 200 or MAT 250; AMS 210 or MAT 211; CSE 214 or CSE 260; Honors in Computer Science or the Honors College or the WISE Honors Program or University Scholars or Simons STEM Scholars.'].
+\##66['Course Components' -> ['Lecture', 'Recitation']].
+\##66['Academic Group' -> 'Engring & App Sci, College of'].
+\##66['Academic Organization' -> 'Computer Science'].
+\##66['Description' -> 'Algorithmic design and analysis for Computer Science Honors students. Mathematical analysis of a variety of computer algorithms including searching, sorting, matrix multiplication, fast Fourier transform, and graph algorithms. Time and space complexity. Upper-bound, lower-bound, and average-case analysis. Randomization. Introduction to NP completeness. Some machine computation is required for the implementation and comparison of algorithms. Not for credit in addition to CSE/MAT 373.'].
+\##1['CSE 390' -> \##67].
+\##67['Course Title' -> 'Special Topics in Computer Science'].
+\##67['Career' -> 'Undergraduate'].
+\##67['Units' -> '3.00'].
+\##67['Grading Basis' -> 'A Through F Undergraduate'].
+\##67['Enrollment Requirement' -> 'Prerequisite: CSE 214 or CSE 260; CSE or ISE Major'].
+\##67['Course Components' -> ['Lecture']].
+\##67['Academic Group' -> 'Engring & App Sci, College of'].
+\##67['Academic Organization' -> 'Computer Science'].
+\##67['Description' -> 'A lecture or seminar course on a current topic in computer science. May be repeated as the topic changes, but cannot be used more than twice to satisfy CSE major requirements.'].
+\##1['CSE 391' -> \##68].
+\##68['Course Title' -> 'Special Topics in Computer Science'].
+\##68['Career' -> 'Undergraduate'].
+\##68['Units' -> '3.00'].
+\##68['Grading Basis' -> 'A Through F Undergraduate'].
+\##68['Enrollment Requirement' -> 'Prerequisite: CSE 214 or CSE 260; CSE or ISE Major'].
+\##68['Course Components' -> ['Lecture']].
+\##68['Academic Group' -> 'Engring & App Sci, College of'].
+\##68['Academic Organization' -> 'Computer Science'].
+\##68['Description' -> 'A lecture or seminar course on a current topic in computer science. May be repeated as the topic changes, but cannot be used more than twice to satisfy CSE major requirements.'].
+\##1['CSE 392' -> \##69].
+\##69['Course Title' -> 'Special Topics in Computer Science'].
+\##69['Career' -> 'Undergraduate'].
+\##69['Units' -> '3.00'].
+\##69['Grading Basis' -> 'A Through F Undergraduate'].
+\##69['Enrollment Requirement' -> 'Prerequisite: CSE 214 or CSE 260; CSE or ISE Major'].
+\##69['Course Components' -> ['Lecture']].
+\##69['Academic Group' -> 'Engring & App Sci, College of'].
+\##69['Academic Organization' -> 'Computer Science'].
+\##69['Description' -> 'A lecture or seminar course on a current topic in computer science. May be repeated as the topic changes, but cannot be used more than twice to satisfy CSE major requirements.'].
+\##1['CSE 393' -> \##70].
+\##70['Course Title' -> 'Special Topics in Computer Science'].
+\##70['Career' -> 'Undergraduate'].
+\##70['Units' -> '3.00'].
+\##70['Grading Basis' -> 'A Through F Undergraduate'].
+\##70['Enrollment Requirement' -> 'Prerequisite: CSE 214 or CSE 260; CSE or ISE Major'].
+\##70['Course Components' -> ['Lecture']].
+\##70['Academic Group' -> 'Engring & App Sci, College of'].
+\##70['Academic Organization' -> 'Computer Science'].
+\##70['Description' -> 'A lecture or seminar course on a current topic in computer science. May be repeated as the topic changes, but cannot be used more than twice to satisfy CSE major requirements.'].
+\##1['CSE 394' -> \##71].
+\##71['Course Title' -> 'Special Topics in Computer Science'].
+\##71['Career' -> 'Undergraduate'].
+\##71['Units' -> '3.00'].
+\##71['Grading Basis' -> 'A Through F Undergraduate'].
+\##71['Enrollment Requirement' -> 'Prerequisite: CSE 214 or CSE 260; CSE or ISE Major'].
+\##71['Course Components' -> ['Lecture']].
+\##71['Academic Group' -> 'Engring & App Sci, College of'].
+\##71['Academic Organization' -> 'Computer Science'].
+\##71['Description' -> 'A lecture or seminar course on a current topic in computer science. May be repeated as the topic changes, but cannot be used more than twice to satisfy CSE major requirements.'].
+\##1['CSE 416' -> \##72].
+\##72['Course Title' -> 'Software Engineering'].
+\##72['Career' -> 'Undergraduate'].
+\##72['Units' -> '3.00'].
+\##72['Grading Basis' -> 'A Through F Undergraduate'].
+\##72['Enrollment Requirement' -> 'Prerequisites: C or higher in CSE 316; U4 standing; CSE major.'].
+\##72['Course Components' -> ['Lecture']].
+\##72['Academic Group' -> 'Engring & App Sci, College of'].
+\##72['Academic Organization' -> 'Computer Science'].
+\##72['Description' -> 'Introduces the basic concepts and modern tools and techniques of software engineering. Emphasizes the development of reliable and maintainable software via system requirements and specifications, software design methodologies including object-oriented design, implementation, integration, and testing; software project management; life-cycle documentation; software maintenance; and consideration of human factor issues.'].
+\##1['CSE 475' -> \##73].
+\##73['Course Title' -> 'Undergraduate Teaching Practicum'].
+\##73['Career' -> 'Undergraduate'].
+\##73['Units' -> '3.00'].
+\##73['Grading Basis' -> 'A Through F Undergraduate'].
+\##73['Enrollment Requirement' -> 'Prerequisites: U3 or U4 standing as an undergraduate CEAS major; a minimum g.p.a. of 3.00 in all Stony Brook courses; grade of B or better in the course in which the student is to assist and permission of department.'].
+\##73['Course Components' -> ['Tutorial']].
+\##73['Academic Group' -> 'Engring & App Sci, College of'].
+\##73['Academic Organization' -> 'Computer Science'].
+\##73['Description' -> 'Students assist faculty in teaching by conducting a recitation or laboratory section that supplements a lecture course. The student receives regularly scheduled supervision from the faculty instructor. May be used as an open elective only and repeated once.'].
+\##1['CSE 487' -> \##74].
+\##74['Course Title' -> 'Research in Computer Science'].
+\##74['Career' -> 'Undergraduate'].
+\##74['Units' -> '0.00 - 6.00'].
+\##74['Grading Basis' -> 'Undergraduate Graded'].
+\##74['Enrollment Requirement' -> 'Prerequisites: Permission of instructor and department'].
+\##74['Course Components' -> ['Tutorial']].
+\##74['Academic Group' -> 'College of Engring & App Sci'].
+\##74['Academic Organization' -> 'Computer Science'].
+\##74['Description' -> 'An independent research project with faculty supervision. Only three credits of research electives (AMS 487, CSE 487, BME 499, ESE 499, ESM 499, ISE 487, and MEC 499) may be counted toward technical elective requirements. May not be taken for more than six credits.'].
+\##1['CSE 488' -> \##75].
+\##75['Course Title' -> 'Internship in Computer Science'].
+\##75['Career' -> 'Undergraduate'].
+\##75['Units' -> '3.00'].
+\##75['Grading Basis' -> 'Satisfactory/Unsatisfactory'].
+\##75['Enrollment Requirement' -> 'Prerequisites: CSE major, U3 or U4 standing; permission of department'].
+\##75['Course Components' -> ['Tutorial']].
+\##75['Academic Group' -> 'College of Engring & App Sci'].
+\##75['Academic Organization' -> 'Computer Science'].
+\##75['Description' -> 'Participation in local, state, national, or international private enterprise, public agencies, or nonprofit institutions. To obtain permission to register for the courses, students are required to submit proof that the work is related to their studies and the work will include a minimum of 180 hours during the semester. During the semester, the student will submit progress reports and a final report on their experience to the client and to the department. May be repeated up to a limit of 12 credits but can only be used once as a technical elective to satisfy CSE major requirements.'].
+\##1['CSE 495' -> \##76].
+\##76['Course Title' -> 'Senior Honors Research Project I'].
+\##76['Career' -> 'Undergraduate'].
+\##76['Units' -> '3.00'].
+\##76['Grading Basis' -> 'A Through F Undergraduate'].
+\##76['Enrollment Requirement' -> 'Prerequisite: Admission to Honors in Computer Science'].
+\##76['Course Components' -> ['Tutorial']].
+\##76['Academic Group' -> 'Engring & App Sci, College of'].
+\##76['Academic Organization' -> 'Computer Science'].
+\##76['Description' -> 'A two-semester research project carried out under the supervision of a computer science faculty member. Students who enroll in CSE 495 must complete CSE 496 in the subsequent semester and receive only one grade upon completion of the sequence.'].
+\##1['CSE 496' -> \##77].
+\##77['Course Title' -> 'Senior Honors Research Project II'].
+\##77['Career' -> 'Undergraduate'].
+\##77['Units' -> '3.00'].
+\##77['Grading Basis' -> 'Undergraduate Graded'].
+\##77['Enrollment Requirement' -> 'Prerequisite: CSE 495'].
+\##77['Course Components' -> ['Tutorial']].
+\##77['Academic Group' -> 'College of Engring & App Sci'].
+\##77['Academic Organization' -> 'Computer Science'].
+\##77['Description' -> 'A two-semester research project carried out under the supervision of a computer science faculty member. Students must submit a written project report and make a presentation to the department at the year-end Honors Project Colloquium.'].
+\##1['CSE 502' -> \##78].
+\##78['Course Title' -> 'Computer Architecture'].
+\##78['Career' -> 'Graduate'].
+\##78['Units' -> '3.00'].
+\##78['Grading Basis' -> 'Graduate Graded'].
+\##78['Enrollment Requirement' -> 'Admission to CSE Graduate Program'].
+\##78['Course Components' -> ['Lecture']].
+\##78['Academic Group' -> 'Engring & App Sci, College of'].
+\##78['Academic Organization' -> 'Computer Science'].
+\##78['Description' -> 'Topics covered include instruction pipelines and memory caches to improve computer performance; instruction-level parallelism;  machines: superscalar versus VLIW; cache and main memory hierarchy design tradeoffs; compiler optimizations to speed pipelines; low-power computer system design: processor, OS, and compiler support; graphics, DSP, and media processor design; disk I/O system design; interconnections and networking; and introduction to parallel architecture.  Advanced topics include asynchronous microprocessors; FPGA-based reconfigurable computing; system on a chip; embedded processors; intelligent RAM and superconducting computers.'].
+\##1['CSE 504' -> \##79].
+\##79['Course Title' -> 'Compiler Design'].
+\##79['Career' -> 'Graduate'].
+\##79['Units' -> '3.00'].
+\##79['Grading Basis' -> 'Graduate Graded'].
+\##79['Enrollment Requirement' -> ''].
+\##79['Course Components' -> ['Lecture']].
+\##79['Academic Group' -> 'Engring & App Sci, College of'].
+\##79['Academic Organization' -> 'Computer Science'].
+\##79['Description' -> 'This course covers advanced topics in compilation, including memory management, dataflow analysis, code optimization, just-in-time compilation, and selected topics from compilation of object-oriented and declarative languages.'].
+\##1['CSE 505' -> \##80].
+\##80['Course Title' -> 'Computing with Logic'].
+\##80['Career' -> 'Graduate'].
+\##80['Units' -> '3.00'].
+\##80['Grading Basis' -> 'Graduate Graded'].
+\##80['Enrollment Requirement' -> 'Admission to CSE Graduate Program'].
+\##80['Course Components' -> ['Lecture']].
+\##80['Academic Group' -> 'Engring & App Sci, College of'].
+\##80['Academic Organization' -> 'Computer Science'].
+\##80['Description' -> 'The course explores logic-based computing and logic programming. It includes an introduction to programming in logic, covering basic techniques for solving problems in a logic programming system. Particular attention will be paid to user interface issues and how a logic system can provide a useful computing environment. The course covers implementation issues, emphasizing how a logic programming system generalizes both traditional programming language systems and traditional database systems.'].
+\##1['CSE 506' -> \##81].
+\##81['Course Title' -> 'Operating Systems'].
+\##81['Career' -> 'Graduate'].
+\##81['Units' -> '3.00'].
+\##81['Grading Basis' -> 'Graduate Graded'].
+\##81['Enrollment Requirement' -> 'Admission to CSE Graduate Program'].
+\##81['Course Components' -> ['Lecture']].
+\##81['Academic Group' -> 'Engring & App Sci, College of'].
+\##81['Academic Organization' -> 'Computer Science'].
+\##81['Description' -> 'This course is an in-depth study of important concepts and techniques found in modern computer operating systems.  The course focuses on an in-depth study of such important issues as virtual memory, resource management, locking and synchronization, file systems, networking, safety and security, and multiprocessor support, with an eye to recent directions in these areas. Textbook readings are supplemented where appropriate by papers from the research literature.  An important part of the course is the case study of an actual modern operating system (e.g., Linux).  Students study the source code for this operating system and do programming exercises and projects that involve modifying the operating system, testing their code's stability and functionality, and measuring its performance.'].
+\##1['CSE 507' -> \##82].
+\##82['Course Title' -> 'Introduction to Computational Linguistics'].
+\##82['Career' -> 'Graduate'].
+\##82['Units' -> '3.00'].
+\##82['Grading Basis' -> 'Graduate Graded'].
+\##82['Enrollment Requirement' -> ''].
+\##82['Course Components' -> ['Lecture']].
+\##82['Academic Group' -> 'Engring & App Sci, College of'].
+\##82['Academic Organization' -> 'Computer Science'].
+\##82['Description' -> 'Overview of computational approaches to language use. Core topics include mathematical and logical foundations, syntax, semantics, and pragmatics. Special topics may include speech processing, dialog systems, machine translation, information extraction, and information retrieval. Statistical and traditional approaches are included. Students will develop familiarity with the literature and tools of the field.'].
+\##1['CSE 508' -> \##83].
+\##83['Course Title' -> 'Network Security'].
+\##83['Career' -> 'Graduate'].
+\##83['Units' -> '3.00'].
+\##83['Grading Basis' -> 'Graduate Graded'].
+\##83['Enrollment Requirement' -> 'Admission to CSE Graduate Program'].
+\##83['Course Components' -> ['Lecture']].
+\##83['Academic Group' -> 'Engring & App Sci, College of'].
+\##83['Academic Organization' -> 'Computer Science'].
+\##83['Description' -> 'Principles and practice of Computer Network Security.  Cryptography, authentication protocols, public key infrastructures, IP/www/E-commerce security, firewalls, VPN, and intrusion detection.'].
+\##1['CSE 509' -> \##84].
+\##84['Course Title' -> 'Computer System Security'].
+\##84['Career' -> 'Graduate'].
+\##84['Units' -> '3.00'].
+\##84['Grading Basis' -> 'Graduate Graded'].
+\##84['Enrollment Requirement' -> ''].
+\##84['Course Components' -> ['Lecture']].
+\##84['Academic Group' -> 'Engring & App Sci, College of'].
+\##84['Academic Organization' -> 'Computer Science'].
+\##84['Description' -> 'Principles and practice of building and administering secure systems.  Authentication and access control.  Operating system security.  Program security, database security.  Key management.  Information flow.  Assurance.  Vulnerability analysis and intrusion detection.'].
+\##1['CSE 510' -> \##85].
+\##85['Course Title' -> 'Hybrid Systems'].
+\##85['Career' -> 'Graduate'].
+\##85['Units' -> '3.00'].
+\##85['Grading Basis' -> 'Graduate Graded'].
+\##85['Enrollment Requirement' -> ''].
+\##85['Course Components' -> ['Lecture']].
+\##85['Academic Group' -> 'Engring & App Sci, College of'].
+\##85['Academic Organization' -> 'Computer Science'].
+\##85['Description' -> 'Hybrid Systems combine discrete state-machines and continuous differential equations and have been used as models of a large number of applications such as real-time software, embedded systems, robotics, mechatronics, aerospace systems, process control and biological systems. The course will cover modeling, design, analysis, and verification methods for hybrid systems. Topics may include SAT/SMT solvers, timed automata, formal logics for system specification, verification algorithms and closed-loop neural network control systems.'].
+\##1['CSE 511' -> \##86].
+\##86['Course Title' -> 'Brain and Memory Modeling'].
+\##86['Career' -> 'Graduate'].
+\##86['Units' -> '3.00'].
+\##86['Grading Basis' -> 'Graduate Graded'].
+\##86['Enrollment Requirement' -> 'Limited to CSE or Nuerobiology graduate students; others permission of instructor.'].
+\##86['Course Components' -> ['Lecture']].
+\##86['Academic Group' -> 'Engring & App Sci, College of'].
+\##86['Academic Organization' -> 'Computer Science'].
+\##86['Description' -> 'An introduction to brain modeling. Neuroscience topics include major brain structures, constituent glia and neurons, and synapses connecting neurons; how excited neurons send ionic firing spikes to other neurons; synapse changes during learning and forgetting; connection structures for stable ionic activity in neural networks; and distributed firing patterns underlying memory, perception, and thought. Computing topics include efficient methods for modeling electrical activity in single neurons using NEURON and in networks of millions of neurons using discrete event simulation. Participants will code simulations OR use neuroscience experience to refine brain models.'].
+\##1['CSE 512' -> \##87].
+\##87['Course Title' -> 'Machine Learning'].
+\##87['Career' -> 'Graduate'].
+\##87['Units' -> '3.00'].
+\##87['Grading Basis' -> 'Graduate Graded'].
+\##87['Enrollment Requirement' -> 'Prerequisite: CSE Graduate Students'].
+\##87['Course Components' -> ['Lecture']].
+\##87['Academic Group' -> 'Engring & App Sci, College of'].
+\##87['Academic Organization' -> 'Computer Science'].
+\##87['Description' -> 'A course on the fundamentals of machine learning, including basic models, formulations, and modern methods. Topics include PAC learnability, validation, classification, regression, clustering, component analysis, and graphical and deep learning models. Students are expected to have the following background: (i) working knowledge of probability theory and statistics, (ii) working knowledge of linear algebra and algorithms, and (iii) working knowledge of basic computer science principles at a level sufficient to write non-trivial computer programs in a language of preference.'].
+\##1['CSE 514' -> \##88].
+\##88['Course Title' -> 'Data Analytics Software Stacks and Algorithms'].
+\##88['Career' -> 'Graduate'].
+\##88['Units' -> '3.00'].
+\##88['Grading Basis' -> 'Graduate Graded'].
+\##88['Enrollment Requirement' -> 'CSE Graduate Students'].
+\##88['Course Components' -> ['Lecture']].
+\##88['Academic Group' -> 'College of Engring & App Sci'].
+\##88['Academic Organization' -> 'Computer Science'].
+\##88['Description' -> 'Architecture, and design of data analytics software stacks.  We will cover MapReduce/Hadoop/Dryad/Twister, Hadoop File System (HDFS), HBASE, NOSQL tools such as MongoDB, Cassandra, HIVE; column oriented database systems such as Vertica and MonetDB.  We will also cover data analysis management systems that target the scientific domain such as ADIOS, sciDB; streaming systems such as IBM System S/DataCutter.  Systems, data structures and algorithms to support management and analysis of spatio-temporal data from video cameras, satelliteds, telescopes or beamlines.  We will study statistical methods, machine learning and image anlysis/reconstruction methods used in big data/data analytic problems.  Finally, we will survey big data/data analytic problems from several domains including biomedical analysis of multi scale, multi-modal biomedical imaging data, next generation genetic and demonic data, analysis of electronic medical record/population heath data; internet,internet search, recommender systems; and engineering and physical science,analysis of experimental and simulation data associated with design of energetic materials, oil reservoir simulation, nuclear fusion and self-driving cars.'].
+\##1['CSE 515' -> \##89].
+\##89['Course Title' -> 'Introduction to Transaction Processing Systems'].
+\##89['Career' -> 'Graduate'].
+\##89['Units' -> '3.00'].
+\##89['Grading Basis' -> 'Graduate Graded'].
+\##89['Enrollment Requirement' -> 'Admission to CSE Graduate Program'].
+\##89['Course Components' -> ['Lecture']].
+\##89['Academic Group' -> 'Engring & App Sci, College of'].
+\##89['Academic Organization' -> 'Computer Science'].
+\##89['Description' -> 'Discusses transaction processing systems.  Topics covered include models of transactions, including nested transactions and workflow; architectures of transaction processing systems, including client-server, two-tiered, and three-tiered architectures; concurrency controls for conventional and relational databases including two-phase locking and the SQL isolation levels; logging and recovery; distributed transactions including the two-phase commit protocol; replication; Internet commerce, including encryption, the SSL and SET protocols, goods atomicity, and electronic cash.'].
+\##1['CSE 516' -> \##90].
+\##90['Course Title' -> 'Science for Society I'].
+\##90['Career' -> 'Graduate'].
+\##90['Units' -> '1.00'].
+\##90['Grading Basis' -> 'Graduate Graded'].
+\##90['Enrollment Requirement' -> ''].
+\##90['Course Components' -> ['Lecture']].
+\##90['Academic Group' -> 'College of Engring & App Sci'].
+\##90['Academic Organization' -> 'Computer Science'].
+\##90['Description' -> 'This is part one of an interdisciplinary course sequence (1 credit each) is designed for students in computer science (CS) and students of technology and society (DTS). Students taking this course will enhance their abilities to critically think and build awareness for science and technology (ST) and their societal aspects. They will learn strategies for assessing important questions such as: what should I focus my efforts on, where are societal needs, what policies are required or can be taken advantage of, how can I possibly influence policy, and finally, what are the dangers when developing new ST. To teach these topics the course takes a practical approach. The first section of the sequence examines historical science and technology successes and failures. Then, in the second section, teams composed of students from both the CS and DTS departments conduct case studies of existing ST or design and implement new ST under the perspectives of the course.
+
+1 credit'].
+\##1['CSE 517' -> \##91].
+\##91['Course Title' -> 'Science for Society II'].
+\##91['Career' -> 'Graduate'].
+\##91['Units' -> '1.00'].
+\##91['Grading Basis' -> 'Graduate Graded'].
+\##91['Enrollment Requirement' -> ''].
+\##91['Course Components' -> ['Laboratory']].
+\##91['Academic Group' -> 'College of Engring & App Sci'].
+\##91['Academic Organization' -> 'Computer Science'].
+\##91['Description' -> 'This is part two of an interdisciplinary course sequence (1 credit each) is designed for students in computer science (CS) and students of technology and society (DTS). Students taking this course will enhance their abilities to critically think and build awareness for science and technology (ST) and their societal aspects. They will learn strategies for assessing important questions such as: what should I focus my efforts on, where are societal needs, what policies are required or can be taken advantage of, how can I possibly influence policy, and finally, what are the dangers when developing new ST. To teach these topics the course takes a practical approach. The first section of the sequence examines historical science and technology successes and failures. Then, in the second section, teams composed of students from both the CS and DTS departments  conduct case studies of existing ST or design and implement new ST under the perspectives of the course.
+
+1 credit'].
+\##1['CSE 518' -> \##92].
+\##92['Course Title' -> 'Foundations of Human Computer Interactions'].
+\##92['Career' -> 'Graduate'].
+\##92['Units' -> '3.00'].
+\##92['Grading Basis' -> 'Graduate Graded'].
+\##92['Enrollment Requirement' -> 'CSE Graduate Program Student'].
+\##92['Course Components' -> ['Lecture']].
+\##92['Academic Group' -> 'Engring & App Sci, College of'].
+\##92['Academic Organization' -> 'Computer Science'].
+\##92['Description' -> 'The focus of this course is on the design, evaluation, and implementation of interactive computing systems for human use and on the study of major phenomena surrounding them.  This course will provide the students with a strong grounding in the guidelines, principles, methodologies, tools, and techniques for analyzing, designing, and evaluating user interfaces and interaction techniques.  Topics include: 1) Human Information Processing System 2) Interaction Behavior Modeling 3) Computational Interface Design 4) User Centered Design 5) Sketching and Prototyping 6) Usability Testing 7) Heuristic Evaluation 8) Natural User Interfaces & the Future of Uls 9) State-of-the-art research within HCI'].
+\##1['CSE 519' -> \##93].
+\##93['Course Title' -> 'Data Science Fundamentals'].
+\##93['Career' -> 'Graduate'].
+\##93['Units' -> '3.00'].
+\##93['Grading Basis' -> 'Graduate Graded'].
+\##93['Enrollment Requirement' -> 'CSE Graduate Students'].
+\##93['Course Components' -> ['Lecture']].
+\##93['Academic Group' -> 'Engring & App Sci, College of'].
+\##93['Academic Organization' -> 'Computer Science'].
+\##93['Description' -> 'This course will cover the building blocks of data science from managing the data itself to algorithmic and analytical techniques. Specific topics include data preparation, exploratory data analysis, statistics, visualization, optimization, unstructured data, distributed analyses.'].
+\##1['CSE 521' -> \##94].
+\##94['Course Title' -> 'Data Mining Concepts and Techniques'].
+\##94['Career' -> 'Graduate'].
+\##94['Units' -> '3.00'].
+\##94['Grading Basis' -> 'Graduate Graded'].
+\##94['Enrollment Requirement' -> ''].
+\##94['Course Components' -> ['Lecture']].
+\##94['Academic Group' -> 'Engring & App Sci, College of'].
+\##94['Academic Organization' -> 'Computer Science'].
+\##94['Description' -> 'Data Mining is a new, promising and flourishing interdisciplinary field drawing work from areas including database technology, artificial intelligence, machine learning, pattern recognition, high-performance computing, and data visualization. It focuses on issues relating to the feasibility, usefulness, efficiency, and scalability of techniques for automated extraction of patterns representing knowledge implicitly stored in large databases, warehouses, and other massive information repositories. The course gives a broad, yet in-depth overview of the field of data mining and presents one or two techniques in rigorous detail.'].
+\##1['CSE 522' -> \##95].
+\##95['Course Title' -> 'Special Project in Computer Science'].
+\##95['Career' -> 'Graduate'].
+\##95['Units' -> '3.00'].
+\##95['Grading Basis' -> 'Graduate Graded'].
+\##95['Enrollment Requirement' -> 'Admission to CSE Graduate Program'].
+\##95['Course Components' -> ['Tutorial']].
+\##95['Academic Group' -> 'College of Engring & App Sci'].
+\##95['Academic Organization' -> 'Computer Science'].
+\##95['Description' -> 'Project in a sub-discipline of Computer Science, including but not limited to, computer architecture, operating systems, programming languages, compliers, artificial intelligence, networking, computer graphics, data mining, databases, computer vision, visualization, computer security, mobile computing, parallel processing, logic programming, hybrid systems, simulation and modeling, computational biology, and multimedia.
+3 Credits, ABCF Grading'].
+\##1['CSE 523' -> \##96].
+\##96['Course Title' -> 'Advanced Project in Computer Science I'].
+\##96['Career' -> 'Graduate'].
+\##96['Units' -> '3.00'].
+\##96['Grading Basis' -> 'Graduate Graded'].
+\##96['Enrollment Requirement' -> 'Admission to CSE Graduate Program'].
+\##96['Course Components' -> ['Tutorial']].
+\##96['Academic Group' -> 'Engring & App Sci, College of'].
+\##96['Academic Organization' -> 'Computer Science'].
+\##96['Description' -> 'First part of an advanced project in computer science that will extend over two semesters.  The student starts the project in one semester by registering for CSE523 and completes the project in a following semester by registering for CSE524.  CSE523/524 sequence must be on the same project under the direction of the same advisor.  The student must identify a faculty advisor before registering.
+3 Credits, ABCF Grading'].
+\##1['CSE 524' -> \##97].
+\##97['Course Title' -> 'Advanced Project in Computer Science II'].
+\##97['Career' -> 'Graduate'].
+\##97['Units' -> '3.00'].
+\##97['Grading Basis' -> 'Graduate Graded'].
+\##97['Enrollment Requirement' -> 'Admission to CSE Graduate Program'].
+\##97['Course Components' -> ['Tutorial']].
+\##97['Academic Group' -> 'Engring & App Sci, College of'].
+\##97['Academic Organization' -> 'Computer Science'].
+\##97['Description' -> 'Part 2 of a 2-semester advanced research and development project undertaken by MS students under the supervision of a CS graduate program faculty member.  The student starts the project in one semester by registering for CSE 523 and completes the project in a subsequent semester by registering for CSE 524 under the supervision of the same faculty member.'].
+\##1['CSE 525' -> \##98].
+\##98['Course Title' -> 'Introduction to Robotics'].
+\##98['Career' -> 'Graduate'].
+\##98['Units' -> '3.00'].
+\##98['Grading Basis' -> 'Graduate Graded'].
+\##98['Enrollment Requirement' -> 'Admission to CSE Graduate Program'].
+\##98['Course Components' -> ['Lecture']].
+\##98['Academic Group' -> 'Engring & App Sci, College of'].
+\##98['Academic Organization' -> 'Computer Science'].
+\##98['Description' -> 'This course introduces the fundamental concepts in robotics, including coordinate transformations, visual perception, sensors, path planning, kinematics, feedback control, and feedforward control. These topics will be exemplified with several state-of-the-art robotics platforms. The course will also focus on applying the fundamental concepts to the key approaches to mobile robot control (reactive, behavior-based, and hybrid), and briefly discuss robot learning and multi-robot systems.'].
+\##1['CSE 526' -> \##99].
+\##99['Course Title' -> 'Principles of Programming Languages'].
+\##99['Career' -> 'Graduate'].
+\##99['Units' -> '3.00'].
+\##99['Grading Basis' -> 'Graduate Graded'].
+\##99['Enrollment Requirement' -> ''].
+\##99['Course Components' -> ['Lecture']].
+\##99['Academic Group' -> 'Engring & App Sci, College of'].
+\##99['Academic Organization' -> 'Computer Science'].
+\##99['Description' -> 'Discusses programming language concepts and design, with emphasis on abstraction mechanisms. Topics include language paradigms (procedural, object-oriented, functional, and logic), language concepts (values, bindings, types, modules), and foundations (lambda calculus, denotational semantics). Examples will be drawn from several representative languages, such as C, Java, Standard ML, and Prolog.'].
+\##1['CSE 527' -> \##100].
+\##100['Course Title' -> 'Introduction to Computer Vision'].
+\##100['Career' -> 'Graduate'].
+\##100['Units' -> '3.00'].
+\##100['Grading Basis' -> 'Graduate Graded'].
+\##100['Enrollment Requirement' -> ''].
+\##100['Course Components' -> ['Lecture']].
+\##100['Academic Group' -> 'Engring & App Sci, College of'].
+\##100['Academic Organization' -> 'Computer Science'].
+\##100['Description' -> 'Introduction to basic concepts in computer vision. Low-level image analysis, image formation, edge detection, segmentation. Image transformations for image synthesis methods for 3D scene reconstruction, motion analysis, object recognition.'].
+\##1['CSE 528' -> \##101].
+\##101['Course Title' -> 'Computer Graphics'].
+\##101['Career' -> 'Graduate'].
+\##101['Units' -> '3.00'].
+\##101['Grading Basis' -> 'Graduate Graded'].
+\##101['Enrollment Requirement' -> 'Admission to CSE Graduate Program'].
+\##101['Course Components' -> ['Lecture']].
+\##101['Academic Group' -> 'Engring & App Sci, College of'].
+\##101['Academic Organization' -> 'Computer Science'].
+\##101['Description' -> 'This course emphasizes a hands-on approach to the use of computer graphics. The topics covered include models, picture description, and interaction; c windowing, clipping, panning, and zooming; geometrical transformations in 2D and 3D; algorithms for raster displays (scan-line conversion, polygon fill, polygon clipping, etc.); hidden line and hidden surface removal, shading models; user interaction. The students will implement a substantial graphics application program.'].
+\##1['CSE 529' -> \##102].
+\##102['Course Title' -> 'Simulation and Modeling'].
+\##102['Career' -> 'Graduate'].
+\##102['Units' -> '3.00'].
+\##102['Grading Basis' -> 'Graduate Graded'].
+\##102['Enrollment Requirement' -> 'Admission to CSE Graduate Program'].
+\##102['Course Components' -> ['Lecture']].
+\##102['Academic Group' -> 'Engring & App Sci, College of'].
+\##102['Academic Organization' -> 'Computer Science'].
+\##102['Description' -> 'A comprehensive course in formulation, implementation, and application of simulation models. Topics include data structures, simulation languages, statistical analysis, pseudo-random number generation, and design of simulation experiments. Students apply simulation modeling methods to problems of their own design. This course is offered as CSE 529, AMS 553 and MBA 553.'].
+\##1['CSE 530' -> \##103].
+\##103['Course Title' -> 'Geometric Foundations of Graphics and Visualization'].
+\##103['Career' -> 'Graduate'].
+\##103['Units' -> '3.00'].
+\##103['Grading Basis' -> 'Graduate Graded'].
+\##103['Enrollment Requirement' -> ''].
+\##103['Course Components' -> ['Lecture']].
+\##103['Academic Group' -> 'Engring & App Sci, College of'].
+\##103['Academic Organization' -> 'Computer Science'].
+\##103['Description' -> 'This course will focus on mathematical tools, geometric modeling techniques, and fundamental algorithms that are relevant to graphics, visualization, and other visual computing areas. The goal is to provide graduate students with a comprehensive knowledge of geometric concepts and demonstrate the significance of these mathematical tools and geometric algorithms in graphics and relevant areas. Course topics include geometric algorithms for both polygonal and curved objects, theory of parametric and implicit representations, modeling methods of curves, surfaces, and solids, in-depth spline theory, rudiments of wavelet theory and multi-resolution shape representations, differential geometry fundamentals, and other sophisticated topics and latest advances in the field.'].
+\##1['CSE 531' -> \##104].
+\##104['Course Title' -> 'Performance Analysis of Systems'].
+\##104['Career' -> 'Graduate'].
+\##104['Units' -> '3.00'].
+\##104['Grading Basis' -> 'Graduate Graded'].
+\##104['Enrollment Requirement' -> 'CSE Graduate Students; others, permission of instructor'].
+\##104['Course Components' -> ['Lecture']].
+\##104['Academic Group' -> 'College of Engring & App Sci'].
+\##104['Academic Organization' -> 'Computer Science'].
+\##104['Description' -> 'This is a new course that covers topics in the performance analysis of computer systems.  The contents of the course should prove very helpful for computer science students who wish to analyze computer systems and learn more about how to improve the performance of systems.  Existing courses do not cover this material.  The course is targeted primarily at PhD and Masters students in the Computer Science Department, however upper-level undergraduates can take the course as well.  In addition, students from AMS, Math and ECE would also benefit from the course contents.'].
+\##1['CSE 532' -> \##105].
+\##105['Course Title' -> 'Theory of Database Systems'].
+\##105['Career' -> 'Graduate'].
+\##105['Units' -> '3.00'].
+\##105['Grading Basis' -> 'Graduate Graded'].
+\##105['Enrollment Requirement' -> 'Admission to CSE Graduate Program'].
+\##105['Course Components' -> ['Lecture']].
+\##105['Academic Group' -> 'Engring & App Sci, College of'].
+\##105['Academic Organization' -> 'Computer Science'].
+\##105['Description' -> 'The course will cover advanced topics in modern database systems, including object-oriented databases, rule-based databases, temporal and active databases, parallel and distributed databases, distributed object model, data mining, online analytical processing, data warehousing, multimedia databases.'].
+\##1['CSE 533' -> \##106].
+\##106['Course Title' -> 'Network Programming'].
+\##106['Career' -> 'Graduate'].
+\##106['Units' -> '3.00'].
+\##106['Grading Basis' -> 'Graduate Graded'].
+\##106['Enrollment Requirement' -> 'Admission to CSE Graduate Program'].
+\##106['Course Components' -> ['Lecture']].
+\##106['Academic Group' -> 'Engring & App Sci, College of'].
+\##106['Academic Organization' -> 'Computer Science'].
+\##106['Description' -> 'Topics include Unix and Linux socket API programming at the TCP, UDP, IP (raw sockets) and datalink access (Linux PF_PACKET sockets, libpcap & libnet libraries) levels, in the context of developing and implementing client-server applications, reliable data transfer using TCP-like rdt and flow control mechanisms, routing protocols, address resolution protocols, multicasting, DNS protocols.'].
+\##1['CSE 534' -> \##107].
+\##107['Course Title' -> 'Fundamentals of Computer Networks'].
+\##107['Career' -> 'Graduate'].
+\##107['Units' -> '3.00'].
+\##107['Grading Basis' -> 'Graduate Graded'].
+\##107['Enrollment Requirement' -> 'Admission to CSE Graduate Program'].
+\##107['Course Components' -> ['Lecture']].
+\##107['Academic Group' -> 'College of Engring & App Sci'].
+\##107['Academic Organization' -> 'Computer Science'].
+\##107['Description' -> 'Internet protocol layers. Internet Architecture. Link layer and multiple access protocols. Local area networks including wireless LANs. Routing on the Internet. Intra- and Inter-domain routing. Mobile routing. Transport layer and TCP congestion control. Scheduling and fairness. Application layers. Overlay and P2P networks. Content distribution networks. Network performance modeling.'].
+\##1['CSE 535' -> \##108].
+\##108['Course Title' -> 'Distributed Systems'].
+\##108['Career' -> 'Graduate'].
+\##108['Units' -> '3.00'].
+\##108['Grading Basis' -> 'Graduate Graded'].
+\##108['Enrollment Requirement' -> ''].
+\##108['Course Components' -> ['Lecture']].
+\##108['Academic Group' -> 'Engring & App Sci, College of'].
+\##108['Academic Organization' -> 'Computer Science'].
+\##108['Description' -> 'Discusses asynchronous systems, their description using concurrent and distributed programming languages, and their verification. Topics include concurrent programming using shared memory and message passing, formal semantics of communication, reliability, and concurrent algorithms.'].
+\##1['CSE 536' -> \##109].
+\##109['Course Title' -> 'Introduction to User-Interface Development'].
+\##109['Career' -> 'Graduate'].
+\##109['Units' -> '3.00'].
+\##109['Grading Basis' -> 'Graduate Graded'].
+\##109['Enrollment Requirement' -> ''].
+\##109['Course Components' -> ['Lecture']].
+\##109['Academic Group' -> 'College of Engring & App Sci'].
+\##109['Academic Organization' -> 'Computer Science'].
+\##109['Description' -> 'Survey of user-interface systems, includes command language, windowing, multiple input/output devices, architecture of user interface management systems, toolkits for designing user-interface, human factors, standards, visual languages.  The course also includes discussion of emerging technologies, such as systems for cooperative work, physically distributed user-interfaces, parallelism and user-interfaces, virtual reality.  A substantial project requiring the design, implementation, and evaluation of a user-interface will be required'].
+\##1['CSE 537' -> \##110].
+\##110['Course Title' -> 'Artificial Intelligence'].
+\##110['Career' -> 'Graduate'].
+\##110['Units' -> '3.00'].
+\##110['Grading Basis' -> 'Graduate Graded'].
+\##110['Enrollment Requirement' -> 'Admission to CSE Graduate Program'].
+\##110['Course Components' -> ['Lecture']].
+\##110['Academic Group' -> 'Engring & App Sci, College of'].
+\##110['Academic Organization' -> 'Computer Science'].
+\##110['Description' -> 'A comprehensive introduction to the problems of artificial intelligence and techniques for attacking them.  Topics include problem representation, problem-solving methods, search, pattern recognition, natural language processing, learning, expert systems, and AI programming languages and techniques. Covers both theoretical methods and practical implementations.'].
+\##1['CSE 538' -> \##111].
+\##111['Course Title' -> 'Natural Language Processing'].
+\##111['Career' -> 'Graduate'].
+\##111['Units' -> '3.00'].
+\##111['Grading Basis' -> 'Graduate Graded'].
+\##111['Enrollment Requirement' -> ''].
+\##111['Course Components' -> ['Lecture']].
+\##111['Academic Group' -> 'Engring & App Sci, College of'].
+\##111['Academic Organization' -> 'Computer Science'].
+\##111['Description' -> 'The course offers an introduction to Natural Language Processing techniques and applications. The course introduces basic deep learning techniques for constructing representations of natural language texts, syntactic analyses, and canonical applications such as Question Answering, and Machine Translation. The emphasis is on understanding how (i) the basic requirements of language analyses and specific application needs can be formulated as learning problems, (ii) how aspects of natural language, such as syntactic and semantic structure, inspire the design of and are captured by modern state of the art techniques, and (iii) how to evaluate and understand the limitations and shortcomings of the models'].
+\##1['CSE 540' -> \##112].
+\##112['Course Title' -> 'Theory of Computation'].
+\##112['Career' -> 'Graduate'].
+\##112['Units' -> '3.00'].
+\##112['Grading Basis' -> 'Graduate Graded'].
+\##112['Enrollment Requirement' -> 'Admission to CSE Graduate Program'].
+\##112['Course Components' -> ['Lecture']].
+\##112['Academic Group' -> 'Engring & App Sci, College of'].
+\##112['Academic Organization' -> 'Computer Science'].
+\##112['Description' -> 'Topics include models of computation: finite-state machines, stack machines, Turing machines, Church's thesis; computability theory: halting problem and unsolvability, introductory recursion theory; complexity theory: complexity measures, time and space hierarchy, NP-complete problems.'].
+\##1['CSE 541' -> \##113].
+\##113['Course Title' -> 'Logic in Computer Science'].
+\##113['Career' -> 'Graduate'].
+\##113['Units' -> '3.00'].
+\##113['Grading Basis' -> 'Graduate Graded'].
+\##113['Enrollment Requirement' -> ''].
+\##113['Course Components' -> ['Lecture']].
+\##113['Academic Group' -> 'Engring & App Sci, College of'].
+\##113['Academic Organization' -> 'Computer Science'].
+\##113['Description' -> 'A survey of the logical foundations of mathematics and the relationships to computer science; development of propositional calculus and quantification theory; the notions of a proof and of a model; the completeness theorem.'].
+\##1['CSE 542' -> \##114].
+\##114['Course Title' -> 'Big Data Systems, Algorithms and Networks'].
+\##114['Career' -> 'Graduate'].
+\##114['Units' -> '3.00'].
+\##114['Grading Basis' -> 'Graduate Graded'].
+\##114['Enrollment Requirement' -> ''].
+\##114['Course Components' -> ['Lecture']].
+\##114['Academic Group' -> 'Engring & App Sci, College of'].
+\##114['Academic Organization' -> 'Computer Science'].
+\##114['Description' -> 'Recent progress on big data systems, algorithms and networks.  Topics include the web graph, search engines, targeted advertisements, online algorithms and competitive analysis, and analytics, storage, resource allocation, and security in big data systems.
+Offered in the Spring Semester'].
+\##1['CSE 544' -> \##115].
+\##115['Course Title' -> 'Probability and Statistics for Data Scientists'].
+\##115['Career' -> 'Graduate'].
+\##115['Units' -> '3.00'].
+\##115['Grading Basis' -> 'Graduate Graded'].
+\##115['Enrollment Requirement' -> 'CSE Graduate Students'].
+\##115['Course Components' -> ['Lecture']].
+\##115['Academic Group' -> 'College of Engring & App Sci'].
+\##115['Academic Organization' -> 'Computer Science'].
+\##115['Description' -> 'The course will cover core concepts of probability theory and an assortment of standard statistical techniques.  Specific topics will include random variables and distributions, quantitative research methods (correlation and regression), and modern techniques of optimization and matching learning (clustering and prediction).'].
+\##1['CSE 545' -> \##116].
+\##116['Course Title' -> 'Big Data Analytics'].
+\##116['Career' -> 'Graduate'].
+\##116['Units' -> '3.00'].
+\##116['Grading Basis' -> 'Graduate Graded'].
+\##116['Enrollment Requirement' -> 'CSE Graduate Students'].
+\##116['Course Components' -> ['Lecture']].
+\##116['Academic Group' -> 'College of Engring & App Sci'].
+\##116['Academic Organization' -> 'Computer Science'].
+\##116['Description' -> 'The course will cover concepts and standard tools used to analyze, so called, Big Data.  Specifically, it will cover algorithmic approaches to analyzing large datasets: MapReduce, graph analytics, text analytics, steaming algorithms, as well as modern distribution analysis platforms (e.g. Hadoop, Spark).'].
+\##1['CSE 546' -> \##117].
+\##117['Course Title' -> 'Cryptography'].
+\##117['Career' -> 'Graduate'].
+\##117['Units' -> '3.00'].
+\##117['Grading Basis' -> 'Graduate Graded'].
+\##117['Enrollment Requirement' -> ''].
+\##117['Course Components' -> ['Lecture']].
+\##117['Academic Group' -> 'Engring & App Sci, College of'].
+\##117['Academic Organization' -> 'Computer Science'].
+\##117['Description' -> 'Cryptography studies how to perform computational tasks securely in adversarial environments. It plays an important role in designing secure systems. This is an introductory course that covers basic concepts and proof techniques in this area, as well as some recent research trends. The course is theoretical in nature, with emphasis on proofs and algorithmic reductions, even when discussing applied topics. No prior background in cryptography is assumed. However, students should have mathematical maturity and be comfortable with definitions and proofs.'].
+\##1['CSE 547' -> \##118].
+\##118['Course Title' -> 'Discrete Mathematics'].
+\##118['Career' -> 'Graduate'].
+\##118['Units' -> '3.00'].
+\##118['Grading Basis' -> 'Graduate Graded'].
+\##118['Enrollment Requirement' -> ''].
+\##118['Course Components' -> ['Lecture']].
+\##118['Academic Group' -> 'Engring & App Sci, College of'].
+\##118['Academic Organization' -> 'Computer Science'].
+\##118['Description' -> 'This course introduces such mathematical tools as summations, number theory, binomial coefficients, generating functions, recurrence relations, discrete probability, asymptotics, combinatorics, and graph theory for use in algorithmic and combinatorial analysis. This course is offered as both CSE 547 and AMS 547.'].
+\##1['CSE 548' -> \##119].
+\##119['Course Title' -> 'Analysis of Algorithms'].
+\##119['Career' -> 'Graduate'].
+\##119['Units' -> '3.00'].
+\##119['Grading Basis' -> 'Graduate Graded'].
+\##119['Enrollment Requirement' -> 'Admission to CSE Graduate Program'].
+\##119['Course Components' -> ['Lecture']].
+\##119['Academic Group' -> 'Engring & App Sci, College of'].
+\##119['Academic Organization' -> 'Computer Science'].
+\##119['Description' -> 'Techniques for designing efficient algorithms, including choice of data structures, recursion, branch and bound, divide and conquer, and dynamic programming. Complexity analysis of searching, sorting, matrix multiplication, and graph algorithms. Standard NP-complete problems and polynomial transformation techniques.  This course is offered as both AMS 542 and CSE 548.'].
+\##1['CSE 549' -> \##120].
+\##120['Course Title' -> 'Computational Biology'].
+\##120['Career' -> 'Graduate'].
+\##120['Units' -> '3.00'].
+\##120['Grading Basis' -> 'Graduate Graded'].
+\##120['Enrollment Requirement' -> 'Admission to CSE Graduate Program'].
+\##120['Course Components' -> ['Lecture']].
+\##120['Academic Group' -> 'Engring & App Sci, College of'].
+\##120['Academic Organization' -> 'Computer Science'].
+\##120['Description' -> 'This course focuses on current problems in computational biology and bioinformatics. Our emphasis will be algorithmic, on discovering appropriate combinatorial algorithm problems and the techniques to solve them. Primary topics will include DNA sequence assembly, DNA/protein sequence comparison, hybridization array analysis, RNA and protein folding, and phylogenic trees.'].
+\##1['CSE 550' -> \##121].
+\##121['Course Title' -> 'Quantum Computing and Applications'].
+\##121['Career' -> 'Graduate'].
+\##121['Units' -> '3.00'].
+\##121['Grading Basis' -> 'Graduate Graded'].
+\##121['Enrollment Requirement' -> ''].
+\##121['Course Components' -> ['Lecture']].
+\##121['Academic Group' -> 'Engring & App Sci, College of'].
+\##121['Academic Organization' -> 'Computer Science'].
+\##121['Description' -> 'This course is an introduction to and survey of the Quantum Computing, an emerging interdisciplinary field of science which has the potential to revolutionize computation over the next ten years, to transform chemistry, medicine, engineering and communications, as well as to change our understanding of physical world. The course will build intuitive approach to quantum computation and algorithms, but also will advance relevant vocabulary and skills for faculties and graduate students in engineering, computing, applied mathematics, chemistry, physics and related sciences.'].
+\##1['CSE 551' -> \##122].
+\##122['Course Title' -> 'Smart Energy in the Information Age'].
+\##122['Career' -> 'Graduate'].
+\##122['Units' -> '3.00'].
+\##122['Grading Basis' -> 'Graduate Graded'].
+\##122['Enrollment Requirement' -> ''].
+\##122['Course Components' -> ['Lecture']].
+\##122['Academic Group' -> 'Engring & App Sci, College of'].
+\##122['Academic Organization' -> 'Computer Science'].
+\##122['Description' -> 'Energy and sustainability have become critical issues of our generation.  While the abundant potential of renewable energy sources, such as solar and wind, provides a real opportunity for sustainability, their intermittency and uncertainty present a daunting operational challenge.  This course studies how to use Information Technology (IT) to improve sustainability in our energy-hungry society.  In particular, topics include the applications of mathematical modeling, algorithm design, optimization, game theory, and control theory in real systems.  The goal of the course is to provide rigorous foundations for the study of smart energy management for sustainability.
+Offered in the Spring Semester'].
+\##1['CSE 552' -> \##123].
+\##123['Course Title' -> 'Energy Efficient Computing'].
+\##123['Career' -> 'Graduate'].
+\##123['Units' -> '3.00'].
+\##123['Grading Basis' -> 'Graduate Graded'].
+\##123['Enrollment Requirement' -> ''].
+\##123['Course Components' -> ['Lecture']].
+\##123['Academic Group' -> 'Engring & App Sci, College of'].
+\##123['Academic Organization' -> 'Computer Science'].
+\##123['Description' -> 'Energy is an important resource for a wide range of computer systems from laptops to data centers and clouds. There has been considerable recent research on the topic of of improving energy efficiency, cutting across different areas of Computer Science including Computer Architecture (e.g., energy efficient processor design), Networking (e.g., putting the network to sleep), Storage (e.g., exploiting idle I/O periods to spin down disks), Distributed Systems (e.g., capacity provisioning), Mobile Systems (e.g., putting the radio receiver to sleep in a smartphone), and Modeling/Analytics (e.g., modeling a server's power consumption). This course covers the recent research trends in energy-efficient computing, focusing specifically on themes and techniques for achieving efficiency in computer systems.'].
+\##1['CSE 555' -> \##124].
+\##124['Course Title' -> 'Computational Geometry'].
+\##124['Career' -> 'Graduate'].
+\##124['Units' -> '3.00'].
+\##124['Grading Basis' -> 'Graduate Graded'].
+\##124['Enrollment Requirement' -> ''].
+\##124['Course Components' -> ['Lecture']].
+\##124['Academic Group' -> 'Engring & App Sci, College of'].
+\##124['Academic Organization' -> 'Computer Science'].
+\##124['Description' -> 'Study of the fundamental algorithmic problems associated with geometric computations, including convex hulls, Voronoi diagrams, triangulation, intersection, range queries, visibility, arrangements, and motion planning for robotics.  Algorithmic methods include plane sweep, incremental insertion, randomization, divide-and-conquer, etc.  This course is offered as both AMS 545 and CSE 555.'].
+\##1['CSE 564' -> \##125].
+\##125['Course Title' -> 'Visualization'].
+\##125['Career' -> 'Graduate'].
+\##125['Units' -> '3.00'].
+\##125['Grading Basis' -> 'Graduate Graded'].
+\##125['Enrollment Requirement' -> ''].
+\##125['Course Components' -> ['Lecture']].
+\##125['Academic Group' -> 'College of Engring & App Sci'].
+\##125['Academic Organization' -> 'Computer Science'].
+\##125['Description' -> 'The course emphasizes a hands-on approach to scientific, medical, and information visualization and visual analytics. Topics include: traditional visualization techniques, the visualization process, visual perception and cognition, basic graphics and imaging concepts, visualization of sampled, observed, and computed data, volume and flow visualization, information visualization, human-computer interaction, and the coupling of intelligent computing with visualization'].
+\##1['CSE 566' -> \##126].
+\##126['Course Title' -> 'Virtual Reality'].
+\##126['Career' -> 'Graduate'].
+\##126['Units' -> '3.00'].
+\##126['Grading Basis' -> 'Graduate Graded'].
+\##126['Enrollment Requirement' -> ''].
+\##126['Course Components' -> ['Lecture']].
+\##126['Academic Group' -> 'Engring & App Sci, College of'].
+\##126['Academic Organization' -> 'Computer Science'].
+\##126['Description' -> 'Virtual Reality (VR) is a fast-moving technology and has the potential to revolutionize our lives. VR stimulates the user¿s senses, thereby believing in an artificial version of reality. The course will cover VR fundamentals and technologies and related topics, including an introduction to VR, VR systems, geometry and transformations in VR, viewing and projections, light, optics, and human vision physiology, temporal human vision and perception, motion, vection, and tracking, 3D user interfaces (selection, manipulation, and travel), augmented reality (AR), audio in VR, and non-visual senses.'].
+\##1['CSE 570' -> \##127].
+\##127['Course Title' -> 'Wireless and Mobile Networks'].
+\##127['Career' -> 'Graduate'].
+\##127['Units' -> '3.00'].
+\##127['Grading Basis' -> 'Graduate Graded'].
+\##127['Enrollment Requirement' -> 'Prerequisite: enrollment in a graduate CSE program'].
+\##127['Course Components' -> ['Lecture']].
+\##127['Academic Group' -> 'Engring & App Sci, College of'].
+\##127['Academic Organization' -> 'Computer Science'].
+\##127['Description' -> 'Wireless communication fundamentals: wireless signal transmission, coding, multiplexing. Link, network, and transport layer protocols for wireless and mobile networking: medium access control, transmission scheduling, wireless capacity, protocols for wireless multi-hop networks. Cellular networks. Wireless LANs: mobile IP, TCP over wireless networks. Mobile applications. Localization and location management, Network coding. Wireless security.'].
+\##1['CSE 577' -> \##128].
+\##128['Course Title' -> 'Medical Imaging'].
+\##128['Career' -> 'Graduate'].
+\##128['Units' -> '3.00'].
+\##128['Grading Basis' -> 'Graduate Graded'].
+\##128['Enrollment Requirement' -> ''].
+\##128['Course Components' -> ['Lecture']].
+\##128['Academic Group' -> 'College of Engring & App Sci'].
+\##128['Academic Organization' -> 'Computer Science'].
+\##128['Description' -> 'This course presents an introduction to the mathematical, physical, and computational principles underlying modern medical imaging systems. It covers fundamentals of X-ray radiography, X-ray computed tomography (CT), ultrasonic imaging, nuclear imaging, magnetic resonance imaging (MRI), and functional MRI (fMRI), as well as more general concepts required for these, such as linear systems theory, the Fourier Transform, and numerical optimization. Popular techniques for the visualization, segmentation, and analysis of medical image data will also be discussed, as well as applications of medical imaging, such as image-guided intervention.'].
+\##1['CSE 581' -> \##129].
+\##129['Course Title' -> 'Computer Science Fundamentals: Theory'].
+\##129['Career' -> 'Graduate'].
+\##129['Units' -> '3.00'].
+\##129['Grading Basis' -> 'Graduate Graded'].
+\##129['Enrollment Requirement' -> ''].
+\##129['Course Components' -> ['Lecture']].
+\##129['Academic Group' -> 'Engring & App Sci, College of'].
+\##129['Academic Organization' -> 'Computer Science'].
+\##129['Description' -> 'The course consists of two parts. The first part covers discrete mathematics -- a division of mathematics that is extensively used in computer science. The topics covered include: logic (propositional logic and predicate logic), proof techniques, sequences (mathematical induction and recursion), and functions. The second part covers the theory of computation -- a division of theoretical computer science that deals with what can be computed and what cannot be computed on a computer. The topics covered include: computational models (FA, PDA, and Turing machines), grammars accepted by different computational models (regular grammars, context-free grammars, and unrestricted grammars), languages accepted by different computational models (regular languages, context-free language, and Turing-acceptable languages), Turing-complete systems, and algorithmically unsolvable problems.'].
+\##1['CSE 582' -> \##130].
+\##130['Course Title' -> 'Computer Science Fundamentals: Data Structures and Algorithms'].
+\##130['Career' -> 'Graduate'].
+\##130['Units' -> '3.00'].
+\##130['Grading Basis' -> 'Graduate Graded'].
+\##130['Enrollment Requirement' -> ''].
+\##130['Course Components' -> ['Lecture']].
+\##130['Academic Group' -> 'Engring & App Sci, College of'].
+\##130['Academic Organization' -> 'Computer Science'].
+\##130['Description' -> 'The course consists of two parts. The first part covers data structures to efficiently store, organize, modify, and access data. Topics include: arrays, stacks, queues, linked lists, trees, sets, hash maps, priority queues, and graphs. The second part covers the design and analysis of algorithms for solving computer science problems. Topics include: algorithm analysis, exhaustive search algorithms, divide-and-conquer algorithms, greedy algorithms, and dynamic programming algorithms.'].
+\##1['CSE 583' -> \##131].
+\##131['Course Title' -> 'Comp Sci Fundamentals: Prog.Abstract.'].
+\##131['Career' -> 'Graduate'].
+\##131['Units' -> '3.00'].
+\##131['Grading Basis' -> 'Graduate Graded'].
+\##131['Enrollment Requirement' -> ''].
+\##131['Course Components' -> ['Lecture']].
+\##131['Academic Group' -> 'Engring & App Sci, College of'].
+\##131['Academic Organization' -> 'Computer Science'].
+\##131['Description' -> 'Programming concepts and paradigms, including functional programming, object-orientation, basics of type systems, program and data abstractions, parameter passing, and modularity.'].
+\##1['CSE 587' -> \##132].
+\##132['Course Title' -> 'Proficiency Requirement'].
+\##132['Career' -> 'Graduate'].
+\##132['Units' -> '3.00'].
+\##132['Grading Basis' -> 'Graduate Graded'].
+\##132['Enrollment Requirement' -> ''].
+\##132['Course Components' -> ['Tutorial']].
+\##132['Academic Group' -> 'Engring & App Sci, College of'].
+\##132['Academic Organization' -> 'Computer Science'].
+\##132['Description' -> 'This course is used by students to fill any gaps in key CS proficiency background) areas identified at the time of admission. This course is done under the supervision of a faculty member teaching an undergraduate course in the needed proficiency area.  By permission of the Graduate Program only.'].
+\##1['CSE 590' -> \##133].
+\##133['Course Title' -> 'Topics in Computer Science'].
+\##133['Career' -> 'Graduate'].
+\##133['Units' -> '3.00'].
+\##133['Grading Basis' -> 'Graduate Graded'].
+\##133['Enrollment Requirement' -> 'Admission to CSE Graduate Program'].
+\##133['Course Components' -> ['Lecture']].
+\##133['Academic Group' -> 'Engring & App Sci, College of'].
+\##133['Academic Organization' -> 'Computer Science'].
+\##133['Description' -> 'An advanced lecture course on a new topic in computer science.  The course is primarily designed for M.S. students, but can be taken by Ph.D. students as well.  Semester supplements to this Bulletin contain specific description when course is offered.  May be repeated for credit as the topic changes, but cannot be used more than twice to satisfy CSE major requirements for M.S.  Limited to CSE graduate students; others permission of instructor.
+Spring,'].
+\##1['CSE 591' -> \##134].
+\##134['Course Title' -> 'Topics in Computer Science'].
+\##134['Career' -> 'Graduate'].
+\##134['Units' -> '3.00'].
+\##134['Grading Basis' -> 'Graduate Graded'].
+\##134['Enrollment Requirement' -> 'Admission to CSE Graduate Program'].
+\##134['Course Components' -> ['Lecture']].
+\##134['Academic Group' -> 'Engring & App Sci, College of'].
+\##134['Academic Organization' -> 'Computer Science'].
+\##134['Description' -> 'An advanced lecture course on a new topic in computer science.  The course is primarily designed for M.S. students, but can be taken by Ph.D. students as well.  Semester supplements to this Bulletin contain specific description when course is offered.  May be repeated for credit as the topic changes, but cannot be used more than twice to satisfy CSE major requirements for M.S.  Limited to CSE graduate students; others, permission of instructor.
+Spring,'].
+\##1['CSE 592' -> \##135].
+\##135['Course Title' -> 'Advanced Topics in Computer Science'].
+\##135['Career' -> 'Graduate'].
+\##135['Units' -> '3.00'].
+\##135['Grading Basis' -> 'Graduate Graded'].
+\##135['Enrollment Requirement' -> 'Admission to CSE Graduate Program'].
+\##135['Course Components' -> ['Lecture']].
+\##135['Academic Group' -> 'Engring & App Sci, College of'].
+\##135['Academic Organization' -> 'Computer Science'].
+\##135['Description' -> 'An advanced lecture course on a new topic in computer science.  The course is primarily designed for M.S. students, but can be taken by Ph.D. students as well.  Semester supplements to this Bulletin contain specific description when course is offered.  may be repeated for credit as the topic changes, but cannot be used more than twice to satisfy CSE major requirements for M.S.  Limited to CSE graduate students; others, permission of instructor.
+Spring,'].
+\##1['CSE 593' -> \##136].
+\##136['Course Title' -> 'Independent Study in Computer Science'].
+\##136['Career' -> 'Graduate'].
+\##136['Units' -> '1.00 - 9.00'].
+\##136['Grading Basis' -> 'Graduate Graded'].
+\##136['Enrollment Requirement' -> ''].
+\##136['Course Components' -> ['Tutorial']].
+\##136['Academic Group' -> 'Engring & App Sci, College of'].
+\##136['Academic Organization' -> 'Computer Science'].
+\##136['Description' -> 'Research and/or project work under the supervision of a Computer Science graduate program faculty.'].
+\##1['CSE 594' -> \##137].
+\##137['Course Title' -> 'Advanced Topics in Computer Science'].
+\##137['Career' -> 'Graduate'].
+\##137['Units' -> '3.00'].
+\##137['Grading Basis' -> 'Graduate Graded'].
+\##137['Enrollment Requirement' -> 'Admission to CSE Graduate Program'].
+\##137['Course Components' -> ['Lecture']].
+\##137['Academic Group' -> 'Engring & App Sci, College of'].
+\##137['Academic Organization' -> 'Computer Science'].
+\##137['Description' -> 'An advanced lecture course on a new topics in computer science.  This course is primarily designed for M.S. students, but can be taken by Ph.D. students as well.  Semester supplements to this Bulletin contain specific description when course is offered.  May be repeated as the topic changes, but cannot be used more than twice to satisfy the CSE major requirements for the M.S.
+Fall, Spring, every year,'].
+\##1['CSE 595' -> \##138].
+\##138['Course Title' -> 'Advanced Topics in Computer Science'].
+\##138['Career' -> 'Graduate'].
+\##138['Units' -> '3.00'].
+\##138['Grading Basis' -> 'Graduate Graded'].
+\##138['Enrollment Requirement' -> 'Admission to CSE Graduate Program'].
+\##138['Course Components' -> ['Lecture']].
+\##138['Academic Group' -> 'Engring & App Sci, College of'].
+\##138['Academic Organization' -> 'Computer Science'].
+\##138['Description' -> 'An advanced lecture course on a new topic in computer science.  This course is primarily designed for M.S. students, but can be taken by Ph.D. students as well.  Semester supplements to this Bulletin contain specific description when course is offered.  May be repeated for credit as the topic changes, but cannot be used more than twice to satisfy the SCE major requirements for the M.S.
+Fall, Spring, every year,'].
+\##1['CSE 596' -> \##139].
+\##139['Course Title' -> 'MS Internship Project Off-Campus'].
+\##139['Career' -> 'Graduate'].
+\##139['Units' -> '1.00'].
+\##139['Grading Basis' -> 'Satisfactory/Unsatisfactory'].
+\##139['Enrollment Requirement' -> ''].
+\##139['Course Components' -> ['Tutorial']].
+\##139['Academic Group' -> 'Engring & App Sci, College of'].
+\##139['Academic Organization' -> 'Computer Science'].
+\##139['Description' -> 'Participation in internships at private corporations, public agencies, or non-profit institutions. Students will be required to have a faculty coordinator as well as a contact in the outside organization to participate with them in regular consultations on the project, and to submit a final report to both. This course is intended for MS students interning off campus.'].
+\##1['CSE 597' -> \##140].
+\##140['Course Title' -> 'MS Internship Project on Campus'].
+\##140['Career' -> 'Graduate'].
+\##140['Units' -> '1.00'].
+\##140['Grading Basis' -> 'Satisfactory/Unsatisfactory'].
+\##140['Enrollment Requirement' -> ''].
+\##140['Course Components' -> ['Tutorial']].
+\##140['Academic Group' -> 'Engring & App Sci, College of'].
+\##140['Academic Organization' -> 'Computer Science'].
+\##140['Description' -> 'Participation in internships at private corporations, public agencies, or non-profit institutions. Students will be required to have a faculty coordinator as well as a contact in the outside organization to participate with them in regular consultations on the project, and to submit a final report to both. This course is intended for MS students interning on campus.'].
+\##1['CSE 599' -> \##141].
+\##141['Course Title' -> 'M.S. Thesis Research'].
+\##141['Career' -> 'Graduate'].
+\##141['Units' -> '1.00 - 12.00'].
+\##141['Grading Basis' -> 'Graduate Graded'].
+\##141['Enrollment Requirement' -> ''].
+\##141['Course Components' -> ['Tutorial']].
+\##141['Academic Group' -> 'Engring & App Sci, College of'].
+\##141['Academic Organization' -> 'Computer Science'].
+\##141['Description' -> 'Thesis research under supervision of CS graduate program faculty for MS students.'].
+\##1['CSE 600' -> \##142].
+\##142['Course Title' -> 'Research in Modern Computer Science'].
+\##142['Career' -> 'Graduate'].
+\##142['Units' -> '0.00 - 1.00'].
+\##142['Grading Basis' -> 'Satisfactory/Unsatisfactory'].
+\##142['Enrollment Requirement' -> 'Admission to CSE Graduate Program'].
+\##142['Course Components' -> ['Seminar']].
+\##142['Academic Group' -> 'College of Engring & App Sci'].
+\##142['Academic Organization' -> 'Computer Science'].
+\##142['Description' -> 'A survey of current computer science research areas and issues. This course comprises lectures by faculty members and visitors, selected readings, and introductory-level research problems.
+Prerequisite: Permission of instructor'].
+\##1['CSE 602' -> \##143].
+\##143['Course Title' -> 'Advanced Computer Architecture'].
+\##143['Career' -> 'Graduate'].
+\##143['Units' -> '3.00'].
+\##143['Grading Basis' -> 'Graduate Graded'].
+\##143['Enrollment Requirement' -> ''].
+\##143['Course Components' -> ['Lecture']].
+\##143['Academic Group' -> 'College of Engring & App Sci'].
+\##143['Academic Organization' -> 'Computer Science'].
+\##143['Description' -> 'The focus will be on the architectural rather than micro-architectural issues, and a systems approach to computer architecture taking into account the interaction between the architecture and the compiler, operating system, database, and networking.  The course starts with superscalar/VLIW processor architecture and proceeds to memory hierarchy, storage systems, network hardware, graphics processor, and database machines.  The emphasis will be on hands-on evaluation of architectural ideas, the exploration of software/hardware design trade-offs, and the articulation of experimental procedures and performance analysis. A publication-quality class project will be required. 
+Prerequisite: CSE 502 or permission of instructor'].
+\##1['CSE 605' -> \##144].
+\##144['Course Title' -> 'Performance Evaluation of Computer Systems'].
+\##144['Career' -> 'Graduate'].
+\##144['Units' -> '3.00'].
+\##144['Grading Basis' -> 'Graduate Graded'].
+\##144['Enrollment Requirement' -> ''].
+\##144['Course Components' -> ['Lecture']].
+\##144['Academic Group' -> 'Engring & App Sci, College of'].
+\##144['Academic Organization' -> 'Computer Science'].
+\##144['Description' -> 'The purpose of this course is to provide background and training in understanding and evaluating the performance of computer systems, including centralized, distributed, parallel, client/server-based systems, and computer communication networks. The goal is to develop a perspective on how the performance of computer systems or networks should be evaluated in order to decide on various design alternatives. The course will include various analytical techniques, mainly based on Markov models and queuing theory, and simulation modeling.'].
+\##1['CSE 608' -> \##145].
+\##145['Course Title' -> 'Advanced Computer Security'].
+\##145['Career' -> 'Graduate'].
+\##145['Units' -> '3.00'].
+\##145['Grading Basis' -> 'Graduate Graded'].
+\##145['Enrollment Requirement' -> 'CSE 508 or CSE 509 or permission of instructor'].
+\##145['Course Components' -> ['Lecture']].
+\##145['Academic Group' -> 'College of Engring & App Sci'].
+\##145['Academic Organization' -> 'Computer Science'].
+\##145['Description' -> 'Advanced course on principles and practice of engineering secure information systems. Topics covered include threats and vulnerabilities, counter measures, legal policy issues, risk management and assurance. In-depth coverage of various research problems, which will vary from one offering of the course to another.
+Prerequisite: CSE 508 or CSE 509 or permission of instructor.
+Fall, Spring'].
+\##1['CSE 610' -> \##146].
+\##146['Course Title' -> 'Parallel Computer Architectures'].
+\##146['Career' -> 'Graduate'].
+\##146['Units' -> '3.00'].
+\##146['Grading Basis' -> 'Graduate Graded'].
+\##146['Enrollment Requirement' -> ''].
+\##146['Course Components' -> ['Lecture']].
+\##146['Academic Group' -> 'College of Engring & App Sci'].
+\##146['Academic Organization' -> 'Computer Science'].
+\##146['Description' -> 'Topics include parallel computer systems; important parallel applications; parallel computation models; interconnection networks; SIMD and MIMD architectures; hybrid architectures; memory management; cache coherence; distributed shared memory; synchronization methods; operating systems; compilers; and programming tools.
+Prerequisite: CSE 502 or permission of instructor'].
+\##1['CSE 613' -> \##147].
+\##147['Course Title' -> 'Parallel Programming'].
+\##147['Career' -> 'Graduate'].
+\##147['Units' -> '3.00'].
+\##147['Grading Basis' -> 'Graduate Graded'].
+\##147['Enrollment Requirement' -> 'Admission to CSE Graduate Program'].
+\##147['Course Components' -> ['Lecture']].
+\##147['Academic Group' -> 'Engring & App Sci, College of'].
+\##147['Academic Organization' -> 'Computer Science'].
+\##147['Description' -> 'Algorithms and techniques for programming highly parallel computers. Trends in parallel and distributed computing; shared address space and message passing architectures; design issues for parallel algorithms; converting sequential algorithms into equivalent parallel algorithms; synchronization and data sharing; improving performance of parallel algorithms; interconnection network topologies, routing, and flow control; latency limits on speedup of algorithms by parallel implementations.'].
+\##1['CSE 614' -> \##148].
+\##148['Course Title' -> 'Advanced Programming Languages'].
+\##148['Career' -> 'Graduate'].
+\##148['Units' -> '3.00'].
+\##148['Grading Basis' -> 'Graduate Graded'].
+\##148['Enrollment Requirement' -> ''].
+\##148['Course Components' -> ['Lecture']].
+\##148['Academic Group' -> 'College of Engring & App Sci'].
+\##148['Academic Organization' -> 'Computer Science'].
+\##148['Description' -> 'Selected topics on advanced programming languages technology. Program analysis and transformation, program optimization and program manipulation systems. Very high-level and declarative languages such as sets and relations based languages and deductive and object-oriented languages.
+Prerequisite: CSE 526 or CSE 504
+Spring,'].
+\##1['CSE 615' -> \##149].
+\##149['Course Title' -> 'Advanced Computer Vision'].
+\##149['Career' -> 'Graduate'].
+\##149['Units' -> '3.00'].
+\##149['Grading Basis' -> 'Graduate Graded'].
+\##149['Enrollment Requirement' -> 'Admission to CSE Graduate Program'].
+\##149['Course Components' -> ['Lecture']].
+\##149['Academic Group' -> 'Engring & App Sci, College of'].
+\##149['Academic Organization' -> 'Computer Science'].
+\##149['Description' -> 'Survey of methods used for the analysis of images by computer, including computer vision and pattern recognition.  Topics to be covered are image formation, image segmentation, and edge detection, binary images, and shape analysis, shape from shading, motion field, and optical flow, surface inference, classification techniques.'].
+\##1['CSE 617' -> \##150].
+\##150['Course Title' -> 'Advanced Topics in Wireless Networks'].
+\##150['Career' -> 'Graduate'].
+\##150['Units' -> '3.00'].
+\##150['Grading Basis' -> 'Graduate Graded'].
+\##150['Enrollment Requirement' -> ''].
+\##150['Course Components' -> ['Lecture']].
+\##150['Academic Group' -> 'College of Engring & App Sci'].
+\##150['Academic Organization' -> 'Computer Science'].
+\##150['Description' -> 'Advance topics taken from ad hoc wireless networks and sensor networks.  Will comprise of lectures, presentations and/or a project. 
+Prerequisite: Limited to CSE graduate students; others, permission of instruction.
+Fall and Spring, 3 credits, ABCF grading
+May be repeated twice for credit.'].
+\##1['CSE 620' -> \##151].
+\##151['Course Title' -> 'Virtual Reality'].
+\##151['Career' -> 'Graduate'].
+\##151['Units' -> '3.00'].
+\##151['Grading Basis' -> 'Graduate Graded'].
+\##151['Enrollment Requirement' -> ''].
+\##151['Course Components' -> ['Lecture']].
+\##151['Academic Group' -> 'College of Engring & App Sci'].
+\##151['Academic Organization' -> 'Computer Science'].
+\##151['Description' -> 'Practical issues in the design and implementation of virtual environments. Topics include system requirements, transformations, user-interaction models, human vision models, input/output devices and techniques, tracking systems, augmented reality, and virtual-reality applications. The course will involve a substantial programming project to implement an immersive virtual reality system. 
+Prerequisite: CSE 328 or 528 or 332 or 564'].
+\##1['CSE 621' -> \##152].
+\##152['Course Title' -> 'Physics-based Modeling for Visual Computing'].
+\##152['Career' -> 'Graduate'].
+\##152['Units' -> '3.00'].
+\##152['Grading Basis' -> 'Graduate Graded'].
+\##152['Enrollment Requirement' -> ''].
+\##152['Course Components' -> ['Lecture']].
+\##152['Academic Group' -> 'College of Engring & App Sci'].
+\##152['Academic Organization' -> 'Computer Science'].
+\##152['Description' -> 'A unified approach to various fields such as graphics, visualization, computer-aided geometric design, biomedical imaging, vision, and virtual environment. The course will explore select research topics centered on physics-based modeling methodology and associated computational methods for theoretical and practical problems in widespread areas of visual computing. The emphasis will be on geometric and solid modeling, geometric design techniques, wavelets and multi-resolution analysis, deformable models based on mathematical physics, variational analysis, optimization methods, numerical simulation with finite-difference and finite-element algorithms, differential equations for initial-value and boundary-value problems, force-driven interaction with constraints, dynamic sculpting system, and a large variety of applications for visual computing.
+Prerequisite: CSE 528 or permission of instructor'].
+\##1['CSE 624' -> \##153].
+\##153['Course Title' -> 'Advanced Operating Systems'].
+\##153['Career' -> 'Graduate'].
+\##153['Units' -> '3.00'].
+\##153['Grading Basis' -> 'Graduate Graded'].
+\##153['Enrollment Requirement' -> 'CSE 506'].
+\##153['Course Components' -> ['Lecture']].
+\##153['Academic Group' -> 'College of Engring & App Sci'].
+\##153['Academic Organization' -> 'Computer Science'].
+\##153['Description' -> 'Students will study advanced operating system topics and be exposed to recent developments in operating systems research. In addition to being conversant in classic and recent research papers, this course aims to teach students to read research papers critically, formulate new research questions, and evaluate these questions experimentally. Topics to be covered typically include: distributed systems, cloud computing and data centers, operating system design, virtual machines, OS interaction with the hardware architecture, synchronization and communication, file systems, and security.'].
+\##1['CSE 625' -> \##154].
+\##154['Course Title' -> 'Advanced Asynchronous Systems'].
+\##154['Career' -> 'Graduate'].
+\##154['Units' -> '3.00'].
+\##154['Grading Basis' -> 'Graduate Graded'].
+\##154['Enrollment Requirement' -> ''].
+\##154['Course Components' -> ['Lecture']].
+\##154['Academic Group' -> 'College of Engring & App Sci'].
+\##154['Academic Organization' -> 'Computer Science'].
+\##154['Description' -> 'Formal specification and verification of asynchronous systems. Topics include concurrent programming, process algebras, logics for describing the properties of concurrent systems, and formal semantics of communication.
+Prerequisite: CSE 535 or permission of instructor.'].
+\##1['CSE 626' -> \##155].
+\##155['Course Title' -> 'Switching and Routing in Parallel and Distributed Systems'].
+\##155['Career' -> 'Graduate'].
+\##155['Units' -> '3.00'].
+\##155['Grading Basis' -> 'Graduate Graded'].
+\##155['Enrollment Requirement' -> ''].
+\##155['Course Components' -> ['Lecture']].
+\##155['Academic Group' -> 'College of Engring & App Sci'].
+\##155['Academic Organization' -> 'Computer Science'].
+\##155['Description' -> 'This course covers various switching and routing issues in parallel and distributed systems. Topics include message switching techniques, design of interconnection networks, permutation, multicast and all-to-all routing in various networking nonblocking, and rearrangable capability analysis and performance modeling.
+Prerequisite: ESE 503 and 545 or CSE 502 and 547, or permission of instructor'].
+\##1['CSE 628' -> \##156].
+\##156['Course Title' -> 'Natural Language Processing'].
+\##156['Career' -> 'Graduate'].
+\##156['Units' -> '3.00'].
+\##156['Grading Basis' -> 'Graduate Graded'].
+\##156['Enrollment Requirement' -> 'Prerequisite: enrollment in a graduate CSE program'].
+\##156['Course Components' -> ['Lecture']].
+\##156['Academic Group' -> 'College of Engring & App Sci'].
+\##156['Academic Organization' -> 'Computer Science'].
+\##156['Description' -> 'The course offers computationally-oriented introduction to natural language processing (NLP). The focus is on modern quantitative techniques in NLP: algorithms and statistical approaches to word-level, syntactic, and semantic processing of natural language.  The choice of topics includes practically motivated questions in NLP such as (1) can we teach computers to automatically detect authorship of a document? (2) can computers automatically suggest paraphrases (phrases with similar meaning) to help with writing?
+Prerequisite:  Familiarity with either Artificial Intelligence or Machine Learning is strongly recommended, but not absolutely required.
+Limited to CSE Graduate Students
+Fall and Spring, 3 Credits, ABCF Grading'].
+\##1['CSE 633' -> \##157].
+\##157['Course Title' -> 'Computability and Undecidability'].
+\##157['Career' -> 'Graduate'].
+\##157['Units' -> '3.00'].
+\##157['Grading Basis' -> 'Graduate Graded'].
+\##157['Enrollment Requirement' -> ''].
+\##157['Course Components' -> ['Lecture']].
+\##157['Academic Group' -> 'College of Engring & App Sci'].
+\##157['Academic Organization' -> 'Computer Science'].
+\##157['Description' -> 'Computability theory based on Turing machines and recursive functions; proof by diagonalization and reducibility; unsolvable problems in set, group, number and language theory; reducibility orderings and degrees of unsolvability; priority methods and Post's problem.  Prerequisite:  CSE 540 or consent of instructor.
+Spring'].
+\##1['CSE 638' -> \##158].
+\##158['Course Title' -> 'Advanced Algorithms'].
+\##158['Career' -> 'Graduate'].
+\##158['Units' -> '3.00'].
+\##158['Grading Basis' -> 'Graduate Graded'].
+\##158['Enrollment Requirement' -> ''].
+\##158['Course Components' -> ['Lecture']].
+\##158['Academic Group' -> 'College of Engring & App Sci'].
+\##158['Academic Organization' -> 'Computer Science'].
+\##158['Description' -> 'This is an advanced course in the design and analysis of combinatorial algorithms, focusing on recent material and special topics, including randomized algorithms, approximation algorithms for NP-complete problems, string algorithms, amortized analysis of data structures, and heuristic methods such as simulated annealing. Material will be selected to have little or no overlap with traditional introductory algorithms courses.
+Prerequisite: CSE 548 or permission of instructor'].
+\##1['CSE 639' -> \##159].
+\##159['Course Title' -> 'Seminar in Advanced Topics in Computer Science'].
+\##159['Career' -> 'Graduate'].
+\##159['Units' -> '1.00'].
+\##159['Grading Basis' -> 'Satisfactory/Unsatisfactory'].
+\##159['Enrollment Requirement' -> 'Limited to CSE Graduate Students'].
+\##159['Course Components' -> ['Seminar']].
+\##159['Academic Group' -> 'College of Engring & App Sci'].
+\##159['Academic Organization' -> 'Computer Science'].
+\##159['Description' -> ''].
+\##1['CSE 641' -> \##160].
+\##160['Course Title' -> 'Seminar in Logic in Computer Science'].
+\##160['Career' -> 'Graduate'].
+\##160['Units' -> '1.00'].
+\##160['Grading Basis' -> 'Satisfactory/Unsatisfactory'].
+\##160['Enrollment Requirement' -> ''].
+\##160['Course Components' -> ['Seminar']].
+\##160['Academic Group' -> 'College of Engring & App Sci'].
+\##160['Academic Organization' -> 'Computer Science'].
+\##160['Description' -> ''].
+\##1['CSE 642' -> \##161].
+\##161['Course Title' -> 'Seminar in Algorithms'].
+\##161['Career' -> 'Graduate'].
+\##161['Units' -> '1.00'].
+\##161['Grading Basis' -> 'Satisfactory/Unsatisfactory'].
+\##161['Enrollment Requirement' -> ''].
+\##161['Course Components' -> ['Seminar']].
+\##161['Academic Group' -> 'College of Engring & App Sci'].
+\##161['Academic Organization' -> 'Computer Science'].
+\##161['Description' -> ''].
+\##1['CSE 643' -> \##162].
+\##162['Course Title' -> 'Seminar in Concurrency'].
+\##162['Career' -> 'Graduate'].
+\##162['Units' -> '1.00'].
+\##162['Grading Basis' -> 'Satisfactory/Unsatisfactory'].
+\##162['Enrollment Requirement' -> ''].
+\##162['Course Components' -> ['Seminar']].
+\##162['Academic Group' -> 'College of Engring & App Sci'].
+\##162['Academic Organization' -> 'Computer Science'].
+\##162['Description' -> ''].
+\##1['CSE 644' -> \##163].
+\##163['Course Title' -> 'Seminar in Databases'].
+\##163['Career' -> 'Graduate'].
+\##163['Units' -> '1.00'].
+\##163['Grading Basis' -> 'Satisfactory/Unsatisfactory'].
+\##163['Enrollment Requirement' -> ''].
+\##163['Course Components' -> ['Seminar']].
+\##163['Academic Group' -> 'College of Engring & App Sci'].
+\##163['Academic Organization' -> 'Computer Science'].
+\##163['Description' -> ''].
+\##1['CSE 645' -> \##164].
+\##164['Course Title' -> 'Seminar in Languages'].
+\##164['Career' -> 'Graduate'].
+\##164['Units' -> '1.00'].
+\##164['Grading Basis' -> 'Satisfactory/Unsatisfactory'].
+\##164['Enrollment Requirement' -> ''].
+\##164['Course Components' -> ['Seminar']].
+\##164['Academic Group' -> 'College of Engring & App Sci'].
+\##164['Academic Organization' -> 'Computer Science'].
+\##164['Description' -> ''].
+\##1['CSE 646' -> \##165].
+\##165['Course Title' -> 'Seminar in Artificial Intelligence'].
+\##165['Career' -> 'Graduate'].
+\##165['Units' -> '1.00'].
+\##165['Grading Basis' -> 'Satisfactory/Unsatisfactory'].
+\##165['Enrollment Requirement' -> ''].
+\##165['Course Components' -> ['Seminar']].
+\##165['Academic Group' -> 'College of Engring & App Sci'].
+\##165['Academic Organization' -> 'Computer Science'].
+\##165['Description' -> ''].
+\##1['CSE 648' -> \##166].
+\##166['Course Title' -> 'Seminar in Graphics'].
+\##166['Career' -> 'Graduate'].
+\##166['Units' -> '1.00'].
+\##166['Grading Basis' -> 'Satisfactory/Unsatisfactory'].
+\##166['Enrollment Requirement' -> ''].
+\##166['Course Components' -> ['Seminar']].
+\##166['Academic Group' -> 'College of Engring & App Sci'].
+\##166['Academic Organization' -> 'Computer Science'].
+\##166['Description' -> ''].
+\##1['CSE 649' -> \##167].
+\##167['Course Title' -> 'Seminar in Operating Systems'].
+\##167['Career' -> 'Graduate'].
+\##167['Units' -> '1.00'].
+\##167['Grading Basis' -> 'Satisfactory/Unsatisfactory'].
+\##167['Enrollment Requirement' -> ''].
+\##167['Course Components' -> ['Seminar']].
+\##167['Academic Group' -> 'College of Engring & App Sci'].
+\##167['Academic Organization' -> 'Computer Science'].
+\##167['Description' -> ''].
+\##1['CSE 650' -> \##168].
+\##168['Course Title' -> 'Seminar in Architecture'].
+\##168['Career' -> 'Graduate'].
+\##168['Units' -> '1.00'].
+\##168['Grading Basis' -> 'Satisfactory/Unsatisfactory'].
+\##168['Enrollment Requirement' -> ''].
+\##168['Course Components' -> ['Seminar']].
+\##168['Academic Group' -> 'College of Engring & App Sci'].
+\##168['Academic Organization' -> 'Computer Science'].
+\##168['Description' -> ''].
+\##1['CSE 651' -> \##169].
+\##169['Course Title' -> 'Seminar in Secure Computation'].
+\##169['Career' -> 'Graduate'].
+\##169['Units' -> '1.00'].
+\##169['Grading Basis' -> 'Satisfactory/Unsatisfactory'].
+\##169['Enrollment Requirement' -> ''].
+\##169['Course Components' -> ['Seminar']].
+\##169['Academic Group' -> 'College of Engring & App Sci'].
+\##169['Academic Organization' -> 'Computer Science'].
+\##169['Description' -> ''].
+\##1['CSE 652' -> \##170].
+\##170['Course Title' -> 'Seminar in User Interfaces'].
+\##170['Career' -> 'Graduate'].
+\##170['Units' -> '1.00'].
+\##170['Grading Basis' -> 'Satisfactory/Unsatisfactory'].
+\##170['Enrollment Requirement' -> ''].
+\##170['Course Components' -> ['Seminar']].
+\##170['Academic Group' -> 'College of Engring & App Sci'].
+\##170['Academic Organization' -> 'Computer Science'].
+\##170['Description' -> ''].
+\##1['CSE 653' -> \##171].
+\##171['Course Title' -> 'Seminar in Virtual Reality'].
+\##171['Career' -> 'Graduate'].
+\##171['Units' -> '1.00'].
+\##171['Grading Basis' -> 'Satisfactory/Unsatisfactory'].
+\##171['Enrollment Requirement' -> ''].
+\##171['Course Components' -> ['Seminar']].
+\##171['Academic Group' -> 'College of Engring & App Sci'].
+\##171['Academic Organization' -> 'Computer Science'].
+\##171['Description' -> ''].
+\##1['CSE 654' -> \##172].
+\##172['Course Title' -> 'Seminar in Visualization'].
+\##172['Career' -> 'Graduate'].
+\##172['Units' -> '1.00'].
+\##172['Grading Basis' -> 'Satisfactory/Unsatisfactory'].
+\##172['Enrollment Requirement' -> ''].
+\##172['Course Components' -> ['Seminar']].
+\##172['Academic Group' -> 'College of Engring & App Sci'].
+\##172['Academic Organization' -> 'Computer Science'].
+\##172['Description' -> ''].
+\##1['CSE 655' -> \##173].
+\##173['Course Title' -> 'Seminar in Natural Language Processing'].
+\##173['Career' -> 'Graduate'].
+\##173['Units' -> '1.00'].
+\##173['Grading Basis' -> 'Satisfactory/Unsatisfactory'].
+\##173['Enrollment Requirement' -> ''].
+\##173['Course Components' -> ['Seminar']].
+\##173['Academic Group' -> 'Engring & App Sci, College of'].
+\##173['Academic Organization' -> 'Computer Science'].
+\##173['Description' -> ''].
+\##1['CSE 656' -> \##174].
+\##174['Course Title' -> 'Seminar in Computer Vision'].
+\##174['Career' -> 'Graduate'].
+\##174['Units' -> '1.00'].
+\##174['Grading Basis' -> 'Satisfactory/Unsatisfactory'].
+\##174['Enrollment Requirement' -> ''].
+\##174['Course Components' -> ['Seminar']].
+\##174['Academic Group' -> 'College of Engring & App Sci'].
+\##174['Academic Organization' -> 'Computer Science'].
+\##174['Description' -> 'Current readings in computer vision and image understanding.
+Prerequisite: Limited to CSE graduate students; others need instructor consent
+Fall,
+May be repeated for credit'].
+\##1['CSE 657' -> \##175].
+\##175['Course Title' -> 'Seminar in Design Analysis'].
+\##175['Career' -> 'Graduate'].
+\##175['Units' -> '1.00'].
+\##175['Grading Basis' -> 'Satisfactory/Unsatisfactory'].
+\##175['Enrollment Requirement' -> ''].
+\##175['Course Components' -> ['Seminar']].
+\##175['Academic Group' -> 'College of Engring & App Sci'].
+\##175['Academic Organization' -> 'Computer Science'].
+\##175['Description' -> 'Methods for constructing reliable and efficient computer systems. Topics include: modeling and specification, analysis and verification, design and optimization, code generation, simulation and testing. Tool support. Applications and case studies.
+Prerequisite: Limited to CSE graduate students; others need instructor consent
+Fall,
+May be repeated for credit'].
+\##1['CSE 658' -> \##176].
+\##176['Course Title' -> 'Seminar on Mobile and Wireless Networking'].
+\##176['Career' -> 'Graduate'].
+\##176['Units' -> '1.00'].
+\##176['Grading Basis' -> 'Satisfactory/Unsatisfactory'].
+\##176['Enrollment Requirement' -> ''].
+\##176['Course Components' -> ['Seminar']].
+\##176['Academic Group' -> 'College of Engring & App Sci'].
+\##176['Academic Organization' -> 'Computer Science'].
+\##176['Description' -> 'This seminar course will draw topics from mobile and wireless networks of current interest. The main focus will be multi-hop wireless networks. It will cover topics on mobile routing, multiple access and transport protocols for such networks. It will also cover topics from micromobility architectures and pervasive computing.
+Prerequisites: Limited to CSE graduate students; others permission of instructor.
+Fall,'].
+\##1['CSE 659' -> \##177].
+\##177['Course Title' -> 'Seminar in Computer Security'].
+\##177['Career' -> 'Graduate'].
+\##177['Units' -> '1.00'].
+\##177['Grading Basis' -> 'Satisfactory/Unsatisfactory'].
+\##177['Enrollment Requirement' -> ''].
+\##177['Course Components' -> ['Seminar']].
+\##177['Academic Group' -> 'College of Engring & App Sci'].
+\##177['Academic Organization' -> 'Computer Science'].
+\##177['Description' -> 'Seminar course, covering various research problems in computer security.
+Spring,'].
+\##1['CSE 660' -> \##178].
+\##178['Course Title' -> 'Seminar in Sustainable Computing'].
+\##178['Career' -> 'Graduate'].
+\##178['Units' -> '1.00'].
+\##178['Grading Basis' -> 'Satisfactory/Unsatisfactory'].
+\##178['Enrollment Requirement' -> ''].
+\##178['Course Components' -> ['Seminar']].
+\##178['Academic Group' -> 'Engring & App Sci, College of'].
+\##178['Academic Organization' -> 'Computer Science'].
+\##178['Description' -> 'Seminar course which focuses on research in sustainable computing.'].
+\##1['CSE 661' -> \##179].
+\##179['Course Title' -> 'Seminar in Data Privacy'].
+\##179['Career' -> 'Graduate'].
+\##179['Units' -> '1.00'].
+\##179['Grading Basis' -> 'Satisfactory/Unsatisfactory'].
+\##179['Enrollment Requirement' -> ''].
+\##179['Course Components' -> ['Seminar']].
+\##179['Academic Group' -> 'College of Engring & App Sci'].
+\##179['Academic Organization' -> 'Computer Science'].
+\##179['Description' -> 'Current research in Data Privacy.
+Limited to CSE graduate students; others, permission of instructor.
+Spring,'].
+\##1['CSE 662' -> \##180].
+\##180['Course Title' -> 'Seminar in Medical Imaging'].
+\##180['Career' -> 'Graduate'].
+\##180['Units' -> '1.00'].
+\##180['Grading Basis' -> 'Satisfactory/Unsatisfactory'].
+\##180['Enrollment Requirement' -> 'Admission to CSE Graduate Program'].
+\##180['Course Components' -> ['Seminar']].
+\##180['Academic Group' -> 'College of Engring & App Sci'].
+\##180['Academic Organization' -> 'Computer Science'].
+\##180['Description' -> ''].
+\##1['CSE 663' -> \##181].
+\##181['Course Title' -> 'Cyber Physical Systems and Verification'].
+\##181['Career' -> 'Graduate'].
+\##181['Units' -> '1.00'].
+\##181['Grading Basis' -> 'Graduate  S/U grading'].
+\##181['Enrollment Requirement' -> ''].
+\##181['Course Components' -> ['Seminar']].
+\##181['Academic Group' -> 'Engring & App Sci, College of'].
+\##181['Academic Organization' -> 'Computer Science'].
+\##181['Description' -> 'Seminar course which focuses on research in Cyber-Physical Systems and Verification.'].
+\##1['CSE 664' -> \##182].
+\##182['Course Title' -> 'Distributed Systems'].
+\##182['Career' -> 'Graduate'].
+\##182['Units' -> '1.00'].
+\##182['Grading Basis' -> 'Graduate  S/U grading'].
+\##182['Enrollment Requirement' -> ''].
+\##182['Course Components' -> ['Seminar']].
+\##182['Academic Group' -> 'Engring & App Sci, College of'].
+\##182['Academic Organization' -> 'Computer Science'].
+\##182['Description' -> 'Seminar course which focuses on research in Distributed Systems.'].
+\##1['CSE 665' -> \##183].
+\##183['Course Title' -> 'Special Topics in Theory of Computing'].
+\##183['Career' -> 'Graduate'].
+\##183['Units' -> '2.00'].
+\##183['Grading Basis' -> 'Graduate Graded'].
+\##183['Enrollment Requirement' -> ''].
+\##183['Course Components' -> ['Lecture']].
+\##183['Academic Group' -> 'College of Engring & App Sci'].
+\##183['Academic Organization' -> 'Computer Science'].
+\##183['Description' -> ''].
+\##1['CSE 669' -> \##184].
+\##184['Course Title' -> 'Special Topics in Databases'].
+\##184['Career' -> 'Graduate'].
+\##184['Units' -> '2.00'].
+\##184['Grading Basis' -> 'Graduate Graded'].
+\##184['Enrollment Requirement' -> ''].
+\##184['Course Components' -> ['Lecture']].
+\##184['Academic Group' -> 'College of Engring & App Sci'].
+\##184['Academic Organization' -> 'Computer Science'].
+\##184['Description' -> ''].
+\##1['CSE 670' -> \##185].
+\##185['Course Title' -> 'Special Topics in Languages'].
+\##185['Career' -> 'Graduate'].
+\##185['Units' -> '2.00'].
+\##185['Grading Basis' -> 'Graduate Graded'].
+\##185['Enrollment Requirement' -> ''].
+\##185['Course Components' -> ['Lecture']].
+\##185['Academic Group' -> 'College of Engring & App Sci'].
+\##185['Academic Organization' -> 'Computer Science'].
+\##185['Description' -> ''].
+\##1['CSE 671' -> \##186].
+\##186['Course Title' -> 'Special Topics in Artificial Intelligence'].
+\##186['Career' -> 'Graduate'].
+\##186['Units' -> '2.00'].
+\##186['Grading Basis' -> 'Graduate Graded'].
+\##186['Enrollment Requirement' -> ''].
+\##186['Course Components' -> ['Lecture']].
+\##186['Academic Group' -> 'College of Engring & App Sci'].
+\##186['Academic Organization' -> 'Computer Science'].
+\##186['Description' -> ''].
+\##1['CSE 672' -> \##187].
+\##187['Course Title' -> 'Special Topics in Image Processing'].
+\##187['Career' -> 'Graduate'].
+\##187['Units' -> '2.00'].
+\##187['Grading Basis' -> 'Graduate Graded'].
+\##187['Enrollment Requirement' -> ''].
+\##187['Course Components' -> ['Lecture']].
+\##187['Academic Group' -> 'College of Engring & App Sci'].
+\##187['Academic Organization' -> 'Computer Science'].
+\##187['Description' -> ''].
+\##1['CSE 674' -> \##188].
+\##188['Course Title' -> 'Special Topics in Operating Systems'].
+\##188['Career' -> 'Graduate'].
+\##188['Units' -> '2.00'].
+\##188['Grading Basis' -> 'Graduate Graded'].
+\##188['Enrollment Requirement' -> ''].
+\##188['Course Components' -> ['Lecture']].
+\##188['Academic Group' -> 'College of Engring & App Sci'].
+\##188['Academic Organization' -> 'Computer Science'].
+\##188['Description' -> ''].
+\##1['CSE 677' -> \##189].
+\##189['Course Title' -> 'Special Topics in User Interfaces'].
+\##189['Career' -> 'Graduate'].
+\##189['Units' -> '2.00'].
+\##189['Grading Basis' -> 'Graduate Graded'].
+\##189['Enrollment Requirement' -> ''].
+\##189['Course Components' -> ['Lecture']].
+\##189['Academic Group' -> 'College of Engring & App Sci'].
+\##189['Academic Organization' -> 'Computer Science'].
+\##189['Description' -> ''].
+\##1['CSE 681' -> \##190].
+\##190['Course Title' -> 'Special Topics in Computer Vision'].
+\##190['Career' -> 'Graduate'].
+\##190['Units' -> '2.00'].
+\##190['Grading Basis' -> 'Graduate Graded'].
+\##190['Enrollment Requirement' -> ''].
+\##190['Course Components' -> ['Lecture']].
+\##190['Academic Group' -> 'College of Engring & App Sci'].
+\##190['Academic Organization' -> 'Computer Science'].
+\##190['Description' -> 'Advanced research topics course.
+Prerequisite: Limited to CSE graduate students; others need instructor consent
+Fall,
+May be repeated for credit'].
+\##1['CSE 684' -> \##191].
+\##191['Course Title' -> 'Special Topics in Computer Security'].
+\##191['Career' -> 'Graduate'].
+\##191['Units' -> '2.00'].
+\##191['Grading Basis' -> 'Graduate Graded'].
+\##191['Enrollment Requirement' -> ''].
+\##191['Course Components' -> ['Lecture']].
+\##191['Academic Group' -> 'College of Engring & App Sci'].
+\##191['Academic Organization' -> 'Computer Science'].
+\##191['Description' -> 'Special topics course, covering selected research areas in computer security.
+Spring,'].
+\##1['CSE 686' -> \##192].
+\##192['Course Title' -> 'Special Topics in Data Privacy'].
+\##192['Career' -> 'Graduate'].
+\##192['Units' -> '2.00'].
+\##192['Grading Basis' -> 'Satisfactory/Unsatisfactory'].
+\##192['Enrollment Requirement' -> ''].
+\##192['Course Components' -> ['Lecture']].
+\##192['Academic Group' -> 'College of Engring & App Sci'].
+\##192['Academic Organization' -> 'Computer Science'].
+\##192['Description' -> 'Advanced research topics course.
+Limited to CSE graduate students; others, permission of instructor.
+Spring,'].
+\##1['CSE 687' -> \##193].
+\##193['Course Title' -> 'Special Topics in Applied Cryptography'].
+\##193['Career' -> 'Graduate'].
+\##193['Units' -> '2.00'].
+\##193['Grading Basis' -> 'Graduate Graded'].
+\##193['Enrollment Requirement' -> 'Admission to CSE Graduate Program'].
+\##193['Course Components' -> ['Lecture']].
+\##193['Academic Group' -> 'College of Engring & App Sci'].
+\##193['Academic Organization' -> 'Computer Science'].
+\##193['Description' -> ''].
+\##1['CSE 690' -> \##194].
+\##194['Course Title' -> 'Advanced Topics in Computer Science'].
+\##194['Career' -> 'Graduate'].
+\##194['Units' -> '3.00'].
+\##194['Grading Basis' -> 'Graduate Graded'].
+\##194['Enrollment Requirement' -> ''].
+\##194['Course Components' -> ['Lecture']].
+\##194['Academic Group' -> 'College of Engring & App Sci'].
+\##194['Academic Organization' -> 'Computer Science'].
+\##194['Description' -> 'An advanced lecture course on a new topics in computer science.  This course is primarily designed for PhD students, but can be taken by M.S. students as well.  Semester supplements to this Bulletin contain specific description when course is offered.  May be repeated for credit as the topic changes, but cannot be used more than twice to satisfy CSE major requirements for M.S.  Limited to CSE graduate students; others permission of instructor
+Spring,'].
+\##1['CSE 691' -> \##195].
+\##195['Course Title' -> 'Advanced Topics in Computer Science'].
+\##195['Career' -> 'Graduate'].
+\##195['Units' -> '3.00'].
+\##195['Grading Basis' -> 'Graduate Graded'].
+\##195['Enrollment Requirement' -> ''].
+\##195['Course Components' -> ['Lecture']].
+\##195['Academic Group' -> 'College of Engring & App Sci'].
+\##195['Academic Organization' -> 'Computer Science'].
+\##195['Description' -> 'An advanced course on a new topic in computer science.  This course is primarily designed for Ph.D. students, but can be taken by M.S. students as well.  Semester supplements to this Bulletin contain specific description when course is offered.  may be repeated for credit as the topic changes, but cannot be used more than twice to satisfy CSE major requirements for M.S.  Limited to CSE graduate students; others permission of instructor.
+Spring,'].
+\##1['CSE 692' -> \##196].
+\##196['Course Title' -> 'Advanced Topics in Computer Science'].
+\##196['Career' -> 'Graduate'].
+\##196['Units' -> '3.00'].
+\##196['Grading Basis' -> 'Graduate Graded'].
+\##196['Enrollment Requirement' -> ''].
+\##196['Course Components' -> ['Lecture']].
+\##196['Academic Group' -> 'College of Engring & App Sci'].
+\##196['Academic Organization' -> 'Computer Science'].
+\##196['Description' -> 'An advanced lecture course on a new topic in computer science.  This course is primarily designed for Ph.D. students, but can  be taken by M.S. students as well.  Semester supplements to this Bulletin contain specific description when course is offered.  may be repeated for credit as the topic changes, but cannot be used more than twice to satisfy CSE major requirements for M.S.  Limited to CSE graduate students; others permission of instructor.
+Spring,'].
+\##1['CSE 693' -> \##197].
+\##197['Course Title' -> 'Advanced Topics in Computer Science'].
+\##197['Career' -> 'Graduate'].
+\##197['Units' -> '3.00'].
+\##197['Grading Basis' -> 'Graduate Graded'].
+\##197['Enrollment Requirement' -> 'Limited to CSE Graduate Students'].
+\##197['Course Components' -> ['Lecture']].
+\##197['Academic Group' -> 'College of Engring & App Sci'].
+\##197['Academic Organization' -> 'Computer Science'].
+\##197['Description' -> 'An advanced lecture course on a new topic in Computer Science.  This course is primarily designed for Ph.D. students, but can be taken by M.S. students as well.  Semester supplements to this Bulletin contain specific description when course is offered.  May be repeated for credit as the topic changes, but cannot be used more than twice to satisfy CSE major requirements for M.S.   Limited to CSE graduate students; others permission of instructor.'].
+\##1['CSE (694)' -> \##198].
+\##198['Course Title' -> 'Seminar in Sustainable Computing
+
+** available as of 05/20/2024'].
+\##198['Career' -> 'Graduate'].
+\##198['Units' -> '1.00'].
+\##198['Grading Basis' -> 'Satisfactory/Unsatisfactory'].
+\##198['Enrollment Requirement' -> ''].
+\##198['Course Components' -> ['Seminar']].
+\##198['Academic Group' -> 'Engring & App Sci, College of'].
+\##198['Academic Organization' -> 'Computer Science'].
+\##198['Description' -> ''].
+\##1['CSE (695)' -> \##199].
+\##199['Course Title' -> 'Seminar in Deep Learning Theory
+
+** available as of 05/20/2024'].
+\##199['Career' -> 'Graduate'].
+\##199['Units' -> '1.00'].
+\##199['Grading Basis' -> 'Satisfactory/Unsatisfactory'].
+\##199['Enrollment Requirement' -> ''].
+\##199['Course Components' -> ['Recitation']].
+\##199['Academic Group' -> 'Engring & App Sci, College of'].
+\##199['Academic Organization' -> 'Computer Science'].
+\##199['Description' -> ''].
+\##1['CSE 696' -> \##200].
+\##200['Course Title' -> 'PhD Internship Project Off-Campus'].
+\##200['Career' -> 'Graduate'].
+\##200['Units' -> '1.00 - 3.00'].
+\##200['Grading Basis' -> 'Satisfactory/Unsatisfactory'].
+\##200['Enrollment Requirement' -> ''].
+\##200['Course Components' -> ['Tutorial']].
+\##200['Academic Group' -> 'Engring & App Sci, College of'].
+\##200['Academic Organization' -> 'Computer Science'].
+\##200['Description' -> 'Participation in internships at private corporations, public agencies, or non-profit institutions. Students will be required to have a faculty coordinator as well as a contact in the outside organization to participate with them in regular consultations on the project, and to submit a final report to both. This course is intended for PhD students interning off campus.'].
+\##1['CSE 697' -> \##201].
+\##201['Course Title' -> 'PhD Internship Project On Campus'].
+\##201['Career' -> 'Graduate'].
+\##201['Units' -> '1.00'].
+\##201['Grading Basis' -> 'Satisfactory/Unsatisfactory'].
+\##201['Enrollment Requirement' -> ''].
+\##201['Course Components' -> ['Tutorial']].
+\##201['Academic Group' -> 'Engring & App Sci, College of'].
+\##201['Academic Organization' -> 'Computer Science'].
+\##201['Description' -> 'Participation in internships at private corporations, public agencies, or non-profit institutions. Students will be required to have a faculty coordinator as well as a contact in the outside organization to participate with them in regular consultations on the project, and to submit a final report to both. This course is intended for PhD students interning on campus.'].
+\##1['CSE 698' -> \##202].
+\##202['Course Title' -> 'Practicum in Teaching'].
+\##202['Career' -> 'Graduate'].
+\##202['Units' -> '0.00 - 3.00'].
+\##202['Grading Basis' -> 'Graduate Graded'].
+\##202['Enrollment Requirement' -> ''].
+\##202['Course Components' -> ['Tutorial']].
+\##202['Academic Group' -> 'Engring & App Sci, College of'].
+\##202['Academic Organization' -> 'Computer Science'].
+\##202['Description' -> 'Supervised teaching in a course identified by the student and the Graduate Program Director.'].
+\##1['CSE 699' -> \##203].
+\##203['Course Title' -> 'Dissertation Research on Campus'].
+\##203['Career' -> 'Graduate'].
+\##203['Units' -> '0.00 - 9.00'].
+\##203['Grading Basis' -> 'Satisfactory/Unsatisfactory'].
+\##203['Enrollment Requirement' -> ''].
+\##203['Course Components' -> ['Tutorial']].
+\##203['Academic Group' -> 'Engring & App Sci, College of'].
+\##203['Academic Organization' -> 'Computer Science'].
+\##203['Description' -> 'Thesis research for PhD students who have advanced to candidacy (G5 status).  This course is taken by students when a major portion of the research is done on campus, at Cold Spring Harbor, or at the Brookhaven National Lab.'].
+\##1['CSE 700' -> \##204].
+\##204['Course Title' -> 'Dissertation Research off Campus - Domestic'].
+\##204['Career' -> 'Graduate'].
+\##204['Units' -> '0.00 - 9.00'].
+\##204['Grading Basis' -> 'Satisfactory/Unsatisfactory'].
+\##204['Enrollment Requirement' -> 'Prerequisite: G5 Standing'].
+\##204['Course Components' -> ['Tutorial']].
+\##204['Academic Group' -> 'Engring & App Sci, College of'].
+\##204['Academic Organization' -> 'Computer Science'].
+\##204['Description' -> 'Prerequisite: Must be advanced to candidacy (G5). Major portion of research will take place off-campus, but in the United States and/or U.S. provinces. Please note, Brookhaven National Labs and the Cold Spring Harbor Lab are considered on-campus.
+All international students must enroll in one of the graduate student insurance plans and should be advised by an International Advisor.
+Fall, Spring, Summer'].
+\##1['CSE 701' -> \##205].
+\##205['Course Title' -> 'Dissertation Research off Campus - International'].
+\##205['Career' -> 'Graduate'].
+\##205['Units' -> '0.00 - 9.00'].
+\##205['Grading Basis' -> 'Satisfactory/Unsatisfactory'].
+\##205['Enrollment Requirement' -> 'Prerequisite: G5 Standing'].
+\##205['Course Components' -> ['Tutorial']].
+\##205['Academic Group' -> 'Engring & App Sci, College of'].
+\##205['Academic Organization' -> 'Computer Science'].
+\##205['Description' -> 'Prerequisite: Must be advanced to candidacy (G5). Major portion of research will take place outside of the United States and/or U.S. provinces.
+Domestic students have the option of the health plan and may also enroll in MEDEX.
+International students who are in their home country are not covered by mandatory health plan and must contact the Insurance Office for the insurance charge to be removed.
+International students who are not in their home country are charged for the mandatory health insurance. If they are to be covered by another insurance plan they must file a waiver be second week of classes. The charge will only be removed if other plan is deemed comparable.
+All international students must received clearance from an International Advisor.
+Fall, Spring, Summer'].
+\##1['CSE 800' -> \##206].
+\##206['Course Title' -> 'FT SUMMER RESEARCH'].
+\##206['Career' -> 'Graduate'].
+\##206['Units' -> '0.00'].
+\##206['Grading Basis' -> 'Satisfactory/Unsatisfactory'].
+\##206['Enrollment Requirement' -> ''].
+\##206['Course Components' -> ['Tutorial']].
+\##206['Academic Group' -> 'College of Engring & App Sci'].
+\##206['Academic Organization' -> 'Computer Science'].
+\##206['Description' -> ''].
 :- new_global_oid_scope.
 ?- new_global_oid_scope.
