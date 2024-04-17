@@ -4,9 +4,6 @@
     :nosignatures:
 
     file_parts
-
-.. autoclass:: DownloadBar # does not exist -- use this for classes
-    :members:
 """
 
 import os

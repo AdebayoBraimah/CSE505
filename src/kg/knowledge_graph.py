@@ -50,8 +50,8 @@ def scrape_sbu_solar(
 ) -> Union[pd.DataFrame, str]:
     """Scrape Stony Brook University's course catalog for a specific major's course information.
 
-    NOTE:
-        - This function uses Selenium WebDriver and specific ``div`` IDs to scrape the course catalog.
+    WARNING:
+        - This function uses a Selenium WebDriver and specific ``div`` IDs to scrape the course catalog.
 
     Usage example:
         >>> url = "https://prod.ps.stonybrook.edu/psc/csprodg/EMPLOYEE/CAMP/c/COMMUNITY_ACCESS.SSS_BROWSE_CATLG.GBL?"
@@ -65,7 +65,7 @@ def scrape_sbu_solar(
     Args:
         url: Input Stony Brook URL to scrape.
         major_three_letter_code: Three letter code for the major (e.g. CSE for computer science).
-        wait_time: Maximum wait time for each click operation. Defaults to 10.
+        wait_time: Maximum wait time (in seconds) for each click operation. Defaults to 10.
         headless: Do not open brower. Defaults to True.
         verbose: Print output to screen. Defaults to False.
         output_filename: Output filename for the JSON file. If specified, this filename is returned (in addition to a JSON file being created). If not specified, a Pandas ``dataframe`` is returned instead. Defaults to None.
