@@ -50,7 +50,11 @@ def scrape_sbu_solar(
 ) -> Union[pd.DataFrame, str]:
     """Scrape Stony Brook University's course catalog for a specific major's course information.
 
+    NOTE:
+        - This function uses Selenium WebDriver and specific ``div`` IDs to scrape the course catalog.
+
     Usage example:
+        >>> url = "https://prod.ps.stonybrook.edu/psc/csprodg/EMPLOYEE/CAMP/c/COMMUNITY_ACCESS.SSS_BROWSE_CATLG.GBL?"
         >>> df = scrape_sbu_solar(
         ...        url=url,
         ...        major_three_letter_code="cse",
@@ -259,6 +263,7 @@ def scrape_sbu_solar(
         except NoSuchElementException:
             description: str = ""
 
+        # TODO: Strip non-numeric characters from course number
         # Update course number with three letter code
         course_numbers_with_three_letter_code.append(
             f"{major_three_letter_code} {course}"
@@ -294,11 +299,21 @@ def scrape_sbu_solar(
     df.insert(df.columns.__len__(), "Academic Organization", academic_organization_list)
     df.insert(df.columns.__len__(), "Description", description_list)
 
+    # Replace index with Course Nbr
+    df.set_index(
+        "Course Nbr",
+        inplace=True,
+        drop=True,  # Drop the Index column
+    )
+
+    # Remove duplicate rows
+    df = df[~df.index.duplicated(keep="first")]
+
     # Quit the driver, close the browser
     driver.quit()
 
     if _return_json:
-        return df.to_json(output_filename, orient="records", indent=4)
+        return df.to_json(output_filename, orient="index", indent=4)
     else:
         return df
 
