@@ -53,7 +53,7 @@ def scrape_sbu_solar(
     """Scrape Stony Brook University's course catalog for a specific major's course information.
 
     WARNING:
-        - This function uses a Selenium WebDriver and specific ``div`` IDs to scrape the course catalog.
+        - This function uses a ``Selenium WebDriver`` and specific ``div`` IDs to scrape the course catalog.
 
     Usage example:
         >>> url = "https://prod.ps.stonybrook.edu/psc/csprodg/EMPLOYEE/CAMP/c/COMMUNITY_ACCESS.SSS_BROWSE_CATLG.GBL?"
@@ -376,7 +376,7 @@ def _get_course_components(driver: webdriver) -> Tuple[str, ...]:
     """Helper function to get course components. Course components may include more than one word.
 
     Args:
-        driver: Selenium WebDriver object.
+        driver: ``Selenium WebDriver`` object.
 
     Returns:
         Tuple that consists of course components.
