@@ -1,5 +1,5 @@
 # Web scraping/interfacing
-selenuim
+# selenuim # This always fails on automated builds
 webdriver-manager
 
 # Data manipulation
