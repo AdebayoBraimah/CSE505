@@ -1,0 +1,36 @@
+
+list of lists
+
+or boolean expressions
+
+MAT 151 or MAT 152, as well as MAT 161 or MAT 162
+
+[["MAT 151", "MAT 152"], ["MAT 161", "MAT 162"]]
+
+If using clingo
+
+course(512).
+course(306).
+
+prereq(512, [[mat110, mat112],[cse110,cse112]]).
+
+desc(512, "This is a course").
+
+:- #count{ enroll(X,Semester)} 6 :- Semester in 1...N.
+:- #min{}
+
+# TSP Example -- minimization
+
+
+# Tests
+Reachability
+Cycle detection
+Topological sort
+Shortest path
+Minimum spanning tree
+Unit tests
+
+Call it programmatically
+
+e.g. clingo proj.lp data.lp department_rules.lp --outf=2 --quiet=1
+
