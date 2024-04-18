@@ -34,11 +34,24 @@ import subprocess
 command = "pip install selenium"
 command = shlex.split(command)
 
+subprocess.run(command, check=True)
+
 ##################################################
 # End Insall selenium                            #
 ##################################################
 
-subprocess.run(command, check=True)
+##################################################
+# Add ERGOAI python interface to system path     #
+##################################################
+
+_ergo_py_path = os.path.join(pathlib.Path(os.path.abspath(__file__)).parents[1], "ergo")
+
+sys.path.insert(0, _ergo_py_path)
+sys.path.append(_ergo_py_path)
+
+##################################################
+# End Add ERGOAI python interface to system path #
+##################################################
 
 sys.path.insert(0, _pkg_path)
 sys.path.append(_pkg_path)
