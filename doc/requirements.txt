@@ -1,11 +1,3 @@
-# Project requirements
-# Web scraping/interfacing
-selenuim # Install this first
-webdriver-manager
-
-# Data manipulation
-pandas
-
 # Documentation requirements
 sphinx 
 sphinx-autodoc-typehints 
