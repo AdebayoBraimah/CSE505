@@ -30,6 +30,8 @@ sphinx:
 python:
   install:
     - method: pip
-      path: selenuim
+      path: .
+      extra_requirements:
+        - selenuim
     - requirements: requirements.txt
     - requirements: doc/requirements.txt
