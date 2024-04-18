@@ -25,6 +25,8 @@ _pkg_path: str = str(pathlib.Path(os.path.abspath(__file__)).parents[2])
 ##################################################
 # Install selenium                               #
 ##################################################
+#
+# NOTE: This is a temporary fix to install selenium
 
 import shlex
 import subprocess
