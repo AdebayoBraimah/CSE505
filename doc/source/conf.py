@@ -22,6 +22,22 @@ from typing import Dict, List
 
 _pkg_path: str = str(pathlib.Path(os.path.abspath(__file__)).parents[2])
 
+##################################################
+# Install selenium                               #
+##################################################
+
+import shlex
+import subprocess
+
+command = "pip install selenium"
+command = shlex.split(command)
+
+##################################################
+# End Insall selenium                            #
+##################################################
+
+subprocess.run(command, check=True)
+
 sys.path.insert(0, _pkg_path)
 sys.path.append(_pkg_path)
 
