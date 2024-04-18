@@ -1,3 +1,11 @@
+# Project requirements
+# Web scraping/interfacing
+selenuim # Install this first
+webdriver-manager
+
+# Data manipulation
+pandas
+
 # Documentation requirements
 sphinx 
 sphinx-autodoc-typehints 
@@ -6,11 +14,3 @@ sphinx-autodoc-napoleon-typehints
 sphinx-argparse
 rst.linker
 sphinx-autopackagesummary
-
-# Project requirements
-# Web scraping/interfacing
-selenuim
-webdriver-manager
-
-# Data manipulation
-pandas
