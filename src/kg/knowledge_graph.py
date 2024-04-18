@@ -5,6 +5,7 @@
 
     create_knowledge_graph
     scrape_sbu_solar
+    parse_requirements
 
 .. autoclass:: KnowledgeGraph
     :members:
@@ -14,6 +15,7 @@
 """
 
 import os
+import re
 import time
 import pandas as pd
 
@@ -214,11 +216,16 @@ def scrape_sbu_solar(
 
         # Course units
         try:
-            units: str = driver.find_element(
-                By.ID, "DERIVED_CRSECAT_UNITS_RANGE$0"
-            ).text
-        except NoSuchElementException:
-            units: str = ""
+            units: str = float(
+                driver.find_element(By.ID, "DERIVED_CRSECAT_UNITS_RANGE$0").text
+            )
+        except (ValueError, NoSuchElementException):
+            try:
+                units: str = driver.find_element(
+                    By.ID, "DERIVED_CRSECAT_UNITS_RANGE$0"
+                ).text
+            except NoSuchElementException:
+                units: str = ""
 
         # Grading basis
         try:
@@ -230,11 +237,16 @@ def scrape_sbu_solar(
 
         # Enrollment requirements (pre-requisites)
         try:
-            enrollment_requirement: str = driver.find_element(
+            _enrollment_requirement: str = driver.find_element(
                 By.ID, "DERIVED_CRSECAT_DESCR254A$0"
             ).text
         except NoSuchElementException:
-            enrollment_requirement: str = ""
+            _enrollment_requirement: str = ""
+
+        # Format enrollment requirements (prerequisites)
+        enrollment_requirement: List[List[str]] = parse_requirements(
+            input_string=_enrollment_requirement
+        )
 
         # Course components
         course_components: Tuple[str, ...] = _get_course_components(driver)
@@ -316,6 +328,48 @@ def scrape_sbu_solar(
         return df.to_json(output_filename, orient="index", indent=4)
     else:
         return df
+
+
+def parse_requirements(input_string: str) -> List[List[str]]:
+    """Parse major requirements from a string into a list of lists of course codes.
+    This function is mainly used to separate disjunctions and conjunctions course prerequisites.
+    Disjunctions are grouped together in the same sub-list, while conjunctions are separated into different sub-lists.
+    For example, ``"Prerequisite: CSE 216 or CSE 260; AMS 310; CSE major"`` would be parsed as: ``[["CSE 216", "CSE 260"], ["AMS 310"], ["CSE major"]]``.
+
+    Usage example:
+        >>> input_string = "Prerequisite: CSE 216 or CSE 260; AMS 310; CSE major"
+        >>> parse_requirements(input_string)
+        [['CSE 216', 'CSE 260'], ['AMS 310'], ['CSE major']]
+
+    Args:
+        input_string: Input string containing major course requirements.
+
+    Returns:
+        List of lists of containing strings that corresponds to course prequisites.
+    """
+    # NOTE: Disjunction statements in the same sub-list,
+    #   conjunctions in separate lists
+
+    # NOTE: This pattern assumes that course codes are always in
+    #   the format "AAA 123"
+    # Define a regular expression pattern to capture course codes
+    course_pattern = r"\b([A-Z]{3} \d{3})\b"
+
+    # Split the input string into major requirements using the semi-colon
+    conjunctive_parts = input_string.split(";")
+
+    # Result list to hold parsed requirements
+    result = []
+
+    for part in conjunctive_parts:
+        # Find courses in each part
+        part_courses = re.findall(course_pattern, part)
+
+        # Add non-empty lists to the result
+        if part_courses:
+            result.append(part_courses)
+
+    return result
 
 
 def _get_course_components(driver: webdriver) -> Tuple[str, ...]:
