@@ -73,10 +73,7 @@ def scrape_sbu_solar(
         output_filename: Output filename for the JSON file. If specified, this filename is returned (in addition to a JSON file being created). If not specified, a Pandas ``dataframe`` is returned instead. Defaults to None.
 
     Raises:
-        ValueError:
-            * Arises if the course table is not displayed.
-            * Arises if the course table is empty.
-            * Arises if the wait time is less than 0 seconds.
+        ValueError: Arises if the course table is not displayed, is empty, or if the wait time is less than 0 seconds.
 
     Returns:
         Either a Pandas ``dataframe`` or a JSON file (if ``output_filename`` is specified).
