@@ -2,9 +2,14 @@
     "CSE 101":{
         "Course Title":"Computer Science Principles",
         "Career":"Undergraduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"Student Option",
-        "Enrollment Requirement":"Prerequisite: Level 3 or higher on the mathematics placement examination Anti-requisite: May not be taken by students with credit for CSE 114 or CSE 160",
+        "Enrollment Requirement":[
+            [
+                "CSE 114",
+                "CSE 160"
+            ]
+        ],
         "Course Components":[
             "Laboratory",
             "Lecture"
@@ -16,9 +21,13 @@
     "CSE 102":{
         "Course Title":"Introduction to Web Design and Programming",
         "Career":"Undergraduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"Student Option",
-        "Enrollment Requirement":"Advisory Prerequisite: CSE 101 or basic computer skills",
+        "Enrollment Requirement":[
+            [
+                "CSE 101"
+            ]
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -29,9 +38,11 @@
     "CSE 110":{
         "Course Title":"Introduction to Computer Science",
         "Career":"Undergraduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"Student Option",
-        "Enrollment Requirement":"Prerequisite: Level 3 or higher on the mathematics placement examination",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Laboratory",
             "Lecture"
@@ -43,9 +54,15 @@
     "CSE (113)":{
         "Course Title":"Foundations of Computer Science I\n\n** available as of 08\/20\/2024",
         "Career":"Undergraduate",
-        "Units":"4.00",
+        "Units":4.0,
         "Grading Basis":"A Through F Undergraduate",
-        "Enrollment Requirement":"Prerequisite: AMS 151 or MAT 125 or MAT 131 or level 6 on the mathematics placement examination",
+        "Enrollment Requirement":[
+            [
+                "AMS 151",
+                "MAT 125",
+                "MAT 131"
+            ]
+        ],
         "Course Components":[
             "Lecture",
             "Recitation"
@@ -57,9 +74,14 @@
     "CSE 114":{
         "Course Title":"Introduction to Object-Oriented Programming",
         "Career":"Undergraduate",
-        "Units":"4.00",
+        "Units":4.0,
         "Grading Basis":"A Through F Undergraduate",
-        "Enrollment Requirement":"Prerequisite: Level 5 or higher on the math placement exam Advisory Prerequisite: CSE 101 or ISE 108",
+        "Enrollment Requirement":[
+            [
+                "CSE 101",
+                "ISE 108"
+            ]
+        ],
         "Course Components":[
             "Laboratory",
             "Lecture"
@@ -71,9 +93,11 @@
     "CSE 130":{
         "Course Title":"Introduction to Programming in C",
         "Career":"Undergraduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"Student Option",
-        "Enrollment Requirement":"Prerequisite: Level 3 or higher on the mathematics placement examination",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Laboratory",
             "Lecture"
@@ -85,9 +109,11 @@
     "CSE 150":{
         "Course Title":"Foundations of Computer Science: Honors",
         "Career":"Undergraduate",
-        "Units":"4.00",
+        "Units":4.0,
         "Grading Basis":"A Through F Undergraduate",
-        "Enrollment Requirement":"Prerequisite: one MAT course that satisfies D.E.C. C or QPS or score of level 4 on the math placement exam; admission to Honors in Computer Science or the Honors College or the WISE Honors Program or University Scholars.",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Lecture",
             "Recitation"
@@ -99,9 +125,13 @@
     "CSE 160":{
         "Course Title":"Computer Science A: Honors",
         "Career":"Undergraduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"A Through F Undergraduate",
-        "Enrollment Requirement":"Prerequisite: Honors in Computer Science or the Honors College or the WISE Honors Program or University Scholars. Corequisite: CSE 161",
+        "Enrollment Requirement":[
+            [
+                "CSE 161"
+            ]
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -112,9 +142,13 @@
     "CSE 161":{
         "Course Title":"Laboratory for Computer Science A: Honors",
         "Career":"Undergraduate",
-        "Units":"1.00",
+        "Units":1.0,
         "Grading Basis":"A Through F Undergraduate",
-        "Enrollment Requirement":"Corequisite: CSE 160",
+        "Enrollment Requirement":[
+            [
+                "CSE 160"
+            ]
+        ],
         "Course Components":[
             "Laboratory"
         ],
@@ -125,9 +159,11 @@
     "CSE 190":{
         "Course Title":"Special Topics in Practice and Applications of Computer Science",
         "Career":"Undergraduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"Student Option",
-        "Enrollment Requirement":"",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -138,9 +174,11 @@
     "CSE 191":{
         "Course Title":"Special Topics in Practice and Applications for Computer Science",
         "Career":"Undergraduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"Student Option",
-        "Enrollment Requirement":"",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -151,9 +189,11 @@
     "CSE 192":{
         "Course Title":"Special Topics in Practice and Applications for Computer Science",
         "Career":"Undergraduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"Student Option",
-        "Enrollment Requirement":"",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -164,9 +204,13 @@
     "CSE (213)":{
         "Course Title":"Foundations of Computer Science II\n\n** available as of 08\/20\/2025",
         "Career":"Undergraduate",
-        "Units":"4.00",
+        "Units":4.0,
         "Grading Basis":"A Through F Undergraduate",
-        "Enrollment Requirement":"Prerequisite: CSE 113; CSE major",
+        "Enrollment Requirement":[
+            [
+                "CSE 113"
+            ]
+        ],
         "Course Components":[
             "Lecture",
             "Recitation"
@@ -178,9 +222,13 @@
     "CSE 214":{
         "Course Title":"Data Structures",
         "Career":"Undergraduate",
-        "Units":"4.00",
+        "Units":4.0,
         "Grading Basis":"A Through F Undergraduate",
-        "Enrollment Requirement":"Prerequisite: C or higher in CSE 114",
+        "Enrollment Requirement":[
+            [
+                "CSE 114"
+            ]
+        ],
         "Course Components":[
             "Lecture",
             "Recitation"
@@ -192,9 +240,15 @@
     "CSE 215":{
         "Course Title":"Foundations of Computer Science",
         "Career":"Undergraduate",
-        "Units":"4.00",
+        "Units":4.0,
         "Grading Basis":"A Through F Undergraduate",
-        "Enrollment Requirement":"Prerequisite: AMS 151 or MAT 125 or MAT 131",
+        "Enrollment Requirement":[
+            [
+                "AMS 151",
+                "MAT 125",
+                "MAT 131"
+            ]
+        ],
         "Course Components":[
             "Lecture",
             "Recitation"
@@ -206,9 +260,13 @@
     "CSE 216":{
         "Course Title":"Programming Abstractions",
         "Career":"Undergraduate",
-        "Units":"4.00",
+        "Units":4.0,
         "Grading Basis":"A Through F Undergraduate",
-        "Enrollment Requirement":"Prerequisites: C or higher in CSE 214; CSE major",
+        "Enrollment Requirement":[
+            [
+                "CSE 214"
+            ]
+        ],
         "Course Components":[
             "Lecture",
             "Recitation"
@@ -220,9 +278,14 @@
     "CSE 220":{
         "Course Title":"Systems Fundamentals I",
         "Career":"Undergraduate",
-        "Units":"4.00",
+        "Units":4.0,
         "Grading Basis":"A Through F Undergraduate",
-        "Enrollment Requirement":"Prerequisites: C or higher in CSE 214 or co-requisite CSE 260 and CSE major",
+        "Enrollment Requirement":[
+            [
+                "CSE 214",
+                "CSE 260"
+            ]
+        ],
         "Course Components":[
             "Lecture",
             "Recitation"
@@ -234,9 +297,18 @@
     "CSE 230":{
         "Course Title":"Intermediate Programming in C and C++",
         "Career":"Undergraduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"Student Option",
-        "Enrollment Requirement":"Prerequisite: CSE 130 or CSE 220 or ESE 124 or ESG 111 or BME 120 or MEC 102",
+        "Enrollment Requirement":[
+            [
+                "CSE 130",
+                "CSE 220",
+                "ESE 124",
+                "ESG 111",
+                "BME 120",
+                "MEC 102"
+            ]
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -247,9 +319,14 @@
     "CSE 260":{
         "Course Title":"Computer Science B: Honors",
         "Career":"Undergraduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"A Through F Undergraduate",
-        "Enrollment Requirement":"Prerequisite: CSE 160 Corequisite: CSE 261",
+        "Enrollment Requirement":[
+            [
+                "CSE 160",
+                "CSE 261"
+            ]
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -260,9 +337,13 @@
     "CSE 261":{
         "Course Title":"Laboratory for Computer Science B: Honors",
         "Career":"Undergraduate",
-        "Units":"1.00",
+        "Units":1.0,
         "Grading Basis":"A Through F Undergraduate",
-        "Enrollment Requirement":"Corequisite: CSE 260",
+        "Enrollment Requirement":[
+            [
+                "CSE 260"
+            ]
+        ],
         "Course Components":[
             "Laboratory"
         ],
@@ -273,9 +354,13 @@
     "CSE 300":{
         "Course Title":"Technical Communications",
         "Career":"Undergraduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"Undergraduate Graded",
-        "Enrollment Requirement":"Prerequisites: WRT 102, CSE or ISE major, U3 or U4 standing",
+        "Enrollment Requirement":[
+            [
+                "WRT 102"
+            ]
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -286,9 +371,11 @@
     "CSE 301":{
         "Course Title":"History of Computing",
         "Career":"Undergraduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"Student Option",
-        "Enrollment Requirement":"Prerequisite: U2 standing or higher Advisory Prerequisite: one course in computing",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -299,9 +386,18 @@
     "CSE 303":{
         "Course Title":"Introduction to the Theory of Computation",
         "Career":"Undergraduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"A Through F Undergraduate",
-        "Enrollment Requirement":"Prerequisites: C or higher: CSE 160 or CSE 214; CSE 150 or CSE 215; CSE major",
+        "Enrollment Requirement":[
+            [
+                "CSE 160",
+                "CSE 214"
+            ],
+            [
+                "CSE 150",
+                "CSE 215"
+            ]
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -312,9 +408,19 @@
     "CSE 304":{
         "Course Title":"Compiler Design",
         "Career":"Undergraduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"A Through F Undergraduate",
-        "Enrollment Requirement":"Prerequisites: C or higher: CSE 216 or CSE 260; CSE 220 Advisory Prerequisites: CSE 303 or CSE 350",
+        "Enrollment Requirement":[
+            [
+                "CSE 216",
+                "CSE 260"
+            ],
+            [
+                "CSE 220",
+                "CSE 303",
+                "CSE 350"
+            ]
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -325,9 +431,14 @@
     "CSE 305":{
         "Course Title":"Principles of Database Systems",
         "Career":"Undergraduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"A Through F Undergraduate",
-        "Enrollment Requirement":"Prerequisites: C or higher: CSE 216 or CSE 260; CSE major",
+        "Enrollment Requirement":[
+            [
+                "CSE 216",
+                "CSE 260"
+            ]
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -338,9 +449,18 @@
     "CSE 306":{
         "Course Title":"Operating Systems",
         "Career":"Undergraduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"A Through F Undergraduate",
-        "Enrollment Requirement":"Prerequisites: C or higher: CSE 216  or CSE 260; CSE 320 or ESE 380; CSE Major or ECE major.",
+        "Enrollment Requirement":[
+            [
+                "CSE 216",
+                "CSE 260"
+            ],
+            [
+                "CSE 320",
+                "ESE 380"
+            ]
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -351,9 +471,17 @@
     "CSE 307":{
         "Course Title":"Principles of Programming Languages",
         "Career":"Undergraduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"A Through F Undergraduate",
-        "Enrollment Requirement":"Prerequisites: C or higher: CSE 216 or CSE 260; CSE 220; CSE major.",
+        "Enrollment Requirement":[
+            [
+                "CSE 216",
+                "CSE 260"
+            ],
+            [
+                "CSE 220"
+            ]
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -364,9 +492,20 @@
     "CSE 310":{
         "Course Title":"Computer Networks",
         "Career":"Undergraduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"A Through F Undergraduate",
-        "Enrollment Requirement":"Prerequisites: C or higher: CSE 214 or 260; CSE 220 or ISE 218; CSE major or ISE major. Advisory Pre- or Corequisite: AMS 310",
+        "Enrollment Requirement":[
+            [
+                "CSE 214"
+            ],
+            [
+                "CSE 220",
+                "ISE 218"
+            ],
+            [
+                "AMS 310"
+            ]
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -377,9 +516,16 @@
     "CSE 311":{
         "Course Title":"Systems Administration",
         "Career":"Undergraduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"A Through F Undergraduate",
-        "Enrollment Requirement":"Prerequisites: CSE 214 or CSE 230 or CSE 260 or ISE 208; ISE or CSE major",
+        "Enrollment Requirement":[
+            [
+                "CSE 214",
+                "CSE 230",
+                "CSE 260",
+                "ISE 208"
+            ]
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -390,9 +536,11 @@
     "CSE 312":{
         "Course Title":"Social, Legal, and Ethical Issues in Computing",
         "Career":"Undergraduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"A Through F Undergraduate",
-        "Enrollment Requirement":"Prerequisites: CSE or ISE major; U3 or U4 standing; one D.E.C. E or SNW  course",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -403,9 +551,14 @@
     "CSE 316":{
         "Course Title":"Fundamentals of Software Development",
         "Career":"Undergraduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"A Through F Undergraduate",
-        "Enrollment Requirement":"Prerequisites: C or higher in CSE 216 or CSE 260; CSE major",
+        "Enrollment Requirement":[
+            [
+                "CSE 216",
+                "CSE 260"
+            ]
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -416,9 +569,13 @@
     "CSE 320":{
         "Course Title":"Systems Fundamentals II",
         "Career":"Undergraduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"A Through F Undergraduate",
-        "Enrollment Requirement":"Prerequisite: C or higher: CSE 220 and CSE major.",
+        "Enrollment Requirement":[
+            [
+                "CSE 220"
+            ]
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -429,9 +586,16 @@
     "CSE 323":{
         "Course Title":"Human-Computer Interaction",
         "Career":"Undergraduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"A Through F Undergraduate",
-        "Enrollment Requirement":"Prerequisites: CSE 214 or CSE 230 or CSE 260 or ISE 208",
+        "Enrollment Requirement":[
+            [
+                "CSE 214",
+                "CSE 230",
+                "CSE 260",
+                "ISE 208"
+            ]
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -442,9 +606,15 @@
     "CSE 325":{
         "Course Title":"Computers and Sculpture",
         "Career":"Undergraduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"Student Option",
-        "Enrollment Requirement":"Prerequisite: CSE 110 or CSE 101 or CSE 114",
+        "Enrollment Requirement":[
+            [
+                "CSE 110",
+                "CSE 101",
+                "CSE 114"
+            ]
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -455,9 +625,19 @@
     "CSE 327":{
         "Course Title":"Fundamentals of Computer Vision",
         "Career":"Undergraduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"A Through F Undergraduate",
-        "Enrollment Requirement":"Prerequisites: CSE 214 or CSE 230 or CSE 260; AMS 210 or MAT 211; CSE or ISE major",
+        "Enrollment Requirement":[
+            [
+                "CSE 214",
+                "CSE 230",
+                "CSE 260"
+            ],
+            [
+                "AMS 210",
+                "MAT 211"
+            ]
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -468,9 +648,17 @@
     "CSE 328":{
         "Course Title":"Fundamentals of Computer Graphics",
         "Career":"Undergraduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"A Through F Undergraduate",
-        "Enrollment Requirement":"Prerequisites: C or higher: CSE 216 or CSE 260; CSE 220; CSE major",
+        "Enrollment Requirement":[
+            [
+                "CSE 216",
+                "CSE 260"
+            ],
+            [
+                "CSE 220"
+            ]
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -481,9 +669,16 @@
     "CSE 331":{
         "Course Title":"Computer Security Fundamentals",
         "Career":"Undergraduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"A Through F Undergraduate",
-        "Enrollment Requirement":"Prerequisite: CSE 220; CSE major Advisory pre-or corequisite: CSE 320",
+        "Enrollment Requirement":[
+            [
+                "CSE 220"
+            ],
+            [
+                "CSE 320"
+            ]
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -494,9 +689,22 @@
     "CSE 332":{
         "Course Title":"Introduction to Visualization",
         "Career":"Undergraduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"A Through F Undergraduate",
-        "Enrollment Requirement":"Prerequisites: CSE 214 or CSE 260; MAT 211 or AMS 210; AMS 110 or AMS 310; CSE or ISE major",
+        "Enrollment Requirement":[
+            [
+                "CSE 214",
+                "CSE 260"
+            ],
+            [
+                "MAT 211",
+                "AMS 210"
+            ],
+            [
+                "AMS 110",
+                "AMS 310"
+            ]
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -507,9 +715,14 @@
     "CSE 333":{
         "Course Title":"User Interface Development",
         "Career":"Undergraduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"A Through F Undergraduate",
-        "Enrollment Requirement":"Prerequisite: CSE 214 or CSE 260; CSE or ISE major",
+        "Enrollment Requirement":[
+            [
+                "CSE 214",
+                "CSE 260"
+            ]
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -520,9 +733,11 @@
     "CSE 334":{
         "Course Title":"Introduction to Multimedia Systems",
         "Career":"Undergraduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"A Through F Undergraduate",
-        "Enrollment Requirement":"Prerequisite: U2, U3 or U4 standing; CSE or ISE major",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -533,9 +748,14 @@
     "CSE 336":{
         "Course Title":"Internet Programming",
         "Career":"Undergraduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"A Through F Undergraduate",
-        "Enrollment Requirement":"Prerequisites: C or higher in CSE 216 or CSE 260; CSE major",
+        "Enrollment Requirement":[
+            [
+                "CSE 216",
+                "CSE 260"
+            ]
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -546,9 +766,14 @@
     "CSE 337":{
         "Course Title":"Scripting Languages",
         "Career":"Undergraduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"A Through F Undergraduate",
-        "Enrollment Requirement":"Prerequisites: CSE 214 or CSE 260; CSE or ISE major; U3 or U4 standing",
+        "Enrollment Requirement":[
+            [
+                "CSE 214",
+                "CSE 260"
+            ]
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -559,9 +784,18 @@
     "CSE 350":{
         "Course Title":"Theory of Computation: Honors",
         "Career":"Undergraduate",
-        "Units":"4.00",
+        "Units":4.0,
         "Grading Basis":"A Through F Undergraduate",
-        "Enrollment Requirement":"Prerequisites: CSE 150 or CSE 215; AMS 210 or MAT 211; Honors in Computer Science or the Honors College or the WISE Honors Program or University Scholars.",
+        "Enrollment Requirement":[
+            [
+                "CSE 150",
+                "CSE 215"
+            ],
+            [
+                "AMS 210",
+                "MAT 211"
+            ]
+        ],
         "Course Components":[
             "Lecture",
             "Recitation"
@@ -573,9 +807,17 @@
     "CSE 351":{
         "Course Title":"Introduction to Data Science",
         "Career":"Undergraduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"A Through F Undergraduate",
-        "Enrollment Requirement":"Prerequisites: CSE 214 or CSE 260; AMS 310; CSE major",
+        "Enrollment Requirement":[
+            [
+                "CSE 214",
+                "CSE 260"
+            ],
+            [
+                "AMS 310"
+            ]
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -586,9 +828,14 @@
     "CSE 352":{
         "Course Title":"Artificial Intelligence",
         "Career":"Undergraduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"A Through F Undergraduate",
-        "Enrollment Requirement":"Prerequisites: C or higher in CSE 216 or CSE 260; CSE major",
+        "Enrollment Requirement":[
+            [
+                "CSE 216",
+                "CSE 260"
+            ]
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -599,9 +846,19 @@
     "CSE 353":{
         "Course Title":"Machine Learning",
         "Career":"Undergraduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"A Through F Undergraduate",
-        "Enrollment Requirement":"Prerequisites: CSE 216 or CSE 260; CSE major Pre- or Co-requisite: AMS 310 or AMS 311 or AMS 412",
+        "Enrollment Requirement":[
+            [
+                "CSE 216",
+                "CSE 260"
+            ],
+            [
+                "AMS 310",
+                "AMS 311",
+                "AMS 412"
+            ]
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -612,9 +869,14 @@
     "CSE 354":{
         "Course Title":"Natural Language Processing",
         "Career":"Undergraduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"A Through F Undergraduate",
-        "Enrollment Requirement":"Prerequisites: CSE 216 or CSE 260; CSE major",
+        "Enrollment Requirement":[
+            [
+                "CSE 216",
+                "CSE 260"
+            ]
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -625,9 +887,13 @@
     "CSE 355":{
         "Course Title":"Computational Geometry",
         "Career":"Undergraduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"Student Option",
-        "Enrollment Requirement":"Prerequisites: AMS 301; programming knowledge of C or C++ or Java",
+        "Enrollment Requirement":[
+            [
+                "AMS 301"
+            ]
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -638,9 +904,16 @@
     "CSE 356":{
         "Course Title":"Cloud Computing",
         "Career":"Undergraduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"A Through F Undergraduate",
-        "Enrollment Requirement":"Prerequisites: C or higher: CSE 316; CSE 320; CSE major",
+        "Enrollment Requirement":[
+            [
+                "CSE 316"
+            ],
+            [
+                "CSE 320"
+            ]
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -651,9 +924,17 @@
     "CSE 357":{
         "Course Title":"Statistical Methods for Data Science",
         "Career":"Undergraduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"A Through F Undergraduate",
-        "Enrollment Requirement":"Prerequisite: C or higher in CSE 216 or CSE 260; AMS 310; CSE major",
+        "Enrollment Requirement":[
+            [
+                "CSE 216",
+                "CSE 260"
+            ],
+            [
+                "AMS 310"
+            ]
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -664,9 +945,16 @@
     "CSE 360":{
         "Course Title":"Software Security",
         "Career":"Undergraduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"A Through F Undergraduate",
-        "Enrollment Requirement":"Prerequisites: CSE 220; CSE major Advisory Pre-or corequisite: CSE 320",
+        "Enrollment Requirement":[
+            [
+                "CSE 220"
+            ],
+            [
+                "CSE 320"
+            ]
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -677,9 +965,16 @@
     "CSE 361":{
         "Course Title":"Web Security",
         "Career":"Undergraduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"A Through F Undergraduate",
-        "Enrollment Requirement":"Prerequisites: CSE 220; CSE major Advisory Pre-or corequisite: CSE 320",
+        "Enrollment Requirement":[
+            [
+                "CSE 220"
+            ],
+            [
+                "CSE 320"
+            ]
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -690,9 +985,16 @@
     "CSE 362":{
         "Course Title":"Mobile Security",
         "Career":"Undergraduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"A Through F Undergraduate",
-        "Enrollment Requirement":"Prerequisites: CSE 220; CSE major Advisory Pre-or corequisite: CSE 320",
+        "Enrollment Requirement":[
+            [
+                "CSE 220"
+            ],
+            [
+                "CSE 320"
+            ]
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -703,9 +1005,16 @@
     "CSE 363":{
         "Course Title":"Offensive Security",
         "Career":"Undergraduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"A Through F Undergraduate",
-        "Enrollment Requirement":"Prerequisites: CSE 220; CSE major Advisory Pre-or corequisite: CSE 320",
+        "Enrollment Requirement":[
+            [
+                "CSE 220"
+            ],
+            [
+                "CSE 320"
+            ]
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -716,9 +1025,13 @@
     "CSE 364":{
         "Course Title":"Advanced Multimedia Techniques",
         "Career":"Undergraduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"A Through F Undergraduate",
-        "Enrollment Requirement":"Prerequisites: CSE\/ISE 334",
+        "Enrollment Requirement":[
+            [
+                "ISE 334"
+            ]
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -729,9 +1042,14 @@
     "CSE 366":{
         "Course Title":"Introduction to Virtual Reality",
         "Career":"Undergraduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"A Through F Undergraduate",
-        "Enrollment Requirement":"Prerequisites: CSE 328 or CSE\/ISE 332; CSE major",
+        "Enrollment Requirement":[
+            [
+                "CSE 328",
+                "ISE 332"
+            ]
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -742,9 +1060,13 @@
     "CSE 370":{
         "Course Title":"Wireless and Mobile Networking",
         "Career":"Undergraduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"A Through F Undergraduate",
-        "Enrollment Requirement":"Prerequisite: CSE 310; CSE major",
+        "Enrollment Requirement":[
+            [
+                "CSE 310"
+            ]
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -755,9 +1077,16 @@
     "CSE 371":{
         "Course Title":"Logic",
         "Career":"Undergraduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"A Through F Undergraduate",
-        "Enrollment Requirement":"Prerequisite: CSE 150 or CSE 215 or MAT 200 or MAT 250",
+        "Enrollment Requirement":[
+            [
+                "CSE 150",
+                "CSE 215",
+                "MAT 200",
+                "MAT 250"
+            ]
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -768,9 +1097,24 @@
     "CSE 373":{
         "Course Title":"Analysis of Algorithms",
         "Career":"Undergraduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"Student Option",
-        "Enrollment Requirement":"Prerequisites: C or higher in: CSE 150 or CSE 215 or MAT 200 or MAT 250; MAT 211 or AMS 210; CSE 214 or CSE 260; CSE or MAT major",
+        "Enrollment Requirement":[
+            [
+                "CSE 150",
+                "CSE 215",
+                "MAT 200",
+                "MAT 250"
+            ],
+            [
+                "MAT 211",
+                "AMS 210"
+            ],
+            [
+                "CSE 214",
+                "CSE 260"
+            ]
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -781,9 +1125,16 @@
     "CSE 376":{
         "Course Title":"Advanced Systems Programming in UNIX\/C",
         "Career":"Undergraduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"Student Option",
-        "Enrollment Requirement":"Prerequisites: C or higher: CSE 216 or 260; CSE 320; CSE major",
+        "Enrollment Requirement":[
+            [
+                "CSE 216"
+            ],
+            [
+                "CSE 320"
+            ]
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -794,9 +1145,18 @@
     "CSE 377":{
         "Course Title":"Introduction to Medical Imaging",
         "Career":"Undergraduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"Undergraduate Graded",
-        "Enrollment Requirement":"Prerequisites: AMS 161 or MAT 127 or 132 or 142; AMS 210 or MAT 211",
+        "Enrollment Requirement":[
+            [
+                "AMS 161",
+                "MAT 127"
+            ],
+            [
+                "AMS 210",
+                "MAT 211"
+            ]
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -807,9 +1167,19 @@
     "CSE 378":{
         "Course Title":"Introduction to Robotics",
         "Career":"Undergraduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"A Through F Undergraduate",
-        "Enrollment Requirement":"Prerequisites: AMS 161 or MAT 127 or 132 or 142; AMS 210 or MAT 211 or MEC 262",
+        "Enrollment Requirement":[
+            [
+                "AMS 161",
+                "MAT 127"
+            ],
+            [
+                "AMS 210",
+                "MAT 211",
+                "MEC 262"
+            ]
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -820,9 +1190,15 @@
     "CSE 380":{
         "Course Title":"2D Game Programming",
         "Career":"Undergraduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"A Through F Undergraduate",
-        "Enrollment Requirement":"Prerequisite: CSE 216 or CSE 220 or CSE 260; CSE major",
+        "Enrollment Requirement":[
+            [
+                "CSE 216",
+                "CSE 220",
+                "CSE 260"
+            ]
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -833,9 +1209,15 @@
     "CSE 381":{
         "Course Title":"3D Game Programming",
         "Career":"Undergraduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"A Through F Undergraduate",
-        "Enrollment Requirement":"Prerequisite: CSE 216 or CSE 220 or CSE 260; CSE major",
+        "Enrollment Requirement":[
+            [
+                "CSE 216",
+                "CSE 220",
+                "CSE 260"
+            ]
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -846,9 +1228,24 @@
     "CSE 385":{
         "Course Title":"Analysis of Algorithms: Honors",
         "Career":"Undergraduate",
-        "Units":"4.00",
+        "Units":4.0,
         "Grading Basis":"A Through F Undergraduate",
-        "Enrollment Requirement":"Prerequisites: CSE 150 or CSE 215 or MAT 200 or MAT 250; AMS 210 or MAT 211; CSE 214 or CSE 260; Honors in Computer Science or the Honors College or the WISE Honors Program or University Scholars or Simons STEM Scholars.",
+        "Enrollment Requirement":[
+            [
+                "CSE 150",
+                "CSE 215",
+                "MAT 200",
+                "MAT 250"
+            ],
+            [
+                "AMS 210",
+                "MAT 211"
+            ],
+            [
+                "CSE 214",
+                "CSE 260"
+            ]
+        ],
         "Course Components":[
             "Lecture",
             "Recitation"
@@ -860,9 +1257,14 @@
     "CSE 390":{
         "Course Title":"Special Topics in Computer Science",
         "Career":"Undergraduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"A Through F Undergraduate",
-        "Enrollment Requirement":"Prerequisite: CSE 214 or CSE 260; CSE or ISE Major",
+        "Enrollment Requirement":[
+            [
+                "CSE 214",
+                "CSE 260"
+            ]
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -873,9 +1275,14 @@
     "CSE 391":{
         "Course Title":"Special Topics in Computer Science",
         "Career":"Undergraduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"A Through F Undergraduate",
-        "Enrollment Requirement":"Prerequisite: CSE 214 or CSE 260; CSE or ISE Major",
+        "Enrollment Requirement":[
+            [
+                "CSE 214",
+                "CSE 260"
+            ]
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -886,9 +1293,14 @@
     "CSE 392":{
         "Course Title":"Special Topics in Computer Science",
         "Career":"Undergraduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"A Through F Undergraduate",
-        "Enrollment Requirement":"Prerequisite: CSE 214 or CSE 260; CSE or ISE Major",
+        "Enrollment Requirement":[
+            [
+                "CSE 214",
+                "CSE 260"
+            ]
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -899,9 +1311,14 @@
     "CSE 393":{
         "Course Title":"Special Topics in Computer Science",
         "Career":"Undergraduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"A Through F Undergraduate",
-        "Enrollment Requirement":"Prerequisite: CSE 214 or CSE 260; CSE or ISE Major",
+        "Enrollment Requirement":[
+            [
+                "CSE 214",
+                "CSE 260"
+            ]
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -912,9 +1329,14 @@
     "CSE 394":{
         "Course Title":"Special Topics in Computer Science",
         "Career":"Undergraduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"A Through F Undergraduate",
-        "Enrollment Requirement":"Prerequisite: CSE 214 or CSE 260; CSE or ISE Major",
+        "Enrollment Requirement":[
+            [
+                "CSE 214",
+                "CSE 260"
+            ]
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -925,9 +1347,13 @@
     "CSE 416":{
         "Course Title":"Software Engineering",
         "Career":"Undergraduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"A Through F Undergraduate",
-        "Enrollment Requirement":"Prerequisites: C or higher in CSE 316; U4 standing; CSE major.",
+        "Enrollment Requirement":[
+            [
+                "CSE 316"
+            ]
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -938,9 +1364,11 @@
     "CSE 475":{
         "Course Title":"Undergraduate Teaching Practicum",
         "Career":"Undergraduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"A Through F Undergraduate",
-        "Enrollment Requirement":"Prerequisites: U3 or U4 standing as an undergraduate CEAS major; a minimum g.p.a. of 3.00 in all Stony Brook courses; grade of B or better in the course in which the student is to assist and permission of department.",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Tutorial"
         ],
@@ -953,7 +1381,9 @@
         "Career":"Undergraduate",
         "Units":"0.00 - 6.00",
         "Grading Basis":"Undergraduate Graded",
-        "Enrollment Requirement":"Prerequisites: Permission of instructor and department",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Tutorial"
         ],
@@ -964,9 +1394,11 @@
     "CSE 488":{
         "Course Title":"Internship in Computer Science",
         "Career":"Undergraduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"Satisfactory\/Unsatisfactory",
-        "Enrollment Requirement":"Prerequisites: CSE major, U3 or U4 standing; permission of department",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Tutorial"
         ],
@@ -977,9 +1409,11 @@
     "CSE 495":{
         "Course Title":"Senior Honors Research Project I",
         "Career":"Undergraduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"A Through F Undergraduate",
-        "Enrollment Requirement":"Prerequisite: Admission to Honors in Computer Science",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Tutorial"
         ],
@@ -990,9 +1424,13 @@
     "CSE 496":{
         "Course Title":"Senior Honors Research Project II",
         "Career":"Undergraduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"Undergraduate Graded",
-        "Enrollment Requirement":"Prerequisite: CSE 495",
+        "Enrollment Requirement":[
+            [
+                "CSE 495"
+            ]
+        ],
         "Course Components":[
             "Tutorial"
         ],
@@ -1003,9 +1441,11 @@
     "CSE 502":{
         "Course Title":"Computer Architecture",
         "Career":"Graduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"Graduate Graded",
-        "Enrollment Requirement":"Admission to CSE Graduate Program",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -1016,9 +1456,11 @@
     "CSE 504":{
         "Course Title":"Compiler Design",
         "Career":"Graduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"Graduate Graded",
-        "Enrollment Requirement":"",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -1029,9 +1471,11 @@
     "CSE 505":{
         "Course Title":"Computing with Logic",
         "Career":"Graduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"Graduate Graded",
-        "Enrollment Requirement":"Admission to CSE Graduate Program",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -1042,9 +1486,11 @@
     "CSE 506":{
         "Course Title":"Operating Systems",
         "Career":"Graduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"Graduate Graded",
-        "Enrollment Requirement":"Admission to CSE Graduate Program",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -1055,9 +1501,11 @@
     "CSE 507":{
         "Course Title":"Introduction to Computational Linguistics",
         "Career":"Graduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"Graduate Graded",
-        "Enrollment Requirement":"",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -1068,9 +1516,11 @@
     "CSE 508":{
         "Course Title":"Network Security",
         "Career":"Graduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"Graduate Graded",
-        "Enrollment Requirement":"Admission to CSE Graduate Program",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -1081,9 +1531,11 @@
     "CSE 509":{
         "Course Title":"Computer System Security",
         "Career":"Graduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"Graduate Graded",
-        "Enrollment Requirement":"",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -1094,9 +1546,11 @@
     "CSE 510":{
         "Course Title":"Hybrid Systems",
         "Career":"Graduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"Graduate Graded",
-        "Enrollment Requirement":"",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -1107,9 +1561,11 @@
     "CSE 511":{
         "Course Title":"Brain and Memory Modeling",
         "Career":"Graduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"Graduate Graded",
-        "Enrollment Requirement":"Limited to CSE or Nuerobiology graduate students; others permission of instructor.",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -1120,9 +1576,11 @@
     "CSE 512":{
         "Course Title":"Machine Learning",
         "Career":"Graduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"Graduate Graded",
-        "Enrollment Requirement":"Prerequisite: CSE Graduate Students",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -1133,9 +1591,11 @@
     "CSE 514":{
         "Course Title":"Data Analytics Software Stacks and Algorithms",
         "Career":"Graduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"Graduate Graded",
-        "Enrollment Requirement":"CSE Graduate Students",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -1146,9 +1606,11 @@
     "CSE 515":{
         "Course Title":"Introduction to Transaction Processing Systems",
         "Career":"Graduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"Graduate Graded",
-        "Enrollment Requirement":"Admission to CSE Graduate Program",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -1159,9 +1621,11 @@
     "CSE 516":{
         "Course Title":"Science for Society I",
         "Career":"Graduate",
-        "Units":"1.00",
+        "Units":1.0,
         "Grading Basis":"Graduate Graded",
-        "Enrollment Requirement":"",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -1172,9 +1636,11 @@
     "CSE 517":{
         "Course Title":"Science for Society II",
         "Career":"Graduate",
-        "Units":"1.00",
+        "Units":1.0,
         "Grading Basis":"Graduate Graded",
-        "Enrollment Requirement":"",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Laboratory"
         ],
@@ -1185,9 +1651,11 @@
     "CSE 518":{
         "Course Title":"Foundations of Human Computer Interactions",
         "Career":"Graduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"Graduate Graded",
-        "Enrollment Requirement":"CSE Graduate Program Student",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -1198,9 +1666,11 @@
     "CSE 519":{
         "Course Title":"Data Science Fundamentals",
         "Career":"Graduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"Graduate Graded",
-        "Enrollment Requirement":"CSE Graduate Students",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -1211,9 +1681,11 @@
     "CSE 521":{
         "Course Title":"Data Mining Concepts and Techniques",
         "Career":"Graduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"Graduate Graded",
-        "Enrollment Requirement":"",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -1224,9 +1696,11 @@
     "CSE 522":{
         "Course Title":"Special Project in Computer Science",
         "Career":"Graduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"Graduate Graded",
-        "Enrollment Requirement":"Admission to CSE Graduate Program",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Tutorial"
         ],
@@ -1237,9 +1711,11 @@
     "CSE 523":{
         "Course Title":"Advanced Project in Computer Science I",
         "Career":"Graduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"Graduate Graded",
-        "Enrollment Requirement":"Admission to CSE Graduate Program",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Tutorial"
         ],
@@ -1250,9 +1726,11 @@
     "CSE 524":{
         "Course Title":"Advanced Project in Computer Science II",
         "Career":"Graduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"Graduate Graded",
-        "Enrollment Requirement":"Admission to CSE Graduate Program",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Tutorial"
         ],
@@ -1263,9 +1741,11 @@
     "CSE 525":{
         "Course Title":"Introduction to Robotics",
         "Career":"Graduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"Graduate Graded",
-        "Enrollment Requirement":"Admission to CSE Graduate Program",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -1276,9 +1756,11 @@
     "CSE 526":{
         "Course Title":"Principles of Programming Languages",
         "Career":"Graduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"Graduate Graded",
-        "Enrollment Requirement":"",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -1289,9 +1771,11 @@
     "CSE 527":{
         "Course Title":"Introduction to Computer Vision",
         "Career":"Graduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"Graduate Graded",
-        "Enrollment Requirement":"",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -1302,9 +1786,11 @@
     "CSE 528":{
         "Course Title":"Computer Graphics",
         "Career":"Graduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"Graduate Graded",
-        "Enrollment Requirement":"Admission to CSE Graduate Program",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -1315,9 +1801,11 @@
     "CSE 529":{
         "Course Title":"Simulation and Modeling",
         "Career":"Graduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"Graduate Graded",
-        "Enrollment Requirement":"Admission to CSE Graduate Program",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -1328,9 +1816,11 @@
     "CSE 530":{
         "Course Title":"Geometric Foundations of Graphics and Visualization",
         "Career":"Graduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"Graduate Graded",
-        "Enrollment Requirement":"",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -1341,9 +1831,11 @@
     "CSE 531":{
         "Course Title":"Performance Analysis of Systems",
         "Career":"Graduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"Graduate Graded",
-        "Enrollment Requirement":"CSE Graduate Students; others, permission of instructor",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -1354,9 +1846,11 @@
     "CSE 532":{
         "Course Title":"Theory of Database Systems",
         "Career":"Graduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"Graduate Graded",
-        "Enrollment Requirement":"Admission to CSE Graduate Program",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -1367,9 +1861,11 @@
     "CSE 533":{
         "Course Title":"Network Programming",
         "Career":"Graduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"Graduate Graded",
-        "Enrollment Requirement":"Admission to CSE Graduate Program",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -1380,9 +1876,11 @@
     "CSE 534":{
         "Course Title":"Fundamentals of Computer Networks",
         "Career":"Graduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"Graduate Graded",
-        "Enrollment Requirement":"Admission to CSE Graduate Program",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -1393,9 +1891,11 @@
     "CSE 535":{
         "Course Title":"Distributed Systems",
         "Career":"Graduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"Graduate Graded",
-        "Enrollment Requirement":"",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -1406,9 +1906,11 @@
     "CSE 536":{
         "Course Title":"Introduction to User-Interface Development",
         "Career":"Graduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"Graduate Graded",
-        "Enrollment Requirement":"",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -1419,9 +1921,11 @@
     "CSE 537":{
         "Course Title":"Artificial Intelligence",
         "Career":"Graduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"Graduate Graded",
-        "Enrollment Requirement":"Admission to CSE Graduate Program",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -1432,9 +1936,11 @@
     "CSE 538":{
         "Course Title":"Natural Language Processing",
         "Career":"Graduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"Graduate Graded",
-        "Enrollment Requirement":"",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -1445,9 +1951,11 @@
     "CSE 540":{
         "Course Title":"Theory of Computation",
         "Career":"Graduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"Graduate Graded",
-        "Enrollment Requirement":"Admission to CSE Graduate Program",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -1458,9 +1966,11 @@
     "CSE 541":{
         "Course Title":"Logic in Computer Science",
         "Career":"Graduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"Graduate Graded",
-        "Enrollment Requirement":"",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -1471,9 +1981,11 @@
     "CSE 542":{
         "Course Title":"Big Data Systems, Algorithms and Networks",
         "Career":"Graduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"Graduate Graded",
-        "Enrollment Requirement":"",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -1484,9 +1996,11 @@
     "CSE 544":{
         "Course Title":"Probability and Statistics for Data Scientists",
         "Career":"Graduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"Graduate Graded",
-        "Enrollment Requirement":"CSE Graduate Students",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -1497,9 +2011,11 @@
     "CSE 545":{
         "Course Title":"Big Data Analytics",
         "Career":"Graduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"Graduate Graded",
-        "Enrollment Requirement":"CSE Graduate Students",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -1510,9 +2026,11 @@
     "CSE 546":{
         "Course Title":"Cryptography",
         "Career":"Graduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"Graduate Graded",
-        "Enrollment Requirement":"",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -1523,9 +2041,11 @@
     "CSE 547":{
         "Course Title":"Discrete Mathematics",
         "Career":"Graduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"Graduate Graded",
-        "Enrollment Requirement":"",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -1536,9 +2056,11 @@
     "CSE 548":{
         "Course Title":"Analysis of Algorithms",
         "Career":"Graduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"Graduate Graded",
-        "Enrollment Requirement":"Admission to CSE Graduate Program",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -1549,9 +2071,11 @@
     "CSE 549":{
         "Course Title":"Computational Biology",
         "Career":"Graduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"Graduate Graded",
-        "Enrollment Requirement":"Admission to CSE Graduate Program",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -1562,9 +2086,11 @@
     "CSE 550":{
         "Course Title":"Quantum Computing and Applications",
         "Career":"Graduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"Graduate Graded",
-        "Enrollment Requirement":"",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -1575,9 +2101,11 @@
     "CSE 551":{
         "Course Title":"Smart Energy in the Information Age",
         "Career":"Graduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"Graduate Graded",
-        "Enrollment Requirement":"",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -1588,9 +2116,11 @@
     "CSE 552":{
         "Course Title":"Energy Efficient Computing",
         "Career":"Graduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"Graduate Graded",
-        "Enrollment Requirement":"",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -1601,9 +2131,11 @@
     "CSE 555":{
         "Course Title":"Computational Geometry",
         "Career":"Graduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"Graduate Graded",
-        "Enrollment Requirement":"",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -1614,9 +2146,11 @@
     "CSE 564":{
         "Course Title":"Visualization",
         "Career":"Graduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"Graduate Graded",
-        "Enrollment Requirement":"",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -1627,9 +2161,11 @@
     "CSE 566":{
         "Course Title":"Virtual Reality",
         "Career":"Graduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"Graduate Graded",
-        "Enrollment Requirement":"",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -1640,9 +2176,11 @@
     "CSE 570":{
         "Course Title":"Wireless and Mobile Networks",
         "Career":"Graduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"Graduate Graded",
-        "Enrollment Requirement":"Prerequisite: enrollment in a graduate CSE program",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -1653,9 +2191,11 @@
     "CSE 577":{
         "Course Title":"Medical Imaging",
         "Career":"Graduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"Graduate Graded",
-        "Enrollment Requirement":"",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -1666,9 +2206,11 @@
     "CSE 581":{
         "Course Title":"Computer Science Fundamentals: Theory",
         "Career":"Graduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"Graduate Graded",
-        "Enrollment Requirement":"",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -1679,9 +2221,11 @@
     "CSE 582":{
         "Course Title":"Computer Science Fundamentals: Data Structures and Algorithms",
         "Career":"Graduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"Graduate Graded",
-        "Enrollment Requirement":"",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -1692,9 +2236,11 @@
     "CSE 583":{
         "Course Title":"Comp Sci Fundamentals: Prog.Abstract.",
         "Career":"Graduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"Graduate Graded",
-        "Enrollment Requirement":"",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -1705,9 +2251,11 @@
     "CSE 587":{
         "Course Title":"Proficiency Requirement",
         "Career":"Graduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"Graduate Graded",
-        "Enrollment Requirement":"",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Tutorial"
         ],
@@ -1718,9 +2266,11 @@
     "CSE 590":{
         "Course Title":"Topics in Computer Science",
         "Career":"Graduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"Graduate Graded",
-        "Enrollment Requirement":"Admission to CSE Graduate Program",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -1731,9 +2281,11 @@
     "CSE 591":{
         "Course Title":"Topics in Computer Science",
         "Career":"Graduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"Graduate Graded",
-        "Enrollment Requirement":"Admission to CSE Graduate Program",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -1744,9 +2296,11 @@
     "CSE 592":{
         "Course Title":"Advanced Topics in Computer Science",
         "Career":"Graduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"Graduate Graded",
-        "Enrollment Requirement":"Admission to CSE Graduate Program",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -1759,7 +2313,9 @@
         "Career":"Graduate",
         "Units":"1.00 - 9.00",
         "Grading Basis":"Graduate Graded",
-        "Enrollment Requirement":"",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Tutorial"
         ],
@@ -1770,9 +2326,11 @@
     "CSE 594":{
         "Course Title":"Advanced Topics in Computer Science",
         "Career":"Graduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"Graduate Graded",
-        "Enrollment Requirement":"Admission to CSE Graduate Program",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -1783,9 +2341,11 @@
     "CSE 595":{
         "Course Title":"Advanced Topics in Computer Science",
         "Career":"Graduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"Graduate Graded",
-        "Enrollment Requirement":"Admission to CSE Graduate Program",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -1796,9 +2356,11 @@
     "CSE 596":{
         "Course Title":"MS Internship Project Off-Campus",
         "Career":"Graduate",
-        "Units":"1.00",
+        "Units":1.0,
         "Grading Basis":"Satisfactory\/Unsatisfactory",
-        "Enrollment Requirement":"",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Tutorial"
         ],
@@ -1809,9 +2371,11 @@
     "CSE 597":{
         "Course Title":"MS Internship Project on Campus",
         "Career":"Graduate",
-        "Units":"1.00",
+        "Units":1.0,
         "Grading Basis":"Satisfactory\/Unsatisfactory",
-        "Enrollment Requirement":"",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Tutorial"
         ],
@@ -1824,7 +2388,9 @@
         "Career":"Graduate",
         "Units":"1.00 - 12.00",
         "Grading Basis":"Graduate Graded",
-        "Enrollment Requirement":"",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Tutorial"
         ],
@@ -1837,7 +2403,9 @@
         "Career":"Graduate",
         "Units":"0.00 - 1.00",
         "Grading Basis":"Satisfactory\/Unsatisfactory",
-        "Enrollment Requirement":"Admission to CSE Graduate Program",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Seminar"
         ],
@@ -1848,9 +2416,11 @@
     "CSE 602":{
         "Course Title":"Advanced Computer Architecture",
         "Career":"Graduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"Graduate Graded",
-        "Enrollment Requirement":"",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -1861,9 +2431,11 @@
     "CSE 605":{
         "Course Title":"Performance Evaluation of Computer Systems",
         "Career":"Graduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"Graduate Graded",
-        "Enrollment Requirement":"",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -1874,9 +2446,14 @@
     "CSE 608":{
         "Course Title":"Advanced Computer Security",
         "Career":"Graduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"Graduate Graded",
-        "Enrollment Requirement":"CSE 508 or CSE 509 or permission of instructor",
+        "Enrollment Requirement":[
+            [
+                "CSE 508",
+                "CSE 509"
+            ]
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -1887,9 +2464,11 @@
     "CSE 610":{
         "Course Title":"Parallel Computer Architectures",
         "Career":"Graduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"Graduate Graded",
-        "Enrollment Requirement":"",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -1900,9 +2479,11 @@
     "CSE 613":{
         "Course Title":"Parallel Programming",
         "Career":"Graduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"Graduate Graded",
-        "Enrollment Requirement":"Admission to CSE Graduate Program",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -1913,9 +2494,11 @@
     "CSE 614":{
         "Course Title":"Advanced Programming Languages",
         "Career":"Graduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"Graduate Graded",
-        "Enrollment Requirement":"",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -1926,9 +2509,11 @@
     "CSE 615":{
         "Course Title":"Advanced Computer Vision",
         "Career":"Graduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"Graduate Graded",
-        "Enrollment Requirement":"Admission to CSE Graduate Program",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -1939,9 +2524,11 @@
     "CSE 617":{
         "Course Title":"Advanced Topics in Wireless Networks",
         "Career":"Graduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"Graduate Graded",
-        "Enrollment Requirement":"",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -1952,9 +2539,11 @@
     "CSE 620":{
         "Course Title":"Virtual Reality",
         "Career":"Graduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"Graduate Graded",
-        "Enrollment Requirement":"",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -1965,9 +2554,11 @@
     "CSE 621":{
         "Course Title":"Physics-based Modeling for Visual Computing",
         "Career":"Graduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"Graduate Graded",
-        "Enrollment Requirement":"",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -1978,9 +2569,13 @@
     "CSE 624":{
         "Course Title":"Advanced Operating Systems",
         "Career":"Graduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"Graduate Graded",
-        "Enrollment Requirement":"CSE 506",
+        "Enrollment Requirement":[
+            [
+                "CSE 506"
+            ]
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -1991,9 +2586,11 @@
     "CSE 625":{
         "Course Title":"Advanced Asynchronous Systems",
         "Career":"Graduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"Graduate Graded",
-        "Enrollment Requirement":"",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -2004,9 +2601,11 @@
     "CSE 626":{
         "Course Title":"Switching and Routing in Parallel and Distributed Systems",
         "Career":"Graduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"Graduate Graded",
-        "Enrollment Requirement":"",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -2017,9 +2616,11 @@
     "CSE 628":{
         "Course Title":"Natural Language Processing",
         "Career":"Graduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"Graduate Graded",
-        "Enrollment Requirement":"Prerequisite: enrollment in a graduate CSE program",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -2030,9 +2631,11 @@
     "CSE 633":{
         "Course Title":"Computability and Undecidability",
         "Career":"Graduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"Graduate Graded",
-        "Enrollment Requirement":"",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -2043,9 +2646,11 @@
     "CSE 638":{
         "Course Title":"Advanced Algorithms",
         "Career":"Graduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"Graduate Graded",
-        "Enrollment Requirement":"",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -2056,9 +2661,11 @@
     "CSE 639":{
         "Course Title":"Seminar in Advanced Topics in Computer Science",
         "Career":"Graduate",
-        "Units":"1.00",
+        "Units":1.0,
         "Grading Basis":"Satisfactory\/Unsatisfactory",
-        "Enrollment Requirement":"Limited to CSE Graduate Students",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Seminar"
         ],
@@ -2069,9 +2676,11 @@
     "CSE 641":{
         "Course Title":"Seminar in Logic in Computer Science",
         "Career":"Graduate",
-        "Units":"1.00",
+        "Units":1.0,
         "Grading Basis":"Satisfactory\/Unsatisfactory",
-        "Enrollment Requirement":"",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Seminar"
         ],
@@ -2082,9 +2691,11 @@
     "CSE 642":{
         "Course Title":"Seminar in Algorithms",
         "Career":"Graduate",
-        "Units":"1.00",
+        "Units":1.0,
         "Grading Basis":"Satisfactory\/Unsatisfactory",
-        "Enrollment Requirement":"",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Seminar"
         ],
@@ -2095,9 +2706,11 @@
     "CSE 643":{
         "Course Title":"Seminar in Concurrency",
         "Career":"Graduate",
-        "Units":"1.00",
+        "Units":1.0,
         "Grading Basis":"Satisfactory\/Unsatisfactory",
-        "Enrollment Requirement":"",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Seminar"
         ],
@@ -2108,9 +2721,11 @@
     "CSE 644":{
         "Course Title":"Seminar in Databases",
         "Career":"Graduate",
-        "Units":"1.00",
+        "Units":1.0,
         "Grading Basis":"Satisfactory\/Unsatisfactory",
-        "Enrollment Requirement":"",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Seminar"
         ],
@@ -2121,9 +2736,11 @@
     "CSE 645":{
         "Course Title":"Seminar in Languages",
         "Career":"Graduate",
-        "Units":"1.00",
+        "Units":1.0,
         "Grading Basis":"Satisfactory\/Unsatisfactory",
-        "Enrollment Requirement":"",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Seminar"
         ],
@@ -2134,9 +2751,11 @@
     "CSE 646":{
         "Course Title":"Seminar in Artificial Intelligence",
         "Career":"Graduate",
-        "Units":"1.00",
+        "Units":1.0,
         "Grading Basis":"Satisfactory\/Unsatisfactory",
-        "Enrollment Requirement":"",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Seminar"
         ],
@@ -2147,9 +2766,11 @@
     "CSE 648":{
         "Course Title":"Seminar in Graphics",
         "Career":"Graduate",
-        "Units":"1.00",
+        "Units":1.0,
         "Grading Basis":"Satisfactory\/Unsatisfactory",
-        "Enrollment Requirement":"",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Seminar"
         ],
@@ -2160,9 +2781,11 @@
     "CSE 649":{
         "Course Title":"Seminar in Operating Systems",
         "Career":"Graduate",
-        "Units":"1.00",
+        "Units":1.0,
         "Grading Basis":"Satisfactory\/Unsatisfactory",
-        "Enrollment Requirement":"",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Seminar"
         ],
@@ -2173,9 +2796,11 @@
     "CSE 650":{
         "Course Title":"Seminar in Architecture",
         "Career":"Graduate",
-        "Units":"1.00",
+        "Units":1.0,
         "Grading Basis":"Satisfactory\/Unsatisfactory",
-        "Enrollment Requirement":"",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Seminar"
         ],
@@ -2186,9 +2811,11 @@
     "CSE 651":{
         "Course Title":"Seminar in Secure Computation",
         "Career":"Graduate",
-        "Units":"1.00",
+        "Units":1.0,
         "Grading Basis":"Satisfactory\/Unsatisfactory",
-        "Enrollment Requirement":"",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Seminar"
         ],
@@ -2199,9 +2826,11 @@
     "CSE 652":{
         "Course Title":"Seminar in User Interfaces",
         "Career":"Graduate",
-        "Units":"1.00",
+        "Units":1.0,
         "Grading Basis":"Satisfactory\/Unsatisfactory",
-        "Enrollment Requirement":"",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Seminar"
         ],
@@ -2212,9 +2841,11 @@
     "CSE 653":{
         "Course Title":"Seminar in Virtual Reality",
         "Career":"Graduate",
-        "Units":"1.00",
+        "Units":1.0,
         "Grading Basis":"Satisfactory\/Unsatisfactory",
-        "Enrollment Requirement":"",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Seminar"
         ],
@@ -2225,9 +2856,11 @@
     "CSE 654":{
         "Course Title":"Seminar in Visualization",
         "Career":"Graduate",
-        "Units":"1.00",
+        "Units":1.0,
         "Grading Basis":"Satisfactory\/Unsatisfactory",
-        "Enrollment Requirement":"",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Seminar"
         ],
@@ -2238,9 +2871,11 @@
     "CSE 655":{
         "Course Title":"Seminar in Natural Language Processing",
         "Career":"Graduate",
-        "Units":"1.00",
+        "Units":1.0,
         "Grading Basis":"Satisfactory\/Unsatisfactory",
-        "Enrollment Requirement":"",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Seminar"
         ],
@@ -2251,9 +2886,11 @@
     "CSE 656":{
         "Course Title":"Seminar in Computer Vision",
         "Career":"Graduate",
-        "Units":"1.00",
+        "Units":1.0,
         "Grading Basis":"Satisfactory\/Unsatisfactory",
-        "Enrollment Requirement":"",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Seminar"
         ],
@@ -2264,9 +2901,11 @@
     "CSE 657":{
         "Course Title":"Seminar in Design Analysis",
         "Career":"Graduate",
-        "Units":"1.00",
+        "Units":1.0,
         "Grading Basis":"Satisfactory\/Unsatisfactory",
-        "Enrollment Requirement":"",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Seminar"
         ],
@@ -2277,9 +2916,11 @@
     "CSE 658":{
         "Course Title":"Seminar on Mobile and Wireless Networking",
         "Career":"Graduate",
-        "Units":"1.00",
+        "Units":1.0,
         "Grading Basis":"Satisfactory\/Unsatisfactory",
-        "Enrollment Requirement":"",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Seminar"
         ],
@@ -2290,9 +2931,11 @@
     "CSE 659":{
         "Course Title":"Seminar in Computer Security",
         "Career":"Graduate",
-        "Units":"1.00",
+        "Units":1.0,
         "Grading Basis":"Satisfactory\/Unsatisfactory",
-        "Enrollment Requirement":"",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Seminar"
         ],
@@ -2303,9 +2946,11 @@
     "CSE 660":{
         "Course Title":"Seminar in Sustainable Computing",
         "Career":"Graduate",
-        "Units":"1.00",
+        "Units":1.0,
         "Grading Basis":"Satisfactory\/Unsatisfactory",
-        "Enrollment Requirement":"",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Seminar"
         ],
@@ -2316,9 +2961,11 @@
     "CSE 661":{
         "Course Title":"Seminar in Data Privacy",
         "Career":"Graduate",
-        "Units":"1.00",
+        "Units":1.0,
         "Grading Basis":"Satisfactory\/Unsatisfactory",
-        "Enrollment Requirement":"",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Seminar"
         ],
@@ -2329,9 +2976,11 @@
     "CSE 662":{
         "Course Title":"Seminar in Medical Imaging",
         "Career":"Graduate",
-        "Units":"1.00",
+        "Units":1.0,
         "Grading Basis":"Satisfactory\/Unsatisfactory",
-        "Enrollment Requirement":"Admission to CSE Graduate Program",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Seminar"
         ],
@@ -2342,9 +2991,11 @@
     "CSE 663":{
         "Course Title":"Cyber Physical Systems and Verification",
         "Career":"Graduate",
-        "Units":"1.00",
+        "Units":1.0,
         "Grading Basis":"Graduate  S\/U grading",
-        "Enrollment Requirement":"",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Seminar"
         ],
@@ -2355,9 +3006,11 @@
     "CSE 664":{
         "Course Title":"Distributed Systems",
         "Career":"Graduate",
-        "Units":"1.00",
+        "Units":1.0,
         "Grading Basis":"Graduate  S\/U grading",
-        "Enrollment Requirement":"",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Seminar"
         ],
@@ -2368,9 +3021,11 @@
     "CSE 665":{
         "Course Title":"Special Topics in Theory of Computing",
         "Career":"Graduate",
-        "Units":"2.00",
+        "Units":2.0,
         "Grading Basis":"Graduate Graded",
-        "Enrollment Requirement":"",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -2381,9 +3036,11 @@
     "CSE 669":{
         "Course Title":"Special Topics in Databases",
         "Career":"Graduate",
-        "Units":"2.00",
+        "Units":2.0,
         "Grading Basis":"Graduate Graded",
-        "Enrollment Requirement":"",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -2394,9 +3051,11 @@
     "CSE 670":{
         "Course Title":"Special Topics in Languages",
         "Career":"Graduate",
-        "Units":"2.00",
+        "Units":2.0,
         "Grading Basis":"Graduate Graded",
-        "Enrollment Requirement":"",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -2407,9 +3066,11 @@
     "CSE 671":{
         "Course Title":"Special Topics in Artificial Intelligence",
         "Career":"Graduate",
-        "Units":"2.00",
+        "Units":2.0,
         "Grading Basis":"Graduate Graded",
-        "Enrollment Requirement":"",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -2420,9 +3081,11 @@
     "CSE 672":{
         "Course Title":"Special Topics in Image Processing",
         "Career":"Graduate",
-        "Units":"2.00",
+        "Units":2.0,
         "Grading Basis":"Graduate Graded",
-        "Enrollment Requirement":"",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -2433,9 +3096,11 @@
     "CSE 674":{
         "Course Title":"Special Topics in Operating Systems",
         "Career":"Graduate",
-        "Units":"2.00",
+        "Units":2.0,
         "Grading Basis":"Graduate Graded",
-        "Enrollment Requirement":"",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -2446,9 +3111,11 @@
     "CSE 677":{
         "Course Title":"Special Topics in User Interfaces",
         "Career":"Graduate",
-        "Units":"2.00",
+        "Units":2.0,
         "Grading Basis":"Graduate Graded",
-        "Enrollment Requirement":"",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -2459,9 +3126,11 @@
     "CSE 681":{
         "Course Title":"Special Topics in Computer Vision",
         "Career":"Graduate",
-        "Units":"2.00",
+        "Units":2.0,
         "Grading Basis":"Graduate Graded",
-        "Enrollment Requirement":"",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -2472,9 +3141,11 @@
     "CSE 684":{
         "Course Title":"Special Topics in Computer Security",
         "Career":"Graduate",
-        "Units":"2.00",
+        "Units":2.0,
         "Grading Basis":"Graduate Graded",
-        "Enrollment Requirement":"",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -2485,9 +3156,11 @@
     "CSE 686":{
         "Course Title":"Special Topics in Data Privacy",
         "Career":"Graduate",
-        "Units":"2.00",
+        "Units":2.0,
         "Grading Basis":"Satisfactory\/Unsatisfactory",
-        "Enrollment Requirement":"",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -2498,9 +3171,11 @@
     "CSE 687":{
         "Course Title":"Special Topics in Applied Cryptography",
         "Career":"Graduate",
-        "Units":"2.00",
+        "Units":2.0,
         "Grading Basis":"Graduate Graded",
-        "Enrollment Requirement":"Admission to CSE Graduate Program",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -2511,9 +3186,11 @@
     "CSE 690":{
         "Course Title":"Advanced Topics in Computer Science",
         "Career":"Graduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"Graduate Graded",
-        "Enrollment Requirement":"",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -2524,9 +3201,11 @@
     "CSE 691":{
         "Course Title":"Advanced Topics in Computer Science",
         "Career":"Graduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"Graduate Graded",
-        "Enrollment Requirement":"",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -2537,9 +3216,11 @@
     "CSE 692":{
         "Course Title":"Advanced Topics in Computer Science",
         "Career":"Graduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"Graduate Graded",
-        "Enrollment Requirement":"",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -2550,9 +3231,11 @@
     "CSE 693":{
         "Course Title":"Advanced Topics in Computer Science",
         "Career":"Graduate",
-        "Units":"3.00",
+        "Units":3.0,
         "Grading Basis":"Graduate Graded",
-        "Enrollment Requirement":"Limited to CSE Graduate Students",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Lecture"
         ],
@@ -2563,9 +3246,11 @@
     "CSE (694)":{
         "Course Title":"Seminar in Sustainable Computing\n\n** available as of 05\/20\/2024",
         "Career":"Graduate",
-        "Units":"1.00",
+        "Units":1.0,
         "Grading Basis":"Satisfactory\/Unsatisfactory",
-        "Enrollment Requirement":"",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Seminar"
         ],
@@ -2576,9 +3261,11 @@
     "CSE (695)":{
         "Course Title":"Seminar in Deep Learning Theory\n\n** available as of 05\/20\/2024",
         "Career":"Graduate",
-        "Units":"1.00",
+        "Units":1.0,
         "Grading Basis":"Satisfactory\/Unsatisfactory",
-        "Enrollment Requirement":"",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Recitation"
         ],
@@ -2591,7 +3278,9 @@
         "Career":"Graduate",
         "Units":"1.00 - 3.00",
         "Grading Basis":"Satisfactory\/Unsatisfactory",
-        "Enrollment Requirement":"",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Tutorial"
         ],
@@ -2602,9 +3291,11 @@
     "CSE 697":{
         "Course Title":"PhD Internship Project On Campus",
         "Career":"Graduate",
-        "Units":"1.00",
+        "Units":1.0,
         "Grading Basis":"Satisfactory\/Unsatisfactory",
-        "Enrollment Requirement":"",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Tutorial"
         ],
@@ -2617,7 +3308,9 @@
         "Career":"Graduate",
         "Units":"0.00 - 3.00",
         "Grading Basis":"Graduate Graded",
-        "Enrollment Requirement":"",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Tutorial"
         ],
@@ -2630,7 +3323,9 @@
         "Career":"Graduate",
         "Units":"0.00 - 9.00",
         "Grading Basis":"Satisfactory\/Unsatisfactory",
-        "Enrollment Requirement":"",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Tutorial"
         ],
@@ -2643,7 +3338,9 @@
         "Career":"Graduate",
         "Units":"0.00 - 9.00",
         "Grading Basis":"Satisfactory\/Unsatisfactory",
-        "Enrollment Requirement":"Prerequisite: G5 Standing",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Tutorial"
         ],
@@ -2656,7 +3353,9 @@
         "Career":"Graduate",
         "Units":"0.00 - 9.00",
         "Grading Basis":"Satisfactory\/Unsatisfactory",
-        "Enrollment Requirement":"Prerequisite: G5 Standing",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Tutorial"
         ],
@@ -2667,9 +3366,11 @@
     "CSE 800":{
         "Course Title":"FT SUMMER RESEARCH",
         "Career":"Graduate",
-        "Units":"0.00",
+        "Units":0.0,
         "Grading Basis":"Satisfactory\/Unsatisfactory",
-        "Enrollment Requirement":"",
+        "Enrollment Requirement":[
+
+        ],
         "Course Components":[
             "Tutorial"
         ],
