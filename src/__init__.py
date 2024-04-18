@@ -23,8 +23,12 @@
 import os
 import sys
 
-# TODO: Need to find a way to automate this
-#   rather than hard coding this.
+# NOTE:
+#   ERGOROOT is obtained from Ergo by asking the query: system{installdir=?Ins}.
+#   XSBARCHDIR is obtained via the query: system{archdir=?Arch}.
+#
+# TODO:
+#   Need to find a way to automate this rather than hard coding this.
 #
 # Define constants
 ERGOROOT: str = (
