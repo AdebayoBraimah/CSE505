@@ -1,4 +1,4 @@
-Contributing to ``<project>``
+Contributing to ``src``
 ====================================
 
 This document is adapted from `https://git.fmrib.ox.ac.uk/fsl/fslpy/-/blob/master/doc/contributing.rst <https://git.fmrib.ox.ac.uk/fsl/fslpy/-/blob/master/doc/contributing.rst>`_        

@@ -1,7 +1,7 @@
-API Documentation
-==================
+src
+===
 
 .. toctree::
    :maxdepth: 4
 
-   src.main
+   src
