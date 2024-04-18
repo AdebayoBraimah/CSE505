@@ -1,6 +1,3 @@
-# Knowledge graphs
-# pygraft
-
 # Web scraping/interfacing
 selenuim
 webdriver-manager

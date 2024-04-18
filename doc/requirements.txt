@@ -6,3 +6,11 @@ sphinx-autodoc-napoleon-typehints
 sphinx-argparse
 rst.linker
 sphinx-autopackagesummary
+
+# Project requirements
+# Web scraping/interfacing
+selenuim
+webdriver-manager
+
+# Data manipulation
+pandas
