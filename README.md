@@ -4,6 +4,10 @@
 # CSE505 Course Project
 Stony Brook CSE505 project repository
 
+# Installation
+
+External dependencies: ErgoAI, MiniZinc
+
 # Test Code & Driver program
 
 To run the test code:
