@@ -173,6 +173,10 @@ def scrape_sbu_solar(
     # Create additional columns for course information
     _course_numbers: List[str] = df["Course Nbr"].tolist()  # Get course numbers
 
+    # Clean course titles
+    _course_titles: List[str] = df["Course Title"].tolist()
+    df["Course Title"] = [_clean_course_title(title) for title in _course_titles]
+
     career_list: List[str] = []
     units_list: List[str] = []
     grading_basis_list: List[str] = []
@@ -272,8 +276,8 @@ def scrape_sbu_solar(
         except NoSuchElementException:
             description: str = ""
 
-        # TODO: Strip non-numeric characters from course number
-        # Update course number with three letter code
+        # Append course number with three letter code
+        course = _remove_non_numeric(course)
         course_numbers_with_three_letter_code.append(
             f"{major_three_letter_code} {course}"
         )
@@ -308,6 +312,12 @@ def scrape_sbu_solar(
     df.insert(df.columns.__len__(), "Academic Organization", academic_organization_list)
     df.insert(df.columns.__len__(), "Description", description_list)
 
+    # Rename columns
+    df.rename(
+        columns={"Enrollment Requirement": "Prerequisites", "Units": "Credits"},
+        inplace=True,
+    )
+
     # Replace index with Course Nbr
     df.set_index(
         "Course Nbr",
@@ -318,6 +328,19 @@ def scrape_sbu_solar(
     # Remove duplicate rows
     df = df[~df.index.duplicated(keep="first")]
 
+    # Drop columns not needed by ErgoAI
+    df.drop(
+        [
+            "Description",
+            "Academic Group",
+            "Academic Organization",
+            "Course Components",
+            "Grading Basis",
+        ],
+        axis=1,
+        inplace=True,
+    )
+
     # Quit the driver, close the browser
     driver.quit()
 
@@ -327,7 +350,7 @@ def scrape_sbu_solar(
         return df
 
 
-def parse_requirements(input_string: str) -> List[List[str]]:
+def parse_requirements(input_string: str) -> Union[str, List[List[str]]]:
     """Parse major requirements from a string into a list of lists of course codes.
     This function is mainly used to separate disjunctions and conjunctions course prerequisites.
     Disjunctions are grouped together in the same sub-list, while conjunctions are separated into different sub-lists.
@@ -366,6 +389,9 @@ def parse_requirements(input_string: str) -> List[List[str]]:
         if part_courses:
             result.append(part_courses)
 
+    if not result:
+        return "NONE"
+
     return result
 
 
@@ -386,3 +412,15 @@ def _get_course_components(driver: webdriver) -> Tuple[str, ...]:
             )
         except NoSuchElementException:
             return tuple(course_components_list)
+
+
+def _clean_course_title(course_title):
+    # Use a regular expression to match only the course title before '**'
+    cleaned_title = re.sub(r"\*\*.*$", "", course_title).strip()
+    return cleaned_title
+
+
+def _remove_non_numeric(course_number):
+    # Remove any non-digit characters from the string
+    cleaned_number = re.sub(r"\D", "", course_number)
+    return cleaned_number
