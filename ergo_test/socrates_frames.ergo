@@ -1,0 +1,22 @@
+// file socrates_frames.ergo
+Socrates : Man.
+?X:Mortal :- ?X:Man.
+
+Socrates[age->56, home->Athens].
+Socrates[student->{Plato,Xenophon}].
+{Plato,Xenophon}:Man.
+Plato[age->27].
+Xenophon:philosopher[age->27, talksAbout->Xenophon].
+father(Socrates)[home->Athens].
+father(father(Socrates))[home->Athens].
+
+avgAge(?AvgAge) :- ?AvgAge = avg{?Y | ?E:Man, ?E[age->?Y]}.
+ 
+?X:Athenian :- ?X[home->Athens].
+Athenian :: Person.
+?X:God :- ?X:Man, ?X:Immortal.
+
+
+
+
+
