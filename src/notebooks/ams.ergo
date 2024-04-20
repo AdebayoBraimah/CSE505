@@ -2,1538 +2,712 @@
 \##1['AMS 102' -> \##2].
 \##2['Course Title' -> 'Elements of Statistics'].
 \##2['Career' -> 'Undergraduate'].
-\##2['Units' -> 3].
-\##2['Grading Basis' -> 'Student Option'].
-\##2['Enrollment Requirement' -> [['AMS 110', 'AMS 310']]].
-\##2['Course Components' -> ['Lecture']].
-\##2['Academic Group' -> 'College of Engring & App Sci'].
-\##2['Academic Organization' -> 'Applied Math and Statistics'].
-\##2['Description' -> 'The use and misuse of statistics in real life situations; basic statistical measures of central tendency and of dispersion, frequency distributions, elements of probability, binomial and normal distributions, small and large sample hypothesis testing, confidence intervals, chi square test, and regression. May not be taken by students with credit for AMS 110, 310, 311, 312; ECO 320; POL 201; PSY 201; or SOC 202. This course has been designated as a High Demand/Controlled Access (HD/CA) course. Students registering for HD/CA courses for the first time will have priority to do so.'].
+\##2['Credits' -> 3].
+\##2['Prerequisites' -> [['AMS 110', 'AMS 310']]].
 \##1['AMS 103' -> \##3].
 \##3['Course Title' -> 'Applied Mathematics in Modern Technology'].
 \##3['Career' -> 'Undergraduate'].
-\##3['Units' -> 3].
-\##3['Grading Basis' -> 'Student Option'].
-\##3['Enrollment Requirement' -> ].
-\##3['Course Components' -> ['Lecture']].
-\##3['Academic Group' -> 'College of Engring & App Sci'].
-\##3['Academic Organization' -> 'Applied Math and Statistics'].
-\##3['Description' -> 'Technologies that drive our modern world rely critically on applied mathematics. This course explores "How does it work?" for selected technologies that rely on mathematics and statistics, e.g., internet search, social networking, financial markets, online auctions, cell phones, DNA sequencing, GPS, Wii, Google maps, and more.'].
+\##3['Credits' -> 3].
+\##3['Prerequisites' -> 'NONE'].
 \##1['AMS 104' -> \##4].
 \##4['Course Title' -> 'Spreadsheet Technology and Applications'].
 \##4['Career' -> 'Undergraduate'].
-\##4['Units' -> 3].
-\##4['Grading Basis' -> 'Student Option'].
-\##4['Enrollment Requirement' -> [['MAT 123']]].
-\##4['Course Components' -> ['Lecture']].
-\##4['Academic Group' -> 'Engring & App Sci, College of'].
-\##4['Academic Organization' -> 'Applied Math and Statistics'].
-\##4['Description' -> 'Spreadsheets are a critically important tool in many careers, particularly in quantitative fields. This course explores how to use spreadsheets and how to use them to model real-world situations, such as project management, optimization, budgeting, finance, and more.'].
+\##4['Credits' -> 3].
+\##4['Prerequisites' -> [['MAT 123']]].
 \##1['AMS 105' -> \##5].
 \##5['Course Title' -> 'Introduction to Business Statistics'].
 \##5['Career' -> 'Undergraduate'].
-\##5['Units' -> 3].
-\##5['Grading Basis' -> 'Student Option'].
-\##5['Enrollment Requirement' -> [['BUS 110', 'MAT 122', 'BUS 210']]].
-\##5['Course Components' -> ['Lecture']].
-\##5['Academic Group' -> 'College of Engring & App Sci'].
-\##5['Academic Organization' -> 'Applied Math and Statistics'].
-\##5['Description' -> 'The application of current statistical methods to problems in the modern business environment. Topics include probability, random variables, sampling techniques, confidence intervals, hypothesis testing, and regression. Students analyze real data sets using standard statistical software, interpret the output, and write extensively about the results.'].
+\##5['Credits' -> 3].
+\##5['Prerequisites' -> [['BUS 110', 'MAT 122', 'BUS 210']]].
 \##1['AMS 110' -> \##6].
 \##6['Course Title' -> 'Probability and Statistics in the Life Sciences'].
 \##6['Career' -> 'Undergraduate'].
-\##6['Units' -> 3].
-\##6['Grading Basis' -> 'Student Option'].
-\##6['Enrollment Requirement' -> [['AMS 151', 'MAT 125', 'AMS 102', 'AMS 310']]].
-\##6['Course Components' -> ['Lecture']].
-\##6['Academic Group' -> 'College of Engring & App Sci'].
-\##6['Academic Organization' -> 'Applied Math and Statistics'].
-\##6['Description' -> 'A survey of probability theory and statistical techniques with applications to biological and biomedical situations. Topics covered include Markov chain models; binomial, Poisson, normal, exponential, and chi square random variables; tests of hypotheses; confidence intervals; tests; and analysis of variance, regression, and contingency tables. May not be taken for credit in addition to AMS 310. This course has been designated as a High Demand/Controlled Access (HD/CA) course. Students registering for HD/CA courses for the first time will have priority to do so.'].
+\##6['Credits' -> 3].
+\##6['Prerequisites' -> [['AMS 151', 'MAT 125', 'AMS 102', 'AMS 310']]].
 \##1['AMS 151' -> \##7].
 \##7['Course Title' -> 'Applied Calculus I'].
 \##7['Career' -> 'Undergraduate'].
-\##7['Units' -> 3].
-\##7['Grading Basis' -> 'Student Option'].
-\##7['Enrollment Requirement' -> [['MAT 123']]].
-\##7['Course Components' -> ['Lecture']].
-\##7['Academic Group' -> 'College of Engring & App Sci'].
-\##7['Academic Organization' -> 'Applied Math and Statistics'].
-\##7['Description' -> 'A review of functions and their applications; analytic methods of differentiation; interpretations and applications of differentiation; introduction to integration. Intended for CEAS majors. Not for credit in addition to MAT 125 or 126 or 131 or 141 or 171. This course has been designated as a High Demand/Controlled Access (HD/CA) course. Students registering for HD/CA courses for the first time will have priority to do so.'].
+\##7['Credits' -> 3].
+\##7['Prerequisites' -> [['MAT 123']]].
 \##1['AMS 161' -> \##8].
 \##8['Course Title' -> 'Applied Calculus II'].
 \##8['Career' -> 'Undergraduate'].
-\##8['Units' -> 3].
-\##8['Grading Basis' -> 'Student Option'].
-\##8['Enrollment Requirement' -> [['AMS 151', 'MAT 131']]].
-\##8['Course Components' -> ['Lecture']].
-\##8['Academic Group' -> 'Engring & App Sci, College of'].
-\##8['Academic Organization' -> 'Applied Math and Statistics'].
-\##8['Description' -> 'Analytic and numerical methods of integration; interpretations and applications of integration; differential equations models and elementary solution techniques; phase planes; Taylor series and Fourier series. Intended for CEAS majors. Not for credit in addition to MAT 127, MAT 132, MAT 142, or MAT 171. This course has been designated as a High Demand/Controlled Access (HD/CA) course. Students registering for HD/CA courses for the first time will have priority to do so.'].
+\##8['Credits' -> 3].
+\##8['Prerequisites' -> [['AMS 151', 'MAT 131']]].
 \##1['AMS 210' -> \##9].
 \##9['Course Title' -> 'Applied Linear Algebra'].
 \##9['Career' -> 'Undergraduate'].
-\##9['Units' -> 3].
-\##9['Grading Basis' -> 'Student Option'].
-\##9['Enrollment Requirement' -> [['AMS 151', 'MAT 131', 'MAT 126']]].
-\##9['Course Components' -> ['Lecture']].
-\##9['Academic Group' -> 'College of Engring & App Sci'].
-\##9['Academic Organization' -> 'Applied Math and Statistics'].
-\##9['Description' -> 'An introduction to the theory and use of vectors and matrices. Matrix theory including systems of linear equations. Theory of Euclidean and abstract vector spaces. Eigenvectors and eigenvalues. Linear transformations. May not be taken for credit in addition to MAT 211.'].
+\##9['Credits' -> 3].
+\##9['Prerequisites' -> [['AMS 151', 'MAT 131', 'MAT 126']]].
 \##1['AMS 261' -> \##10].
 \##10['Course Title' -> 'Applied Calculus III'].
 \##10['Career' -> 'Undergraduate'].
-\##10['Units' -> 4].
-\##10['Grading Basis' -> 'Student Option'].
-\##10['Enrollment Requirement' -> [['AMS 161', 'MAT 127']]].
-\##10['Course Components' -> ['Lecture', 'Recitation']].
-\##10['Academic Group' -> 'College of Engring & App Sci'].
-\##10['Academic Organization' -> 'Applied Math and Statistics'].
-\##10['Description' -> 'Vector algebra and analytic geometry in two and three dimensions; multivariable differential calculus and tangent planes; multivariable integral calculus; optimization and Lagrange multipliers; vector calculus including Green's and Stokes's theorems. May not be taken for credit in addition to MAT 203 or 205.'].
+\##10['Credits' -> 4].
+\##10['Prerequisites' -> [['AMS 161', 'MAT 127']]].
 \##1['AMS 300' -> \##11].
 \##11['Course Title' -> 'Writing in Applied Mathematics'].
 \##11['Career' -> 'Undergraduate'].
-\##11['Units' -> 1].
-\##11['Grading Basis' -> 'Satisfactory/Unsatisfactory'].
-\##11['Enrollment Requirement' -> [['WRT 102']]].
-\##11['Course Components' -> ['Seminar']].
-\##11['Academic Group' -> 'College of Engring & App Sci'].
-\##11['Academic Organization' -> 'Applied Math and Statistics'].
-\##11['Description' -> 'See Requirements for the Major in Applied Mathematics and Statistics, Upper Division Writing Requirement.'].
+\##11['Credits' -> 1].
+\##11['Prerequisites' -> [['WRT 102']]].
 \##1['AMS 301' -> \##12].
 \##12['Course Title' -> 'Finite Mathematical Structures'].
 \##12['Career' -> 'Undergraduate'].
-\##12['Units' -> 3].
-\##12['Grading Basis' -> 'Student Option'].
-\##12['Enrollment Requirement' -> [['AMS 210', 'MAT 211', 'AMS 361', 'MAT 303']]].
-\##12['Course Components' -> ['Lecture']].
-\##12['Academic Group' -> 'College of Engring & App Sci'].
-\##12['Academic Organization' -> 'Applied Math and Statistics'].
-\##12['Description' -> 'An introduction to graph theory and combinatorial analysis. The emphasis is on solving applied problems rather than on theorems and proofs. Techniques used in problem solving include generating functions, recurrence relations, and network flows. This course develops the type of mathematical thinking that is fundamental to computer science and operations research.'].
+\##12['Credits' -> 3].
+\##12['Prerequisites' -> [['AMS 210', 'MAT 211', 'AMS 361', 'MAT 303']]].
 \##1['AMS 303' -> \##13].
 \##13['Course Title' -> 'Graph Theory'].
 \##13['Career' -> 'Undergraduate'].
-\##13['Units' -> 3].
-\##13['Grading Basis' -> 'Student Option'].
-\##13['Enrollment Requirement' -> [['AMS 301']]].
-\##13['Course Components' -> ['Lecture']].
-\##13['Academic Group' -> 'College of Engring & App Sci'].
-\##13['Academic Organization' -> 'Applied Math and Statistics'].
-\##13['Description' -> 'Paths and circuits, trees and tree based algorithms, graph coloring, digraphs, network flows, matching theory, matroids, and games with graphs.'].
+\##13['Credits' -> 3].
+\##13['Prerequisites' -> [['AMS 301']]].
 \##1['AMS 310' -> \##14].
 \##14['Course Title' -> 'Survey of Probability and Statistics'].
 \##14['Career' -> 'Undergraduate'].
-\##14['Units' -> 3].
-\##14['Grading Basis' -> 'Student Option'].
-\##14['Enrollment Requirement' -> [['AMS 161', 'MAT 132', 'MAT 127', 'MAT 142']]].
-\##14['Course Components' -> ['Lecture']].
-\##14['Academic Group' -> 'Engring & App Sci, College of'].
-\##14['Academic Organization' -> 'Applied Math and Statistics'].
-\##14['Description' -> 'A survey of data analysis, probability theory, and statistics. Stem and leaf displays, box plots, schematic plots, fitting straight line relationships, discrete and continuous probability distributions, conditional distributions, binomial distribution, normal and t distributions, confidence intervals, and significance tests. May not be taken for credit in addition to ECO 320. This course has been designated as a High Demand/Controlled Access (HD/CA) course. Students registering for HD/CA courses for the first time will have priority to do so.'].
+\##14['Credits' -> 3].
+\##14['Prerequisites' -> [['AMS 161', 'MAT 132', 'MAT 127', 'MAT 142']]].
 \##1['AMS 311' -> \##15].
 \##15['Course Title' -> 'Probability Theory'].
 \##15['Career' -> 'Undergraduate'].
-\##15['Units' -> 3].
-\##15['Grading Basis' -> 'Student Option'].
-\##15['Enrollment Requirement' -> [['AMS 301', 'MAT 203', 'AMS 261']]].
-\##15['Course Components' -> ['Lecture']].
-\##15['Academic Group' -> 'College of Engring & App Sci'].
-\##15['Academic Organization' -> 'Applied Math and Statistics'].
-\##15['Description' -> 'Probability spaces, random variables, moment generating functions, algebra of expectations, conditional and marginal distributions, multivariate distributions, order statistics, law of large numbers.'].
+\##15['Credits' -> 3].
+\##15['Prerequisites' -> [['AMS 301', 'MAT 203', 'AMS 261']]].
 \##1['AMS 315' -> \##16].
 \##16['Course Title' -> 'Data Analysis'].
 \##16['Career' -> 'Undergraduate'].
-\##16['Units' -> 3].
-\##16['Grading Basis' -> 'Student Option'].
-\##16['Enrollment Requirement' -> [['AMS 310']]].
-\##16['Course Components' -> ['Lecture']].
-\##16['Academic Group' -> 'College of Engring & App Sci'].
-\##16['Academic Organization' -> 'Applied Math and Statistics'].
-\##16['Description' -> 'A continuation of AMS 310 that covers two sample t-tests, contingency table methods, the one-way analysis of variance, and regression analysis with one and multiple independent variables. Student projects analyze data provided by the instructor and require the use of a statistical computing package such as SAS or SPSS. An introduction to ethical and professional standards of conduct for statisticians will be provided.'].
+\##16['Credits' -> 3].
+\##16['Prerequisites' -> [['AMS 310']]].
 \##1['AMS 316' -> \##17].
 \##17['Course Title' -> 'Introduction to Time Series Analysis'].
 \##17['Career' -> 'Undergraduate'].
-\##17['Units' -> 3].
-\##17['Grading Basis' -> 'Student Option'].
-\##17['Enrollment Requirement' -> [['AMS 311', 'AMS 315']]].
-\##17['Course Components' -> ['Lecture']].
-\##17['Academic Group' -> 'College of Engring & App Sci'].
-\##17['Academic Organization' -> 'Applied Math and Statistics'].
-\##17['Description' -> 'Trend and seasonal components of time series models, autoregressive and moving average (ARMA) models, Box-Jenkins methodology, Portmanteau test, unit-root, generalized autoregressive conditionally heteroskedasticity (GARCH) models, exponential GARCH, stochastic volatility models.  This course is offered as both AMS 316 and AMS 586.'].
+\##17['Credits' -> 3].
+\##17['Prerequisites' -> [['AMS 311', 'AMS 315']]].
 \##1['AMS 317' -> \##18].
 \##18['Course Title' -> 'Introduction to Linear Regression Analysis'].
 \##18['Career' -> 'Undergraduate'].
-\##18['Units' -> 3].
-\##18['Grading Basis' -> 'Student Option'].
-\##18['Enrollment Requirement' -> [['AMS 315'], ['AMS 210', 'MAT 211']]].
-\##18['Course Components' -> ['Lecture']].
-\##18['Academic Group' -> 'Engring & App Sci, College of'].
-\##18['Academic Organization' -> 'Applied Math and Statistics'].
-\##18['Description' -> 'Basic inference procedures and linear regression, model adequacy checking, transformations and weighted least squares, handling with influential observations and outliers, polynomial regression modeling, use of indicator variables, multicollinearity, variable selection, introduction of logistic regression, conventional and less common uses of linear regression in today's cutting-edge scientific research. Understanding of the basic principles for applied regression model-building techniques in various fields of study, including engineering, management and the health sciences.'].
+\##18['Credits' -> 3].
+\##18['Prerequisites' -> [['AMS 315'], ['AMS 210', 'MAT 211']]].
 \##1['AMS 318' -> \##19].
 \##19['Course Title' -> 'Financial Mathematics'].
 \##19['Career' -> 'Undergraduate'].
-\##19['Units' -> 3].
-\##19['Grading Basis' -> 'Student Option'].
-\##19['Enrollment Requirement' -> [['AMS 310']]].
-\##19['Course Components' -> ['Lecture']].
-\##19['Academic Group' -> 'College of Engring & App Sci'].
-\##19['Academic Organization' -> 'Applied Math and Statistics'].
-\##19['Description' -> 'This course will focus on accumulation functions, yield rates, annuities, loan repayment, term structure of interest rates/spot rates/forward rates, options, duration/convexity.  This course follows the syllabus for the Financial Mathematics (FM) Exam of the Society of Actuaries and prepares students to pass the FM Exam.'].
+\##19['Credits' -> 3].
+\##19['Prerequisites' -> [['AMS 310']]].
 \##1['AMS 320' -> \##20].
 \##20['Course Title' -> 'Introduction to Quantitative Finance'].
 \##20['Career' -> 'Undergraduate'].
-\##20['Units' -> 3].
-\##20['Grading Basis' -> 'A Through F Undergraduate'].
-\##20['Enrollment Requirement' -> [['AMS 311']]].
-\##20['Course Components' -> ['Lecture']].
-\##20['Academic Group' -> 'College of Engring & App Sci'].
-\##20['Academic Organization' -> 'Applied Math and Statistics'].
-\##20['Description' -> 'The course introduces the main classes of financial securities, the mathematical tools employed to model their prices, and common models for risk and investment management. Building realistic models relies on having a working knowledge of the empirical properties of financial asset returns which is another focus of the course. R is used as an environment for modeling.'].
+\##20['Credits' -> 3].
+\##20['Prerequisites' -> [['AMS 311']]].
 \##1['AMS 325' -> \##21].
 \##21['Course Title' -> 'Computing and Programming Fundamentals in Applied Mathematics and Statistics'].
 \##21['Career' -> 'Undergraduate'].
-\##21['Units' -> 3].
-\##21['Grading Basis' -> 'A Through F Undergraduate'].
-\##21['Enrollment Requirement' -> [['AMS 210', 'MAT 211']]].
-\##21['Course Components' -> ['Lecture']].
-\##21['Academic Group' -> 'Engring & App Sci, College of'].
-\##21['Academic Organization' -> 'Applied Math and Statistics'].
-\##21['Description' -> 'Introduction to programming in MATLAB and Python, including scripting, basic data structures, algorithms, scientific computing, and software engineering. Homework projects will focus on using computation to solve linear algebra, data analysis, and other mathematical problems.'].
+\##21['Credits' -> 3].
+\##21['Prerequisites' -> [['AMS 210', 'MAT 211']]].
 \##1['AMS 326' -> \##22].
 \##22['Course Title' -> 'Numerical Analysis'].
 \##22['Career' -> 'Undergraduate'].
-\##22['Units' -> 3].
-\##22['Grading Basis' -> 'Student Option'].
-\##22['Enrollment Requirement' -> [['CSE 101'], ['AMS 161'], ['AMS 210']]].
-\##22['Course Components' -> ['Lecture']].
-\##22['Academic Group' -> 'Engring & App Sci, College of'].
-\##22['Academic Organization' -> 'Applied Math and Statistics'].
-\##22['Description' -> 'Direct and indirect methods for the solution of linear and nonlinear equations. Computation of eigenvalues and eigenvectors of matrices. Quadrature, differentiation, and curve fitting. Numerical solution of ordinary and partial differential equations. May not be taken for credit in addition to CIV 350 or MEC 320.'].
+\##22['Credits' -> 3].
+\##22['Prerequisites' -> [['CSE 101'], ['AMS 161'], ['AMS 210']]].
 \##1['AMS 332' -> \##23].
 \##23['Course Title' -> 'Computational Modeling of Physiological Systems'].
 \##23['Career' -> 'Undergraduate'].
-\##23['Units' -> 3].
-\##23['Grading Basis' -> 'Student Option'].
-\##23['Enrollment Requirement' -> [['MAT 127', 'MAT 132', 'AMS 161', 'BIO 202', 'BIO 203', 'CHE 132', 'CHE 331', 'PHY 127', 'PHY 132']]].
-\##23['Course Components' -> ['Lecture']].
-\##23['Academic Group' -> 'Engring & App Sci, College of'].
-\##23['Academic Organization' -> 'Applied Math and Statistics'].
-\##23['Description' -> 'Introduces students to the fundamental principles underlying computational modeling of complex physiological systems. A major focus of the course will be on the process by which a model of a biological system is developed. Students will be introduced to the mathematical methods required for the modeling of complex systems (including stochastic processes and both temporal and spatial dynamics) as well as to tools for computational simulation. Roughly one half of the class will focus on models for general cellular physiology, while the remaining half will focus on the development of higher-level models of a particular physiological system (for example, the neurobiological systems underlying learning). This course is offered as both AMS 332 and BIO 332 and is intended for STEM majors who have already completed the foundational courses in their major. Students who satisfy the pre-requisites but do not have a deeper background in some STEM field may find the class very challenging and should ask the instructor for guidance before registering.'].
+\##23['Credits' -> 3].
+\##23['Prerequisites' -> [['MAT 127', 'MAT 132', 'AMS 161', 'BIO 202', 'BIO 203', 'CHE 132', 'CHE 331', 'PHY 127', 'PHY 132']]].
 \##1['AMS 333' -> \##24].
 \##24['Course Title' -> 'Mathematical Biology'].
 \##24['Career' -> 'Undergraduate'].
-\##24['Units' -> 3].
-\##24['Grading Basis' -> 'Student Option'].
-\##24['Enrollment Requirement' -> [['AMS 161', 'MAT 132']]].
-\##24['Course Components' -> ['Lecture']].
-\##24['Academic Group' -> 'Engring & App Sci, College of'].
-\##24['Academic Organization' -> 'Applied Math and Statistics'].
-\##24['Description' -> 'This course introduces the use of mathematics and computer simulation to study a wide range of problems in biology.  Topics include the modeling of populations, the dynamics of signal transduction and gene-regulatory networks, and simulation of protein structure and dynamics.  A computer laboratory component allows students to apply their knowledge to real-world problems.'].
+\##24['Credits' -> 3].
+\##24['Prerequisites' -> [['AMS 161', 'MAT 132']]].
 \##1['AMS 335' -> \##25].
 \##25['Course Title' -> 'Game Theory'].
 \##25['Career' -> 'Undergraduate'].
-\##25['Units' -> 3].
-\##25['Grading Basis' -> 'Student Option'].
-\##25['Enrollment Requirement' -> [['MAT 126', 'AMS 151'], ['ECO 303']]].
-\##25['Course Components' -> ['Lecture']].
-\##25['Academic Group' -> 'College of Engring & App Sci'].
-\##25['Academic Organization' -> 'Applied Math and Statistics'].
-\##25['Description' -> 'Introduction to game theory fundamentals with special emphasis on problems from economics and political science. Topics include strategic games and Nash equilibrium, games in coalitional form and the core, bargaining theory, measuring power in voting systems, problems of fair division, and optimal and stable matching. This course is offered as both AMS 335 and  ECO 355.'].
+\##25['Credits' -> 3].
+\##25['Prerequisites' -> [['MAT 126', 'AMS 151'], ['ECO 303']]].
 \##1['AMS 341' -> \##26].
 \##26['Course Title' -> 'Operations Research I: Deterministic Models'].
 \##26['Career' -> 'Undergraduate'].
-\##26['Units' -> 3].
-\##26['Grading Basis' -> 'Student Option'].
-\##26['Enrollment Requirement' -> [['AMS 210', 'MAT 211', 'MAT 307', 'MAT 308']]].
-\##26['Course Components' -> ['Lecture']].
-\##26['Academic Group' -> 'Engring & App Sci, College of'].
-\##26['Academic Organization' -> 'Applied Math and Statistics'].
-\##26['Description' -> 'Linear programming with a view toward its uses in economics and systems analysis. Linear algebra and geometric foundations of linear programming; simplex method and its variations; primal dual programs; formulation and interpretation of linear programming models, including practical problems in transportation and production control. Optional computer projects. AMS 341 and 342 may be taken in either order, though it is recommended that AMS 341 be taken first. Not for credit in addition to EST 342.'].
+\##26['Credits' -> 3].
+\##26['Prerequisites' -> [['AMS 210', 'MAT 211', 'MAT 307', 'MAT 308']]].
 \##1['AMS 342' -> \##27].
 \##27['Course Title' -> 'Operations Research II: Stochastic Models'].
 \##27['Career' -> 'Undergraduate'].
-\##27['Units' -> 3].
-\##27['Grading Basis' -> 'Student Option'].
-\##27['Enrollment Requirement' -> [['AMS 210', 'MAT 211'], ['AMS 311']]].
-\##27['Course Components' -> ['Lecture']].
-\##27['Academic Group' -> 'College of Engring & App Sci'].
-\##27['Academic Organization' -> 'Applied Math and Statistics'].
-\##27['Description' -> 'Methods and techniques for stochastic modeling and optimization, with applications to queueing theory, Markov chains, inventory theory, games, and decisions. AMS 341 and 342 may be taken in either order, though it is recommended that AMS 341 be taken first.'].
+\##27['Credits' -> 3].
+\##27['Prerequisites' -> [['AMS 210', 'MAT 211'], ['AMS 311']]].
 \##1['AMS 345' -> \##28].
 \##28['Course Title' -> 'Computational Geometry'].
 \##28['Career' -> 'Undergraduate'].
-\##28['Units' -> 3].
-\##28['Grading Basis' -> 'Student Option'].
-\##28['Enrollment Requirement' -> [['AMS 301']]].
-\##28['Course Components' -> ['Lecture']].
-\##28['Academic Group' -> 'College of Engring & App Sci'].
-\##28['Academic Organization' -> 'Applied Math and Statistics'].
-\##28['Description' -> 'The design and analysis of efficient algorithms to solve geometric problems that arise in computer graphics, robotics, geographical information systems, manufacturing, and optimization. Topics include convex hulls, triangulation, Voronoi diagrams, visibility, intersection, robot motion planning, and arrangements. This course is offered as both  AMS 345 and CSE 355.'].
+\##28['Credits' -> 3].
+\##28['Prerequisites' -> [['AMS 301']]].
 \##1['AMS 351' -> \##29].
 \##29['Course Title' -> 'Applied Algebra'].
 \##29['Career' -> 'Undergraduate'].
-\##29['Units' -> 3].
-\##29['Grading Basis' -> 'Student Option'].
-\##29['Enrollment Requirement' -> [['AMS 210', 'MAT 211', 'MAT 200', 'CSE 250']]].
-\##29['Course Components' -> ['Lecture', 'Recitation']].
-\##29['Academic Group' -> 'Engring & App Sci, College of'].
-\##29['Academic Organization' -> 'Applied Math and Statistics'].
-\##29['Description' -> 'Topics in algebra: groups, informal set theory, relations, homomorphisms. Applications: error correcting codes, Burnside's theorem, computational complexity, Chinese remainder theorem. This course is offered as both AMS 351 and  MAT 312.'].
+\##29['Credits' -> 3].
+\##29['Prerequisites' -> [['AMS 210', 'MAT 211', 'MAT 200', 'CSE 250']]].
 \##1['AMS 361' -> \##30].
 \##30['Course Title' -> 'Applied Calculus IV: Differential Equations'].
 \##30['Career' -> 'Undergraduate'].
-\##30['Units' -> 4].
-\##30['Grading Basis' -> 'Student Option'].
-\##30['Enrollment Requirement' -> [['AMS 161', 'MAT 127']]].
-\##30['Course Components' -> ['Lecture', 'Recitation']].
-\##30['Academic Group' -> 'College of Engring & App Sci'].
-\##30['Academic Organization' -> 'Applied Math and Statistics'].
-\##30['Description' -> 'Homogeneous and inhomogeneous linear differential equations; systems of linear differential equations; solution with power series and Laplace transforms; partial differential equations and Fourier series. May not be taken for credit in addition to the equivalent MAT 303.'].
+\##30['Credits' -> 4].
+\##30['Prerequisites' -> [['AMS 161', 'MAT 127']]].
 \##1['AMS 380' -> \##31].
 \##31['Course Title' -> 'Data Mining'].
 \##31['Career' -> 'Undergraduate'].
-\##31['Units' -> 3].
-\##31['Grading Basis' -> 'A Through F Undergraduate'].
-\##31['Enrollment Requirement' -> [['AMS 311']]].
-\##31['Course Components' -> ['Lecture']].
-\##31['Academic Group' -> 'Engring & App Sci, College of'].
-\##31['Academic Organization' -> 'Applied Math and Statistics'].
-\##31['Description' -> 'This course will teach the basic ingredients of classical and contemporary statistical data mining methods including dimension reduction, variable selection, pattern recognition, and predictive modeling using traditional general linear models and generalized linear models, and modern statistical learning methods such as classification and regression tree, random forest, neural networks, etc. We will also teach how to run these procedures with the statistical programming language R.'].
+\##31['Credits' -> 3].
+\##31['Prerequisites' -> [['AMS 311']]].
 \##1['AMS 394' -> \##32].
 \##32['Course Title' -> 'Statistical Laboratory'].
 \##32['Career' -> 'Undergraduate'].
-\##32['Units' -> 3].
-\##32['Grading Basis' -> 'Student Option'].
-\##32['Enrollment Requirement' -> [['AMS 310', 'AMS 315']]].
-\##32['Course Components' -> ['Laboratory']].
-\##32['Academic Group' -> 'College of Engring & App Sci'].
-\##32['Academic Organization' -> 'Applied Math and Statistics'].
-\##32['Description' -> 'Designed for students interested in statistics and their applications. Basic statistical techniques including sampling, design, regression, and analysis of variance are introduced. Includes the use of statistical packages such as SAS and R. Students translate realistic research problems into a statistical context and perform the analysis.'].
+\##32['Credits' -> 3].
+\##32['Prerequisites' -> [['AMS 310', 'AMS 315']]].
 \##1['AMS 410' -> \##33].
 \##33['Course Title' -> 'Actuarial Mathematics'].
 \##33['Career' -> 'Undergraduate'].
-\##33['Units' -> 3].
-\##33['Grading Basis' -> 'Student Option'].
-\##33['Enrollment Requirement' -> [['AMS 261', 'MAT 203'], ['AMS 310'], ['AMS 311']]].
-\##33['Course Components' -> ['Lecture']].
-\##33['Academic Group' -> 'College of Engring & App Sci'].
-\##33['Academic Organization' -> 'Applied Math and Statistics'].
-\##33['Description' -> 'Integrates calculus and probability with risk assessment and insurance in a quantitative manner to prepare students for the first actuarial examination.'].
+\##33['Credits' -> 3].
+\##33['Prerequisites' -> [['AMS 261', 'MAT 203'], ['AMS 310'], ['AMS 311']]].
 \##1['AMS 412' -> \##34].
 \##34['Course Title' -> 'Mathematical Statistics'].
 \##34['Career' -> 'Undergraduate'].
-\##34['Units' -> 3].
-\##34['Grading Basis' -> 'Student Option'].
-\##34['Enrollment Requirement' -> [['AMS 311']]].
-\##34['Course Components' -> ['Lecture']].
-\##34['Academic Group' -> 'College of Engring & App Sci'].
-\##34['Academic Organization' -> 'Applied Math and Statistics'].
-\##34['Description' -> 'Estimation, confidence intervals, Neyman Pearson lemma, likelihood ratio test, hypothesis testing, chi square test, regression, analysis of variance, nonparametric methods.'].
+\##34['Credits' -> 3].
+\##34['Prerequisites' -> [['AMS 311']]].
 \##1['AMS 420' -> \##35].
 \##35['Course Title' -> 'Investment Science Foundations'].
 \##35['Career' -> 'Undergraduate'].
-\##35['Units' -> 3].
-\##35['Grading Basis' -> 'A Through F Undergraduate'].
-\##35['Enrollment Requirement' -> [['AMS 311', 'AMS 341']]].
-\##35['Course Components' -> ['Lecture']].
-\##35['Academic Group' -> 'Engring & App Sci, College of'].
-\##35['Academic Organization' -> 'Applied Math and Statistics'].
-\##35['Description' -> 'This course focuses on fundamental principles of financial engineering and investment science such as cash flow streams, arbitrage, risk aversion, pricing of finance instruments, interest rate term structure, fixed income instruments duration, bond portfolio immunization, Markowitz mean-variance portfolio theory, Capital Asset Pricing Model and fixed proportion investment strategy.'].
+\##35['Credits' -> 3].
+\##35['Prerequisites' -> [['AMS 311', 'AMS 341']]].
 \##1['AMS 441' -> \##36].
 \##36['Course Title' -> 'Business Enterprise'].
 \##36['Career' -> 'Undergraduate'].
-\##36['Units' -> 3].
-\##36['Grading Basis' -> 'Student Option'].
-\##36['Enrollment Requirement' -> ].
-\##36['Course Components' -> ['Lecture']].
-\##36['Academic Group' -> 'College of Engring & App Sci'].
-\##36['Academic Organization' -> 'Applied Math and Statistics'].
-\##36['Description' -> 'Explores the strategy and technology of business enterprises.  Integrates the practice of engineering and quantitative methods with the operations of a business in today's globalized environment, whether in product development, financial management, or e-commerce.'].
+\##36['Credits' -> 3].
+\##36['Prerequisites' -> 'NONE'].
 \##1['AMS 458' -> \##37].
 \##37['Course Title' -> 'Speak Effectively Before an Audience'].
 \##37['Career' -> 'Undergraduate'].
-\##37['Units' -> 0].
-\##37['Grading Basis' -> 'Satisfactory/Unsatisfactory'].
-\##37['Enrollment Requirement' -> [['WRT 102']]].
-\##37['Course Components' -> ['Tutorial']].
-\##37['Academic Group' -> 'College of Engring & App Sci'].
-\##37['Academic Organization' -> 'Applied Math and Statistics'].
-\##37['Description' -> 'A zero credit course that may be taken in conjunction with AMS 475 course that provides opportunity to achieve the learning outcomes of the Stony Brook Curriculum's SPK learning objective.'].
+\##37['Credits' -> 0].
+\##37['Prerequisites' -> [['WRT 102']]].
 \##1['AMS 459' -> \##38].
 \##38['Course Title' -> 'Write Effectively in Applied Mathematics'].
 \##38['Career' -> 'Undergraduate'].
-\##38['Units' -> 0].
-\##38['Grading Basis' -> 'Satisfactory/Unsatisfactory'].
-\##38['Enrollment Requirement' -> [['WRT 102']]].
-\##38['Course Components' -> ['Tutorial']].
-\##38['Academic Group' -> 'College of Engring & App Sci'].
-\##38['Academic Organization' -> 'Applied Math and Statistics'].
-\##38['Description' -> 'A zero credit course that may be taken in conjunction with AMS 487, with permission of the instructor. The course provides opportunity to practice the skills and techniques of effective academic writing and satisfies the learning outcomes of the Stony Brook Curriculum's WRTD learning objective.'].
+\##38['Credits' -> 0].
+\##38['Prerequisites' -> [['WRT 102']]].
 \##1['AMS 475' -> \##39].
 \##39['Course Title' -> 'Undergraduate Teaching Practicum'].
 \##39['Career' -> 'Undergraduate'].
-\##39['Units' -> 3].
-\##39['Grading Basis' -> 'A Through F Undergraduate'].
-\##39['Enrollment Requirement' -> ].
-\##39['Course Components' -> ['Tutorial']].
-\##39['Academic Group' -> 'College of Engring & App Sci'].
-\##39['Academic Organization' -> 'Applied Math and Statistics'].
-\##39['Description' -> 'Students assist the faculty in teaching by conducting recitation or laboratory sections that supplement a lecture course. The student receives regularly scheduled supervision from the faculty advisor. May be used as an open elective only and repeated once.'].
+\##39['Credits' -> 3].
+\##39['Prerequisites' -> 'NONE'].
 \##1['AMS 476' -> \##40].
 \##40['Course Title' -> 'Undergraduate Teaching Practicum'].
 \##40['Career' -> 'Undergraduate'].
-\##40['Units' -> 3].
-\##40['Grading Basis' -> 'A Through F Undergraduate'].
-\##40['Enrollment Requirement' -> ].
-\##40['Course Components' -> ['Tutorial']].
-\##40['Academic Group' -> 'College of Engring & App Sci'].
-\##40['Academic Organization' -> 'Applied Math and Statistics'].
-\##40['Description' -> 'Students assist the faculty in teaching by conducting recitation or laboratory sections that supplement a lecture course. The student receives regularly scheduled supervision from the faculty advisor. May be used as an open elective only and repeated once.'].
+\##40['Credits' -> 3].
+\##40['Prerequisites' -> 'NONE'].
 \##1['AMS 487' -> \##41].
 \##41['Course Title' -> 'Research in Applied Mathematics'].
 \##41['Career' -> 'Undergraduate'].
-\##41['Units' -> '0.00 - 3.00'].
-\##41['Grading Basis' -> 'Student Option'].
-\##41['Enrollment Requirement' -> ].
-\##41['Course Components' -> ['Tutorial']].
-\##41['Academic Group' -> 'College of Engring & App Sci'].
-\##41['Academic Organization' -> 'Applied Math and Statistics'].
-\##41['Description' -> 'An independent research project with faculty supervision. Permission to register requires a B average and the agreement of a faculty member to supervise the research. May be repeated once. Only 3 credits of research electives (AMS 487, CSE 487, MEC 499, ESE 499, ESM 499, EST 499, ISE 487) may be counted toward engineering technical elective requirements.'].
+\##41['Credits' -> '0.00 - 3.00'].
+\##41['Prerequisites' -> 'NONE'].
 \##1['AMS 492' -> \##42].
 \##42['Course Title' -> 'Topics in Applied Mathematics'].
 \##42['Career' -> 'Undergraduate'].
-\##42['Units' -> 3].
-\##42['Grading Basis' -> 'Student Option'].
-\##42['Enrollment Requirement' -> ].
-\##42['Course Components' -> ['Lecture']].
-\##42['Academic Group' -> 'College of Engring & App Sci'].
-\##42['Academic Organization' -> 'Applied Math and Statistics'].
-\##42['Description' -> 'Treatment of an area of applied mathematics that expands upon the undergraduate curriculum. Topics may include applied mathematics, statistics, or operations research and change from semester to semester. Semester supplements to this Bulletin contain specific description when course is offered. May be repeated once, as the topic changes.'].
+\##42['Credits' -> 3].
+\##42['Prerequisites' -> 'NONE'].
 \##1['AMS 500' -> \##43].
 \##43['Course Title' -> 'Responsible Conduct of Research and Scholarship (RCRS)'].
 \##43['Career' -> 'Graduate'].
-\##43['Units' -> 0].
-\##43['Grading Basis' -> 'Satisfactory/Unsatisfactory'].
-\##43['Enrollment Requirement' -> ].
-\##43['Course Components' -> ['Seminar']].
-\##43['Academic Group' -> 'College of Engring & App Sci'].
-\##43['Academic Organization' -> 'Applied Math and Statistics'].
-\##43['Description' -> 'This course is designed to introduce students to the major issues in the ethics of science and research.  Using a combination of readings-written and web-based-videos, and case discussion, students will investigate the moral values intrinsic to science and the professional and social values with which scientists must comply.  Each class will begin with an introductory lecture or video followed by discipline-based, small group discussions with the participation of an AMS faculty member.'].
+\##43['Credits' -> 0].
+\##43['Prerequisites' -> 'NONE'].
 \##1['AMS 501' -> \##44].
 \##44['Course Title' -> 'Differential Equations and Boundary Value Problems I'].
 \##44['Career' -> 'Graduate'].
-\##44['Units' -> 3].
-\##44['Grading Basis' -> 'Graduate Graded'].
-\##44['Enrollment Requirement' -> ].
-\##44['Course Components' -> ['Lecture']].
-\##44['Academic Group' -> 'Engring & App Sci, College of'].
-\##44['Academic Organization' -> 'Applied Math and Statistics'].
-\##44['Description' -> 'Examples of initial and boundary value problems in which differential equations arise. Existence and uniqueness of solutions, systems of linear differential equations, and the fundamental solution matrix. Power series solutions. Sturm-Liouville theory and eigenfunction expansion. Green's functions.
-Spring'].
+\##44['Credits' -> 3].
+\##44['Prerequisites' -> 'NONE'].
 \##1['AMS 502' -> \##45].
 \##45['Course Title' -> 'Differential Equations and Boundary Value Problems II'].
 \##45['Career' -> 'Graduate'].
-\##45['Units' -> 3].
-\##45['Grading Basis' -> 'Graduate Graded'].
-\##45['Enrollment Requirement' -> ].
-\##45['Course Components' -> ['Lecture']].
-\##45['Academic Group' -> 'College of Engring & App Sci'].
-\##45['Academic Organization' -> 'Applied Math and Statistics'].
-\##45['Description' -> 'Analytic solution techniques for, and properties of solutions of, partial differential equations, with concentration on second order PDEs.  Techniques covered include: method of characteristics, separation of variables, eigenfunction expansions, spherical means.  Green's functions and fundamental solutions, and Fourier transforms.  Solution properties include: energy conservation, dispersion, dissipation, existence and uniqueness, maximum and mean value principles.
-Prerequisite: AMS 501'].
+\##45['Credits' -> 3].
+\##45['Prerequisites' -> 'NONE'].
 \##1['AMS 503' -> \##46].
 \##46['Course Title' -> 'Applications of Complex Analysis'].
 \##46['Career' -> 'Graduate'].
-\##46['Units' -> 3].
-\##46['Grading Basis' -> 'Graduate Graded'].
-\##46['Enrollment Requirement' -> ].
-\##46['Course Components' -> ['Lecture']].
-\##46['Academic Group' -> 'College of Engring & App Sci'].
-\##46['Academic Organization' -> 'Applied Math and Statistics'].
-\##46['Description' -> 'A study of those concepts and techniques in complex function theory that are of interest for their applications. Pertinent material is selected from the following topics: harmonic functions, calculus of residues, conformal mapping, and the argument principle. Application is made to problems in heat conduction, potential theory, fluid dynamics, and feedback systems.
-Spring,'].
+\##46['Credits' -> 3].
+\##46['Prerequisites' -> 'NONE'].
 \##1['AMS 504' -> \##47].
 \##47['Course Title' -> 'Foundations of Applied Mathematics'].
 \##47['Career' -> 'Graduate'].
-\##47['Units' -> 3].
-\##47['Grading Basis' -> 'Graduate Graded'].
-\##47['Enrollment Requirement' -> ].
-\##47['Course Components' -> ['Lecture']].
-\##47['Academic Group' -> 'College of Engring & App Sci'].
-\##47['Academic Organization' -> 'Applied Math and Statistics'].
-\##47['Description' -> 'An introductory course for the purpose of developing certain concepts and techniques that are fundamental in modern approaches to the solution of applied problems. An appropriate selection of topics is based on the concepts of metric spaces, compactness, sequences and convergence, continuity, differentiation and integration, function sequences, contraction mapping theorem.  Strong emphasis on proofs.
-Fall,'].
+\##47['Credits' -> 3].
+\##47['Prerequisites' -> 'NONE'].
 \##1['AMS 505' -> \##48].
 \##48['Course Title' -> 'Applied Linear Algebra'].
 \##48['Career' -> 'Graduate'].
-\##48['Units' -> 3].
-\##48['Grading Basis' -> 'Graduate Graded'].
-\##48['Enrollment Requirement' -> ].
-\##48['Course Components' -> ['Lecture']].
-\##48['Academic Group' -> 'College of Engring & App Sci'].
-\##48['Academic Organization' -> 'Applied Math and Statistics'].
-\##48['Description' -> 'Review of matrix operations. Elementary matrices and reduction of general matrices by elementary operations, canonical forms, and inverses. Applications to physical problems. Offered as AMS 505 or HPH 695.
-Fall,'].
+\##48['Credits' -> 3].
+\##48['Prerequisites' -> 'NONE'].
 \##1['AMS 507' -> \##49].
 \##49['Course Title' -> 'Introduction to Probability'].
 \##49['Career' -> 'Graduate'].
-\##49['Units' -> 3].
-\##49['Grading Basis' -> 'Graduate Graded'].
-\##49['Enrollment Requirement' -> ].
-\##49['Course Components' -> ['Lecture', 'Recitation']].
-\##49['Academic Group' -> 'Engring & App Sci, College of'].
-\##49['Academic Organization' -> 'Applied Math and Statistics'].
-\##49['Description' -> 'The topics include sample spaces, axioms of probability, conditional probability and independence, discrete and continuos random variables, jointly distributed random variables, characteristics of random variables, law of large numbers and central limit theorem, Markov chains.
-Note:  Offered as AMS 507 or CET 551 or HPH 696.'].
+\##49['Credits' -> 3].
+\##49['Prerequisites' -> 'NONE'].
 \##1['AMS 510' -> \##50].
 \##50['Course Title' -> 'Analytical Methods for Applied Mathematics and Statistics'].
 \##50['Career' -> 'Graduate'].
-\##50['Units' -> 3].
-\##50['Grading Basis' -> 'Graduate Graded'].
-\##50['Enrollment Requirement' -> ].
-\##50['Course Components' -> ['Lecture', 'Recitation']].
-\##50['Academic Group' -> 'Engring & App Sci, College of'].
-\##50['Academic Organization' -> 'Applied Math and Statistics'].
-\##50['Description' -> 'Review of techniques of multivariate calculus, convergence and limits, matrix analysis, vector space basics, and Lagrange multipliers.
-Prerequisite: A course in linear algebra and in multivariate calculus
-Fall,'].
+\##50['Credits' -> 3].
+\##50['Prerequisites' -> 'NONE'].
 \##1['AMS 511' -> \##51].
 \##51['Course Title' -> 'Foundations of Quantitative Finance'].
 \##51['Career' -> 'Graduate'].
-\##51['Units' -> 3].
-\##51['Grading Basis' -> 'Graduate Graded'].
-\##51['Enrollment Requirement' -> ].
-\##51['Course Components' -> ['Lecture']].
-\##51['Academic Group' -> 'College of Engring & App Sci'].
-\##51['Academic Organization' -> 'Applied Math and Statistics'].
-\##51['Description' -> 'Introduction to capital markets, securities pricing and modern portfolio theory, including the organization and operation of securities market, the Efficient Market Hypothesis and its implications, the Capital Asset Pricing Model, the Arbitrage Pricing Theory and more general factor models. Common stocks and their valuation, statistical analysis, and portfolio selection in a single-period, mean-variance context will be explored along with its solution as a quadratic program. Fixed income securities and their valuation, statistical analysis, and portfolio selection. Discussion of the development and use of financial derivatives. Introduction to risk neutral pricing, stochastic calculus and the Black-Scholes Formula. Whenever practical examples will use real market data. Numerical exercises and projects in a high-level programming environment will also be assigned.'].
+\##51['Credits' -> 3].
+\##51['Prerequisites' -> 'NONE'].
 \##1['AMS 512' -> \##52].
 \##52['Course Title' -> 'Capital Markets and Portfolio Theory'].
 \##52['Career' -> 'Graduate'].
-\##52['Units' -> 3].
-\##52['Grading Basis' -> 'Graduate Graded'].
-\##52['Enrollment Requirement' -> [['AMS 511']]].
-\##52['Course Components' -> ['Lecture']].
-\##52['Academic Group' -> 'Engring & App Sci, College of'].
-\##52['Academic Organization' -> 'Applied Math and Statistics'].
-\##52['Description' -> 'Development of capital markets and portfolio theory in both continuous time and multi-period settings. Utility theory and its application to the determination of optimal consumption and investment policies. Asymptotic growth under conditions of uncertainty. Applications to problems in strategic asset allocation over finite horizons and to problems in public finance. Whenever practical, examples will use real market data. Numerical exercises and projects in a high-level programming environment will also be assigned.
-Prerequisite: AMS 511. 3 Credits'].
+\##52['Credits' -> 3].
+\##52['Prerequisites' -> [['AMS 511']]].
 \##1['AMS 513' -> \##53].
 \##53['Course Title' -> 'Financial Derivatives and Stochastic Calculus'].
 \##53['Career' -> 'Graduate'].
-\##53['Units' -> 3].
-\##53['Grading Basis' -> 'Graduate Graded'].
-\##53['Enrollment Requirement' -> [['AMS 511']]].
-\##53['Course Components' -> ['Lecture']].
-\##53['Academic Group' -> 'College of Engring & App Sci'].
-\##53['Academic Organization' -> 'Applied Math and Statistics'].
-\##53['Description' -> 'Further development of derivative pricing theory including the use of equivalent martingale measures, the Girsanov Theorem, the Radon-Nikodym Derivative, and a deeper, more general understanding of the Arbitrage Theorem. Numerical approaches to solving stochastic PDE's will be further developed. Applications involving interest rate sensitive securities and more complex options will be introduced. Whenever practical examples will use real market data. Numerical exercises and projects in a high-level programming environment will also be assigned.
-Prerequisite: AMS 511. 3 Credits'].
+\##53['Credits' -> 3].
+\##53['Prerequisites' -> [['AMS 511']]].
 \##1['AMS 514' -> \##54].
 \##54['Course Title' -> 'Computational Finance'].
 \##54['Career' -> 'Graduate'].
-\##54['Units' -> 3].
-\##54['Grading Basis' -> 'Graduate Graded'].
-\##54['Enrollment Requirement' -> [['AMS 512', 'AMS 513']]].
-\##54['Course Components' -> ['Lecture']].
-\##54['Academic Group' -> 'College of Engring & App Sci'].
-\##54['Academic Organization' -> 'Applied Math and Statistics'].
-\##54['Description' -> 'Review of foundations: stochastic calculus, martingales, pricing, and arbitrage. Basic principles of Monte Carlo and the efficiency and effectiveness of simulation estimators. Generation of pseudo- and quasi-random numbers with sampling methods and distributions. Variance reduction techniques such as control variates, antithetic variates, stratified and Latin hypercube sampling, and importance sampling. Discretization methods including first and second order methods, trees, jumps, and barrier crossings. Applications in pricing American options, interest rate sensitive derivatives, mortgage-backed securities and risk management. Whenever practical examples will use real market data. Extensive numerical exercises and projects in a general programming environment will also be assigned.
-Prerequisite: AMS 512 and AMS 513. 3 Credits'].
+\##54['Credits' -> 3].
+\##54['Prerequisites' -> [['AMS 512', 'AMS 513']]].
 \##1['AMS 515' -> \##55].
 \##55['Course Title' -> 'Case Studies in Machine Learning and Finance'].
 \##55['Career' -> 'Graduate'].
-\##55['Units' -> 3].
-\##55['Grading Basis' -> 'Graduate Graded'].
-\##55['Enrollment Requirement' -> [['AMS 512', 'AMS 513']]].
-\##55['Course Components' -> ['Lecture']].
-\##55['Academic Group' -> 'Engring & App Sci, College of'].
-\##55['Academic Organization' -> 'Applied Math and Statistics'].
-\##55['Description' -> 'The course will cover applications of Quantitative Finance to risk assessment, portfolio management, cash flow matching, securities pricing and other topics. Particular attention will be paid to machine learning approaches, such as neural networks and support vector machines, data collection and analysis, the design and implementation of software. We will study differences between theory and practice in model application, including in-sample and out-of-sample analysis.'].
+\##55['Credits' -> 3].
+\##55['Prerequisites' -> [['AMS 512', 'AMS 513']]].
 \##1['AMS 516' -> \##56].
 \##56['Course Title' -> 'Statistical Methods in Finance'].
 \##56['Career' -> 'Graduate'].
-\##56['Units' -> 3].
-\##56['Grading Basis' -> 'Graduate Graded'].
-\##56['Enrollment Requirement' -> [['AMS 507']]].
-\##56['Course Components' -> ['Lecture']].
-\##56['Academic Group' -> 'Engring & App Sci, College of'].
-\##56['Academic Organization' -> 'Applied Math and Statistics'].
-\##56['Description' -> 'The course introduces statistical methodologies in quantitative finance. Financial applications and statistical methodologies are intertwined in all lectures. The course will cover regression analysis and applications to the Capital Asset Pricing Model and multifactor pricing models, principal components and multivariate analysis, statistical methods for financial time series; value at risk, smoothing techniques and estimation of yield curves, and estimation and modeling of volatilities. Prerequisite: AMS 507
-
-3 credits, ABCF grading'].
+\##56['Credits' -> 3].
+\##56['Prerequisites' -> [['AMS 507']]].
 \##1['AMS 517' -> \##57].
 \##57['Course Title' -> 'Quantitative Risk Management'].
 \##57['Career' -> 'Graduate'].
-\##57['Units' -> 3].
-\##57['Grading Basis' -> 'Graduate Graded'].
-\##57['Enrollment Requirement' -> [['AMS 507', 'AMS 511']]].
-\##57['Course Components' -> ['Lecture']].
-\##57['Academic Group' -> 'Engring & App Sci, College of'].
-\##57['Academic Organization' -> 'Applied Math and Statistics'].
-\##57['Description' -> 'The course will cover structural and reduced-form approach to pricing credit default, Markovian models (or rating-based) pricing methods, statistical inference of relative risks, counting process, correlated (or dependent) default times, copula methods and pricing models for CDOs. Prerequisite: AMS 507 and AMS 511
-
-3 credits, ABCF grading'].
+\##57['Credits' -> 3].
+\##57['Prerequisites' -> [['AMS 507', 'AMS 511']]].
 \##1['AMS 518' -> \##58].
 \##58['Course Title' -> 'Advanced Stochastic Models, Risk Assessment, and Portfolio Optimization'].
 \##58['Career' -> 'Graduate'].
-\##58['Units' -> 3].
-\##58['Grading Basis' -> 'Graduate Graded'].
-\##58['Enrollment Requirement' -> [['AMS 512', 'AMS 516', 'AMS 522']]].
-\##58['Course Components' -> ['Lecture']].
-\##58['Academic Group' -> 'Engring & App Sci, College of'].
-\##58['Academic Organization' -> 'Applied Math and Statistics'].
-\##58['Description' -> 'The course provides a thorough treatment of advance risk measurement and portfolio optimization, extending the traditional approaches to these topics by combining distributional models with risk or performance measures into one framework. It focuses on, among others, the fundamentals of probability metrics and optimization, new approaches to portfolio optimization and a variety of essential risk measures. Numerical exercises and projects in a high-level programming environment will be assigned.
-
-Prerequisite: AMS 512 or AMS 516 or AMS 522
-Fall, 3 credits, ABCF grading'].
+\##58['Credits' -> 3].
+\##58['Prerequisites' -> [['AMS 512', 'AMS 516', 'AMS 522']]].
 \##1['AMS 519' -> \##59].
 \##59['Course Title' -> 'Internship in Quantitative Finance'].
 \##59['Career' -> 'Graduate'].
-\##59['Units' -> '3.00 - 6.00'].
-\##59['Grading Basis' -> 'Graduate Graded'].
-\##59['Enrollment Requirement' -> ].
-\##59['Course Components' -> ['Supervision']].
-\##59['Academic Group' -> 'Engring & App Sci, College of'].
-\##59['Academic Organization' -> 'Applied Math and Statistics'].
-\##59['Description' -> 'Supervised internship in financial institution.  Students will typically work at a trading desk, in an asset management group, or in a risk management group.  Students will be supervised by a faculty member and a manager at their internship site.  Written and oral reports will be made to both supervisors.
-Offered every semester, 3-6 credits, ABCF grading'].
+\##59['Credits' -> '3.00 - 6.00'].
+\##59['Prerequisites' -> 'NONE'].
 \##1['AMS 520' -> \##60].
 \##60['Course Title' -> 'Machine Learning in Quantitative Finance'].
 \##60['Career' -> 'Graduate'].
-\##60['Units' -> 3].
-\##60['Grading Basis' -> 'Graduate Graded'].
-\##60['Enrollment Requirement' -> [['AMS 572', 'AMS 595', 'AMS 561']]].
-\##60['Course Components' -> ['Lecture']].
-\##60['Academic Group' -> 'Engring & App Sci, College of'].
-\##60['Academic Organization' -> 'Applied Math and Statistics'].
-\##60['Description' -> 'This course will merge ML and traditional quantitative finance techniques employed at investment banks, asset management, and securities trading firms. It will provide a systematic introduction to statistical learning and machine learning methods applied in Quantitative Finance. The topics discussed in the course fall broadly into four categories which (as time permits) will be discussed in this order: Probabilistic Modeling, Feedforward neural networks, Sequential Learning, and Reinforcement Learning.
-Prerequisite: AMS 572& AMS 595 (or AMS 561 or based on Python knowledge per Instructor Consent)'].
+\##60['Credits' -> 3].
+\##60['Prerequisites' -> [['AMS 572', 'AMS 595', 'AMS 561']]].
 \##1['AMS 522' -> \##61].
 \##61['Course Title' -> 'Bayesian Methods in Finance'].
 \##61['Career' -> 'Graduate'].
-\##61['Units' -> 3].
-\##61['Grading Basis' -> 'Graduate Graded'].
-\##61['Enrollment Requirement' -> [['AMS 512']]].
-\##61['Course Components' -> ['Lecture']].
-\##61['Academic Group' -> 'Engring & App Sci, College of'].
-\##61['Academic Organization' -> 'Applied Math and Statistics'].
-\##61['Description' -> 'The course explores in depth the fundamentals of the Bayesian methodology and the use of the Bayesian theory in portfolio and risk management.  It focuses on, among other topics, incorporating the prior views of analysts and investors into the asset allocation process, estimating and predicting volatility, improving risk forecasts, and combining the conclusions of different models.  Numerical exercises and projects in a high-level programming environment will be assigned.
-This class will be limited to a sample size of 40 students and will meet once weekly during the course of the semester.  Each class meeting will consist of discussion of theoretical material, as well as applications and examples using real market data, whenever practical.  Application presentations will start with the basics, work through the traditional "frequentist" perspective, and follow with the Bayesian treatment.
-Students will have the option to choose between a final exam and a research project as the form of the end-of-semester evaluation.
-3 Credits, ABCF Grading'].
+\##61['Credits' -> 3].
+\##61['Prerequisites' -> [['AMS 512']]].
 \##1['AMS 523' -> \##62].
 \##62['Course Title' -> 'Mathematics of High Frequency Finance'].
 \##62['Career' -> 'Graduate'].
-\##62['Units' -> 3].
-\##62['Grading Basis' -> 'Graduate Graded'].
-\##62['Enrollment Requirement' -> ].
-\##62['Course Components' -> ['Lecture']].
-\##62['Academic Group' -> 'College of Engring & App Sci'].
-\##62['Academic Organization' -> 'Applied Math and Statistics'].
-\##62['Description' -> 'Elements of real and complex linear spaces.  Fourier series and transforms, the Laplance transform and z-transform.  Elements of complex analysis including Cauchy theory, residue calculus, conformal mapping and Mobius transformations.  Introduction to convex sets and analysis in finite dimensions, the Legendre transform and duality.  Examples are given in terms of applications to high frequency finance.
-Offered Fall, 3 credits, ABCF Grading'].
+\##62['Credits' -> 3].
+\##62['Prerequisites' -> 'NONE'].
 \##1['AMS 524' -> \##63].
 \##63['Course Title' -> 'Modern Computational Data Analytics'].
 \##63['Career' -> 'Graduate'].
-\##63['Units' -> 3].
-\##63['Grading Basis' -> 'Graduate Graded'].
-\##63['Enrollment Requirement' -> ].
-\##63['Course Components' -> ['Lecture']].
-\##63['Academic Group' -> 'Engring & App Sci, College of'].
-\##63['Academic Organization' -> 'Applied Math and Statistics'].
-\##63['Description' -> 'This course introduces the tools for the analysis of big data sets on server machines. It teaches how to store, preprocess, analyze and visualize data arriving at high volume and velocity. In the first part of the course, we will cover programming in Python, from its basic libraries to more advanced methods for big data analytics, and machine learning. Emphasis will be on the implementation in Python and practical hands-on examples. Next, we will learn essential Shell
-scripting and terminal window commands for computations on server machines. We will introduce database management systems and SQL querying. In the second part of the course, we will discuss code version control and collaboration solutions in GitHub and GitHub Actions, microservices, containers (Docker and Kubernetes), API gateways, and other tools necessary in a professional data science pipeline.'].
+\##63['Credits' -> 3].
+\##63['Prerequisites' -> 'NONE'].
 \##1['AMS 525' -> \##64].
 \##64['Course Title' -> 'Geometric Deep Learning'].
 \##64['Career' -> 'Graduate'].
-\##64['Units' -> 3].
-\##64['Grading Basis' -> 'Graduate Graded'].
-\##64['Enrollment Requirement' -> ].
-\##64['Course Components' -> ['Lecture']].
-\##64['Academic Group' -> 'Engring & App Sci, College of'].
-\##64['Academic Organization' -> 'Applied Math and Statistics'].
-\##64['Description' -> 'In the first part of the course, we will cover programming in Python, from its basic
-libraries up to the implementation of advanced deep learning models such as CNNs, RNNs, GNNs, and Transformer networks. The practical success of many of these models in high-dimensional problems such as image processing, playing GO, or protein folding comes from the predefined regularities in the underlying low-dimensional geometric structure of the data. Therefore in the second part of the course, we will extend the aforementioned deep learning models and their implementations to graphs and manifolds in spatial and spectral domains. The focus will be on the implementation of the models in Python and their practical applications.'].
+\##64['Credits' -> 3].
+\##64['Prerequisites' -> 'NONE'].
 \##1['AMS 526' -> \##65].
 \##65['Course Title' -> 'Numerical Analysis I'].
 \##65['Career' -> 'Graduate'].
-\##65['Units' -> 3].
-\##65['Grading Basis' -> 'Graduate Graded'].
-\##65['Enrollment Requirement' -> [['AMS 510', 'AMS 595']]].
-\##65['Course Components' -> ['Lecture']].
-\##65['Academic Group' -> 'Engring & App Sci, College of'].
-\##65['Academic Organization' -> 'Applied Math and Statistics'].
-\##65['Description' -> 'Direct and indirect methods for solving simultaneous linear equations and matrix inversion, conditioning, and round-off errors. Computation of eigenvalues and eigenvectors.
-Corequisite: AMS 510 and AMS 595
-Fall,'].
+\##65['Credits' -> 3].
+\##65['Prerequisites' -> [['AMS 510', 'AMS 595']]].
 \##1['AMS 527' -> \##66].
 \##66['Course Title' -> 'Numerical Analysis II'].
 \##66['Career' -> 'Graduate'].
-\##66['Units' -> 3].
-\##66['Grading Basis' -> 'Graduate Graded'].
-\##66['Enrollment Requirement' -> ].
-\##66['Course Components' -> ['Lecture']].
-\##66['Academic Group' -> 'College of Engring & App Sci'].
-\##66['Academic Organization' -> 'Applied Math and Statistics'].
-\##66['Description' -> 'Numerical methods based upon functional approximation: polynomial interpolation and approximation; and numerical differentiation and integration. Solution methods for ordinary differential equations. AMS 527 may be taken whether or not the student has completed AMS 526.
-Spring,'].
+\##66['Credits' -> 3].
+\##66['Prerequisites' -> 'NONE'].
 \##1['AMS 528' -> \##67].
 \##67['Course Title' -> 'Numerical Analysis III'].
 \##67['Career' -> 'Graduate'].
-\##67['Units' -> 3].
-\##67['Grading Basis' -> 'Graduate Graded'].
-\##67['Enrollment Requirement' -> ].
-\##67['Course Components' -> ['Lecture']].
-\##67['Academic Group' -> 'College of Engring & App Sci'].
-\##67['Academic Organization' -> 'Applied Math and Statistics'].
-\##67['Description' -> 'An introduction to scientific computation, this course considers the basic numerical techniques designed to solve problems of physical and engineering interest. Finite difference methods are covered for the three major classes of partial differential equations: parabolic, elliptic, and hyperbolic. Practical implementation will be discussed. The student is also introduced to the important packages of scientific software algorithms. AMS 528 may be taken whether or not the student has completed AMS 526 or AMS 527.
-Spring,'].
+\##67['Credits' -> 3].
+\##67['Prerequisites' -> 'NONE'].
 \##1['AMS 530' -> \##68].
 \##68['Course Title' -> 'Principles in Parallel Computing'].
 \##68['Career' -> 'Graduate'].
-\##68['Units' -> 3].
-\##68['Grading Basis' -> 'Graduate Graded'].
-\##68['Enrollment Requirement' -> ].
-\##68['Course Components' -> ['Lecture']].
-\##68['Academic Group' -> 'College of Engring & App Sci'].
-\##68['Academic Organization' -> 'Applied Math and Statistics'].
-\##68['Description' -> 'This course is designed for both academic and industrial scientists interested in parallel computing and its applications to large-scale scientific and engineering problems. It focuses on the three main issues in parallel computing: analysis of parallel hardware and software systems, design and implementation of parallel algorithms, and applications of parallel computing to selected problems in physical science and engineering. The course emphasizes hands-on practice and understanding of algorithmic concepts of parallel computing.
-Prerequisite: A course in basic computer science such as operating systems or architectures or some programming experience.
-Spring,'].
+\##68['Credits' -> 3].
+\##68['Prerequisites' -> 'NONE'].
 \##1['AMS 531' -> \##69].
 \##69['Course Title' -> 'Laboratory Rotations in Computational Biology'].
 \##69['Career' -> 'Graduate'].
-\##69['Units' -> '0.00 - 3.00'].
-\##69['Grading Basis' -> 'Satisfactory/Unsatisfactory'].
-\##69['Enrollment Requirement' -> ].
-\##69['Course Components' -> ['Laboratory']].
-\##69['Academic Group' -> 'College of Engring & App Sci'].
-\##69['Academic Organization' -> 'Applied Math and Statistics'].
-\##69['Description' -> 'This is a two semester course in which first year Ph.D. students spend at least 8 weeks in each of three different laboratories actively participating in the research of participating Computational Biology Faculty.  At the end of each rotation, students give a presentation of their lab activates and accomplishments.  The primary goal of rotations is to help students choose a research advisor and to help faculty members choose students.  Students register for AMS 531 in both the Fall and Spring semesters of the first year.'].
+\##69['Credits' -> '0.00 - 3.00'].
+\##69['Prerequisites' -> 'NONE'].
 \##1['AMS 532' -> \##70].
 \##70['Course Title' -> 'Journal Club in Computational Biology'].
 \##70['Career' -> 'Graduate'].
-\##70['Units' -> '0.00 - 1.00'].
-\##70['Grading Basis' -> 'Satisfactory/Unsatisfactory'].
-\##70['Enrollment Requirement' -> ].
-\##70['Course Components' -> ['Seminar']].
-\##70['Academic Group' -> 'Engring & App Sci, College of'].
-\##70['Academic Organization' -> 'Applied Math and Statistics'].
-\##70['Description' -> 'The goal of this course is for students to hone critical reading and analytic skills through discussions of literature in the area of Computational Biology.  Participants take turn being a "discussion leader" who informally guides the group through a peer-reviewed manuscript for which all Journal Club members will have to read in advance of the meeting.  Meetings in the Spring semester will include in Person Training (IPT) in Responsible conduct of Research and Scholarship (RCRS) on topics that comprise (1) Integrity in Scholarship, (2) Scientific Misconduct, (3) Mentoring, (4) Ownership and Authorship, (5) Plagiarism, (6) Data Management, (7) Journalism and Science, (8) Human Subjects, and (9) Laboratory Animals.'].
+\##70['Credits' -> '0.00 - 1.00'].
+\##70['Prerequisites' -> 'NONE'].
 \##1['AMS 533' -> \##71].
 \##71['Course Title' -> 'Numerical Methods and Algorithms in Computational Biology'].
 \##71['Career' -> 'Graduate'].
-\##71['Units' -> 3].
-\##71['Grading Basis' -> 'Graduate Graded'].
-\##71['Enrollment Requirement' -> ].
-\##71['Course Components' -> ['Lecture']].
-\##71['Academic Group' -> 'College of Engring & App Sci'].
-\##71['Academic Organization' -> 'Applied Math and Statistics'].
-\##71['Description' -> 'An in-depth survey of many of the key techniques used in diverse aspects of computational biology. A major focus of this class is on how to successfully formulate a statement of the problem to be solved, and how that formulation can guide in selecting the most suitable computational approach. Examples will be drawn from a wide range of problems in biology, including molecular modeling, biochemical reaction networks, microscopy and systems biology. No prior knowledge of biology is required.'].
+\##71['Credits' -> 3].
+\##71['Prerequisites' -> 'NONE'].
 \##1['AMS 534' -> \##72].
 \##72['Course Title' -> 'Introduction to Systems Biology'].
 \##72['Career' -> 'Graduate'].
-\##72['Units' -> 3].
-\##72['Grading Basis' -> 'Graduate Graded'].
-\##72['Enrollment Requirement' -> ].
-\##72['Course Components' -> ['Lecture']].
-\##72['Academic Group' -> 'College of Engring & App Sci'].
-\##72['Academic Organization' -> 'Applied Math and Statistics'].
-\##72['Description' -> 'This course is geared towards teaching essential concepts and computational skills in Systems Biology.  The course is centered upon two key programming languages: Matlab for modeling applications and the R language for statistical analysis and sequence manipulation.
-Spring, 3 Credits, ABCF Grading'].
+\##72['Credits' -> 3].
+\##72['Prerequisites' -> 'NONE'].
 \##1['AMS 535' -> \##73].
 \##73['Course Title' -> 'Introduction to Computational Structural Biology and Drug Design'].
 \##73['Career' -> 'Graduate'].
-\##73['Units' -> 3].
-\##73['Grading Basis' -> 'Graduate Graded'].
-\##73['Enrollment Requirement' -> ].
-\##73['Course Components' -> ['Lecture']].
-\##73['Academic Group' -> 'Engring & App Sci, College of'].
-\##73['Academic Organization' -> 'Applied Math and Statistics'].
-\##73['Description' -> 'This course will provide an introduction to Computational Structural Biology with application to Drug Design.  Methods and applications that use computation to model biological systems involved in human disease will be emphasized.   The course aims to foster collaborative learning and will consist of presentations by the instructor, guest lecturers, and by course participants with the goal of summarizing key, methods, topics, and papers relevant to Computational Structural Biology.  Grades are based on the quality of the presentations, participation in class discussion, attendance, quizzes, and a final exam.'].
+\##73['Credits' -> 3].
+\##73['Prerequisites' -> 'NONE'].
 \##1['AMS 536' -> \##74].
 \##74['Course Title' -> 'Molecular Modeling of Biological Molecules'].
 \##74['Career' -> 'Graduate'].
-\##74['Units' -> 3].
-\##74['Grading Basis' -> 'Graduate Graded'].
-\##74['Enrollment Requirement' -> [['AMS 535']]].
-\##74['Course Components' -> ['Lecture', 'Recitation']].
-\##74['Academic Group' -> 'College of Engring & App Sci'].
-\##74['Academic Organization' -> 'Applied Math and Statistics'].
-\##74['Description' -> 'This computer-based lab course is designed for students who wish to gain hands an experience modeling biological molecules at the atomic level.  In conjunction with individual interests, Molecular Mechanics, Molecular dynamics, Monte Carlo, Docking (virtual screening), or Quantum Mechanics software packages can be used to study relevant biological systems (s).  Projects will include setup, execution, and analysis.  Course participants will give literature presentations relevant to the simulations being performed and a final project report will be required.  Familiarity with Unix (Linux) is desirable but not mandatory.'].
+\##74['Credits' -> 3].
+\##74['Prerequisites' -> [['AMS 535']]].
 \##1['AMS 537' -> \##75].
 \##75['Course Title' -> 'Biological Dynamics and Networks'].
 \##75['Career' -> 'Graduate'].
-\##75['Units' -> 3].
-\##75['Grading Basis' -> 'Graduate Graded'].
-\##75['Enrollment Requirement' -> ].
-\##75['Course Components' -> ['Lecture']].
-\##75['Academic Group' -> 'College of Engring & App Sci'].
-\##75['Academic Organization' -> 'Applied Math and Statistics'].
-\##75['Description' -> 'This course will provide a solid foundation in key theoretical concepts for the study of dynamics in biological systems and networks at different scales ranging from the molecular level to metabolic and gene regulatory networks. Topics of this course include but are not limited to: Physical kinetics; Diffusion/Smoluchowskii; Random flights; Waiting times; Poisson; Brownian ratchets; Chemical kinetics; Transition states; Stability, bifurcations, pattern development; Noise in cells: intrinsic and Extrinsic; Feedback; Biological Osciillators; Recurrence, period doubling, chaos; Networks; Topologies; Degree distribution, betweenness; Models of nets: Erdos-Renyi, scale-free, social, Watts-Strogatz, agents; Robustness, highly-optimized tolerance, bowties, epidemics; Biological networks: Protein-protein nets, regulatory and metabolic nets; Known biological circuits and their behaviors; How networks evolve: Preferential attachment, rewiring; Power laws; Fluxed through networks; Information and communication, entropy; Metabolic flux analysis; Artificial and Natural selection for traits; Darwinian evolution; Population dynamics.
-Spring, 3 credits, ABCF grading
-Crosslisted with PHY 559 and CHE 559'].
+\##75['Credits' -> 3].
+\##75['Prerequisites' -> 'NONE'].
 \##1['AMS 538' -> \##76].
 \##76['Course Title' -> 'Methods in Neuronal Modeling'].
 \##76['Career' -> 'Graduate'].
-\##76['Units' -> 3].
-\##76['Grading Basis' -> 'Graduate Graded'].
-\##76['Enrollment Requirement' -> ].
-\##76['Course Components' -> ['Lecture']].
-\##76['Academic Group' -> 'College of Engring & App Sci'].
-\##76['Academic Organization' -> 'Applied Math and Statistics'].
-\##76['Description' -> 'Presentation of the mathematical modeling approach to information processing in nervous systems, from the level of individual ionic channels to large-scale neuronal networks. The course covers kinetic models of synaptic transmission, cable theory and compartment models for neurons, multiple channels and calcium dynamics, spike-train analysis and modeling small neuron networks.'].
+\##76['Credits' -> 3].
+\##76['Prerequisites' -> 'NONE'].
 \##1['AMS 539' -> \##77].
 \##77['Course Title' -> 'Introduction to Physical and Quantitative Biology'].
 \##77['Career' -> 'Graduate'].
-\##77['Units' -> '0.00 - 1.00'].
-\##77['Grading Basis' -> 'Satisfactory/Unsatisfactory'].
-\##77['Enrollment Requirement' -> ].
-\##77['Course Components' -> ['Seminar']].
-\##77['Academic Group' -> 'College of Engring & App Sci'].
-\##77['Academic Organization' -> 'Applied Math and Statistics'].
-\##77['Description' -> 'This course is a seminar series organized by the Laufer Center for Physical and Quantitative Biology and is aimed at any incoming graduate students who might be interested in doing research in computational, mathematical or physical biology.  Each seminar will be given by a different faculty member about their research and will span a range of topics including computational cell biology and evolutionary models.'].
+\##77['Credits' -> '0.00 - 1.00'].
+\##77['Prerequisites' -> 'NONE'].
 \##1['AMS 540' -> \##78].
 \##78['Course Title' -> 'Linear Programming'].
 \##78['Career' -> 'Graduate'].
-\##78['Units' -> 3].
-\##78['Grading Basis' -> 'Graduate Graded'].
-\##78['Enrollment Requirement' -> ].
-\##78['Course Components' -> ['Lecture']].
-\##78['Academic Group' -> 'College of Engring & App Sci'].
-\##78['Academic Organization' -> 'Applied Math and Statistics'].
-\##78['Description' -> 'Formulation of linear programming problems and solutions by simplex method. Duality, sensitivity analysis, dual simplex algorithm, decomposition. Applications to the transportation problem, two-person games, assignment problem, and introduction to integer and nonlinear programming. 
-Prerequisite:  A course in linear algebra.'].
+\##78['Credits' -> 3].
+\##78['Prerequisites' -> 'NONE'].
 \##1['AMS 542' -> \##79].
 \##79['Course Title' -> 'Analysis of Algorithms'].
 \##79['Career' -> 'Graduate'].
-\##79['Units' -> 3].
-\##79['Grading Basis' -> 'Graduate Graded'].
-\##79['Enrollment Requirement' -> ].
-\##79['Course Components' -> ['Lecture']].
-\##79['Academic Group' -> 'Engring & App Sci, College of'].
-\##79['Academic Organization' -> 'Applied Math and Statistics'].
-\##79['Description' -> 'Techniques for designing efficient algorithms, including choice of data structures, recursion, branch and bound, divide and conquer, and dynamic programming. Complexity analysis of searching, sorting, matrix multiplication, and graph algorithms. Standard NP-complete problems and polynomial transformation techniques.  This course is offered as both AMS 542 and CSE 548.'].
+\##79['Credits' -> 3].
+\##79['Prerequisites' -> 'NONE'].
 \##1['AMS 544' -> \##80].
 \##80['Course Title' -> 'Discrete and Nonlinear Optimization'].
 \##80['Career' -> 'Graduate'].
-\##80['Units' -> 3].
-\##80['Grading Basis' -> 'Graduate Graded'].
-\##80['Enrollment Requirement' -> [['AMS 540']]].
-\##80['Course Components' -> ['Lecture']].
-\##80['Academic Group' -> 'College of Engring & App Sci'].
-\##80['Academic Organization' -> 'Applied Math and Statistics'].
-\##80['Description' -> 'Theoretical and computational properties of discrete and nonlinear optimization problems: integer programming, including cutting plane and branch and bound algorithms, necessary and sufficient conditions for optimality of nonlinear programs, and performance of selected nonlinear programming algorithms.
-Prerequisite: AMS 540
-Spring'].
+\##80['Credits' -> 3].
+\##80['Prerequisites' -> [['AMS 540']]].
 \##1['AMS 545' -> \##81].
 \##81['Course Title' -> 'Computational Geometry'].
 \##81['Career' -> 'Graduate'].
-\##81['Units' -> 3].
-\##81['Grading Basis' -> 'Graduate Graded'].
-\##81['Enrollment Requirement' -> ].
-\##81['Course Components' -> ['Lecture']].
-\##81['Academic Group' -> 'Engring & App Sci, College of'].
-\##81['Academic Organization' -> 'Applied Math and Statistics'].
-\##81['Description' -> 'Study of the fundamental algorithmic problems associated with geometric computations, including convex hulls, Voronoi diagrams, triangulation, intersection, range queries, visibility, arrangements, and motion planning for robotics.  Algorithmic methods include plane sweep, incremental insertion, randomization, divide-and-conquer, etc.  This course is offered as both AMS 545 and CSE 555.'].
+\##81['Credits' -> 3].
+\##81['Prerequisites' -> 'NONE'].
 \##1['AMS 546' -> \##82].
 \##82['Course Title' -> 'Network Flows'].
 \##82['Career' -> 'Graduate'].
-\##82['Units' -> 3].
-\##82['Grading Basis' -> 'Graduate Graded'].
-\##82['Enrollment Requirement' -> [['AMS 540']]].
-\##82['Course Components' -> ['Lecture']].
-\##82['Academic Group' -> 'College of Engring & App Sci'].
-\##82['Academic Organization' -> 'Applied Math and Statistics'].
-\##82['Description' -> 'Theory of flows in capacity-constrained networks.  Topics include maximum flow, feasibility criteria, scheduling problems, matching and covering problems, minimum-length paths, minimum-cost flows, and associated combinatorial problems.'].
+\##82['Credits' -> 3].
+\##82['Prerequisites' -> [['AMS 540']]].
 \##1['AMS 547' -> \##83].
 \##83['Course Title' -> 'Discrete Mathematics'].
 \##83['Career' -> 'Graduate'].
-\##83['Units' -> 3].
-\##83['Grading Basis' -> 'Graduate Graded'].
-\##83['Enrollment Requirement' -> ].
-\##83['Course Components' -> ['Lecture']].
-\##83['Academic Group' -> 'Engring & App Sci, College of'].
-\##83['Academic Organization' -> 'Applied Math and Statistics'].
-\##83['Description' -> 'This course introduces such mathematical tools as summations, number theory, binomial coefficients, generating functions, recurrence relations, discrete probability, asymptotics, combinatorics, and graph theory for use in algorithmic and combinatorial analysis. This course is offered as both CSE 547 and AMS 547.'].
+\##83['Credits' -> 3].
+\##83['Prerequisites' -> 'NONE'].
 \##1['AMS 548' -> \##84].
 \##84['Course Title' -> 'Optimization techniques in biomolecular simulations'].
 \##84['Career' -> 'Graduate'].
-\##84['Units' -> '0.00 - 3.00'].
-\##84['Grading Basis' -> 'Graduate Graded'].
-\##84['Enrollment Requirement' -> ].
-\##84['Course Components' -> ['Lecture']].
-\##84['Academic Group' -> 'College of Engring & App Sci'].
-\##84['Academic Organization' -> 'Applied Math and Statistics'].
-\##84['Description' -> 'This practical hands-on course will teach basic techniques for building mathematical models, algorithms, and software for biomolecular simulations of macromolecular interactions.  The topics of this course include, but are not limited to: the basics of statistical mechanics and its connection to the sampling algorithms; the origin of and approximations for the computation of molecular forces; geometry of the molecular configuration search space and multidimensional optimization; basics of software development and programming for high performance computing (HPC). During the course, the students will develop a multiscale approach for modeling protein-protein interactions from the ground up.  No special background is required.
-Offered in the Spring Semester'].
+\##84['Credits' -> '0.00 - 3.00'].
+\##84['Prerequisites' -> 'NONE'].
 \##1['AMS 549' -> \##85].
 \##85['Course Title' -> 'Computational Biology'].
 \##85['Career' -> 'Graduate'].
-\##85['Units' -> 3].
-\##85['Grading Basis' -> 'Graduate Graded'].
-\##85['Enrollment Requirement' -> ].
-\##85['Course Components' -> ['Lecture']].
-\##85['Academic Group' -> 'Engring & App Sci, College of'].
-\##85['Academic Organization' -> 'Applied Math and Statistics'].
-\##85['Description' -> 'This course focuses on current problems in computational biology and bioinformatics. Our emphasis will be algorithmic, on discovering appropriate combinatorial algorithm problems and the techniques to solve them. Primary topics will include DNA sequence assembly, DNA/protein sequence comparison, hybridization array analysis, RNA and protein folding, and phylogenic trees.'].
+\##85['Credits' -> 3].
+\##85['Prerequisites' -> 'NONE'].
 \##1['AMS 550' -> \##86].
 \##86['Course Title' -> 'Operations Research: Stochastic Models'].
 \##86['Career' -> 'Graduate'].
-\##86['Units' -> 3].
-\##86['Grading Basis' -> 'Graduate Graded'].
-\##86['Enrollment Requirement' -> [['AMS 507']]].
-\##86['Course Components' -> ['Lecture']].
-\##86['Academic Group' -> 'Engring & App Sci, College of'].
-\##86['Academic Organization' -> 'Applied Math and Statistics'].
-\##86['Description' -> 'Includes Poisson processes, renewal theory, discrete-time and continuous-time Markov processes, Brownian motion, applications to queues, statistics, and other problems of engineering and social sciences. 
-Prerequisite: AMS 507 or equivalent'].
+\##86['Credits' -> 3].
+\##86['Prerequisites' -> [['AMS 507']]].
 \##1['AMS 552' -> \##87].
 \##87['Course Title' -> 'Game Theory I'].
 \##87['Career' -> 'Graduate'].
-\##87['Units' -> 3].
-\##87['Grading Basis' -> 'Graduate Graded'].
-\##87['Enrollment Requirement' -> ].
-\##87['Course Components' -> ['Lecture']].
-\##87['Academic Group' -> 'Engring & App Sci, College of'].
-\##87['Academic Organization' -> 'Applied Math and Statistics'].
-\##87['Description' -> 'Elements of cooperative and non-cooperative games. Matrix games, pure and mixed strategies, and equilibria. Solution concepts such as core, stable sets, and bargaining sets. Voting games, and the Shapley and Banzhaff power indices. This course is offered as both ECO 604 and AMS 552.
-Prerequisite for ECO 604: Graduate standing in the Economics Department or permission of the Graduate Director.'].
+\##87['Credits' -> 3].
+\##87['Prerequisites' -> 'NONE'].
 \##1['AMS 553' -> \##88].
 \##88['Course Title' -> 'Simulation and Modeling'].
 \##88['Career' -> 'Graduate'].
-\##88['Units' -> 3].
-\##88['Grading Basis' -> 'Graduate Graded'].
-\##88['Enrollment Requirement' -> ].
-\##88['Course Components' -> ['Lecture']].
-\##88['Academic Group' -> 'Engring & App Sci, College of'].
-\##88['Academic Organization' -> 'Applied Math and Statistics'].
-\##88['Description' -> 'A comprehensive course in formulation, implementation, and application of simulation models. Topics include data structures, simulation languages, statistical analysis, pseudo-random number generation, and design of simulation experiments. Students apply simulation modeling methods to problems of their own design. This course is offered as CSE 529, AMS 553 and MBA 553.'].
+\##88['Credits' -> 3].
+\##88['Prerequisites' -> 'NONE'].
 \##1['AMS 555' -> \##89].
 \##89['Course Title' -> 'Game Theory II'].
 \##89['Career' -> 'Graduate'].
-\##89['Units' -> 3].
-\##89['Grading Basis' -> 'Graduate Graded'].
-\##89['Enrollment Requirement' -> ].
-\##89['Course Components' -> ['Lecture']].
-\##89['Academic Group' -> 'Engring & App Sci, College of'].
-\##89['Academic Organization' -> 'Applied Math and Statistics'].
-\##89['Description' -> 'Refinements of strategic equilibrium, games with incomplete information, repeated games with and without complete information, and stochastic games. The Shapley value of games with many players, and  NTU-values. This course is offered as both ECO 605 and AMS 555.
-Prerequisite for AMS 555: AMS 552/ECO 604.
-Prerequisites for ECO 605: ECO 604 and Graduate standing in the Economics Department or permission of the Graduate Director.
-Spring,'].
+\##89['Credits' -> 3].
+\##89['Prerequisites' -> 'NONE'].
 \##1['AMS 556' -> \##90].
 \##90['Course Title' -> 'Dynamic Programming'].
 \##90['Career' -> 'Graduate'].
-\##90['Units' -> 3].
-\##90['Grading Basis' -> 'Graduate Graded'].
-\##90['Enrollment Requirement' -> [['AMS 507']]].
-\##90['Course Components' -> ['Lecture']].
-\##90['Academic Group' -> 'College of Engring & App Sci'].
-\##90['Academic Organization' -> 'Applied Math and Statistics'].
-\##90['Description' -> 'Stochastic and deterministic multistage optimization problems.  Stochastic path problems.  Principle of optimality.  Recursive and functional equations.  Method of successive approximations and policy iteration.  Applications to finance, economics, inventory control, maintenance, inspection, and replacement problems. 
-Prerequisite: AMS 550 or AMS 558'].
+\##90['Credits' -> 3].
+\##90['Prerequisites' -> [['AMS 507']]].
 \##1['AMS 559' -> \##91].
 \##91['Course Title' -> 'Smart Energy in the Information Age'].
 \##91['Career' -> 'Graduate'].
-\##91['Units' -> 3].
-\##91['Grading Basis' -> 'Graduate Graded'].
-\##91['Enrollment Requirement' -> ].
-\##91['Course Components' -> ['Lecture']].
-\##91['Academic Group' -> 'Engring & App Sci, College of'].
-\##91['Academic Organization' -> 'Applied Math and Statistics'].
-\##91['Description' -> 'Energy and sustainability have become critical issues of our generation.  While the abundant potential of renewable energy sources, such as solar and wind, provides a real opportunity for sustainability, their intermittency and uncertainty present a daunting operational challenge.  This course studies how to use Information Technology (IT) to improve sustainability in our energy-hungry society.  In particular, topics include the applications of mathematical modeling, algorithm design, optimization, game theory, and control theory in real systems.  The goal of the course is to provide rigorous foundations for the study of smart energy management for sustainability.
-Offered in the Spring Semester'].
+\##91['Credits' -> 3].
+\##91['Prerequisites' -> 'NONE'].
 \##1['AMS 560' -> \##92].
 \##92['Course Title' -> 'Big Data Systems, Algorithms and Networks'].
 \##92['Career' -> 'Graduate'].
-\##92['Units' -> 3].
-\##92['Grading Basis' -> 'Graduate Graded'].
-\##92['Enrollment Requirement' -> ].
-\##92['Course Components' -> ['Lecture']].
-\##92['Academic Group' -> 'Engring & App Sci, College of'].
-\##92['Academic Organization' -> 'Applied Math and Statistics'].
-\##92['Description' -> 'Recent progress on big data systems, algorithms and networks.  Topics include the web graph, search engines, targeted advertisements, online algorithms and competitive analysis, and analytics, storage, resource allocation, and security in big data systems.
-Offered in the Spring Semester'].
+\##92['Credits' -> 3].
+\##92['Prerequisites' -> 'NONE'].
 \##1['AMS 561' -> \##93].
 \##93['Course Title' -> 'Introduction to Computational Science'].
 \##93['Career' -> 'Graduate'].
-\##93['Units' -> 3].
-\##93['Grading Basis' -> 'Graduate Graded'].
-\##93['Enrollment Requirement' -> ].
-\##93['Course Components' -> ['Lecture']].
-\##93['Academic Group' -> 'College of Engring & App Sci'].
-\##93['Academic Organization' -> 'Applied Math and Statistics'].
-\##93['Description' -> 'This course provides a foundation of knowledge and basic skills for the successful application in graduate
-research of modern techniques in computational and data science relevant to engineering, the humanities, and the physical, life and social sciences. It is consciously crafted to provide a rich, project-oriented, multidisciplinary experience that establishes a common vocabulary and skill set. Centered around the popular programming language Python, the course will serve as an introduction to programming including data structures, algorithms, numerical methods, basic concepts in computer architecture, and elements of object-oriented design. Also introduced will be important concepts and tools associated with the analysis and management of data, both big and small, including basic statistical modeling in R, aspects of machine learning and data mining, data management, and visualization. No previous computing experience is assumed. Students are assumed to have taken some introductory courses in two of these three math subjects: linear algebra, calculus, and probability.'].
+\##93['Credits' -> 3].
+\##93['Prerequisites' -> 'NONE'].
 \##1['AMS 562' -> \##94].
 \##94['Course Title' -> 'Introduction to Scientific Programming in C++'].
 \##94['Career' -> 'Graduate'].
-\##94['Units' -> 3].
-\##94['Grading Basis' -> 'Graduate Graded'].
-\##94['Enrollment Requirement' -> ].
-\##94['Course Components' -> ['Lecture']].
-\##94['Academic Group' -> 'Engring & App Sci, College of'].
-\##94['Academic Organization' -> 'Applied Math and Statistics'].
-\##94['Description' -> 'This course provides students with foundational skills and knowledge in practical scientific programming relevant for scientists and engineers. The primary language is C++ since it is a widely-used, object-oriented language, includes C as a subset, and is a powerful tool for writing robust, complex, high-performance software. Elements of Python, Bash, and other languages will be introduced to complement the capabilities of C++, and essential tools for software development and engineering will be employed throughout the course (e.g., makefiles, version control, online code repositories, debugging, etc.).
-
-Fall, 3 credits, ABCF grading'].
+\##94['Credits' -> 3].
+\##94['Prerequisites' -> 'NONE'].
 \##1['AMS 565' -> \##95].
 \##95['Course Title' -> 'Wave Propagation'].
 \##95['Career' -> 'Graduate'].
-\##95['Units' -> 3].
-\##95['Grading Basis' -> 'Graduate Graded'].
-\##95['Enrollment Requirement' -> ].
-\##95['Course Components' -> ['Lecture']].
-\##95['Academic Group' -> 'College of Engring & App Sci'].
-\##95['Academic Organization' -> 'Applied Math and Statistics'].
-\##95['Description' -> 'Theory of propagation of vector and scalar waves in bounded and unbounded regions. Development of methods of geometrical optics. Propagation in homogeneous and anisotropic media.'].
+\##95['Credits' -> 3].
+\##95['Prerequisites' -> 'NONE'].
 \##1['AMS 566' -> \##96].
 \##96['Course Title' -> 'Compressible Fluid Dynamics'].
 \##96['Career' -> 'Graduate'].
-\##96['Units' -> 3].
-\##96['Grading Basis' -> 'Graduate Graded'].
-\##96['Enrollment Requirement' -> ].
-\##96['Course Components' -> ['Lecture']].
-\##96['Academic Group' -> 'College of Engring & App Sci'].
-\##96['Academic Organization' -> 'Applied Math and Statistics'].
-\##96['Description' -> 'Physical, mathematical, and computational description in compressible fluid flows. Integral and differential forms of the conservation equations, one-dimensional flow, shocks and expansion waves in two and three dimensions, quasi-one-dimensional flow, transient flow, numerical methods for steady supersonic flow, numerical methods for transient flow.
-Spring,'].
+\##96['Credits' -> 3].
+\##96['Prerequisites' -> 'NONE'].
 \##1['AMS 569' -> \##97].
 \##97['Course Title' -> 'Probability Theory I'].
 \##97['Career' -> 'Graduate'].
-\##97['Units' -> 3].
-\##97['Grading Basis' -> 'Graduate Graded'].
-\##97['Enrollment Requirement' -> [['AMS 510']]].
-\##97['Course Components' -> ['Lecture']].
-\##97['Academic Group' -> 'Engring & App Sci, College of'].
-\##97['Academic Organization' -> 'Applied Math and Statistics'].
-\##97['Description' -> 'Probability spaces and sigma-algebras. Random variables as measurable mappings. Borel-Cantelli lemmas. Expectation using simple functions. Monotone and dominated convergence theorems. Inequalities. Stochastic convergence. Characteristic functions. Laws of large numbers and the central limit theorem.
-
-Prerequisite: AMS 510
-3 credits, ABCF grading'].
+\##97['Credits' -> 3].
+\##97['Prerequisites' -> [['AMS 510']]].
 \##1['AMS 570' -> \##98].
 \##98['Course Title' -> 'Introduction to Mathematical Statistics'].
 \##98['Career' -> 'Graduate'].
-\##98['Units' -> 3].
-\##98['Grading Basis' -> 'Graduate Graded'].
-\##98['Enrollment Requirement' -> [['AMS 507']]].
-\##98['Course Components' -> ['Lecture']].
-\##98['Academic Group' -> 'Engring & App Sci, College of'].
-\##98['Academic Organization' -> 'Applied Math and Statistics'].
-\##98['Description' -> 'Probability and distributions; multivariate distributions; distributions of functions of random variables; sampling distributions; limiting distributions; point estimation; confidence intervals; sufficient statistics; Bayesian estimation; maximum likelihood estimation; statistical tests.
-
-Prerequisite: AMS 507
-Spring, 3 credits, ABCF grading'].
+\##98['Credits' -> 3].
+\##98['Prerequisites' -> [['AMS 507']]].
 \##1['AMS 571' -> \##99].
 \##99['Course Title' -> 'Mathematical Statistics'].
 \##99['Career' -> 'Graduate'].
-\##99['Units' -> 3].
-\##99['Grading Basis' -> 'Graduate Graded'].
-\##99['Enrollment Requirement' -> [['AMS 570']]].
-\##99['Course Components' -> ['Lecture']].
-\##99['Academic Group' -> 'Engring & App Sci, College of'].
-\##99['Academic Organization' -> 'Applied Math and Statistics'].
-\##99['Description' -> 'Sampling distribution; convergence concepts; classes of statistical models; sufficient statistics; likelihood principle; point estimation; Bayes estimators; consistence; Neyman-Pearson Lemma; UMP tests; UMPU tests; Likelihood ratio tests; large sample theory. Offered as HPH 697 or AMS 571.
-Prerequisite: AMS 570'].
+\##99['Credits' -> 3].
+\##99['Prerequisites' -> [['AMS 570']]].
 \##1['AMS 572' -> \##100].
 \##100['Course Title' -> 'Data Analysis I'].
 \##100['Career' -> 'Graduate'].
-\##100['Units' -> 3].
-\##100['Grading Basis' -> 'Graduate Graded'].
-\##100['Enrollment Requirement' -> ].
-\##100['Course Components' -> ['Lecture']].
-\##100['Academic Group' -> 'Engring & App Sci, College of'].
-\##100['Academic Organization' -> 'Applied Math and Statistics'].
-\##100['Description' -> 'Introduction to basic statistical procedures. Survey of elementary statistical procedures such as the t-test and chi-square test. Procedures to verify that assumptions are satisfied. Extensions of simple procedures to more complex situations and introduction to one-way analysis of variance. Basic exploratory data analysis procedures (stem and leaf plots, straightening regression lines, and techniques to establish equal variance). Offered as AMS 572 or HPH 698.'].
+\##100['Credits' -> 3].
+\##100['Prerequisites' -> 'NONE'].
 \##1['AMS 573' -> \##101].
 \##101['Course Title' -> 'Categorical Data Analysis'].
 \##101['Career' -> 'Graduate'].
-\##101['Units' -> 3].
-\##101['Grading Basis' -> 'Graduate Graded'].
-\##101['Enrollment Requirement' -> [['AMS 507', 'AMS 572']]].
-\##101['Course Components' -> ['Lecture']].
-\##101['Academic Group' -> 'College of Engring & App Sci'].
-\##101['Academic Organization' -> 'Applied Math and Statistics'].
-\##101['Description' -> 'Measuring the strength of association between pairs of categorical variables. Methods for evaluating classification procedures and inter-rater agreement. Analysis of the associations among three or more categorical variables using log linear models. Logistic regression.
-Prerequisite: AMS 572
-Spring,'].
+\##101['Credits' -> 3].
+\##101['Prerequisites' -> [['AMS 507', 'AMS 572']]].
 \##1['AMS 575' -> \##102].
 \##102['Course Title' -> 'Internship in Statistical Consulting'].
 \##102['Career' -> 'Graduate'].
-\##102['Units' -> '1.00 - 9.00'].
-\##102['Grading Basis' -> 'Graduate Graded'].
-\##102['Enrollment Requirement' -> ].
-\##102['Course Components' -> ['Supervision']].
-\##102['Academic Group' -> 'Engring & App Sci, College of'].
-\##102['Academic Organization' -> 'Applied Math and Statistics'].
-\##102['Description' -> 'Directed quantitative research problem in conjunction with currently existing research programs outside the department. Students specializing in a particular area work on a problem from that area; others work on problems related to their interests, if possible. Efficient and effective use of computers. Each student gives at least one informal lecture to his or her colleagues on a research problem and its statistical aspects.
-Prerequisite: Permission of instructor'].
+\##102['Credits' -> '1.00 - 9.00'].
+\##102['Prerequisites' -> 'NONE'].
 \##1['AMS 577' -> \##103].
 \##103['Course Title' -> 'Multivariate Analysis'].
 \##103['Career' -> 'Graduate'].
-\##103['Units' -> 3].
-\##103['Grading Basis' -> 'Graduate Graded'].
-\##103['Enrollment Requirement' -> [['AMS 572', 'AMS 578']]].
-\##103['Course Components' -> ['Lecture']].
-\##103['Academic Group' -> 'Engring & App Sci, College of'].
-\##103['Academic Organization' -> 'Applied Math and Statistics'].
-\##103['Description' -> 'The multivariate distribution. Estimation of the mean vector and covariance matrix of the multivariate normal. Discriminant analysis. Canonical correlation. Principal components. Factor analysis. Cluster analysis.
-Prerequisites: AMS 572 and AMS 578'].
+\##103['Credits' -> 3].
+\##103['Prerequisites' -> [['AMS 572', 'AMS 578']]].
 \##1['AMS 578' -> \##104].
 \##104['Course Title' -> 'Regression Theory'].
 \##104['Career' -> 'Graduate'].
-\##104['Units' -> 3].
-\##104['Grading Basis' -> 'Graduate Graded'].
-\##104['Enrollment Requirement' -> [['AMS 572']]].
-\##104['Course Components' -> ['Lecture']].
-\##104['Academic Group' -> 'Engring & App Sci, College of'].
-\##104['Academic Organization' -> 'Applied Math and Statistics'].
-\##104['Description' -> 'Classical least-squares theory for regression including the Gauss-Markov theorem and classical normal statistical theory. An introduction to stepwise regression, procedures, and exploratory data analysis techniques. Analysis of variance problems as a subject of regression. Brief discussions of robustness of estimation and robustness of design.
-Prerequisite: AMS 572'].
+\##104['Credits' -> 3].
+\##104['Prerequisites' -> [['AMS 572']]].
 \##1['AMS 580' -> \##105].
 \##105['Course Title' -> 'Statistical Learning'].
 \##105['Career' -> 'Graduate'].
-\##105['Units' -> 3].
-\##105['Grading Basis' -> 'Graduate Graded'].
-\##105['Enrollment Requirement' -> ].
-\##105['Course Components' -> ['Lecture']].
-\##105['Academic Group' -> 'Engring & App Sci, College of'].
-\##105['Academic Organization' -> 'Applied Math and Statistics'].
-\##105['Description' -> 'This course will first review classical linear and generalized linear models such as Linear Regression, and Linear Discriminant Analysis. We shall then study modern Resampling Methods such as Bootstrapping, and modern variable selection methods such as the Shrinkage Method. Finally, we shall introduce modern non-linear statistical learning methods such as the Generalized Additive Models, Decision Trees, Random Forest, Boosting, Bagging, and, Support Vector Machines.'].
+\##105['Credits' -> 3].
+\##105['Prerequisites' -> 'NONE'].
 \##1['AMS 581' -> \##106].
 \##106['Course Title' -> 'Analysis of Variance'].
 \##106['Career' -> 'Graduate'].
-\##106['Units' -> 3].
-\##106['Grading Basis' -> 'Graduate Graded'].
-\##106['Enrollment Requirement' -> ].
-\##106['Course Components' -> ['Lecture']].
-\##106['Academic Group' -> 'College of Engring & App Sci'].
-\##106['Academic Organization' -> 'Applied Math and Statistics'].
-\##106['Description' -> 'Analysis of models with fixed effects. The Gauss-Markov theorem; construction of confidence ellipsoids and tests with Gaussian observations. Problems of multiple tests of hypotheses. One-way, two-way, and higher-way layouts. Analysis of incomplete designs such as Latin squares and incomplete blocks. Analysis of covariance problems.
-Prerequisite: AMS 570 or equivalent'].
+\##106['Credits' -> 3].
+\##106['Prerequisites' -> 'NONE'].
 \##1['AMS 582' -> \##107].
 \##107['Course Title' -> 'Design of Experiments'].
 \##107['Career' -> 'Graduate'].
-\##107['Units' -> 3].
-\##107['Grading Basis' -> 'Graduate Graded'].
-\##107['Enrollment Requirement' -> [['AMS 572']]].
-\##107['Course Components' -> ['Lecture']].
-\##107['Academic Group' -> 'Engring & App Sci, College of'].
-\##107['Academic Organization' -> 'Applied Math and Statistics'].
-\##107['Description' -> 'Discussion of the accuracy of experiments, partitioning sums of squares, randomized designs, factorial experiments, Latin squares, confounding and fractional replication, response surface experiments, and incomplete block designs. Offered as AMS 582 or HPH 699.
-Prerequisite: AMS 572'].
+\##107['Credits' -> 3].
+\##107['Prerequisites' -> [['AMS 572']]].
 \##1['AMS 583' -> \##108].
 \##108['Course Title' -> 'Applied Longitudinal Data Analysis'].
 \##108['Career' -> 'Graduate'].
-\##108['Units' -> 3].
-\##108['Grading Basis' -> 'Graduate Graded'].
-\##108['Enrollment Requirement' -> [['AMS 572', 'AMS 578']]].
-\##108['Course Components' -> ['Lecture']].
-\##108['Academic Group' -> 'College of Engring & App Sci'].
-\##108['Academic Organization' -> 'Applied Math and Statistics'].
-\##108['Description' -> 'Longitudinal data takes the form of repeated measurements of the same subject (humans, animals, plants, samples, etc) over time (or other conditions). This type of data has a broad range of applications, including public health, medical research, pharmaceutical studies, life sciences, agriculture, engineering and physical sciences.  Longitudinal data analysis allows one to study the changes in mean response over time and answer other scientific questions pertaining to the relationship between the response and time.  This course aims to introduce statistical models and methods for the analysis of longitudinal data.  Both the classical (univariate and multivariate repeated analysis of variance) and more recent approaches (1) general linear models for correlation, random coefficient models, linear mixed effect models for normal repeated measurements; (2) generalized linear models for non-normal response and population-averaged models (generalized estimating equations) for non-normal repeated measurements, of analyzing longitudinal data will be covered in this course.
-Offered in the Spring Semester'].
+\##108['Credits' -> 3].
+\##108['Prerequisites' -> [['AMS 572', 'AMS 578']]].
 \##1['AMS 585' -> \##109].
 \##109['Course Title' -> 'Internship in Data Science'].
 \##109['Career' -> 'Graduate'].
-\##109['Units' -> '1.00 - 9.00'].
-\##109['Grading Basis' -> 'Graduate Graded'].
-\##109['Enrollment Requirement' -> ].
-\##109['Course Components' -> ['Supervision']].
-\##109['Academic Group' -> 'Engring & App Sci, College of'].
-\##109['Academic Organization' -> 'Applied Math and Statistics'].
-\##109['Description' -> 'Directed data science problem in conjunction with currently existing research programs outside the department. Students specializing in a particular area work on a problem from that area; others work on problems related to their interests, if possible. Efficient and effective use of computers. Each student gives at least one informal lecture to his or her colleagues on a research problem and its statistical aspects.'].
+\##109['Credits' -> '1.00 - 9.00'].
+\##109['Prerequisites' -> 'NONE'].
 \##1['AMS 586' -> \##110].
 \##110['Course Title' -> 'Time Series'].
 \##110['Career' -> 'Graduate'].
-\##110['Units' -> 3].
-\##110['Grading Basis' -> 'Graduate Graded'].
-\##110['Enrollment Requirement' -> [['AMS 572', 'AMS 570']]].
-\##110['Course Components' -> ['Lecture']].
-\##110['Academic Group' -> 'Engring & App Sci, College of'].
-\##110['Academic Organization' -> 'Applied Math and Statistics'].
-\##110['Description' -> 'Analysis in the frequency domain. Periodograms, approximate tests, relation to regression theory. Pre-whitening and digital fibers. Common data windows. Fast Fourier transforms. Complex demodulation, GibbsÕ phenomenon issues. Time-domain analysis.
-
-Prerequisites: AMS 570 or AMS 572
-3 credits, ABCF grading'].
+\##110['Credits' -> 3].
+\##110['Prerequisites' -> [['AMS 572', 'AMS 570']]].
 \##1['AMS 587' -> \##111].
 \##111['Course Title' -> 'Nonparametric Statistics'].
 \##111['Career' -> 'Graduate'].
-\##111['Units' -> 3].
-\##111['Grading Basis' -> 'Graduate Graded'].
-\##111['Enrollment Requirement' -> ].
-\##111['Course Components' -> ['Lecture']].
-\##111['Academic Group' -> 'College of Engring & App Sci'].
-\##111['Academic Organization' -> 'Applied Math and Statistics'].
-\##111['Description' -> 'This course covers the applied nonparametric statistical procedures: one-sample Wilcoxon tests, two-sample Wilcoxon tests, runs test, Kruskal-Wallis test, Kendall's tau, Spearman's rho, Hodges-Lehman estimation, Friedman analysis of variance on ranks. The course gives the theoretical underpinnings to these procedures, showing how existing techniques may be extended and new techniques developed. An excursion into the new problems of multivariate nonparametric inference is made.
-Prerequisites: AMS 312 and AMS 572 or equivalents
-Fall,'].
+\##111['Credits' -> 3].
+\##111['Prerequisites' -> 'NONE'].
 \##1['AMS 588' -> \##112].
 \##112['Course Title' -> 'Failure and Survival Data Analysis'].
 \##112['Career' -> 'Graduate'].
-\##112['Units' -> 3].
-\##112['Grading Basis' -> 'Graduate Graded'].
-\##112['Enrollment Requirement' -> [['AMS 572']]].
-\##112['Course Components' -> ['Lecture']].
-\##112['Academic Group' -> 'College of Engring & App Sci'].
-\##112['Academic Organization' -> 'Applied Math and Statistics'].
-\##112['Description' -> 'This course introduces both parametric and non-parametric statistical models for analysis of the failure and survival data ¿ a critical topic in quantitative finance, econometrics, and biostatistics. Different censoring mechanisms will be discussed. The course will mainly cover Kaplan-Meier estimator for characterizing the distribution of the failure and survival data, non-parametric log-rank test for comparing multiple groups, and the accelerated failure time model and Cox regression model uncovering various predictor/explanatory variables to survival/failure. Applications to finance, economics and biomedicine will be illustrated.
-We have revised the course title and content to better suit our current graduate programs in Applied Mathematics and Statistics that have evolved substantially from our old forms. In our current program, students from many tracks, especially in statistics and in quantitative finance, need this updated course as a highly relevant and important elective. This same subject is generally referred to as `Survival data analysis¿ in biostatistics, but `Failure data analysis¿ in finance.  This updated title will reflect the content of the course clearly for students from all tracks.'].
+\##112['Credits' -> 3].
+\##112['Prerequisites' -> [['AMS 572']]].
 \##1['AMS 589' -> \##113].
 \##113['Course Title' -> 'Quantitative Genetics'].
 \##113['Career' -> 'Graduate'].
-\##113['Units' -> 3].
-\##113['Grading Basis' -> 'Graduate Graded'].
-\##113['Enrollment Requirement' -> ].
-\##113['Course Components' -> ['Lecture']].
-\##113['Academic Group' -> 'College of Engring & App Sci'].
-\##113['Academic Organization' -> 'Applied Math and Statistics'].
-\##113['Description' -> 'Definition of relevant terminology. Statistical and genetic models for inheritance of quantitative traits. Estimation of effects of selection, dominance polygenes, epistatis, and environment. Linkage studies and threshold characteristics.
-Spring, odd years,'].
+\##113['Credits' -> 3].
+\##113['Prerequisites' -> 'NONE'].
 \##1['AMS 591' -> \##114].
 \##114['Course Title' -> 'Topics for M.S. Students'].
 \##114['Career' -> 'Graduate'].
-\##114['Units' -> 3].
-\##114['Grading Basis' -> 'Graduate Graded'].
-\##114['Enrollment Requirement' -> ].
-\##114['Course Components' -> ['Lecture']].
-\##114['Academic Group' -> 'College of Engring & App Sci'].
-\##114['Academic Organization' -> 'Applied Math and Statistics'].
-\##114['Description' -> 'Various topics of current interest in applied mathematics will be offered if sufficient interest is shown. Several topics may be taught concurrently in different sections.
-Prerequisite: Permission of instructor'].
+\##114['Credits' -> 3].
+\##114['Prerequisites' -> 'NONE'].
 \##1['AMS 592' -> \##115].
 \##115['Course Title' -> 'Mathematical Methods of Finance and Investments I'].
 \##115['Career' -> 'Graduate'].
-\##115['Units' -> 3].
-\##115['Grading Basis' -> 'Graduate Graded'].
-\##115['Enrollment Requirement' -> ].
-\##115['Course Components' -> ['Lecture']].
-\##115['Academic Group' -> 'College of Engring & App Sci'].
-\##115['Academic Organization' -> 'Applied Math and Statistics'].
-\##115['Description' -> 'A broad-based course in mathematical modeling and quantitative analysis of financial transactions and investment management issues such as debt and equity, measures of risk and returns, efficient markets and efficient set mathematics, asset pricing, one-factor and multiple-factor models, portfolio selection, futures and options.
-Fall,'].
+\##115['Credits' -> 3].
+\##115['Prerequisites' -> 'NONE'].
 \##1['AMS 593' -> \##116].
 \##116['Course Title' -> 'Interest Rate and Credit Modeling'].
 \##116['Career' -> 'Graduate'].
-\##116['Units' -> 3].
-\##116['Grading Basis' -> 'Graduate Graded'].
-\##116['Enrollment Requirement' -> [['AMS 512']]].
-\##116['Course Components' -> ['Lecture']].
-\##116['Academic Group' -> 'College of Engring & App Sci'].
-\##116['Academic Organization' -> 'Applied Math and Statistics'].
-\##116['Description' -> 'Introduction to most commonly used interest rate models: Heath-Jarrow-Morton, Brace-Gatareck-Musiela, etc. Cap, Floor, European and Bermudian option pricing.  Credit Modeling: Merton structural approach vs. Intensity approach. Corporate bonds, CDS, securitized products (CDO, CLO, mortages), Credit value adjustment (CVA, XVA).'].
+\##116['Credits' -> 3].
+\##116['Prerequisites' -> [['AMS 512']]].
 \##1['AMS 594' -> \##117].
 \##117['Course Title' -> 'Mathematical Methods of Finance and Investments II'].
 \##117['Career' -> 'Graduate'].
-\##117['Units' -> 3].
-\##117['Grading Basis' -> 'Graduate Graded'].
-\##117['Enrollment Requirement' -> ].
-\##117['Course Components' -> ['Lecture']].
-\##117['Academic Group' -> 'College of Engring & App Sci'].
-\##117['Academic Organization' -> 'Applied Math and Statistics'].
-\##117['Description' -> 'This course employs the techniques of mathematical statistics and empirical finance, e.g., estimation theory, linear and nonlinear regression, time series analysis, modeling and simulation to examine critically various models of prediction for asset-pricing, pricing of derivative products and term-structure of interest rates assuming stochastic volatility. Statistics necessary for analysis is incorporated in the course.
-Prerequisite: AMS 592
-Fall,'].
+\##117['Credits' -> 3].
+\##117['Prerequisites' -> 'NONE'].
 \##1['AMS 595' -> \##118].
 \##118['Course Title' -> 'Fundamentals of Computing'].
 \##118['Career' -> 'Graduate'].
-\##118['Units' -> 3].
-\##118['Grading Basis' -> 'Graduate Graded'].
-\##118['Enrollment Requirement' -> ].
-\##118['Course Components' -> ['Lecture']].
-\##118['Academic Group' -> 'Engring & App Sci, College of'].
-\##118['Academic Organization' -> 'Applied Math and Statistics'].
-\##118['Description' -> 'Introduction to UNIX operating system, C language, graphics, and parallel supercomputing.
-Fall,'].
+\##118['Credits' -> 3].
+\##118['Prerequisites' -> 'NONE'].
 \##1['AMS 596' -> \##119].
 \##119['Course Title' -> 'Fundamentals of Large-Scale Computing'].
 \##119['Career' -> 'Graduate'].
-\##119['Units' -> 1].
-\##119['Grading Basis' -> 'Graduate Graded'].
-\##119['Enrollment Requirement' -> ].
-\##119['Course Components' -> ['Lecture']].
-\##119['Academic Group' -> 'College of Engring & App Sci'].
-\##119['Academic Organization' -> 'Applied Math and Statistics'].
-\##119['Description' -> 'Overview of the design and maintenance of large scale computer projects in applied mathematics, including basic programming techniques for massively parallel supercomputers.
-Prerequisite: AMS 595 or permission of instructor
-Spring,'].
+\##119['Credits' -> 1].
+\##119['Prerequisites' -> 'NONE'].
 \##1['AMS 597' -> \##120].
 \##120['Course Title' -> 'Statistical Computing'].
 \##120['Career' -> 'Graduate'].
-\##120['Units' -> 3].
-\##120['Grading Basis' -> 'Graduate Graded'].
-\##120['Enrollment Requirement' -> ].
-\##120['Course Components' -> ['Laboratory']].
-\##120['Academic Group' -> 'College of Engring & App Sci'].
-\##120['Academic Organization' -> 'Applied Math and Statistics'].
-\##120['Description' -> 'Introduction to statistical computing using SAS and S plus.
-Fall, 3 credits, ABCF Grading'].
+\##120['Credits' -> 3].
+\##120['Prerequisites' -> 'NONE'].
 \##1['AMS 598' -> \##121].
 \##121['Course Title' -> 'Big Data Analysis'].
 \##121['Career' -> 'Graduate'].
-\##121['Units' -> 3].
-\##121['Grading Basis' -> 'Graduate Graded'].
-\##121['Enrollment Requirement' -> [['AMS 572', 'AMS 570']]].
-\##121['Course Components' -> ['Lecture']].
-\##121['Academic Group' -> 'College of Engring & App Sci'].
-\##121['Academic Organization' -> 'Applied Math and Statistics'].
-\##121['Description' -> 'The rapid advancement of modern technologies in all walks of research and business has introduced tremendous amount of data and the related big data mining tasks such as real-time credit card processing and fraud detection, high dimensional RNA sequencing analysis, and risk management of high frequency trading data measured in milliseconds. Traditional data processing and analysis techniques are no longer adequate -- they have to be revised and customized to parallel computing paradigms, at the same time, modern data mining tools are being created and evolved, at their own fast pace, to accommodate the analysis of various big data problems.  This course is subsequently created to enable the timely education of a new generation of competent data analysts.
-
-This course introduces the application of the supercomputing to statistical data analyses, particularly on big data. Implementations of various statistical methodologies within parallel computing framework are demonstrated through all lectures. The course will cover (1) parallel computing basics, including architecture on interconnection networks, communications methodologies, algorithm and performance measurements, and (2) their applications to modern data mining techniques, including modern variable selection/Dimension reduction, linear/logistical regression, tree-based classification methods, Kernel-based methods, non-linear statistical models, and model inference/Resampling methods.
-
-Prerequisites: AMS 572, AMS 573 and AMS 578
-
-Fall, 3 Credits, ABCF Grading'].
+\##121['Credits' -> 3].
+\##121['Prerequisites' -> [['AMS 572', 'AMS 570']]].
 \##1['AMS 599' -> \##122].
 \##122['Course Title' -> 'Research'].
 \##122['Career' -> 'Graduate'].
-\##122['Units' -> '1.00 - 12.00'].
-\##122['Grading Basis' -> 'Satisfactory/Unsatisfactory'].
-\##122['Enrollment Requirement' -> ].
-\##122['Course Components' -> ['Tutorial']].
-\##122['Academic Group' -> 'Engring & App Sci, College of'].
-\##122['Academic Organization' -> 'Applied Math and Statistics'].
-\##122['Description' -> 'Thesis research for Doctoral students who have not yet advanced to candidacy.  Master's students may also enroll, but must have approval from a faculty advisor before registering.
-Pre-requisite: Student must obtain consent from individual faculty advisor in order to register for AMS 599 under his/her section.
-1-12 credits, S/U grading, may be repeated for credit.'].
+\##122['Credits' -> '1.00 - 12.00'].
+\##122['Prerequisites' -> 'NONE'].
 \##1['AMS 600' -> \##123].
 \##123['Course Title' -> 'Socially Responsible Investing'].
 \##123['Career' -> 'Graduate'].
-\##123['Units' -> 3].
-\##123['Grading Basis' -> 'Graduate Graded'].
-\##123['Enrollment Requirement' -> [['AMS 511']]].
-\##123['Course Components' -> ['Lecture']].
-\##123['Academic Group' -> 'College of Engring & App Sci'].
-\##123['Academic Organization' -> 'Applied Math and Statistics'].
-\##123['Description' -> 'Introduction to a scope of investments which are socially responsible because of the nature of the business the company conducts, including but not limited to: avoiding investment in companies that produce or sell addictive substances (like alcohol, gambling, and tobacco) and seeking out companies engaged in environmental sustainability. The course includes analysis of investments strategies maximizing financial return as well as social goods, such as: (i) Negative Screening: excluding securities with potentially social and/or environmental harmful characteristics; (ii) Shareholder activism: activities steering the management towards enhancing the well being of the stockholders, customers, employees, vendors, and communities. (iii) Positive investing: making investments in activities and companies believed to have a positive impact on issues such as social justice and the environment through stock selection, that guarantees sustainability, in environmental and humanitarian sense, and providing a company's long term potential to compete and succeed. Offered in Fall.'].
+\##123['Credits' -> 3].
+\##123['Prerequisites' -> [['AMS 511']]].
 \##1['AMS 601' -> \##124].
 \##124['Course Title' -> 'Risk Management and Business Risk Control in BRIC Countries'].
 \##124['Career' -> 'Graduate'].
-\##124['Units' -> 3].
-\##124['Grading Basis' -> 'Graduate Graded'].
-\##124['Enrollment Requirement' -> [['AMS 511']]].
-\##124['Course Components' -> ['Lecture']].
-\##124['Academic Group' -> 'College of Engring & App Sci'].
-\##124['Academic Organization' -> 'Applied Math and Statistics'].
-\##124['Description' -> 'Introduction to the challenges and opportunities in investing in the BRIC countries Brazil, Russia, India, and China, with emphasis in the risk assessment, control and management. Opportunities in investing in BRIC: growth in infrastructure, middle class demand, educated cheap workforce, potential for outsourcing work, high risk/high reward. Risks facing investors in BRIC: strategic, operational, political, market risk, credit risks. Cultural barriers: family owned businesses, lack of business professionalism, poor transparency and disclosures of business practices, shallow and volatile markets, unstable macro-economics policies, tardy legal system. Responsibilities of investors in the BRIC countries: helping the BRIC governments and corporations in smooth transition to global markets and to developed status, providing co-ordination and transfer of business knowledge and technology from risk professionals in developed countries to emerging markets. Offered in Fall.'].
+\##124['Credits' -> 3].
+\##124['Prerequisites' -> [['AMS 511']]].
 \##1['AMS 603' -> \##125].
 \##125['Course Title' -> 'Risk Measures For Finance & Data Analysis'].
 \##125['Career' -> 'Graduate'].
-\##125['Units' -> 3].
-\##125['Grading Basis' -> 'Graduate Graded'].
-\##125['Enrollment Requirement' -> ].
-\##125['Course Components' -> ['Laboratory']].
-\##125['Academic Group' -> 'Engring & App Sci, College of'].
-\##125['Academic Organization' -> 'Applied Math and Statistics'].
-\##125['Description' -> 'Risk analysis is important to quantitative finance, insurance, commercial credit and many areas of data analysis. We emphasize risk analysis methods that capture observed features of risk, such as heavy tails, and validation of risk models against observed data. Students will be graded on the basis of projects drawn from multiple asset classes considered in the course work, including fixed income, options, portfolio optimization and foreign exchange. Professional standards for software development will be followed. Guest lectures by industry leaders will be included. Participation via conferencing software will be available. The course is open to all AMS graduate students and, with the instructor's permission, to CEAS graduate students.'].
+\##125['Credits' -> 3].
+\##125['Prerequisites' -> 'NONE'].
 \##1['AMS 621' -> \##126].
 \##126['Course Title' -> 'Finite Element Methods for Partial Differential Equations'].
 \##126['Career' -> 'Graduate'].
-\##126['Units' -> 3].
-\##126['Grading Basis' -> 'Graduate Graded'].
-\##126['Enrollment Requirement' -> ].
-\##126['Course Components' -> ['Lecture']].
-\##126['Academic Group' -> 'College of Engring & App Sci'].
-\##126['Academic Organization' -> 'Applied Math and Statistics'].
-\##126['Description' -> 'Variational form of the problem, Ritz Galerkins, collocation, and mixed methods; triangular, rectangular (2-D), and tetrahedral (3-D) elements; accuracy, convergence, and stability; solutions of linear, nonlinear steady-state, and dynamic problems; implicit and explicit time integration; equivalence of finite-element and finite-difference methods.
-Prerequisite: AMS 502 or equivalent'].
+\##126['Credits' -> 3].
+\##126['Prerequisites' -> 'NONE'].
 \##1['AMS 641' -> \##127].
 \##127['Course Title' -> 'Special Topics in Mathematical Programming'].
 \##127['Career' -> 'Graduate'].
-\##127['Units' -> 3].
-\##127['Grading Basis' -> 'Graduate Graded'].
-\##127['Enrollment Requirement' -> ].
-\##127['Course Components' -> ['Lecture']].
-\##127['Academic Group' -> 'College of Engring & App Sci'].
-\##127['Academic Organization' -> 'Applied Math and Statistics'].
-\##127['Description' -> 'The course is designed for second- and third-year graduate students with a strong foundation in linear algebra and analysis who wish to pursue research in applied mathematics. Varying topics from nonlinear programming and optimization to applied graph theory and applied combinatorics may be offered concurrently.
-Prerequisites: AMS 540 and permission of instructor'].
+\##127['Credits' -> 3].
+\##127['Prerequisites' -> 'NONE'].
 \##1['AMS 644' -> \##128].
 \##128['Course Title' -> 'Special Topics in Applied Probability'].
 \##128['Career' -> 'Graduate'].
-\##128['Units' -> 3].
-\##128['Grading Basis' -> 'Graduate Graded'].
-\##128['Enrollment Requirement' -> ].
-\##128['Course Components' -> ['Lecture']].
-\##128['Academic Group' -> 'College of Engring & App Sci'].
-\##128['Academic Organization' -> 'Applied Math and Statistics'].
-\##128['Description' -> 'The course is designed for second- and third-year graduate students with a background in probability and stochastic modeling who wish to pursue research in applications of the probability theory. Several topics may be taught concurrently in different sections.
-Prerequisites: AMS 550 and permission of instructor
-Fall,'].
+\##128['Credits' -> 3].
+\##128['Prerequisites' -> 'NONE'].
 \##1['AMS 651' -> \##129].
 \##129['Course Title' -> 'Nonlinear Analysis and Optimization'].
 \##129['Career' -> 'Graduate'].
-\##129['Units' -> 3].
-\##129['Grading Basis' -> 'Graduate Graded'].
-\##129['Enrollment Requirement' -> ].
-\##129['Course Components' -> ['Lecture']].
-\##129['Academic Group' -> 'College of Engring & App Sci'].
-\##129['Academic Organization' -> 'Applied Math and Statistics'].
-\##129['Description' -> 'Iterative methods for solving nonlinear operator equations. Frechet differentials. The Newton-Raphson method in function space and nonlinear boundary value problems. The Courant penalty concept and constrained optimization. General multiplier rules. Variable metric gradient projection for nonlinear least-square methods, with applications.'].
+\##129['Credits' -> 3].
+\##129['Prerequisites' -> 'NONE'].
 \##1['AMS 652' -> \##130].
 \##130['Course Title' -> 'Special Topics in Game Theory'].
 \##130['Career' -> 'Graduate'].
-\##130['Units' -> 3].
-\##130['Grading Basis' -> 'Graduate Graded'].
-\##130['Enrollment Requirement' -> ].
-\##130['Course Components' -> ['Lecture']].
-\##130['Academic Group' -> 'College of Engring & App Sci'].
-\##130['Academic Organization' -> 'Applied Math and Statistics'].
-\##130['Description' -> 'The course is designed for second- and third-year graduate students who wish to specialize in the mathematical theory of games.
-Prerequisites: AMS 552 and permission of instructor'].
+\##130['Credits' -> 3].
+\##130['Prerequisites' -> 'NONE'].
 \##1['AMS 670' -> \##131].
 \##131['Course Title' -> 'Special Topics in Probability and Mathematical Statistics'].
 \##131['Career' -> 'Graduate'].
-\##131['Units' -> 3].
-\##131['Grading Basis' -> 'Graduate Graded'].
-\##131['Enrollment Requirement' -> ].
-\##131['Course Components' -> ['Lecture']].
-\##131['Academic Group' -> 'College of Engring & App Sci'].
-\##131['Academic Organization' -> 'Applied Math and Statistics'].
-\##131['Description' -> 'The course is designed for second- and third-year graduate students with a strong foundation in analysis and statistics who wish to pursue research in mathematical statistics. Several topics may be taught concurrently in different sections.
-Prerequisites: AMS 569, AMS 570'].
+\##131['Credits' -> 3].
+\##131['Prerequisites' -> 'NONE'].
 \##1['AMS 675' -> \##132].
 \##132['Course Title' -> 'Special Topics in Applied Statistics'].
 \##132['Career' -> 'Graduate'].
-\##132['Units' -> 3].
-\##132['Grading Basis' -> 'Graduate Graded'].
-\##132['Enrollment Requirement' -> ].
-\##132['Course Components' -> ['Lecture']].
-\##132['Academic Group' -> 'College of Engring & App Sci'].
-\##132['Academic Organization' -> 'Applied Math and Statistics'].
-\##132['Description' -> 'The course is designed for second- and third-year students with a strong foundation in statistical analysis who wish to pursue research in applied statistics.
-Prerequisites: AMS 507, AMS 572'].
+\##132['Credits' -> 3].
+\##132['Prerequisites' -> 'NONE'].
 \##1['AMS 676' -> \##133].
 \##133['Course Title' -> 'Internship in Applied Mathematics'].
 \##133['Career' -> 'Graduate'].
-\##133['Units' -> '1.00 - 9.00'].
-\##133['Grading Basis' -> 'Satisfactory/Unsatisfactory'].
-\##133['Enrollment Requirement' -> ].
-\##133['Course Components' -> ['Supervision']].
-\##133['Academic Group' -> 'Engring & App Sci, College of'].
-\##133['Academic Organization' -> 'Applied Math and Statistics'].
-\##133['Description' -> 'Directed research and/or practical experience in industry, financial and consulting firms, and research institutions. Students are required to have a department faculty adviser who coordinates and supervises the internship. Submission of the final report is required.'].
+\##133['Credits' -> '1.00 - 9.00'].
+\##133['Prerequisites' -> 'NONE'].
 \##1['AMS 683' -> \##134].
 \##134['Course Title' -> 'Biological Physics & Biophysical Chemistry: Theoretical Perspectives'].
 \##134['Career' -> 'Graduate'].
-\##134['Units' -> '0.00 - 3.00'].
-\##134['Grading Basis' -> 'Graduate Graded'].
-\##134['Enrollment Requirement' -> ].
-\##134['Course Components' -> ['Lecture']].
-\##134['Academic Group' -> 'College of Engring & App Sci'].
-\##134['Academic Organization' -> 'Applied Math and Statistics'].
-\##134['Description' -> 'This course will survey a selected number of topics in biological physics and biophysical chemistry.  The emphasis is on the understanding of physical organization principles and fundamental mechanisms involved in the biological process.  The potential topics include:  Protein Folding, Protein Dynamics, Biomolecular Interactions and Recognition, Electron and Proton Transfer, Motors, Membranes, Single Molecules and Single Cells, Cellular Networks, Development and Differentiation, Brains and Neural Systems, Evolution.  There will be no homework or exams.  The grades will be based on the performance of the term projects.  Crosslisted with PHY 680 and CHE 683.'].
+\##134['Credits' -> '0.00 - 3.00'].
+\##134['Prerequisites' -> 'NONE'].
 \##1['AMS 690' -> \##135].
 \##135['Course Title' -> 'Special Topics in Differential Equations and Applied Analysis'].
 \##135['Career' -> 'Graduate'].
-\##135['Units' -> 3].
-\##135['Grading Basis' -> 'Graduate Graded'].
-\##135['Enrollment Requirement' -> ].
-\##135['Course Components' -> ['Lecture']].
-\##135['Academic Group' -> 'College of Engring & App Sci'].
-\##135['Academic Organization' -> 'Applied Math and Statistics'].
-\##135['Description' -> 'The course is designed for second- and third-year graduate students with a strong foundation in analysis who wish to pursue research in applied mathematics. Several topics may be taught concurrently in different sections.
-Prerequisites: AMS 501, AMS 504'].
+\##135['Credits' -> 3].
+\##135['Prerequisites' -> 'NONE'].
 \##1['AMS 691' -> \##136].
 \##136['Course Title' -> 'Topics in Applied Mathematics'].
 \##136['Career' -> 'Graduate'].
-\##136['Units' -> '0.00 - 3.00'].
-\##136['Grading Basis' -> 'Graduate Graded'].
-\##136['Enrollment Requirement' -> ].
-\##136['Course Components' -> ['Lecture']].
-\##136['Academic Group' -> 'Engring & App Sci, College of'].
-\##136['Academic Organization' -> 'Applied Math and Statistics'].
-\##136['Description' -> 'Varying topics selected from the list below if sufficient interest is shown. Several topics may be taught concurrently in different sections:
-Advanced Operational Methods in Applied Mathematics 
-Approximate Methods in Boundary Value Problems in Applied Mathematics
-Control Theory and Optimization
-Foundations of Passive Systems Theory
-Game Theory
-Mixed Boundary Value Problems in Elasticity
-Partial Differential Equations
-Quantitative Genetics
-Stochastic Modeling'].
+\##136['Credits' -> '0.00 - 3.00'].
+\##136['Prerequisites' -> 'NONE'].
 \##1['AMS 695' -> \##137].
 \##137['Course Title' -> 'Special Topics in Numerical Analysis and Scientific Computing'].
 \##137['Career' -> 'Graduate'].
-\##137['Units' -> 3].
-\##137['Grading Basis' -> 'Graduate Graded'].
-\##137['Enrollment Requirement' -> ].
-\##137['Course Components' -> ['Lecture']].
-\##137['Academic Group' -> 'College of Engring & App Sci'].
-\##137['Academic Organization' -> 'Applied Math and Statistics'].
-\##137['Description' -> 'Analysis and Scientific Computing
-The course is designed for second- and third-year graduate students with a strong foundation in applied linear algebra and numerical analysis who wish to pursue research in applied mathematics. Several topics may be taught concurrently in different sections.
-Prerequisites: AMS 505, AMS 526'].
+\##137['Credits' -> 3].
+\##137['Prerequisites' -> 'NONE'].
 \##1['AMS 696' -> \##138].
 \##138['Course Title' -> 'Applied Mathematics Seminar'].
 \##138['Career' -> 'Graduate'].
-\##138['Units' -> '0.00 - 3.00'].
-\##138['Grading Basis' -> 'Satisfactory/Unsatisfactory'].
-\##138['Enrollment Requirement' -> ].
-\##138['Course Components' -> ['Seminar']].
-\##138['Academic Group' -> 'College of Engring & App Sci'].
-\##138['Academic Organization' -> 'Applied Math and Statistics'].
-\##138['Description' -> '0-3 Credits, S/U Grading, May be repeated for credit.'].
+\##138['Credits' -> '0.00 - 3.00'].
+\##138['Prerequisites' -> 'NONE'].
 \##1['AMS 698' -> \##139].
 \##139['Course Title' -> 'Practicum in Teaching'].
 \##139['Career' -> 'Graduate'].
-\##139['Units' -> 0].
-\##139['Grading Basis' -> 'Satisfactory/Unsatisfactory'].
-\##139['Enrollment Requirement' -> ].
-\##139['Course Components' -> ['Seminar']].
-\##139['Academic Group' -> 'Engring & App Sci, College of'].
-\##139['Academic Organization' -> 'Applied Math and Statistics'].
-\##139['Description' -> 'A practicum on teaching courses in applied mathematics and statistics. Topics may include designing a syllabus, planning lectures, developing assignments and assessments, coordinating and utilizing teaching assistants, monitoring for academic dishonesty, and using instructional technologies. Students will work with AMS instructors to both observe and practice teaching techniques.'].
+\##139['Credits' -> 0].
+\##139['Prerequisites' -> 'NONE'].
 \##1['AMS 699' -> \##140].
 \##140['Course Title' -> 'Dissertation Research on Campus'].
 \##140['Career' -> 'Graduate'].
-\##140['Units' -> '0.00 - 9.00'].
-\##140['Grading Basis' -> 'Satisfactory/Unsatisfactory'].
-\##140['Enrollment Requirement' -> ].
-\##140['Course Components' -> ['Tutorial']].
-\##140['Academic Group' -> 'Engring & App Sci, College of'].
-\##140['Academic Organization' -> 'Applied Math and Statistics'].
-\##140['Description' -> 'Prerequisite: Must be advanced to candidacy (G5). Major portion of research must take place on SBU campus, at Cold Spring Harbor, or at the Brookhaven National Lab.
-Fall, Spring, and Summer,'].
+\##140['Credits' -> '0.00 - 9.00'].
+\##140['Prerequisites' -> 'NONE'].
 \##1['AMS 700' -> \##141].
 \##141['Course Title' -> 'Dissertation Research off Campus - Domestic'].
 \##141['Career' -> 'Graduate'].
-\##141['Units' -> '1.00 - 9.00'].
-\##141['Grading Basis' -> 'Satisfactory/Unsatisfactory'].
-\##141['Enrollment Requirement' -> ].
-\##141['Course Components' -> ['Tutorial']].
-\##141['Academic Group' -> 'College of Engring & App Sci'].
-\##141['Academic Organization' -> 'Applied Math and Statistics'].
-\##141['Description' -> 'Prerequisite: Must be advanced to candidacy (G5). Major portion of research will take place off-campus, but in the United States and/or U.S. provinces. Please note, Brookhaven National Labs and the Cold Spring Harbor Lab are considered on-campus.
-All international students must enroll in one of the graduate student insurance plans and should be advised by an International Advisor.
-Fall, Spring, Summer'].
+\##141['Credits' -> '1.00 - 9.00'].
+\##141['Prerequisites' -> 'NONE'].
 \##1['AMS 701' -> \##142].
 \##142['Course Title' -> 'Dissertation Research off Campus - International'].
 \##142['Career' -> 'Graduate'].
-\##142['Units' -> '1.00 - 9.00'].
-\##142['Grading Basis' -> 'Satisfactory/Unsatisfactory'].
-\##142['Enrollment Requirement' -> ].
-\##142['Course Components' -> ['Tutorial']].
-\##142['Academic Group' -> 'College of Engring & App Sci'].
-\##142['Academic Organization' -> 'Applied Math and Statistics'].
-\##142['Description' -> 'Prerequisite: Must be advanced to candidacy (G5). Major portion of research will take place outside of the United States and/or U.S. provinces.
-Domestic students have the option of the health plan and may also enroll in MEDEX.
-International students who are in their home country are not covered by mandatory health plan and must contact the Insurance Office for the insurance charge to be removed.
-International students who are not in their home country are charged for the mandatory health insurance. If they are to be covered by another insurance plan they must file a waiver be second week of classes. The charge will only be removed if other plan is deemed comparable.
-All international students must received clearance from an International Advisor.
-Fall, Spring, Summer'].
+\##142['Credits' -> '1.00 - 9.00'].
+\##142['Prerequisites' -> 'NONE'].
 \##1['AMS 800' -> \##143].
 \##143['Course Title' -> 'SUMMER RESEARCH'].
 \##143['Career' -> 'Graduate'].
-\##143['Units' -> 0].
-\##143['Grading Basis' -> 'Satisfactory/Unsatisfactory'].
-\##143['Enrollment Requirement' -> ].
-\##143['Course Components' -> ['Tutorial']].
-\##143['Academic Group' -> 'College of Engring & App Sci'].
-\##143['Academic Organization' -> 'Applied Math and Statistics'].
-\##143['Description' -> ''].
+\##143['Credits' -> 0].
+\##143['Prerequisites' -> 'NONE'].
 :- new_global_oid_scope.
 ?- new_global_oid_scope.
