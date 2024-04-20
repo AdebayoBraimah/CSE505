@@ -4,7 +4,7 @@ src package
 Subpackages
 -----------
 
-.. image:: uml/packages_src.png
+.. figure:: uml/packages_src.png
 
 .. toctree::
    :maxdepth: 4
@@ -13,7 +13,7 @@ Subpackages
    src.kg
    src.utils
 
-.. image:: uml/classes_src.png
+.. figure:: uml/classes_src.png
 
 Module contents
 ---------------
