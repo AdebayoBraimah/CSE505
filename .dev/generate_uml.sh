@@ -155,11 +155,10 @@ main(){
 
   pyreverse --output png --project ${package_name} ${package} ${cmd}
 
-  # Copy the generated UML diagrams to the docs and report directories
+  # Copy the generated UML diagrams to the report directory
   if [[ ! -z ${out} ]]; then
-    # mkdir -p ../doc/source/uml
     # mkdir -p ../report/cse-505-project/figures/uml
-    cp ${out}/*.png ../doc/source/uml
+    rm -f ../report/cse-505-project/figures/uml/*.png
     cp ${out}/*.png ../report/cse-505-project/figures/uml
   fi
 }
