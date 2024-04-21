@@ -12,7 +12,7 @@ import os
 from typing import Optional, Union
 
 from src import ERGOROOT, XSBARCHDIR
-from src.utils.util import file_parts
+from src.utils import util
 from src.kg.knowledge_graph import KnowledgeBase, KnowledgeGraph
 
 from pyergo import (
@@ -57,7 +57,7 @@ def json_to_ergo(json_file: str, output_file: Optional[str] = None) -> str:
     """
     # If output file is not provided, use the same filename
     if (output_file is None) or (output_file == ""):
-        _filepath, _filename, _ = file_parts(json_file)
+        _filepath, _filename, _ = util.file_parts(json_file)
         output_file = os.path.join(_filepath, f"{_filename}.ergo")
 
     # Start ErgoAI session
@@ -99,7 +99,7 @@ def query_ergoai(
     filepath: str
     filename: str
 
-    filepath, filename, _ = file_parts(knowledge)
+    filepath, filename, _ = util.file_parts(knowledge)
     knowledge: str = os.path.join(filepath, filename)
 
     pyergo_command(f"['{knowledge}'].")
