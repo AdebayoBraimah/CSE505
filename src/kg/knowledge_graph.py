@@ -251,6 +251,10 @@ def scrape_sbu_solar(
     else:
         _return_json: bool = False
 
+    # Verify URL
+    if isinstance(url, KnowledgeBase):
+        url: str = url.url
+
     # Verify wait time is integer and greater than 0
     wait_time: int = int(wait_time)
 
