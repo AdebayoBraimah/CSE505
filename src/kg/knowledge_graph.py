@@ -86,76 +86,117 @@ class KnowledgeGraph:
 
         Raises:
             ValueError: Arises if the knowledge graph file or representation is not specified. Valid knowledge graph files include JSON, ERGO, RDF, OWL, CSV files, and a valid representation includes a ``pandas data frame``.
+            FileNotFoundError: Arises if the file does not exist.
         """
         self.json: str = (
             os.path.abspath(self.json)
-            if (self.json and self.json.endswith(".json"))
+            if (self.json and self.json.lower().endswith(".json"))
             else None
         )
         self.ergo: str = (
             os.path.abspath(self.ergo)
-            if (self.ergo and self.ergo.endswith(".ergo"))
+            if (self.ergo and self.ergo.lower().endswith(".ergo"))
             else None
         )
         self.rdf: str = (
             os.path.abspath(self.rdf)
-            if (self.rdf and self.rdf.endswith(".rdf"))
+            if (self.rdf and self.rdf.lower().endswith(".rdf"))
             else None
         )
         self.owl: str = (
             os.path.abspath(self.owl)
-            if (self.owl and self.owl.endswith(".owl"))
+            if (self.owl and self.owl.lower().endswith(".owl"))
             else None
         )
 
         self.csv: str = (
             os.path.abspath(self.csv)
-            if (self.csv and self.csv.endswith(".csv"))
+            if (self.csv and self.csv.lower().endswith(".csv"))
             else None
         )
 
-        self.df: pd.DataFrame = self.df if not self.df.empty else None
+        self.df: pd.DataFrame = self.df if (len(self.df) != 0) else None
 
+        # Check if knowledge graph file or representation is specified
         if (
             (not self.json)
             and (not self.ergo)
             and (not self.rdf)
             and (not self.owl)
             and (not self.csv)
-            and (not self.df)
+            and (len(self.df) == 0)
         ):
             raise KnowledgeGraphError(
                 "Knowledge graph file or representation must be specified."
             )
 
+        # Check if file exists
+        for file in [self.json, self.ergo, self.rdf, self.owl, self.csv]:
+            if file and (not os.path.exists(file)):
+                raise FileNotFoundError(f"File not found: {file}")
+
 
 @dataclass
 class KnowledgeBase:
+    """Dataclass intended to encapsulate knowledge bases.
+
+    NOTE:
+        - Only one knowledge base file needs to be specified.
+
+    Example usage:
+        >>> kb = KnowledgeBase(url="https://www.stonybrook.edu")
+        >>> kb.url
+        'https://www.stonybrook.edu'
+
+    Raises:
+        KnowledgeBaseError: Arises if the knowledge base file or representation is not specified. Valid knowledge base files include PDF, TXT or ERGO files, and valid representations include a URL.
+
+    Attributes:
+        url: URL knowledge base website link.
+        pdf: PDF knowledge base file.
+        txt: TXT knowledge base file.
+        ergo: ERGO knowledge base file.
+    """
+
     url: str = ""
     pdf: str = ""
     txt: str = ""
+    ergo: str = ""
 
     def __post_init__(self):
         """Post-initialization function to verify knowledge base file or representation.
 
         Raises:
             KnowledgeBaseError: Arises if the knowledge base file or representation is not specified. Valid knowledge base files include PDF, TXT files.
+            FileNotFoundError: Arises if the file does not exist.
         """
         self.pdf: str = (
             os.path.abspath(self.pdf)
-            if (self.pdf and self.pdf.endswith(".pdf"))
+            if (self.pdf and self.pdf.lower().endswith(".pdf"))
             else None
         )
         self.txt: str = (
             os.path.abspath(self.txt)
-            if (self.txt and self.txt.endswith(".txt"))
+            if (self.txt and self.txt.lower().endswith(".txt"))
             else None
         )
 
+        self.ergo: str = (
+            (os.path.abspath(self.ergo))
+            if (self.ergo and self.ergo.lower().endswith(".ergo"))
+            else None
+        )
+
+        # Check if knowledge base file or representation is specified
         if (self.url) and (not self.pdf) and (not self.txt):
             raise KnowledgeBaseError(
                 "Knowledge base file or representation must be specified."
             )
+
+        # Check if file exists
+        for file in [self.pdf, self.txt, self.ergo]:
+            if file and (not os.path.exists(file)):
+                raise FileNotFoundError(f"File not found: {file}")
 
 
 def create_knowledge_graph():
