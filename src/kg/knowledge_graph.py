@@ -5,15 +5,21 @@
 
     KnowledgeBaseError
     KnowledgeGraphError
+    KnowledgeGraph
+    KnowledgeBase
     create_knowledge_graph
     scrape_sbu_solar
     parse_requirements
-    KnowledgeGraph
-    KnowledgeBase
+    clean_course_title
+    remove_non_numeric
+    get_course_components
 
 .. autofunction:: create_knowledge_graph
 .. autofunction:: scrape_sbu_solar
 .. autofunction:: parse_requirements
+.. autofunction:: clean_course_title
+.. autofunction:: remove_non_numeric
+.. autofunction:: get_course_components
 
 .. autoclass:: KnowledgeGraph
     :members:
