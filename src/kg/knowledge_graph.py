@@ -204,14 +204,13 @@ def create_knowledge_graph():
 
 
 def scrape_sbu_solar(
-    url: str,
+    url: Union[KnowledgeBase, str],
     major_three_letter_code: str,
     wait_time: int = 10,
     headless: bool = True,
     verbose: bool = False,
     output_filename: Optional[str] = None,
-) -> Union[pd.DataFrame, str]:
-    # TODO: Update docstring -- return KnowledgeGraph object
+) -> KnowledgeGraph:
     """Scrape Stony Brook University's course catalog for a specific major's course information.
 
     WARNING:
@@ -227,18 +226,18 @@ def scrape_sbu_solar(
         ...        verbose=True,)
 
     Args:
-        url: Input Stony Brook URL to scrape.
+        url: Input Stony Brook URL (or ``KnowledgeBase`` object) to scrape.
         major_three_letter_code: Three letter code for the major (e.g. CSE for computer science).
         wait_time: Maximum wait time (in seconds) for each click operation. Defaults to 10.
         headless: Do not open brower. Defaults to True.
         verbose: Print output to screen. Defaults to False.
-        output_filename: Output filename for the JSON file. If specified, this filename is returned (in addition to a JSON file being created). If not specified, a Pandas ``dataframe`` is returned instead. Defaults to None.
+        output_filename: Output filename for the JSON file. Defaults to None.
 
     Raises:
         ValueError: Arises if the course table is not displayed, is empty, or if the wait time is less than 0 seconds.
 
     Returns:
-        Either a Pandas ``dataframe`` or a JSON file (if ``output_filename`` is specified).
+        KnowledgeGraph object containing course information.
     """
 
     # Verify output_filename
