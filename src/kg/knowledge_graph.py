@@ -340,7 +340,7 @@ def scrape_sbu_solar(
 
     # Clean course titles
     _course_titles: List[str] = df["Course Title"].tolist()
-    df["Course Title"] = [_clean_course_title(title) for title in _course_titles]
+    df["Course Title"] = [clean_course_title(title) for title in _course_titles]
 
     career_list: List[str] = []
     units_list: List[str] = []
@@ -415,7 +415,7 @@ def scrape_sbu_solar(
         )
 
         # Course components
-        course_components: Tuple[str, ...] = _get_course_components(driver)
+        course_components: Tuple[str, ...] = get_course_components(driver)
 
         # Academic group
         try:
@@ -442,7 +442,7 @@ def scrape_sbu_solar(
             description: str = ""
 
         # Append course number with three letter code
-        course = _remove_non_numeric(course)
+        course = remove_non_numeric(course)
         course_numbers_with_three_letter_code.append(
             f"{major_three_letter_code} {course}"
         )
@@ -564,7 +564,7 @@ def parse_requirements(input_string: str) -> Union[str, List[List[str]]]:
     return result
 
 
-def _get_course_components(driver: webdriver) -> Tuple[str, ...]:
+def get_course_components(driver: webdriver) -> Tuple[str, ...]:
     """Helper function to get course components. Course components may include more than one word.
 
     Args:
@@ -583,13 +583,29 @@ def _get_course_components(driver: webdriver) -> Tuple[str, ...]:
             return tuple(course_components_list)
 
 
-def _clean_course_title(course_title):
+def clean_course_title(course_title: str) -> str:
+    """Clean course title by removing any additional information after '**'.
+
+    Args:
+        course_title: Course title string.
+
+    Returns:
+        Cleaned course title string.
+    """
     # Use a regular expression to match only the course title before '**'
     cleaned_title = re.sub(r"\*\*.*$", "", course_title).strip()
     return cleaned_title
 
 
-def _remove_non_numeric(course_number):
+def remove_non_numeric(course_number: str) -> str:
+    """Remove any non-digit characters from the course number.
+
+    Args:
+        course_number: Course number string.
+
+    Returns:
+        Cleaned course number string.
+    """
     # Remove any non-digit characters from the string
     cleaned_number = re.sub(r"\D", "", course_number)
     return cleaned_number
