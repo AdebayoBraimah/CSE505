@@ -5,6 +5,9 @@
 
     json_to_ergo
     query_ergoai
+
+.. autofunction:: json_to_ergo
+.. autofunction:: query_ergoai
 """
 
 import os
@@ -42,14 +45,17 @@ from pyergo import (
 )
 
 
-def json_to_ergo(json_file: str, output_file: Optional[str] = None) -> str:
+def json_to_ergo(
+    json_file: Union[KnowledgeBase, KnowledgeGraph, str],
+    output_file: Optional[str] = None,
+) -> str:
     """Converts a JSON file to an ERGO file.
 
     NOTE:
         - If a JSON file needs to be converted to an ERGO file, this function MUST be called first before calling ``pyergo_query``.
 
     Args:
-        json_file: Input JSON file to be converted to ERGO file.
+        json_file: Input JSON file (``KnowledgeBase`` or ``KnowledgeGraph`` object) to be converted to ERGO file.
         output_file: Output filename. If not specified, then a new file of the same name is created, with a '.ergo' file extension. Defaults to None.
 
     Returns:
