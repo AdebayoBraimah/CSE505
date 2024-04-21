@@ -4,6 +4,10 @@
     :nosignatures:
 
     file_parts
+    DependencyError
+
+.. autofunction:: file_parts
+.. autoclass:: DependencyError
 """
 
 import os
