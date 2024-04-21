@@ -570,11 +570,11 @@ def parse_requirements(input_string: str) -> Union[str, List[List[str]]]:
     return result
 
 
-def get_course_components(driver: webdriver) -> Tuple[str, ...]:
+def get_course_components(driver: "webdriver") -> Tuple[str, ...]:
     """Helper function to get course components. Course components may include more than one word.
 
     Args:
-        driver: ``Selenium WebDriver`` object.
+        driver: (``Selenium WebDriver``) Input webdriver object.
 
     Returns:
         Tuple that consists of course components.
