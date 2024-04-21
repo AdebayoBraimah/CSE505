@@ -3,9 +3,17 @@
 .. autosummary::
     :nosignatures:
 
+    KnowledgeBaseError
+    KnowledgeGraphError
     create_knowledge_graph
     scrape_sbu_solar
     parse_requirements
+    KnowledgeGraph
+    KnowledgeBase
+
+.. autofunction:: create_knowledge_graph
+.. autofunction:: scrape_sbu_solar
+.. autofunction:: parse_requirements
 
 .. autoclass:: KnowledgeGraph
     :members:
