@@ -473,6 +473,8 @@ def scrape_sbu_solar(
     # else:
     #     return df
 
+    return kg
+
 
 def parse_requirements(input_string: str) -> Union[str, List[List[str]]]:
     """Parse major requirements from a string into a list of lists of course codes.
