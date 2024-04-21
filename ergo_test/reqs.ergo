@@ -22,3 +22,4 @@ Student(?_Q,?_R,?_S,?_T) :-
 {Undergrad,Grad} :: Student.
 
 Undergrad(Socrates, 12345, [],[]).
+Grad(Platp,45678,[],[]).
