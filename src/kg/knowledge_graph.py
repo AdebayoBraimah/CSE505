@@ -506,13 +506,12 @@ def scrape_sbu_solar(
     # Quit the driver, close the browser
     driver.quit()
 
+    # Write to JSON file if requested
+    if _return_json:
+        df.to_json(output_filename, orient="index", indent=4)
+
     # Create KnowledgeGraph object
     kg = KnowledgeGraph(df=df, json=output_filename)
-
-    # if _return_json:
-    #     return df.to_json(output_filename, orient="index", indent=4)
-    # else:
-    #     return df
 
     return kg
 
