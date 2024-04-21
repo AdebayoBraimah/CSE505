@@ -19,6 +19,7 @@ import re
 import time
 import pandas as pd
 
+from dataclasses import dataclass
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
@@ -27,15 +28,126 @@ from selenium.common.exceptions import NoSuchElementException
 
 from typing import Optional, List, Tuple, Union
 
-from src.utils.util import file_parts
+from src.utils import util
 
 
+class KnowledgeBaseError(Exception):
+    """Exception intended for knowledge base errors."""
+
+    pass
+
+
+class KnowledgeGraphError(Exception):
+    """Exception intended for knowledge graph errors."""
+
+    pass
+
+
+@dataclass
 class KnowledgeGraph:
-    pass
+    """Dataclass intended to encapsulate knowledge graphs.
+
+    NOTE:
+        - Only one knowledge graph file needs to be specified.
+
+    Example usage:
+        >>> kg = KnowledgeGraph(json="path/to/file.json")
+        >>> kg.json
+        'path/to/file.json'
+
+    Raises:
+        KnowledgeGraphError: Arises if the knowledge graph file is not specified. Valid knowledge graph files include JSON, ERGO, RDF, OWL, CSV files.
+
+    Attributes:
+        json: JSON knowledge graph file.
+        ergo: ERGO knowledge graph file.
+        rdf: RDF knowledge graph file.
+        owl: OWL knowledge graph file.
+        csv: CSV knowledge graph file.
+    """
+
+    json: str = ""
+    ergo: str = ""
+    rdf: str = ""
+    owl: str = ""
+    csv: str = ""
+    df: pd.DataFrame = pd.DataFrame()
+
+    def __post_init__(self):
+        """Post-initialization function to verify knowledge graph file or representation.
+
+        Raises:
+            ValueError: Arises if the knowledge graph file or representation is not specified. Valid knowledge graph files include JSON, ERGO, RDF, OWL, CSV files, and a valid representation includes a ``pandas data frame``.
+        """
+        self.json: str = (
+            os.path.abspath(self.json)
+            if (self.json and self.json.endswith(".json"))
+            else None
+        )
+        self.ergo: str = (
+            os.path.abspath(self.ergo)
+            if (self.ergo and self.ergo.endswith(".ergo"))
+            else None
+        )
+        self.rdf: str = (
+            os.path.abspath(self.rdf)
+            if (self.rdf and self.rdf.endswith(".rdf"))
+            else None
+        )
+        self.owl: str = (
+            os.path.abspath(self.owl)
+            if (self.owl and self.owl.endswith(".owl"))
+            else None
+        )
+
+        self.csv: str = (
+            os.path.abspath(self.csv)
+            if (self.csv and self.csv.endswith(".csv"))
+            else None
+        )
+
+        self.df: pd.DataFrame = self.df if not self.df.empty else None
+
+        if (
+            (not self.json)
+            and (not self.ergo)
+            and (not self.rdf)
+            and (not self.owl)
+            and (not self.csv)
+            and (not self.df)
+        ):
+            raise KnowledgeGraphError(
+                "Knowledge graph file or representation must be specified."
+            )
 
 
+@dataclass
 class KnowledgeBase:
-    pass
+    url: str = ""
+    pdf: str = ""
+    txt: str = ""
+
+    def __post_init__(self):
+        """Post-initialization function to verify knowledge base file or representation.
+
+        Raises:
+            KnowledgeBaseError: Arises if the knowledge base file or representation is not specified. Valid knowledge base files include PDF, TXT files.
+        """
+        self.pdf: str = (
+            os.path.abspath(self.pdf)
+            if (self.pdf and self.pdf.endswith(".pdf"))
+            else None
+        )
+        self.txt: str = (
+            os.path.abspath(self.txt)
+            if (self.txt and self.txt.endswith(".txt"))
+            else None
+        )
+
+        if (self.url) and (not self.pdf) and (not self.txt):
+            raise KnowledgeBaseError(
+                "Knowledge base file or representation must be specified."
+            )
 
 
 def create_knowledge_graph():
@@ -50,6 +162,7 @@ def scrape_sbu_solar(
     verbose: bool = False,
     output_filename: Optional[str] = None,
 ) -> Union[pd.DataFrame, str]:
+    # TODO: Update docstring -- return KnowledgeGraph object
     """Scrape Stony Brook University's course catalog for a specific major's course information.
 
     WARNING:
@@ -81,7 +194,7 @@ def scrape_sbu_solar(
 
     # Verify output_filename
     if output_filename is not None:
-        _path, _filename, _ = file_parts(output_filename)
+        _path, _filename, _ = util.file_parts(output_filename)
         output_filename: str = os.path.join(
             _path, f"{_filename}.json"
         )  # Ensure JSON extension
@@ -344,10 +457,13 @@ def scrape_sbu_solar(
     # Quit the driver, close the browser
     driver.quit()
 
-    if _return_json:
-        return df.to_json(output_filename, orient="index", indent=4)
-    else:
-        return df
+    # Create KnowledgeGraph object
+    kg = KnowledgeGraph(df=df, json=output_filename)
+
+    # if _return_json:
+    #     return df.to_json(output_filename, orient="index", indent=4)
+    # else:
+    #     return df
 
 
 def parse_requirements(input_string: str) -> Union[str, List[List[str]]]:
