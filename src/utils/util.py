@@ -11,6 +11,12 @@ import os
 from typing import Tuple
 
 
+class DependencyError(Exception):
+    """Exception intended for unmet dependencies"""
+
+    pass
+
+
 def file_parts(file: str) -> Tuple[str, str, str]:
     """Similar to MATLAB's ``fileparts`` function shown `here <https://www.mathworks.com/help/matlab/ref/fileparts.html>`_.
 
