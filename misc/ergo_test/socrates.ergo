@@ -1,0 +1,21 @@
+// file socrates.ergo
+man(Socrates).
+mortal(?X) :- man(?X).
+
+age(Socrates,56) \and  home(Socrates,Athens).
+student(Socrates,Plato), student(Socrates,Xenophon).
+man(Plato) \and man(Xenophon).
+age(Plato,27).
+age(Xenophon,27).
+philosopher(Xenophon).
+talksAbout(Xenophon,Xenophon).
+home(father(Socrates),Athens).
+home(father(father(Socrates)),Athens).
+
+avgAge(?AvgAge) :- 
+   ?AvgAge = avg{ ?Y | man(?E), age(?E,?Y) }.
+
+
+
+
+

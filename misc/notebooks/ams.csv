@@ -1,0 +1,143 @@
+Course Nbr,Course Title,Career,Credits,Prerequisites
+AMS 102,Elements of Statistics,Undergraduate,3.0,"[['AMS 110', 'AMS 310']]"
+AMS 103,Applied Mathematics in Modern Technology,Undergraduate,3.0,NONE
+AMS 104,Spreadsheet Technology and Applications,Undergraduate,3.0,[['MAT 123']]
+AMS 105,Introduction to Business Statistics,Undergraduate,3.0,"[['BUS 110', 'MAT 122', 'BUS 210']]"
+AMS 110,Probability and Statistics in the Life Sciences,Undergraduate,3.0,"[['AMS 151', 'MAT 125', 'AMS 102', 'AMS 310']]"
+AMS 151,Applied Calculus I,Undergraduate,3.0,[['MAT 123']]
+AMS 161,Applied Calculus II,Undergraduate,3.0,"[['AMS 151', 'MAT 131']]"
+AMS 210,Applied Linear Algebra,Undergraduate,3.0,"[['AMS 151', 'MAT 131', 'MAT 126']]"
+AMS 261,Applied Calculus III,Undergraduate,4.0,"[['AMS 161', 'MAT 127']]"
+AMS 300,Writing in Applied Mathematics,Undergraduate,1.0,[['WRT 102']]
+AMS 301,Finite Mathematical Structures,Undergraduate,3.0,"[['AMS 210', 'MAT 211', 'AMS 361', 'MAT 303']]"
+AMS 303,Graph Theory,Undergraduate,3.0,[['AMS 301']]
+AMS 310,Survey of Probability and Statistics,Undergraduate,3.0,"[['AMS 161', 'MAT 132', 'MAT 127', 'MAT 142']]"
+AMS 311,Probability Theory,Undergraduate,3.0,"[['AMS 301', 'MAT 203', 'AMS 261']]"
+AMS 315,Data Analysis,Undergraduate,3.0,[['AMS 310']]
+AMS 316,Introduction to Time Series Analysis,Undergraduate,3.0,"[['AMS 311', 'AMS 315']]"
+AMS 317,Introduction to Linear Regression Analysis,Undergraduate,3.0,"[['AMS 315'], ['AMS 210', 'MAT 211']]"
+AMS 318,Financial Mathematics,Undergraduate,3.0,[['AMS 310']]
+AMS 320,Introduction to Quantitative Finance,Undergraduate,3.0,[['AMS 311']]
+AMS 325,Computing and Programming Fundamentals in Applied Mathematics and Statistics,Undergraduate,3.0,"[['AMS 210', 'MAT 211']]"
+AMS 326,Numerical Analysis,Undergraduate,3.0,"[['CSE 101'], ['AMS 161'], ['AMS 210']]"
+AMS 332,Computational Modeling of Physiological Systems,Undergraduate,3.0,"[['MAT 127', 'MAT 132', 'AMS 161', 'BIO 202', 'BIO 203', 'CHE 132', 'CHE 331', 'PHY 127', 'PHY 132']]"
+AMS 333,Mathematical Biology,Undergraduate,3.0,"[['AMS 161', 'MAT 132']]"
+AMS 335,Game Theory,Undergraduate,3.0,"[['MAT 126', 'AMS 151'], ['ECO 303']]"
+AMS 341,Operations Research I: Deterministic Models,Undergraduate,3.0,"[['AMS 210', 'MAT 211', 'MAT 307', 'MAT 308']]"
+AMS 342,Operations Research II: Stochastic Models,Undergraduate,3.0,"[['AMS 210', 'MAT 211'], ['AMS 311']]"
+AMS 345,Computational Geometry,Undergraduate,3.0,[['AMS 301']]
+AMS 351,Applied Algebra,Undergraduate,3.0,"[['AMS 210', 'MAT 211', 'MAT 200', 'CSE 250']]"
+AMS 361,Applied Calculus IV: Differential Equations,Undergraduate,4.0,"[['AMS 161', 'MAT 127']]"
+AMS 380,Data Mining,Undergraduate,3.0,[['AMS 311']]
+AMS 394,Statistical Laboratory,Undergraduate,3.0,"[['AMS 310', 'AMS 315']]"
+AMS 410,Actuarial Mathematics,Undergraduate,3.0,"[['AMS 261', 'MAT 203'], ['AMS 310'], ['AMS 311']]"
+AMS 412,Mathematical Statistics,Undergraduate,3.0,[['AMS 311']]
+AMS 420,Investment Science Foundations,Undergraduate,3.0,"[['AMS 311', 'AMS 341']]"
+AMS 441,Business Enterprise,Undergraduate,3.0,NONE
+AMS 458,Speak Effectively Before an Audience,Undergraduate,0.0,[['WRT 102']]
+AMS 459,Write Effectively in Applied Mathematics,Undergraduate,0.0,[['WRT 102']]
+AMS 475,Undergraduate Teaching Practicum,Undergraduate,3.0,NONE
+AMS 476,Undergraduate Teaching Practicum,Undergraduate,3.0,NONE
+AMS 487,Research in Applied Mathematics,Undergraduate,0.00 - 3.00,NONE
+AMS 492,Topics in Applied Mathematics,Undergraduate,3.0,NONE
+AMS 500,Responsible Conduct of Research and Scholarship (RCRS),Graduate,0.0,NONE
+AMS 501,Differential Equations and Boundary Value Problems I,Graduate,3.0,NONE
+AMS 502,Differential Equations and Boundary Value Problems II,Graduate,3.0,NONE
+AMS 503,Applications of Complex Analysis,Graduate,3.0,NONE
+AMS 504,Foundations of Applied Mathematics,Graduate,3.0,NONE
+AMS 505,Applied Linear Algebra,Graduate,3.0,NONE
+AMS 507,Introduction to Probability,Graduate,3.0,NONE
+AMS 510,Analytical Methods for Applied Mathematics and Statistics,Graduate,3.0,NONE
+AMS 511,Foundations of Quantitative Finance,Graduate,3.0,NONE
+AMS 512,Capital Markets and Portfolio Theory,Graduate,3.0,[['AMS 511']]
+AMS 513,Financial Derivatives and Stochastic Calculus,Graduate,3.0,[['AMS 511']]
+AMS 514,Computational Finance,Graduate,3.0,"[['AMS 512', 'AMS 513']]"
+AMS 515,Case Studies in Machine Learning and Finance,Graduate,3.0,"[['AMS 512', 'AMS 513']]"
+AMS 516,Statistical Methods in Finance,Graduate,3.0,[['AMS 507']]
+AMS 517,Quantitative Risk Management,Graduate,3.0,"[['AMS 507', 'AMS 511']]"
+AMS 518,"Advanced Stochastic Models, Risk Assessment, and Portfolio Optimization",Graduate,3.0,"[['AMS 512', 'AMS 516', 'AMS 522']]"
+AMS 519,Internship in Quantitative Finance,Graduate,3.00 - 6.00,NONE
+AMS 520,Machine Learning in Quantitative Finance,Graduate,3.0,"[['AMS 572', 'AMS 595', 'AMS 561']]"
+AMS 522,Bayesian Methods in Finance,Graduate,3.0,[['AMS 512']]
+AMS 523,Mathematics of High Frequency Finance,Graduate,3.0,NONE
+AMS 524,Modern Computational Data Analytics,Graduate,3.0,NONE
+AMS 525,Geometric Deep Learning,Graduate,3.0,NONE
+AMS 526,Numerical Analysis I,Graduate,3.0,"[['AMS 510', 'AMS 595']]"
+AMS 527,Numerical Analysis II,Graduate,3.0,NONE
+AMS 528,Numerical Analysis III,Graduate,3.0,NONE
+AMS 530,Principles in Parallel Computing,Graduate,3.0,NONE
+AMS 531,Laboratory Rotations in Computational Biology,Graduate,0.00 - 3.00,NONE
+AMS 532,Journal Club in Computational Biology,Graduate,0.00 - 1.00,NONE
+AMS 533,Numerical Methods and Algorithms in Computational Biology,Graduate,3.0,NONE
+AMS 534,Introduction to Systems Biology,Graduate,3.0,NONE
+AMS 535,Introduction to Computational Structural Biology and Drug Design,Graduate,3.0,NONE
+AMS 536,Molecular Modeling of Biological Molecules,Graduate,3.0,[['AMS 535']]
+AMS 537,Biological Dynamics and Networks,Graduate,3.0,NONE
+AMS 538,Methods in Neuronal Modeling,Graduate,3.0,NONE
+AMS 539,Introduction to Physical and Quantitative Biology,Graduate,0.00 - 1.00,NONE
+AMS 540,Linear Programming,Graduate,3.0,NONE
+AMS 542,Analysis of Algorithms,Graduate,3.0,NONE
+AMS 544,Discrete and Nonlinear Optimization,Graduate,3.0,[['AMS 540']]
+AMS 545,Computational Geometry,Graduate,3.0,NONE
+AMS 546,Network Flows,Graduate,3.0,[['AMS 540']]
+AMS 547,Discrete Mathematics,Graduate,3.0,NONE
+AMS 548,Optimization techniques in biomolecular simulations,Graduate,0.00 - 3.00,NONE
+AMS 549,Computational Biology,Graduate,3.0,NONE
+AMS 550,Operations Research: Stochastic Models,Graduate,3.0,[['AMS 507']]
+AMS 552,Game Theory I,Graduate,3.0,NONE
+AMS 553,Simulation and Modeling,Graduate,3.0,NONE
+AMS 555,Game Theory II,Graduate,3.0,NONE
+AMS 556,Dynamic Programming,Graduate,3.0,[['AMS 507']]
+AMS 559,Smart Energy in the Information Age,Graduate,3.0,NONE
+AMS 560,"Big Data Systems, Algorithms and Networks",Graduate,3.0,NONE
+AMS 561,Introduction to Computational Science,Graduate,3.0,NONE
+AMS 562,Introduction to Scientific Programming in C++,Graduate,3.0,NONE
+AMS 565,Wave Propagation,Graduate,3.0,NONE
+AMS 566,Compressible Fluid Dynamics,Graduate,3.0,NONE
+AMS 569,Probability Theory I,Graduate,3.0,[['AMS 510']]
+AMS 570,Introduction to Mathematical Statistics,Graduate,3.0,[['AMS 507']]
+AMS 571,Mathematical Statistics,Graduate,3.0,[['AMS 570']]
+AMS 572,Data Analysis I,Graduate,3.0,NONE
+AMS 573,Categorical Data Analysis,Graduate,3.0,"[['AMS 507', 'AMS 572']]"
+AMS 575,Internship in Statistical Consulting,Graduate,1.00 - 9.00,NONE
+AMS 577,Multivariate Analysis,Graduate,3.0,"[['AMS 572', 'AMS 578']]"
+AMS 578,Regression Theory,Graduate,3.0,[['AMS 572']]
+AMS 580,Statistical Learning,Graduate,3.0,NONE
+AMS 581,Analysis of Variance,Graduate,3.0,NONE
+AMS 582,Design of Experiments,Graduate,3.0,[['AMS 572']]
+AMS 583,Applied Longitudinal Data Analysis,Graduate,3.0,"[['AMS 572', 'AMS 578']]"
+AMS 585,Internship in Data Science,Graduate,1.00 - 9.00,NONE
+AMS 586,Time Series,Graduate,3.0,"[['AMS 572', 'AMS 570']]"
+AMS 587,Nonparametric Statistics,Graduate,3.0,NONE
+AMS 588,Failure and Survival Data Analysis,Graduate,3.0,[['AMS 572']]
+AMS 589,Quantitative Genetics,Graduate,3.0,NONE
+AMS 591,Topics for M.S. Students,Graduate,3.0,NONE
+AMS 592,Mathematical Methods of Finance and Investments I,Graduate,3.0,NONE
+AMS 593,Interest Rate and Credit Modeling,Graduate,3.0,[['AMS 512']]
+AMS 594,Mathematical Methods of Finance and Investments II,Graduate,3.0,NONE
+AMS 595,Fundamentals of Computing,Graduate,3.0,NONE
+AMS 596,Fundamentals of Large-Scale Computing,Graduate,1.0,NONE
+AMS 597,Statistical Computing,Graduate,3.0,NONE
+AMS 598,Big Data Analysis,Graduate,3.0,"[['AMS 572', 'AMS 570']]"
+AMS 599,Research,Graduate,1.00 - 12.00,NONE
+AMS 600,Socially Responsible Investing,Graduate,3.0,[['AMS 511']]
+AMS 601,Risk Management and Business Risk Control in BRIC Countries,Graduate,3.0,[['AMS 511']]
+AMS 603,Risk Measures For Finance & Data Analysis,Graduate,3.0,NONE
+AMS 621,Finite Element Methods for Partial Differential Equations,Graduate,3.0,NONE
+AMS 641,Special Topics in Mathematical Programming,Graduate,3.0,NONE
+AMS 644,Special Topics in Applied Probability,Graduate,3.0,NONE
+AMS 651,Nonlinear Analysis and Optimization,Graduate,3.0,NONE
+AMS 652,Special Topics in Game Theory,Graduate,3.0,NONE
+AMS 670,Special Topics in Probability and Mathematical Statistics,Graduate,3.0,NONE
+AMS 675,Special Topics in Applied Statistics,Graduate,3.0,NONE
+AMS 676,Internship in Applied Mathematics,Graduate,1.00 - 9.00,NONE
+AMS 683,Biological Physics & Biophysical Chemistry: Theoretical Perspectives,Graduate,0.00 - 3.00,NONE
+AMS 690,Special Topics in Differential Equations and Applied Analysis,Graduate,3.0,NONE
+AMS 691,Topics in Applied Mathematics,Graduate,0.00 - 3.00,NONE
+AMS 695,Special Topics in Numerical Analysis and Scientific Computing,Graduate,3.0,NONE
+AMS 696,Applied Mathematics Seminar,Graduate,0.00 - 3.00,NONE
+AMS 698,Practicum in Teaching,Graduate,0.0,NONE
+AMS 699,Dissertation Research on Campus,Graduate,0.00 - 9.00,NONE
+AMS 700,Dissertation Research off Campus - Domestic,Graduate,1.00 - 9.00,NONE
+AMS 701,Dissertation Research off Campus - International,Graduate,1.00 - 9.00,NONE
+AMS 800,SUMMER RESEARCH,Graduate,0.0,NONE

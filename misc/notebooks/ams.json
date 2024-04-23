@@ -1,0 +1,1186 @@
+{
+    "AMS 102":{
+        "Course Title":"Elements of Statistics",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "AMS 110",
+                "AMS 310"
+            ]
+        ]
+    },
+    "AMS 103":{
+        "Course Title":"Applied Mathematics in Modern Technology",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE"
+    },
+    "AMS 104":{
+        "Course Title":"Spreadsheet Technology and Applications",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "MAT 123"
+            ]
+        ]
+    },
+    "AMS 105":{
+        "Course Title":"Introduction to Business Statistics",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "BUS 110",
+                "MAT 122",
+                "BUS 210"
+            ]
+        ]
+    },
+    "AMS 110":{
+        "Course Title":"Probability and Statistics in the Life Sciences",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "AMS 151",
+                "MAT 125",
+                "AMS 102",
+                "AMS 310"
+            ]
+        ]
+    },
+    "AMS 151":{
+        "Course Title":"Applied Calculus I",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "MAT 123"
+            ]
+        ]
+    },
+    "AMS 161":{
+        "Course Title":"Applied Calculus II",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "AMS 151",
+                "MAT 131"
+            ]
+        ]
+    },
+    "AMS 210":{
+        "Course Title":"Applied Linear Algebra",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "AMS 151",
+                "MAT 131",
+                "MAT 126"
+            ]
+        ]
+    },
+    "AMS 261":{
+        "Course Title":"Applied Calculus III",
+        "Career":"Undergraduate",
+        "Credits":4.0,
+        "Prerequisites":[
+            [
+                "AMS 161",
+                "MAT 127"
+            ]
+        ]
+    },
+    "AMS 300":{
+        "Course Title":"Writing in Applied Mathematics",
+        "Career":"Undergraduate",
+        "Credits":1.0,
+        "Prerequisites":[
+            [
+                "WRT 102"
+            ]
+        ]
+    },
+    "AMS 301":{
+        "Course Title":"Finite Mathematical Structures",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "AMS 210",
+                "MAT 211",
+                "AMS 361",
+                "MAT 303"
+            ]
+        ]
+    },
+    "AMS 303":{
+        "Course Title":"Graph Theory",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "AMS 301"
+            ]
+        ]
+    },
+    "AMS 310":{
+        "Course Title":"Survey of Probability and Statistics",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "AMS 161",
+                "MAT 132",
+                "MAT 127",
+                "MAT 142"
+            ]
+        ]
+    },
+    "AMS 311":{
+        "Course Title":"Probability Theory",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "AMS 301",
+                "MAT 203",
+                "AMS 261"
+            ]
+        ]
+    },
+    "AMS 315":{
+        "Course Title":"Data Analysis",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "AMS 310"
+            ]
+        ]
+    },
+    "AMS 316":{
+        "Course Title":"Introduction to Time Series Analysis",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "AMS 311",
+                "AMS 315"
+            ]
+        ]
+    },
+    "AMS 317":{
+        "Course Title":"Introduction to Linear Regression Analysis",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "AMS 315"
+            ],
+            [
+                "AMS 210",
+                "MAT 211"
+            ]
+        ]
+    },
+    "AMS 318":{
+        "Course Title":"Financial Mathematics",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "AMS 310"
+            ]
+        ]
+    },
+    "AMS 320":{
+        "Course Title":"Introduction to Quantitative Finance",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "AMS 311"
+            ]
+        ]
+    },
+    "AMS 325":{
+        "Course Title":"Computing and Programming Fundamentals in Applied Mathematics and Statistics",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "AMS 210",
+                "MAT 211"
+            ]
+        ]
+    },
+    "AMS 326":{
+        "Course Title":"Numerical Analysis",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "CSE 101"
+            ],
+            [
+                "AMS 161"
+            ],
+            [
+                "AMS 210"
+            ]
+        ]
+    },
+    "AMS 332":{
+        "Course Title":"Computational Modeling of Physiological Systems",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "MAT 127",
+                "MAT 132",
+                "AMS 161",
+                "BIO 202",
+                "BIO 203",
+                "CHE 132",
+                "CHE 331",
+                "PHY 127",
+                "PHY 132"
+            ]
+        ]
+    },
+    "AMS 333":{
+        "Course Title":"Mathematical Biology",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "AMS 161",
+                "MAT 132"
+            ]
+        ]
+    },
+    "AMS 335":{
+        "Course Title":"Game Theory",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "MAT 126",
+                "AMS 151"
+            ],
+            [
+                "ECO 303"
+            ]
+        ]
+    },
+    "AMS 341":{
+        "Course Title":"Operations Research I: Deterministic Models",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "AMS 210",
+                "MAT 211",
+                "MAT 307",
+                "MAT 308"
+            ]
+        ]
+    },
+    "AMS 342":{
+        "Course Title":"Operations Research II: Stochastic Models",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "AMS 210",
+                "MAT 211"
+            ],
+            [
+                "AMS 311"
+            ]
+        ]
+    },
+    "AMS 345":{
+        "Course Title":"Computational Geometry",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "AMS 301"
+            ]
+        ]
+    },
+    "AMS 351":{
+        "Course Title":"Applied Algebra",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "AMS 210",
+                "MAT 211",
+                "MAT 200",
+                "CSE 250"
+            ]
+        ]
+    },
+    "AMS 361":{
+        "Course Title":"Applied Calculus IV: Differential Equations",
+        "Career":"Undergraduate",
+        "Credits":4.0,
+        "Prerequisites":[
+            [
+                "AMS 161",
+                "MAT 127"
+            ]
+        ]
+    },
+    "AMS 380":{
+        "Course Title":"Data Mining",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "AMS 311"
+            ]
+        ]
+    },
+    "AMS 394":{
+        "Course Title":"Statistical Laboratory",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "AMS 310",
+                "AMS 315"
+            ]
+        ]
+    },
+    "AMS 410":{
+        "Course Title":"Actuarial Mathematics",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "AMS 261",
+                "MAT 203"
+            ],
+            [
+                "AMS 310"
+            ],
+            [
+                "AMS 311"
+            ]
+        ]
+    },
+    "AMS 412":{
+        "Course Title":"Mathematical Statistics",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "AMS 311"
+            ]
+        ]
+    },
+    "AMS 420":{
+        "Course Title":"Investment Science Foundations",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "AMS 311",
+                "AMS 341"
+            ]
+        ]
+    },
+    "AMS 441":{
+        "Course Title":"Business Enterprise",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE"
+    },
+    "AMS 458":{
+        "Course Title":"Speak Effectively Before an Audience",
+        "Career":"Undergraduate",
+        "Credits":0.0,
+        "Prerequisites":[
+            [
+                "WRT 102"
+            ]
+        ]
+    },
+    "AMS 459":{
+        "Course Title":"Write Effectively in Applied Mathematics",
+        "Career":"Undergraduate",
+        "Credits":0.0,
+        "Prerequisites":[
+            [
+                "WRT 102"
+            ]
+        ]
+    },
+    "AMS 475":{
+        "Course Title":"Undergraduate Teaching Practicum",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE"
+    },
+    "AMS 476":{
+        "Course Title":"Undergraduate Teaching Practicum",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE"
+    },
+    "AMS 487":{
+        "Course Title":"Research in Applied Mathematics",
+        "Career":"Undergraduate",
+        "Credits":"0.00 - 3.00",
+        "Prerequisites":"NONE"
+    },
+    "AMS 492":{
+        "Course Title":"Topics in Applied Mathematics",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE"
+    },
+    "AMS 500":{
+        "Course Title":"Responsible Conduct of Research and Scholarship (RCRS)",
+        "Career":"Graduate",
+        "Credits":0.0,
+        "Prerequisites":"NONE"
+    },
+    "AMS 501":{
+        "Course Title":"Differential Equations and Boundary Value Problems I",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE"
+    },
+    "AMS 502":{
+        "Course Title":"Differential Equations and Boundary Value Problems II",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE"
+    },
+    "AMS 503":{
+        "Course Title":"Applications of Complex Analysis",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE"
+    },
+    "AMS 504":{
+        "Course Title":"Foundations of Applied Mathematics",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE"
+    },
+    "AMS 505":{
+        "Course Title":"Applied Linear Algebra",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE"
+    },
+    "AMS 507":{
+        "Course Title":"Introduction to Probability",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE"
+    },
+    "AMS 510":{
+        "Course Title":"Analytical Methods for Applied Mathematics and Statistics",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE"
+    },
+    "AMS 511":{
+        "Course Title":"Foundations of Quantitative Finance",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE"
+    },
+    "AMS 512":{
+        "Course Title":"Capital Markets and Portfolio Theory",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "AMS 511"
+            ]
+        ]
+    },
+    "AMS 513":{
+        "Course Title":"Financial Derivatives and Stochastic Calculus",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "AMS 511"
+            ]
+        ]
+    },
+    "AMS 514":{
+        "Course Title":"Computational Finance",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "AMS 512",
+                "AMS 513"
+            ]
+        ]
+    },
+    "AMS 515":{
+        "Course Title":"Case Studies in Machine Learning and Finance",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "AMS 512",
+                "AMS 513"
+            ]
+        ]
+    },
+    "AMS 516":{
+        "Course Title":"Statistical Methods in Finance",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "AMS 507"
+            ]
+        ]
+    },
+    "AMS 517":{
+        "Course Title":"Quantitative Risk Management",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "AMS 507",
+                "AMS 511"
+            ]
+        ]
+    },
+    "AMS 518":{
+        "Course Title":"Advanced Stochastic Models, Risk Assessment, and Portfolio Optimization",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "AMS 512",
+                "AMS 516",
+                "AMS 522"
+            ]
+        ]
+    },
+    "AMS 519":{
+        "Course Title":"Internship in Quantitative Finance",
+        "Career":"Graduate",
+        "Credits":"3.00 - 6.00",
+        "Prerequisites":"NONE"
+    },
+    "AMS 520":{
+        "Course Title":"Machine Learning in Quantitative Finance",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "AMS 572",
+                "AMS 595",
+                "AMS 561"
+            ]
+        ]
+    },
+    "AMS 522":{
+        "Course Title":"Bayesian Methods in Finance",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "AMS 512"
+            ]
+        ]
+    },
+    "AMS 523":{
+        "Course Title":"Mathematics of High Frequency Finance",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE"
+    },
+    "AMS 524":{
+        "Course Title":"Modern Computational Data Analytics",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE"
+    },
+    "AMS 525":{
+        "Course Title":"Geometric Deep Learning",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE"
+    },
+    "AMS 526":{
+        "Course Title":"Numerical Analysis I",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "AMS 510",
+                "AMS 595"
+            ]
+        ]
+    },
+    "AMS 527":{
+        "Course Title":"Numerical Analysis II",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE"
+    },
+    "AMS 528":{
+        "Course Title":"Numerical Analysis III",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE"
+    },
+    "AMS 530":{
+        "Course Title":"Principles in Parallel Computing",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE"
+    },
+    "AMS 531":{
+        "Course Title":"Laboratory Rotations in Computational Biology",
+        "Career":"Graduate",
+        "Credits":"0.00 - 3.00",
+        "Prerequisites":"NONE"
+    },
+    "AMS 532":{
+        "Course Title":"Journal Club in Computational Biology",
+        "Career":"Graduate",
+        "Credits":"0.00 - 1.00",
+        "Prerequisites":"NONE"
+    },
+    "AMS 533":{
+        "Course Title":"Numerical Methods and Algorithms in Computational Biology",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE"
+    },
+    "AMS 534":{
+        "Course Title":"Introduction to Systems Biology",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE"
+    },
+    "AMS 535":{
+        "Course Title":"Introduction to Computational Structural Biology and Drug Design",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE"
+    },
+    "AMS 536":{
+        "Course Title":"Molecular Modeling of Biological Molecules",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "AMS 535"
+            ]
+        ]
+    },
+    "AMS 537":{
+        "Course Title":"Biological Dynamics and Networks",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE"
+    },
+    "AMS 538":{
+        "Course Title":"Methods in Neuronal Modeling",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE"
+    },
+    "AMS 539":{
+        "Course Title":"Introduction to Physical and Quantitative Biology",
+        "Career":"Graduate",
+        "Credits":"0.00 - 1.00",
+        "Prerequisites":"NONE"
+    },
+    "AMS 540":{
+        "Course Title":"Linear Programming",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE"
+    },
+    "AMS 542":{
+        "Course Title":"Analysis of Algorithms",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE"
+    },
+    "AMS 544":{
+        "Course Title":"Discrete and Nonlinear Optimization",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "AMS 540"
+            ]
+        ]
+    },
+    "AMS 545":{
+        "Course Title":"Computational Geometry",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE"
+    },
+    "AMS 546":{
+        "Course Title":"Network Flows",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "AMS 540"
+            ]
+        ]
+    },
+    "AMS 547":{
+        "Course Title":"Discrete Mathematics",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE"
+    },
+    "AMS 548":{
+        "Course Title":"Optimization techniques in biomolecular simulations",
+        "Career":"Graduate",
+        "Credits":"0.00 - 3.00",
+        "Prerequisites":"NONE"
+    },
+    "AMS 549":{
+        "Course Title":"Computational Biology",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE"
+    },
+    "AMS 550":{
+        "Course Title":"Operations Research: Stochastic Models",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "AMS 507"
+            ]
+        ]
+    },
+    "AMS 552":{
+        "Course Title":"Game Theory I",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE"
+    },
+    "AMS 553":{
+        "Course Title":"Simulation and Modeling",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE"
+    },
+    "AMS 555":{
+        "Course Title":"Game Theory II",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE"
+    },
+    "AMS 556":{
+        "Course Title":"Dynamic Programming",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "AMS 507"
+            ]
+        ]
+    },
+    "AMS 559":{
+        "Course Title":"Smart Energy in the Information Age",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE"
+    },
+    "AMS 560":{
+        "Course Title":"Big Data Systems, Algorithms and Networks",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE"
+    },
+    "AMS 561":{
+        "Course Title":"Introduction to Computational Science",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE"
+    },
+    "AMS 562":{
+        "Course Title":"Introduction to Scientific Programming in C++",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE"
+    },
+    "AMS 565":{
+        "Course Title":"Wave Propagation",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE"
+    },
+    "AMS 566":{
+        "Course Title":"Compressible Fluid Dynamics",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE"
+    },
+    "AMS 569":{
+        "Course Title":"Probability Theory I",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "AMS 510"
+            ]
+        ]
+    },
+    "AMS 570":{
+        "Course Title":"Introduction to Mathematical Statistics",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "AMS 507"
+            ]
+        ]
+    },
+    "AMS 571":{
+        "Course Title":"Mathematical Statistics",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "AMS 570"
+            ]
+        ]
+    },
+    "AMS 572":{
+        "Course Title":"Data Analysis I",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE"
+    },
+    "AMS 573":{
+        "Course Title":"Categorical Data Analysis",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "AMS 507",
+                "AMS 572"
+            ]
+        ]
+    },
+    "AMS 575":{
+        "Course Title":"Internship in Statistical Consulting",
+        "Career":"Graduate",
+        "Credits":"1.00 - 9.00",
+        "Prerequisites":"NONE"
+    },
+    "AMS 577":{
+        "Course Title":"Multivariate Analysis",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "AMS 572",
+                "AMS 578"
+            ]
+        ]
+    },
+    "AMS 578":{
+        "Course Title":"Regression Theory",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "AMS 572"
+            ]
+        ]
+    },
+    "AMS 580":{
+        "Course Title":"Statistical Learning",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE"
+    },
+    "AMS 581":{
+        "Course Title":"Analysis of Variance",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE"
+    },
+    "AMS 582":{
+        "Course Title":"Design of Experiments",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "AMS 572"
+            ]
+        ]
+    },
+    "AMS 583":{
+        "Course Title":"Applied Longitudinal Data Analysis",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "AMS 572",
+                "AMS 578"
+            ]
+        ]
+    },
+    "AMS 585":{
+        "Course Title":"Internship in Data Science",
+        "Career":"Graduate",
+        "Credits":"1.00 - 9.00",
+        "Prerequisites":"NONE"
+    },
+    "AMS 586":{
+        "Course Title":"Time Series",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "AMS 572",
+                "AMS 570"
+            ]
+        ]
+    },
+    "AMS 587":{
+        "Course Title":"Nonparametric Statistics",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE"
+    },
+    "AMS 588":{
+        "Course Title":"Failure and Survival Data Analysis",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "AMS 572"
+            ]
+        ]
+    },
+    "AMS 589":{
+        "Course Title":"Quantitative Genetics",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE"
+    },
+    "AMS 591":{
+        "Course Title":"Topics for M.S. Students",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE"
+    },
+    "AMS 592":{
+        "Course Title":"Mathematical Methods of Finance and Investments I",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE"
+    },
+    "AMS 593":{
+        "Course Title":"Interest Rate and Credit Modeling",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "AMS 512"
+            ]
+        ]
+    },
+    "AMS 594":{
+        "Course Title":"Mathematical Methods of Finance and Investments II",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE"
+    },
+    "AMS 595":{
+        "Course Title":"Fundamentals of Computing",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE"
+    },
+    "AMS 596":{
+        "Course Title":"Fundamentals of Large-Scale Computing",
+        "Career":"Graduate",
+        "Credits":1.0,
+        "Prerequisites":"NONE"
+    },
+    "AMS 597":{
+        "Course Title":"Statistical Computing",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE"
+    },
+    "AMS 598":{
+        "Course Title":"Big Data Analysis",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "AMS 572",
+                "AMS 570"
+            ]
+        ]
+    },
+    "AMS 599":{
+        "Course Title":"Research",
+        "Career":"Graduate",
+        "Credits":"1.00 - 12.00",
+        "Prerequisites":"NONE"
+    },
+    "AMS 600":{
+        "Course Title":"Socially Responsible Investing",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "AMS 511"
+            ]
+        ]
+    },
+    "AMS 601":{
+        "Course Title":"Risk Management and Business Risk Control in BRIC Countries",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "AMS 511"
+            ]
+        ]
+    },
+    "AMS 603":{
+        "Course Title":"Risk Measures For Finance & Data Analysis",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE"
+    },
+    "AMS 621":{
+        "Course Title":"Finite Element Methods for Partial Differential Equations",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE"
+    },
+    "AMS 641":{
+        "Course Title":"Special Topics in Mathematical Programming",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE"
+    },
+    "AMS 644":{
+        "Course Title":"Special Topics in Applied Probability",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE"
+    },
+    "AMS 651":{
+        "Course Title":"Nonlinear Analysis and Optimization",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE"
+    },
+    "AMS 652":{
+        "Course Title":"Special Topics in Game Theory",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE"
+    },
+    "AMS 670":{
+        "Course Title":"Special Topics in Probability and Mathematical Statistics",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE"
+    },
+    "AMS 675":{
+        "Course Title":"Special Topics in Applied Statistics",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE"
+    },
+    "AMS 676":{
+        "Course Title":"Internship in Applied Mathematics",
+        "Career":"Graduate",
+        "Credits":"1.00 - 9.00",
+        "Prerequisites":"NONE"
+    },
+    "AMS 683":{
+        "Course Title":"Biological Physics & Biophysical Chemistry: Theoretical Perspectives",
+        "Career":"Graduate",
+        "Credits":"0.00 - 3.00",
+        "Prerequisites":"NONE"
+    },
+    "AMS 690":{
+        "Course Title":"Special Topics in Differential Equations and Applied Analysis",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE"
+    },
+    "AMS 691":{
+        "Course Title":"Topics in Applied Mathematics",
+        "Career":"Graduate",
+        "Credits":"0.00 - 3.00",
+        "Prerequisites":"NONE"
+    },
+    "AMS 695":{
+        "Course Title":"Special Topics in Numerical Analysis and Scientific Computing",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE"
+    },
+    "AMS 696":{
+        "Course Title":"Applied Mathematics Seminar",
+        "Career":"Graduate",
+        "Credits":"0.00 - 3.00",
+        "Prerequisites":"NONE"
+    },
+    "AMS 698":{
+        "Course Title":"Practicum in Teaching",
+        "Career":"Graduate",
+        "Credits":0.0,
+        "Prerequisites":"NONE"
+    },
+    "AMS 699":{
+        "Course Title":"Dissertation Research on Campus",
+        "Career":"Graduate",
+        "Credits":"0.00 - 9.00",
+        "Prerequisites":"NONE"
+    },
+    "AMS 700":{
+        "Course Title":"Dissertation Research off Campus - Domestic",
+        "Career":"Graduate",
+        "Credits":"1.00 - 9.00",
+        "Prerequisites":"NONE"
+    },
+    "AMS 701":{
+        "Course Title":"Dissertation Research off Campus - International",
+        "Career":"Graduate",
+        "Credits":"1.00 - 9.00",
+        "Prerequisites":"NONE"
+    },
+    "AMS 800":{
+        "Course Title":"SUMMER RESEARCH",
+        "Career":"Graduate",
+        "Credits":0.0,
+        "Prerequisites":"NONE"
+    }
+}
