@@ -4,3 +4,6 @@ webdriver-manager
 
 # Data manipulation
 pandas
+
+# Knowledge representation and reasoning
+# clingo # Install this on command line via 'conda install -c conda-forge clingo'
