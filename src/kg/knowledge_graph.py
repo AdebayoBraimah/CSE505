@@ -124,8 +124,8 @@ class KnowledgeGraph:
             and (not self.rdf)
             and (not self.owl)
             and (not self.csv)
-            and (len(self.df) == 0)
             and (not self.lp)
+            and (len(self.df) == 0)
         ):
             raise KnowledgeGraphError(
                 "Knowledge graph file or representation must be specified."
