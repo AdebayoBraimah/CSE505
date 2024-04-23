@@ -12,13 +12,9 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-"""Project python package for CSE 505 project using ErgoAI.
+"""Project python package for CSE 505 project using ErgoAI/Clingo.
 
 This package contains the following submodules:
-    * ``ergoai``: ErgoAI module interface -- contains convenience functions.
-    * ``kg``: Knowledge Graph module interface -- contains convenience functions.
-    * ``clapi``: Clingo API module for organizing and processing course data.
-    * ``utils``: Utility module for this project.
 
 .. autosummary::
     :nosignatures:

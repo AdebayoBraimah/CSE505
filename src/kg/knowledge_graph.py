@@ -5,27 +5,13 @@
 
     KnowledgeBaseError
     KnowledgeGraphError
-    KnowledgeGraph
     KnowledgeBase
-    create_knowledge_graph
+    KnowledgeGraph
     scrape_sbu_solar
     parse_requirements
     clean_course_title
     remove_non_numeric
     get_course_components
-
-.. autofunction:: create_knowledge_graph
-.. autofunction:: scrape_sbu_solar
-.. autofunction:: parse_requirements
-.. autofunction:: clean_course_title
-.. autofunction:: remove_non_numeric
-.. autofunction:: get_course_components
-
-.. autoclass:: KnowledgeGraph
-    :members:
-
-.. autoclass:: KnowledgeBase
-    :members:
 """
 
 import os
@@ -78,6 +64,7 @@ class KnowledgeGraph:
         rdf: RDF knowledge graph file.
         owl: OWL knowledge graph file.
         csv: CSV knowledge graph file.
+        lp: Logic programming (``Clingo``) knowledge graph file.
     """
 
     json: str = ""
@@ -86,6 +73,7 @@ class KnowledgeGraph:
     owl: str = ""
     csv: str = ""
     df: pd.DataFrame = pd.DataFrame()
+    lp: str = ""
 
     def __post_init__(self):
         """Post-initialization function to verify knowledge graph file or representation.
@@ -123,6 +111,12 @@ class KnowledgeGraph:
 
         self.df: pd.DataFrame = self.df if (len(self.df) != 0) else None
 
+        self.lp: str = (
+            os.path.abspath(self.lp)
+            if (self.lp and self.lp.lower().endswith(".lp"))
+            else None
+        )
+
         # Check if knowledge graph file or representation is specified
         if (
             (not self.json)
@@ -131,13 +125,14 @@ class KnowledgeGraph:
             and (not self.owl)
             and (not self.csv)
             and (len(self.df) == 0)
+            and (not self.lp)
         ):
             raise KnowledgeGraphError(
                 "Knowledge graph file or representation must be specified."
             )
 
         # Check if file exists
-        for file in [self.json, self.ergo, self.rdf, self.owl, self.csv]:
+        for file in [self.json, self.ergo, self.rdf, self.owl, self.csv, self.lp]:
             if file and (not os.path.exists(file)):
                 raise FileNotFoundError(f"File not found: {file}")
 
@@ -162,12 +157,14 @@ class KnowledgeBase:
         pdf: PDF knowledge base file.
         txt: TXT knowledge base file.
         ergo: ERGO knowledge base file.
+        lp: Logic programming (``Clingo``) knowledge base file.
     """
 
     url: str = ""
     pdf: str = ""
     txt: str = ""
     ergo: str = ""
+    lp: str = ""
 
     def __post_init__(self):
         """Post-initialization function to verify knowledge base file or representation.
@@ -193,8 +190,20 @@ class KnowledgeBase:
             else None
         )
 
+        self.lp: str = (
+            (os.path.abspath(self.lp))
+            if (self.lp and self.lp.lower().endswith(".lp"))
+            else None
+        )
+
         # Check if knowledge base file or representation is specified
-        if (self.url) and (not self.pdf) and (not self.txt):
+        if (
+            (not self.url)
+            and (not self.pdf)
+            and (not self.txt)
+            and (not self.ergo)
+            and (not self.lp)
+        ):
             raise KnowledgeBaseError(
                 "Knowledge base file or representation must be specified."
             )
@@ -203,10 +212,6 @@ class KnowledgeBase:
         for file in [self.pdf, self.txt, self.ergo]:
             if file and (not os.path.exists(file)):
                 raise FileNotFoundError(f"File not found: {file}")
-
-
-def create_knowledge_graph():
-    pass
 
 
 def scrape_sbu_solar(

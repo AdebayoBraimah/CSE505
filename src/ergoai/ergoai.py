@@ -5,14 +5,11 @@
 
     json_to_ergo
     query_ergoai
-
-.. autofunction:: json_to_ergo
-.. autofunction:: query_ergoai
 """
 
 import os
 
-from typing import Optional, Union
+from typing import Any, Optional, Union
 
 from src import ERGOROOT, XSBARCHDIR
 from src.utils import util
@@ -94,7 +91,19 @@ def json_to_ergo(
 
 def query_ergoai(
     knowledge: Union[KnowledgeBase, KnowledgeGraph, str], query: str
-) -> None:
+) -> Union[str, Any]:
+    """Queries an ERGO knowledge base/graph using ErgoAI.
+
+    WARNING:
+        - This function is still a work in progress.
+
+    Args:
+        knowledge: Input knowledge base/graph ERGO file (or ``KnowledgeBase`` or ``KnowledgeGraph`` object) to be queried.
+        query: Query to be passed to ErgoAI.
+
+    Returns:
+        Results of the query.
+    """
     # NOTE: Query must be formatted like this: ?X[ancestor->?Y].
     # TODO: Need to add argument for queries to pass to
     #   ErgoAI.
@@ -140,6 +149,8 @@ def query_ergoai(
     #     )
 
     # Print results for now
-    for ans in result:
-        print(ans[0])
-    return None
+    # for ans in result:
+    #     print(ans[0])
+    # return None
+
+    return result
