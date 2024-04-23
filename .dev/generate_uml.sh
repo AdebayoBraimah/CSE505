@@ -5,7 +5,7 @@
 # 
 # DEPENDENCIES: pylint/pyreverse
 # 
-# Example usage: ./generate_uml.sh -p ../src -o ../docs/source/uml
+# Example usage: ./generate_uml.sh -p ../src -o ../doc/source/uml
 
 #######################################
 # Prints usage to the command line interface.
