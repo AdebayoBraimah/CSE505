@@ -2,14 +2,15 @@
 
 At the moment, this module only supports CSE majors.
 
+WARNING:
+    - This module is still a work in progress.
+
 .. autosummary::
     :nosignatures:
 
     create_schedule
     create_schedule_ergo
     create_schedule_clingo
-
-.. autochart:: src.schedule.create_schedule
 """
 
 import os
@@ -164,22 +165,22 @@ def create_schedule_clingo(
     else:
         raise ValueError(f"Invalid input type: {type(courses)}")
 
-    if (
-        (courses.endswith(".json"))
-        or (courses.beginwith("http"))
-        or (kg.json)
-        or (not kg.lp)
-        or (not lp_file)
-    ):
-        _: str = process_course_data_clingo(file_path=kg, file_name=None)
+    if courses is not None:
+        if (
+            (courses.endswith(".json"))
+            or (courses.beginwith("http"))
+            or (kg.json)
+            or (not kg.lp)
+        ):
+            _: str = process_course_data_clingo(file_path=kg, file_name=None)
 
     if lp_file:
-        results: str = query_clingo(kg=kg.lp, verbose=verbose)
+        results: str = query_clingo(knowledge=kg.lp, verbose=verbose)
     else:
         output: str = append_rules(
             kg=[kg.lp, query_file],
             output_file=os.path.join(RESROURCEDIR, f"{major.lower()}.schedule.lp"),
         )
-        results: str = query_clingo(kg=output, verbose=verbose)
+        results: str = query_clingo(knowledge=output, verbose=verbose)
 
     return results
