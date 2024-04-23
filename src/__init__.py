@@ -14,9 +14,18 @@
 # limitations under the License.
 """Project python package for CSE 505 project using ErgoAI.
 
-..autosummary::
+This package contains the following submodules:
+    * ``ergoai``: ErgoAI module interface -- contains convenience functions.
+    * ``kg``: Knowledge Graph module interface -- contains convenience functions.
+    * ``clapi``: Clingo API module for organizing and processing course data.
+    * ``utils``: Utility module for this project.
+
+.. autosummary::
+    :nosignatures:
+
     ergoai
     kg
+    clapi
     utils
 """
 
@@ -38,6 +47,8 @@ XSBARCHDIR: str = (
     "/Users/adebayobraimah/bin/ErgoEngine-3.0_release/ErgoAI/Coherent/ERGOAI_3.0/XSB/config/aarch64-apple-darwin22.6.0"
 )
 
+RESROURCEDIR: str = os.path.join(os.path.dirname(__file__), "resources")
+
 # Append ERGO ROOT directory to system path
 sys.path.append(ERGOROOT.replace("\\", "/") + "/python")
 
@@ -48,7 +59,7 @@ __credits__ = [
     "Stony Brook University",
     "Stony Brook University, Dept. of Computer Science",
 ]
-__license__ = "<LICENSE HERE>"
+__license__ = "GNU GENERAL PUBLIC LICENSE"
 __version__ = "0.0.1"
 __maintainer__ = "Adebayo Braimah"
 __email__ = "adebayo.braimah@stonybrook.edu"

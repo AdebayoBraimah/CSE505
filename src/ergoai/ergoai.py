@@ -53,6 +53,7 @@ def json_to_ergo(
 
     NOTE:
         - If a JSON file needs to be converted to an ERGO file, this function MUST be called first before calling ``pyergo_query``.
+        - If a KnowledgeBase or KnowledgeGraph object is passed, then the object is updated with the ERGO file path.
 
     Args:
         json_file: Input JSON file (``KnowledgeBase`` or ``KnowledgeGraph`` object) to be converted to ERGO file.
@@ -61,6 +62,14 @@ def json_to_ergo(
     Returns:
         Path to the output ERGO file.
     """
+    if (isinstance(json_file, KnowledgeBase)) or (
+        isinstance(json_file, KnowledgeGraph)
+    ):
+        kg: Union[KnowledgeBase, KnowledgeGraph] = json_file
+        json_file = kg.json
+    else:
+        kg: Union[KnowledgeBase, KnowledgeGraph] = None
+
     # If output file is not provided, use the same filename
     if (output_file is None) or (output_file == ""):
         _filepath, _filename, _ = util.file_parts(json_file)
@@ -75,6 +84,10 @@ def json_to_ergo(
 
     # End ErgoAI session
     pyergo_end_session()
+
+    # Update KnowledgeBase or KnowledgeGraph object
+    if kg is not None:
+        kg.ergo = os.path.abspath(output_file)
 
     return output_file
 

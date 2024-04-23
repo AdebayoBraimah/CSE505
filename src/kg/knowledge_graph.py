@@ -450,7 +450,8 @@ def scrape_sbu_solar(
         # Append course number with three letter code
         course = remove_non_numeric(course)
         course_numbers_with_three_letter_code.append(
-            f"{major_three_letter_code} {course}"
+            # f"{major_three_letter_code} {course}" # This contains a space character e.g. "CSE 101"
+            f"{major_three_letter_code}{course}"  # This does not contain a space character e.g. "CSE101"
         )
 
         # Update lists
@@ -485,10 +486,16 @@ def scrape_sbu_solar(
 
     # Rename columns
     df.rename(
-        columns={"Enrollment Requirement": "Prerequisites", "Units": "Credits"},
+        columns={
+            "Enrollment Requirement": "Prerequisites",
+            "Units": "Credits",
+            # "Course Title": "CourseTitle",
+            # "Course Nbr": "CourseNumber",
+        },
         inplace=True,
     )
 
+    # NOTE: Keep Course Nbr as column, maintain index
     # Replace index with Course Nbr
     df.set_index(
         "Course Nbr",
