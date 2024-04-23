@@ -4,16 +4,24 @@ src package
 Subpackages
 -----------
 
-.. figure:: uml/packages_src.png
-
 .. toctree::
    :maxdepth: 4
-   
+
+   src.clapi
    src.ergoai
    src.kg
    src.utils
 
-.. figure:: uml/classes_src.png
+Submodules
+----------
+
+src.schedule module
+-------------------
+
+.. automodule:: src.schedule
+   :members:
+   :undoc-members:
+   :show-inheritance:
 
 Module contents
 ---------------
