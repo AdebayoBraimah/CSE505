@@ -156,6 +156,8 @@ def query_clingo(
     # Set verbose option if specified
     if verbose:
         cmd_opt: str = "-V"
+    else:
+        cmd_opt: str = ""
 
     # Start Clingo session
     proc = subprocess.Popen(
