@@ -27,6 +27,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import NoSuchElementException
 
 from typing import Optional, List, Tuple, Union
+from warnings import warn
 
 from src.utils import util
 
@@ -421,7 +422,10 @@ def scrape_sbu_solar(
             _enrollment_requirement: str = ""
 
         # Format enrollment requirements (prerequisites)
-        enrollment_requirement: List[List[str]] = parse_requirements(
+        # enrollment_requirement: List[List[str]] = parse_requirements(
+        #     input_string=_enrollment_requirement
+        # )
+        enrollment_requirement: List[List[str]] = parse_prerequisites(
             input_string=_enrollment_requirement
         )
 
@@ -554,6 +558,11 @@ def parse_requirements(input_string: str) -> Union[str, List[List[str]]]:
     Returns:
         List of lists of containing strings that corresponds to course prequisites.
     """
+    warn(
+        "``parse_requirements()`` is deprecated. Please use ``parse_prerequisites()`` instead.",
+        DeprecationWarning,
+        stacklevel=2,
+    )
     # NOTE: Disjunction statements in the same sub-list,
     #   conjunctions in separate lists
 
@@ -571,6 +580,56 @@ def parse_requirements(input_string: str) -> Union[str, List[List[str]]]:
     for part in conjunctive_parts:
         # Find courses in each part
         part_courses = re.findall(course_pattern, part)
+
+        # Add non-empty lists to the result
+        if part_courses:
+            result.append(part_courses)
+
+    if not result:
+        return "NONE"
+
+    return result
+
+
+def parse_prerequisites(input_string: str) -> Union[str, List[List[str]]]:
+    """Parse major requirements from a string into a list of lists of course codes.
+    This function is mainly used to separate disjunctions and conjunctions course prerequisites.
+    Disjunctions are grouped together in the same sub-list, while conjunctions are separated into different sub-lists.
+    For example, ``"Prerequisite: CSE 216 or CSE 260; AMS 310; CSE major"`` would be parsed as: ``[["CSE216", "CSE260"], ["AMS310"]]``.
+
+    NOTE:
+        - Use this function in place of ``parse_requirements()``.
+
+    Usage example:
+        >>> input_string = "Prerequisite: CSE 216 or CSE 260; AMS 310; CSE major"
+        >>> parse_prerequisites(input_string)
+        [['CSE216', 'CSE260'], ['AMS310']]
+
+    Args:
+        input_string: Input string containing major course requirements.
+
+    Returns:
+        List of lists containing strings that correspond to course prerequisites.
+    """
+    # NOTE: Disjunction statements in the same sub-list,
+    #   conjunctions in separate lists
+
+    # NOTE: This pattern assumes that course codes are always in
+    #   the format "AAA 123"
+    # Define a regular expression pattern to capture course codes
+    course_pattern = r"\b([A-Z]{3} \d{3})\b"
+
+    # Split the input string into major requirements using the semi-colon
+    conjunctive_parts = input_string.split(";")
+
+    # Result list to hold parsed requirements
+    result = []
+
+    for part in conjunctive_parts:
+        # Find courses in each part
+        part_courses = re.findall(course_pattern, part)
+        # Remove spaces in course codes
+        part_courses = [course.replace(" ", "") for course in part_courses]
 
         # Add non-empty lists to the result
         if part_courses:
