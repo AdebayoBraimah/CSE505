@@ -6,6 +6,10 @@ Stony Brook CSE505 project repository
 
 NOTE: README.md doc is formatted for viewing on GitHub: https://github.com/AdebayoBraimah/CSE505
 
+TODO:
+- Make CLI with separate options for: knowledge graph creation, and querying
+- Compare clingo, and ErgoAI
+
 # Installation
 
 This project runs using python v3.10 via miniconda. The python dependencies can be installed as follows:
