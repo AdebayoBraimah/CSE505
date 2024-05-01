@@ -358,6 +358,7 @@ def scrape_sbu_solar(
     units_list: List[str] = []
     grading_basis_list: List[str] = []
     enrollment_requirement_list: List[str] = []
+    enrollment_anti_requisite_list: List[str] = []
     course_components_list: List[Tuple[str, ...]] = []
     academic_group_list: List[str] = []
     academic_organization_list: List[str] = []
@@ -425,9 +426,11 @@ def scrape_sbu_solar(
         # enrollment_requirement: List[List[str]] = parse_requirements(
         #     input_string=_enrollment_requirement
         # )
-        enrollment_requirement: List[List[str]] = parse_prerequisites(
+        enrollment_requirement: Union[str, List[List[str]]]
+        enrollment_anti_requisite_list: Union[str, List[List[str]]]
+        enrollment_requirement, enrollment_anti_requisite_list = parse_prerequisites(
             input_string=_enrollment_requirement
-        )
+        )  # HERE
 
         # Course components
         course_components: Tuple[str, ...] = get_course_components(driver)
@@ -488,6 +491,7 @@ def scrape_sbu_solar(
     df.insert(
         df.columns.__len__(), "Enrollment Requirement", enrollment_requirement_list
     )
+    df.insert(df.columns.__len__(), "Antirequisites", enrollment_anti_requisite_list)
     df.insert(df.columns.__len__(), "Course Components", course_components_list)
     df.insert(df.columns.__len__(), "Academic Group", academic_group_list)
     df.insert(df.columns.__len__(), "Academic Organization", academic_organization_list)
@@ -498,8 +502,8 @@ def scrape_sbu_solar(
         columns={
             "Enrollment Requirement": "Prerequisites",
             "Units": "Credits",
-            # "Course Title": "CourseTitle",
-            # "Course Nbr": "CourseNumber",
+            "Course Title": "CourseTitle",
+            "Course Nbr": "CourseNumber",
         },
         inplace=True,
     )
@@ -507,7 +511,8 @@ def scrape_sbu_solar(
     # NOTE: Keep Course Nbr as column, maintain index
     # Replace index with Course Nbr
     df.set_index(
-        "Course Nbr",
+        # "Course Nbr",
+        "CourseNumber",
         inplace=True,
         drop=True,  # Drop the Index column
     )
@@ -518,7 +523,7 @@ def scrape_sbu_solar(
     # Drop columns not needed by ErgoAI
     df.drop(
         [
-            "Description",
+            # "Description",
             "Academic Group",
             "Academic Organization",
             "Course Components",
@@ -591,25 +596,77 @@ def parse_requirements(input_string: str) -> Union[str, List[List[str]]]:
     return result
 
 
-def parse_prerequisites(input_string: str) -> Union[str, List[List[str]]]:
+# def parse_prerequisites(input_string: str) -> Union[str, List[List[str]]]:
+#     """Parse major requirements from a string into a list of lists of course codes.
+#     This function is mainly used to separate disjunctions and conjunctions course prerequisites.
+#     Disjunctions are grouped together in the same sub-list, while conjunctions are separated into different sub-lists.
+#     For example, ``"Prerequisite: CSE 216 or CSE 260; AMS 310; CSE major"`` would be parsed as: ``[["CSE216", "CSE260"], ["AMS310"]]``.
+
+#     NOTE:
+#         - Use this function in place of ``parse_requirements()``.
+
+#     Usage example:
+#         >>> input_string = "Prerequisite: CSE 216 or CSE 260; AMS 310; CSE major"
+#         >>> parse_prerequisites(input_string)
+#         [['CSE216', 'CSE260'], ['AMS310']]
+
+#     Args:
+#         input_string: Input string containing major course requirements.
+
+#     Returns:
+#         List of lists containing strings that correspond to course prerequisites.
+#     """
+#     # NOTE: Disjunction statements in the same sub-list,
+#     #   conjunctions in separate lists
+
+#     # NOTE: This pattern assumes that course codes are always in
+#     #   the format "AAA 123"
+#     # Define a regular expression pattern to capture course codes
+#     course_pattern = r"\b([A-Z]{3} \d{3})\b"
+
+#     # Split the input string into major requirements using the semi-colon
+#     conjunctive_parts = input_string.split(";")
+
+#     # Result list to hold parsed requirements
+#     result = []
+
+#     for part in conjunctive_parts:
+#         # Find courses in each part
+#         part_courses = re.findall(course_pattern, part)
+#         # Remove spaces in course codes
+#         part_courses = [course.replace(" ", "") for course in part_courses]
+
+#         # Add non-empty lists to the result
+#         if part_courses:
+#             result.append(part_courses)
+
+#     if not result:
+#         return "NONE"
+
+#     return result
+
+
+def parse_prerequisites(
+    input_string: str,
+) -> Union[Tuple[str, str], Tuple[List[List[str]], List[List[str]]]]:
     """Parse major requirements from a string into a list of lists of course codes.
-    This function is mainly used to separate disjunctions and conjunctions course prerequisites.
-    Disjunctions are grouped together in the same sub-list, while conjunctions are separated into different sub-lists.
-    For example, ``"Prerequisite: CSE 216 or CSE 260; AMS 310; CSE major"`` would be parsed as: ``[["CSE216", "CSE260"], ["AMS310"]]``.
+    This function is mainly used to separate disjunctions and conjunctions of course prerequisites
+    and anti-requisites. Disjunctions are grouped together in the same sub-list, while conjunctions
+    are separated into different sub-lists. Returns lists for both prerequisites and anti-requisites.
 
     NOTE:
         - Use this function in place of ``parse_requirements()``.
 
     Usage example:
-        >>> input_string = "Prerequisite: CSE 216 or CSE 260; AMS 310; CSE major"
+        >>> input_string = "Prerequisite: CSE 216 or CSE 260; AMS 310; CSE major; Anti-requisite: CSE 260"
         >>> parse_prerequisites(input_string)
-        [['CSE216', 'CSE260'], ['AMS310']]
+        ([['CSE216', 'CSE260'], ['AMS310']], [['CSE260']])
 
     Args:
         input_string: Input string containing major course requirements.
 
     Returns:
-        List of lists containing strings that correspond to course prerequisites.
+        Tuple that consists of list of lists containing strings that correspond to course prerequisites and anti-requisites or the string "NONE" in the case either list.
     """
     # NOTE: Disjunction statements in the same sub-list,
     #   conjunctions in separate lists
@@ -619,26 +676,45 @@ def parse_prerequisites(input_string: str) -> Union[str, List[List[str]]]:
     # Define a regular expression pattern to capture course codes
     course_pattern = r"\b([A-Z]{3} \d{3})\b"
 
-    # Split the input string into major requirements using the semi-colon
+    # Split the input string into parts by semi-colon for prerequisites
     conjunctive_parts = input_string.split(";")
 
-    # Result list to hold parsed requirements
-    result = []
+    # Result list to hold parsed prerequisites
+    prerequisites = []
+    anti_requisites = []
 
+    # Process each part to determine if it is a prerequisite or anti-requisite
     for part in conjunctive_parts:
-        # Find courses in each part
-        part_courses = re.findall(course_pattern, part)
-        # Remove spaces in course codes
-        part_courses = [course.replace(" ", "") for course in part_courses]
+        # Check if the part contains anti-requisites
+        if "Anti-requisite" in part:
+            # Find courses specifically tagged as anti-requisites
+            anti_courses = re.findall(course_pattern, part)
+            # Remove spaces in course codes
+            anti_courses = [course.replace(" ", "") for course in anti_courses]
+            if anti_courses:
+                anti_requisites.append(anti_courses)
+        else:
+            # Find courses in each part
+            part_courses = re.findall(course_pattern, part)
+            # Remove spaces in course codes
+            part_courses = [course.replace(" ", "") for course in part_courses]
+            if part_courses:
+                prerequisites.append(part_courses)
 
-        # Add non-empty lists to the result
-        if part_courses:
-            result.append(part_courses)
+    # Combine results in a list
+    # result = []
+    # if prerequisites:
+    #     result.append(prerequisites)
+    # if anti_requisites:
+    #     result.append(anti_requisites)
 
-    if not result:
-        return "NONE"
+    if not prerequisites:
+        prerequisites: str = "NONE"
 
-    return result
+    if not anti_requisites:
+        anti_requisites: str = "NONE"
+
+    return prerequisites, anti_requisites
 
 
 def get_course_components(driver: "webdriver") -> Tuple[str, ...]:
