@@ -1,0 +1,1161 @@
+{
+    "GEO101":{
+        "CourseTitle":"Environmental Geology",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Fundamental earth science concepts are used to assess the impact of increasing global population and development on earth's natural resources and also to examine how natural processes affect human activities. Topics include water usage and pollution, soil pollution and erosion, radioactive and solid waste disposal, landslides, stream flooding, coastal erosion, environmental consequences of energy and mineral resource utilization, acid rain, global climate change, and the environment effects on human health. Aspects of environmental geology that are particularly applicable to Long Island and metropolitan New York are emphasized."
+    },
+    "GEO102":{
+        "CourseTitle":"The Earth",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"A summary of the processes that have shaped the earth and the other terrestrial planets as inferred from study of their surface materials, structural features, and interiors. Topics include the earth in the solar system; earth materials and rock-forming processes; surface processes and their bearing on human activities; crustal deformation and global tectonics; the earth's interior; and the geological features, compositions, and evolution of the terrestrial planets. Not for credit in addition to GEO 122."
+    },
+    "GEO103":{
+        "CourseTitle":"The Earth Through Time",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"The history of the earth from its formation 4.5 billion years ago to the present. Major issues to be addressed include formation and early history of the earth and moon; evolution of continents, oceans, and atmosphere within the framework of plate tectonics; origin of life; and evidence of past climates."
+    },
+    "GEO104":{
+        "CourseTitle":"Ripples Across the World: Global Effects of Natural Disasters",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Earthquakes and tsunamis create widespread devastation. Volcanic eruptions bury cities under ash and cause closures of distant airports. Heavy rains cause landslides and flooding. How do these disasters happen? What are the secondary global effects on societal infrastructure, on public health, on international trade? How do societal differences cause varied local responses and affect the global impact? This course focuses on evaluating the global effects of several recent geological disasters. Scientific and popular news sources are used to explore the underlying natural phenomena and the nature and global distribution of the effects from geologic, economic, and public health perspectives."
+    },
+    "GEO105":{
+        "CourseTitle":"Energy Resources in Transition",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"The increasing impacts of the climate change crisis present us with the urgent challenge of reducing greenhouse gas emissions, requiring an energy transition on a scale humanity has never attempted. This course examines current energy sources to assess their impacts on the global environment and evaluate their fitness for long term sustainability. Existing and potential energy sources, from fossil fuels to more sustainable energy sources, including nuclear, geothermal, solar, wind, hydro, and tidal, will be examined from the geologic processes that create them, technological advances in production and utilization, to their limitations and societal impacts. The evolving status of sustainable energy sources will be evaluated, projecting forward to anticipate energy needs and future availability of resources on decade to century time scales."
+    },
+    "GEO106":{
+        "CourseTitle":"Planetary Geology",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Geology and geological history of the terrestrial planets, planetary satellites and minor bodies of the solar system are evaluated. Whenever possible, emphasis will be placed on geological results from the most recent planetary missions. Among the main topics to be considered are meteorites and the origin of terrestrial planets, the internal structure of terrestrial planets, planetary volcanism, planetary stratigraphy, surface processes such as meteorite impacts, wind and weathering, minor bodies of the solar system and the origin of the solar system. Not for credit in addition to AST 105 or AST 205."
+    },
+    "GEO107":{
+        "CourseTitle":"Natural Hazards",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"An introduction to the concepts, techniques, and scientific methods used in the earth sciences. The natural hazards posed by earthquakes and volcanic eruptions are used as a focus. These phenomena are examined in the context of the theory of plate tectonics to determine their cause, destructive potential, and the possibility of predicting and controlling their occurrence. Elementary probability methods are introduced in the treatment of approaches to prediction. Societal responses to forecasts are also considered."
+    },
+    "GEO112":{
+        "CourseTitle":"Physical Geology Laboratory",
+        "Career":"Undergraduate",
+        "Credits":1.0,
+        "Prerequisites":[
+            [
+                "GEO102"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"Rock and mineral identification, introduction to topographic and geologic maps. Not for credit in addition to GEO 122."
+    },
+    "GEO113":{
+        "CourseTitle":"Historical Geology Laboratory",
+        "Career":"Undergraduate",
+        "Credits":1.0,
+        "Prerequisites":[
+            [
+                "GEO103"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"An introduction to basic techniques used for interpreting geological history. Topics include interpretation of topographic and geological maps and cross sections, introduction to fossils, and basic stratigraphic techniques. One three-hour laboratory per week."
+    },
+    "GEO115":{
+        "CourseTitle":"Making the Invisible Visible: Polarized light microscopy",
+        "Career":"Undergraduate",
+        "Credits":1.0,
+        "Prerequisites":[
+            [
+                "CHE131"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"Light interacts with crystals and through this interaction reveals information on the composition of the crystals and their internal atomic arrangement. This course provides a hands-on exploration of the construction of the polarized light microscope, its use in investigating the behavior of polarized visible light passing through crystals, and how the observed behavior can be used to identify natural and synthetic crystalline materials. The scientific material covered is of particular relevance to students interested in chemistry, physics, materials science, and planetary and geological science. Two 80-min lectures and one three-hour laboratory per week for a 4-week period."
+    },
+    "GEO121":{
+        "CourseTitle":"Principles of Geology",
+        "Career":"Undergraduate",
+        "Credits":4.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Course offered in conjunction with Sayville High School. Equivalent to GEO 122; GEO 122 may not be completed for credit after successful completion of GEO 121."
+    },
+    "GEO122":{
+        "CourseTitle":"Physical Geology",
+        "Career":"Undergraduate",
+        "Credits":4.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"The nature of the earth and of the processes that shape it: the earth's external and internal energy; minerals and rocks; external processes and the evolution of the landscape; internal processes and the structure of the earth; the earth compared with other planets; sources of materials and energy. Laboratory includes study of minerals and rocks; landforms as shown on topographical maps and aerial photographs; geologic structures inferred from maps and block diagrams; problem sets. Two lectures and one three-hour laboratory and recitation per week. Not for credit in addition to GEO 102."
+    },
+    "GEO287":{
+        "CourseTitle":"Introductory Research in Geology",
+        "Career":"Undergraduate",
+        "Credits":"0.00 - 3.00",
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Independent research, under the supervision of a faculty member, at a level appropriate to lower-division students. May be repeated once."
+    },
+    "GEO303":{
+        "CourseTitle":"Sedimentary Geology and Geochronology (with emphasis on the Turkana Basin)",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Field course that applies fundamental geological concepts to the sediments and rock units in the Turkana Basin, Kenya, to provide a foundation for the chronology and context for recorded events in human evolution. Emphasis is given to sedimentation, stratigraphy, volcanism, and tectonics, as they apply to local geology, including training in field methods. Modern terrestrial processes and landscape evolution are examined using features present in the Turkana Basin. Consideration is also given to broader geologic events spanning the Oligocene to the present. Geologic concepts are linked to modern and ancient environments, archaeology, and paleoanthropology in northern Kenya."
+    },
+    "GEO304":{
+        "CourseTitle":"Energy, Mineral Resources, and the Environment",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"A survey of the origin, distribution, and importance to modern civilization of the fuels and minerals won from the earth. Geology of mineral resources and problems of finding, extracting, and supplying fossil fuels, metallic ores, water, and non-metallic commodities to industry and community as well as the ultimate limits of their abundances. Environmental concerns related to the exploitation of mineral resources with review of legislation and other steps being taken to minimize environmental damage."
+    },
+    "GEO305":{
+        "CourseTitle":"Field Geology",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "GEO122",
+                "GEO102",
+                "GEO112"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"Geological field studies on and near the Stony Brook campus. Labs emphasize mapping techniques and field studies of glacial and environmental geology, and include geophysical and hydrological analyses and mapping. Course consists of two three-hour sessions per week, divided between lecture and outdoor labs."
+    },
+    "GEO306":{
+        "CourseTitle":"Mineralogy",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "GEO122",
+                "GEO102",
+                "GEO112"
+            ],
+            [
+                "CHE131",
+                "CHE129",
+                "GEO366"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"Topics include basic crystallography, crystal chemistry, and identification of the important rock-forming and ore minerals.  Included are the fundamentals of optical crystallography: indices of refraction, isotropic, uniaxial, and biaxial minerals; optical indicatrix theory and interference figures. Three hours of lecture  per week. The laboratory component, GEO 366, must be taken concurrently; a common grade for both courses will be assigned."
+    },
+    "GEO307":{
+        "CourseTitle":"Global Environmental Change",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "SUS111",
+                "SBC111",
+                "SUS113",
+                "SBC113",
+                "ENS101",
+                "GEO101",
+                "GEO102",
+                "GEO122",
+                "ENV115",
+                "CHE131"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"An analysis of the physical, chemical, and biological processes in the atmosphere, hydrosphere, lithosphere, and biosphere that are susceptible to change either from natural or anthropogenic causes.  In addition to focusing on the processes, this course will examine the spatial\/temporal scales of environmental changes, their consequences to systems including our economic, political, and social systems, and will consider our responsibility and capability in managing systems in a sustainable way. This course is offered as both ENV 304 and GEO 307."
+    },
+    "GEO309":{
+        "CourseTitle":"Structural Geology",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "GEO122",
+                "GEO102"
+            ],
+            [
+                "PHY131",
+                "PHY125",
+                "GEO369"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"Principles of structural geology, including classification, criteria for recognition, and mechanics of formation of crustal structural features. Elementary concepts of rock mechanics. Discussion of important tectonic features of the continents and oceans. Three hours of lecture per week. A two-day weekend field trip visits \"classic\" structural localities in the East. The laboratory component, GEO 369, must be taken concurrently; a common grade for both courses will be assigned."
+    },
+    "GEO310":{
+        "CourseTitle":"Introduction to Geophysics",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "GEO122",
+                "GEO102",
+                "MAT127",
+                "MAT132",
+                "MAT142",
+                "MAT171",
+                "AMS161"
+            ],
+            [
+                "PHY133"
+            ],
+            [
+                "PHY132",
+                "PHY127",
+                "PHY142"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"An introduction to theoretical and applied geophysics. Topics in global geophysics include seisomology, gravity, geomagnetics and heat flow, with applications to the structure and dynamics of the earth's interior. Students conduct computer-based analysis of geophysical data, some of which they collect using techniques of geophysical exploration and environmental geology. Three hours of lecture per week, plus group field experiments and analysis."
+    },
+    "GEO311":{
+        "CourseTitle":"Geoscience and Global Concerns",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"An exploration of how technologically-based problems facing the United States and the world are related to the basic scientific principles that explain the properties of the lithosphere, hydrosphere, and atmosphere. The set of issues include such geoscience-based topics as global warming, fossil fuel resources, nuclear waste disposal, and earthquake prediction and preparedness."
+    },
+    "GEO313":{
+        "CourseTitle":"Understanding Water Resources for the 21st Century",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"A survey of the world's water resources and the fundamental processes and concepts that govern their distribution and resupply.  Topics to be covered include processes in the hydrologic cycle, water resource supply and demand, water quality, and societal aspects relating to drinking water, and industrial and agricultural water usage.  Consideration is given to global water shortages, projected impacts of climate change, water-based conflict, water resource management, and conservation practices.  Detail will be devoted to pollution sources, water quality standards, drinking water treatment, and government regulation.  Local water issues will also be addressed."
+    },
+    "GEO315":{
+        "CourseTitle":"Groundwater Hydrology",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "GEO102",
+                "GEO122"
+            ],
+            [
+                "MAT127",
+                "MAT132",
+                "MAT142",
+                "MAT171",
+                "AMS161"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"Physical and chemical principles of geohydrology. Concepts of groundwater geology. Introduction to quantitative models of regional fluid flow and groundwater contamination. Groundwater and geologic processes, with examples from tectonics, petroleum geology, geothermics, and economic mineralization."
+    },
+    "GEO316":{
+        "CourseTitle":"Geochemistry of Surficial Processes",
+        "Career":"Undergraduate",
+        "Credits":4.0,
+        "Prerequisites":[
+            [
+                "GEO122"
+            ],
+            [
+                "CHE132"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"Chemical principles used in the study of surface and near-surface water, rocks, and soils. Application of equilibrium concepts and reaction rates to reactions involving gases, fluids, and minerals in nature. Consideration of soil properties and processes."
+    },
+    "GEO318":{
+        "CourseTitle":"Engineering Geology and Coastal Processes",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "GEO122",
+                "GEO102"
+            ],
+            [
+                "MAT127",
+                "AMS161"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"Fundamental concepts of soil, sediment, and rock mechanics and the physics of surficial processes. Application is made to problems of geotechnical and coastal engineering. Topics include consolidation, loose boundary hydraulics, slope stability, underground excavations and beach and tidal inlet stability, and channel sedimentation. This course is offered as both GEO 318 and MAR 318."
+    },
+    "GEO320":{
+        "CourseTitle":"Glacial Geology",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "GEO102"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"History of glaciation on earth; formation and dynamics of glaciers and ice sheets; processes of glacial erosion and deposition; and the nature of glacial sediments and landforms particularly relating to the development of Long Island."
+    },
+    "GEO330":{
+        "CourseTitle":"The Geology of Mars",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "GEO102",
+                "GEO122",
+                "GEO106"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"Overview of Mars as a planetary system. Evolution of the planet and its atmosphere through time. Detailed discussion of processes that have shaped the martian surface, including erosion, sedimentation, volcanism, impact cratering, physical and chemical weathering. Comparison of geologic processes on Mars and Earth. Discussion of past and future spacecraft missions to Mars."
+    },
+    "GEO347":{
+        "CourseTitle":"Remote Sensing",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "GEO102",
+                "GEO106",
+                "GEO122"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"An introduction to the fundamental principles of remote sensing, with emphasis on geological and environmental applications.  Discussion of the physical basis for remote sensing techniques.  Survey of commonly used sensors and image analysis methods in earth sciences. Participants gain practical experience in geologic and environmental analysis using satellite imagery."
+    },
+    "GEO366":{
+        "CourseTitle":"Mineralogy Laboratory",
+        "Career":"Undergraduate",
+        "Credits":1.0,
+        "Prerequisites":[
+            [
+                "GEO306"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"Three hours of laboratory per week that corresponds to the content of GEO 306. Laboratory exercises involve work with crystallographic models, mineral samples, refraction oils and the polarizing light microscope. This course has an associated fee. Please see www.stonybrook.edu\/coursefees for more information."
+    },
+    "GEO369":{
+        "CourseTitle":"Structural Geology Laboratory",
+        "Career":"Undergraduate",
+        "Credits":1.0,
+        "Prerequisites":[
+            [
+                "GEO309"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"Three hours of laboratory per week that corresponds to the content of GEO 309. Laboratory exercises cover map interpretation and algebraic and graphical solutions of structural problems. This course has an associated fee. Please see www.stonybrook.edu\/coursefees for more information."
+    },
+    "GEO403":{
+        "CourseTitle":"Sedimentation and Stratigraphy",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "GEO103"
+            ],
+            [
+                "GEO113"
+            ],
+            [
+                "GEO306",
+                "GEO366",
+                "GEO463"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"The history and practice of defining units of layered rocks and interpreting their spatial relationships. Topics include the basis for the geologic time scale, lithostratigraphic versus chronostratigraphic units, biostratigraphy, magnetostratigraphy, facies patterns and Walther's Law, subsurface stratigraphy, and the application of stratigraphy to geological problems. The laboratory component, GEO 463, must be taken concurrently; a common grade for both courses will be assigned."
+    },
+    "GEO404":{
+        "CourseTitle":"Geomorphology",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "GEO102",
+                "GEO122"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"An introduction to the study of landforms and the processes that produce and modify them. This active learning class meets for two, three-hour periods each week consisting of recitations, discussions, and exercises. A significant portion of the exercises will relate to Long Island geomorphology. Computers will be used extensively in class."
+    },
+    "GEO405":{
+        "CourseTitle":"Field Camp",
+        "Career":"Undergraduate",
+        "Credits":"1.00 - 6.00",
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"A field course that may be taken at any one of several approved university field stations."
+    },
+    "GEO407":{
+        "CourseTitle":"Igneous and Metamorphic Petrology",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "MAT125",
+                "MAT131",
+                "AMS151"
+            ],
+            [
+                "GEO306",
+                "GEO366",
+                "GEO467"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"Topics focus on the processes that govern the formation and distribution of igneous and metamorphic rocks and their link to the Earth's mantle, crust, and tectonic regimes. Emphasis will be placed on integrating assessment of the chemical control on compositional diversity through phase diagrams with the study of natural rock suites through hand sample and thin section analysis. Three hours of lecture per week. The laboratory component, GEO 467, must be taken concurrently; a common grade for both courses will be assigned."
+    },
+    "GEO444":{
+        "CourseTitle":"Experiential Learning",
+        "Career":"Undergraduate",
+        "Credits":0.0,
+        "Prerequisites":[
+            [
+                "WRT102"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"This course is designed for students who engage in a substantial, structured experiential learning activity in conjunction with another class. Experiential learning occurs when knowledge acquired through formal learning and past experience are applied to a \"real-world\" setting or problem to create new knowledge through a process of reflection, critical analysis, feedback and synthesis. Beyond-the-classroom experiences that support experiential learning may include: service learning, mentored research, field work, or an internship."
+    },
+    "GEO447":{
+        "CourseTitle":"Senior Tutorial in Geology",
+        "Career":"Undergraduate",
+        "Credits":"1.00 - 3.00",
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Independent readings in advanced topics. May be repeated once."
+    },
+    "GEO448":{
+        "CourseTitle":"Geosciences Colloquium",
+        "Career":"Undergraduate",
+        "Credits":1.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Every semester, the Department of Geosciences hosts a colloquium series. The series features weekly lectures covering a wide variety of geosciences research topics. The purpose of this course is to expose upper division geoscience students to current research being performed at Stony Brook University and elsewhere. May be repeated up to a limit of 3 credits."
+    },
+    "GEO463":{
+        "CourseTitle":"Sedimentation and Stratigraphy Laboratory",
+        "Career":"Undergraduate",
+        "Credits":1.0,
+        "Prerequisites":[
+            [
+                "GEO403"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"Three hours of laboratory per week that corresponds to the content of GEO 403. The course emphasizes practical techniques in stratigraphy. This course has an associated fee. Please see www.stonybrook.edu\/coursefees for more information."
+    },
+    "GEO467":{
+        "CourseTitle":"Igneous and Metamorphic Petrology Laboratory",
+        "Career":"Undergraduate",
+        "Credits":1.0,
+        "Prerequisites":[
+            [
+                "GEO407"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"Three hours of laboratory per week that corresponds to the content of GEO 407. This course has an associated fee. Please see www.stonybrook.edu\/coursefees for more information."
+    },
+    "GEO475":{
+        "CourseTitle":"Undergraduate Teaching Practicum I",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Work with a faculty member as an assistant in one of the faculty member's regularly scheduled classes.  The student is required to attend all the classes, do all the regularly assigned work, and meet with the faculty member at regularly scheduled times to discuss the intellectual and pedagogical matters relating to the course."
+    },
+    "GEO476":{
+        "CourseTitle":"Undergraduate Teaching Practicum II",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "GEO475"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"Work with a faculty member as an assistant in one of the faculty member's regularly scheduled classes.  Students assume greater responsibility in such areas as leading discussions and analyzing results of tests that have already been graded. Students mya not serve as teaching assistants in the same course twice."
+    },
+    "GEO487":{
+        "CourseTitle":"Senior Research in Geology",
+        "Career":"Undergraduate",
+        "Credits":"0.00 - 6.00",
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Under the supervision of a faculty member, a major in the department may conduct research for academic credit."
+    },
+    "GEO488":{
+        "CourseTitle":"Internship",
+        "Career":"Undergraduate",
+        "Credits":"0.00 - 6.00",
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Participation in local, state, or national private enterprises, public agencies, or nonprofit institutions. May be repeated to a limit of 6 credits."
+    },
+    "GEO496":{
+        "CourseTitle":"Research and Synthesize Scientific Literature in Geoscience",
+        "Career":"Undergraduate",
+        "Credits":1.0,
+        "Prerequisites":[
+            [
+                "GEO102",
+                "GEO122"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"An introduction to writing a scientific literature review in the field of geosciences. Students will gain experience using scientific journal article databases, selecting relevant research articles from the peer-reviewed literature, and summarizing information effectively in written form. This course is to be taken in conjunction with any 300- or 400-level GEO course. Successful completion of this course satisfies the SBC categories WRTD and ESI."
+    },
+    "GEO497":{
+        "CourseTitle":"Research Communication in Geoscience",
+        "Career":"Undergraduate",
+        "Credits":1.0,
+        "Prerequisites":[
+            [
+                "GEO102",
+                "GEO112"
+            ],
+            [
+                "GEO122"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"An introduction to ethics in scientific research and research communication in Geoscience. Topics from the NIH Ethics training course will be discussed with a focus on the student's current and future research and the ethical aspects of scientific communication. Discussions of clarity in scientific communication as a means of effecting ethical dissemination of scientific results will involve exposure to best practices in oral and written presentation.  Students will give oral presentations of their written work (based on the co-requisite course GEO 496) and be involved in peer assessment of presentations. Successful completion of this course satisfies the SBC categories CER and SPK."
+    },
+    "GEO500":{
+        "CourseTitle":"Geosciences Research Seminar",
+        "Career":"Graduate",
+        "Credits":0.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Meetings in which first-year graduate students and undergraduates with senior standing learn about the research activities of the Geosciences faculty.\nFall,"
+    },
+    "GEO502":{
+        "CourseTitle":"GIS for Geologists",
+        "Career":"Graduate",
+        "Credits":1.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"A practical introduction to geographic information system software.  Participants learn to use direct measurement and mathematical techniques to compute the location of features and gain practical experience in rendering imagery and tabular geographic data as layers on maps. The course consists of two three-hour sessions per week for the first five weeks of semester, which include fieldwork, lectures, demonstrations and software-based analysis of data. \nThis course meets with GEO 588 (Geological Field Methods for Earth Science Teachers) for the first five weeks of the semester.  Students may not take GEO 502 and GEO 588 for credit.\nFall, every year, 1 credit, ABCF grading"
+    },
+    "GEO503":{
+        "CourseTitle":"Mineral Equilibria",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Covers the basics of the application of the principles of chemical thermodynamics to the resolution of geochemical and petrological problems. Begins with the first law and continues through phase transitions, properties of fluids, definitions of fugacity and activity of major and trace elements in fluids and molten solutions; configurational entropies; models quantifying nonideal mixing in solid solutions. Additional topics include interpretation of calorimetric studies and\/or solubilities of minerals in aqueous solutions.\nPrerequisites: Physical chemistry and thermodynamics, or permission of instructor\nFall, alternate years,"
+    },
+    "GEO504":{
+        "CourseTitle":"Geology of the Turkana Basin",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Students are introduced to the current perspectives on the origins and evolution of the Turkana Basin, Kenya. Students learn how to apply fundamental geological concepts to the sediments and rock units to provide a foundation for the chronology and context for recorded events in human evolution. Emphasis is given to sedimentation, statigraphy, volcanism, and tectonics, as they apply to local geology, including training in field methods. Modern terrestrial processes and landscape evolution are examined using features present in the Turkana Basin. Consideration is also given to broader geologic events spanning the Oligocene to he present. Geologic concepts are linked to modern and ancient environments, archaeology, and paleoanthropology in northern Kenya. It is a field-based course involving visits to important geological and fossil sites. Graded work includes fieldwork and lab assignments, independent research assignments, quizzes and a final exam.\nSemesters offered-Fall and Spring. Components- laboratory, lecture, and recitation."
+    },
+    "GEO505":{
+        "CourseTitle":"Experimental Petrology Laboratory",
+        "Career":"Graduate",
+        "Credits":1.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"The course is designed to give the student experience in some or all of the following techniques of experimental petrology: evacuated silica-glass tube experiments, one-atmosphere quenching experiments (with and without controlled atmospheres), 1- to 5- kbar hydrothermal systems (using oxygen buffers where necessary), gas-media experiments up to 7 kbar, and solid-media, piston-cylinder experiments.\nRequirements: Completion of a project involving several of the above techniques; written report\nPrerequisite: Permission of instructor\nSpring, alternate years,"
+    },
+    "GEO506":{
+        "CourseTitle":"Theoretical Petrology",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Theory of phase diagrams, Schreinemaker's rules, heterogeneous equilibria, experimental systems of petrologic interest, and properties of solutions.\nPrerequisites: Metamorphic and igneous petrology and physical chemistry or thermodynamics; or permission of instructor\nSpring,"
+    },
+    "GEO507":{
+        "CourseTitle":"Petrogenesis",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "GEO527"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"Discussion of the origin and evolutionary history of selected types of igneous and metamorphic rocks by integrating the principles of heterogeneous phase equilibria, trace-element and isotopic geochemistry, crystal chemistry, and geologic occurrence. The laboratory component, GEO 527, must be taken concurrently; a common grade for both courses will be assigned.\nFall"
+    },
+    "GEO508":{
+        "CourseTitle":"The Rock-Forming Minerals",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Study of the crystal chemistry, intracrystalline cation distribution (homogeneous equilibria) stability, and paragenesis of the rock-forming minerals. Special emphasis is placed on amphiboles, feldspars, micas, and pyroxenes.\nFall,"
+    },
+    "GEO510":{
+        "CourseTitle":"Dimensions of Global Change",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"This course is designed to be an intense study in global climate change science.  The emphasis will be on modern climate change however, by studying the contributions of paleoclimatology we can gain insight into how the climate system operates.  To understand modern climate change and predictions, it is necessary to develop an understanding of natural climate forcing, natural variability and feedbacks in the climate systems.  Adding to natural variation are the impacts of anthropogenic forcing.  The course will examine the measured and predicted consequences of these anthropogenic forcing.\nOffered Fall and Summer, 3 credits, ABCF Grading"
+    },
+    "GEO511":{
+        "CourseTitle":"Computer Programming for the Geosciences",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"An introduction to object-oriented programming in Java for geoscience students. Participants are required to develop interactive programs to serve as educational or research tools pertaining to topics within the geosciences.  These programs, or applets, include a graphical user interface that enables users to control parameters and observe results.  The applets are posted on the World Wide Web.\nPrerequisite: Geosciences graduate standing\nSpring,"
+    },
+    "GEO512":{
+        "CourseTitle":"Structure and Properties of Materials",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"An introductory course that will explore materials from the viewpoint of their structure and chemistry and how these affect applications.  Different states of matter (crystals, quasicrystals, glasses, liquids) will be discussed and their similarities and differences, focusing on the crystalline state.  Nanomaterials and their peculiarities in terms of structure and properties will also be considered.  Particular attention will be paid to (1) Materials for energy and environment applications, (2) materials for technological applications, and (3) Earth and planet-forming materials.\nThis course is co-scheduled with GEO312.\nPrerequisite: CHE131 or PHY131"
+    },
+    "GEO513":{
+        "CourseTitle":"GIS Fundamentals I",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"This course provides the basic concepts underlying modern geographic information science and technology.  Emphasis is placed on the principles of GIS for collecting, storing, characterizing, and maintaining data and computer-based techniques for processing and analyzing spatial data.  The course includes three hours of lecture, in class exercises and homework projects each week. This is a computer based class with the majority of students work involving GIS computer software.  Prerequisite: working knowledge of spreadsheet software"
+    },
+    "GEO514":{
+        "CourseTitle":"Introduction to Physical Hydrogeology",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Surface hydrology. Principles of groundwater flow. Well hydraulics. Geology of groundwater occurrence. Water quality and groundwater contamination. Hydrologic site evaluation.\nSpring,"
+    },
+    "GEO515":{
+        "CourseTitle":"Geohydrology",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Dynamics of fluids in porous media. Fundamentals of physical hydrogeology. Quantitative analysis of regional groundwater system and well hydraulics. Introduction to numerical simulation techniques. Hydrodynamic dispersion and basic concepts of contaminant transport.\nSpring,"
+    },
+    "GEO517":{
+        "CourseTitle":"Crystal Chemistry",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"The structure\/property\/composition relationships in solids. An introduction to the common structure types and how they illustrate principles useful in understanding more complex solid-state materials. Applications of modern scattering techniques to the study of solids, particularly Earth materials, are also included.\nFall,"
+    },
+    "GEO518":{
+        "CourseTitle":"Carbonate Sediments",
+        "Career":"Graduate",
+        "Credits":4.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"An intensive study of the formation, deposition, lithification, and diagenesis of carbonate sediments. Lectures and seminars emphasize principles of carbonate deposition, facies relationships, and chemistry. Laboratories emphasize binocular and petrographic analysis of recent and ancient carbonates.\nSpring, alternate years,"
+    },
+    "GEO519":{
+        "CourseTitle":"Geochemistry of Natural Waters",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"A comprehensive quantitative treatment of the processes controlling the chemistry of polluted and unpolluted surface and groundwaters. Topics covered include thermodynamics and kinetics of water-rock interaction; mineral solubility; chemical speciation; redox reactions; adsorptions; carbonate chemistry; and speciation, mobility, and toxicity of metal ions. Based on a knowledge of these processes, the chemical composition of a wide variety of surface and groundwaters is interpreted. Water-quality criteria and their application are also discussed.\nSpring,"
+    },
+    "GEO520":{
+        "CourseTitle":"Glacial Geology",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"History of glaciation on earth, formation and dynamics of glaciers and ice sheets; processes of glacial erosion and deposition; and the nature of glacial sediments and landforms particularly relating to the development of Long Island. \nPrerequisite: Physical Geology\nSpring,"
+    },
+    "GEO521":{
+        "CourseTitle":"Isotope and Trace Element Geology",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Application of radiogenic isotopes and trace elements to the petrogenesis of igneous, metamorphic, and sedimentary systems including water-rock interaction in diagenetic and hydrothermal systems.  Evaluation of radiogenetic techniques for determining the ages of rocks and minerals.\nSpring, alternate years,"
+    },
+    "GEO522":{
+        "CourseTitle":"Planetary Sciences",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"The chemical, physical, and petrologic properties of meteorites are reviewed. These data and data for the moon and the terrestrial planets are used to form a picture of the origin, chemical evolution, and accretion of planetary material. Fall,"
+    },
+    "GEO523":{
+        "CourseTitle":"Geodatabase and Design",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Concepts of geodatabase design and management in geographic information systems (GIS), SQL statements, geographic data types and functions, data entry, and techniques of geographic information structure applications. \nPrerequisite: GSS513 or equivalent"
+    },
+    "GEO524":{
+        "CourseTitle":"Organic Contaminant Hydrology",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"There are a host of chemical, biological, and physical processes that affect the transport and fate of organic chemicals in natural waters. This course concerns understanding these processes and the structure-activity relationships available for predicting their rates. The major focus of this class is on contaminant hydrology of soil and aquifer environments, and includes the principles behind remediation and containment technologies. This course is offered as both MAR 524 and GEO 524.\nPrerequisite: GEO 526 or MAR 503 or permission of instructor\nSpring,"
+    },
+    "GEO525":{
+        "CourseTitle":"GIS Fundamentals II",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "GSS513"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"GIS Fundamentals II will introduce the applied use of Geographic Information Systems (GIS) which is now used extensively in analytical studies.  The course emphasizes the applications of GIS in solving real-world problems.  Students are expected to gain an understanding of GIS theory, methodology and most importantly application.  Students are also expected to demonstrate abilities of spatial thinking, spatial analysis, and be able to solve practical spatial problems utilizing a GIS. \nPrerequisite: GSS513 or equivalent"
+    },
+    "GEO526":{
+        "CourseTitle":"Low-Temperature Geochemistry",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Fundamental principles of chemical thermodynamics and kinetics, including isotope effects, as they pertain to geochemical processes occurring in surface and near-surface environments. Consideration is also given to mass transfer process and reaction pathways.\nFall,"
+    },
+    "GEO527":{
+        "CourseTitle":"Petrogenesis Laboratory",
+        "Career":"Graduate",
+        "Credits":1.0,
+        "Prerequisites":[
+            [
+                "GEO507"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"Three hours of laboratory per week that corresponds to the content of GEO 507"
+    },
+    "GEO528":{
+        "CourseTitle":"Carbonate Geochemistry",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Examination of the mineralogical and chemical characteristics of the rock-forming carbonates with emphasis on stabilities in the geological environments. Includes study of phase relations; trace and minor element chemistries; and mechanisms of growth, dissolution, and replacement. Use of current research techniques as applied to carbonate minerals.\nFall, alternate years,"
+    },
+    "GEO530":{
+        "CourseTitle":"The Geology of Mars",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Overview of Mars as a planetary system. Evolution of the planet and its atmosphere through time. Detailed discussion of processes that have shaped the martian surface, including erosion, sedimentation, volcanism, impact cratering, physical and chemical weathering. Comparison of geologic processes on Mars and Earth. Discussion of past and future spacecraft missions to Mars.  Three hours of lecture per week.\nPre-requisite: Graduate standing or Permission of instructor\nSpring alternate years, ABCF grading, 3 credits"
+    },
+    "GEO531":{
+        "CourseTitle":"Crystalline Solids",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Principles of symmetry, single-crystal, and powder X-ray diffraction techniques and elements of crystal structure determination are considered. Use of crystallographic data in the study of mineral systems. Laboratory in diffraction techniques includes extensive use of digital computers.\nFall, alternate years,"
+    },
+    "GEO532":{
+        "CourseTitle":"Solid-State Geochemistry",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"The application of crystallographic techniques to problems in mineral chemistry. Concepts of the crystalline state, order-disorder, atom radii, chemical bonding, atom coordination, solid solutions, and physical properties of minerals. Emphasis on silicate and sulfide crystal structures.\nFall, alternate years,"
+    },
+    "GEO533":{
+        "CourseTitle":"Geochemistry of the Terrestrial Planets",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"A brief overview of basic principles of geochemistry, including origin of the elements, geochemical and cosmochemical classification of the elements, and a geochemical perspective of the periodic table. This is followed by an examination of the compositions and chemical interactions among the major geochemical reservoirs of the terrestrial planets, including their cores, mantles, crusts, and where relevant, sedimentary shells.\nFall, alternate years, 3 credits, ABCF grading"
+    },
+    "GEO534":{
+        "CourseTitle":"Concepts in Geomorphology",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Study of landforms and the processes that produce and modify them. Discussion and practice of field, laboratory, and remote sensing methods used to assess landscape evolution."
+    },
+    "GEO535":{
+        "CourseTitle":"Regional Structure and Tectonics",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Formation and development of continental crust in Phanerozoic mountain belts. The structure and origin of ocean crust, magmatic arcs, and continental margin sequences are studied using geophysical, geochemical, and geologic data from ancient and modern examples.\nFall, alternate years,"
+    },
+    "GEO540":{
+        "CourseTitle":"Solid Earth Geophysics",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"An overview of solid earth geophysics. Topics include earthquake and exploratory seismology, gravity, magnetics, geochronolgy, and heat flow. There is an emphasis on how all of these techniques shed light on the nature of the Earth's interior and dynamics.\nPrerequisite: Physical geology, undergraduate physics and calculus\nFall,"
+    },
+    "GEO542":{
+        "CourseTitle":"Inverse Theory and Machine Learning in Earth Science",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Introduction to inverse theory and machine learning and their uses in solving various geological problems, with an emphasis on coding using python and related tools\n3 credits, Letter graded (A, A-, B+, etc.)"
+    },
+    "GEO543":{
+        "CourseTitle":"Stratigraphy",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "GEO563"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"The history and practice of defining units layered rocks and interpreting their spatial relationships. Topics include the basis for the geologic time scale, lithostratigraphic versus chronostratigraphic units, biostratigraphy, magnetostratigraphy, facies patterns and Walther's law, subsurface stratigraphy, and the application of stratigraphy to geological problems. The laboratory component, GEO 563, must be taken concurrently; a common grade for both courses will be assigned.\nSpring\nPrerequisite: GEO 546 or undergraduate mineralogy and petrology"
+    },
+    "GEO546":{
+        "CourseTitle":"Mineralogy and Petrology",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "GEO566"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"An introduction to mineralogy and petrology, including crystallography, crystal chemistry, mineral identification, and the processes that govern the formation of igneous and metamorphic rocks. Three hours of lecture per week. The laboratory component, GEO 566, must be taken concurrently; a common grade for both courses will be assigned.\nSpring\nPrerequisite: Undergraduate physical geology and one year of undergraduate chemistry"
+    },
+    "GEO547":{
+        "CourseTitle":"Remote Sensing in Geosciences",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Comprehensive study of commonly used image analysis methods in earth, environmental and planetary sciences. Discussion of physical principles that are the basis for remote sensing techniques.  Participants gain practical experience in geologic and environmental problem-solving using satellite imagery.\nSpring, 3 credits, Letter graded (A, A-, B+, etc.)"
+    },
+    "GEO549":{
+        "CourseTitle":"Structural Geology",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "GEO569"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"Principles of structural geology, including the recognition and the mechanics crustal structural features. Topics include folding and faulting, stress and strain, and the nature of brittle and ductile lineations and foliations in the crust. Three hours of lecture per week. The laboratory component, GEO 569, must be taken concurrently; a common grade for both courses will be assigned.\nSpring\nPrerequisite: Undergraduate physical geology"
+    },
+    "GEO550":{
+        "CourseTitle":"Global Tectonics",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Geological, geochemical, and geophysical evidence related to the concepts of plate tectonics and mantle convection. Kinematics and dynamics of plate motions. Origin of first-order crustal structures of continents and ocean basins. Geochemical and thermal evolution of the Earth.\nSpring,"
+    },
+    "GEO551":{
+        "CourseTitle":"Physics of the Earth I",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Study of the internal structure and properties of the Earth as revealed by field and laboratory investigations. Topics include the rotation and figure of the Earth, gravity anomalies, solid-earth tides, geomagnetism and paleomagnetism, electromagnetic induction, and heat flow and the Earth's present and past thermal states. May be taken independently of GEO 552.\nFall,"
+    },
+    "GEO552":{
+        "CourseTitle":"Physics of the Earth II",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Study of the Earth's structure and properties based on evidence from seismology and high-pressure geophysics. Topics include fundamental principles of elastic wave theory, body and surface wave propagation in layered media, earthquake source mechanisms, free oscillations of the Earth, and rheological properties of the Earth's interior. May be taken independently of GEO 551.\nFall, alternate years,"
+    },
+    "GEO556":{
+        "CourseTitle":"Solid-State Geophysics",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Application of lattice dynamics and equations of state of solids to studies in high-pressure, high-temperature geophysics. Reviews experimental data from physical acoustics, static and shock wave compression, and theoretical results from finite strain and atomistic models.\nPrerequisites: GEO 551 and 552, or permission of instructor\nSpring,"
+    },
+    "GEO562":{
+        "CourseTitle":"Early Diagenesis of Marine Sediments",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"The course treats qualitative and quantitative aspects of the early diagenesis of sediments. Topics include diffusion and adsorption of dissolved species; organic matter decomposition and storage; and diagenesis of clay materials, sulfur compounds, and calcium carbonates. The effects of bioturbation on sediment diagenesis are also discussed. This course is offered as both MAR 562 and GEO 562.\nFall, alternate years,"
+    },
+    "GEO563":{
+        "CourseTitle":"Stratigraphy Laboratory",
+        "Career":"Graduate",
+        "Credits":1.0,
+        "Prerequisites":[
+            [
+                "GEO543"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"Three hours of laboratory per week that corresponds to the content of GEO 543. Laboratory work emphasizes practical techniques in stratigraphy."
+    },
+    "GEO566":{
+        "CourseTitle":"Mineralogy and Petrology Laboratory",
+        "Career":"Graduate",
+        "Credits":1.0,
+        "Prerequisites":[
+            [
+                "GEO546"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"Three hours of laboratory per week that corresponds to the content of GEO 546"
+    },
+    "GEO567":{
+        "CourseTitle":"Sedimentary Rocks and Crustal Evolution",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"An examination of major and trace elements and isotopic composition of terrigenous sedimentary rocks within a framework of tracing the composition and evolution of the continental crust.  Emphasis is placed on interpreting sedimentary compositions in terms of provenance and sedimentary history (e.g., weathering, diagenesis, recycling). Relationships between sediment composition and tectonic setting is also examined.\nSpring,"
+    },
+    "GEO569":{
+        "CourseTitle":"Structural Geology Laboratory",
+        "Career":"Graduate",
+        "Credits":1.0,
+        "Prerequisites":[
+            [
+                "GEO549"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"Three hours of laboratory per week that corresponds to the content of GEO 549"
+    },
+    "GEO570":{
+        "CourseTitle":"Earthquake Mechanics",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"A survey of fundamental mechanics aspects of earthquake rupture; reviews concepts of fracture mechanics, elastodynamics, and experimental rock mechanics. Topics include state of stress in the lithosphere, theoretical models of earthquake instability, energetics of faulting, representation of dynamic elastic field generated by earthquakes, and relation of seismic signals to the kinematics and dynamics of seismic source.\nPrerequisite: GEO 552 or permission of instructor\nSpring, alternate years,"
+    },
+    "GEO571":{
+        "CourseTitle":"Mechanics of Geologic Materials",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Elastic, thermal, and anelastic properties of geological materials. The course emphasizes a thermodynamic characterization of these properties including irreversible thermodynamics and nonhydrostatic thermodynamics. Specific applications to the Earth's environment are discussed.\nPrerequisites: GEO 551, 552, or permission of instructor\nFall, alternate years,"
+    },
+    "GEO572":{
+        "CourseTitle":"Advanced Seismology",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Course is intended to expose the student to topics that are at the forefront of current seismological research. Examples include wave propagation in heterogeneous media, earthquake source studies, tsunami generation, and seismic network data analysis.\nPrerequisite: GEO 552\nFall, alternate years,"
+    },
+    "GEO573":{
+        "CourseTitle":"Physics of Rocks",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Fundamentals of the physical properties of rock in relation to seismology, hydrogeology, geophysical prospecting and geotechnical engineering. Topics include: composition, pore structure and fabric of rocks; elasticity, anelasticity and plasticity; seismic velocity and anisotropy; poroelasticity; electrical, magnetic and hydraulic transpost properties.\nFall, alternate years,"
+    },
+    "GEO581":{
+        "CourseTitle":"Coastal Engineering Geology",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Concepts of the mechanics of earth materials and the physics of surficial processes with applications to the coastal environment and engineering. This course is also offered as mar 581.\nPrerequisites: Enrollment in MESP or OEN program or instructor\nFall,"
+    },
+    "GEO585":{
+        "CourseTitle":"Directed Studies",
+        "Career":"Graduate",
+        "Credits":"1.00 - 3.00",
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Special studies directed by various faculty members.\nFall, Spring, Summer,"
+    },
+    "GEO587":{
+        "CourseTitle":"Hydrogeology Capstone Project",
+        "Career":"Graduate",
+        "Credits":0.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Students will complete an in-depth capstone report based on analysis of original, independent research conducted by the student on a faculty supervisor-approved topic in hydrogeology."
+    },
+    "GEO588":{
+        "CourseTitle":"Geological Field Methods for Earth Science Teachers",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Geologic mapping techniques, geochemical analytical approach, and hydrological methodologies applied in the field to examples on Long Island.  These approaches are designed for developing research projects for secondary students in earth science.\nPrerequisite: Permission of instructor\nSummer,"
+    },
+    "GEO589":{
+        "CourseTitle":"Research for Earth Science Teachers",
+        "Career":"Graduate",
+        "Credits":"1.00 - 3.00",
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"This course is intended to provide earth science teachers or students in the M.A.T. in Earth Science program an opportunity to obtain research experience.  A written report is required.\nPrerequisite: Permission of instructor\nSummer,"
+    },
+    "GEO590":{
+        "CourseTitle":"Research Project",
+        "Career":"Graduate",
+        "Credits":"1.00 - 12.00",
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Independent research\nFall,Spring,Summer,"
+    },
+    "GEO599":{
+        "CourseTitle":"Research",
+        "Career":"Graduate",
+        "Credits":"1.00 - 12.00",
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Independent research for those students established in a research group."
+    },
+    "GEO600":{
+        "CourseTitle":"Practicum in Teaching",
+        "Career":"Graduate",
+        "Credits":"0.00 - 3.00",
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Fall and Spring,"
+    },
+    "GEO603":{
+        "CourseTitle":"Topics in Petrology",
+        "Career":"Graduate",
+        "Credits":"1.00 - 3.00",
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Fall and Spring,"
+    },
+    "GEO604":{
+        "CourseTitle":"Topics in Planetary Science",
+        "Career":"Graduate",
+        "Credits":"1.00 - 3.00",
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":""
+    },
+    "GEO605":{
+        "CourseTitle":"Topics in Sedimentary Geology",
+        "Career":"Graduate",
+        "Credits":"1.00 - 3.00",
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Fall and Spring,"
+    },
+    "GEO606":{
+        "CourseTitle":"Topics in Geochronology",
+        "Career":"Graduate",
+        "Credits":"1.00 - 3.00",
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Topics in Geochronology"
+    },
+    "GEO607":{
+        "CourseTitle":"Topics in Geophysics",
+        "Career":"Graduate",
+        "Credits":"1.00 - 3.00",
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Fall and Spring,"
+    },
+    "GEO608":{
+        "CourseTitle":"Topics Geochemistry",
+        "Career":"Graduate",
+        "Credits":"1.00 - 3.00",
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Topics in Geochemistry"
+    },
+    "GEO609":{
+        "CourseTitle":"Topics in Mineralogy and Crystallography",
+        "Career":"Graduate",
+        "Credits":"1.00 - 3.00",
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Fall and Spring,"
+    },
+    "GEO696":{
+        "CourseTitle":"Geoscience Colloquium",
+        "Career":"Graduate",
+        "Credits":0.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"A weekly series of research seminars presented by visiting scientists as well as by the faculty. Required every semester of all geoscience graduate students.\nFall and Spring,"
+    },
+    "GEO697":{
+        "CourseTitle":"Geoscience Seminar",
+        "Career":"Graduate",
+        "Credits":0.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Presentation of preliminary research results and current research problems by students and faculty. Required every semester of all geoscience graduate students.\nFall and Spring,"
+    },
+    "GEO698":{
+        "CourseTitle":"Geoscience Special Seminar",
+        "Career":"Graduate",
+        "Credits":0.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"A weekly series of specialized seminars in which graduate students and faculty discuss specific topics within the subgroups of geology. Research is reviewed, and theses are discussed.\nFall and Spring,"
+    },
+    "GEO699":{
+        "CourseTitle":"Dissertation Research on Campus",
+        "Career":"Graduate",
+        "Credits":"1.00 - 9.00",
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Independent research for Ph.D. degree. Open only to candidates for the Ph.D. who have passed the preliminary examination.\nPrerequisite: Advancement to candidacy (G5). Major portion of research must take place on SBU campus, at Cold Spring Harbor, or at the Brookhaven National Lab.\nFall, Spring, and Summer,"
+    },
+    "GEO700":{
+        "CourseTitle":"Dissertation Research off Campus - Domestic",
+        "Career":"Graduate",
+        "Credits":"1.00 - 9.00",
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Prerequisite: Must be advanced to candidacy (G5). Major portion of research will take place off-campus, but in the United States and\/or U.S. provinces. Please note, Brookhaven National Labs and the Cold Spring Harbor Lab are considered on-campus.\nAll international students must enroll in one of the graduate student insurance plans and should be advised by an International Advisor.\nFall, Spring, Summer"
+    },
+    "GEO701":{
+        "CourseTitle":"Dissertation Research off Campus - International",
+        "Career":"Graduate",
+        "Credits":"1.00 - 9.00",
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Prerequisite: Must be advanced to candidacy (G5). Major portion of research will take place outside of the United States and\/or U.S. provinces.\nDomestic students have the option of the health plan and may also enroll in MEDEX.\nInternational students who are in their home country are not covered by mandatory health plan and must contact the Insurance Office for the insurance charge to be removed.\nInternational students who are not in their home country are charged for the mandatory health insurance. If they are to be covered by another insurance plan they must file a waiver be second week of classes. The charge will only be removed if other plan is deemed comparable.\nAll international students must received clearance from an International Advisor.\nFall, Spring, Summer"
+    },
+    "GEO800":{
+        "CourseTitle":"SUMMER RESEARCH",
+        "Career":"Graduate",
+        "Credits":0.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":""
+    }
+}

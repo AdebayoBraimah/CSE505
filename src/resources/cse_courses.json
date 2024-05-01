@@ -1,0 +1,2063 @@
+{
+    "CSE101":{
+        "CourseTitle":"Computer Science Principles",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":[
+            [
+                "CSE114",
+                "CSE160"
+            ]
+        ],
+        "Description":"Introduces central ideas of computing and computer science, instills practices of algorithmic and computational thinking, and engages students in the creative aspects of the field. Also introduces appropriate computing technology as a means for solving computational problems and exploring creative endeavors. Includes weekly computer programming assignments, but assumes no previous programming experience. May not be taken by students with credit for CSE 114 or CSE 160."
+    },
+    "CSE102":{
+        "CourseTitle":"Introduction to Web Design and Programming",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "CSE101"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"An introduction to the design of Web pages, specifically the development of browser and device independent HTML, with an emphasis on the XHTML standards. Includes the use of style sheets (CSS) and tools for page layout and verification.  HTML is presented as a mark-up language, exploring the rules of HTML elements and attributes. Students learn the separation of page viewing information from the HTML through CSS style sheets as well as the use of block layout without using HTML tables. Addresses HTML display properties including text, color, image, and graphic elements as well as approaches to HTML validation and techniques."
+    },
+    "CSE110":{
+        "CourseTitle":"Introduction to Computer Science",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"An introduction to fundamentals of computer science. Topics covered include algorithmic design, problem-solving techniques for computer programming, fundamentals of digital logic and computer organization, the role of the operating system, introductory programming methodology including variables, assignment statements, control statements and subroutines (methods), programming paradigms, the compilation process, theoretical limits of computation, social and ethical issues.  Intended for students who have not taken any college-level computer science course containing programming assignments in a high-level programming language."
+    },
+    "CSE113":{
+        "CourseTitle":"Foundations of Computer Science I",
+        "Career":"Undergraduate",
+        "Credits":4.0,
+        "Prerequisites":[
+            [
+                "AMS151",
+                "MAT125",
+                "MAT131"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"Introduction to the mathematical foundations of computer science. Topics include logic (propositional and predicate); proof techniques (induction\/recursion, contradiction, and others); and key concepts of mathematical structures (sequences, sets, functions, relations, and graphs). Not for credit in addition to CSE 215."
+    },
+    "CSE114":{
+        "CourseTitle":"Introduction to Object-Oriented Programming",
+        "Career":"Undergraduate",
+        "Credits":4.0,
+        "Prerequisites":[
+            [
+                "CSE101",
+                "ISE108"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"An introduction to procedural and object-oriented  programming methodology. Topics include program structure, conditional and iterative programming, procedures, arrays and records, object classes, encapsulation, information hiding, inheritance, polymorphism, file I\/O, and exceptions. Includes required laboratory. This course has been designated as a High Demand\/Controlled Access (HD\/CA) course. Students registering for HD\/CA courses for the first time will have priority to do so."
+    },
+    "CSE130":{
+        "CourseTitle":"Introduction to Programming in C",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Introduces programming concepts using the C language.  Variables, data types, and expressions.  Conditional and iterative statements, functions, and structures.  Pointers, arrays, and strings.  Scope of variables and program organization.  Includes programming projects of an interdisciplinary nature.  Suitable as an introductory programming course for non-CSE majors."
+    },
+    "CSE150":{
+        "CourseTitle":"Foundations of Computer Science: Honors",
+        "Career":"Undergraduate",
+        "Credits":4.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Introduction to the logical and mathematical foundations of computer science for computer science honors students. Topics include functions, relations, and sets; recursion and functional programming; basic logic; and mathematical induction and other proof techniques."
+    },
+    "CSE160":{
+        "CourseTitle":"Computer Science A: Honors",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "CSE161"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"First part of a two-semester sequence, CSE 160 and CSE 260.  An introduction to procedural and object-oriented programming methodology and basic data structures. Topics include program structure, conditional and iterative programming, procedures, arrays, object classes, encapsulation, information hiding, inheritance, polymorphism, file I\/O, exceptions and simple data structures, such as lists, queues and stacks."
+    },
+    "CSE161":{
+        "CourseTitle":"Laboratory for Computer Science A: Honors",
+        "Career":"Undergraduate",
+        "Credits":1.0,
+        "Prerequisites":[
+            [
+                "CSE160"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"Must be taken concurrently with lecture component, CSE 160; a common grade for both courses will be assigned. Laboratory sessions will focus on development of pragmatic programming skills and use of programming environments and tools in a supervised setting."
+    },
+    "CSE190":{
+        "CourseTitle":"Special Topics in Practice and Applications of Computer Science",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"A lecture course on a current topic in the practice and application of computer science. May be repeated as the topic changes."
+    },
+    "CSE191":{
+        "CourseTitle":"Special Topics in Practice and Applications for Computer Science",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"A lecture course on a current topic in the practice and application of computer science.  May be repeated as the topic changes."
+    },
+    "CSE192":{
+        "CourseTitle":"Special Topics in Practice and Applications for Computer Science",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"A lecture course on a current topic in the practice and application of computer science. May be repeated as the topic changes."
+    },
+    "CSE213":{
+        "CourseTitle":"Foundations of Computer Science II",
+        "Career":"Undergraduate",
+        "Credits":4.0,
+        "Prerequisites":[
+            [
+                "CSE113"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"A continuation of CSE 113 covering the mathematical foundations of computer science. Topics include counting techniques, graph theory, and finite automata."
+    },
+    "CSE214":{
+        "CourseTitle":"Data Structures",
+        "Career":"Undergraduate",
+        "Credits":4.0,
+        "Prerequisites":[
+            [
+                "CSE114"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"An extension of programming methodology to data storage and manipulation on complex data sets. Topics include: programming and applications of data structures; stacks, queues, lists, binary trees, heaps, priority queues, balanced trees and graphs. Recursive programming is heavily utilized. Fundamental sorting and searching algorithms are examined along with informal efficiency comparisons."
+    },
+    "CSE215":{
+        "CourseTitle":"Foundations of Computer Science",
+        "Career":"Undergraduate",
+        "Credits":4.0,
+        "Prerequisites":[
+            [
+                "AMS151",
+                "MAT125",
+                "MAT131"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"Introduction to the logical and mathematical foundations of computer science. Topics include functions, relations, and sets; recursion; elementary logic; and mathematical induction and other proof techniques."
+    },
+    "CSE216":{
+        "CourseTitle":"Programming Abstractions",
+        "Career":"Undergraduate",
+        "Credits":4.0,
+        "Prerequisites":[
+            [
+                "CSE214"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"Intermediate-level programming concepts and paradigms, including  functional programming, object-orientation, basics of type systems, memory management, program and data abstractions, parameter passing, modularity, and parallel programming. Includes weekly recitations, which provide students with experience in the practice of programming in a variety of high-level languages."
+    },
+    "CSE220":{
+        "CourseTitle":"Systems Fundamentals I",
+        "Career":"Undergraduate",
+        "Credits":4.0,
+        "Prerequisites":[
+            [
+                "CSE214",
+                "CSE260"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"Introduces systems-level programming concepts using the C language and assembly language, and explores the correspondence of programming constructs in these languages. Topics include internal data representation, basic instructions and control structures, bitwise operations, arithmetic operations, memory management, pointers, function calls and parameter passing, linking and loading. Included is an overview of computer architecture and organization topics, including von Neumann architecture, the memory hierarchy, and basics of pipelining."
+    },
+    "CSE230":{
+        "CourseTitle":"Intermediate Programming in C and C++",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "CSE130",
+                "CSE220",
+                "ESE124",
+                "ESG111",
+                "BME120",
+                "MEC102"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"Intermediate programming concepts using the C language in a UNIX environment. Files, systems calls, stream I\/O, the C preprocessor, bitwise operations, the use of makefiles, advanced formatting of input and output, conversions. Introduction to object-oriented programming using C++; classes, objects, inheritance, aggregation, and overloading. Suitable for all majors."
+    },
+    "CSE260":{
+        "CourseTitle":"Computer Science B: Honors",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "CSE160",
+                "CSE261"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"Second part of a two-semester sequence, CSE 160 and CSE 260. Applies object-oriented programming methodology to data storage and manipulation on complex data sets, such as, binary trees, heaps, priority queues, balanced trees and graphs. Recursive programming is heavily utilized. Fundamental sorting and searching algorithms are examined along with informal efficiency comparisons. Intermediate-level programming language concepts and paradigms, including functional programming, basics of type systems, program and data abstractions, and modularity."
+    },
+    "CSE261":{
+        "CourseTitle":"Laboratory for Computer Science B: Honors",
+        "Career":"Undergraduate",
+        "Credits":1.0,
+        "Prerequisites":[
+            [
+                "CSE260"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"Must be taken concurrently with lecture component, CSE 260; a common grade for both courses will be assigned. Weekly laboratories provide students with experience in the practice of programming in a variety of high-level languages such as Java, Scala, Haskell, Python or Javascript."
+    },
+    "CSE300":{
+        "CourseTitle":"Technical Communications",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "WRT102"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"Principles of professional technical communications for Computer Science and Information Systems majors. Topics include writing business communications, user manuals, press releases, literature reviews, and research abstracts. Persuasive oral communications and effective presentation techniques, to address a range of audiences, will also be covered. This course satisfies the upper-division writing requirement for CSE and ISE majors."
+    },
+    "CSE301":{
+        "CourseTitle":"History of Computing",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"A study of the history of computational devices from the early ages through the end of the 20th century. Topics include needs for computation in ancient times, development of computational models and devices through the 1800's and early 1900's, World War II and the development of the first modern computer, and early uses in business. Creation of programming languages and the microchip. Societal changes in computer usage due to the microcomputer, emergence of the Internet, the World Wide Web, and mobile computing. Legal and social impacts of modern computing. Cannot be used as a technical elective for the CSE major or minor.  This course is offered as both CSE 301 and ISE 301."
+    },
+    "CSE303":{
+        "CourseTitle":"Introduction to the Theory of Computation",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "CSE160",
+                "CSE214"
+            ],
+            [
+                "CSE150",
+                "CSE215"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"An introduction to the abstract notions encountered in machine computation. Topics include finite automata, regular expressions, and formal languages, with emphasis on regular and context-free grammars. Questions relating to what can and cannot be done by machines are covered by considering various models of computation, including Turing machines, recursive functions, and universal machines. Not for credit in addition to CSE 350."
+    },
+    "CSE304":{
+        "CourseTitle":"Compiler Design",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "CSE216",
+                "CSE260"
+            ],
+            [
+                "CSE220",
+                "CSE303",
+                "CSE350"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"Topics studied include formal description of programming languages, lexical analysis, syntax analysis, symbol tables and memory allocation, code generation, and interpreters. Students undertake a semester project that includes the design and implementation of a compiler for a language chosen by the instructor."
+    },
+    "CSE305":{
+        "CourseTitle":"Principles of Database Systems",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "CSE216",
+                "CSE260"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"The design of database management systems to obtain consistency, integrity, and availability of data. Conceptual models and schemas of data: relational, hierarchical, and network. Students undertake a semester project that includes the design and implementation of a database system."
+    },
+    "CSE306":{
+        "CourseTitle":"Operating Systems",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "CSE216",
+                "CSE260"
+            ],
+            [
+                "CSE320",
+                "ESE380"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"Students are introduced to the structure of modern operating systems. Topics include virtual memory, resource allocation strategies, concurrency, and protection. The design and implementation of a simple operating system are performed. This course focuses on teaching the skills required to design and build modules of an operating system kernel. It covers key algorithms and architectures. A companion course, CSE 320, teaches complementary skills from the application programmer's point of view."
+    },
+    "CSE307":{
+        "CourseTitle":"Principles of Programming Languages",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "CSE216",
+                "CSE260"
+            ],
+            [
+                "CSE220"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"An introduction to programming languages paradigms, including functional and logic programming, and the suitability of various languages for particular programming tasks. Students write sample programs in the studied languages. The languages are used to illustrate programming language constructs such as scoping and binding, type systems, storage management and operating environments. This illustration is accompanied by an introduction to the implementation of programming languages, such as parsing, semantic analysis, symbol tables, memory allocation and code generation. Students complete a series of assignments to implement a language chosen by the instructor."
+    },
+    "CSE310":{
+        "CourseTitle":"Computer Networks",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "CSE214"
+            ],
+            [
+                "CSE220",
+                "ISE218"
+            ],
+            [
+                "AMS310"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"Overview of computer networks and the Internet. Concept of end systems, access networks, clients and servers. Connection-oriented and connectionless services. Circuit switching and packet switching. Description of Internet protocol layers, including application layer, transport layer, network layer and link layer. Architecture of the current Internet and the World-Wide Web. TCP\/IP protocol stack. Internet routing and addressing. Local area network protocols, Ethernet hubs and switches. Wireless LANs. Multimedia networking. May not be taken by students with credit for ESE 346."
+    },
+    "CSE311":{
+        "CourseTitle":"Systems Administration",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "CSE214",
+                "CSE230",
+                "CSE260",
+                "ISE208"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"This course covers practical techniques to manage information systems, also known as IT Systems Administration.  Students will learn how to install computers for assorted hardware and software platforms (Windows, Unix\/Linux, OS-X).  Install networking equipment and configure it.  Install server software on several systems (e.g. web, database, mail) and configure it.  Secure the network, hosts, and services, and apply system patches.  Set up redundant computing services, virtual machines\/services, and hardware so that services can survive some hardware\/software failures.  Evaluate the performance, reliability, and security of the overall system. This course is offered as both CSE 311 and ISE 311."
+    },
+    "CSE312":{
+        "CourseTitle":"Social, Legal, and Ethical Issues in Computing",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"This course deals with the impact of computers on us as individuals and on our society.  Rapid changes in computing technology and in our use of that technology have changed the ways we work, play, and interact with other people.  These changes have created a flood of new social, legal and ethical issues that demand critical examination. This course is offered as both CSE 312 and ISE 312."
+    },
+    "CSE316":{
+        "CourseTitle":"Fundamentals of Software Development",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "CSE216",
+                "CSE260"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"Introduction to systematic design, development and testing of software systems, including event-driven and Web programming, information management, databases, principles and practices for secure computing, and version control. Students apply these skills in the construction of large, robust programs."
+    },
+    "CSE320":{
+        "CourseTitle":"Systems Fundamentals II",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "CSE220"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"This course introduces C programming and essential concepts of operating systems, concurrency, and performance analysis, focused around several cross-cutting examples, such as memory management, error handling, and threaded programming. In this course, operating systems concepts are considered from the point of view of the application programmer, and the focus is on APIs for interacting with an operating system. A companion course, CSE 306, considers operating systems from the point of view of the OS kernel implementer."
+    },
+    "CSE323":{
+        "CourseTitle":"Human-Computer Interaction",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "CSE214",
+                "CSE230",
+                "CSE260",
+                "ISE208"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"A survey course designed to introduce students to Human-Computer Interaction and prepare them for further study in the specialized topics of their choice.  Students will have the opportunity to delve deeper in the course through a course project, and through a two-three week special topic selected at the instructor's discretion. Course is cross-listed as CSE 323, EST 323 and ISE 323."
+    },
+    "CSE325":{
+        "CourseTitle":"Computers and Sculpture",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "CSE110",
+                "CSE101",
+                "CSE114"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"This multidisciplinary class surveys how computer science and computer technology are used in sculpture. Case studies with slides, videos, and software demonstrations illustrate a range of approaches of sculptors incorporating computers in their creative process. Various state-of-the art fabrication technologies are studied (with site visits if available on campus). Mathematical foundations are emphasized so students can recognize them when analyzing sculpture and choose the right tool when designing. In the weekly laboratory, these ideas are reinforced with projects using a range of available software and inexpensive construction materials, e.g., paper, cardboard, and foamcore."
+    },
+    "CSE327":{
+        "CourseTitle":"Fundamentals of Computer Vision",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "CSE214",
+                "CSE230",
+                "CSE260"
+            ],
+            [
+                "AMS210",
+                "MAT211"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"Introduces fundamental concepts, algorithms, and techniques in visual information processing. Covers image formation, binary image processing, image features, model fitting, optics, illumination, texture, motion, segmentation, and object recognition."
+    },
+    "CSE328":{
+        "CourseTitle":"Fundamentals of Computer Graphics",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "CSE216",
+                "CSE260"
+            ],
+            [
+                "CSE220"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"An introduction to computer graphics including graphics application programming; data structures for graphics; representing and specifying color; fundamental hardware and software concepts for calligraphic and raster displays; two-dimensional, geometric transformations; introduction to three-dimensional graphics; graphics standards; and input devices, interaction handling, and user-computer interface."
+    },
+    "CSE331":{
+        "CourseTitle":"Computer Security Fundamentals",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "CSE220"
+            ],
+            [
+                "CSE320"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"Introduces the basic concepts and terminology of computer security. Covers basic security topics such as cryptography, operating systems security, network security, and language-based security."
+    },
+    "CSE332":{
+        "CourseTitle":"Introduction to Visualization",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "CSE214",
+                "CSE260"
+            ],
+            [
+                "MAT211",
+                "AMS210"
+            ],
+            [
+                "AMS110",
+                "AMS310"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"This course is an introduction to both the foundations and applications of visualization and visual analytics, for the purpose of understanding complex data in science, medicine, business, finance, and many others. It will begin with the basics - visual perception, cognition, human-computer interaction, the sense-making process, data mining, computer graphics, and information visualization. It will then move to discuss how these elementary techniques are coupled into an effective visual analytics pipeline that allows humans to interactively think with data and gain insight. Students will get hands-on experience via several programming projects, using popular public-domain statistics and visualization libraries and APIs. This course is offered as both CSE 332 and  ISE 332."
+    },
+    "CSE333":{
+        "CourseTitle":"User Interface Development",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "CSE214",
+                "CSE260"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"Survey of user interface systems, with emphasis on responsive and adaptive strategies to accommodate cross-platform deployment across multiple devices such as desktops and mobile devices. Demonstration of the use of tool kits for designing user interfaces. Additional topics include human factors, design standards, and visual languages. Students participate in a project involving the design and implementation of  user interface systems. This course is offered as both CSE 333 and ISE 333."
+    },
+    "CSE334":{
+        "CourseTitle":"Introduction to Multimedia Systems",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Survey of technologies available for user interfaces. Discussion of hypertext; voice, music, and video together with tools and models for capturing, editing, presenting, and combining them. Capabilities and characteristics of a range of peripheral devices including devices based on posture, gesture, head movement, and touch. Case studies of academic and commercial multimedia systems including virtual reality systems. Students participate in laboratory exercises and build a multimedia project. This course is offered as both CSE 334 and  ISE 334."
+    },
+    "CSE336":{
+        "CourseTitle":"Internet Programming",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "CSE216",
+                "CSE260"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"Introduces the design and development of software for Internet commerce. Topics include extended markup language, servlets, cookies, sessions, Internet media types, Web protocols, digital signatures, certificates, encryption, and the wireless Internet."
+    },
+    "CSE337":{
+        "CourseTitle":"Scripting Languages",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "CSE214",
+                "CSE260"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"Scripting languages are widely used in the IT industry. Programming with scripting languages, also known as scripting, has several advantages compared to programming with other types of languages in that scripts facilitate rapid program development; can automate high-level jobs or tasks very effectively; and can be used to compose various software components, even binaries, into more complex and powerful applications. This course introduces the principles of scripting, covers one or two selected scripting languages in depth, and illustrates the advanced use of scripting by extensive case studies in application areas such as system administration, web application development, graphical user interface development, and text processing."
+    },
+    "CSE350":{
+        "CourseTitle":"Theory of Computation: Honors",
+        "Career":"Undergraduate",
+        "Credits":4.0,
+        "Prerequisites":[
+            [
+                "CSE150",
+                "CSE215"
+            ],
+            [
+                "AMS210",
+                "MAT211"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"Introduces the abstract notions of machine computation for honors students. Includes finite automata, regular expressions, and formal languages, with emphasis on regular and context-free grammars. Explores what can and cannot be computed by considering various models of computation including Turing machines, recursive functions, and universal machines. Not for credit in addition to CSE 303."
+    },
+    "CSE351":{
+        "CourseTitle":"Introduction to Data Science",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "CSE214",
+                "CSE260"
+            ],
+            [
+                "AMS310"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"This multidisciplinary course introduces both theoretical concepts and practical approaches to extract knowledge from data. Topics include linear algebra, probability, statistics, machine learning, and programming. Using large data sets collected from real-world problems in areas of science, technology, and medicine, we introduce how to preprocess data, identify the best model that describes the data, make predictions, evaluate the results, and finally report the results using proper visualization methods. This course also teaches state-of-the art tools for data analysis, such as Python and its scientific libraries."
+    },
+    "CSE352":{
+        "CourseTitle":"Artificial Intelligence",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "CSE216",
+                "CSE260"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"Topics covered include critique of artificial intelligence research; state-space problem representations and search algorithms; game-playing programs; theorem-proving programs; programs for the study and simulation of cognitive processes and pattern recognition. Further topics in current research as time permits."
+    },
+    "CSE353":{
+        "CourseTitle":"Machine Learning",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "CSE216",
+                "CSE260"
+            ],
+            [
+                "AMS310",
+                "AMS311",
+                "AMS412"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"Covers fundamental concepts for intelligent systems that autonomously learn to perform a task and improve with experience, including problem formulations (e.g., selecting input features and outputs) and learning frameworks (e.g., supervised vs. unsupervised), standard models, methods, computational tools, algorithms and modern techniques, as well as methodologies to evaluate learning ability and to automatically select optimal models. Applications to areas such as computer vision (e.g., character and digit recognition), natural-language processing (e.g., spam filtering) and robotics (e.g., navigating complex environments) will motivate the coursework and material."
+    },
+    "CSE354":{
+        "CourseTitle":"Natural Language Processing",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "CSE216",
+                "CSE260"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"Natural language processing techniques power many intelligent language based applications. This course will introduce basic language analysis tasks such as language modeling and syntactic analysis, as well as core applications such as text classification, information extraction, question answering, and machine translation. The course will cover relevant algorithms, machine learning solutions, and evaluation methodologies."
+    },
+    "CSE355":{
+        "CourseTitle":"Computational Geometry",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "AMS301"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"The design and analysis of efficient algorithms to solve geometric problems that arise in computer graphics, robotics, geographical information systems, manufacturing, and optimization. Topics include convex hulls, triangulation, Voronoi diagrams, visibility, intersection, robot motion planning, and arrangements. This course is offered as both  AMS 345 and CSE 355."
+    },
+    "CSE356":{
+        "CourseTitle":"Cloud Computing",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "CSE316"
+            ],
+            [
+                "CSE320"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"Creating online services capable of handling millions of users requires a different mindset compared to traditional software development and deployment. Rather than building monolithic software packages from the ground up, bringing up modern online services calls for architecting systems by gluing together mature existing technologies deployed across many unreliable servers, working in concert to provide high-availability robust services. In this course, students will be exposed to the concepts and technologies behind deploying and scaling online services on the computing resources available in modern datacenters."
+    },
+    "CSE357":{
+        "CourseTitle":"Statistical Methods for Data Science",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "CSE216",
+                "CSE260"
+            ],
+            [
+                "AMS310"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"This interdisciplinary course introduces the mathematical concepts required to interpret results and subsequently draw conclusions from data in an applied manner. The course presents different techniques for applied statistical inference and data analysis, including their implementation in Python, such as parameter and distribution estimators, hypothesis testing, Bayesian inference, and likelihood."
+    },
+    "CSE360":{
+        "CourseTitle":"Software Security",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "CSE220"
+            ],
+            [
+                "CSE320"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"This course will describe the principles and practice of securing software systems. Topics will include: software vulnerabilities; static and dynamic analysis techniques for vulnerability detection; exploit detection and prevention; secure software development techniques and defensive programming; malware detection and analysis; security policies and sandboxing; information flow."
+    },
+    "CSE361":{
+        "CourseTitle":"Web Security",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "CSE220"
+            ],
+            [
+                "CSE320"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"This course will cover all aspects of web security, including browser security, web server security, and web application security. Topics include: SOP and JavaScript; application and protocol vulnerabilities; probing, surveillance, and tracking; penetration testing; modern social engineering techniques; monetary incentives and monetization."
+    },
+    "CSE362":{
+        "CourseTitle":"Mobile Security",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "CSE220"
+            ],
+            [
+                "CSE320"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"The course covers the latest security technologies for mobile platforms (e.g., Android and iOS). It first introduces the security issues plaguing mobile apps and discusses defensive mechanisms, such as code signing, app permissions, and sandbox. It then peeks into mobile OS, explaining how jailbreaking\/rooting works and the internals of iOS\/Android security designs. Finally, it surveys modern hardware-level security features, such as secure booting, TrustZone, and biometrics."
+    },
+    "CSE363":{
+        "CourseTitle":"Offensive Security",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "CSE220"
+            ],
+            [
+                "CSE320"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"Hands-on course with the goal of understanding various security problems in depth, through a more adversarial way of thinking. By focusing on finding and exploiting vulnerabilities, the course will cover a broad range of topics, including the ethics of offensive security, reverse engineering, software vulnerability discovery and exploitation, malicious code analysis, network traffic interception and manipulation, reconnaissance and information gathering, physical security, and social engineering. All topics will be covered from a highly practical perspective, following a hands-on approach and tutorial-like sessions, along with programming assignments."
+    },
+    "CSE364":{
+        "CourseTitle":"Advanced Multimedia Techniques",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "ISE334"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"Digital media production techniques for high-bandwidth applications such as electronic magazine illustration, broadcast television, and motion picture special effects. Students explore techniques such as 3D modeling and character animation, video compositing, and high-resolution image processing in a state-of-the art multimedia computing laboratory. High-capacity mutlimedia storage, high-speed networks, and new technologies such as DVD, HDTV, and broadband will be reviewed. This course is offered as both CSE 364 and  ISE 364."
+    },
+    "CSE366":{
+        "CourseTitle":"Introduction to Virtual Reality",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "CSE328",
+                "ISE332"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"An introduction to the practical issues in the design and implementation of virtual environments. Topics covered include the fundamentals of systems requirements, transformations, user-interaction models, human vision models, tracking systems, input\/output devices and techniques, and augmented reality. The topics covered are explained through the use of real-life applications of virtual-reality systems in engineering, science, and medicine."
+    },
+    "CSE370":{
+        "CourseTitle":"Wireless and Mobile Networking",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "CSE310"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"The fundamentals of wireless communication. Link, network and transcript layer protocols for wireless and mobile networking. Cellular networks. Wireless LANs. Wireless multihop networks. Mobile applications."
+    },
+    "CSE371":{
+        "CourseTitle":"Logic",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "CSE150",
+                "CSE215",
+                "MAT200",
+                "MAT250"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"A survey of the logical foundations of mathematics: development of propositional calculus and quantification theory, the notions of a proof and of a model, the completeness theorem, Goedel's incompleteness theorem. This course is offered as both CSE 371 and MAT 371."
+    },
+    "CSE373":{
+        "CourseTitle":"Analysis of Algorithms",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "CSE150",
+                "CSE215",
+                "MAT200",
+                "MAT250"
+            ],
+            [
+                "MAT211",
+                "AMS210"
+            ],
+            [
+                "CSE214",
+                "CSE260"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"Mathematical analysis of a variety of computer algorithms including searching, sorting, matrix multiplication, fast Fourier transform, and graph algorithms. Time and space complexity. Upper-bound, lower- bound, and average-case analysis. Introduction to NP completeness. Some machine computation is required for the implementation and comparison of algorithms. This course is offered as CSE 373 and MAT 373. Not for credit in addition to CSE 385."
+    },
+    "CSE376":{
+        "CourseTitle":"Advanced Systems Programming in UNIX\/C",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "CSE216"
+            ],
+            [
+                "CSE320"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"Focuses on several aspects of producing commercial-grade system software: reliability, portability, security, and survivability.   Uses Unix and C, heavily used in industry when developing systems and embedded systems code. Emphasizes techniques and tools to produce reliable, secure, and highly portable code.  Requires substantial programming as well as a course project."
+    },
+    "CSE377":{
+        "CourseTitle":"Introduction to Medical Imaging",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "AMS161",
+                "MAT127"
+            ],
+            [
+                "AMS210",
+                "MAT211"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"An introduction to the mathematical, physical, and computational principles underlying modern medical imaging systems. Covers fundamentals of X-ray computer tomography, ultrasonic imaging, nuclear imaging, and magnetic resonance imaging (MRI), as well as more general concepts required for these, such as linear systems theory and the Fourier transform. Popular techniques for the visualization, segmentation, and analysis of medical image data are discussed, as well as applications of medical imaging, such as image-guided intervention. The course is appropriate for computer science, biomedical engineering, and electrical engineering majors."
+    },
+    "CSE378":{
+        "CourseTitle":"Introduction to Robotics",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "AMS161",
+                "MAT127"
+            ],
+            [
+                "AMS210",
+                "MAT211",
+                "MEC262"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"Introduces basic concepts in robotics including coordinate transformation, kinematics, dynamics, Laplace transforms, equations of motion, feedback and feedforward control, and trajectory planning. Covers simple and complex sensors (such as cameras), hybrid and behavior based control and path planning. Concepts are illustrated through laboratories using the LEGO Robot Kit."
+    },
+    "CSE380":{
+        "CourseTitle":"2D Game Programming",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "CSE216",
+                "CSE220",
+                "CSE260"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"An introduction to the fundamental concepts of computer game programming. Students design and develop original games for PCs applying proven game design and software engineering principles."
+    },
+    "CSE381":{
+        "CourseTitle":"3D Game Programming",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "CSE216",
+                "CSE220",
+                "CSE260"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"This course explores the concepts and technologies behind making 3D, networked games. This will include the examination of game engine creation as well as the use of middleware to build graphically sophisticated game systems."
+    },
+    "CSE385":{
+        "CourseTitle":"Analysis of Algorithms: Honors",
+        "Career":"Undergraduate",
+        "Credits":4.0,
+        "Prerequisites":[
+            [
+                "CSE150",
+                "CSE215",
+                "MAT200",
+                "MAT250"
+            ],
+            [
+                "AMS210",
+                "MAT211"
+            ],
+            [
+                "CSE214",
+                "CSE260"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"Algorithmic design and analysis for Computer Science Honors students. Mathematical analysis of a variety of computer algorithms including searching, sorting, matrix multiplication, fast Fourier transform, and graph algorithms. Time and space complexity. Upper-bound, lower-bound, and average-case analysis. Randomization. Introduction to NP completeness. Some machine computation is required for the implementation and comparison of algorithms. Not for credit in addition to CSE\/MAT 373."
+    },
+    "CSE390":{
+        "CourseTitle":"Special Topics in Computer Science",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "CSE214",
+                "CSE260"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"A lecture or seminar course on a current topic in computer science. May be repeated as the topic changes, but cannot be used more than twice to satisfy CSE major requirements."
+    },
+    "CSE391":{
+        "CourseTitle":"Special Topics in Computer Science",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "CSE214",
+                "CSE260"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"A lecture or seminar course on a current topic in computer science. May be repeated as the topic changes, but cannot be used more than twice to satisfy CSE major requirements."
+    },
+    "CSE392":{
+        "CourseTitle":"Special Topics in Computer Science",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "CSE214",
+                "CSE260"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"A lecture or seminar course on a current topic in computer science. May be repeated as the topic changes, but cannot be used more than twice to satisfy CSE major requirements."
+    },
+    "CSE393":{
+        "CourseTitle":"Special Topics in Computer Science",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "CSE214",
+                "CSE260"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"A lecture or seminar course on a current topic in computer science. May be repeated as the topic changes, but cannot be used more than twice to satisfy CSE major requirements."
+    },
+    "CSE394":{
+        "CourseTitle":"Special Topics in Computer Science",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "CSE214",
+                "CSE260"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"A lecture or seminar course on a current topic in computer science. May be repeated as the topic changes, but cannot be used more than twice to satisfy CSE major requirements."
+    },
+    "CSE416":{
+        "CourseTitle":"Software Engineering",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "CSE316"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"Introduces the basic concepts and modern tools and techniques of software engineering. Emphasizes the development of reliable and maintainable software via system requirements and specifications, software design methodologies including object-oriented design, implementation, integration, and testing; software project management; life-cycle documentation; software maintenance; and consideration of human factor issues."
+    },
+    "CSE475":{
+        "CourseTitle":"Undergraduate Teaching Practicum",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Students assist faculty in teaching by conducting a recitation or laboratory section that supplements a lecture course. The student receives regularly scheduled supervision from the faculty instructor. May be used as an open elective only and repeated once."
+    },
+    "CSE487":{
+        "CourseTitle":"Research in Computer Science",
+        "Career":"Undergraduate",
+        "Credits":"0.00 - 6.00",
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"An independent research project with faculty supervision. Only three credits of research electives (AMS 487, CSE 487, BME 499, ESE 499, ESM 499, ISE 487, and MEC 499) may be counted toward technical elective requirements. May not be taken for more than six credits."
+    },
+    "CSE488":{
+        "CourseTitle":"Internship in Computer Science",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Participation in local, state, national, or international private enterprise, public agencies, or nonprofit institutions. To obtain permission to register for the courses, students are required to submit proof that the work is related to their studies and the work will include a minimum of 180 hours during the semester. During the semester, the student will submit progress reports and a final report on their experience to the client and to the department. May be repeated up to a limit of 12 credits but can only be used once as a technical elective to satisfy CSE major requirements."
+    },
+    "CSE495":{
+        "CourseTitle":"Senior Honors Research Project I",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"A two-semester research project carried out under the supervision of a computer science faculty member. Students who enroll in CSE 495 must complete CSE 496 in the subsequent semester and receive only one grade upon completion of the sequence."
+    },
+    "CSE496":{
+        "CourseTitle":"Senior Honors Research Project II",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "CSE495"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"A two-semester research project carried out under the supervision of a computer science faculty member. Students must submit a written project report and make a presentation to the department at the year-end Honors Project Colloquium."
+    },
+    "CSE502":{
+        "CourseTitle":"Computer Architecture",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Topics covered include instruction pipelines and memory caches to improve computer performance; instruction-level parallelism;  machines: superscalar versus VLIW; cache and main memory hierarchy design tradeoffs; compiler optimizations to speed pipelines; low-power computer system design: processor, OS, and compiler support; graphics, DSP, and media processor design; disk I\/O system design; interconnections and networking; and introduction to parallel architecture.  Advanced topics include asynchronous microprocessors; FPGA-based reconfigurable computing; system on a chip; embedded processors; intelligent RAM and superconducting computers."
+    },
+    "CSE504":{
+        "CourseTitle":"Compiler Design",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"This course covers advanced topics in compilation, including memory management, dataflow analysis, code optimization, just-in-time compilation, and selected topics from compilation of object-oriented and declarative languages."
+    },
+    "CSE505":{
+        "CourseTitle":"Computing with Logic",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"The course explores logic-based computing and logic programming. It includes an introduction to programming in logic, covering basic techniques for solving problems in a logic programming system. Particular attention will be paid to user interface issues and how a logic system can provide a useful computing environment. The course covers implementation issues, emphasizing how a logic programming system generalizes both traditional programming language systems and traditional database systems."
+    },
+    "CSE506":{
+        "CourseTitle":"Operating Systems",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"This course is an in-depth study of important concepts and techniques found in modern computer operating systems.  The course focuses on an in-depth study of such important issues as virtual memory, resource management, locking and synchronization, file systems, networking, safety and security, and multiprocessor support, with an eye to recent directions in these areas. Textbook readings are supplemented where appropriate by papers from the research literature.  An important part of the course is the case study of an actual modern operating system (e.g., Linux).  Students study the source code for this operating system and do programming exercises and projects that involve modifying the operating system, testing their code's stability and functionality, and measuring its performance."
+    },
+    "CSE507":{
+        "CourseTitle":"Introduction to Computational Linguistics",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Overview of computational approaches to language use. Core topics include mathematical and logical foundations, syntax, semantics, and pragmatics. Special topics may include speech processing, dialog systems, machine translation, information extraction, and information retrieval. Statistical and traditional approaches are included. Students will develop familiarity with the literature and tools of the field."
+    },
+    "CSE508":{
+        "CourseTitle":"Network Security",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Principles and practice of Computer Network Security.  Cryptography, authentication protocols, public key infrastructures, IP\/www\/E-commerce security, firewalls, VPN, and intrusion detection."
+    },
+    "CSE509":{
+        "CourseTitle":"Computer System Security",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Principles and practice of building and administering secure systems.  Authentication and access control.  Operating system security.  Program security, database security.  Key management.  Information flow.  Assurance.  Vulnerability analysis and intrusion detection."
+    },
+    "CSE510":{
+        "CourseTitle":"Hybrid Systems",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Hybrid Systems combine discrete state-machines and continuous differential equations and have been used as models of a large number of applications such as real-time software, embedded systems, robotics, mechatronics, aerospace systems, process control and biological systems. The course will cover modeling, design, analysis, and verification methods for hybrid systems. Topics may include SAT\/SMT solvers, timed automata, formal logics for system specification, verification algorithms and closed-loop neural network control systems."
+    },
+    "CSE511":{
+        "CourseTitle":"Brain and Memory Modeling",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"An introduction to brain modeling. Neuroscience topics include major brain structures, constituent glia and neurons, and synapses connecting neurons; how excited neurons send ionic firing spikes to other neurons; synapse changes during learning and forgetting; connection structures for stable ionic activity in neural networks; and distributed firing patterns underlying memory, perception, and thought. Computing topics include efficient methods for modeling electrical activity in single neurons using NEURON and in networks of millions of neurons using discrete event simulation. Participants will code simulations OR use neuroscience experience to refine brain models."
+    },
+    "CSE512":{
+        "CourseTitle":"Machine Learning",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"A course on the fundamentals of machine learning, including basic models, formulations, and modern methods. Topics include PAC learnability, validation, classification, regression, clustering, component analysis, and graphical and deep learning models. Students are expected to have the following background: (i) working knowledge of probability theory and statistics, (ii) working knowledge of linear algebra and algorithms, and (iii) working knowledge of basic computer science principles at a level sufficient to write non-trivial computer programs in a language of preference."
+    },
+    "CSE514":{
+        "CourseTitle":"Data Analytics Software Stacks and Algorithms",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Architecture, and design of data analytics software stacks.  We will cover MapReduce\/Hadoop\/Dryad\/Twister, Hadoop File System (HDFS), HBASE, NOSQL tools such as MongoDB, Cassandra, HIVE; column oriented database systems such as Vertica and MonetDB.  We will also cover data analysis management systems that target the scientific domain such as ADIOS, sciDB; streaming systems such as IBM System S\/DataCutter.  Systems, data structures and algorithms to support management and analysis of spatio-temporal data from video cameras, satelliteds, telescopes or beamlines.  We will study statistical methods, machine learning and image anlysis\/reconstruction methods used in big data\/data analytic problems.  Finally, we will survey big data\/data analytic problems from several domains including biomedical analysis of multi scale, multi-modal biomedical imaging data, next generation genetic and demonic data, analysis of electronic medical record\/population heath data; internet,internet search, recommender systems; and engineering and physical science,analysis of experimental and simulation data associated with design of energetic materials, oil reservoir simulation, nuclear fusion and self-driving cars."
+    },
+    "CSE515":{
+        "CourseTitle":"Introduction to Transaction Processing Systems",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Discusses transaction processing systems.  Topics covered include models of transactions, including nested transactions and workflow; architectures of transaction processing systems, including client-server, two-tiered, and three-tiered architectures; concurrency controls for conventional and relational databases including two-phase locking and the SQL isolation levels; logging and recovery; distributed transactions including the two-phase commit protocol; replication; Internet commerce, including encryption, the SSL and SET protocols, goods atomicity, and electronic cash."
+    },
+    "CSE516":{
+        "CourseTitle":"Science for Society I",
+        "Career":"Graduate",
+        "Credits":1.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"This is part one of an interdisciplinary course sequence (1 credit each) is designed for students in computer science (CS) and students of technology and society (DTS). Students taking this course will enhance their abilities to critically think and build awareness for science and technology (ST) and their societal aspects. They will learn strategies for assessing important questions such as: what should I focus my efforts on, where are societal needs, what policies are required or can be taken advantage of, how can I possibly influence policy, and finally, what are the dangers when developing new ST. To teach these topics the course takes a practical approach. The first section of the sequence examines historical science and technology successes and failures. Then, in the second section, teams composed of students from both the CS and DTS departments conduct case studies of existing ST or design and implement new ST under the perspectives of the course.\n\n1 credit"
+    },
+    "CSE517":{
+        "CourseTitle":"Science for Society II",
+        "Career":"Graduate",
+        "Credits":1.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"This is part two of an interdisciplinary course sequence (1 credit each) is designed for students in computer science (CS) and students of technology and society (DTS). Students taking this course will enhance their abilities to critically think and build awareness for science and technology (ST) and their societal aspects. They will learn strategies for assessing important questions such as: what should I focus my efforts on, where are societal needs, what policies are required or can be taken advantage of, how can I possibly influence policy, and finally, what are the dangers when developing new ST. To teach these topics the course takes a practical approach. The first section of the sequence examines historical science and technology successes and failures. Then, in the second section, teams composed of students from both the CS and DTS departments  conduct case studies of existing ST or design and implement new ST under the perspectives of the course.\n\n1 credit"
+    },
+    "CSE518":{
+        "CourseTitle":"Foundations of Human Computer Interactions",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"The focus of this course is on the design, evaluation, and implementation of interactive computing systems for human use and on the study of major phenomena surrounding them.  This course will provide the students with a strong grounding in the guidelines, principles, methodologies, tools, and techniques for analyzing, designing, and evaluating user interfaces and interaction techniques.  Topics include: 1) Human Information Processing System 2) Interaction Behavior Modeling 3) Computational Interface Design 4) User Centered Design 5) Sketching and Prototyping 6) Usability Testing 7) Heuristic Evaluation 8) Natural User Interfaces & the Future of Uls 9) State-of-the-art research within HCI"
+    },
+    "CSE519":{
+        "CourseTitle":"Data Science Fundamentals",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"This course will cover the building blocks of data science from managing the data itself to algorithmic and analytical techniques. Specific topics include data preparation, exploratory data analysis, statistics, visualization, optimization, unstructured data, distributed analyses."
+    },
+    "CSE521":{
+        "CourseTitle":"Data Mining Concepts and Techniques",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Data Mining is a new, promising and flourishing interdisciplinary field drawing work from areas including database technology, artificial intelligence, machine learning, pattern recognition, high-performance computing, and data visualization. It focuses on issues relating to the feasibility, usefulness, efficiency, and scalability of techniques for automated extraction of patterns representing knowledge implicitly stored in large databases, warehouses, and other massive information repositories. The course gives a broad, yet in-depth overview of the field of data mining and presents one or two techniques in rigorous detail."
+    },
+    "CSE522":{
+        "CourseTitle":"Special Project in Computer Science",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Project in a sub-discipline of Computer Science, including but not limited to, computer architecture, operating systems, programming languages, compliers, artificial intelligence, networking, computer graphics, data mining, databases, computer vision, visualization, computer security, mobile computing, parallel processing, logic programming, hybrid systems, simulation and modeling, computational biology, and multimedia.\n3 Credits, ABCF Grading"
+    },
+    "CSE523":{
+        "CourseTitle":"Advanced Project in Computer Science I",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"First part of an advanced project in computer science that will extend over two semesters.  The student starts the project in one semester by registering for CSE523 and completes the project in a following semester by registering for CSE524.  CSE523\/524 sequence must be on the same project under the direction of the same advisor.  The student must identify a faculty advisor before registering.\n3 Credits, ABCF Grading"
+    },
+    "CSE524":{
+        "CourseTitle":"Advanced Project in Computer Science II",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Part 2 of a 2-semester advanced research and development project undertaken by MS students under the supervision of a CS graduate program faculty member.  The student starts the project in one semester by registering for CSE 523 and completes the project in a subsequent semester by registering for CSE 524 under the supervision of the same faculty member."
+    },
+    "CSE525":{
+        "CourseTitle":"Introduction to Robotics",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"This course introduces the fundamental concepts in robotics, including coordinate transformations, visual perception, sensors, path planning, kinematics, feedback control, and feedforward control. These topics will be exemplified with several state-of-the-art robotics platforms. The course will also focus on applying the fundamental concepts to the key approaches to mobile robot control (reactive, behavior-based, and hybrid), and briefly discuss robot learning and multi-robot systems."
+    },
+    "CSE526":{
+        "CourseTitle":"Principles of Programming Languages",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Discusses programming language concepts and design, with emphasis on abstraction mechanisms. Topics include language paradigms (procedural, object-oriented, functional, and logic), language concepts (values, bindings, types, modules), and foundations (lambda calculus, denotational semantics). Examples will be drawn from several representative languages, such as C, Java, Standard ML, and Prolog."
+    },
+    "CSE527":{
+        "CourseTitle":"Introduction to Computer Vision",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Introduction to basic concepts in computer vision. Low-level image analysis, image formation, edge detection, segmentation. Image transformations for image synthesis methods for 3D scene reconstruction, motion analysis, object recognition."
+    },
+    "CSE528":{
+        "CourseTitle":"Computer Graphics",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"This course emphasizes a hands-on approach to the use of computer graphics. The topics covered include models, picture description, and interaction; c windowing, clipping, panning, and zooming; geometrical transformations in 2D and 3D; algorithms for raster displays (scan-line conversion, polygon fill, polygon clipping, etc.); hidden line and hidden surface removal, shading models; user interaction. The students will implement a substantial graphics application program."
+    },
+    "CSE529":{
+        "CourseTitle":"Simulation and Modeling",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"A comprehensive course in formulation, implementation, and application of simulation models. Topics include data structures, simulation languages, statistical analysis, pseudo-random number generation, and design of simulation experiments. Students apply simulation modeling methods to problems of their own design. This course is offered as CSE 529, AMS 553 and MBA 553."
+    },
+    "CSE530":{
+        "CourseTitle":"Geometric Foundations of Graphics and Visualization",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"This course will focus on mathematical tools, geometric modeling techniques, and fundamental algorithms that are relevant to graphics, visualization, and other visual computing areas. The goal is to provide graduate students with a comprehensive knowledge of geometric concepts and demonstrate the significance of these mathematical tools and geometric algorithms in graphics and relevant areas. Course topics include geometric algorithms for both polygonal and curved objects, theory of parametric and implicit representations, modeling methods of curves, surfaces, and solids, in-depth spline theory, rudiments of wavelet theory and multi-resolution shape representations, differential geometry fundamentals, and other sophisticated topics and latest advances in the field."
+    },
+    "CSE531":{
+        "CourseTitle":"Performance Analysis of Systems",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"This is a new course that covers topics in the performance analysis of computer systems.  The contents of the course should prove very helpful for computer science students who wish to analyze computer systems and learn more about how to improve the performance of systems.  Existing courses do not cover this material.  The course is targeted primarily at PhD and Masters students in the Computer Science Department, however upper-level undergraduates can take the course as well.  In addition, students from AMS, Math and ECE would also benefit from the course contents."
+    },
+    "CSE532":{
+        "CourseTitle":"Theory of Database Systems",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"The course will cover advanced topics in modern database systems, including object-oriented databases, rule-based databases, temporal and active databases, parallel and distributed databases, distributed object model, data mining, online analytical processing, data warehousing, multimedia databases."
+    },
+    "CSE533":{
+        "CourseTitle":"Network Programming",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Topics include Unix and Linux socket API programming at the TCP, UDP, IP (raw sockets) and datalink access (Linux PF_PACKET sockets, libpcap & libnet libraries) levels, in the context of developing and implementing client-server applications, reliable data transfer using TCP-like rdt and flow control mechanisms, routing protocols, address resolution protocols, multicasting, DNS protocols."
+    },
+    "CSE534":{
+        "CourseTitle":"Fundamentals of Computer Networks",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Internet protocol layers. Internet Architecture. Link layer and multiple access protocols. Local area networks including wireless LANs. Routing on the Internet. Intra- and Inter-domain routing. Mobile routing. Transport layer and TCP congestion control. Scheduling and fairness. Application layers. Overlay and P2P networks. Content distribution networks. Network performance modeling."
+    },
+    "CSE535":{
+        "CourseTitle":"Distributed Systems",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Discusses asynchronous systems, their description using concurrent and distributed programming languages, and their verification. Topics include concurrent programming using shared memory and message passing, formal semantics of communication, reliability, and concurrent algorithms."
+    },
+    "CSE536":{
+        "CourseTitle":"Introduction to User-Interface Development",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Survey of user-interface systems, includes command language, windowing, multiple input\/output devices, architecture of user interface management systems, toolkits for designing user-interface, human factors, standards, visual languages.  The course also includes discussion of emerging technologies, such as systems for cooperative work, physically distributed user-interfaces, parallelism and user-interfaces, virtual reality.  A substantial project requiring the design, implementation, and evaluation of a user-interface will be required"
+    },
+    "CSE537":{
+        "CourseTitle":"Artificial Intelligence",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"A comprehensive introduction to the problems of artificial intelligence and techniques for attacking them.  Topics include problem representation, problem-solving methods, search, pattern recognition, natural language processing, learning, expert systems, and AI programming languages and techniques. Covers both theoretical methods and practical implementations."
+    },
+    "CSE538":{
+        "CourseTitle":"Natural Language Processing",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"The course offers an introduction to Natural Language Processing techniques and applications. The course introduces basic deep learning techniques for constructing representations of natural language texts, syntactic analyses, and canonical applications such as Question Answering, and Machine Translation. The emphasis is on understanding how (i) the basic requirements of language analyses and specific application needs can be formulated as learning problems, (ii) how aspects of natural language, such as syntactic and semantic structure, inspire the design of and are captured by modern state of the art techniques, and (iii) how to evaluate and understand the limitations and shortcomings of the models"
+    },
+    "CSE540":{
+        "CourseTitle":"Theory of Computation",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Topics include models of computation: finite-state machines, stack machines, Turing machines, Church's thesis; computability theory: halting problem and unsolvability, introductory recursion theory; complexity theory: complexity measures, time and space hierarchy, NP-complete problems."
+    },
+    "CSE541":{
+        "CourseTitle":"Logic in Computer Science",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"A survey of the logical foundations of mathematics and the relationships to computer science; development of propositional calculus and quantification theory; the notions of a proof and of a model; the completeness theorem."
+    },
+    "CSE542":{
+        "CourseTitle":"Big Data Systems, Algorithms and Networks",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Recent progress on big data systems, algorithms and networks.  Topics include the web graph, search engines, targeted advertisements, online algorithms and competitive analysis, and analytics, storage, resource allocation, and security in big data systems.\nOffered in the Spring Semester"
+    },
+    "CSE544":{
+        "CourseTitle":"Probability and Statistics for Data Scientists",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"The course will cover core concepts of probability theory and an assortment of standard statistical techniques.  Specific topics will include random variables and distributions, quantitative research methods (correlation and regression), and modern techniques of optimization and matching learning (clustering and prediction)."
+    },
+    "CSE545":{
+        "CourseTitle":"Big Data Analytics",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"The course will cover concepts and standard tools used to analyze, so called, Big Data.  Specifically, it will cover algorithmic approaches to analyzing large datasets: MapReduce, graph analytics, text analytics, steaming algorithms, as well as modern distribution analysis platforms (e.g. Hadoop, Spark)."
+    },
+    "CSE546":{
+        "CourseTitle":"Cryptography",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Cryptography studies how to perform computational tasks securely in adversarial environments. It plays an important role in designing secure systems. This is an introductory course that covers basic concepts and proof techniques in this area, as well as some recent research trends. The course is theoretical in nature, with emphasis on proofs and algorithmic reductions, even when discussing applied topics. No prior background in cryptography is assumed. However, students should have mathematical maturity and be comfortable with definitions and proofs."
+    },
+    "CSE547":{
+        "CourseTitle":"Discrete Mathematics",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"This course introduces such mathematical tools as summations, number theory, binomial coefficients, generating functions, recurrence relations, discrete probability, asymptotics, combinatorics, and graph theory for use in algorithmic and combinatorial analysis. This course is offered as both CSE 547 and AMS 547."
+    },
+    "CSE548":{
+        "CourseTitle":"Analysis of Algorithms",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Techniques for designing efficient algorithms, including choice of data structures, recursion, branch and bound, divide and conquer, and dynamic programming. Complexity analysis of searching, sorting, matrix multiplication, and graph algorithms. Standard NP-complete problems and polynomial transformation techniques.  This course is offered as both AMS 542 and CSE 548."
+    },
+    "CSE549":{
+        "CourseTitle":"Computational Biology",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"This course focuses on current problems in computational biology and bioinformatics. Our emphasis will be algorithmic, on discovering appropriate combinatorial algorithm problems and the techniques to solve them. Primary topics will include DNA sequence assembly, DNA\/protein sequence comparison, hybridization array analysis, RNA and protein folding, and phylogenic trees."
+    },
+    "CSE550":{
+        "CourseTitle":"Quantum Computing and Applications",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"This course is an introduction to and survey of the Quantum Computing, an emerging interdisciplinary field of science which has the potential to revolutionize computation over the next ten years, to transform chemistry, medicine, engineering and communications, as well as to change our understanding of physical world. The course will build intuitive approach to quantum computation and algorithms, but also will advance relevant vocabulary and skills for faculties and graduate students in engineering, computing, applied mathematics, chemistry, physics and related sciences."
+    },
+    "CSE551":{
+        "CourseTitle":"Smart Energy in the Information Age",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Energy and sustainability have become critical issues of our generation.  While the abundant potential of renewable energy sources, such as solar and wind, provides a real opportunity for sustainability, their intermittency and uncertainty present a daunting operational challenge.  This course studies how to use Information Technology (IT) to improve sustainability in our energy-hungry society.  In particular, topics include the applications of mathematical modeling, algorithm design, optimization, game theory, and control theory in real systems.  The goal of the course is to provide rigorous foundations for the study of smart energy management for sustainability.\nOffered in the Spring Semester"
+    },
+    "CSE552":{
+        "CourseTitle":"Energy Efficient Computing",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Energy is an important resource for a wide range of computer systems from laptops to data centers and clouds. There has been considerable recent research on the topic of of improving energy efficiency, cutting across different areas of Computer Science including Computer Architecture (e.g., energy efficient processor design), Networking (e.g., putting the network to sleep), Storage (e.g., exploiting idle I\/O periods to spin down disks), Distributed Systems (e.g., capacity provisioning), Mobile Systems (e.g., putting the radio receiver to sleep in a smartphone), and Modeling\/Analytics (e.g., modeling a server's power consumption). This course covers the recent research trends in energy-efficient computing, focusing specifically on themes and techniques for achieving efficiency in computer systems."
+    },
+    "CSE555":{
+        "CourseTitle":"Computational Geometry",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Study of the fundamental algorithmic problems associated with geometric computations, including convex hulls, Voronoi diagrams, triangulation, intersection, range queries, visibility, arrangements, and motion planning for robotics.  Algorithmic methods include plane sweep, incremental insertion, randomization, divide-and-conquer, etc.  This course is offered as both AMS 545 and CSE 555."
+    },
+    "CSE564":{
+        "CourseTitle":"Visualization",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"The course emphasizes a hands-on approach to scientific, medical, and information visualization and visual analytics. Topics include: traditional visualization techniques, the visualization process, visual perception and cognition, basic graphics and imaging concepts, visualization of sampled, observed, and computed data, volume and flow visualization, information visualization, human-computer interaction, and the coupling of intelligent computing with visualization"
+    },
+    "CSE566":{
+        "CourseTitle":"Virtual Reality",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Virtual Reality (VR) is a fast-moving technology and has the potential to revolutionize our lives. VR stimulates the user\u00bfs senses, thereby believing in an artificial version of reality. The course will cover VR fundamentals and technologies and related topics, including an introduction to VR, VR systems, geometry and transformations in VR, viewing and projections, light, optics, and human vision physiology, temporal human vision and perception, motion, vection, and tracking, 3D user interfaces (selection, manipulation, and travel), augmented reality (AR), audio in VR, and non-visual senses."
+    },
+    "CSE570":{
+        "CourseTitle":"Wireless and Mobile Networks",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Wireless communication fundamentals: wireless signal transmission, coding, multiplexing. Link, network, and transport layer protocols for wireless and mobile networking: medium access control, transmission scheduling, wireless capacity, protocols for wireless multi-hop networks. Cellular networks. Wireless LANs: mobile IP, TCP over wireless networks. Mobile applications. Localization and location management, Network coding. Wireless security."
+    },
+    "CSE577":{
+        "CourseTitle":"Medical Imaging",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"This course presents an introduction to the mathematical, physical, and computational principles underlying modern medical imaging systems. It covers fundamentals of X-ray radiography, X-ray computed tomography (CT), ultrasonic imaging, nuclear imaging, magnetic resonance imaging (MRI), and functional MRI (fMRI), as well as more general concepts required for these, such as linear systems theory, the Fourier Transform, and numerical optimization. Popular techniques for the visualization, segmentation, and analysis of medical image data will also be discussed, as well as applications of medical imaging, such as image-guided intervention."
+    },
+    "CSE581":{
+        "CourseTitle":"Computer Science Fundamentals: Theory",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"The course consists of two parts. The first part covers discrete mathematics -- a division of mathematics that is extensively used in computer science. The topics covered include: logic (propositional logic and predicate logic), proof techniques, sequences (mathematical induction and recursion), and functions. The second part covers the theory of computation -- a division of theoretical computer science that deals with what can be computed and what cannot be computed on a computer. The topics covered include: computational models (FA, PDA, and Turing machines), grammars accepted by different computational models (regular grammars, context-free grammars, and unrestricted grammars), languages accepted by different computational models (regular languages, context-free language, and Turing-acceptable languages), Turing-complete systems, and algorithmically unsolvable problems."
+    },
+    "CSE582":{
+        "CourseTitle":"Computer Science Fundamentals: Data Structures and Algorithms",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"The course consists of two parts. The first part covers data structures to efficiently store, organize, modify, and access data. Topics include: arrays, stacks, queues, linked lists, trees, sets, hash maps, priority queues, and graphs. The second part covers the design and analysis of algorithms for solving computer science problems. Topics include: algorithm analysis, exhaustive search algorithms, divide-and-conquer algorithms, greedy algorithms, and dynamic programming algorithms."
+    },
+    "CSE583":{
+        "CourseTitle":"Comp Sci Fundamentals: Prog.Abstract.",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Programming concepts and paradigms, including functional programming, object-orientation, basics of type systems, program and data abstractions, parameter passing, and modularity."
+    },
+    "CSE587":{
+        "CourseTitle":"Proficiency Requirement",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"This course is used by students to fill any gaps in key CS proficiency background) areas identified at the time of admission. This course is done under the supervision of a faculty member teaching an undergraduate course in the needed proficiency area.  By permission of the Graduate Program only."
+    },
+    "CSE590":{
+        "CourseTitle":"Topics in Computer Science",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"An advanced lecture course on a new topic in computer science.  The course is primarily designed for M.S. students, but can be taken by Ph.D. students as well.  Semester supplements to this Bulletin contain specific description when course is offered.  May be repeated for credit as the topic changes, but cannot be used more than twice to satisfy CSE major requirements for M.S.  Limited to CSE graduate students; others permission of instructor.\nSpring,"
+    },
+    "CSE591":{
+        "CourseTitle":"Topics in Computer Science",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"An advanced lecture course on a new topic in computer science.  The course is primarily designed for M.S. students, but can be taken by Ph.D. students as well.  Semester supplements to this Bulletin contain specific description when course is offered.  May be repeated for credit as the topic changes, but cannot be used more than twice to satisfy CSE major requirements for M.S.  Limited to CSE graduate students; others, permission of instructor.\nSpring,"
+    },
+    "CSE592":{
+        "CourseTitle":"Advanced Topics in Computer Science",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"An advanced lecture course on a new topic in computer science.  The course is primarily designed for M.S. students, but can be taken by Ph.D. students as well.  Semester supplements to this Bulletin contain specific description when course is offered.  may be repeated for credit as the topic changes, but cannot be used more than twice to satisfy CSE major requirements for M.S.  Limited to CSE graduate students; others, permission of instructor.\nSpring,"
+    },
+    "CSE593":{
+        "CourseTitle":"Independent Study in Computer Science",
+        "Career":"Graduate",
+        "Credits":"1.00 - 9.00",
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Research and\/or project work under the supervision of a Computer Science graduate program faculty."
+    },
+    "CSE594":{
+        "CourseTitle":"Advanced Topics in Computer Science",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"An advanced lecture course on a new topics in computer science.  This course is primarily designed for M.S. students, but can be taken by Ph.D. students as well.  Semester supplements to this Bulletin contain specific description when course is offered.  May be repeated as the topic changes, but cannot be used more than twice to satisfy the CSE major requirements for the M.S.\nFall, Spring, every year,"
+    },
+    "CSE595":{
+        "CourseTitle":"Advanced Topics in Computer Science",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"An advanced lecture course on a new topic in computer science.  This course is primarily designed for M.S. students, but can be taken by Ph.D. students as well.  Semester supplements to this Bulletin contain specific description when course is offered.  May be repeated for credit as the topic changes, but cannot be used more than twice to satisfy the SCE major requirements for the M.S.\nFall, Spring, every year,"
+    },
+    "CSE596":{
+        "CourseTitle":"MS Internship Project Off-Campus",
+        "Career":"Graduate",
+        "Credits":1.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Participation in internships at private corporations, public agencies, or non-profit institutions. Students will be required to have a faculty coordinator as well as a contact in the outside organization to participate with them in regular consultations on the project, and to submit a final report to both. This course is intended for MS students interning off campus."
+    },
+    "CSE597":{
+        "CourseTitle":"MS Internship Project on Campus",
+        "Career":"Graduate",
+        "Credits":1.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Participation in internships at private corporations, public agencies, or non-profit institutions. Students will be required to have a faculty coordinator as well as a contact in the outside organization to participate with them in regular consultations on the project, and to submit a final report to both. This course is intended for MS students interning on campus."
+    },
+    "CSE599":{
+        "CourseTitle":"M.S. Thesis Research",
+        "Career":"Graduate",
+        "Credits":"1.00 - 12.00",
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Thesis research under supervision of CS graduate program faculty for MS students."
+    },
+    "CSE600":{
+        "CourseTitle":"Research in Modern Computer Science",
+        "Career":"Graduate",
+        "Credits":"0.00 - 1.00",
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"A survey of current computer science research areas and issues. This course comprises lectures by faculty members and visitors, selected readings, and introductory-level research problems.\nPrerequisite: Permission of instructor"
+    },
+    "CSE602":{
+        "CourseTitle":"Advanced Computer Architecture",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"The focus will be on the architectural rather than micro-architectural issues, and a systems approach to computer architecture taking into account the interaction between the architecture and the compiler, operating system, database, and networking.  The course starts with superscalar\/VLIW processor architecture and proceeds to memory hierarchy, storage systems, network hardware, graphics processor, and database machines.  The emphasis will be on hands-on evaluation of architectural ideas, the exploration of software\/hardware design trade-offs, and the articulation of experimental procedures and performance analysis. A publication-quality class project will be required. \nPrerequisite: CSE 502 or permission of instructor"
+    },
+    "CSE605":{
+        "CourseTitle":"Performance Evaluation of Computer Systems",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"The purpose of this course is to provide background and training in understanding and evaluating the performance of computer systems, including centralized, distributed, parallel, client\/server-based systems, and computer communication networks. The goal is to develop a perspective on how the performance of computer systems or networks should be evaluated in order to decide on various design alternatives. The course will include various analytical techniques, mainly based on Markov models and queuing theory, and simulation modeling."
+    },
+    "CSE608":{
+        "CourseTitle":"Advanced Computer Security",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "CSE508",
+                "CSE509"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"Advanced course on principles and practice of engineering secure information systems. Topics covered include threats and vulnerabilities, counter measures, legal policy issues, risk management and assurance. In-depth coverage of various research problems, which will vary from one offering of the course to another.\nPrerequisite: CSE 508 or CSE 509 or permission of instructor.\nFall, Spring"
+    },
+    "CSE610":{
+        "CourseTitle":"Parallel Computer Architectures",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Topics include parallel computer systems; important parallel applications; parallel computation models; interconnection networks; SIMD and MIMD architectures; hybrid architectures; memory management; cache coherence; distributed shared memory; synchronization methods; operating systems; compilers; and programming tools.\nPrerequisite: CSE 502 or permission of instructor"
+    },
+    "CSE613":{
+        "CourseTitle":"Parallel Programming",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Algorithms and techniques for programming highly parallel computers. Trends in parallel and distributed computing; shared address space and message passing architectures; design issues for parallel algorithms; converting sequential algorithms into equivalent parallel algorithms; synchronization and data sharing; improving performance of parallel algorithms; interconnection network topologies, routing, and flow control; latency limits on speedup of algorithms by parallel implementations."
+    },
+    "CSE614":{
+        "CourseTitle":"Advanced Programming Languages",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Selected topics on advanced programming languages technology. Program analysis and transformation, program optimization and program manipulation systems. Very high-level and declarative languages such as sets and relations based languages and deductive and object-oriented languages.\nPrerequisite: CSE 526 or CSE 504\nSpring,"
+    },
+    "CSE615":{
+        "CourseTitle":"Advanced Computer Vision",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Survey of methods used for the analysis of images by computer, including computer vision and pattern recognition.  Topics to be covered are image formation, image segmentation, and edge detection, binary images, and shape analysis, shape from shading, motion field, and optical flow, surface inference, classification techniques."
+    },
+    "CSE617":{
+        "CourseTitle":"Advanced Topics in Wireless Networks",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Advance topics taken from ad hoc wireless networks and sensor networks.  Will comprise of lectures, presentations and\/or a project. \nPrerequisite: Limited to CSE graduate students; others, permission of instruction.\nFall and Spring, 3 credits, ABCF grading\nMay be repeated twice for credit."
+    },
+    "CSE620":{
+        "CourseTitle":"Virtual Reality",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Practical issues in the design and implementation of virtual environments. Topics include system requirements, transformations, user-interaction models, human vision models, input\/output devices and techniques, tracking systems, augmented reality, and virtual-reality applications. The course will involve a substantial programming project to implement an immersive virtual reality system. \nPrerequisite: CSE 328 or 528 or 332 or 564"
+    },
+    "CSE621":{
+        "CourseTitle":"Physics-based Modeling for Visual Computing",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"A unified approach to various fields such as graphics, visualization, computer-aided geometric design, biomedical imaging, vision, and virtual environment. The course will explore select research topics centered on physics-based modeling methodology and associated computational methods for theoretical and practical problems in widespread areas of visual computing. The emphasis will be on geometric and solid modeling, geometric design techniques, wavelets and multi-resolution analysis, deformable models based on mathematical physics, variational analysis, optimization methods, numerical simulation with finite-difference and finite-element algorithms, differential equations for initial-value and boundary-value problems, force-driven interaction with constraints, dynamic sculpting system, and a large variety of applications for visual computing.\nPrerequisite: CSE 528 or permission of instructor"
+    },
+    "CSE624":{
+        "CourseTitle":"Advanced Operating Systems",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "CSE506"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"Students will study advanced operating system topics and be exposed to recent developments in operating systems research. In addition to being conversant in classic and recent research papers, this course aims to teach students to read research papers critically, formulate new research questions, and evaluate these questions experimentally. Topics to be covered typically include: distributed systems, cloud computing and data centers, operating system design, virtual machines, OS interaction with the hardware architecture, synchronization and communication, file systems, and security."
+    },
+    "CSE625":{
+        "CourseTitle":"Advanced Asynchronous Systems",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Formal specification and verification of asynchronous systems. Topics include concurrent programming, process algebras, logics for describing the properties of concurrent systems, and formal semantics of communication.\nPrerequisite: CSE 535 or permission of instructor."
+    },
+    "CSE626":{
+        "CourseTitle":"Switching and Routing in Parallel and Distributed Systems",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"This course covers various switching and routing issues in parallel and distributed systems. Topics include message switching techniques, design of interconnection networks, permutation, multicast and all-to-all routing in various networking nonblocking, and rearrangable capability analysis and performance modeling.\nPrerequisite: ESE 503 and 545 or CSE 502 and 547, or permission of instructor"
+    },
+    "CSE628":{
+        "CourseTitle":"Natural Language Processing",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"The course offers computationally-oriented introduction to natural language processing (NLP). The focus is on modern quantitative techniques in NLP: algorithms and statistical approaches to word-level, syntactic, and semantic processing of natural language.  The choice of topics includes practically motivated questions in NLP such as (1) can we teach computers to automatically detect authorship of a document? (2) can computers automatically suggest paraphrases (phrases with similar meaning) to help with writing?\nPrerequisite:  Familiarity with either Artificial Intelligence or Machine Learning is strongly recommended, but not absolutely required.\nLimited to CSE Graduate Students\nFall and Spring, 3 Credits, ABCF Grading"
+    },
+    "CSE633":{
+        "CourseTitle":"Computability and Undecidability",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Computability theory based on Turing machines and recursive functions; proof by diagonalization and reducibility; unsolvable problems in set, group, number and language theory; reducibility orderings and degrees of unsolvability; priority methods and Post's problem.  Prerequisite:  CSE 540 or consent of instructor.\nSpring"
+    },
+    "CSE638":{
+        "CourseTitle":"Advanced Algorithms",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"This is an advanced course in the design and analysis of combinatorial algorithms, focusing on recent material and special topics, including randomized algorithms, approximation algorithms for NP-complete problems, string algorithms, amortized analysis of data structures, and heuristic methods such as simulated annealing. Material will be selected to have little or no overlap with traditional introductory algorithms courses.\nPrerequisite: CSE 548 or permission of instructor"
+    },
+    "CSE639":{
+        "CourseTitle":"Seminar in Advanced Topics in Computer Science",
+        "Career":"Graduate",
+        "Credits":1.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":""
+    },
+    "CSE641":{
+        "CourseTitle":"Seminar in Logic in Computer Science",
+        "Career":"Graduate",
+        "Credits":1.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":""
+    },
+    "CSE642":{
+        "CourseTitle":"Seminar in Algorithms",
+        "Career":"Graduate",
+        "Credits":1.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":""
+    },
+    "CSE643":{
+        "CourseTitle":"Seminar in Concurrency",
+        "Career":"Graduate",
+        "Credits":1.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":""
+    },
+    "CSE644":{
+        "CourseTitle":"Seminar in Databases",
+        "Career":"Graduate",
+        "Credits":1.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":""
+    },
+    "CSE645":{
+        "CourseTitle":"Seminar in Languages",
+        "Career":"Graduate",
+        "Credits":1.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":""
+    },
+    "CSE646":{
+        "CourseTitle":"Seminar in Artificial Intelligence",
+        "Career":"Graduate",
+        "Credits":1.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":""
+    },
+    "CSE648":{
+        "CourseTitle":"Seminar in Graphics",
+        "Career":"Graduate",
+        "Credits":1.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":""
+    },
+    "CSE649":{
+        "CourseTitle":"Seminar in Operating Systems",
+        "Career":"Graduate",
+        "Credits":1.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":""
+    },
+    "CSE650":{
+        "CourseTitle":"Seminar in Architecture",
+        "Career":"Graduate",
+        "Credits":1.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":""
+    },
+    "CSE651":{
+        "CourseTitle":"Seminar in Secure Computation",
+        "Career":"Graduate",
+        "Credits":1.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":""
+    },
+    "CSE652":{
+        "CourseTitle":"Seminar in User Interfaces",
+        "Career":"Graduate",
+        "Credits":1.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":""
+    },
+    "CSE653":{
+        "CourseTitle":"Seminar in Virtual Reality",
+        "Career":"Graduate",
+        "Credits":1.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":""
+    },
+    "CSE654":{
+        "CourseTitle":"Seminar in Visualization",
+        "Career":"Graduate",
+        "Credits":1.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":""
+    },
+    "CSE655":{
+        "CourseTitle":"Seminar in Natural Language Processing",
+        "Career":"Graduate",
+        "Credits":1.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":""
+    },
+    "CSE656":{
+        "CourseTitle":"Seminar in Computer Vision",
+        "Career":"Graduate",
+        "Credits":1.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Current readings in computer vision and image understanding.\nPrerequisite: Limited to CSE graduate students; others need instructor consent\nFall,\nMay be repeated for credit"
+    },
+    "CSE657":{
+        "CourseTitle":"Seminar in Design Analysis",
+        "Career":"Graduate",
+        "Credits":1.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Methods for constructing reliable and efficient computer systems. Topics include: modeling and specification, analysis and verification, design and optimization, code generation, simulation and testing. Tool support. Applications and case studies.\nPrerequisite: Limited to CSE graduate students; others need instructor consent\nFall,\nMay be repeated for credit"
+    },
+    "CSE658":{
+        "CourseTitle":"Seminar on Mobile and Wireless Networking",
+        "Career":"Graduate",
+        "Credits":1.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"This seminar course will draw topics from mobile and wireless networks of current interest. The main focus will be multi-hop wireless networks. It will cover topics on mobile routing, multiple access and transport protocols for such networks. It will also cover topics from micromobility architectures and pervasive computing.\nPrerequisites: Limited to CSE graduate students; others permission of instructor.\nFall,"
+    },
+    "CSE659":{
+        "CourseTitle":"Seminar in Computer Security",
+        "Career":"Graduate",
+        "Credits":1.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Seminar course, covering various research problems in computer security.\nSpring,"
+    },
+    "CSE660":{
+        "CourseTitle":"Seminar in Sustainable Computing",
+        "Career":"Graduate",
+        "Credits":1.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Seminar course which focuses on research in sustainable computing."
+    },
+    "CSE661":{
+        "CourseTitle":"Seminar in Data Privacy",
+        "Career":"Graduate",
+        "Credits":1.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Current research in Data Privacy.\nLimited to CSE graduate students; others, permission of instructor.\nSpring,"
+    },
+    "CSE662":{
+        "CourseTitle":"Seminar in Medical Imaging",
+        "Career":"Graduate",
+        "Credits":1.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":""
+    },
+    "CSE663":{
+        "CourseTitle":"Cyber Physical Systems and Verification",
+        "Career":"Graduate",
+        "Credits":1.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Seminar course which focuses on research in Cyber-Physical Systems and Verification."
+    },
+    "CSE664":{
+        "CourseTitle":"Distributed Systems",
+        "Career":"Graduate",
+        "Credits":1.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Seminar course which focuses on research in Distributed Systems."
+    },
+    "CSE665":{
+        "CourseTitle":"Special Topics in Theory of Computing",
+        "Career":"Graduate",
+        "Credits":2.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":""
+    },
+    "CSE669":{
+        "CourseTitle":"Special Topics in Databases",
+        "Career":"Graduate",
+        "Credits":2.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":""
+    },
+    "CSE670":{
+        "CourseTitle":"Special Topics in Languages",
+        "Career":"Graduate",
+        "Credits":2.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":""
+    },
+    "CSE671":{
+        "CourseTitle":"Special Topics in Artificial Intelligence",
+        "Career":"Graduate",
+        "Credits":2.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":""
+    },
+    "CSE672":{
+        "CourseTitle":"Special Topics in Image Processing",
+        "Career":"Graduate",
+        "Credits":2.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":""
+    },
+    "CSE674":{
+        "CourseTitle":"Special Topics in Operating Systems",
+        "Career":"Graduate",
+        "Credits":2.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":""
+    },
+    "CSE677":{
+        "CourseTitle":"Special Topics in User Interfaces",
+        "Career":"Graduate",
+        "Credits":2.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":""
+    },
+    "CSE681":{
+        "CourseTitle":"Special Topics in Computer Vision",
+        "Career":"Graduate",
+        "Credits":2.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Advanced research topics course.\nPrerequisite: Limited to CSE graduate students; others need instructor consent\nFall,\nMay be repeated for credit"
+    },
+    "CSE684":{
+        "CourseTitle":"Special Topics in Computer Security",
+        "Career":"Graduate",
+        "Credits":2.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Special topics course, covering selected research areas in computer security.\nSpring,"
+    },
+    "CSE686":{
+        "CourseTitle":"Special Topics in Data Privacy",
+        "Career":"Graduate",
+        "Credits":2.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Advanced research topics course.\nLimited to CSE graduate students; others, permission of instructor.\nSpring,"
+    },
+    "CSE687":{
+        "CourseTitle":"Special Topics in Applied Cryptography",
+        "Career":"Graduate",
+        "Credits":2.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":""
+    },
+    "CSE690":{
+        "CourseTitle":"Advanced Topics in Computer Science",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"An advanced lecture course on a new topics in computer science.  This course is primarily designed for PhD students, but can be taken by M.S. students as well.  Semester supplements to this Bulletin contain specific description when course is offered.  May be repeated for credit as the topic changes, but cannot be used more than twice to satisfy CSE major requirements for M.S.  Limited to CSE graduate students; others permission of instructor\nSpring,"
+    },
+    "CSE691":{
+        "CourseTitle":"Advanced Topics in Computer Science",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"An advanced course on a new topic in computer science.  This course is primarily designed for Ph.D. students, but can be taken by M.S. students as well.  Semester supplements to this Bulletin contain specific description when course is offered.  may be repeated for credit as the topic changes, but cannot be used more than twice to satisfy CSE major requirements for M.S.  Limited to CSE graduate students; others permission of instructor.\nSpring,"
+    },
+    "CSE692":{
+        "CourseTitle":"Advanced Topics in Computer Science",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"An advanced lecture course on a new topic in computer science.  This course is primarily designed for Ph.D. students, but can  be taken by M.S. students as well.  Semester supplements to this Bulletin contain specific description when course is offered.  may be repeated for credit as the topic changes, but cannot be used more than twice to satisfy CSE major requirements for M.S.  Limited to CSE graduate students; others permission of instructor.\nSpring,"
+    },
+    "CSE693":{
+        "CourseTitle":"Advanced Topics in Computer Science",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"An advanced lecture course on a new topic in Computer Science.  This course is primarily designed for Ph.D. students, but can be taken by M.S. students as well.  Semester supplements to this Bulletin contain specific description when course is offered.  May be repeated for credit as the topic changes, but cannot be used more than twice to satisfy CSE major requirements for M.S.   Limited to CSE graduate students; others permission of instructor."
+    },
+    "CSE694":{
+        "CourseTitle":"Seminar in Sustainable Computing",
+        "Career":"Graduate",
+        "Credits":1.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Sustainability is a societal problem that affects us all. With the recent emphasis on the adverse impact of carbon emissions from data centers, there is renewed interest from industry, government, and  acaemia in making computing more sustainable. This seminar course will cover recent advances in this space. Specifically, we will first discuss the nature of the problem and the cost of unsustainable data center operations, especially for Al workloads. We will then discuss factors that contribute to unsustainable operations in data centers and computing broadly, including operational and embedded carbon. The remaining of the course will focus on defining the problem, the metrics of sustainability in computing, and possible approaches to stem unsustainable computing in data centers, including  space-and time-scheduling of workloads to better leverage clean energy, lowering the compute demand of workloads, and harnessing latest hardware advances to reduce embodied carbon in computing.\n\nThis 1-credit seminar course will cover topics in computation sustainability, including (but not limited to):\n- definition of computational sustainability, including components and metrics of sustainability used in research and practice\n- current state of computational sustainability in data centers and for specific workloads, such as Al and ML training\n- unsustainable practices in data centers and computing and reasons behind them\n- survey of proposed solutions in literature and discussion\n\nStudents enrolling for the seminar will be expected to lead at least 2 weekly meetings by summarizing recent papers on computational sustainability, and to participate in all meeting discussions."
+    },
+    "CSE695":{
+        "CourseTitle":"Seminar in Deep Learning Theory",
+        "Career":"Graduate",
+        "Credits":1.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"This course will cover some recent optimization theory as it relates to training deep neural networks, covering topics including:\n\n- landscape analysis of overparameterized nonconvex networks\n- implicit bias of gradient descent\n- tools for computing generalization bounds\n- the neural tangent kernel as an analysis tool\n\nStudents enrolling for the course will be expected to watch a handful of online lectures, lead at\nleast 1 weekly meeting which either summarizes a paper or an online lecture, and participate in\nall meeting discussions."
+    },
+    "CSE696":{
+        "CourseTitle":"PhD Internship Project Off-Campus",
+        "Career":"Graduate",
+        "Credits":"1.00 - 3.00",
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Participation in internships at private corporations, public agencies, or non-profit institutions. Students will be required to have a faculty coordinator as well as a contact in the outside organization to participate with them in regular consultations on the project, and to submit a final report to both. This course is intended for PhD students interning off campus."
+    },
+    "CSE697":{
+        "CourseTitle":"PhD Internship Project On Campus",
+        "Career":"Graduate",
+        "Credits":1.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Participation in internships at private corporations, public agencies, or non-profit institutions. Students will be required to have a faculty coordinator as well as a contact in the outside organization to participate with them in regular consultations on the project, and to submit a final report to both. This course is intended for PhD students interning on campus."
+    },
+    "CSE698":{
+        "CourseTitle":"Practicum in Teaching",
+        "Career":"Graduate",
+        "Credits":"0.00 - 3.00",
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Supervised teaching in a course identified by the student and the Graduate Program Director."
+    },
+    "CSE699":{
+        "CourseTitle":"Dissertation Research on Campus",
+        "Career":"Graduate",
+        "Credits":"0.00 - 9.00",
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Thesis research for PhD students who have advanced to candidacy (G5 status).  This course is taken by students when a major portion of the research is done on campus, at Cold Spring Harbor, or at the Brookhaven National Lab."
+    },
+    "CSE700":{
+        "CourseTitle":"Dissertation Research off Campus - Domestic",
+        "Career":"Graduate",
+        "Credits":"0.00 - 9.00",
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Prerequisite: Must be advanced to candidacy (G5). Major portion of research will take place off-campus, but in the United States and\/or U.S. provinces. Please note, Brookhaven National Labs and the Cold Spring Harbor Lab are considered on-campus.\nAll international students must enroll in one of the graduate student insurance plans and should be advised by an International Advisor.\nFall, Spring, Summer"
+    },
+    "CSE701":{
+        "CourseTitle":"Dissertation Research off Campus - International",
+        "Career":"Graduate",
+        "Credits":"0.00 - 9.00",
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Prerequisite: Must be advanced to candidacy (G5). Major portion of research will take place outside of the United States and\/or U.S. provinces.\nDomestic students have the option of the health plan and may also enroll in MEDEX.\nInternational students who are in their home country are not covered by mandatory health plan and must contact the Insurance Office for the insurance charge to be removed.\nInternational students who are not in their home country are charged for the mandatory health insurance. If they are to be covered by another insurance plan they must file a waiver be second week of classes. The charge will only be removed if other plan is deemed comparable.\nAll international students must received clearance from an International Advisor.\nFall, Spring, Summer"
+    },
+    "CSE800":{
+        "CourseTitle":"FT SUMMER RESEARCH",
+        "Career":"Graduate",
+        "Credits":0.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":""
+    }
+}
