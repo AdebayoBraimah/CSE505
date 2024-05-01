@@ -1,0 +1,11 @@
+// Student info
+id12345:Grad[Name->Socrates, CoursesTaken->{CSE512,CSE527,CSE545,CSE600}, Degree->PHD].
+id45678:Grad[Name->Xenophon, CoursesTaken->{CSE512,CSE527,CSE545}, Degree->MS].
+id91011:Undergrad[Name->Plato, CoursesTaken->{CSE214,CSE215}, Degree->BS].
+
+/* 
+  NOTES: 
+  	Perhaps split students into 3 different files, e.g. ug_students, g_students, phd_students.
+	See this link:
+	https://sites.google.com/coherentknowledge.com/ergoai-tutorial/ergoai-tutorial/multifile-knowledge-bases#h.p_ID_90
+*/

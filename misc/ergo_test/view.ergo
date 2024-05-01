@@ -1,0 +1,11 @@
+//:- compiler_options{production=on,expert=on,prolog=[spec_repr]}
+:- compiler_options{expert=on, omni=on}.
+
+/* NOTES:
+  p(a:b), p(a,f(c::d)), a:b[c->d:f].
+  p(?X) :- ?X:foo, ...
+*/
+
+// Conceptual view of the data
+?CrsN:Course[CourseTitle->?Title] :-  ?Id[CourseNumber->?CrsN, CourseTitle->?Title]@rawdata.
+?CrsN[Career->?Career] :-  ?Id[CourseNumber->?CrsN, Career->?Career]@rawdata.

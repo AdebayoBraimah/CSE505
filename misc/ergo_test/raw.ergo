@@ -1,0 +1,3 @@
+// Student info
+id12345:Grad[Name->Socrates, CoursesTaken->{CSE512,CSE527,CSE545}].
+id45678:Undergrad[Name->Plato, CoursesTaken->{CSE214,CSE215}].
