@@ -427,10 +427,11 @@ def scrape_sbu_solar(
         #     input_string=_enrollment_requirement
         # )
         enrollment_requirement: Union[str, List[List[str]]]
-        enrollment_anti_requisite_list: Union[str, List[List[str]]]
-        enrollment_requirement, enrollment_anti_requisite_list = parse_prerequisites(
+        enrollment_anti_requisite: Union[str, List[List[str]]]
+
+        enrollment_requirement, enrollment_anti_requisite = parse_prerequisites(
             input_string=_enrollment_requirement
-        )  # HERE
+        )
 
         # Course components
         course_components: Tuple[str, ...] = get_course_components(driver)
@@ -471,6 +472,7 @@ def scrape_sbu_solar(
         units_list.append(units)
         grading_basis_list.append(grading_basis)
         enrollment_requirement_list.append(enrollment_requirement)
+        enrollment_anti_requisite_list.append(enrollment_anti_requisite)
         course_components_list.append(course_components)
         academic_group_list.append(academic_group)
         academic_organization_list.append(academic_organization)
@@ -551,6 +553,9 @@ def parse_requirements(input_string: str) -> Union[str, List[List[str]]]:
     This function is mainly used to separate disjunctions and conjunctions course prerequisites.
     Disjunctions are grouped together in the same sub-list, while conjunctions are separated into different sub-lists.
     For example, ``"Prerequisite: CSE 216 or CSE 260; AMS 310; CSE major"`` would be parsed as: ``[["CSE 216", "CSE 260"], ["AMS 310"], ["CSE major"]]``.
+
+    WARNING:
+        - This function is deprecated. Use ``parse_prerequisites()`` instead.
 
     Usage example:
         >>> input_string = "Prerequisite: CSE 216 or CSE 260; AMS 310; CSE major"
@@ -686,7 +691,7 @@ def parse_prerequisites(
     # Process each part to determine if it is a prerequisite or anti-requisite
     for part in conjunctive_parts:
         # Check if the part contains anti-requisites
-        if "Anti-requisite" in part:
+        if "anti-requisite" in part.lower():
             # Find courses specifically tagged as anti-requisites
             anti_courses = re.findall(course_pattern, part)
             # Remove spaces in course codes
