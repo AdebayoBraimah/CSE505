@@ -10,6 +10,7 @@ TODO:
 - Make CLI with separate options for: knowledge graph creation, and querying
 - Compare clingo, and ErgoAaI
 - Make image of pipeline(s)
+- Clingo how to include file? (apparently, just add #include "<script_name.lp>".)
 
 # Installation
 
