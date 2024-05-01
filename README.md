@@ -8,7 +8,8 @@ NOTE: README.md doc is formatted for viewing on GitHub: https://github.com/Adeba
 
 TODO:
 - Make CLI with separate options for: knowledge graph creation, and querying
-- Compare clingo, and ErgoAI
+- Compare clingo, and ErgoAaI
+- Make image of pipeline(s)
 
 # Installation
 
