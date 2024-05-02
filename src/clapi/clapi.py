@@ -20,7 +20,7 @@ from src.utils.util import DependencyError, check_dependencies
 
 
 def process_course_data_clingo(
-    file_path: Union[KnowledgeBase, KnowledgeGraph, str], file_name: str = None
+    file_path: Union[KnowledgeBase, KnowledgeGraph, str], output_file: str = None
 ) -> Union[str, KnowledgeBase, KnowledgeGraph]:
     """Converts a JSON file data to a Clingo.
 
@@ -29,17 +29,20 @@ def process_course_data_clingo(
 
     Args:
         file_path: Input JSON file (or ``KnowledgeBase`` or ``KnowledgeGraph`` object) to be converted to ERGO file.
-        file_name: Output filename. If not specified, then a new file of the same name is created, with an '.lp' file extension.
+        output_file: Output filename. If not specified, then a new file of the same name is created, with an '.lp' file extension.
 
     Returns:
         Output clingo knowledge base/graph file path.
     """
+    # TODO: Add support for if classes are offered in a specific semester
     # Load JSON data from the file
     if (isinstance(file_path, KnowledgeBase)) or (
         isinstance(file_path, KnowledgeGraph)
     ):
         kg: Union[KnowledgeBase, KnowledgeGraph] = file_path
         file_path: str = kg.json
+    else:
+        kg: Union[KnowledgeBase, KnowledgeGraph] = None
 
     if output_file is None:
         output_file = file_path.replace(".json", ".lp")
@@ -49,53 +52,90 @@ def process_course_data_clingo(
 
     courses_list = []
     prerequisites_list = []
+    antirequisites_list = []
 
     # Process each course in the JSON data
     for course_code, details in data.items():
         # Extract course information
         course_name = course_code  # Simplified as the key
-        try:
-            credits = (
-                int(details["Credits"])
-                if isinstance(details["Credits"], (float, int))
-                else 3
-            )  # Assuming default 3 if not clear
-        except ValueError:
-            continue
+        # try:
+        credits = (
+            int(details["Credits"])
+            if isinstance(details["Credits"], (float, int))
+            else _translate_range(details["Credits"])
+        )  # Assuming default 3 if not clear
+        # except ValueError:
+        #     continue
         prerequisites = details.get("Prerequisites", [])
+        antirequisites = details.get("Antirequisites", [])
 
         # Print course information
         # print(f"course({course_name.lower()}, {credits}).")
 
         courses_list.append(f"course({course_name.lower()}, {credits}).")
 
-        # Process and print prerequisites
+        # Process prerequisites
         if prerequisites != "NONE" and isinstance(prerequisites, list):
             for prereq_list in prerequisites:
                 for prereq in prereq_list:
                     # Format and clean prerequisite course code
                     prereq_code = prereq.replace(" ", "").upper()
                     # print(f"prerequisite({course_name.lower()}, {prereq_code.lower()}).")
-                    if "cs" in prereq_code.lower():
-                        if prereq_code.lower() < course_name.lower():
-                            prerequisites_list.append(
-                                f"prerequisite({course_name.lower()}, {prereq_code.lower()})."
-                            )
-                        # prerequisites_list.append(f"prerequisite({course_name.lower()}, {prereq_code.lower()}).")
+                    # if "cs" in prereq_code.lower():
+                    #     if prereq_code.lower() < course_name.lower():
+                    prerequisites_list.append(
+                        f"prerequisite({course_name.lower()}, {prereq_code.lower()})."
+                    )
+                    # prerequisites_list.append(f"prerequisite({course_name.lower()}, {prereq_code.lower()}).")
 
-    output = courses_list + prerequisites_list
-    _write_list_to_file(output, file_name)
+        # Process antirequisites
+        if antirequisites != "NONE" and isinstance(antirequisites, list):
+            for antireq_list in antirequisites:
+                for antireq in antireq_list:
+                    # Format and clean prerequisite course code
+                    antireq_code = antireq.replace(" ", "").upper()
+                    # print(f"prerequisite({course_name.lower()}, {prereq_code.lower()}).")
+                    # if "cs" in prereq_code.lower():
+                    #     if prereq_code.lower() < course_name.lower():
+                    antirequisites_list.append(
+                        f"antirequisite({course_name.lower()}, {antireq_code.lower()})."
+                    )
+                    # prerequisites_list.append(f"prerequisite({course_name.lower()}, {prereq_code.lower()}).")
+
+    output = courses_list + prerequisites_list + antirequisites_list
+    _write_list_to_file(output, output_file)
 
     if kg:
-        kg.lp = file_name
+        kg.lp = output_file
 
     return output
 
 
-def _write_list_to_file(data_list, filename):
+def _translate_range(input_string: str) -> str:
+    # Split the string using ' - ' to separate the numbers
+    parts = input_string.split(" - ")
+
+    # Extract the integer part of each number by splitting on '.' and taking the first part
+    start = parts[0].split(".")[0]
+    end = parts[1].split(".")[0]
+
+    # Concatenate with '..' for clingo
+    result = start + ".." + end
+
+    return result
+
+
+# # Example usage:
+# input_string = "0.00 - 9.00"
+# output = translate_range(input_string)
+# print(output)
+
+
+def _write_list_to_file(data_list: List[str], filename: str) -> None:
     with open(filename, "w") as file:
         for item in data_list:
             file.write(item + "\n")
+    return None
 
 
 def append_rules(file_list: List[str], output_file: str) -> str:
