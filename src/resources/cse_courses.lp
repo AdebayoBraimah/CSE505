@@ -1,13 +1,3 @@
-% See example from here: https://www.cs.utexas.edu/~vl/teaching/378/guide-2.0.pdf#page=35
-
-% Modeling the requirements from: 
-% https://www.stonybrook.edu/sb/bulletin/current/academicprograms/cse/degreesandrequirements.php#:~:text=Completion%20of%20the%20major%20requires,be%20completed%20at%20Stony%20Brook.&text=Note%3A%20Students%20may%20substitute%20the,CSE%20214%20and%20CSE%20216.
-
-% New notes/ideas:
-% course(name, credits, career, category/requirement)
-% prerequisites(name, prereq)
-% courses_taken() -- how to include this?
-
 course(cse101, 3).
 course(cse102, 3).
 course(cse110, 3).
@@ -80,7 +70,7 @@ course(cse393, 3).
 course(cse394, 3).
 course(cse416, 3).
 course(cse475, 3).
-course(cse487, 3).
+course(cse487, 0..6).
 course(cse488, 3).
 course(cse495, 3).
 course(cse496, 3).
@@ -142,13 +132,13 @@ course(cse587, 3).
 course(cse590, 3).
 course(cse591, 3).
 course(cse592, 3).
-course(cse593, 3).
+course(cse593, 1..9).
 course(cse594, 3).
 course(cse595, 3).
 course(cse596, 1).
 course(cse597, 1).
-course(cse599, 3).
-course(cse600, 3).
+course(cse599, 1..12).
+course(cse600, 0..1).
 course(cse602, 3).
 course(cse605, 3).
 course(cse608, 3).
@@ -206,24 +196,39 @@ course(cse692, 3).
 course(cse693, 3).
 course(cse694, 1).
 course(cse695, 1).
-course(cse696, 3).
+course(cse696, 1..3).
 course(cse697, 1).
-course(cse698, 3).
-course(cse699, 3).
-course(cse700, 3).
-course(cse701, 3).
+course(cse698, 0..3).
+course(cse699, 0..9).
+course(cse700, 0..9).
+course(cse701, 0..9).
 course(cse800, 0).
 prerequisite(cse102, cse101).
+prerequisite(cse113, ams151).
+prerequisite(cse113, mat125).
+prerequisite(cse113, mat131).
 prerequisite(cse114, cse101).
+prerequisite(cse114, ise108).
+prerequisite(cse160, cse161).
 prerequisite(cse161, cse160).
 prerequisite(cse213, cse113).
 prerequisite(cse214, cse114).
+prerequisite(cse215, ams151).
+prerequisite(cse215, mat125).
+prerequisite(cse215, mat131).
 prerequisite(cse216, cse214).
 prerequisite(cse220, cse214).
+prerequisite(cse220, cse260).
 prerequisite(cse230, cse130).
 prerequisite(cse230, cse220).
+prerequisite(cse230, ese124).
+prerequisite(cse230, esg111).
+prerequisite(cse230, bme120).
+prerequisite(cse230, mec102).
 prerequisite(cse260, cse160).
+prerequisite(cse260, cse261).
 prerequisite(cse261, cse260).
+prerequisite(cse300, wrt102).
 prerequisite(cse303, cse160).
 prerequisite(cse303, cse214).
 prerequisite(cse303, cse150).
@@ -232,30 +237,39 @@ prerequisite(cse304, cse216).
 prerequisite(cse304, cse260).
 prerequisite(cse304, cse220).
 prerequisite(cse304, cse303).
+prerequisite(cse304, cse350).
 prerequisite(cse305, cse216).
 prerequisite(cse305, cse260).
 prerequisite(cse306, cse216).
 prerequisite(cse306, cse260).
+prerequisite(cse306, cse320).
+prerequisite(cse306, ese380).
 prerequisite(cse307, cse216).
 prerequisite(cse307, cse260).
 prerequisite(cse307, cse220).
 prerequisite(cse310, cse214).
 prerequisite(cse310, cse220).
+prerequisite(cse310, ise218).
+prerequisite(cse310, ams310).
 prerequisite(cse311, cse214).
 prerequisite(cse311, cse230).
 prerequisite(cse311, cse260).
+prerequisite(cse311, ise208).
 prerequisite(cse316, cse216).
 prerequisite(cse316, cse260).
 prerequisite(cse320, cse220).
 prerequisite(cse323, cse214).
 prerequisite(cse323, cse230).
 prerequisite(cse323, cse260).
+prerequisite(cse323, ise208).
 prerequisite(cse325, cse110).
 prerequisite(cse325, cse101).
 prerequisite(cse325, cse114).
 prerequisite(cse327, cse214).
 prerequisite(cse327, cse230).
 prerequisite(cse327, cse260).
+prerequisite(cse327, ams210).
+prerequisite(cse327, mat211).
 prerequisite(cse328, cse216).
 prerequisite(cse328, cse260).
 prerequisite(cse328, cse220).
@@ -263,6 +277,10 @@ prerequisite(cse331, cse220).
 prerequisite(cse331, cse320).
 prerequisite(cse332, cse214).
 prerequisite(cse332, cse260).
+prerequisite(cse332, mat211).
+prerequisite(cse332, ams210).
+prerequisite(cse332, ams110).
+prerequisite(cse332, ams310).
 prerequisite(cse333, cse214).
 prerequisite(cse333, cse260).
 prerequisite(cse336, cse216).
@@ -271,18 +289,26 @@ prerequisite(cse337, cse214).
 prerequisite(cse337, cse260).
 prerequisite(cse350, cse150).
 prerequisite(cse350, cse215).
+prerequisite(cse350, ams210).
+prerequisite(cse350, mat211).
 prerequisite(cse351, cse214).
 prerequisite(cse351, cse260).
+prerequisite(cse351, ams310).
 prerequisite(cse352, cse216).
 prerequisite(cse352, cse260).
 prerequisite(cse353, cse216).
 prerequisite(cse353, cse260).
+prerequisite(cse353, ams310).
+prerequisite(cse353, ams311).
+prerequisite(cse353, ams412).
 prerequisite(cse354, cse216).
 prerequisite(cse354, cse260).
+prerequisite(cse355, ams301).
 prerequisite(cse356, cse316).
 prerequisite(cse356, cse320).
 prerequisite(cse357, cse216).
 prerequisite(cse357, cse260).
+prerequisite(cse357, ams310).
 prerequisite(cse360, cse220).
 prerequisite(cse360, cse320).
 prerequisite(cse361, cse220).
@@ -291,16 +317,33 @@ prerequisite(cse362, cse220).
 prerequisite(cse362, cse320).
 prerequisite(cse363, cse220).
 prerequisite(cse363, cse320).
+prerequisite(cse364, ise334).
 prerequisite(cse366, cse328).
+prerequisite(cse366, ise332).
 prerequisite(cse370, cse310).
 prerequisite(cse371, cse150).
 prerequisite(cse371, cse215).
+prerequisite(cse371, mat200).
+prerequisite(cse371, mat250).
 prerequisite(cse373, cse150).
 prerequisite(cse373, cse215).
+prerequisite(cse373, mat200).
+prerequisite(cse373, mat250).
+prerequisite(cse373, mat211).
+prerequisite(cse373, ams210).
 prerequisite(cse373, cse214).
 prerequisite(cse373, cse260).
 prerequisite(cse376, cse216).
 prerequisite(cse376, cse320).
+prerequisite(cse377, ams161).
+prerequisite(cse377, mat127).
+prerequisite(cse377, ams210).
+prerequisite(cse377, mat211).
+prerequisite(cse378, ams161).
+prerequisite(cse378, mat127).
+prerequisite(cse378, ams210).
+prerequisite(cse378, mat211).
+prerequisite(cse378, mec262).
 prerequisite(cse380, cse216).
 prerequisite(cse380, cse220).
 prerequisite(cse380, cse260).
@@ -309,6 +352,10 @@ prerequisite(cse381, cse220).
 prerequisite(cse381, cse260).
 prerequisite(cse385, cse150).
 prerequisite(cse385, cse215).
+prerequisite(cse385, mat200).
+prerequisite(cse385, mat250).
+prerequisite(cse385, ams210).
+prerequisite(cse385, mat211).
 prerequisite(cse385, cse214).
 prerequisite(cse385, cse260).
 prerequisite(cse390, cse214).
@@ -323,42 +370,8 @@ prerequisite(cse394, cse214).
 prerequisite(cse394, cse260).
 prerequisite(cse416, cse316).
 prerequisite(cse496, cse495).
-% prerequisite(cse608, cse508).
-% prerequisite(cse608, cse509).
-% prerequisite(cse624, cse506).
-
-
-% Constants
-min_credits_per_semester(12).
-max_credits_per_semester(56). % 55 is cutoff of 1 model, 52 gives 1000s of models
-total_required_credits(80).
-
-% Assign courses to semesters (1..N), N is an upper bound on semesters, guessed here as 10
-semester(1..10).
-
-% Assign a course to exactly one semester
-1 { in_semester(C, S) : semester(S) } 1 :- course(C, _).
-
-% Constraint to ensure the minimum number of credits per semester
-:- semester(S), min_credits_per_semester(Min), #sum{Credits, C : course(C, Credits), in_semester(C, S)} < Min.
-
-% Ensure the total credits in each semester do not exceed the maximum allowed
-:- semester(S), max_credits_per_semester(Max), #sum{Credits, C : course(C, Credits), in_semester(C, S)} > Max.
-
-% Ensuring all prerequisites are met
-:- 
-    course(C, _), 
-    in_semester(C, SC), 
-    prerequisite(C, P), 
-    course(P, _), 
-    in_semester(P, SP), 
-    SP >= SC.
-
-% Define the maximum semester used
-max_semester_used(M) :- M = #max{S : in_semester(_, S)}.
-
-% Minimize the number of semesters used
-#minimize{M : max_semester_used(M)}.
-
-% Output control
-#show in_semester/2.
+prerequisite(cse608, cse508).
+prerequisite(cse608, cse509).
+prerequisite(cse624, cse506).
+antirequisite(cse101, cse114).
+antirequisite(cse101, cse160).

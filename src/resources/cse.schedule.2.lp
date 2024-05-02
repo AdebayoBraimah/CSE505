@@ -323,15 +323,27 @@ prerequisite(cse394, cse214).
 prerequisite(cse394, cse260).
 prerequisite(cse416, cse316).
 prerequisite(cse496, cse495).
-% prerequisite(cse608, cse508).
-% prerequisite(cse608, cse509).
-% prerequisite(cse624, cse506).
+prerequisite(cse608, cse508).
+prerequisite(cse608, cse509).
+prerequisite(cse624, cse506).
 
+% NOTES:
+% learnt constraints -- nogood learning
+% combinatorial explosion -- too many combinations
+% have a required atom -- assert that is can be in any semester
+% :- required(C), not in_semester(C, _).
+% Add required courses, remove unique constraints, 
+% course_credit(cse593, 0..9) for 0 to 9 credits
+% 
+% course_info(...lsjfl;ajfkeajf;).
+% course_semester(C,S) :- cousre_info(C, _,_,S,_,_).
+% 
+% Disjunctive prereqs -- need to write as disjunctive normal form, each set becomes a separate atom
 
 % Constants
 min_credits_per_semester(12).
-max_credits_per_semester(56). % 55 is cutoff of 1 model, 52 gives 1000s of models
-total_required_credits(80).
+max_credits_per_semester(52). % 55 is cutoff of 1 model, 52 gives 1000s of models -- should be 120, 0r 105 credits total=
+total_required_credits(80). % 80 credits required for major
 
 % Assign courses to semesters (1..N), N is an upper bound on semesters, guessed here as 10
 semester(1..10).
@@ -347,12 +359,12 @@ semester(1..10).
 
 % Ensuring all prerequisites are met
 :- 
-    course(C, _), 
+    course(C, _),
     in_semester(C, SC), 
     prerequisite(C, P), 
     course(P, _), 
     in_semester(P, SP), 
-    SP >= SC.
+    SP >= SC. % Remove course(P, _)
 
 % Define the maximum semester used
 max_semester_used(M) :- M = #max{S : in_semester(_, S)}.
