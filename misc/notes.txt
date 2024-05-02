@@ -34,3 +34,15 @@ Call it programmatically
 
 e.g. clingo proj.lp data.lp department_rules.lp --outf=2 --quiet=1
 
+
+Current notes:
+
+Honors - use course description to separate out into different file cse_honors.lp
+Repeatable classes - Use course description to create separate file of atoms of repeatable classes, including how many times repeated, and/or for upto how many credits.
+
+
+Scrape PSY for additional requirements.
+
+BUG: Figure out why MAT on web scraper keeps failing.
+
+Co-requisites are not modeled
