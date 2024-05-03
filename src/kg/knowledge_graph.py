@@ -302,10 +302,20 @@ def scrape_sbu_solar(
             EC.element_to_be_clickable((By.LINK_TEXT, nav_letter))
         ).click()
 
+    # NOTE: If major code is 'MAT', then partial
+    #  link text is 'MAT - M' must be used to navigate
+    #
     # Navigate to major
-    WebDriverWait(driver, wait_time).until(
-        EC.element_to_be_clickable((By.PARTIAL_LINK_TEXT, major_three_letter_code))
-    ).click()
+    if major_three_letter_code == "MAT":
+        WebDriverWait(driver, wait_time).until(
+            EC.element_to_be_clickable(
+                (By.PARTIAL_LINK_TEXT, f"{major_three_letter_code} - M")
+            )
+        ).click()
+    else:
+        WebDriverWait(driver, wait_time).until(
+            EC.element_to_be_clickable((By.PARTIAL_LINK_TEXT, major_three_letter_code))
+        ).click()
 
     # Get table data
     time.sleep(wait_time // 2)  # Time to wait for javascript to load the table.
@@ -325,7 +335,8 @@ def scrape_sbu_solar(
     try:
         table = table[-1]  # Get the last table
     except IndexError:
-        return None
+        # return None
+        raise ValueError("Table is not displayed. Check the URL and major code.")
 
     # Verify table
     if not table.is_displayed():
