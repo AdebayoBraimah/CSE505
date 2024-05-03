@@ -18,7 +18,9 @@ import os
 import re
 import time
 import pandas as pd
+import requests
 
+from bs4 import BeautifulSoup
 from dataclasses import dataclass
 from selenium import webdriver
 from selenium.webdriver.common.by import By
@@ -26,7 +28,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import NoSuchElementException
 
-from typing import Optional, List, Tuple, Union
+from typing import Any, Optional, List, Tuple, Union
 from warnings import warn
 
 from src.utils import util
@@ -521,6 +523,42 @@ def scrape_sbu_solar(
         inplace=True,
     )
 
+    # TODO: Add course offered information here
+    #
+    # NOTE:
+    #  - Replace NaN with 0
+    #  - Concatenate along CourseNumber
+    #  - Consider non-CSE cases, add columns: spring1, fall1, spring2, fall2
+    if major_three_letter_code.upper() == "CSE":
+        # Get course offering information for CSE
+        _df = get_sbu_cse_course_offered_info(
+            undergrad_url="https://www.cs.stonybrook.edu/students/Undergraduate-Studies/csecourses",  # Hard code as this is for CSE only
+            grad_url="https://www.cs.stonybrook.edu/students/Graduate-Studies/courses",  # Hard code as this is for CSE only
+        )
+
+        # Get dataframe headers
+        current_columns: List[str] = df.columns.tolist()
+        _df_columns: List[str] = _df.columns.tolist()  # [
+        #     -4:
+        # ]  # Only need the last 4 columns, as that has the course semester offering information
+        new_columns: List[str] = current_columns + _df_columns
+
+        # Concatenate along CourseNumber (columns)
+        df2 = pd.concat([df, _df], axis=1, ignore_index=True)
+        df = df2.fillna(0)
+
+        # Rename columns in the new DataFrame
+        df.columns = new_columns
+
+        # Remove duplicate columns
+        # df.drop(df.columns[11:13], axis=1, inplace=True)
+        df = df.loc[:, ~df.columns.duplicated()]
+    else:
+        # Non-CSE cases -- just assume that courses are offered all year round
+        new_columns: List[str] = ["spring1", "fall1", "spring2", "fall2"]
+        for column in new_columns:
+            df[column] = 1
+
     # NOTE: Keep Course Nbr as column, maintain index
     # Replace index with Course Nbr
     df.set_index(
@@ -778,3 +816,153 @@ def remove_non_numeric(course_number: str) -> str:
     # Remove any non-digit characters from the string
     cleaned_number = re.sub(r"\D", "", course_number)
     return cleaned_number
+
+
+def get_sbu_cse_undergrad_course_offered_info(url: str) -> pd.DataFrame:
+    """Scrape Stony Brook University's undergraduate CSE course offering webpage.
+
+    Usage example:
+        >>> url = "https://www.cs.stonybrook.edu/students/Undergraduate-Studies/csecourses"
+        >>> df = get_sbu_cse_undergrad_course_offered_info(url=url)
+
+    Args:
+        url: URL of the Stony Brook University undergraduate course offering webpage.
+
+    Returns:
+        Pandas DataFrame containing the undergraduate course offering information.
+    """
+    # Get the HTML content of the page
+    response = requests.get(url)
+
+    # Parse the HTML content
+    soup = BeautifulSoup(response.text, "html.parser")
+
+    # Find the table containing the course information
+    table = soup.find("table", class_="views-table views-view-table cols-7")
+
+    # Get the headers of the table
+    headers: List[Any] = [header.text.strip() for header in table.find_all("th")]
+
+    # Get table rows
+    rows: List[Any] = []
+
+    # Iterate over each row in the table, skip the header row
+    for row in table.find_all("tr")[1:]:
+        columns: List[Any] = []
+        for idx, col in enumerate(row.find_all("td")):
+            text = col.text.strip()
+            # Check if the header for this column is a semester column
+            if any(term in headers[idx] for term in ["Spring", "Summer", "Fall"]):
+                # Process for presence of '✔'
+                if "✔" in text:
+                    columns.append(1)
+                else:
+                    columns.append(0)
+            else:
+                # Keep original text for non-semester columns
+                columns.append(text)
+        rows.append(columns)
+
+    df = pd.DataFrame(rows, columns=headers)
+    return df
+
+
+def get_sbu_cse_grad_course_offered_info(url: str) -> pd.DataFrame:
+    """Scrape Stony Brook University's CSE graduate course offering webpage.
+
+    Usage example:
+        >>> url = "https://www.cs.stonybrook.edu/students/Graduate-Studies/courses"
+        >>> df = get_sbu_cse_grad_course_offered_info(url=url)
+
+    Args:
+        url: URL of the Stony Brook University graduate course offering webpage.
+
+    Returns:
+        Pandas DataFrame containing the graduate course offering information.
+    """
+    # Get the HTML content of the page
+    response = requests.get(url)
+
+    # Parse the HTML content
+    soup = BeautifulSoup(response.text, "html.parser")
+
+    # Find the table containing the course information
+    table = soup.find("table", class_="views-table views-view-table cols-6")
+
+    # Get the headers of the table
+    headers: List[Any] = [header.text.strip() for header in table.find_all("th")]
+
+    # Get table rows
+    rows: List[Any] = []
+
+    # Iterate over each row in the table, skip the header row
+    for row in table.find_all("tr")[1:]:
+        columns: List[Any] = []
+        for idx, col in enumerate(row.find_all("td")):
+            text = col.text.strip()
+            # Check if the header for this column is a semester column
+            if any(term in headers[idx] for term in ["Spring", "Summer", "Fall"]):
+                # Process for presence of '✔'
+                if "✔" in text:
+                    columns.append(1)
+                else:
+                    columns.append(0)
+            else:
+                # Keep original text for non-semester columns
+                columns.append(text)
+        rows.append(columns)
+
+    df = pd.DataFrame(rows, columns=headers)
+    return df
+
+
+def get_sbu_cse_course_offered_info(undergrad_url: str, grad_url: str) -> pd.DataFrame:
+    """Scrape Stony Brook University's CSE undergraduate and graduate course offering webpages.
+
+    WARNING:
+        - The URLs used in ``Usage example`` were (accessed and) current as of May 03 2024.
+        - The tables located at each URL contain information: Spring 2023, Fall 2023, Spring 2024, and Fall 2024 -- this will need to updated in this function in the future.
+
+    Usage example:
+        >>> undergrad_url = "https://www.cs.stonybrook.edu/students/Undergraduate-Studies/csecourses"
+        >>> grad_url = "https://www.cs.stonybrook.edu/students/Graduate-Studies/courses"
+        >>> df = get_sbu_cse_course_offered_info(undergrad_url=undergrad_url, grad_url=grad_url)
+
+    Args:
+        undergrad_url: URL of the Stony Brook University undergraduate course offering webpage.
+        grad_url: URL of the Stony Brook University graduate course offering webpage.
+
+    Returns:
+        Pandas DataFrame containing the undergraduate and graduate course offering information.
+    """
+    # Scrape undergraduate course information
+    df1 = get_sbu_cse_undergrad_course_offered_info(url=undergrad_url)
+
+    # Scrape graduate course information
+    df2 = get_sbu_cse_grad_course_offered_info(url=grad_url)
+
+    # Combine both dataframes
+    df = pd.concat([df1, df2], axis=0, ignore_index=True).drop(["Summer 2024"], axis=1)
+
+    # Rename columns
+    df.rename(
+        columns={
+            "Course Name": "CourseNumber",
+            "Course Title": "CourseTitle",
+            "Spring 2023": "spring1",
+            "Fall 2023": "fall1",
+            "Spring 2024": "spring2",
+            "Fall 2024": "fall2",
+        },
+        inplace=True,
+    )
+    # HERE
+    for rows in df.itertuples():
+        if (
+            ("cse593" in rows[1].lower())
+            or ("cse600" in rows[1].lower())
+            or ("cse698" in rows[1].lower())
+            or ("cse487" in rows[1].lower())
+        ):
+            df.iloc[rows[0], -4:] = [1, 1, 1, 1]
+    return df

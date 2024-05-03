@@ -9,8 +9,16 @@ courses=(
     "bio"
     "phy"
     "ast"
+    "mat"
     "che"
     "geo"
+    "ise"
+    "wrt"
+    "bme"
+    "esg"
+    "ese"
+    "mec"
+    "psy"
 )
 
 # Create job file

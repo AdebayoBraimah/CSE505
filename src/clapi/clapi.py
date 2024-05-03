@@ -18,10 +18,15 @@ from typing import List, Union
 from src.kg.knowledge_graph import KnowledgeBase, KnowledgeGraph
 from src.utils.util import DependencyError, check_dependencies
 
+# TODO:
+#   - Honors - use course description to separate out into different file e.g. cse_honors.lp -- cse_honors(cse160).
+#   - Repeatable classes - Use course description to create separate file of atoms of repeatable classes,
+#       including how many times can be repeated, and/or for up to how many credits.
+
 
 def process_course_data_clingo(
     file_path: Union[KnowledgeBase, KnowledgeGraph, str], output_file: str = None
-) -> Union[str, KnowledgeBase, KnowledgeGraph]:
+) -> str:
     """Converts a JSON file data to a Clingo.
 
     NOTE:
@@ -34,7 +39,6 @@ def process_course_data_clingo(
     Returns:
         Output clingo knowledge base/graph file path.
     """
-    # TODO: Add support for if classes are offered in a specific semester
     # Load JSON data from the file
     if (isinstance(file_path, KnowledgeBase)) or (
         isinstance(file_path, KnowledgeGraph)
@@ -58,21 +62,18 @@ def process_course_data_clingo(
     for course_code, details in data.items():
         # Extract course information
         course_name = course_code  # Simplified as the key
-        # try:
+
         credits = (
-            int(details["Credits"])
-            if isinstance(details["Credits"], (float, int))
-            else _translate_range(details["Credits"])
-        )  # Assuming default 3 if not clear
-        # except ValueError:
-        #     continue
+            int(details.get("Credits"))
+            if isinstance(details.get("Credits"), (float, int))
+            else _translate_range(details.get("Credits"))
+        )
         prerequisites = details.get("Prerequisites", [])
         antirequisites = details.get("Antirequisites", [])
 
-        # Print course information
-        # print(f"course({course_name.lower()}, {credits}).")
-
-        courses_list.append(f"course({course_name.lower()}, {credits}).")
+        courses_list.append(
+            f"course({course_name.lower()}, {credits}, {details.get('Career')},{int(details.get('spring1'))}, {int(details.get('fall1'))}, {int(details.get('spring2'))}, {int(details.get('fall2'))})."
+        )
 
         # Process prerequisites
         if prerequisites != "NONE" and isinstance(prerequisites, list):
@@ -80,13 +81,9 @@ def process_course_data_clingo(
                 for prereq in prereq_list:
                     # Format and clean prerequisite course code
                     prereq_code = prereq.replace(" ", "").upper()
-                    # print(f"prerequisite({course_name.lower()}, {prereq_code.lower()}).")
-                    # if "cs" in prereq_code.lower():
-                    #     if prereq_code.lower() < course_name.lower():
                     prerequisites_list.append(
                         f"prerequisite({course_name.lower()}, {prereq_code.lower()})."
                     )
-                    # prerequisites_list.append(f"prerequisite({course_name.lower()}, {prereq_code.lower()}).")
 
         # Process antirequisites
         if antirequisites != "NONE" and isinstance(antirequisites, list):
@@ -94,13 +91,9 @@ def process_course_data_clingo(
                 for antireq in antireq_list:
                     # Format and clean prerequisite course code
                     antireq_code = antireq.replace(" ", "").upper()
-                    # print(f"prerequisite({course_name.lower()}, {prereq_code.lower()}).")
-                    # if "cs" in prereq_code.lower():
-                    #     if prereq_code.lower() < course_name.lower():
                     antirequisites_list.append(
                         f"antirequisite({course_name.lower()}, {antireq_code.lower()})."
                     )
-                    # prerequisites_list.append(f"prerequisite({course_name.lower()}, {prereq_code.lower()}).")
 
     output = courses_list + prerequisites_list + antirequisites_list
     _write_list_to_file(output, output_file)
@@ -108,7 +101,7 @@ def process_course_data_clingo(
     if kg:
         kg.lp = output_file
 
-    return output
+    return output_file
 
 
 def _translate_range(input_string: str) -> str:
@@ -123,12 +116,6 @@ def _translate_range(input_string: str) -> str:
     result = start + ".." + end
 
     return result
-
-
-# # Example usage:
-# input_string = "0.00 - 9.00"
-# output = translate_range(input_string)
-# print(output)
 
 
 def _write_list_to_file(data_list: List[str], filename: str) -> None:
@@ -207,3 +194,37 @@ def query_clingo(
     output = proc.stdout.read().decode("utf-8")
 
     return output
+
+
+def process_honors_courses(file_path: str, outfile: str = None) -> None:
+    """Processes (CSE) honors courses from a JSON file and writes them to a clingo file in the form: ``cse_honors(course_id)``.
+
+    Usage example:
+        >>> process_honors_courses(file_path="cse_courses.json")
+
+    Args:
+        file_path: Path to the JSON file containing course data.
+        outfile: Output filename. If not specified, then the output file will just have '_honors.lp' appended to the input filename. Defaults to None.
+
+    Returns:
+        None.
+    """
+    # Load the JSON data from the file
+    with open(file_path, "r") as file:
+        data = json.load(file)
+
+    course_list: List[str] = []
+
+    if outfile is None:
+        outfile = file_path.replace(".json", "_honors.lp")
+
+    # Iterate over each course
+    for course_id, course_details in data.items():
+        # Check if 'honors' is in the description
+        if "honors" in course_details.get("Description", "").lower():
+            course_list.append(f"cse_honors({course_id}).")
+
+    # Write the list to a file
+    _write_list_to_file(data_list=course_list, filename=outfile)
+
+    return None
