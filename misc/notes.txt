@@ -41,3 +41,62 @@ Honors - use course description to separate out into different file cse_honors.l
 Repeatable classes - Use course description to create separate file of atoms of repeatable classes, including how many times repeated, and/or for upto how many credits.
 
 Co-requisites are not modeled
+
+% Course needs 114 and either (100 and 110) or (214 and 210)
+req(215, [114, 110, 100])
+req(215, [114, 214, 210])
+
+OR
+
+req(215, [114|Rs]) :- Rs = [110, 100]; Rs = [214, 210].
+
+req(215, [114|Rs]) :-
+    Rs = [110,100] ;
+    Rs = [214, 210].
+
+---------------------
+taken(C,S) :- 
+    in_semester(C,S1),
+    S1 < S.
+
+% This part is DNF -- IMPORTANT!!
+can_take(215, S) :-
+    taken(114, S) ,
+    ( (taken(110, S), taken(100, S)) ) ;
+    (taken(214, S), taken(210, S))
+
+:- in_semester(C,S), not can_take(C,S).
+--------------------
+
+% from python
+reqs(303, and(course(215), or(course(214), course(210)))).
+
+% NOTE:
+% Clean representation
+% Faster and safer
+
+% core rules
+taken(and(R1,R2), S) :- taken(R1,S), taken(R2,S).
+taken(or(R1,R2), S) :- taken(R1,S); taken(R2,S).
+taken(course(C), S) :- in_semester(C,S1), S1 < S.
+
+can_take(C, S) :-
+    reqs(C, Reqs),
+    taken(Reqs, S).
+
+:- in_semester(C,S), not can_take(C,S).
+
+----------------------------
+
+:- course_name(Name), unfulfilled_prereqs
+
+% Conjuctive normal form for course preqs??
+
+NOTE: Need to handle corequisites
+
+NOTE: parsing, split along 'or'
+
+% Potasscto guide
+disjunctive logic/heads, pg 29.
+
+conjunction/disjunction pg. 98.
