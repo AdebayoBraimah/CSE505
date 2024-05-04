@@ -4,9 +4,12 @@
 # 
 # Found from the following link: https://stackoverflow.com/a/48254241
 
-# TODO: Write instructions and details later
-
 # NOTE: This script/command must be run from the root of the project
+# 
+# cd /Users/adebayobraimah/Desktop/projects/CSE505
+# git ls-files | xargs wc -l
+# 
+# Done!
 
 # Measure the code base
 git ls-files | xargs wc -l
