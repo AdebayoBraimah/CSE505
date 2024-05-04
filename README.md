@@ -13,6 +13,7 @@ TODO:
 - Clingo how to include file? (apparently, just add #include "<script_name.lp>".)
 - Add corequsites to parser
 - Model/include preqs, antireqs, adn coreqs in clingo
+- Need to be able to run demo from my own installation and quickstart instructions.
 
 Presentation TODOs:
 
