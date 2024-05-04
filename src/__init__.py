@@ -5,7 +5,7 @@
 #
 # Copyright 2024 Stony Brook University
 #
-# TODO: <LICENCSE HERE>
+# GNU General Public License
 #
 # Unless required by applicable law or agreed to in writing, software
 # distributed under the License is distributed on an "AS IS" BASIS,
@@ -56,7 +56,7 @@ __credits__ = [
     "Stony Brook University, Dept. of Computer Science",
 ]
 __license__ = "GNU GENERAL PUBLIC LICENSE"
-__version__ = "0.0.1"
+__version__ = "0.0.1"  # TODO: Update version number via separate file
 __maintainer__ = "Adebayo Braimah"
 __email__ = "adebayo.braimah@stonybrook.edu"
 __status__ = "Development"
