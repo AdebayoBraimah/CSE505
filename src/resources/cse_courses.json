@@ -1028,7 +1028,7 @@
         ],
         "Antirequisites":"NONE",
         "Description":"Mathematical analysis of a variety of computer algorithms including searching, sorting, matrix multiplication, fast Fourier transform, and graph algorithms. Time and space complexity. Upper-bound, lower- bound, and average-case analysis. Introduction to NP completeness. Some machine computation is required for the implementation and comparison of algorithms. This course is offered as CSE 373 and MAT 373. Not for credit in addition to CSE 385.",
-        "spring1":0.0,
+        "spring1":1.0,
         "fall1":1.0,
         "spring2":1.0,
         "fall2":1.0

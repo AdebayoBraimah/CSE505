@@ -1,0 +1,2250 @@
+{
+    "ESE111":{
+        "CourseTitle":"Making with Arduino: Hardware and Programming",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Create a working electronic project using low-cost and easy-to-program Arduino development boards. Example projects may include wearable electronics, robots, and electronic displays. An introduction to the C programming language will be provided along with the basics of embedded electronics and the Internet of Things.",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE118":{
+        "CourseTitle":"Digital Logic Design",
+        "Career":"Undergraduate",
+        "Credits":4.0,
+        "Prerequisites":[
+            [
+                "ESE123"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"Develops methods of analysis and design of both combinational and sequential systems regarding digital circuits as functional blocks. Utilizes demonstrations and laboratory projects consisting of building hardware on breadboards and simulation of design using CAD tools. Topics include: number systems and codes; switching algebra and switching functions; standard combinational modules and arithmetic circuits; realization of switching functions; latches and flip-flops; standard sequential modules; memory, combinational, and sequential PLDs and their applications; design of system controllers.",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE121":{
+        "CourseTitle":"Introduction to Audio Systems",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Analog and digital audio systems, musical instrument amplifiers and effects, audio instrumentation, samplers, synthesizers, and audio transducers will be studied. Signal and system concepts will be demonstrated using audible examples to develop intuitive and non-mathematical insights. Audio system specifications will be explained and their effects demonstrated.",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE122":{
+        "CourseTitle":"Discrete Mathematics for Engineers",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "ESE123"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"Introduction to topics in computational mathematics, such as number systems, Boolean algebra, mathematical induction, combinatorics and probability, recursion and graph theory. Algorithm aspects of the topics discussed will be emphasized.",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE123":{
+        "CourseTitle":"Introduction to Electrical and Computer Engineering",
+        "Career":"Undergraduate",
+        "Credits":4.0,
+        "Prerequisites":[
+            [
+                "AMS151",
+                "MAT125"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"Introduces basic electrical and computer engineering concepts in a dual approach that includes:  laboratories for hands-on wired and computer simulation experiments in analog and logic circuits, and lectures providing concepts and theory relevant to the laboratories. Emphasizes physical insight and applications rather than theory. This course has an associated fee. Please see www.stonybrook.edu\/coursefees for more information.",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE124":{
+        "CourseTitle":"Programming Fundamentals",
+        "Career":"Undergraduate",
+        "Credits":4.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"The course presents fundamental and more advanced C programming concepts. Lectures discuss the C language constructs and exemplify their using in relevant programming applications. The course also introduces fundamental concepts in electrical and computer engineering, such as bitwise operations, text file scanning, stack-based computation, table-based finite state machine implementation, hash tables, and linked lists. Scheduled lab activities focus on devising, implementing, debugging, and validating C programs for the concepts discussed in class. A course project focuses on developing a more extensive C program that comprehensively utilizes the programming concepts discussed during the semester.",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE188":{
+        "CourseTitle":"Understanding Machine Learning",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"This is a course on the basics of machine learning. Students develop an intuitive understanding of the core concepts of machine learning including supervised and unsupervised learning, classification and prediction. The course provides a number of practical examples from a wide range of disciplines including biomedicine, social sciences, and engineering. The course does not require any prerequisites in engineering or computer science.",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE201":{
+        "CourseTitle":"Engineering and Technology Entrepreneurship",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "BME100",
+                "CME101",
+                "ESG100",
+                "ESE123",
+                "MEC101",
+                "EST192",
+                "EST194",
+                "EST202",
+                "LSE320"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"The purpose of this course is to bridge the gap between technical competence and entrepreneurial proficiency. Students are not expected to have any formal business background, but have some background in a technical field. These fields can range from the engineering disciplines to computer science, and from biology and chemistry to medicine. Accordingly, the course will provide the necessary exposure to the fundamentals of business, while minimizing the use of business school jargon. Entrepreneurship is considered as a manageable process built around innovativeness, risk-taking and proactiveness. The course focuses on ventures where the business concept is built around either a significant technical advance in an operational process, or in the application of technology to create a new product or service.",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE202":{
+        "CourseTitle":"Humanistic Engineering",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"The course discusses the nature of the co-dependencies of various human endeavors, like art, science and engineering, and the degree to which traditionally non-engineering elements, like meaning, fairness, or artistic creativity, should be considered by present processing \/ computational systems and methods in engineering. The course starts with presenting the main theories in philosophy, art, psychology, and engineering design on the nature and characteristics of evolution and progress. The main elements of engineering design for innovation are being discussed and how it relates to humanistic values. Computational methods towards mimicking and generating creative outcomes are presented and then compared to human creativity. The covered topics include the evolution process in art and engineering, its defining stages and elements, existing computational approaches towards co-achieving human and engineering goals with computational art as an example, the importance of expertise. The course offers exposure to existing software tools related to computational creativity.",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE224":{
+        "CourseTitle":"Advanced Programming and Data Structures",
+        "Career":"Undergraduate",
+        "Credits":4.0,
+        "Prerequisites":[
+            [
+                "ESE124"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"The course presents fundamental data structures and algorithms frequently used in engineering applications. Object oriented programming in C++ is used to teach the concepts. Discussed topics include: programming and applications of data structures; stacks, queues, lists, heaps, priority queues, and introduction to binary trees. Recursive programming is heavily utilized. Fundamental sorting algorithms are examined along with informal efficiency analysis.",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE271":{
+        "CourseTitle":"Electrical Circuit Analysis",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "MAT127",
+                "AMS161",
+                "PHY127"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"The course covers the following topics: passive circuit elements: resistors, capacitors, inductors. Elements of circuit topology. Kirchhoff's and Ohm's law. Nodal and mesh analysis. Equivalent circuits. Steady-state AC circuits. Phasors. Transient analysis. Laplace transforms. Fundamentals of AC power, coupled inductors (transformers).  Not for credit in addition to EEO 271.",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE272":{
+        "CourseTitle":"Electronics",
+        "Career":"Undergraduate",
+        "Credits":4.0,
+        "Prerequisites":[
+            [
+                "ESE271"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"This is the first non-linear electronics class that introduces the students to the fundamentals of the circuit design through the architecture of a modern electronics system at the interface with sensors and actuators. Modeling of the non-linear devices, diode and MOS transistors, is presented, along with basic properties of MOS transistors for analog (amplification) and digital (switching) IC circuit design. Operational amplifier ideal and non-ideal models are explored along with the concepts of the feedback and stability. Signal conditioning circuits (fixed-gain, difference and instrumentation amplifiers, active filters), signal shaping circuits (rectifier, clipper, peak detector) and oscillators are presented. Basics of sample and hold circuit, data converters, digital signal processing platforms and radios are presented.",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE273":{
+        "CourseTitle":"Microelectronic Circuits",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "ESE271"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"This is the first integrated circuits class that introduces the students to the fundamentals of the non-linear devices and design of IC amplifiers. The course starts with the introduction to the device physics, operation and modeling of a diode. Operation of MOS transistor, derivation of the large-signal transistor current as a function of the terminal voltages in different regions of operation is then presented, along with the small-signal model. Single-stage amplifier structures are explored, along with the introduction of the implementation of current source and current mirror. Frequency-response of common-source amplifier is presented. The concepts of multi-stage amplification and differential pair are introduced. Operation modeling of bipolar transistors are presented, along with the common-emitter amplifier. Comparison of MOS and BJT transistor and performance of common-source and common-emitter is presented. Not for credit in addition to EEO 315.",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE280":{
+        "CourseTitle":"Embedded Microcontroller Systems Design I",
+        "Career":"Undergraduate",
+        "Credits":4.0,
+        "Prerequisites":[
+            [
+                "ESE118"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"Fundamental design of microcontroller-based electronic systems. Topics include system level architecture, microcontrollers, memory, configurable ports, peripheral ICs, interrupts, sensors, and actuators, serial data protocols, assembly language programming, debugging, and table driven FSMs. Hardware\/software trade-offs in implementing system functions. Hardware and software design are equally emphasized. Laboratory work involves design, implementation, and verification of microcontroller systems. This course has an associated fee. Please see www.stonybrook.edu\/coursefees for more information.",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE290":{
+        "CourseTitle":"Transitional Study",
+        "Career":"Undergraduate",
+        "Credits":"1.00 - 3.00",
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"A vehicle used for transfer students to remedy discrepancies between a Stony Brook course and a course taken at another institution. For example, it allows the student to take the laboratory portion of a course for which he or she has had the theoretical portion elsewhere. Open elective credit only.",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE300":{
+        "CourseTitle":"Technical Communication for Electrical and Computer Engineers",
+        "Career":"Undergraduate",
+        "Credits":2.0,
+        "Prerequisites":[
+            [
+                "WRT102"
+            ],
+            [
+                "ESE280"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"Topics include how technical writing differs from other forms of writing, the components of technical writing, technical style, report writing, technical definitions, proposal writing, writing by group or team, instructions and manuals, transmittal letters, memoranda, abstracts and summaries, proper methods of documentation, presentations and briefings, and analysis of published engineering writing. Also covered are the writing of resumes and cover letters.",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE301":{
+        "CourseTitle":"Engineering Ethics and Societal Impact",
+        "Career":"Undergraduate",
+        "Credits":2.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"The study of ethical issues facing engineers and engineering related organizations and the societal impact of technology.  Decisions involving moral conduct, character, ideals and relationships of people and organizations involved in technology.  The interaction of engineers, their technology, the society and the environment is examined using case studies. Introduction to patents, copyright, trademarks and infringement using case studies.",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE304":{
+        "CourseTitle":"Applications of Operational Amplifiers",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "ESE273"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"Design of electronic instrumentation: structure of basic measurement systems, transducers, analysis and characteristics of operational amplifiers, analog signal conditioning with operational amplifiers, sampling, multiplexing, A\/D and D\/A conversion; digital signal conditioning, data input and display, and automated measurement systems. Application of measurement systems to pollution and to biomedical and industrial monitoring is considered.",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE305":{
+        "CourseTitle":"Deterministic Signals and Systems",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "ESE271"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"Introduction to signals and systems. Manipulation of simple analog and digital signals. Relationship between frequencies of analog signals and their sampled sequences. Sampling theorem. Concepts of linearity, time-invariance, causality in systems. Convolution integral and summation; FIR and IIR digital filters. Differential and difference equations. Laplace transform, Z-transform, Fourier series and Fourier transform. Stability, frequency response and filtering. Provides general background for subsequent courses in control, communication, electronics, and digital signal processing. Not for credit in addition to EEO 301.",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE306":{
+        "CourseTitle":"Random Signals and Systems",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "ESE305"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"Random experiments and events; random variables and random vectors, probability distribution functions, random processes; Binomial, Bernoulli, Poisson, and Gaussian processes; Markov chains; significance testing, detection of signals, estimation of signal parameters; properties and application of auto-correlation and cross-correlation functions; power spectral density; response of linear systems to random inputs.",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE315":{
+        "CourseTitle":"Control System Design",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "ESE305"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"The course aims to introduce students to basic concepts of classical control theory, such as closed-loop systems, root-locus analysis, Bode diagrams and Nyquist Criterion, and their applications in electrical, mechanical, and electromechanical systems. The students are expected to master the methods for control systems design including basic feedback control and PID control, which have a major application in the design of process control systems for industry.",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE319":{
+        "CourseTitle":"Electromagnetic Waves and Transmission Lines",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "ESE271"
+            ],
+            [
+                "AMS261",
+                "MAT203",
+                "MAT307"
+            ],
+            [
+                "AMS361",
+                "MAT303",
+                "MAT308"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"Properties of generic uniform plane waves including phase and group velocities. Uniform plane electromagnetic waves (UPEMWs) consisting of an electric field wave and a magnetic field wave, both moving synchronously in space and time; mutual right-handed orthogonality between the electric and magnetic field vectors and the direction of propagation; Poynting vector. Transmission lines (TLs): voltage and current behaving as waves on TLs, voltage reflection coefficient, impedance transformation law, VSWR, Smith Chart, impedance matching. Maxwell equations, EM wave equation, boundary conditions. Scattering of UPEMWs incident normally or obliquely at the interface plane between two dielectric media. Waveguides: TE and TM modes of a rectangular waveguide, cut-off frequencies, dominant mode, power flow. Not for credit in addition to EEO 319.",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE323":{
+        "CourseTitle":"Modern Circuit Board Design and Prototyping",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "ESE272",
+                "ESE280"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"Design, fabricate, and test a prototype device using a custom made circuit board, surface mount components, and a 3D printed enclosure. Topics include printed circuit design, active and passive component selection, design for testability, solid modeling, and 3D printing.",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE324":{
+        "CourseTitle":"Advanced Electronics Laboratory",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "ESE272",
+                "ESE211"
+            ],
+            [
+                "ESE273"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"The objective of this advanced electronics lab course is to provide hands-on design experience for students. The students will have the opportunity to leverage theoretical knowledge acquired during ESE 272 and ESE 273 to design and test more complex and highly popular electronic circuits such as multi-stage amplifier, voltage regulator, and DC-DC boost and buck converters, data converters, and phase-locked loop. The initial several experiments will be based on the fundamental single stage amplifiers. The rest of the experiments will be more design centric where students will have the responsibility to determine either topology or the values of the circuit elements in each experiment in order to satisfy specific design objectives. The lectures will cover the theoretical principles as well as related design tradeoffs. Different topologies and analysis techniques will be presented for each circuit, guiding students during the design process. This course has an associated fee.  Please see www.stonybrook.edu\/coursefees for more information.",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE325":{
+        "CourseTitle":"Modern Sensors",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "ESE273"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"The course focuses on the underlying physics principles, design, and practical implementation of sensors and transducers including piezoelectric, acoustic, inertial, pressure, position, flow, capacitive, magnetic, optical, and bioelectric sensors.  Established as well as novel sensor technologies as well as problems of interfacing various sensors with electronics are discussed.",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE326":{
+        "CourseTitle":"Fundamental Algorithms for Automated Electronic Design",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "ESE224"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"Upon completion of the course, students will know to design and implement the fundamental algorithms for automated electronic design, such as system and circuit design. The discussed core algorithms include greedy algorithms, divide-and-conquer, quicksort, dynamic programming, graph algorithms, and string matching. Analysis of algorithms is also discussed. These algorithms are exemplified for basic electronic design tasks, like circuit partitioning, floorplanning, module placement, signal routing, task scheduling, resource allocation, and technology mapping. The course work involves programming exercises and one course project.",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE327":{
+        "CourseTitle":"Fundamental Algorithms for Machine Learning Systems",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "ESE224"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"The course presents the fundamental methods used in Machine Learning for engineering applications. The course discusses representation models for learning, extraction of frequent patterns, classification, clustering, and application of these techniques for different engineering applications. Supervised and unsupervised learning methods are discussed. The course includes two projects that involve devising and implementing the studied techniques and their evaluation using standard benchmark data.",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE330":{
+        "CourseTitle":"Integrated Electronics",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "ESE273"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"An overview of the design and fabrication of integrated circuits. Topics include gate-level and transistor-level design; fabrication material and processes; layout of circuits; automated design tools. This material is directly applicable to industrial IC design and provides a strong background for more advanced courses.",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE331":{
+        "CourseTitle":"Semiconductor Devices",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "AMS361",
+                "MAT303"
+            ],
+            [
+                "PHY127",
+                "PHY132",
+                "PHY142"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"The course covers physical principles of operation of semiconductor devices. Energy bands and energy band diagram, carrier densities, transport properties, generation recombination phenomena in bulk semiconductors, and the continuity equation are covered first. Equipped with an understanding of the character of physical phenomena in semiconductors, students learn the principles of operation, current-voltage characteristics, and nonidealities of p-n junction diodes, metal-semiconductor contacts, bipolar junction transistors, and field effect transistors. Not for credit in addition to EEO 331.",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE332":{
+        "CourseTitle":"Quantum Mechanics for Engineers",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "PHY122",
+                "PHY126",
+                "PHY132",
+                "PHY142"
+            ],
+            [
+                "MAT127",
+                "AMS161",
+                "AMS261",
+                "MAT203"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"Introductory undergraduate level first course in quantum mechanics geared towards engineers and applied physicists. Comprehensive introduction to quantum mechanics and its application to real-world problems.",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE333":{
+        "CourseTitle":"Real-Time Operating Systems",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "ESE224",
+                "CSE214"
+            ],
+            [
+                "ESE280"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"Introduces basic concepts and principles of real-time operating systems. Topics include structure, multiple processes, interprocess communication, real-time process scheduling, memory management, virtual memory, file system design, security, protection, and programming environments for real-time systems.",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE334":{
+        "CourseTitle":"Introduction to Nanoelectronic Devices",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "ESE331"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"The major goals and objectives are to provide undergraduate students with initial knowledge and understanding of nanoelectronic devices. The course will cover physical properties of low-dimensional structures (quantum wells, quantum wires, quantum dots, and superlattices) that create a basis for operation of nanoelectronic devices as well as nanostructure fabrication, characterization and applications in nanoelectronics. Additionally, the course will cover applications of nanotechnology in biology and medicine.",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE337":{
+        "CourseTitle":"Digital Signal Processing: Theory",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "ESE305"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"Introduces digital signal processing theory, discrete time sequences and systems, linear time-invariant (LTI) systems, convolution sum, Discrete Time Fourier Transform (DTFT), Z-transform, Discrete Fourier Series (DFS), sampling DTFT, Discrete Fourier Transform (DFT), Fast Fourier Transform (FFT), sampling and reconstruction of continuous and discrete time signals, design of FIR and IIR filters, difference equations.",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE342":{
+        "CourseTitle":"Communication Systems",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "ESE306"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"Basic concepts in both analog and digital data communications; signals, spectra, and linear networks; Sampling and pulse modulation; Pulse modulation schemes; Principles of digital transmission; Behavior of analog and digital systems in noise; Channel capacity and channel coding schemes.",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE343":{
+        "CourseTitle":"Mobile Cloud Computing",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "ESE224",
+                "CSE214",
+                "CSE230",
+                "ISE208"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"Introduction to the basic concepts of mobile cloud computing, including: 1. The mobile computing technology used in modern smart phones; 2. The cloud computing technology used in existing data centers; 3. The synergy of mobile and cloud computing and its applications; 4. Programming on smart phone utilizing data center services. Students will gain knowledge of: the fundamental principles of mobile cloud computing, the major technologies that support mobile cloud computing, the current challenges and primary areas of research within the field of mobile cloud computing, and a basic understanding of the role of mobile cloud computing in the context of everyday living.",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE344":{
+        "CourseTitle":"Software Techniques for Engineers",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "ESE224"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"This course covers software techniques for solving electrical and computer engineering problems in the C++ programming language. Design, implementation, and application to engineering problems of non-linear data structures and related advanced algorithms are covered. This includes binary trees, trees, graphs, and networks. OOP features such as Polymorphism, templates, Exception handling, File I\/O operations, as well as Standard Template Library are used in the programming projects.",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE345":{
+        "CourseTitle":"Computer Architecture",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "ESE280",
+                "ESE382"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"This course focuses on the fundamental techniques of designing and evaluating modern computer architectures and tradeoffs present at the hardware\/software boundary. The emphasis is on instruction set design, processor design, memory and parallel processing. Students will get an understanding of the design process in the context of a complex computer system. Students will undertake a VHDL\/Verilog design project using modern CAD tools.",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE346":{
+        "CourseTitle":"Computer Communications",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "ESE306"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"Basic theory and technology of computer communications. Introduction to performance evaluation, error codes and routing algorithms.  Introduction to queueing theory, machine learning for networking and network planning.  Other topics include Ethernet, wireless networks including LTE, 5G and 6G, fiber optic networking, software defined networking, networking on chips, space networks, data centers, grids and clouds. Not for credit in addition to CSE 310 or ISE 316 or ISE 317 or EEO 346.",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE347":{
+        "CourseTitle":"Digital Signal Processing: Implementation",
+        "Career":"Undergraduate",
+        "Credits":4.0,
+        "Prerequisites":[
+            [
+                "ESE337",
+                "ESE305"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"Fundamental techniques for implementing standard signal-processing algorithms on dedicated digital signal-processing chips. Includes a review of discrete-time systems, sampling and reconstruction, FIR and IIR filter design, FFT, architecture and assembly language of a basic signal processing chip, and an introduction to adaptive filtering.",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE350":{
+        "CourseTitle":"Electric Power Systems",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "ESE271"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"Fundamental engineering theory for the design and operation of a modern electric power system. Modern aspects of generation, transmission, and distribution are considered with appropriate inspection trips to operating electric power facilities (when available). Topics included are: Three Phase AC systems, phasor and function of time analysis, per unit representation, transmission line parameters, delta-wye transformers, power flow, transient stability, renewable energy integration, and basics of power system protection.",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE352":{
+        "CourseTitle":"Electromechanical Energy Converters",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "ESE273"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"An introduction to the conversion of mechanical power to electric power (generators) and the conversion of electric power to mechanical power (motors). Analysis of the interaction of magnetic fields with electric current and moving conductors to produce electromagnetic force and induced voltage. Energy converters studied include three phase AC synchronous generators and motors, AC induction motors, DC linear and rotating machines, and single phase AC motors. An introduction to inverter-based renewable energy generations in power systems.",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE355":{
+        "CourseTitle":"VLSI System Design",
+        "Career":"Undergraduate",
+        "Credits":4.0,
+        "Prerequisites":[
+            [
+                "ESE118"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"Introduces techniques and tools for scalable VLSI design and analysis. Emphasis is on physical design and on performance analysis. Includes extensive laboratory experiments and hands-on use of CAD tools.",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE356":{
+        "CourseTitle":"Digital System Specification and Modeling",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "ESE224",
+                "ESE280"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"A comprehensive introduction to the field of system level design. This course introduces basic concepts of complex hybrid (software\/hardware) system modeling and simulation methodologies. Topics include top-down and bottom-up design methodology, system complexity refinement, SystemC specification language syntax and semantics, behavioral and system-level modeling, channel and interface modeling and implementation, and IP core development. Included are three projects on modeling and simulation.",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE358":{
+        "CourseTitle":"Computer Vision",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "ESE305"
+            ],
+            [
+                "ESE224",
+                "CSE230"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"Introduces fundamental concepts, algorithms, computational techniques, and applications in visual information processing. Covers image formation models and image filtering, binary image analysis, feature detection, contours, image segmentation, 3D image capture and analysis through stereo, motion, structured-light, and LIDAR, medical images, pattern classification, machine learning, and 3D object recognition.",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE360":{
+        "CourseTitle":"Network Security Engineering",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "ESE346",
+                "ISE310"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"An introduction to computer network and telecommunication network security engineering. Special emphasis on building security into hardware and hardware working with software. Topics include encryption, public key cryptography, authentication, intrusion detection, digital rights management, firewalls, trusted computing, encrypted computing, intruders and viruses. Not for credit in addition to CSE 408.",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE366":{
+        "CourseTitle":"Design using Programmable Mixed-Signal Systems-on-Chip",
+        "Career":"Undergraduate",
+        "Credits":4.0,
+        "Prerequisites":[
+            [
+                "ESE380",
+                "ESE372"
+            ],
+            [
+                "ESE224",
+                "CSE230"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"This course focuses on development of mixed-signal embedded applications that utilize systems on chip (SoC) technology.  The course discusses design issues such as: implementation of functionality; realizing new interfacing capabilities; and improving performance through programming the embedded microcontroller and customizing the reconfigurable analog and digital hardware of SoC.",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE375":{
+        "CourseTitle":"Architectures for Digital Signal Processing",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "ESE280",
+                "ESE305"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"This course covers various aspects of architectures in digital signal processing and multimedia data processing. The topics include iteration bound analysis, retiming the circuits, unfolding and folding the architectures, algorithmic and numerical strength reduction for low power and low complexity design, introduction to array processor architectures and CORDIC implementation.",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE381":{
+        "CourseTitle":"Embedded Microprocessor Systems Design II",
+        "Career":"Undergraduate",
+        "Credits":4.0,
+        "Prerequisites":[
+            [
+                "ESE271"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"A continuation of ESE 380. The entire system design cycle, including requirements definition and system specifications, is covered. Topics include real-time requirements, timing, interrupt driven systems, analog data conversion, multi-module and multi-language systems. The interface between high-level language and assembly language is covered. A complete system is designed and prototyped in the laboratory.",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE382":{
+        "CourseTitle":"Digital Design Using VHDL and PLDs",
+        "Career":"Undergraduate",
+        "Credits":4.0,
+        "Prerequisites":[
+            [
+                "ESE118"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"Digital system design using the hardware description language VHDL and system implementation using complex programmable logic devices (CPLDs) and field programmable gate arrays (FPGAs). Topics include design methodology, VHDL syntax, entities, architectures, testbenches, subprograms, packages, and libraries. Architecture and characteristics of PLDs and FPGAs are studied. Laboratory work involves writing the VHDL descriptions and testbenches for designs, compiling, and functionally stimulating the designs, fitting and timing simulation of the fitted designs, and programming the designs into a CPLD or FPGA and bench testing.",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE388":{
+        "CourseTitle":"Foundations of Machine Learning",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "ESE224",
+                "ESE306"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"This course provides an introduction to the fundamental concepts of machine learning. Statistical learning framework is utilized for clustering, classification, and prediction tasks. Concepts are reinforced through theoretical and programming assignments, with applications in computer vision, natural language processing and bioinformatics.",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE411":{
+        "CourseTitle":"Analog Integrated Circuits",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "ESE273"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"Single-stage amplifiers biased and loaded with current mirrors. Frequency response. Two-stage operational amplifiers designed by conventional and computer-aided techniques. Negative feedback, stability and compensation.",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE412":{
+        "CourseTitle":"Lightwave Devices",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "ESE331"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"Introduction to optical semiconductor devices and their applications in telecommunications, optoelectronics, and consumer electronics-areas where signal processing or the transmission of signals across free space or fiber optic cables is involved. It discusses design and operation of optical modulators, quantum well lasers, light emitting diodes, and photodetectors.",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE413":{
+        "CourseTitle":"Introduction to Photovoltaics",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "ESE331"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"Introduction to the basic concepts of photovoltaic solar energy conversion, including: 1. The solar resource in the context of global energy demand; 2. The operating principles and theoretical limits of photovoltaic devices; 3. Device fabrication, architecture, and primary challenges and practical limitations for the major technologies and materials used for photovoltaic devices. Students will gain knowledge of: the device physics of solar cells, the operating principles of the major commercial photovoltaic technologies, the current challenges and primary areas of research within the field of photovoltaics, and a basic understanding of the role of photovoltaics in the context of the global energy system.",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE414":{
+        "CourseTitle":"Fundamentals of Low Noise Electronics for Sensors",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "ESE411"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"Introduction to sensor model, electronic noise, signal-to-noise analysis in frequency and time domains, low-noise charge amplification, low-noise amplifier design, filter design, analog and digital signal processing for sensors.",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE435":{
+        "CourseTitle":"Power System Analysis",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "AMS210"
+            ],
+            [
+                "ESE271"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"The course focuses on fundamental analytics of power systems. The course will help students understand major problems in power system static, dynamic, and stability analysis, as well as fundamental optimization issues in power system operation. The course covers power system steady-state modeling with emphasis on admittance and impedance matrix, power system dynamics modeling with emphasis on the functional state-space model, and power system analytics with emphasis on power flow analysis, eigenvalue analysis, and time-domain transient simulation. Advanced topics such as power system optimization exemplified by optimal power flow and unit commitment, as well as power system control will also be introduced. Emphasis is on using applied mathematics to analyze power system problems.",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE440":{
+        "CourseTitle":"Senior Design I",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "ESE300"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"The senior design sequence (ESE 440 and ESE 441) is a two-semester, team based and independent capstone project with deliverables. The primary objective of the senior design course sequence is to provide a vehicle for students to transition from an academic environment to that of a commercial\/professional engineering environment. Students learn to work in teams to complete a project from concept, practical design based on multiple constraints, to creating a deliverable product meeting the design specifications. Students present written, oral and poster presentations of the project. While most of the project work is done outside the classroom, guest speakers provide insight into other related topics from resume preparation, to program management, to team dynamics and to design methodologies used in industry. The project incorporates appropriate engineering standards and multiple realistic constraints. The final grade will be assigned at the end of the two course sequence ESE 440-441. Not counted as a technical elective. This course has an associated fee. Please see www.stonybrook.edu\/coursefees for more information.",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE441":{
+        "CourseTitle":"Senior Design II",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "ESE440"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"The senior design sequence (ESE 440 and ESE 441) is a two-semester, team based and independent capstone project with deliverables. The primary objective of the senior design course sequence is to provide a vehicle for students to transition from an academic environment to that of a commercial\/professional engineering environment. Students learn to work in teams to complete a project from concept, practical design based on multiple constraints, to creating a deliverable product meeting the design specifications. Students present written, oral and poster presentations of the project. While most of the project work is done outside the classroom, guest speakers provide insight into other related topics from resume preparation, to program management, to team dynamics and to design methodologies used in industry. The project incorporates appropriate engineering standards and multiple realistic constraints. Not counted as a technical elective. This course has an associated fee. Please see www.stonybrook.edu\/coursefees for more information.",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE442":{
+        "CourseTitle":"Recent Advances in Communications and Wireless Networks",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "ESE342",
+                "ESE346",
+                "CSE310"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"This course covers major wireless network protocols and recent advances on selected topics of communications and networks. Students are expected to survey the current literature on the subject area of the course and complete a project.",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE451":{
+        "CourseTitle":"Power Electronics",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "ESE273"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"An introduction to the design and characterization of high-efficiency switch-mode power converters. Fundamental dc-dc converter topologies will be introduced and analyzed in the steady state and dynamically. The application of semiconductor devices in power applications including MOSFET, BJT, IGBT, and thyristors will be studied. Non-idealities in circuit components and the design of magnetic components will be discussed. Students will build and characterize circuits of their own design.",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE452":{
+        "CourseTitle":"Advanced Power Electronics",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "ESE451"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"A continued study of switching power converters after ESE 451. Topics include power factor and AC power line current harmonics, analysis of discontinuous circuit operation, resonant converters, and soft-switching. The advantages of wide band gap semiconductors in high power applications will be discussed. Students will build and characterize their designs.",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE457":{
+        "CourseTitle":"Fundamentals of Digital Image Processing",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "ESE305"
+            ],
+            [
+                "ESE224"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"This course covers fundamentals of digital image processing. Basic principles, computational algorithms, and applications are covered. Topics include image formation and sensing, sampling and quantization, image enhancement and histogram analysis, geometric transformations, filtering in the spatial and Fourier domains, edge and feature detection, color image processing, image deblurring, and medical images and computed tomography.",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE462":{
+        "CourseTitle":"AI Driven Smart Grids",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "ESE350",
+                "ESE435"
+            ],
+            [
+                "AMS210",
+                "MAT211"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"The course focuses on Artificial Intelligence (AI) applications to power system modeling, analysis, and operation. Topics include basics of AI and smart grid, AI-driven modeling such as load\/renewable energy prediction and dynamic model discovery, AI-driven power system analysis such as dynamic simulation, and stability and security assessment, and AI-based operation such as optimal dispatch and emergency control. Emerging topics, including generative AI, quantum machine learning, and trustworthy AI, will also be discussed. Students enrolled in the course are expected to possess a foundational capability in using Matlab or Python for developing basic programs.",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE475":{
+        "CourseTitle":"Undergraduate Teaching Practicum",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Students assist the faculty in teaching by conducting recitation or laboratory sections that supplement a lecture course. The student receives regularly scheduled supervision from the faculty instructor. May be repeated once but only three credits may be counted as an ESE elective.",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE476":{
+        "CourseTitle":"Instructional Laboratory Development Practicum",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Students work closely with a faculty advisor and staff in developing new laboratory experiments for scheduled laboratory courses in electrical and computer engineering. A comprehensive technical report and the instructional materials developed must be submitted at the end of the course. May be used as a technical elective for electrical and computer engineering majors. May be repeated as an open elective.",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE481":{
+        "CourseTitle":"Design of Secure IoT Embedded Systems",
+        "Career":"Undergraduate",
+        "Credits":4.0,
+        "Prerequisites":[
+            [
+                "ESE381"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"This course focuses on the design, development, and implementation of secure IoT systems using microcontrollers, radio modules, sensors, and actuators. Topics include security and access management. Installation of security credentials on a microcontroller. Microcontrollers with radio modules. Pre-provisioned radio modules. AWS serverless IoT. ExpressLink and AT commands. Permissions, policies and rules. IoT payloads and JSON. Message brokers. Publish and subscribe principle. MQTT broker and verification tools. IoT centric cloud services and their use. Operating a microcontroller in low power modes. The laboratory portion of the course will provide hands-on experience in designing and implementing IoT embedded systems.",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE488":{
+        "CourseTitle":"Internship in Electrical\/Computer Engineering",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"An independent off-campus engineering project with faculty supervision. May be repeated but only three credits may be counted as an ESE elective.",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE494":{
+        "CourseTitle":"Honors Seminar on Research",
+        "Career":"Undergraduate",
+        "Credits":1.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"An introduction to the world wide research enterprise with special emphasis on research in the United States. Topics include research funding, publications, patents, career options, theory versus experiment, entrepreneurship and presentation skills.",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE495":{
+        "CourseTitle":"Honors Research Project",
+        "Career":"Undergraduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "ESE494"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"A research project, for students in the honors program, conducted under the supervision of an electrical and computer engineering faculty member.",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE499":{
+        "CourseTitle":"Research in Electrical Sciences",
+        "Career":"Undergraduate",
+        "Credits":"0.00 - 3.00",
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"An independent research project with faculty supervision. Permission to register requires a 3.00 g.p.a. in all engineering courses and the agreement of a faculty member to supervise the research. May be repeated but only three credits may be counted as an ESE elective.",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE500":{
+        "CourseTitle":"Introduction to Engineering Education",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"This graduate course provides an in-depth examination of engineering knowledge and practices in the context of secondary science content and instruction. The focus is on engineering design principles and how they may be applied to biology, chemistry, and physics disciplinary domains. Key concepts of effective engineering education will be introduced: design-based approaches, optimization, STEM integration, assessment, and transfer of science principles to technology solutions. Students will participate in engineering education opportunities through project design, research, and\/or curriculum opportunities at the secondary and post-secondary levels.",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE501":{
+        "CourseTitle":"System Specification and Modeling",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"A comprehensive introduction to the field of System-on-Chip design.  Introduces basic concepts of digital system modeling and simulation methodologies.  Various types of hardware description language (HDL) will be studied, including Verilog, VHDL, and SystemC.  Topics include top-down and bottom-up design methodology, specification language syntax and semantics, RTL, behavioral and system-level modeling, and IP core development.  Included are three projects on hardware modeling and simulation.\nFall, every year",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE502":{
+        "CourseTitle":"Linear Systems",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Development of transfer matrices and state-space equations from the concepts of linearity, time-invariance, causality, and lumpedness. Op-amp circuit implementations. Solutions and equivalent state equations. Companion and modal forms. Stability and Lyapunov equations. Controllability, observability, and their applications in minimal realization, state feedback, and state estimators. Coprime fraction of transfer functions and their designs in pole-placement and model matching. Both the continuous-time and discrete-time systems will be studied.\nFall,",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE503":{
+        "CourseTitle":"Stochastic Systems",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Basic probability concepts and application. Probabilistic bounds, characteristic functions, and multivariate distributions. Central limit theorem, normal random variables, stochastic processes in communications, control, and other signal processing systems. Stationarity, ergodicity, correlation functions, spectral densities, and transmission properties. Optimum linear filtering, estimation, and prediction.\nFall,",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE504":{
+        "CourseTitle":"Performance Evaluation of Communications and Computer Systems",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Advanced scheduling theory, queuing models and algorithms for communication and computer systems. Transient analysis and M\/G\/1 queue models. Networks of queues, mean value analysis and convolution algorithms. Petri networks. Bursty and self-similar traffic. Divisible load theory for scheduling and parallel computer performance evaluation.\nPrerequisite: ESE 503 or permission of instructor.",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE505":{
+        "CourseTitle":"Wireless Communications",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"This course covers first year graduate level material in the area of wireless communications:  Wireless channels, overview of digital communications and signal processing for wireless comm., voice and data applications, design basics for wireless modems, analysis of system issues like resource management and handoff, cellular and wireless LAN systems. \nFall or Spring, every year",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE506":{
+        "CourseTitle":"Wireless Network",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"This course will examine the area of wireless networking and mobile computing, looking at the unique network protocol challenges and opportunities presented by wireless communications and host or router mobility. The course will give a brief overview of fundamental concepts in mobile wireless systems and mobile computing, it will then cover system and standards issues including second generation circuit switched and third generation packet switched networks, wireless LANs, mobile IP, ad-hoc networks, sensor networks, as well as issues associated with small handheld portable devices and new applications that can exploit mobility and location information. This is followed by several topical studies around recent research publications in mobile computing and wireless networking field. This course will make the system architecture and applications accessible to the electrical engineer.\nPrerequisites: ESE 505 and ESE 546 or ESE 548, or permission of instructor",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE507":{
+        "CourseTitle":"Advanced Digital System Design and Generation",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"This course focuses on languages, tools and abstractions for design and implementation of digital systems.  Course material is divided roughly into three categories: Limitations and constraints on modern digital systems; Hardware design abstractions, languages, and tools (including the SystemVerilog hardware description language); and new architectures and paradigms for digital design.  Coursework will be primarily project and assignment based; there will also be reading and discussion of published papers in these areas.  Students should have experience with hardware description languages (VHDL, Verilog, or System Verilog) and software (C, C++ or Java).\nFall, 3 credits, grading ABCF.",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE509":{
+        "CourseTitle":"Modern Energy Technologies",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"This course cover a broad array of technologies that are essential to the modern energy industry, specifically focusing on the most contemporary topics and \u00bfhot\u00bf areas of research, development, and deployment.  Students will gain a quantitative understanding of selected energy generation technologies, energy storage technologies, and pollution control technologies.",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE510":{
+        "CourseTitle":"Electronic Circuits",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"This is a course in the design and analysis of analog circuits, both discrete and integrated. The first part of the course presents basic topics related to circuit analysis: laws, theorems, circuit elements and transforms. Fundamental semiconductor devices are introduced next. A number of aspects of circuit design beginning with basic device operation through the design of large analog functional blocks including amplifiers, oscillators and filters are discussed.\nCannot be used to fulfill any ESE degree requirements.\nFall,",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE511":{
+        "CourseTitle":"Solid-State Electronics",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"A study of the electron and hole processes in solids leading to the analysis and design of solid-state electronic devices. Solutions to the Schrodinger representation of quantum effects, perturbation techniques. Simple band structure, effective mass theorem. Derivation and application of the Boltzmann transport theory. Electrical and thermal conductivities of metals and of semiconductors, and their application to electronic devices. Properties of semi conductors and the theories underlying the characteristics of semiconductor devices. Fall, 3 credits, grading ABCF.",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE512":{
+        "CourseTitle":"Introduction to Quantum Systems Engineering",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"A study of fundamental properties of homojunction and heterojunction semiconductor devices. Derivation of the characteristic equation for p-n junction diodes, for the bipolar junction transistor (BJT) and for the heterojunction bipolar transistor (HBT); the device parameters for low- and high-frequency operation, the effects on the device characteristics of fabrication methods and of structural arrangements. The development of the large-signal and small-signal equivalent circuits for the p-n diode and the BJT and HPT devices, with emphasis on models used in prevalent computer-aided analysis (e.g., SPICE). Consideration of the devices in integrated-circuit applications. Spring,",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE513":{
+        "CourseTitle":"Introduction to Photovoltaics",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "ESE231"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"Introduction to the basic concepts of photovoltaic solar energy conversion, including: 1. The solar resource in the context of global energy demand; 2. The operating principles and theoretical limits of photovoltaic devices; 3. Device fabrication, architecture, and primary challenges and practical limitations for the major technologies and materials used for photovoltaic devices.  Students will gain knowledge of the device physics of solar cells, the operating principles of the major commercial photovoltaic technologies, the current challenges and primary areas of research within the field of photovoltaics, and a basic understanding of the role of photovoltaics in the context of the global energy system.",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE514":{
+        "CourseTitle":"MOSTransistor Modeling",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"An overview of the metal-oxide semiconductor (MOS) transistor and its models for circuit analysis. The course is modular in structure. In a common first part, CMOS fabrication, device structure and operation are introduced. Starting from basic concepts of electrostatics, MOS field-effect transistor operation is presented in an intuitive fashion, and no advanced background in solid-state theory is required. Analytical models of increasing complexity and their SPICE Implementations are discussed. The second part of the course allows students to focus on their field of preference: Device physics; digital circuits; Analog circuits. The course includes a project in one of these subtopics.\nFall,",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE515":{
+        "CourseTitle":"Quantum Electronics I",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Physics of microwave and optical lasers. Topics include introduction to laser concepts; quantum theory; classical radiation theory; resonance phenomena in two-level systems; Block equations-Kramers-Kronig relation, density matrix; rate equation and amplification; CO2 lasers; discharge lasers; semiconductor lasers.\nFall,",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE516":{
+        "CourseTitle":"Integrated Electronic Devices and Circuits I",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Theory and applications: elements of semiconductor electronics, methods of fabrication, bipolar junction transistors, FET, MOS transistors, diodes, capacitors, and resistors. Design techniques for linear digital integrated electronic components and circuits. Discussion of computer-aided design, MSI, and LSI.\nFall,",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE517":{
+        "CourseTitle":"Integrated Electronic Devices and Circuits II",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Theory and applications: elements of semiconductor electronics, methods of fabrication, bipolar junction transistors, FET, MOS transistors, diodes, capacitors, and resistors. Design techniques for linear digital integrated electronic components and circuits. Discussion of computer-aided design, MSI, and LSI.\nSpring,",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE518":{
+        "CourseTitle":"Advanced design of low noise and low power analog circuits",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Students will learn state-of-the-art circuit techniques for low-noise and low-power amplification and processing of signals from sensors. Examples of circuits are low-noise amplifiers, filters, peak directors and discriminators. Applications range from medical, to security, safety, industrial measurements and physics research. As a course project, students will develop part of a front-end circuit from transistor level to physical layout using industry-standard CAD tools, and will participate in the experimental characterization of those similar circuits. At the end of the course the student will own a solid background and the basic instruments to design low-noise and low-power amplifiers and processing circuits.\nOffered in Fall, 3 Credits, ABCF Grading",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE519":{
+        "CourseTitle":"Semiconductor Lasers and Photodetectors",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"The course provides an introduction to performance, testing and fabrication techniques for semiconductor lasers and photodetectors. The topics include fundamentals of laser and detector operation, devices band diagram, device characteristics, and testing techniques for analog and digital edge emitting and surface emitting lasers, avalanche and PIN photodetectors. Special attention is given to the design and working characteristics of transmitters and pumping lasers for telecommunication networks.\nPrerequisite: BS in Physical Sciences or Electrical and Computer Engineering",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE520":{
+        "CourseTitle":"Applied Electromagnetics",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Wave phenomena and their importance in electromagnetic engineering. Harmonic waves. Phase and group velocities. Dispersive and nondispersive propagation. Transmission lines. Maxwell Equations. Uniform plane waves, waveguides, resonators. Scattering matrix theory. Introduction to antenna theory. Electrostatics and magnetostatics as special cases of Maxwell equations.\nSpring,",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE522":{
+        "CourseTitle":"Fiber Optic Systems",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"This course covers the essential components of a modern optical fiber communication system: (I) wave propagation in optical fiber waveguides, (II) transmitter design, (III) receiver design, (IV) single wavelength fiber-optic networks, and (V) wavelength division multiplexing networks.\nPrerequisite: ESE 319\nFall,",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE523":{
+        "CourseTitle":"Quantum Computing and Applications",
+        "Career":"Graduate",
+        "Credits":4.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"This course is an introduction to and survey of the Quantum Computing, an emerging interdisciplinary field of science which has the potential to revolutionize computation over the next ten years, to transform chemistry, medicine, engineering and communications, as well as to change our understanding of physical world. The course will build intuitive approach to quantum computation and algorithms, but also will advance relevant vocabulary and skills for faculties and graduate students in engineering, computing, applied mathematics, chemistry, physics, and related sciences. The key questions of the quantum computing will be introduced. How to describe quantum systems and quantum operations? What is a quantum computer and what are the limits of quantum power? What is the difference between classical and quantum computation? Quantum teleportation? Quantum entanglement and superposition? How to mitigate errors and decoherence and transmit information through noisy channels? What are business applications and engineering challenges of the quantum computers? What are the gains in running quantum vs. classical algorithms? What are the physical principles of the current quantum computers hardware and what are technology requirements for realistic quantum computers?",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE524":{
+        "CourseTitle":"Microwave Acoustics",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Continuum acoustic field equations. Wave equation, boundary conditions, and Pointing vector. Waves in isotropic elastic media: plane-wave modes, reflection and refraction phenomena, bulk-acoustic-wave (BAW) waveguides, surface acoustic waves (SAW). Plane and guided waves in piezoelectric media. BAW transduction and applications: delay-line and resonator structures, the Mason equivalent circuit, monolithic crystal filters, IM CON dispersive delay lines, acoustic microscopes, SAW transduction and applications: the interdigital transducer, band-pass filters, dispersive filters, convolvers, tapped delay lines, resonators.\nPrerequisite: ESE 319\nFall,",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE525":{
+        "CourseTitle":"Moden Sensors in Artificial Intelligence Applications",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Sensors are devices that convert physical values into electrical signals. This course will provide practical information on diversified subjects related to the operation principles, design and use of various sensors. Established and novel sensor technologies as well as problems of interfacing various sensors with electronics are discussed.",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE526":{
+        "CourseTitle":"Silicon Technology for VLSI",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"This course introduces the basic technologies employed to fabricate advanced integrated circuits. These include epitaxy, diffusion, oxidation, chemical vapor deposition, ion implantation lithography and etching. The significance of the variation of these steps is discussed with respect to its effect on device performance. The electrical and geometric design rules are examined together with the integration of these fabrication techniques to reveal the relationship between circuit design and the fabrication process.\nFall,",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE528":{
+        "CourseTitle":"Communication Systems",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"This course provides a general overview of communication theory and addresses fundamental concepts in this field. After a review of signals and systems representations, various continuous and digital modulation schemes are analyzed. Spread spectrum systems and their application to multiuser communications are also addressed. Advanced communication systems are described and general concepts of wide and local area networks are introduced.\nFall,",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE530":{
+        "CourseTitle":"Computer-Aided Design",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"The course presents techniques for analyzing linear and nonlinear dynamic electronic circuits using the computer. Some of the topics covered include network graph theory, generalized nodal and hybrid analysis, companion modeling. Newton's method in n-dimensions and numerical integration.\nPrerequisite: B.S. in Electrical Engineering\nSpring,",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE531":{
+        "CourseTitle":"Statistical Learning and Inference",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Minimum variance unbiased estimation, Cramer- Rao lower bounds, learning and inference with linear models, maximum likelihood estimation, least squares estimation, Bayesian inference, statistical decision theory, hypothesis testing with deterministic and random signals, composite hypothesis testing, model\nselection.",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE532":{
+        "CourseTitle":"Theory of Digital Communication",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Optimum receivers, efficient signaling, comparison classes of signaling schemes. Channel capacity theorem, bounds on optimum system performance, encoding for error reduction, and the fading channel. Source coding and some coding algorithms.\nPrerequisite: ESE 503\nFall,",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE533":{
+        "CourseTitle":"Convex Optimization and Engineering Applications",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Introduction to convex optimization and its applications.  Convex sets, functions, and basics of convex analysis.  Linear and quadratic programs, second-order cone and semidefinite programming, geometric programming.  Duality theory and optimality conditions. Unconstrained minimization methods.  Interior-point methods.  Nondifferentiable problems.  Decomposition methods.  Applications in engineering fields including statistical signal processing, communications, networking, energy systems, circuit design, and machine learning.",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE534":{
+        "CourseTitle":"Cyber Physical Systems",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"As computers and communication bandwidth become ever-faster and ever-cheaper, computing and communication capabilities will be embedded in all types of objects and structures in the physical environment.  Applications with enormous societal impact and economic benefit will be created by harnessing these capabilities in time and across space.  We refer to systems that bridge the cyber-world of computing and communications with the physical world as cyber physical systems (CPS).  This course covers important areas from the research literature on SPS.  Three application domains are emphasized: medical devices for health care, smart transportation systems, and smart buildings.  Several key cross-cutting principles, independent of the application domain, are also covered, including formal modeling, embedded systems, real-time systems, feedback control and sensor networks.\nPrerequisite: Background in embedded systems and computer networking is necessary.",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE535":{
+        "CourseTitle":"Power System Analysis",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"The course focuses on fundamental analytics of power systems. It will help students understand major problems in power system static, dynamic, and stability analysis, as well as fundamental optimization issues in power system operation. The course covers power system steady-state modeling with emphasis on admittance and impedance matrix, power system dynamics modeling with emphasis on the functional state-space model, power system analytics with emphasis on power flow analysis, eigenvalue analysis, and time-domain transient simulation, as well as fundamental power system operation issues with emphasis on optimal power flow, unit commitment, and power system control. Emphasis is on using applied mathematics and computer-based methods to analyze power system problems.",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE536":{
+        "CourseTitle":"Switching and Routing in Parallel and Distributed Systems",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"This course covers various switching and routing issues in parallel and distributed systems. Topics include message switching techniques, design of interconnection networks, permutation, multicast and all-to-all routing in various networking nonblocking, and rearrangable capability analysis and performance modeling.\nPrerequisite: ESE 503 and 545 or CSE 502 and 547, or permission of instructor",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE537":{
+        "CourseTitle":"Mobile Sensing Systems & Applications",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"This is a graduate course focusing on recent advances and developments in mobile sensing systems and their applications, especially those leveraging modern mobile devices and embedded sensors.  Topics include: conventional mote-class sensor networks, participatory sensing leveraging mobile devices, intelligent hardware and Internet-of-Things, location sensing, future information centric networking, and applications in smart homes, buildings, transportation, environment and health\/fitness.  Student need to read latest literature and write reviews, work on research problems and develop solutions, present their work and write formal reports.  The practice of the basic research skills are major components.  This course intends to be self-sufficient and prior experiences in programming, mobile devices and embedded systems is a plus.",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE538":{
+        "CourseTitle":"Nanoelectronics",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"The major goals and objectives are to provide graduate students with knowledge and understanding of physical background and applications of nanoelectronics.  The course will cover electrical and optical properties of materials and nanostructures, fabrication of nanostructures, nanoelectronic devices including resonant-tunneling devices, transistors, and single-electron transfer devices, as well as applications of nanotechnologies in molecular biology and medicine.",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE539":{
+        "CourseTitle":"Power Electronics and Motor Drives",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"This course is designed to cover the basic concepts of motor control, motor drive design and power electronics inverters.",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE540":{
+        "CourseTitle":"Reliability Theory",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Theory of reliability engineering. Mathematical and statistical means of evaluating the reliability of systems of components.  Analytical models for systems analysis, lifetime distributions, repairable systems, warranties, preventive maintenance, and inspection. Software reliability and fault tolerant computer systems.\nPrerequisite: ESE 503 or permission of instructor",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE541":{
+        "CourseTitle":"Digital System Design",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"The course provides an introduction to digital and computer systems. The course follows a top-down approach to presenting design of computer systems, from the architectural-level to the gate-level. VHDL language is used to illustrate the discussed issues. Topics include design hierarchy and top-down design, introduction to hardware description languages, computer-aided design and digital synthesis, basic building blocks like adders, comparators, multipliers, latches, flip-flops, registers etc, static and dynamic random access memory, data and control buses, fundamental techniques for combinational circuit analysis and design, sequential circuit design procedures, and programmable logic devices. Testing of digital designs is addressed throughout the course. A mini project will complement the course.\nCannot be used to fulfill any ESE degree requirements.\nPrerequisites: BS in Engineering, but not EE, CE or CS.\nSpring,",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE542":{
+        "CourseTitle":"Product Design Concept Development and Optimization",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"This graduate course will concentrate on the design concept development of the product development cycle, from the creative phase of solution development to preliminary concept evaluation and selection. The course will then cover methods for mathematical modeling, computer simulation and optimization. The concept development component of the course will also cover intellectual property and patent issues. The course will not concentrate on the development of any particular class of products, but the focus will be mainly on mechanical and electromechanical devices and systems. As part of the course, each participant will select an appropriate project to practice the application of the material covered in the course and prepare a final report.\nPrerequisites: Undergraduate electrical or mechanical engineering and\/or science training.\nFall,",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE543":{
+        "CourseTitle":"Mobile Cloud Computing",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Introduction to the basic concepts of mobile cloud computing, including 1. The mobile computing technology used in modern smart phones; 2. The cloud computing technologies used in existing data centers; 3. The synergy of mobile and cloud computing and its applications; and 4. Programming on smart phone utilizing data center services. Students will gain knowledge of the fundamental principles of mobile cloud computing, the major technologies that support mobile cloud computing, the current challenges and primary areas of research within the field of mobile cloud computing, and a basic understanding of the role of mobile cloud computing in the context of the everyday living.",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE544":{
+        "CourseTitle":"Network Security Engineering",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"An introduction to computer network and telecommunication network security engineering.  Special emphasis on building security into hardware and hardware working with software. Topics include encryption, public key cryptography, authentication, intrusion detection, digital rights management, firewalls, trusted computing, encrypted computing, intruders and virus. Some projects. Fall, alternate years, 3 credits. Prerequisite or co-requisite: ESE 546 or ESE 548.",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE545":{
+        "CourseTitle":"Computer Architecture",
+        "Career":"Graduate",
+        "Credits":4.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"The course covers uniprocessor and pipelined vector processors. Topics include: hierarchical organization of a computer system; processor design; control design; memory organization and virtual memory; I\/O systems; balancing subsystem bandwidths; RISC processors; principles of designing pipelined processors; vector processing on pipelines; examples of pipelined processors. The course involves a system design project using VHDL.\nPrerequisite: ESE 218 or equivalent\nSpring,",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE546":{
+        "CourseTitle":"Networking Algorithms and Analysis",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"An introduction to algorithms and analysis for computer and telecommunication networks.  Continuous time and discrete time single queue analysis.  Algorithms from public key cryptography, routing, protocol verification, multiple access, error codes, data compression, search.\nPrerequisite: ESE 503 or permission of instructor.  Fall, 3 credits, grading ABCF.",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE547":{
+        "CourseTitle":"Digital Signal Processing",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"A basic graduate course in Digital Signal Processing. Sampling and reconstruction of Signals. Review of Z-Transform theory. Signal flow-graphs. Design of FIR and IIR filters. Discrete and fast Fourier transforms. Introduction to adaptive signal processing. Implementation considerations.\nPrerequisite: Senior level course in signals and systems\nFall,",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE548":{
+        "CourseTitle":"Computer Networks",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Basic theory and technology of computer communications. Introduction to performance evaluation, error codes and routing algorithms. Other topics include Ethernet, wireless networks including LTE and 5G, fiber optic networking, software defined networking, networking on chips, space networks, data centers, grids and clouds, and network security. 3 credits , grading ABCF.",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE549":{
+        "CourseTitle":"Advanced VLSI System Testing",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"This course is designed to acquaint students with fault diagnosis of logic circuits. Both combinatorial and sequential circuits are considered. Concepts of faults and fault models are presented. Emphasis is given to test generation, test selection, fault detection, fault location, fault location within a module and fault correction.\nPrerequisite: BS in Electrical Engineering\nSpring,",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE550":{
+        "CourseTitle":"Network Management and Planning",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"This course provides an introduction to telecommunications and computer network management and planning. Network management is concerned with the operation of networks while network planning is concerned with the proper evolution of network installations over time. Network management topics include meeting service requirements, management operations, management interoperability, and specific architectures such as Telecommunications Management Network (TMN), and Simple Network Management Protocol (SNMP). Network planning topics include planning problem modeling, topological planning design, heuristic and formal solution techniques.\nFall,",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE551":{
+        "CourseTitle":"Electronics and Radiation Effects",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "ESE272",
+                "ESE273"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"A study of the effects of radiation on electronic circuit operation. Radiation may come from space or man-made sources such as nuclear reactors or CAT scan machines. Coverage includes types of radiation, types of effects on circuits such as SEE (Single Event Effects), designing circuits to mitigate radiation effects and testing of circuits prior to deployment. Applications include electronics for space and for use in nuclear reactors and certain medical imaging machines.\n\nSpring, 3 credits, grading ABCF. Pre-req: ESE 272 or ESE 273 or equivalent\nelectronics course.",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE552":{
+        "CourseTitle":"Interconnection Networks",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Formation and analysis of interconnect processing elements in parallel computing organization. Topics include: SIMD\/MIMD computers, multiprocessors, multicomputers, density, symmetry, representations, and routing algorithms. Topologies being discussed include: Benes, Omega, Banyan, mesh, hypercube, cube-connected cycles, generalized chordal rings, chordal rings, DeBruijn, Moebius graphs, Cayley graphs, and Borel Cayley graphs.\nPrerequisite: ESE 545 or equivalent\nFall,",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE553":{
+        "CourseTitle":"A\/D and D\/A Integrated Data Converters",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"This is an advanced course on analog integrated circuit design aspects for data converters. Topics include: continuous and discrete-time signals and systems; sampling theorem; ideal ND and D\/A converters; specifications and testing of data converters; basic building blocks in data converters: current sources and mirrors, differential gain stages, voltage references, S\/H circuits, comparators: Nyquist D\/A and ND converters: principles of data conversion and circuit design techniques; oversampling data converters: low-pass and band-pass delta-sigma modulators, decimation and interpolation for delta-sigma data converters. The attending students must be acquainted with principles of transistor operation, function of simple analysis. Familiarity with SPICE is required.",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE554":{
+        "CourseTitle":"Computational Models for Computer Engineers",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"This course covers mathematical techniques and models used in the solution of computer engineering problems. The course heavily emphasizes computer engineering application. Topics covered include set theory, relations, functions, graph theory and graph algorithms, and algebraic structures.\nFall,",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE555":{
+        "CourseTitle":"Advanced VLSI Systems Design",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Techniques of VLSI circuit design in the MOS technology are presented. Topics include MOS transistor theory, CMOS processing technology, MOS digital circuit analysis and design, and various CMOS circuit design techniques. Digital systems are designed and simulated throughout the course using an assortment of VLSI design tools.\nPrerequisite: B.S. in Electrical Engineering or Computer Science\nSpring,",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE556":{
+        "CourseTitle":"VLSI Physical and Logic Design Automation",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Areas to be covered are Physical Design Automation and Logic Design Automation. Upon completion of this course, students will be able to develop state-of-the art CAD tools and algorithms for VLSI logic and physical design. Tools will address design tasks such as floor planning, module placement and signal routing. Also, automated optimization of combinational and sequential circuits will be contemplated.\nPrerequisite: B.S. in Computer Engineering\/Science or Electrical Engineering\nFall,",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE557":{
+        "CourseTitle":"Digital Signal Processing II: Advanced Topics",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"A number of different topics in digital signal processing will be covered, depending on class and current research interest. Areas to be covered include the following: parametric signal modeling, spectral estimation, multirate processing, advanced FFT and convolution algorithms, adaptive signal processing, multidimensional signal processing, advanced filter design, dedicated signal processing chips, and signal processing for inverse problems. Students will be expected to read and present current research literature.\nPrerequisite: ESE 547 or permission of instructor\nSpring,",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE558":{
+        "CourseTitle":"Digital Image Processing I",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Covers digital image fundamentals, mathematical preliminaries of two-dimensional systems, image transforms, human perception, color basics, sampling and quantization, compression techniques, image enhancement, image restoration, image reconstruction from projections, and binary image processing.\nPrerequisite: B.S. in Engineering or Physical or Mathematical Sciences\nFall,",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE559":{
+        "CourseTitle":"EMI in Power Electronics Converters: Generation, Propagation and Mitigation",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"This course is designed to cover the basic concepts of electro-magnetic-interference issues in power electronics converters. The course materials will cover basic concepts of EMI measurement, modeling and mitigation, with the focus on conducted EMI in power electronics converters. The course is structured with lectures and a lab session. This course is offered to both senior undergraduate and graduate students. Students cannot get credit for both undergraduate level and graduate level. Undergraduate and graduate students will take exams and quizzes at the same time but with different designed questions.",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE561":{
+        "CourseTitle":"Theory of Artificial Intelligence",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Problem solving by searching, game trees, constraint satisfaction problems, uncertain knowledge and reasoning, probabilistic reasoning, probabilistic reasoning over time, Markov decision processes, partially observable Markov decision processes, reinforcement learning, generalized reinforcement learning.",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE562":{
+        "CourseTitle":"AI Driven Smart Grids",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"The course focuses on Artificial Intelligence (AI) applications to power system analysis, planning and operation. Topics include basics of AI and smart grid, data preprocessing, predictive analytics, AI driven static analytics, such as optimal dispatch, state estimation and security assessment, and AI-based dynamical analytics such as transient stability assessment, dynamic model discovery and emergency control. Emerging topics, including transfer learning, data-driven formal methods, learning-based cybersecurity and big data platform, are also discussed.\nPrerequisite: An undergraduate course in power systems",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE563":{
+        "CourseTitle":"Fundamentals of Robotics I",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"This course covers homogenous transformations of coordinates; kinematic and dynamic equations of robots with their associated solutions; control and programming of robots.\nPrerequisite: Permission of instructor\nFall,",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE564":{
+        "CourseTitle":"Artificial Intelligence for Robotics",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "ESE306",
+                "ESE315",
+                "ESE502"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"Artifical Intelligence is intelligence demonstrated by machines , unlike the natural intelligence displayed by humans and animals. Research and AI focuses on the development and analysis of algorithms that learn and perform intelligent behavior with minimal human intervention. This course aims to introduce students some basic techniques and algorithms in AI including probabilistic inference, planning and search, localization, tracking and control, and their applications to robotics.",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE565":{
+        "CourseTitle":"Parallel Processing Architectures",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"This course provides a comprehensive introduction to parallel processing. Topics include types of parallelism, classification of parallel computers, functional organizations, interconnection networks, memory organizations, control methods, parallel programming, parallel algorithms, performance enhancement techniques and design examples for SIMD array processors, loosely coupled multiprocessors, and tightly coupled multiprocessors. A brief overview of dataflow and reduction machines will also be given.\nPrerequisite: ESE 545 or equivalent\nSpring,",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE566":{
+        "CourseTitle":"Hardware-Software Co-Design of Embedded Systems",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"This course will present state-of-the-art concepts and techniques for design of embedded systems consisting of hardware and software components. Discussed topics include system specification, architectures for embedded systems, performance modeling and evaluation, system synthesis and validation. The course is complemented by three mini-projects focused on designing and implementing various co-design methods.\nPrerequisite: ESE 545, ESE 554 and ESE 333\nFall",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE568":{
+        "CourseTitle":"Computer and Robot Vision",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Principles and applications of computer and robot vision are covered. Primary emphasis is on techniques and algorithms for 3D machine vision. The topics include image sensing of 3D scenes, a review of 2D techniques, image segmentation, stereo vision, optical flow, time-varying image analysis, shape from shading, texture, depth from defocus, matching, object recognition, shape representation, interpretation of line drawings, and representation and analysis of 3D range data. The course includes programming projects on industrial applications of robot vision.\nPrerequisite: B.S. in Engineering or Physical or Mathematical Sciences",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE569":{
+        "CourseTitle":"Translational Bioinformatics",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "ESE569"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"Advanced technologies have driven rapid increases in the quantities of biomedical data.  Translational bioinformatics develops the specified computational and analytic methods to transform these large-scale datasets into biomedical applicable information and knowledge.  It is one of major applications of machine learning and data mining.  This course introduces large-scale biomedical data resources and management, data processing and modeling, data mining and machine learning approaches in translational bioinformatics, and provides the hands-on projects for students to practice these approaches for real-world biomedical data.",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE575":{
+        "CourseTitle":"Advanced VLSI Signal Processing Architecture",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"This course is concerned with advanced aspects of VLSI architecture in digital signal processing and wireless communications. The first phase of the course covers the derivation of both data transformation and control sequencing from a behavioral description of an algorithm. The next phase reviews the general purpose and dedicated processor for signal processing algorithms. This course focuses on low-complexity high-performance algorithm development and evaluation, system architecture modeling, power-performance tradeoff analysis. The emphasis is on the development of application-specific VLSI architectures for current and future generation of wireless digital communication systems. An experimental\/research project is required.\nPrerequisite: ESE 355 or equivalent. ESE 305 or ESE 337 or equivalent. ESE 306 or ESE 340 or equivalent. ESE 380 or equivalent.",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE576":{
+        "CourseTitle":"Power System Dynamics",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"The course provides the background for understanding power system dynamics and numerical simulation techniques. Topics include the numerical integration for large-scale power networks, numerical oscillation and its solution, power system component modeling, frequency-dependent transmission network, nonlinear elements, network equivalents, power network stability, and microgrid stability & control. The area of real-time simulation for cyber-physical power infrastructures will also be discussed.",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE577":{
+        "CourseTitle":"Deep Learning Algorithms and Software",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"This course is an introduction to deep learning which uses neural networks to extract layered high-level representations of data in a way that maximizes performance on a given task. Deep learning is behind many recent advances in AI, including Siri's speech recognition, Facebook's tag suggestions and self-driving cars. Topics covered include basic neural networks, convolutional and recurrent network structures, deep unsupervised and reinforcement learning, and applications to problem domains like speech recognition and computer vision.\n\nClasses will be a mix of short lectures and tutorials, hands-on problem solving, and project work in groups.",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE578":{
+        "CourseTitle":"Quantum-Engineered Power Grids",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "ESE435",
+                "ESE576",
+                "ESE586"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"The course focuses on the applications of quantum information science (QIS) to power system analysis, operation and communication. Topics will cover basics of QIS and smart grid, quantum computing, quantum circuits, quantum-enabled power grid steady-state\/transient\/stochastic analysis, application of quantum optimization and quantum machine learning in power grids, quantum control, quantum security, quantum Internet. Emphasis of the course is the practical quantum algorithms in power system applications and hands-on experiments on IBM Quantum platform.",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE579":{
+        "CourseTitle":"Advances Topics in Translational Bioinformatics",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "ESE588"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"This course introduces the current applications of machine learning and data mining techniques in biomedical data science, discusses the latest translational research areas and progresses, and provides the hands-on team projects for graduate students to explore, design and practice their \u00bfdata-driven\u00bf solutions for the cutting-edge research topics in biomedical data science.",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE581":{
+        "CourseTitle":"Microprocessor-Based Systems Engineering II",
+        "Career":"Graduate",
+        "Credits":4.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"This course is a study of methodologies and techniques for the engineering design of microprocessor-based systems. Emphasis is placed on the design of reliable industrial quality systems. Diagnostic features are  included in these designs. Steps in the design cycle are considered. Specifically, requirement definitions, systematic design implementation, testing, debugging, documentation, and maintenance are covered. Laboratory demonstrations of design techniques are included in this course. The students also obtain laboratory experience in the use of microprocessors, the development of systems, circuit emulation, and the use of signature and logic analyzers.\nSpring,",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE585":{
+        "CourseTitle":"Nanoscale Integrated Circuit Design",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"This course describes high performance and low power integrated circuit (IC) design issues for advanced nanoscale technologies. After a brief review of VLSI design methodologies and current IC trends, fundamental challenges related to the conventional CMOS technologies are described. The shift from logic-centric to interconnect-centric design is emphasized. Primary aspects of an interconnect-centric design flow are described in four phases: (1) general characteristics of on-chip interconnects, (2) on-chip interconnects for data signals, (3) on-chip power generation and distribution, and (4) on-chip clock generation and distribution. Existing design challenges faced by IC industry are investigated for each phase. Tradeoffs among various design criteria such as speed-power-noise-area are highlighted. In the last phase of the course, several post-CMOS devices, emerging circuit styles, and architectures are briefly discussed. At the end of the course, the students will have a thorough understanding of the primary circuit and physical level design challenges with application to industrial IC design.\nPrerequisites: ESE555 or ESE330 and ESE 355\nSpring, 3 Credits, ABCF Grading",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE586":{
+        "CourseTitle":"Micro Grids",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"This course will discuss techniques useful for the grid modernization from a unique angle of microgrid design, analysis and operation. It will cover smart inverters, microgrid architectures, distributed energy resources modeling, microgrid hierarchical control, microgrid stability, fault management, resilient\nmicrogrids through programmable network, reliable networked microgrids, and cyber security.",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE587":{
+        "CourseTitle":"Hardware Architectures for Deep Learning",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":[
+            [
+                "ESE507"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Description":"This course focuses on the design and implementation of specialized digital hardware systems for executing deep learning algorithms.  The course is divided into three sections.  First, students will study field-programmable gate arrays (FPGAs) and related tools.  Second, the course will present an overview of modern deep learning algorithms and applications (e.g., visual object recognition, or speech recognition).  Third, students will apply this knowledge to complete a significant design project implementing and optimizing a deep learning algorithm on an FPGA.",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE588":{
+        "CourseTitle":"Fundamentals of Machine Learning",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"The fundamentals of machine learning are introduced including learning with parametric models, online learning: stochastic gradient descent family of methods; classification; logistic regression; the na\u00efve Bayes classifier; the nearest neighbor rule; classification trees; boosting methods; sparsity aware learning: concepts and methods; learning in reproducing kernel Hilbert spaces; Bayesian learning; variational approximation, sparse Bayesian learning, relevance vector machines; neural networks and deep learning; the backpropagation algorithm; convolutional neural networks; recurrent neural networks; adversarial training; dimensionality reduction; PCA; ICA; nonlinear dimensionality reduction.\n\nPrerequisite: Stochastic processes or permission by instructor\nSpring, 3 credits, Letter graded (A, A-, B+, etc.)",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE589":{
+        "CourseTitle":"Learning Systems for Engineering Applications",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"The course presents the main methods used in automated (machine) learning for engineering applications.  The course discusses representation models for learning, extraction of frequent patterns, classification, clustering and application of these techniques for diverse engineering applications, such as Intranet-of-Things, electronic design automation, and healthcare.  The covered topics include an overview of learning systems, learning representations i.e. ontologies, regression models, stochastic models and symbolic models, data preparing techniques, different frequent pattern extraction methods, supervised and unsupervised classification, and basic and advanced clustering algorithms.  The course is organized as three modules, each module being centered on a specific theme.  Students will learn the characteristics of the enumerated topics, and devise and implement software programs for discussed techniques as part of their project work for the course.  Student projects will be assessed using standard benchmarks.",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE590":{
+        "CourseTitle":"Practical Machine Learning and Artificial Intelligence",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"The course provides a broad introduction to the state-of-the-art of machine learning methods through lectures and labs, where the lectured summarize the theoretical foundations of the methods.  Students work in teams and utilize modern tools to develop a specific application in areas like computer vision, biomedical engineering and social sciences.",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE591":{
+        "CourseTitle":"Industrial Project in OEMS Engineering",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"A student carries out a detailed design of an industrial project in OEMS engineering. A comprehensive technical report of the project and an oral presentation are required.\nFall,",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE592":{
+        "CourseTitle":"Distributed Computation, Control and Learning Over Networks",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Network Science is an interdisciplinary research area, which typically deals with large-scale complex networks. This course covers fundamental problems in distributed computation and control, including consensus and distributed averaging, distributed optimization, discusses the rendezvous problem and formation control, and explores recent development in distributed machine learning over networks.",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE593":{
+        "CourseTitle":"High Power RF Engineering",
+        "Career":"Graduate",
+        "Credits":"1.00 - 3.00",
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"The course starts with an essential review of the properties of low and medium power RF waves and components including transmission lines, waveguides and cavities, and then proceeds to highlight the properties and limitations under high power RF conditions. The principal deleterious effects taking place at high power levels are caused by arcing (a high peak power effect) and the ohmic dissipation in the metal walls (a high average power effect). Exceeding the power handling capacity of the RF components can result in expensive repairs. Methods of mitigating or avoiding these expensive repairs are discussed. Important applications of high power rf are discussed in depth. Finally the students are given an extended project on implementing a particle accelerator using the traditional method of placing cylindrical cavities in tandem and using the longitudinal electric field in the TM010 cavity mode to pump RF power into a particle beam and cause the desired acceleration of the charge particles.",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE597":{
+        "CourseTitle":"Practicum in Engineering - Internship",
+        "Career":"Graduate",
+        "Credits":"1.00 - 3.00",
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"This course is for part-time and full-time graduate students, relating to their current professional activity.  Participation is in private corporations, public agencies or non-profit institutions.  Students will be required to have a faculty advisor as well as a contact in the outside organization to participate with them in regular consultations on their project.  Students are required to submit a final written final report to both.\nThe maximum credits which can be accepted towards the M.S. degree is 3 credits.\nFall, Spring, Summer,",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE599":{
+        "CourseTitle":"Research Master's students",
+        "Career":"Graduate",
+        "Credits":"1.00 - 12.00",
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Fall and Spring,",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE610":{
+        "CourseTitle":"Seminar in Solid-State Electronics",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Current research in solid-state devices and circuits and computer-aided network design.\nFall and Spring,",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE670":{
+        "CourseTitle":"Topics in Electrical Sciences",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Varying topics selected from current research topics. This course is designed to give the necessary flexibility to students and faculty to introduce new material into the curriculum before it has attracted sufficient interest to be made part of the regular course material. Topics include biomedical engineering, circuit theory, controls, electronics circuits, digital systems and electronics, switching theory and sequential machines, digital signal processing, digital communications, computer architecture, networks, systems theory, solid-state electronics, integrated electronics, quantum electronics and lasers, communication theory, wave propagation, integrated optics, optical communications and information processing, instrumentation, and VLSI computer design and processing.\nFall and Spring,",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE691":{
+        "CourseTitle":"Seminar in Electrical Engineering",
+        "Career":"Graduate",
+        "Credits":1.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"This course is designed to expose students to the broadest possible range of the current activities in electrical engineering. Speakers from both on and off campus discuss topics of current interest in electrical engineering.\nFall and Spring,",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE697":{
+        "CourseTitle":"Ph.D. Practicum in Teaching",
+        "Career":"Graduate",
+        "Credits":3.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"The course provides hands-on experience in classroom teaching. Other activities may include preparation and supervison of laboratory experiments, exams, homework assignments and projects. Final report that summarizes the activities and provides a description of the gained experience and a list of recommendations is required.\nPrerequisite: G5 status and Permission of Graduate Program Director",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE698":{
+        "CourseTitle":"Practicum in Teaching",
+        "Career":"Graduate",
+        "Credits":"1.00 - 3.00",
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"This course enables graduate students to gain experience in teaching and interacting with students enrolled in an electrical and computer engineering course.  Students enrolled in ESE-698 are expected to perform various teaching duties required by the course instructor, such as attending lectures, providing office hours, holding review\/recitation sessions, assisting in lab sections and grading, etc.\nFall, Spring, Summer,",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE699":{
+        "CourseTitle":"Dissertation Research on Campus",
+        "Career":"Graduate",
+        "Credits":"1.00 - 9.00",
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Prerequisite: Advancement to candidacy (G5). Major portion of research must take place on SBU campus, at Cold Spring Harbor, or at the Brookhaven National Lab.\nFall, Spring, and Summer,",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE700":{
+        "CourseTitle":"Dissertation Research off Campus - Domestic",
+        "Career":"Graduate",
+        "Credits":"1.00 - 9.00",
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Prerequisite: Must be advanced to candidacy (G5). Major portion of research will take place off-campus, but in the United States and\/or U.S. provinces. Please note, Brookhaven National Labs and the Cold Spring Harbor Lab are considered on-campus.\nAll international students must enroll in one of the graduate student insurance plans and should be advised by an International Advisor.\nFall, Spring, Summer",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE701":{
+        "CourseTitle":"Dissertation Research off Campus - International",
+        "Career":"Graduate",
+        "Credits":"1.00 - 9.00",
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"Prerequisite: Must be advanced to candidacy (G5). Major portion of research will take place outside of the United States and\/or U.S. provinces.\nDomestic students have the option of the health plan and may also enroll in MEDEX.\nInternational students who are in their home country are not covered by mandatory health plan and must contact the Insurance Office for the insurance charge to be removed.\nInternational students who are not in their home country are charged for the mandatory health insurance. If they are to be covered by another insurance plan they must file a waiver be second week of classes. The charge will only be removed if other plan is deemed comparable.\nAll international students must received clearance from an International Advisor.\nFall, Spring, Summer",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    },
+    "ESE800":{
+        "CourseTitle":"FULL TIME SUMMER RESEARCH",
+        "Career":"Graduate",
+        "Credits":0.0,
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Description":"",
+        "spring1":1,
+        "fall1":1,
+        "spring2":1,
+        "fall2":1
+    }
+}

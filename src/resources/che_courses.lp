@@ -1,0 +1,205 @@
+course(che115, 3, Undergraduate, 1, 1, 1, 1).
+course(che129, 4, Undergraduate, 1, 1, 1, 1).
+course(che130, 1, Undergraduate, 1, 1, 1, 1).
+course(che131, 4, Undergraduate, 1, 1, 1, 1).
+course(che132, 4, Undergraduate, 1, 1, 1, 1).
+course(che133, 1, Undergraduate, 1, 1, 1, 1).
+course(che134, 1, Undergraduate, 1, 1, 1, 1).
+course(che152, 4, Undergraduate, 1, 1, 1, 1).
+course(che154, 2, Undergraduate, 1, 1, 1, 1).
+course(che301, 4, Undergraduate, 1, 1, 1, 1).
+course(che302, 4, Undergraduate, 1, 1, 1, 1).
+course(che303, 2, Undergraduate, 1, 1, 1, 1).
+course(che304, 2, Undergraduate, 1, 1, 1, 1).
+course(che310, 3, Undergraduate, 1, 1, 1, 1).
+course(che312, 3, Undergraduate, 1, 1, 1, 1).
+course(che321, 4, Undergraduate, 1, 1, 1, 1).
+course(che322, 4, Undergraduate, 1, 1, 1, 1).
+course(che327, 2, Undergraduate, 1, 1, 1, 1).
+course(che328, 3, Undergraduate, 1, 1, 1, 1).
+course(che331, 4, Undergraduate, 1, 1, 1, 1).
+course(che332, 4, Undergraduate, 1, 1, 1, 1).
+course(che345, 3, Undergraduate, 1, 1, 1, 1).
+course(che346, 3, Undergraduate, 1, 1, 1, 1).
+course(che348, 3, Undergraduate, 1, 1, 1, 1).
+course(che351, 3, Undergraduate, 1, 1, 1, 1).
+course(che353, 3, Undergraduate, 1, 1, 1, 1).
+course(che357, 2, Undergraduate, 1, 1, 1, 1).
+course(che358, 3, Undergraduate, 1, 1, 1, 1).
+course(che361, 3, Undergraduate, 1, 1, 1, 1).
+course(che362, 3, Undergraduate, 1, 1, 1, 1).
+course(che375, 3, Undergraduate, 1, 1, 1, 1).
+course(che376, 3, Undergraduate, 1, 1, 1, 1).
+course(che378, 3, Undergraduate, 1, 1, 1, 1).
+course(che379, 3, Undergraduate, 1, 1, 1, 1).
+course(che383, 2, Undergraduate, 1, 1, 1, 1).
+course(che384, 3, Undergraduate, 1, 1, 1, 1).
+course(che385, 1, Undergraduate, 1, 1, 1, 1).
+course(che444, 0, Undergraduate, 1, 1, 1, 1).
+course(che459, 0, Undergraduate, 1, 1, 1, 1).
+course(che461, 1..3, Undergraduate, 1, 1, 1, 1).
+course(che475, 3, Undergraduate, 1, 1, 1, 1).
+course(che476, 3, Undergraduate, 1, 1, 1, 1).
+course(che477, 0, Undergraduate, 1, 1, 1, 1).
+course(che487, 0..6, Undergraduate, 1, 1, 1, 1).
+course(che488, 0..6, Undergraduate, 1, 1, 1, 1).
+course(che495, 3, Undergraduate, 1, 1, 1, 1).
+course(che496, 3, Undergraduate, 1, 1, 1, 1).
+course(che501, 3, Graduate, 1, 1, 1, 1).
+course(che502, 3, Graduate, 1, 1, 1, 1).
+course(che503, 3, Graduate, 1, 1, 1, 1).
+course(che504, 3, Graduate, 1, 1, 1, 1).
+course(che511, 3, Graduate, 1, 1, 1, 1).
+course(che514, 3, Graduate, 1, 1, 1, 1).
+course(che515, 3, Graduate, 1, 1, 1, 1).
+course(che516, 3, Graduate, 1, 1, 1, 1).
+course(che517, 3, Graduate, 1, 1, 1, 1).
+course(che518, 3, Graduate, 1, 1, 1, 1).
+course(che519, 3, Graduate, 1, 1, 1, 1).
+course(che521, 3, Graduate, 1, 1, 1, 1).
+course(che522, 3, Graduate, 1, 1, 1, 1).
+course(che523, 1..3, Graduate, 1, 1, 1, 1).
+course(che524, 3, Graduate, 1, 1, 1, 1).
+course(che525, 3, Graduate, 1, 1, 1, 1).
+course(che528, 3, Graduate, 1, 1, 1, 1).
+course(che529, 0..3, Graduate, 1, 1, 1, 1).
+course(che530, 3, Graduate, 1, 1, 1, 1).
+course(che534, 3, Graduate, 1, 1, 1, 1).
+course(che535, 0..3, Graduate, 1, 1, 1, 1).
+course(che536, 0..3, Graduate, 1, 1, 1, 1).
+course(che541, 3, Graduate, 1, 1, 1, 1).
+course(che542, 3, Graduate, 1, 1, 1, 1).
+course(che543, 3, Graduate, 1, 1, 1, 1).
+course(che558, 3, Graduate, 1, 1, 1, 1).
+course(che559, 3, Graduate, 1, 1, 1, 1).
+course(che581, 0, Graduate, 1, 1, 1, 1).
+course(che582, 0, Graduate, 1, 1, 1, 1).
+course(che586, 2, Graduate, 1, 1, 1, 1).
+course(che588, 0..1, Graduate, 1, 1, 1, 1).
+course(che589, 0..12, Graduate, 1, 1, 1, 1).
+course(che590, 3, Graduate, 1, 1, 1, 1).
+course(che591, 3, Graduate, 1, 1, 1, 1).
+course(che593, 3, Graduate, 1, 1, 1, 1).
+course(che596, 3, Graduate, 1, 1, 1, 1).
+course(che597, 3, Graduate, 1, 1, 1, 1).
+course(che598, 0..12, Graduate, 1, 1, 1, 1).
+course(che599, 1..12, Graduate, 1, 1, 1, 1).
+course(che602, 1..12, Graduate, 1, 1, 1, 1).
+course(che603, 1..3, Graduate, 1, 1, 1, 1).
+course(che606, 1..3, Graduate, 1, 1, 1, 1).
+course(che607, 1..3, Graduate, 1, 1, 1, 1).
+course(che610, 1..3, Graduate, 1, 1, 1, 1).
+course(che611, 0, Graduate, 1, 1, 1, 1).
+course(che619, 0..3, Graduate, 1, 1, 1, 1).
+course(che625, 3, Graduate, 1, 1, 1, 1).
+course(che641, 3, Graduate, 1, 1, 1, 1).
+course(che682, 0..3, Graduate, 1, 1, 1, 1).
+course(che683, 3, Graduate, 1, 1, 1, 1).
+course(che690, 1..3, Graduate, 1, 1, 1, 1).
+course(che693, 0..12, Graduate, 1, 1, 1, 1).
+course(che694, 0..12, Graduate, 1, 1, 1, 1).
+course(che695, 0..12, Graduate, 1, 1, 1, 1).
+course(che696, 0..12, Graduate, 1, 1, 1, 1).
+course(che697, 0..1, Graduate, 1, 1, 1, 1).
+course(che698, 0..12, Graduate, 1, 1, 1, 1).
+course(che699, 1..9, Graduate, 1, 1, 1, 1).
+course(che700, 1..9, Graduate, 1, 1, 1, 1).
+course(che701, 1..9, Graduate, 1, 1, 1, 1).
+course(che800, 0, Graduate, 1, 1, 1, 1).
+prerequisite(che129, mat123).
+prerequisite(che129, che130).
+prerequisite(che130, che129).
+prerequisite(che130, mat123).
+prerequisite(che131, mat125).
+prerequisite(che132, che129).
+prerequisite(che132, che131).
+prerequisite(che132, mat125).
+prerequisite(che132, che129).
+prerequisite(che132, mat126).
+prerequisite(che133, che129).
+prerequisite(che134, che133).
+prerequisite(che134, che132).
+prerequisite(che152, mat131).
+prerequisite(che152, mat125).
+prerequisite(che152, ams151).
+prerequisite(che154, che152).
+prerequisite(che301, che132).
+prerequisite(che301, mat132).
+prerequisite(che301, ams161).
+prerequisite(che301, mat203).
+prerequisite(che301, mat211).
+prerequisite(che301, ams210).
+prerequisite(che301, ams261).
+prerequisite(che301, phy121).
+prerequisite(che302, che301).
+prerequisite(che302, mat203).
+prerequisite(che302, mat211).
+prerequisite(che302, ams210).
+prerequisite(che302, ams261).
+prerequisite(che302, phy122).
+prerequisite(che302, phy126).
+prerequisite(che303, che134).
+prerequisite(che303, che154).
+prerequisite(che303, che301).
+prerequisite(che304, che303).
+prerequisite(che304, che302).
+prerequisite(che310, che132).
+prerequisite(che310, che152).
+prerequisite(che312, che132).
+prerequisite(che312, mat132).
+prerequisite(che312, ams161).
+prerequisite(che312, phy121).
+prerequisite(che321, che132).
+prerequisite(che322, che321).
+prerequisite(che327, che134).
+prerequisite(che327, che321).
+prerequisite(che328, che327).
+prerequisite(che328, che322).
+prerequisite(che331, che152).
+prerequisite(che331, che383).
+prerequisite(che332, che331).
+prerequisite(che345, che322).
+prerequisite(che345, che332).
+prerequisite(che345, che301).
+prerequisite(che345, che312).
+prerequisite(che346, che322).
+prerequisite(che346, che332).
+prerequisite(che346, che301).
+prerequisite(che346, che312).
+prerequisite(che348, che322).
+prerequisite(che348, che332).
+prerequisite(che351, che302).
+prerequisite(che351, mat203).
+prerequisite(che353, che302).
+prerequisite(che353, che321).
+prerequisite(che357, che304).
+prerequisite(che357, che327).
+prerequisite(che357, che383).
+prerequisite(che358, che302).
+prerequisite(che358, che304).
+prerequisite(che361, phy126).
+prerequisite(che361, ams161).
+prerequisite(che361, mat127).
+prerequisite(che361, che362).
+prerequisite(che362, che361).
+prerequisite(che375, che322).
+prerequisite(che375, che332).
+prerequisite(che376, che375).
+prerequisite(che378, che375).
+prerequisite(che378, esg332).
+prerequisite(che379, che375).
+prerequisite(che379, che301).
+prerequisite(che379, che302).
+prerequisite(che383, che154).
+prerequisite(che383, che331).
+prerequisite(che384, che383).
+prerequisite(che384, che332).
+prerequisite(che385, che327).
+prerequisite(che385, che383).
+prerequisite(che444, wrt102).
+prerequisite(che459, wrt102).
+prerequisite(che477, che476).
+prerequisite(che488, che328).
+prerequisite(che536, che535).
+prerequisite(che543, che541).
+prerequisite(che543, mcb520).

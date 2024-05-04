@@ -1,0 +1,317 @@
+course(phy112, 3, Undergraduate, 1, 1, 1, 1).
+course(phy113, 3, Undergraduate, 1, 1, 1, 1).
+course(phy115, 1, Undergraduate, 1, 1, 1, 1).
+course(phy119, 4, Undergraduate, 1, 1, 1, 1).
+course(phy121, 4, Undergraduate, 1, 1, 1, 1).
+course(phy122, 4, Undergraduate, 1, 1, 1, 1).
+course(phy125, 3, Undergraduate, 1, 1, 1, 1).
+course(phy126, 3, Undergraduate, 1, 1, 1, 1).
+course(phy127, 3, Undergraduate, 1, 1, 1, 1).
+course(phy131, 3, Undergraduate, 1, 1, 1, 1).
+course(phy132, 3, Undergraduate, 1, 1, 1, 1).
+course(phy133, 1, Undergraduate, 1, 1, 1, 1).
+course(phy134, 1, Undergraduate, 1, 1, 1, 1).
+course(phy141, 3, Undergraduate, 1, 1, 1, 1).
+course(phy142, 3, Undergraduate, 1, 1, 1, 1).
+course(phy153, 3, Undergraduate, 1, 1, 1, 1).
+course(phy191, 1, Undergraduate, 1, 1, 1, 1).
+course(phy192, 1, Undergraduate, 1, 1, 1, 1).
+course(phy231, 3, Undergraduate, 1, 1, 1, 1).
+course(phy237, 3, Undergraduate, 1, 1, 1, 1).
+course(phy251, 3, Undergraduate, 1, 1, 1, 1).
+course(phy252, 1, Undergraduate, 1, 1, 1, 1).
+course(phy277, 3, Undergraduate, 1, 1, 1, 1).
+course(phy287, 0..3, Undergraduate, 1, 1, 1, 1).
+course(phy291, 1, Undergraduate, 1, 1, 1, 1).
+course(phy300, 4, Undergraduate, 1, 1, 1, 1).
+course(phy301, 3, Undergraduate, 1, 1, 1, 1).
+course(phy302, 3, Undergraduate, 1, 1, 1, 1).
+course(phy303, 3, Undergraduate, 1, 1, 1, 1).
+course(phy306, 3, Undergraduate, 1, 1, 1, 1).
+course(phy307, 4, Undergraduate, 1, 1, 1, 1).
+course(phy308, 3, Undergraduate, 1, 1, 1, 1).
+course(phy311, 1, Undergraduate, 1, 1, 1, 1).
+course(phy313, 3, Undergraduate, 1, 1, 1, 1).
+course(phy335, 3, Undergraduate, 1, 1, 1, 1).
+course(phy382, 3, Undergraduate, 1, 1, 1, 1).
+course(phy390, 3, Undergraduate, 1, 1, 1, 1).
+course(phy405, 3, Undergraduate, 1, 1, 1, 1).
+course(phy408, 3, Undergraduate, 1, 1, 1, 1).
+course(phy420, 3, Undergraduate, 1, 1, 1, 1).
+course(phy431, 3, Undergraduate, 1, 1, 1, 1).
+course(phy444, 0, Undergraduate, 1, 1, 1, 1).
+course(phy445, 3, Undergraduate, 1, 1, 1, 1).
+course(phy447, 1..6, Undergraduate, 1, 1, 1, 1).
+course(phy451, 3, Undergraduate, 1, 1, 1, 1).
+course(phy452, 3, Undergraduate, 1, 1, 1, 1).
+course(phy458, 0, Undergraduate, 1, 1, 1, 1).
+course(phy459, 0, Undergraduate, 1, 1, 1, 1).
+course(phy472, 3, Undergraduate, 1, 1, 1, 1).
+course(phy475, 0..3, Undergraduate, 1, 1, 1, 1).
+course(phy487, 0..6, Undergraduate, 1, 1, 1, 1).
+course(phy501, 3, Graduate, 1, 1, 1, 1).
+course(phy503, 3, Graduate, 1, 1, 1, 1).
+course(phy504, 3, Graduate, 1, 1, 1, 1).
+course(phy505, 3, Graduate, 1, 1, 1, 1).
+course(phy510, 3, Graduate, 1, 1, 1, 1).
+course(phy511, 3, Graduate, 1, 1, 1, 1).
+course(phy512, 3, Graduate, 1, 1, 1, 1).
+course(phy514, 3, Graduate, 1, 1, 1, 1).
+course(phy515, 3, Graduate, 1, 1, 1, 1).
+course(phy517, 3, Graduate, 1, 1, 1, 1).
+course(phy518, 1..3, Graduate, 1, 1, 1, 1).
+course(phy521, 3, Graduate, 1, 1, 1, 1).
+course(phy522, 3, Graduate, 1, 1, 1, 1).
+course(phy523, 3, Graduate, 1, 1, 1, 1).
+course(phy524, 3, Graduate, 1, 1, 1, 1).
+course(phy529, 1..3, Graduate, 1, 1, 1, 1).
+course(phy534, 1..3, Graduate, 1, 1, 1, 1).
+course(phy536, 1..2, Graduate, 1, 1, 1, 1).
+course(phy540, 3, Graduate, 1, 1, 1, 1).
+course(phy541, 1..3, Graduate, 1, 1, 1, 1).
+course(phy542, 1..2, Graduate, 1, 1, 1, 1).
+course(phy543, 1..3, Graduate, 1, 1, 1, 1).
+course(phy544, 1..3, Graduate, 1, 1, 1, 1).
+course(phy545, 1..3, Graduate, 1, 1, 1, 1).
+course(phy546, 0..1, Graduate, 1, 1, 1, 1).
+course(phy548, 1..3, Graduate, 1, 1, 1, 1).
+course(phy549, 1..3, Graduate, 1, 1, 1, 1).
+course(phy551, 3, Graduate, 1, 1, 1, 1).
+course(phy552, 1..3, Graduate, 1, 1, 1, 1).
+course(phy554, 3, Graduate, 1, 1, 1, 1).
+course(phy555, 3, Graduate, 1, 1, 1, 1).
+course(phy556, 1..3, Graduate, 1, 1, 1, 1).
+course(phy557, 3, Graduate, 1, 1, 1, 1).
+course(phy558, 3, Graduate, 1, 1, 1, 1).
+course(phy559, 3, Graduate, 1, 1, 1, 1).
+course(phy560, 0..3, Graduate, 1, 1, 1, 1).
+course(phy561, 1..3, Graduate, 1, 1, 1, 1).
+course(phy562, 1..3, Graduate, 1, 1, 1, 1).
+course(phy564, 1..3, Graduate, 1, 1, 1, 1).
+course(phy565, 3, Graduate, 1, 1, 1, 1).
+course(phy566, 1..3, Graduate, 1, 1, 1, 1).
+course(phy567, 3, Graduate, 1, 1, 1, 1).
+course(phy568, 1..3, Graduate, 1, 1, 1, 1).
+course(phy569, 1..3, Graduate, 1, 1, 1, 1).
+course(phy570, 3, Graduate, 1, 1, 1, 1).
+course(phy571, 3, Graduate, 1, 1, 1, 1).
+course(phy573, 3, Graduate, 1, 1, 1, 1).
+course(phy576, 3, Graduate, 1, 1, 1, 1).
+course(phy577, 3, Graduate, 1, 1, 1, 1).
+course(phy578, 3, Graduate, 1, 1, 1, 1).
+course(phy579, 1..3, Graduate, 1, 1, 1, 1).
+course(phy580, 1..18, Graduate, 1, 1, 1, 1).
+course(phy582, 0..2, Graduate, 1, 1, 1, 1).
+course(phy584, 1..3, Graduate, 1, 1, 1, 1).
+course(phy585, 1..18, Graduate, 1, 1, 1, 1).
+course(phy595, 1..18, Graduate, 1, 1, 1, 1).
+course(phy598, 0..1, Graduate, 1, 1, 1, 1).
+course(phy599, 0..1, Graduate, 1, 1, 1, 1).
+course(phy600, 0..3, Graduate, 1, 1, 1, 1).
+course(phy601, 1..3, Graduate, 1, 1, 1, 1).
+course(phy604, 1..3, Graduate, 1, 1, 1, 1).
+course(phy605, 1..3, Graduate, 1, 1, 1, 1).
+course(phy610, 3, Graduate, 1, 1, 1, 1).
+course(phy611, 1..3, Graduate, 1, 1, 1, 1).
+course(phy612, 1..3, Graduate, 1, 1, 1, 1).
+course(phy613, 1..3, Graduate, 1, 1, 1, 1).
+course(phy620, 3, Graduate, 1, 1, 1, 1).
+course(phy621, 1..3, Graduate, 1, 1, 1, 1).
+course(phy622, 1..3, Graduate, 1, 1, 1, 1).
+course(phy623, 1..3, Graduate, 1, 1, 1, 1).
+course(phy631, 1..3, Graduate, 1, 1, 1, 1).
+course(phy655, 0..3, Graduate, 1, 1, 1, 1).
+course(phy664, 0..1, Graduate, 1, 1, 1, 1).
+course(phy665, 0..1, Graduate, 1, 1, 1, 1).
+course(phy666, 0..1, Graduate, 1, 1, 1, 1).
+course(phy668, 0..1, Graduate, 1, 1, 1, 1).
+course(phy669, 0..1, Graduate, 1, 1, 1, 1).
+course(phy670, 0..1, Graduate, 1, 1, 1, 1).
+course(phy672, 0..1, Graduate, 1, 1, 1, 1).
+course(phy673, 0..1, Graduate, 1, 1, 1, 1).
+course(phy674, 0..1, Graduate, 1, 1, 1, 1).
+course(phy676, 0..1, Graduate, 1, 1, 1, 1).
+course(phy678, 0..1, Graduate, 1, 1, 1, 1).
+course(phy680, 1..3, Graduate, 1, 1, 1, 1).
+course(phy681, 1..3, Graduate, 1, 1, 1, 1).
+course(phy682, 1..3, Graduate, 1, 1, 1, 1).
+course(phy683, 1..3, Graduate, 1, 1, 1, 1).
+course(phy684, 1..3, Graduate, 1, 1, 1, 1).
+course(phy685, 1..3, Graduate, 1, 1, 1, 1).
+course(phy686, 1..3, Graduate, 1, 1, 1, 1).
+course(phy687, 1..3, Graduate, 1, 1, 1, 1).
+course(phy688, 1..3, Graduate, 1, 1, 1, 1).
+course(phy689, 1..3, Graduate, 1, 1, 1, 1).
+course(phy690, 1..3, Graduate, 1, 1, 1, 1).
+course(phy691, 1..3, Graduate, 1, 1, 1, 1).
+course(phy692, 1..3, Graduate, 1, 1, 1, 1).
+course(phy693, 1..3, Graduate, 1, 1, 1, 1).
+course(phy694, 1..3, Graduate, 1, 1, 1, 1).
+course(phy695, 1..3, Graduate, 1, 1, 1, 1).
+course(phy696, 1..3, Graduate, 1, 1, 1, 1).
+course(phy698, 0..1, Graduate, 1, 1, 1, 1).
+course(phy699, 1..9, Graduate, 1, 1, 1, 1).
+course(phy700, 1..9, Graduate, 1, 1, 1, 1).
+course(phy800, 0, Graduate, 1, 1, 1, 1).
+prerequisite(phy115, phy113).
+prerequisite(phy119, mat123).
+prerequisite(phy119, che131).
+prerequisite(phy121, mat125).
+prerequisite(phy121, mat131).
+prerequisite(phy121, mat141).
+prerequisite(phy121, ams151).
+prerequisite(phy122, phy121).
+prerequisite(phy122, che132).
+prerequisite(phy122, che152).
+prerequisite(phy125, mat123).
+prerequisite(phy125, mat125).
+prerequisite(phy125, mat131).
+prerequisite(phy125, mat141).
+prerequisite(phy125, ams151).
+prerequisite(phy126, phy125).
+prerequisite(phy126, mat126).
+prerequisite(phy126, ams161).
+prerequisite(phy127, phy125).
+prerequisite(phy127, mat126).
+prerequisite(phy127, ams161).
+prerequisite(phy131, mat123).
+prerequisite(phy131, mat125).
+prerequisite(phy131, mat131).
+prerequisite(phy131, mat141).
+prerequisite(phy131, ams151).
+prerequisite(phy132, phy131).
+prerequisite(phy132, phy141).
+prerequisite(phy132, mat132).
+prerequisite(phy132, mat142).
+prerequisite(phy132, mat126).
+prerequisite(phy132, mat171).
+prerequisite(phy132, ams161).
+prerequisite(phy133, phy125).
+prerequisite(phy133, phy126).
+prerequisite(phy133, phy131).
+prerequisite(phy133, phy141).
+prerequisite(phy134, phy133).
+prerequisite(phy134, phy126).
+prerequisite(phy134, phy127).
+prerequisite(phy134, phy132).
+prerequisite(phy134, phy142).
+prerequisite(phy141, mat131).
+prerequisite(phy141, ams151).
+prerequisite(phy141, mat125).
+prerequisite(phy141, mat131).
+prerequisite(phy141, ams151).
+prerequisite(phy141, phy133).
+prerequisite(phy142, phy141).
+prerequisite(phy142, mat132).
+prerequisite(phy142, ams161).
+prerequisite(phy142, phy134).
+prerequisite(phy153, phy133).
+prerequisite(phy153, mat125).
+prerequisite(phy153, mat131).
+prerequisite(phy153, mat141).
+prerequisite(phy153, ams151).
+prerequisite(phy153, mat171).
+prerequisite(phy251, phy122).
+prerequisite(phy251, phy126).
+prerequisite(phy251, phy132).
+prerequisite(phy251, phy142).
+prerequisite(phy251, phy134).
+prerequisite(phy251, mat126).
+prerequisite(phy251, ams161).
+prerequisite(phy251, mat203).
+prerequisite(phy251, mat205).
+prerequisite(phy251, ams261).
+prerequisite(phy251, mat307).
+prerequisite(phy252, phy251).
+prerequisite(phy277, phy125).
+prerequisite(phy277, phy126).
+prerequisite(phy277, phy127).
+prerequisite(phy277, phy133).
+prerequisite(phy277, phy134).
+prerequisite(phy277, phy131).
+prerequisite(phy277, phy132).
+prerequisite(phy277, phy141).
+prerequisite(phy277, phy142).
+prerequisite(phy277, ams151).
+prerequisite(phy277, mat126).
+prerequisite(phy277, mat131).
+prerequisite(phy277, mat141).
+prerequisite(phy277, ams161).
+prerequisite(phy277, mat127).
+prerequisite(phy277, mat132).
+prerequisite(phy277, mat142).
+prerequisite(phy277, mat171).
+prerequisite(phy300, phy132).
+prerequisite(phy300, phy134).
+prerequisite(phy300, phy142).
+prerequisite(phy300, phy134).
+prerequisite(phy300, phy126).
+prerequisite(phy300, phy127).
+prerequisite(phy300, phy134).
+prerequisite(phy300, mat203).
+prerequisite(phy300, mat205).
+prerequisite(phy300, ams261).
+prerequisite(phy300, mat307).
+prerequisite(phy301, phy251).
+prerequisite(phy301, phy277).
+prerequisite(phy301, mat203).
+prerequisite(phy301, mat205).
+prerequisite(phy301, ams261).
+prerequisite(phy301, mat307).
+prerequisite(phy301, mat341).
+prerequisite(phy302, phy301).
+prerequisite(phy303, phy251).
+prerequisite(phy303, phy277).
+prerequisite(phy303, mat303).
+prerequisite(phy303, mat305).
+prerequisite(phy303, ams361).
+prerequisite(phy303, mat308).
+prerequisite(phy306, phy251).
+prerequisite(phy307, phy122).
+prerequisite(phy307, phy126).
+prerequisite(phy307, phy127).
+prerequisite(phy307, phy134).
+prerequisite(phy307, phy132).
+prerequisite(phy307, phy134).
+prerequisite(phy307, phy142).
+prerequisite(phy307, phy134).
+prerequisite(phy307, mat132).
+prerequisite(phy307, mat142).
+prerequisite(phy307, mat127).
+prerequisite(phy307, mat171).
+prerequisite(phy307, ams161).
+prerequisite(phy307, mat203).
+prerequisite(phy307, mat205).
+prerequisite(phy307, ams261).
+prerequisite(phy307, mat307).
+prerequisite(phy308, phy300).
+prerequisite(phy311, phy122).
+prerequisite(phy311, phy126).
+prerequisite(phy311, phy127).
+prerequisite(phy311, phy134).
+prerequisite(phy311, phy132).
+prerequisite(phy311, phy142).
+prerequisite(phy335, phy251).
+prerequisite(phy335, wrt102).
+prerequisite(phy405, phy303).
+prerequisite(phy405, phy308).
+prerequisite(phy405, mat341).
+prerequisite(phy408, phy303).
+prerequisite(phy408, phy302).
+prerequisite(phy420, phy277).
+prerequisite(phy420, phy300).
+prerequisite(phy420, phy301).
+prerequisite(phy420, phy302).
+prerequisite(phy420, phy303).
+prerequisite(phy420, phy335).
+prerequisite(phy431, phy308).
+prerequisite(phy444, wrt102).
+prerequisite(phy445, phy308).
+prerequisite(phy445, phy335).
+prerequisite(phy445, wrt102).
+prerequisite(phy451, phy405).
+prerequisite(phy452, phy300).
+prerequisite(phy452, phy308).
+prerequisite(phy458, wrt102).
+prerequisite(phy459, wrt102).
+prerequisite(phy472, phy306).
