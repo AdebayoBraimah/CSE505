@@ -5,6 +5,7 @@
 \##2['Credits' -> 3].
 \##2['Prerequisites' -> 'NONE'].
 \##2['Antirequisites' -> 'NONE'].
+\##2['Corequisites' -> 'NONE'].
 \##2['Description' -> 'This survey course introduces chemical principles by emphasizing the role chemistry plays in everyday life, the natural environment, the built environment, energy production, and in processes leading to environmental degradation.  In addition, the role of chemistry in the development of alternative energy sources, remediation technologies, and eco-friendly products is discussed.  This course for non-science majors introduces chemical principles using mostly qualitative approaches rather than quantitative approaches.  Interactive tools and interactive visualization tools are extensively used to illustrate concepts, reactions, and processes. May not be taken by students with credit for CHE 129, CHE 131, or CHE 152. This course is offered as both CHE 115 and ENV 115.'].
 \##2['spring1' -> 1].
 \##2['fall1' -> 1].
@@ -14,8 +15,9 @@
 \##3['CourseTitle' -> 'General Chemistry IA'].
 \##3['Career' -> 'Undergraduate'].
 \##3['Credits' -> 4].
-\##3['Prerequisites' -> [['MAT123', 'CHE130']]].
+\##3['Prerequisites' -> [['MAT123'], ['CHE130']]].
 \##3['Antirequisites' -> 'NONE'].
+\##3['Corequisites' -> 'NONE'].
 \##3['Description' -> 'This is the initial course of the four-semester General-Chemistry/Organic-Chemistry sequence CHE 129/132/321/322. This sequence provides the necessary foundation for students who wish to pursue further coursework in chemistry. The General Chemistry Courses provide a broad introduction to the fundamental principles of chemistry, including substantial illustrative material drawn from the chemistry of inorganic, organic, and biochemical systems. The emphasis is on basic concepts, problem-solving, and factual material. Students will be placed into CHE 129 based on their performance in the Online Chemistry Placement and Preparation (OCPP) process. Specifically, CHE 129 is for students with chemistry knowledge above the required OCPP minimum but who do not meet the math corequisite of CHE 131. The level and content of CHE 129 match that of CHE 131, but since the corequisite differs, students must also attend a CHE 130 session each week. CHE 130 builds essential skills in information processing, critical and analytical thinking, quantitative reasoning, and problem solving. The CHE 129 four-semester sequence is inappropriate for students who satisfy the corequisites of CHE 131. It is also inappropriate for students who have completed an AP course in chemistry and received a score of 4 or 5; such students must enroll in CHE 152. Three lecture hours, one 80-minute workshop, and one CHE 130 session per week. CHE 129 may not be taken for credit in addition to CHE 131 or CHE 152. This course has been designated as a High Demand/Controlled Access (HD/CA) course. Students registering for HD/CA courses for the first time will have priority to do so.'].
 \##3['spring1' -> 1].
 \##3['fall1' -> 1].
@@ -25,8 +27,9 @@
 \##4['CourseTitle' -> 'Problem Solving in General Chemistry'].
 \##4['Career' -> 'Undergraduate'].
 \##4['Credits' -> 1].
-\##4['Prerequisites' -> [['CHE129', 'MAT123']]].
+\##4['Prerequisites' -> 'NONE'].
 \##4['Antirequisites' -> 'NONE'].
+\##4['Corequisites' -> 'NONE'].
 \##4['Description' -> 'This course provides a structured environment for completing CHE 129 homework assignments and helping students develop the quantitative reasoning and problem solving skills needed in General Chemistry. Satisfactory/Unsatifactory grading only. Grading is based on attendance and participation. Required for students taking CHE 129 along with MAT 123.'].
 \##4['spring1' -> 1].
 \##4['fall1' -> 1].
@@ -36,8 +39,9 @@
 \##5['CourseTitle' -> 'General Chemistry IB'].
 \##5['Career' -> 'Undergraduate'].
 \##5['Credits' -> 4].
-\##5['Prerequisites' -> [['MAT125']]].
+\##5['Prerequisites' -> 'NONE'].
 \##5['Antirequisites' -> 'NONE'].
+\##5['Corequisites' -> [['MAT125']]].
 \##5['Description' -> 'This is the initial course in the four-semester General-Chemistry/Organic-Chemistry sequence CHE 131/132/321/322. This sequence provides the necessary foundation for students who wish to pursue further coursework in Chemistry. The General Chemistry courses provide a broad introduction to the fundamental principles of chemistry, including substantial illustrative material drawn from the chemistry of inorganic, organic, and biochemical systems. The emphasis is on basic concepts, problem-solving, and factual material. The principal topics covered are stoichiometry, the states of matter, chemical equilibrium and introductory thermodynamics, electrochemistry, chemical kinetics, electron structure and chemical bonding, and chemical periodicity. Students will be placed into CHE 131 based on their performance in an Online Chemistry Placement and Preparation (OCPP) process. The four-semester sequence is inappropriate for students who have completed an AP course in chemistry and received a score of 4 or 5; these students are placed into CHE 152. Three lecture hours and one 80-minute workshop per week. May not be taken for credit in addition to CHE 129 or CHE 152. This course has been designated as a High Demand/Controlled Access (HD/CA) course. Students registering for HD/CA courses for the first time will have priority to do so.'].
 \##5['spring1' -> 1].
 \##5['fall1' -> 1].
@@ -47,8 +51,9 @@
 \##6['CourseTitle' -> 'General Chemistry II'].
 \##6['Career' -> 'Undergraduate'].
 \##6['Credits' -> 4].
-\##6['Prerequisites' -> [['CHE129', 'CHE131', 'MAT125', 'CHE129'], ['MAT126']]].
+\##6['Prerequisites' -> [['CHE129', 'CHE131']]].
 \##6['Antirequisites' -> 'NONE'].
+\##6['Corequisites' -> [['MAT125', 'CHE129'], ['MAT126']]].
 \##6['Description' -> 'A continuation of either CHE 129 or 131, introducing the fundamental principles of chemistry, including substantial illustrative material drawn from the chemistry of inorganic, organic, and biochemical systems. The principal topics covered are stoichiometry, the states of matter, chemical equilibrium and introductory thermodynamics, electrochemistry, chemical kinetics, electron structure and chemical bonding, and chemical periodicity. The sequence emphasizes basic concepts, problem solving, and factual material. It provides the necessary foundation for students who wish to pursue further coursework in chemistry.  Three lecture hours and one 80-minute workshop per week. May not be taken for credit in addition to CHE 152. This course has been designated as a High Demand/Controlled Access (HD/CA) course. Students registering for HD/CA courses for the first time will have priority to do so.'].
 \##6['spring1' -> 1].
 \##6['fall1' -> 1].
@@ -58,8 +63,9 @@
 \##7['CourseTitle' -> 'General Chemistry Laboratory I'].
 \##7['Career' -> 'Undergraduate'].
 \##7['Credits' -> 1].
-\##7['Prerequisites' -> [['CHE129']]].
+\##7['Prerequisites' -> 'NONE'].
 \##7['Antirequisites' -> 'NONE'].
+\##7['Corequisites' -> [['CHE129']]].
 \##7['Description' -> 'Designed to familiarize students with (1) some chemical and physical properties of substances, (2) techniques of quantitative chemistry, and (3) scientific methodology. Three hours of laboratory or related activity per week. CHE 133 and CHE 134 may not be taken for credit in addition to CHE 154. This course has been designated as a High Demand/Controlled Access (HD/CA) course. Students registering for HD/CA courses for the first time will have priority to do so. This course has an associated fee. Please see www.stonybrook.edu/coursefees for more information.'].
 \##7['spring1' -> 1].
 \##7['fall1' -> 1].
@@ -69,8 +75,9 @@
 \##8['CourseTitle' -> 'General Chemistry Laboratory II'].
 \##8['Career' -> 'Undergraduate'].
 \##8['Credits' -> 1].
-\##8['Prerequisites' -> [['CHE133', 'CHE132']]].
+\##8['Prerequisites' -> [['CHE133']]].
 \##8['Antirequisites' -> 'NONE'].
+\##8['Corequisites' -> [['CHE132']]].
 \##8['Description' -> 'Designed to familiarize students with (1) some chemical and physical properties of substances, (2) techniques of quantitative chemistry, and (3) scientific methodology. Three hours of laboratory or related activity per week. CHE 133 and CHE 134 may not be taken for credit in addition to CHE 154. This course has an associated fee. Please see www.stonybrook.edu/coursefees for more information.'].
 \##8['spring1' -> 1].
 \##8['fall1' -> 1].
@@ -82,6 +89,7 @@
 \##9['Credits' -> 4].
 \##9['Prerequisites' -> [['MAT131', 'MAT125', 'AMS151']]].
 \##9['Antirequisites' -> 'NONE'].
+\##9['Corequisites' -> 'NONE'].
 \##9['Description' -> 'This is the initial course of the three-semester Molecular Science sequence CHE 152/331/332. The topics covered in CHE 152 include atomic and molecular structure, chemical bonding, thermodynamics, equilibrium and aqueous chemistry, electrochemistry, kinetics and basics of organic chemistry. Students will be placed into CHE 152 based on their performance in the Online Chemistry Placement and Preparation (OCPP) process or upon receipt of a score of 4 or 5 in AP chemistry. (Such students cannot enroll in any of the courses CHE 129/130, 131, or 132). May not be taken for credit in addition to CHE 129, 131, or 132. Three lecture hours and one 80-minute workshop per week.'].
 \##9['spring1' -> 1].
 \##9['fall1' -> 1].
@@ -91,8 +99,9 @@
 \##10['CourseTitle' -> 'Molecular Science Laboratory I'].
 \##10['Career' -> 'Undergraduate'].
 \##10['Credits' -> 2].
-\##10['Prerequisites' -> [['CHE152']]].
+\##10['Prerequisites' -> 'NONE'].
 \##10['Antirequisites' -> 'NONE'].
+\##10['Corequisites' -> [['CHE152']]].
 \##10['Description' -> 'Designed to familiarize students with chemical and physical properties of substances, techniques of quantitative chemistry, and aspects of scientific methodology. Four hours of lab per week. CHE 154 may not be taken for credit in addition to CHE 134. This course has an associated fee. Please see www.stonybrook.edu/coursefees for more information.'].
 \##10['spring1' -> 1].
 \##10['fall1' -> 1].
@@ -104,6 +113,7 @@
 \##11['Credits' -> 4].
 \##11['Prerequisites' -> [['CHE132'], ['MAT132', 'AMS161', 'MAT203', 'MAT211', 'AMS210', 'AMS261'], ['PHY121']]].
 \##11['Antirequisites' -> 'NONE'].
+\##11['Corequisites' -> 'NONE'].
 \##11['Description' -> 'This course is the first half of a two-semester overview of modern physical chemistry, introducing students to the quantitative study of chemical systems.  The fundamentals of thermodynamics from both macroscopic and microscopic standpoints are covered, with applications to chemical problems. May not be taken for credit by students who have completed CHE 312.'].
 \##11['spring1' -> 1].
 \##11['fall1' -> 1].
@@ -113,8 +123,9 @@
 \##12['CourseTitle' -> 'Physical Chemistry II'].
 \##12['Career' -> 'Undergraduate'].
 \##12['Credits' -> 4].
-\##12['Prerequisites' -> [['CHE301'], ['MAT203', 'MAT211', 'AMS210', 'AMS261', 'PHY122', 'PHY126']]].
+\##12['Prerequisites' -> [['CHE301'], ['MAT203', 'MAT211', 'AMS210', 'AMS261']]].
 \##12['Antirequisites' -> 'NONE'].
+\##12['Corequisites' -> [['PHY122', 'PHY126']]].
 \##12['Description' -> 'Introduction to quantum theory and its application to the study of chemical bonding, molecular spectroscopy, statistical thermodynamics, chemical kinetics and molecular reaction dynamics.'].
 \##12['spring1' -> 1].
 \##12['fall1' -> 1].
@@ -124,8 +135,9 @@
 \##13['CourseTitle' -> 'Solution Chemistry Laboratory'].
 \##13['Career' -> 'Undergraduate'].
 \##13['Credits' -> 2].
-\##13['Prerequisites' -> [['CHE134', 'CHE154', 'CHE301']]].
+\##13['Prerequisites' -> [['CHE134', 'CHE154']]].
 \##13['Antirequisites' -> 'NONE'].
+\##13['Corequisites' -> [['CHE301']]].
 \##13['Description' -> 'Quantitative techniques of solution chemistry. Measurement: accuracy and precision, analysis, computation, and reporting. Spectrophotometry. Solution equilibria and kinetics. Use of computers is introduced. Six hours of laboratory and discussion. This course has an associated fee. Please see www.stonybrook.edu/coursefees for more information.'].
 \##13['spring1' -> 1].
 \##13['fall1' -> 1].
@@ -135,8 +147,9 @@
 \##14['CourseTitle' -> 'Chemical Instrumentation Laboratory'].
 \##14['Career' -> 'Undergraduate'].
 \##14['Credits' -> 2].
-\##14['Prerequisites' -> [['CHE303', 'CHE302']]].
+\##14['Prerequisites' -> [['CHE303']]].
 \##14['Antirequisites' -> 'NONE'].
+\##14['Corequisites' -> [['CHE302']]].
 \##14['Description' -> 'Electrochemical and thermochemical measurements. Electronics in chemical instrumentation. Vacuum techniques. Electrical and magnetic properties of materials. Data-handling methods. Six hours of laboratory and discussion. This course has an associated fee. Please see www.stonybrook.edu/coursefees for more information.'].
 \##14['spring1' -> 1].
 \##14['fall1' -> 1].
@@ -148,6 +161,7 @@
 \##15['Credits' -> 3].
 \##15['Prerequisites' -> [['CHE132', 'CHE152']]].
 \##15['Antirequisites' -> 'NONE'].
+\##15['Corequisites' -> 'NONE'].
 \##15['Description' -> 'Use of chemical principles in understanding processes that occur in the modern technological world and in the natural environment. Certain ecological problems of a chemical nature are analyzed. Methods of controlling these problems are discussed. Not for credit in addition to ENV 320.'].
 \##15['spring1' -> 1].
 \##15['fall1' -> 1].
@@ -157,8 +171,9 @@
 \##16['CourseTitle' -> 'Physical Chemistry for the Life Sciences'].
 \##16['Career' -> 'Undergraduate'].
 \##16['Credits' -> 3].
-\##16['Prerequisites' -> [['CHE132'], ['MAT132', 'AMS161', 'PHY121']]].
+\##16['Prerequisites' -> [['CHE132'], ['MAT132', 'AMS161']]].
 \##16['Antirequisites' -> 'NONE'].
+\##16['Corequisites' -> [['PHY121']]].
 \##16['Description' -> 'A one-semester treatment of fundamental concepts of physical chemistry, intended primarily for students of the biological sciences desiring an introduction to physical chemistry. Topics include equations of state; classical thermodynamics and its application to chemical equilibrium in reaction systems, multiphase systems, and electrochemical cells; kinetic theory of gases; transport properties; chemical kinetics. May not be taken for credit by students who have completed CHE 301. Not for credit toward the chemistry major.'].
 \##16['spring1' -> 1].
 \##16['fall1' -> 1].
@@ -170,6 +185,7 @@
 \##17['Credits' -> 4].
 \##17['Prerequisites' -> [['CHE132']]].
 \##17['Antirequisites' -> 'NONE'].
+\##17['Corequisites' -> 'NONE'].
 \##17['Description' -> 'An introduction to the structure, reactivity, and properties of organic compounds is presented using modern views of chemical bonding. These fundamental ideas are applied to topics ranging from synthetic chemistry to complex functional structures such as lipid bilayers. CHE 321 may not be taken for credit in addition to
 CHE 331. This course has been designated as a High Demand/Controlled Access (HD/CA) course. Students registering for HD/CA courses for the first time will have priority to do so.'].
 \##17['spring1' -> 1].
@@ -182,6 +198,7 @@ CHE 331. This course has been designated as a High Demand/Controlled Access (HD/
 \##18['Credits' -> 4].
 \##18['Prerequisites' -> [['CHE321']]].
 \##18['Antirequisites' -> 'NONE'].
+\##18['Corequisites' -> 'NONE'].
 \##18['Description' -> 'Discussion of the structure, reactivity, and properties of organic compounds introduced in CHE 321 is continued. The chemistry of substances important in biology, medicine, and technology is emphasized. CHE 322 may not be taken for credit in addition to CHE 332. This course has been designated as a High Demand/Controlled Access (HD/CA) course. Students registering for HD/CA courses for the first time will have priority to do so.'].
 \##18['spring1' -> 1].
 \##18['fall1' -> 1].
@@ -191,8 +208,9 @@ CHE 331. This course has been designated as a High Demand/Controlled Access (HD/
 \##19['CourseTitle' -> 'Organic Chemistry Laboratory'].
 \##19['Career' -> 'Undergraduate'].
 \##19['Credits' -> 2].
-\##19['Prerequisites' -> [['CHE134', 'CHE321']]].
+\##19['Prerequisites' -> [['CHE134']]].
 \##19['Antirequisites' -> 'NONE'].
+\##19['Corequisites' -> [['CHE321']]].
 \##19['Description' -> 'Techniques of isolating and handling organic substances, including biological materials. A one-semester course that provides a basic organic laboratory experience. It is recommended that students take CHE 327 at the same time as CHE 321 or 322. Four laboratory hours and one lecture hour per week. Not for credit in addition to CHE 383. This course has an associated fee. Please see www.stonybrook.edu/coursefees for more information.'].
 \##19['spring1' -> 1].
 \##19['fall1' -> 1].
@@ -202,8 +220,9 @@ CHE 331. This course has been designated as a High Demand/Controlled Access (HD/
 \##20['CourseTitle' -> 'Synthetic and Spectroscopic Laboratory Techniques'].
 \##20['Career' -> 'Undergraduate'].
 \##20['Credits' -> 3].
-\##20['Prerequisites' -> [['CHE327', 'CHE322']]].
+\##20['Prerequisites' -> [['CHE327']]].
 \##20['Antirequisites' -> 'NONE'].
+\##20['Corequisites' -> [['CHE322']]].
 \##20['Description' -> 'Application of fundamental laboratory techniques to organic and inorganic problems including multistep syntheses and structural and mechanistic determinations. Lectures cover material pertaining to the experimental work, with an emphasis on spectroscopy. Not for credit in addition to CHE 384. This course has an associated fee. Please see www.stonybrook.edu/coursefees for more information.'].
 \##20['spring1' -> 1].
 \##20['fall1' -> 1].
@@ -213,8 +232,9 @@ CHE 331. This course has been designated as a High Demand/Controlled Access (HD/
 \##21['CourseTitle' -> 'Molecular Science II'].
 \##21['Career' -> 'Undergraduate'].
 \##21['Credits' -> 4].
-\##21['Prerequisites' -> [['CHE152', 'CHE383']]].
+\##21['Prerequisites' -> [['CHE152']]].
 \##21['Antirequisites' -> 'NONE'].
+\##21['Corequisites' -> [['CHE383']]].
 \##21['Description' -> 'Topics include the structural, mechanistic and synthetic aspects of organic chemistry, transition metal chemistry, catalysis, supramolecular chemistry, and polymer chemistry. This is the second course in a three semester sequence.  Students with a strong background prior to entering the University can take the 152-331-332 sequence, which covers the same material as 131-132-321-322. Three lecture hours and one 80-minute workshop per week. The laboratory component, CHE 383, must be taken the same semester as the CHE 331 lecture. May not be taken for credit in addition to CHE 321.'].
 \##21['spring1' -> 1].
 \##21['fall1' -> 1].
@@ -226,6 +246,7 @@ CHE 331. This course has been designated as a High Demand/Controlled Access (HD/
 \##22['Credits' -> 4].
 \##22['Prerequisites' -> [['CHE331']]].
 \##22['Antirequisites' -> 'NONE'].
+\##22['Corequisites' -> 'NONE'].
 \##22['Description' -> 'Topics include advanced structural, mechanistic and synthetic aspects of organic chemistry, the organic chemistry of biological pathways and biosynthesis. This is the final course in a three semester sequence.  Students with a strong background prior to entering the University can take the 152-331-332 sequence, which covers the same material as 131-132-321-322. Three lecture hours and one 80-minute workshop per week. May not be taken for credit in addition to CHE 322.'].
 \##22['spring1' -> 1].
 \##22['fall1' -> 1].
@@ -235,8 +256,9 @@ CHE 331. This course has been designated as a High Demand/Controlled Access (HD/
 \##23['CourseTitle' -> 'Structure and Reactivity in Organic Chemistry'].
 \##23['Career' -> 'Undergraduate'].
 \##23['Credits' -> 3].
-\##23['Prerequisites' -> [['CHE322', 'CHE332', 'CHE301', 'CHE312']]].
+\##23['Prerequisites' -> [['CHE322', 'CHE332']]].
 \##23['Antirequisites' -> 'NONE'].
+\##23['Corequisites' -> [['CHE301', 'CHE312']]].
 \##23['Description' -> 'Electronic and stereochemical theories relating to organic structure and reactions. Topics such as bonding, strain, aromaticity, MO theory, molecular rearrangements, pericyclic reactions, and photochemistry are covered.'].
 \##23['spring1' -> 1].
 \##23['fall1' -> 1].
@@ -246,8 +268,9 @@ CHE 331. This course has been designated as a High Demand/Controlled Access (HD/
 \##24['CourseTitle' -> 'Biomolecular Structure and Reactivity'].
 \##24['Career' -> 'Undergraduate'].
 \##24['Credits' -> 3].
-\##24['Prerequisites' -> [['CHE322', 'CHE332'], ['CHE301', 'CHE312']]].
+\##24['Prerequisites' -> 'NONE'].
 \##24['Antirequisites' -> 'NONE'].
+\##24['Corequisites' -> 'NONE'].
 \##24['Description' -> 'The reactivity and physiological function of biological macromolecules and their monomeric constituents are described at the chemical level. The course reflects the most recent advances at the interface of organic chemistry and biochemistry. Specific topics include catalysis, biomimicry, protein and DNA modification, binding and target recognition, and correlation between three-dimensional structure and reactivity.'].
 \##24['spring1' -> 1].
 \##24['fall1' -> 1].
@@ -259,6 +282,7 @@ CHE 331. This course has been designated as a High Demand/Controlled Access (HD/
 \##25['Credits' -> 3].
 \##25['Prerequisites' -> [['CHE322', 'CHE332']]].
 \##25['Antirequisites' -> 'NONE'].
+\##25['Corequisites' -> 'NONE'].
 \##25['Description' -> 'Important classes of mechanisms of reactions useful in synthesis are explored. The kinetics and thermodynamics of these reactions are analyzed using modern structural theories. Examples of reaction types are substitutions, rearrangements, additions, eliminations, and selected organometallic reactions.'].
 \##25['spring1' -> 1].
 \##25['fall1' -> 1].
@@ -270,6 +294,7 @@ CHE 331. This course has been designated as a High Demand/Controlled Access (HD/
 \##26['Credits' -> 3].
 \##26['Prerequisites' -> [['CHE302'], ['MAT203']]].
 \##26['Antirequisites' -> 'NONE'].
+\##26['Corequisites' -> 'NONE'].
 \##26['Description' -> 'Concepts of quantum theory, Schrodinger wave mechanics, and related mathematical techniques illustrated by application to systems of chemical bonding, spectroscopy, molecular structure, and molecular collision phenomena.'].
 \##26['spring1' -> 1].
 \##26['fall1' -> 1].
@@ -281,6 +306,7 @@ CHE 331. This course has been designated as a High Demand/Controlled Access (HD/
 \##27['Credits' -> 3].
 \##27['Prerequisites' -> [['CHE302'], ['CHE321']]].
 \##27['Antirequisites' -> 'NONE'].
+\##27['Corequisites' -> 'NONE'].
 \##27['Description' -> 'A rigorous development of thermodynamics and its application to systems of interest to chemists, including electrochemical cells, gases, polymers, and homogeneous and heterogeneous equilibrium. An introduction to statistical mechanics is included.'].
 \##27['spring1' -> 1].
 \##27['fall1' -> 1].
@@ -292,6 +318,7 @@ CHE 331. This course has been designated as a High Demand/Controlled Access (HD/
 \##28['Credits' -> 2].
 \##28['Prerequisites' -> [['CHE304'], ['CHE327', 'CHE383']]].
 \##28['Antirequisites' -> 'NONE'].
+\##28['Corequisites' -> 'NONE'].
 \##28['Description' -> 'Optical and magnetic resonance spectroscopy are used to investigate the structural, dynamic, and quantum mechanical properties of some basic chemical systems. Emphasis is on the quantitative measurement of molecular parameters and transformations. This course has an associated fee. Please see www.stonybrook.edu/coursefees for more information.'].
 \##28['spring1' -> 1].
 \##28['fall1' -> 1].
@@ -301,8 +328,9 @@ CHE 331. This course has been designated as a High Demand/Controlled Access (HD/
 \##29['CourseTitle' -> 'Computing in Chemistry'].
 \##29['Career' -> 'Undergraduate'].
 \##29['Credits' -> 3].
-\##29['Prerequisites' -> [['CHE302', 'CHE304']]].
+\##29['Prerequisites' -> [['CHE302'], ['CHE304']]].
 \##29['Antirequisites' -> 'NONE'].
+\##29['Corequisites' -> 'NONE'].
 \##29['Description' -> 'The basic elements of scripting, design of computer programs, and numerical analysis are discussed within the framework of solving a variety of exciting problems chosen from all areas of chemistry. Topics include automation of repetitive tasks, fitting of data, numerical integration of rate equations, signal and image analysis, and quantum chemistry. No previous knowledge of computer programming is assumed.'].
 \##29['spring1' -> 1].
 \##29['fall1' -> 1].
@@ -312,8 +340,9 @@ CHE 331. This course has been designated as a High Demand/Controlled Access (HD/
 \##30['CourseTitle' -> 'Nuclear Chemistry'].
 \##30['Career' -> 'Undergraduate'].
 \##30['Credits' -> 3].
-\##30['Prerequisites' -> [['PHY126'], ['AMS161', 'MAT127'], ['CHE362']]].
+\##30['Prerequisites' -> [['PHY126'], ['AMS161', 'MAT127']]].
 \##30['Antirequisites' -> 'NONE'].
+\##30['Corequisites' -> [['CHE362']]].
 \##30['Description' -> 'Properties of radioactive substances and their use in the study of chemical problems, nuclear stability and structure, nuclear reactions, radioactive decay, interactions of radiation with matter, nuclear medicine, isotope applications, and environmental control. Offered in summer only.'].
 \##30['spring1' -> 1].
 \##30['fall1' -> 1].
@@ -323,8 +352,9 @@ CHE 331. This course has been designated as a High Demand/Controlled Access (HD/
 \##31['CourseTitle' -> 'Nuclear Chemistry Laboratory'].
 \##31['Career' -> 'Undergraduate'].
 \##31['Credits' -> 3].
-\##31['Prerequisites' -> [['CHE361']]].
+\##31['Prerequisites' -> 'NONE'].
 \##31['Antirequisites' -> 'NONE'].
+\##31['Corequisites' -> [['CHE361']]].
 \##31['Description' -> 'Detection and measurement of radiation, electronic instrumentation, radiation safety, and application of radioactivity to chemical problems. Offered in summer only.'].
 \##31['spring1' -> 1].
 \##31['fall1' -> 1].
@@ -336,6 +366,7 @@ CHE 331. This course has been designated as a High Demand/Controlled Access (HD/
 \##32['Credits' -> 3].
 \##32['Prerequisites' -> [['CHE322', 'CHE332']]].
 \##32['Antirequisites' -> 'NONE'].
+\##32['Corequisites' -> 'NONE'].
 \##32['Description' -> 'A survey of inorganic chemistry covering various classes of inorganic compounds and reactions with emphasis on the structural aspects. Wherever possible, the subject is treated on the basis of modern concepts of chemical bonding. Thermodynamic and kinetic aspects of inorganic reactions are included.'].
 \##32['spring1' -> 1].
 \##32['fall1' -> 1].
@@ -347,6 +378,7 @@ CHE 331. This course has been designated as a High Demand/Controlled Access (HD/
 \##33['Credits' -> 3].
 \##33['Prerequisites' -> [['CHE375']]].
 \##33['Antirequisites' -> 'NONE'].
+\##33['Corequisites' -> 'NONE'].
 \##33['Description' -> 'The chemistry of the elements with an emphasis on the transition metals. Reaction mechanisms, synthesis, and structure are covered. Specific areas of concern include coordination chemistry, organometallic chemistry, bioinorganic chemistry, and selected topics from solid-state and non-transition metal chemistry.'].
 \##33['spring1' -> 1].
 \##33['fall1' -> 1].
@@ -358,6 +390,7 @@ CHE 331. This course has been designated as a High Demand/Controlled Access (HD/
 \##34['Credits' -> 3].
 \##34['Prerequisites' -> [['CHE375', 'ESG332']]].
 \##34['Antirequisites' -> 'NONE'].
+\##34['Corequisites' -> 'NONE'].
 \##34['Description' -> 'Our high-technology world is driven forward by advances in materials chemistry. This class will discuss some of the materials that underpin these technologies, as well as some of the novel classes of materials that are being developed for future applications. The course will cover the synthesis, structures, and properties of advanced materials, focusing on a range of topics with current societal importance (e.g. energy, computers, nanoscience, etc.). Specific topics may include batteries, fuel cells, catalysts, metals, semiconductors, superconductors, magnetism, and polymers.'].
 \##34['spring1' -> 1].
 \##34['fall1' -> 1].
@@ -369,6 +402,7 @@ CHE 331. This course has been designated as a High Demand/Controlled Access (HD/
 \##35['Credits' -> 3].
 \##35['Prerequisites' -> [['CHE375', 'CHE301', 'CHE302']]].
 \##35['Antirequisites' -> 'NONE'].
+\##35['Corequisites' -> 'NONE'].
 \##35['Description' -> 'This course will survey electrochemistry and electrochemical materials science. Topics will include fundamental measurements in electrochemistry, galvanostatic and potentiostatic methods, the electrochemical double layer, corrosion and passivation. Relevant applications such as fuel cells, batteries, and supercapacitors will be discussed.'].
 \##35['spring1' -> 1].
 \##35['fall1' -> 1].
@@ -378,8 +412,9 @@ CHE 331. This course has been designated as a High Demand/Controlled Access (HD/
 \##36['CourseTitle' -> 'Introductory Synthetic and Spectroscopic Laboratory Techniques'].
 \##36['Career' -> 'Undergraduate'].
 \##36['Credits' -> 2].
-\##36['Prerequisites' -> [['CHE154', 'CHE331']]].
+\##36['Prerequisites' -> [['CHE154']]].
 \##36['Antirequisites' -> 'NONE'].
+\##36['Corequisites' -> [['CHE331']]].
 \##36['Description' -> 'Fundamental laboratory techniques including methods of separation, purification, synthesis, and analysis. Emphasis is on organic with an introduction to inorganic problems. For students in the Molecular Sciences sequence. Not for credit in addition to CHE 327. Three lecture hours and one 80-minute workshop per week. The lecture component, CHE 331, must be taken the same semester as the CHE 383 laboratory. This course has an associated fee. Please see www.stonybrook.edu/coursefees for more information.'].
 \##36['spring1' -> 1].
 \##36['fall1' -> 1].
@@ -389,8 +424,9 @@ CHE 331. This course has been designated as a High Demand/Controlled Access (HD/
 \##37['CourseTitle' -> 'Intermediate Synthetic and Spectroscopic Laboratory Techniques'].
 \##37['Career' -> 'Undergraduate'].
 \##37['Credits' -> 3].
-\##37['Prerequisites' -> [['CHE383', 'CHE332']]].
+\##37['Prerequisites' -> [['CHE383']]].
 \##37['Antirequisites' -> 'NONE'].
+\##37['Corequisites' -> [['CHE332']]].
 \##37['Description' -> 'Application of fundamental laboratory techniques to organic and inorganic problems including multistep syntheses and structural and mechanistic determinations. Lectures cover material pertaining to the experimental work, with an emphasis on spectroscopy. Not for credit in addition to CHE 328. This course has an associated fee. Please see www.stonybrook.edu/coursefees for more information.'].
 \##37['spring1' -> 1].
 \##37['fall1' -> 1].
@@ -400,8 +436,9 @@ CHE 331. This course has been designated as a High Demand/Controlled Access (HD/
 \##38['CourseTitle' -> 'Tools of Chemistry'].
 \##38['Career' -> 'Undergraduate'].
 \##38['Credits' -> 1].
-\##38['Prerequisites' -> [['CHE327', 'CHE383']]].
+\##38['Prerequisites' -> 'NONE'].
 \##38['Antirequisites' -> 'NONE'].
+\##38['Corequisites' -> [['CHE327', 'CHE383']]].
 \##38['Description' -> 'A seminar course covering topics common to all areas of chemistry: scientific ethics; diversity, equity, and inclusion in the chemical sciences; chemical literature and information retrieval; scientific writing; and oral presentation.'].
 \##38['spring1' -> 1].
 \##38['fall1' -> 1].
@@ -413,6 +450,7 @@ CHE 331. This course has been designated as a High Demand/Controlled Access (HD/
 \##39['Credits' -> 0].
 \##39['Prerequisites' -> [['WRT102']]].
 \##39['Antirequisites' -> 'NONE'].
+\##39['Corequisites' -> 'NONE'].
 \##39['Description' -> 'This course is designed for students who engage in a substantial, structured experiential learning activity in conjunction with another class. Experiential learning occurs when knowledge acquired through formal learning and past experience are applied to a "real-world" setting or problem to create new knowledge through a process of reflection, critical analysis, feedback and synthesis. Beyond-the-classroom experiences that support experiential learning may include: service learning, mentored research, field work, or an internship.'].
 \##39['spring1' -> 1].
 \##39['fall1' -> 1].
@@ -424,6 +462,7 @@ CHE 331. This course has been designated as a High Demand/Controlled Access (HD/
 \##40['Credits' -> 0].
 \##40['Prerequisites' -> [['WRT102']]].
 \##40['Antirequisites' -> 'NONE'].
+\##40['Corequisites' -> 'NONE'].
 \##40['Description' -> 'A zero credit course that may be taken in conjunction with any 300- or 400-level CHE  course, with permission of the instructor. The course provides opportunity to practice the skills and techniques of effective academic writing and satisfies the learning outcomes of the Stony Brook Curriculum's WRTD learning objective.'].
 \##40['spring1' -> 1].
 \##40['fall1' -> 1].
@@ -435,6 +474,7 @@ CHE 331. This course has been designated as a High Demand/Controlled Access (HD/
 \##41['Credits' -> '1.00 - 3.00'].
 \##41['Prerequisites' -> 'NONE'].
 \##41['Antirequisites' -> 'NONE'].
+\##41['Corequisites' -> 'NONE'].
 \##41['Description' -> 'Semester supplements to this Bulletin contain specific description when course is offered. May be repeated as the topic changes.'].
 \##41['spring1' -> 1].
 \##41['fall1' -> 1].
@@ -446,6 +486,7 @@ CHE 331. This course has been designated as a High Demand/Controlled Access (HD/
 \##42['Credits' -> 3].
 \##42['Prerequisites' -> 'NONE'].
 \##42['Antirequisites' -> 'NONE'].
+\##42['Corequisites' -> 'NONE'].
 \##42['Description' -> 'Work with a faculty member as an assistant in one of the faculty member's regularly scheduled classes.  The student is required to attend all the classes, do all the regularly assigned work, and meet with the faculty member at regularly scheduled times to discuss the intellectual and pedagogical matters relating to the course.  Students may participate only in courses in which they have excelled.'].
 \##42['spring1' -> 1].
 \##42['fall1' -> 1].
@@ -457,6 +498,7 @@ CHE 331. This course has been designated as a High Demand/Controlled Access (HD/
 \##43['Credits' -> 3].
 \##43['Prerequisites' -> 'NONE'].
 \##43['Antirequisites' -> 'NONE'].
+\##43['Corequisites' -> 'NONE'].
 \##43['Description' -> 'Work with a faculty member as an assistant in one of the faculty member's regularly scheduled classes.  Students assume greater responsibility in such areas as leading discussions and analyzing results of tests that have already been graded. Students may participate only in courses in which they have excelled.  The course in which the student is permitted to work as a teaching assistant must be different from the course in which he or she previously served.'].
 \##43['spring1' -> 1].
 \##43['fall1' -> 1].
@@ -468,6 +510,7 @@ CHE 331. This course has been designated as a High Demand/Controlled Access (HD/
 \##44['Credits' -> 0].
 \##44['Prerequisites' -> [['CHE476']]].
 \##44['Antirequisites' -> 'NONE'].
+\##44['Corequisites' -> 'NONE'].
 \##44['Description' -> 'Work with a faculty member as an assistant in one of the faculty member's regularly scheduled classes. Students may participate only in courses in which they have excelled. May be repeated.'].
 \##44['spring1' -> 1].
 \##44['fall1' -> 1].
@@ -479,6 +522,7 @@ CHE 331. This course has been designated as a High Demand/Controlled Access (HD/
 \##45['Credits' -> '0.00 - 6.00'].
 \##45['Prerequisites' -> 'NONE'].
 \##45['Antirequisites' -> 'NONE'].
+\##45['Corequisites' -> 'NONE'].
 \##45['Description' -> 'Students pursue research or tutorial study in specialized areas of chemistry. May be repeated.'].
 \##45['spring1' -> 1].
 \##45['fall1' -> 1].
@@ -490,6 +534,7 @@ CHE 331. This course has been designated as a High Demand/Controlled Access (HD/
 \##46['Credits' -> '0.00 - 6.00'].
 \##46['Prerequisites' -> [['CHE328']]].
 \##46['Antirequisites' -> 'NONE'].
+\##46['Corequisites' -> 'NONE'].
 \##46['Description' -> 'Research participation in off-campus laboratories. Students are required to submit to the department a proposal at the time of registration and a research report at the end of the semester. May be repeated up to a limit of 12 credits.'].
 \##46['spring1' -> 1].
 \##46['fall1' -> 1].
@@ -501,6 +546,7 @@ CHE 331. This course has been designated as a High Demand/Controlled Access (HD/
 \##47['Credits' -> 3].
 \##47['Prerequisites' -> 'NONE'].
 \##47['Antirequisites' -> 'NONE'].
+\##47['Corequisites' -> 'NONE'].
 \##47['Description' -> 'First course of a two-semester research program to be carried out under the supervision of a staff member. The results of this work are to be submitted to the department in the form of a senior research report. The student is given an oral examination in May by a faculty committee consisting of the student's supervisor and three other faculty members. Students receive only one grade upon completion of the sequence CHE 495-496.'].
 \##47['spring1' -> 1].
 \##47['fall1' -> 1].
@@ -512,6 +558,7 @@ CHE 331. This course has been designated as a High Demand/Controlled Access (HD/
 \##48['Credits' -> 3].
 \##48['Prerequisites' -> 'NONE'].
 \##48['Antirequisites' -> 'NONE'].
+\##48['Corequisites' -> 'NONE'].
 \##48['Description' -> 'Second course of a two-semester research program to be carried out under the supervision of a staff member. The results of this work are to be submitted to the department in the form of a senior research report. The student is given an oral examination in May by a faculty committee consisting of the student's supervisor and three other faculty members. Students receive only one grade upon completion of the sequence CHE 495-496.'].
 \##48['spring1' -> 1].
 \##48['fall1' -> 1].
@@ -523,6 +570,7 @@ CHE 331. This course has been designated as a High Demand/Controlled Access (HD/
 \##49['Credits' -> 3].
 \##49['Prerequisites' -> 'NONE'].
 \##49['Antirequisites' -> 'NONE'].
+\##49['Corequisites' -> 'NONE'].
 \##49['Description' -> 'Practical and theoretical aspects of instrumentation in chemistry. The primary emphasis is on contemporary methods of molecular structure determination such as X-ray crystallography, NMR, IR, and MS. Other topics may also be presented.
 Spring,'].
 \##49['spring1' -> 1].
@@ -535,6 +583,7 @@ Spring,'].
 \##50['Credits' -> 3].
 \##50['Prerequisites' -> 'NONE'].
 \##50['Antirequisites' -> 'NONE'].
+\##50['Corequisites' -> 'NONE'].
 \##50['Description' -> 'This course will focus on (1) the meaning and practice of writing organic reaction mechanisms and (2) standard synthetic reactions, their mechanisms, and modern refinements. Examples and applications will be presented. The course will also discuss biomimetic syntheses and the use of mechanism in designing total syntheses.
 Fall, 3 credits, ABCF grading'].
 \##50['spring1' -> 1].
@@ -547,6 +596,7 @@ Fall, 3 credits, ABCF grading'].
 \##51['Credits' -> 3].
 \##51['Prerequisites' -> 'NONE'].
 \##51['Antirequisites' -> 'NONE'].
+\##51['Corequisites' -> 'NONE'].
 \##51['Description' -> 'A survey of the most important organic reactions from the viewpoint of synthetic utility, including many recent innovations in this field. Throughout the discussion of these methods, emphasis is placed upon their use in the synthesis of complex organic structures.
 Spring,'].
 \##51['spring1' -> 1].
@@ -559,6 +609,7 @@ Spring,'].
 \##52['Credits' -> 3].
 \##52['Prerequisites' -> 'NONE'].
 \##52['Antirequisites' -> 'NONE'].
+\##52['Corequisites' -> 'NONE'].
 \##52['Description' -> 'Electronic and stereochemical theories relating to organic structure and reactions. Topics such as bonding, strain, aromaticity, MO theory, molecular rearrangements, pericyclic reactions, and photochemistry are covered. This course is intended to provide a foundation of knowledge at the beginning graduate level as preparation for advanced subjects in CHE 502 and CHE 503, and is complementary to CHE 501.
 Fall,'].
 \##52['spring1' -> 1].
@@ -571,6 +622,7 @@ Fall,'].
 \##53['Credits' -> 3].
 \##53['Prerequisites' -> 'NONE'].
 \##53['Antirequisites' -> 'NONE'].
+\##53['Corequisites' -> 'NONE'].
 \##53['Description' -> 'Properties and reactions of inorganic compounds are considered from the viewpoint of molecular and electronic structure. The modern bonding theories used in inorganic chemistry including molecular orbital, valence bond, and ligand field theories are developed using symmetry and group theory. Selected main group, transition metal, and organometallic compounds are discussed. An introduction to crystallography and solid-state structure is included.
 Fall,'].
 \##53['spring1' -> 1].
@@ -583,6 +635,7 @@ Fall,'].
 \##54['Credits' -> 3].
 \##54['Prerequisites' -> 'NONE'].
 \##54['Antirequisites' -> 'NONE'].
+\##54['Corequisites' -> 'NONE'].
 \##54['Description' -> 'A survey course with an emphasis on the transition metals. Reaction mechanisms, synthesis, and structure are covered. Specific areas of concern include coordination chemistry, organometallic chemistry, bioinorganic chemistry, and selected topics from solid-state and non-transition metal chemistry.
 Spring,'].
 \##54['spring1' -> 1].
@@ -595,6 +648,7 @@ Spring,'].
 \##55['Credits' -> 3].
 \##55['Prerequisites' -> 'NONE'].
 \##55['Antirequisites' -> 'NONE'].
+\##55['Corequisites' -> 'NONE'].
 \##55['Description' -> 'A topical course with an emphasis on the current literature. Subject matter varies and is announced in advance. Possible subjects include reaction mechanisms, organometallic chemistry, bioinorganic chemistry, and physical inorganic chemistry. May be repeated as the subject matter varies.
 Spring, 3 credits, ABCF grading'].
 \##55['spring1' -> 1].
@@ -607,6 +661,7 @@ Spring, 3 credits, ABCF grading'].
 \##56['Credits' -> 3].
 \##56['Prerequisites' -> 'NONE'].
 \##56['Antirequisites' -> 'NONE'].
+\##56['Corequisites' -> 'NONE'].
 \##56['Description' -> 'This course will provide an introduction to structure and bonding in solid materials. This class will survey the important structural classes of periodic solids and will discuss space groups and the crystallographic symmetry elements important to these materials. Topics that will be covered may include, but are not limited to: (i) The mechanisms by which crystals grow and common types of defects. (ii) An introduction to the basics of band theory. (iii) An overview of the important synthetic methods for preparing solid state materials in nanocrystalline, powder, thin film, and single crystal form. (iv) A survey of the important techniques for assessing the composition, homogeneity, and crystallinity of materials (such as SEM, TEM, AFM, STM), with an emphasis on powder x-ray diffraction.
 Fall, 3 credits, ABCF grading'].
 \##56['spring1' -> 1].
@@ -619,6 +674,7 @@ Fall, 3 credits, ABCF grading'].
 \##57['Credits' -> 3].
 \##57['Prerequisites' -> 'NONE'].
 \##57['Antirequisites' -> 'NONE'].
+\##57['Corequisites' -> 'NONE'].
 \##57['Description' -> 'Much of chemistry is concerned with the properties of atoms and molecules that are too small to see directly. This course will cover a variety of advanced techniques for elucidating the atomic-scale structure of molecules and periodic solids. A central technique is diffraction, which probes periodic arrays. The mathematical basis for diffraction will be presented, followed by practical examples of obtaining atomic coordinates from diffraction data (powder and/or single crystal). Other techniques that may be covered include the analysis of local structure in partially ordered or disordered solids (via techniques such as PDF, EXAFS, small angle scattering, or solid state NMR), and the basis of more complex diffraction experiments (neutron/electron diffraction, energy-dispersive/Laue diffraction, and diffraction under extreme pressure/temperature conditions).
 Spring, 3 credits, ABCF grading'].
 \##57['spring1' -> 1].
@@ -631,6 +687,7 @@ Spring, 3 credits, ABCF grading'].
 \##58['Credits' -> 3].
 \##58['Prerequisites' -> 'NONE'].
 \##58['Antirequisites' -> 'NONE'].
+\##58['Corequisites' -> 'NONE'].
 \##58['Description' -> 'Our high technology world is driven forward by advances in materials chemistry.  This class will discuss the origin of this technology, covering the synthesis, structures, and properties of advanced materials. These materials will be studied from a multidisciplinary perspective, since the knowledge required for their development spans more than one traditional academic discipline. This class will focus on broad topics with great current societal importance (energy, computing, nanoscience, etc.), and will discuss the materials at the heart of our present technology as well as novel classes of materials being developed for future technology applications. Specific topics may include batteries, fuel cells, catalysts, metallic conductors, semiconductors, superconductors, permanent magnets, magnetic films.
 Spring, 3 credits, ABCF grading'].
 \##58['spring1' -> 1].
@@ -643,6 +700,7 @@ Spring, 3 credits, ABCF grading'].
 \##59['Credits' -> 3].
 \##59['Prerequisites' -> 'NONE'].
 \##59['Antirequisites' -> 'NONE'].
+\##59['Corequisites' -> 'NONE'].
 \##59['Description' -> 'This course will survey electrochemistry and electrochemical materials science. Topics will include fundamental measurements in electrochemistry, galvanostatic and potentiostatic methods, the electrochemical double layer, corrosion and passivation. Relevant applications such as fuel cells, batteries, and supercapacitors will be discussed.
 Spring, 3 credits, Letter graded (A, A-, B+, etc.)'].
 \##59['spring1' -> 1].
@@ -655,6 +713,7 @@ Spring, 3 credits, Letter graded (A, A-, B+, etc.)'].
 \##60['Credits' -> 3].
 \##60['Prerequisites' -> 'NONE'].
 \##60['Antirequisites' -> 'NONE'].
+\##60['Corequisites' -> 'NONE'].
 \##60['Description' -> 'Quantum theoretical concepts are discussed. Schrodinger wave mechanics and related mathematical techniques are illustrated by treatment of systems of chemical interest. Designed to form the theoretical basis for the study of chemical bonding, molecular structure, spectroscopy, and molecular collision phenomena.
 Fall,'].
 \##60['spring1' -> 1].
@@ -667,6 +726,7 @@ Fall,'].
 \##61['Credits' -> 3].
 \##61['Prerequisites' -> 'NONE'].
 \##61['Antirequisites' -> 'NONE'].
+\##61['Corequisites' -> 'NONE'].
 \##61['Description' -> 'A detailed description of the theory and practice of molecular spectroscopy. Topics include the interaction of molecules with electromagnetic radiation and the time evolution of molecular energy states.
 Prerequisite: CHE 521
 Spring,'].
@@ -680,6 +740,7 @@ Spring,'].
 \##62['Credits' -> '1.00 - 3.00'].
 \##62['Prerequisites' -> 'NONE'].
 \##62['Antirequisites' -> 'NONE'].
+\##62['Corequisites' -> 'NONE'].
 \##62['Description' -> 'A rigorous development of the fundamentals of thermodynamics and its application to a number of systems of interest to chemists, such as electrochemical cells, gases, and homogeneous and heterogeneous equilibrium. An introduction to statistical mechanics will also be included.
 Fall,'].
 \##62['spring1' -> 1].
@@ -692,6 +753,7 @@ Fall,'].
 \##63['Credits' -> 3].
 \##63['Prerequisites' -> 'NONE'].
 \##63['Antirequisites' -> 'NONE'].
+\##63['Corequisites' -> 'NONE'].
 \##63['Description' -> 'This course provides an introduction to the fundamental quantum mechanics of the magnetism of spin-1/2 (and higher) particles. It includes a study of the Bloch equations (the responses of the magnetism to continuous-wave and pulsed irradiation) and a discussion of the experimental hardware and techniques commonly employed. Topics covered include the basics of the spin Hamiltonian (chemical shifts, J, dipolar, and quadrupolar couplings), dynamics and relaxation 1-D spectroscopy (spin and chemical exchange, lineshapes, spin echos, etc.), 2-D spectroscopy (homonuclear and heteronuclear correlation), techniques for studies of solids and liquid crystals (magic angle spinning, cross polarization, quadrupolar echo), and the principles of magnetic resonance imaging. Applications to the biological and material sciences, as well as chemical problems, will be discussed.
 Spring, alternate years,'].
 \##63['spring1' -> 1].
@@ -704,6 +766,7 @@ Spring, alternate years,'].
 \##64['Credits' -> 3].
 \##64['Prerequisites' -> 'NONE'].
 \##64['Antirequisites' -> 'NONE'].
+\##64['Corequisites' -> 'NONE'].
 \##64['Description' -> 'This course stresses the physical theory underlying chemical phenomena. Special emphasis is given to advanced topics in electronic structure theory, molecular dynamics, condensed matter and surfaces, many-body and quantum ensemble theory, and the interaction of light and molecules.
 Prerequisite: CHE 521'].
 \##64['spring1' -> 1].
@@ -716,6 +779,7 @@ Prerequisite: CHE 521'].
 \##65['Credits' -> 3].
 \##65['Prerequisites' -> 'NONE'].
 \##65['Antirequisites' -> 'NONE'].
+\##65['Corequisites' -> 'NONE'].
 \##65['Description' -> 'Statistical theory of equilibrium systems and rate processes. Ensemble theory, spatial and time correlation functions. Model systems and methods of estimating their properties. Designed to enable the student to use the current literature dealing with application of statistical mechanics to problems in chemistry.
 Spring,'].
 \##65['spring1' -> 1].
@@ -728,6 +792,7 @@ Spring,'].
 \##66['Credits' -> '0.00 - 3.00'].
 \##66['Prerequisites' -> 'NONE'].
 \##66['Antirequisites' -> 'NONE'].
+\##66['Corequisites' -> 'NONE'].
 \##66['Description' -> 'This course provides a brief overview of several quantitative approaches to characterizing materials, including small-angle X-ray and neutron scattering (SAXS/SANS), fitting scattering data, colloidal phase behavior, dynamic light scattering (DLS), light scattering microrheology, crystallography and diffraction, grazing-incidence small-angle scattering (GISAXS), X-ray correlation photon spectroscopy (XPCS), and X-ray imaging and microscopy.
 
 Spring, 0-3 credits, Letter graded (A, A-, B+, etc.)'].
@@ -741,6 +806,7 @@ Spring, 0-3 credits, Letter graded (A, A-, B+, etc.)'].
 \##67['Credits' -> 3].
 \##67['Prerequisites' -> 'NONE'].
 \##67['Antirequisites' -> 'NONE'].
+\##67['Corequisites' -> 'NONE'].
 \##67['Description' -> 'An investigation of the gross and fine structures of macromolecules and molecular aggregates in solution as revealed by hydrodynamic behavior (e.g., ultracentrifugation, viscosity), light scattering, spectroscopic properties (e.g., ultraviolet hypochromism, circular dichromism, Raman, fluorescence, magnetic resonance spectra), and the thermodynamics and kinetics of interaction with small molecules and ions. Theory of conformation changes and phase transitions.'].
 \##67['spring1' -> 1].
 \##67['fall1' -> 1].
@@ -752,6 +818,7 @@ Spring, 0-3 credits, Letter graded (A, A-, B+, etc.)'].
 \##68['Credits' -> 3].
 \##68['Prerequisites' -> 'NONE'].
 \##68['Antirequisites' -> 'NONE'].
+\##68['Corequisites' -> 'NONE'].
 \##68['Description' -> 'The basic elements of scripting, design of computer programs, and numerical analysis are discussed within the framework of solving a variety of exciting problems chosen from all areas of chemistry.  Topics include automation of repetitive tasks, fitting of data, numerical integration of rate equations, signal and image analysis, and quantum chemistry.  No previous knowledge of computer programming is assumed.
 Fall, 3 credits, Letter graded (A, A-, B+, etc.)'].
 \##68['spring1' -> 1].
@@ -764,6 +831,7 @@ Fall, 3 credits, Letter graded (A, A-, B+, etc.)'].
 \##69['Credits' -> '0.00 - 3.00'].
 \##69['Prerequisites' -> 'NONE'].
 \##69['Antirequisites' -> 'NONE'].
+\##69['Corequisites' -> 'NONE'].
 \##69['Description' -> 'This course will provide an introduction to Computational Structural Biology with application to Drug Design.  Methods and applications that use computation to model biological systems involved in human disease will be emphasized.  The course aims to foster collaborative learning and will consist of presentations by the instructor, guest lecturers, and by course participants with the goal of summarizing key methods, topics, and papers relevant to Computational Structural Biology.
 Fall, 0-3 credits, ABCF grading
 Crosslisted with AMS 535'].
@@ -777,6 +845,7 @@ Crosslisted with AMS 535'].
 \##70['Credits' -> '0.00 - 3.00'].
 \##70['Prerequisites' -> [['CHE535']]].
 \##70['Antirequisites' -> 'NONE'].
+\##70['Corequisites' -> 'NONE'].
 \##70['Description' -> 'This course is designed for students who wish to gain hands-on experience modeling biological molecules at the atomic level. In conjunction with the individual interests, Molecular Mechanics, Molecular Dynamics, Monte Carlo, Docking (virtual screening), or Quantum Mechanics software packages can be used to study relevant biological system(s).  Projects will include setup, execution, and analysis.  Course participants will give literature presentations relevant to the simulations being performed and a final project report will be required.  Familiarity with UNIX (Linux) is desirable.
 Prerequisite:  CHE 535 or permission of instructor
 Spring, 0-3 credits, ABCF grading
@@ -791,6 +860,7 @@ Crosslisted with AMS 536'].
 \##71['Credits' -> 3].
 \##71['Prerequisites' -> 'NONE'].
 \##71['Antirequisites' -> 'NONE'].
+\##71['Corequisites' -> 'NONE'].
 \##71['Description' -> 'The structures of biological macromolecules and the relationship of their structure to biological function are described.  Methodology employed to study macromolecules is also discussed.  Topics include chemical and physical properties of cell and tissue constituents, including carbohydrates, lipids, nucleic acids, proteins and peptides.  May not be taken by students with credit for MCB 520.
 Prerequisite: Strong foundation in physical and organic chemistry.
 Fall,'].
@@ -804,6 +874,7 @@ Fall,'].
 \##72['Credits' -> 3].
 \##72['Prerequisites' -> 'NONE'].
 \##72['Antirequisites' -> 'NONE'].
+\##72['Corequisites' -> 'NONE'].
 \##72['Description' -> 'The reactivity and physiological function of biological macromolecules and their cofactors are described at the chemical biochemical level.  The emphasis of this course reflects recent advances in chemical biology.  Possible topics include catalysts, reaction mechanisms, correlation between three-dimensional structure and reactivity, receptor-ligand interactions in extracellular and intracellular signaling, protein folding in vitro and in vivo.
 Spring,'].
 \##72['spring1' -> 1].
@@ -814,8 +885,9 @@ Spring,'].
 \##73['CourseTitle' -> 'Chemical Approaches to Biology'].
 \##73['Career' -> 'Graduate'].
 \##73['Credits' -> 3].
-\##73['Prerequisites' -> [['CHE541', 'MCB520']]].
+\##73['Prerequisites' -> 'NONE'].
 \##73['Antirequisites' -> 'NONE'].
+\##73['Corequisites' -> 'NONE'].
 \##73['Description' -> 'The use of molecular concepts and methodology to solve problems in biology and medicine. The course covers methods to elucidate and control biological systems. Possible topics include chemical genomics, metabolomics, and chemotherapeutics.
 Prerequisite CHE 542
 Fall, 3 credits, ABCF grading'].
@@ -829,6 +901,7 @@ Fall, 3 credits, ABCF grading'].
 \##74['Credits' -> 3].
 \##74['Prerequisites' -> 'NONE'].
 \##74['Antirequisites' -> 'NONE'].
+\##74['Corequisites' -> 'NONE'].
 \##74['Description' -> 'This is a course on the principles of physical chemistry.  We describe the nature of the forces and energies and entropies that drive molecular systems toward their states of equilibrium.  We consider a broad range of applications throughout chemistry, biology, materials engineering and  nanoscience.  This course aims to give students an understanding of how the actions and behaviors of materials arise from their atomic and molecular structures.
 Co-listed with PHY 558
 Spring, 3 credits, ABCF Grading'].
@@ -842,6 +915,7 @@ Spring, 3 credits, ABCF Grading'].
 \##75['Credits' -> 3].
 \##75['Prerequisites' -> 'NONE'].
 \##75['Antirequisites' -> 'NONE'].
+\##75['Corequisites' -> 'NONE'].
 \##75['Description' -> 'This course will provide a solid foundation in key theoretical concepts for the study of dynamics in biological systems and networks at different scales ranging from the molecular level to metabolic and gene regulatory networks. Topics of this course include but are not limited to: Physical kinetics; Diffusion/Smoluchowskii; Random flights; Waiting times; Poisson; Brownian ratchets; Chemical kinetics; Transition states; Stability, bifurcations, pattern development; Noise in cells: intrinsic and Extrinsic; Feedback; Biological Osciillators; Recurrence, period doubling, chaos; Networks; Topologies; Degree distribution, betweenness; Models of nets: Erdos-Renyi, scale-free, social, Watts-Strogatz, agents; Robustness, highly-optimized tolerance, bowties, epidemics; Biological networks: Protein-protein nets, regulatory and metabolic nets; Known biological circuits and their behaviors; How networks evolve: Preferential attachment, rewiring; Power laws; Fluxed through networks; Information and communication, entropy; Metabolic flux analysis; Artificial and Natural selection for traits; Darwinian evolution; Population dynamics.
 Spring, 3 credits, ABCF grading
 Crosslisted with PHY 559 and CHE 559'].
@@ -855,6 +929,7 @@ Crosslisted with PHY 559 and CHE 559'].
 \##76['Credits' -> 0].
 \##76['Prerequisites' -> 'NONE'].
 \##76['Antirequisites' -> 'NONE'].
+\##76['Corequisites' -> 'NONE'].
 \##76['Description' -> 'Meetings in which first-year graduate students learn about the research activities of the departmental faculty.
 Fall,'].
 \##76['spring1' -> 1].
@@ -867,6 +942,7 @@ Fall,'].
 \##77['Credits' -> 0].
 \##77['Prerequisites' -> 'NONE'].
 \##77['Antirequisites' -> 'NONE'].
+\##77['Corequisites' -> 'NONE'].
 \##77['Description' -> 'Students select and discuss topics from the current literature.
 Spring,'].
 \##77['spring1' -> 1].
@@ -879,6 +955,7 @@ Spring,'].
 \##78['Credits' -> 2].
 \##78['Prerequisites' -> 'NONE'].
 \##78['Antirequisites' -> 'NONE'].
+\##78['Corequisites' -> 'NONE'].
 \##78['Description' -> 'Development and refinement of the professional skills used by scientists: An exploration of more sophisticated presentation skills used in oral and poster presentations; incorporatyion of collaborative problem solving that mimics real world situations, including simple proposal writing; exposure to professional societies and meetings; an exploration of career options and employment resources; tips for resume preparation and interviews. Recommended for upper divsion endergraduates and masters students.
 Winter, 2 credits, ABCF Grading'].
 \##78['spring1' -> 1].
@@ -891,6 +968,7 @@ Winter, 2 credits, ABCF Grading'].
 \##79['Credits' -> '0.00 - 1.00'].
 \##79['Prerequisites' -> 'NONE'].
 \##79['Antirequisites' -> 'NONE'].
+\##79['Corequisites' -> 'NONE'].
 \##79['Description' -> 'Additional problem solving and team learning on topics from a concurrent formal graduate course. Topics vary. Fall and Spring, 0-1 credits, S/U grading. May be repeated for credits.'].
 \##79['spring1' -> 1].
 \##79['fall1' -> 1].
@@ -902,6 +980,7 @@ Winter, 2 credits, ABCF Grading'].
 \##80['Credits' -> '0.00 - 12.00'].
 \##80['Prerequisites' -> 'NONE'].
 \##80['Antirequisites' -> 'NONE'].
+\##80['Corequisites' -> 'NONE'].
 \##80['Description' -> 'Subject matter varies according to needs of student.
 Fall and Spring,'].
 \##80['spring1' -> 1].
@@ -914,6 +993,7 @@ Fall and Spring,'].
 \##81['Credits' -> 3].
 \##81['Prerequisites' -> 'NONE'].
 \##81['Antirequisites' -> 'NONE'].
+\##81['Corequisites' -> 'NONE'].
 \##81['Description' -> 'Seminar leading to a term paper on a selected topic in chemistry, chemical applications, or chemical pedagogy. 
 Fall, Spring, Summer'].
 \##81['spring1' -> 1].
@@ -926,6 +1006,7 @@ Fall, Spring, Summer'].
 \##82['Credits' -> 3].
 \##82['Prerequisites' -> 'NONE'].
 \##82['Antirequisites' -> 'NONE'].
+\##82['Corequisites' -> 'NONE'].
 \##82['Description' -> 'This course provides an overview of the chemistry of environmental processes, environmental degradation, remediation and abatement processes, and energy production. Past actions and current efforts of the chemical enterprise in both exacerbating and addressing anthropogenic environmental degradation are discussed.'].
 \##82['spring1' -> 1].
 \##82['fall1' -> 1].
@@ -937,6 +1018,7 @@ Fall, Spring, Summer'].
 \##83['Credits' -> 3].
 \##83['Prerequisites' -> 'NONE'].
 \##83['Antirequisites' -> 'NONE'].
+\##83['Corequisites' -> 'NONE'].
 \##83['Description' -> 'The design and implementation of demonstrations to illustrate modern concepts of chemistry.'].
 \##83['spring1' -> 1].
 \##83['fall1' -> 1].
@@ -948,6 +1030,7 @@ Fall, Spring, Summer'].
 \##84['Credits' -> 3].
 \##84['Prerequisites' -> 'NONE'].
 \##84['Antirequisites' -> 'NONE'].
+\##84['Corequisites' -> 'NONE'].
 \##84['Description' -> 'The objective of CHE 596 is to better prepare students for the kinds of interactions they are likely to have in their careers when communicating their chemistry. Specifically, this course will help students to: (i) develop competency with research-based approaches to facilitating discourse that is generative for improving scientific understandings of chemistry phenomena; (ii) recognize the importance of representations in chemistry and to incorporate a more explicit modeling perspective and approach for developing scientific literacy; (iii) develop teaching strategies to effectively communicate abstract and complex chemical concepts to advise expert and non-expert audiences; (iv) develop curricular interventions aimed at improving individual and community practice of challenging conceptual ideas; (v) incorporate historical and philosophical perspectives on the development of fundamental chemical principles into the teaching of those topics in diverse settings; (vi) become aware of recent developments in the learning progressions literature to inform understanding of appropriate curriculum planning and implementation; and (vii) develop an identity towards reflective practice and empowerment of fellow chemistry educators into positions of leadership.'].
 \##84['spring1' -> 1].
 \##84['fall1' -> 1].
@@ -959,6 +1042,7 @@ Fall, Spring, Summer'].
 \##85['Credits' -> 3].
 \##85['Prerequisites' -> 'NONE'].
 \##85['Antirequisites' -> 'NONE'].
+\##85['Corequisites' -> 'NONE'].
 \##85['Description' -> 'This course provides a structured environment for students to develop their research project into a written thesis.  Students will receive instruction and guidance in performing literature research related to their project and in developing this background material along with their own research into a properly written document.'].
 \##85['spring1' -> 1].
 \##85['fall1' -> 1].
@@ -970,6 +1054,7 @@ Fall, Spring, Summer'].
 \##86['Credits' -> '0.00 - 12.00'].
 \##86['Prerequisites' -> 'NONE'].
 \##86['Antirequisites' -> 'NONE'].
+\##86['Corequisites' -> 'NONE'].
 \##86['Description' -> 'Participation in private corporations, public agencies, or non-profit institutions for research and other experiential training activities related to the completion of a Master term paper.  Students will be required to have a faculty coordinator as well as a contact in the outside organization, to participate with them in regular consultations on the project, and to successfully complete CHE 590.
 Prerequisites: Permission of Master's Program Director.
 0-12 credits, S/U grading
@@ -985,6 +1070,7 @@ Offered Fall, Spring, and Summer, Every Semester'].
 \##87['Credits' -> '1.00 - 12.00'].
 \##87['Prerequisites' -> 'NONE'].
 \##87['Antirequisites' -> 'NONE'].
+\##87['Corequisites' -> 'NONE'].
 \##87['Description' -> 'Fall, Spring, Summer'].
 \##87['spring1' -> 1].
 \##87['fall1' -> 1].
@@ -996,6 +1082,7 @@ Offered Fall, Spring, and Summer, Every Semester'].
 \##88['Credits' -> '1.00 - 12.00'].
 \##88['Prerequisites' -> 'NONE'].
 \##88['Antirequisites' -> 'NONE'].
+\##88['Corequisites' -> 'NONE'].
 \##88['Description' -> 'The subject matter varies depending on interests of students and staff. It may cover such areas as photochemistry, theoretical organic chemistry, and the chemistry of unstable intermediates; the emphasis is on fundamental considerations and recent developments.'].
 \##88['spring1' -> 1].
 \##88['fall1' -> 1].
@@ -1007,6 +1094,7 @@ Offered Fall, Spring, and Summer, Every Semester'].
 \##89['Credits' -> '1.00 - 3.00'].
 \##89['Prerequisites' -> 'NONE'].
 \##89['Antirequisites' -> 'NONE'].
+\##89['Corequisites' -> 'NONE'].
 \##89['Description' -> 'The subject matter varies depending on interests of students and faculty. Possible topics include asymmetric synthesis and natural product synthesis.
 Fall,'].
 \##89['spring1' -> 1].
@@ -1019,6 +1107,7 @@ Fall,'].
 \##90['Credits' -> '1.00 - 3.00'].
 \##90['Prerequisites' -> 'NONE'].
 \##90['Antirequisites' -> 'NONE'].
+\##90['Corequisites' -> 'NONE'].
 \##90['Description' -> ''].
 \##90['spring1' -> 1].
 \##90['fall1' -> 1].
@@ -1030,6 +1119,7 @@ Fall,'].
 \##91['Credits' -> '1.00 - 3.00'].
 \##91['Prerequisites' -> 'NONE'].
 \##91['Antirequisites' -> 'NONE'].
+\##91['Corequisites' -> 'NONE'].
 \##91['Description' -> 'A seminar course covering modern aspects and approaches to drug design.  This course combines presentations by faculty and by industry representatives to provide a cross-disciplinary view of the development of pharmaceuticals.
 Fall, variable 1-3 credits, ABCF grading'].
 \##91['spring1' -> 1].
@@ -1042,6 +1132,7 @@ Fall, variable 1-3 credits, ABCF grading'].
 \##92['Credits' -> '1.00 - 3.00'].
 \##92['Prerequisites' -> 'NONE'].
 \##92['Antirequisites' -> 'NONE'].
+\##92['Corequisites' -> 'NONE'].
 \##92['Description' -> 'Practice instruction in chemistry at the undergraduate level, carried out under faculty orientation and supervision. A minimum of two semesters of CHE 610 or 611 is required of all candidates for graduate research degrees in chemistry, unless explicitly waived by the chairperson.
 Fall and Spring,'].
 \##92['spring1' -> 1].
@@ -1054,6 +1145,7 @@ Fall and Spring,'].
 \##93['Credits' -> 0].
 \##93['Prerequisites' -> 'NONE'].
 \##93['Antirequisites' -> 'NONE'].
+\##93['Corequisites' -> 'NONE'].
 \##93['Description' -> 'Practice instruction in chemistry at the undergraduate level, carried out under faculty orientation and supervision. A minimum of two semesters of CHE 610 or 611 is required of all candidates for graduate research degrees in chemistry, unless explicitly waived by the chairperson.
 Fall and Spring,'].
 \##93['spring1' -> 1].
@@ -1066,6 +1158,7 @@ Fall and Spring,'].
 \##94['Credits' -> '0.00 - 3.00'].
 \##94['Prerequisites' -> 'NONE'].
 \##94['Antirequisites' -> 'NONE'].
+\##94['Corequisites' -> 'NONE'].
 \##94['Description' -> 'Recent research papers from the literature will be analyzed in depth. These papers may originate from the inorganic, organic, physical, and/or biochemical literature. The exact topic of the course is announced in advance. Fall and Spring'].
 \##94['spring1' -> 1].
 \##94['fall1' -> 1].
@@ -1077,6 +1170,7 @@ Fall and Spring,'].
 \##95['Credits' -> 3].
 \##95['Prerequisites' -> 'NONE'].
 \##95['Antirequisites' -> 'NONE'].
+\##95['Corequisites' -> 'NONE'].
 \##95['Description' -> 'Experimental methods in the determination of molecular structure. The emphasis is on the determination of structure in the solid state, particularly by X-ray crystallography. Students complete a single-crystal molecular structure determination using modern diffractometer techniques.'].
 \##95['spring1' -> 1].
 \##95['fall1' -> 1].
@@ -1088,6 +1182,7 @@ Fall and Spring,'].
 \##96['Credits' -> 3].
 \##96['Prerequisites' -> 'NONE'].
 \##96['Antirequisites' -> 'NONE'].
+\##96['Corequisites' -> 'NONE'].
 \##96['Description' -> 'A systematic presentation of the chemistry of organometallic compounds, particularly those of the transition metals. Topics include structure, bonding, reaction mechanisms, synthesis, and applications in catalysis and organic synthesis.'].
 \##96['spring1' -> 1].
 \##96['fall1' -> 1].
@@ -1099,6 +1194,7 @@ Fall and Spring,'].
 \##97['Credits' -> '0.00 - 3.00'].
 \##97['Prerequisites' -> 'NONE'].
 \##97['Antirequisites' -> 'NONE'].
+\##97['Corequisites' -> 'NONE'].
 \##97['Description' -> 'Subject matter varies, depending on interests of students and staff, but covers recent developments in inorganic chemistry.'].
 \##97['spring1' -> 1].
 \##97['fall1' -> 1].
@@ -1110,6 +1206,7 @@ Fall and Spring,'].
 \##98['Credits' -> 3].
 \##98['Prerequisites' -> 'NONE'].
 \##98['Antirequisites' -> 'NONE'].
+\##98['Corequisites' -> 'NONE'].
 \##98['Description' -> 'Subject matter varies, depending on interests of students and staff, but covers recent developments and advanced topics in physical chemistry.'].
 \##98['spring1' -> 1].
 \##98['fall1' -> 1].
@@ -1121,6 +1218,7 @@ Fall and Spring,'].
 \##99['Credits' -> '1.00 - 3.00'].
 \##99['Prerequisites' -> 'NONE'].
 \##99['Antirequisites' -> 'NONE'].
+\##99['Corequisites' -> 'NONE'].
 \##99['Description' -> 'Supervised curricular training in dissertation-related research. 
 Prerequisite: For full-time: Summer session or advancement to candidacy; Permission of Graduate Program Director.
 Fall and Spring,'].
@@ -1134,6 +1232,7 @@ Fall and Spring,'].
 \##100['Credits' -> '0.00 - 12.00'].
 \##100['Prerequisites' -> 'NONE'].
 \##100['Antirequisites' -> 'NONE'].
+\##100['Corequisites' -> 'NONE'].
 \##100['Description' -> 'Fall and Spring,'].
 \##100['spring1' -> 1].
 \##100['fall1' -> 1].
@@ -1145,6 +1244,7 @@ Fall and Spring,'].
 \##101['Credits' -> '0.00 - 12.00'].
 \##101['Prerequisites' -> 'NONE'].
 \##101['Antirequisites' -> 'NONE'].
+\##101['Corequisites' -> 'NONE'].
 \##101['Description' -> 'Fall and Spring,'].
 \##101['spring1' -> 1].
 \##101['fall1' -> 1].
@@ -1156,6 +1256,7 @@ Fall and Spring,'].
 \##102['Credits' -> '0.00 - 12.00'].
 \##102['Prerequisites' -> 'NONE'].
 \##102['Antirequisites' -> 'NONE'].
+\##102['Corequisites' -> 'NONE'].
 \##102['Description' -> 'Fall and Spring,'].
 \##102['spring1' -> 1].
 \##102['fall1' -> 1].
@@ -1167,6 +1268,7 @@ Fall and Spring,'].
 \##103['Credits' -> '0.00 - 12.00'].
 \##103['Prerequisites' -> 'NONE'].
 \##103['Antirequisites' -> 'NONE'].
+\##103['Corequisites' -> 'NONE'].
 \##103['Description' -> 'Fall and Spring,'].
 \##103['spring1' -> 1].
 \##103['fall1' -> 1].
@@ -1178,6 +1280,7 @@ Fall and Spring,'].
 \##104['Credits' -> '0.00 - 1.00'].
 \##104['Prerequisites' -> 'NONE'].
 \##104['Antirequisites' -> 'NONE'].
+\##104['Corequisites' -> 'NONE'].
 \##104['Description' -> 'Fall and spring, 0-1 credits, S/U grading.
 May be repeated for credit.'].
 \##104['spring1' -> 1].
@@ -1190,6 +1293,7 @@ May be repeated for credit.'].
 \##105['Credits' -> '0.00 - 12.00'].
 \##105['Prerequisites' -> 'NONE'].
 \##105['Antirequisites' -> 'NONE'].
+\##105['Corequisites' -> 'NONE'].
 \##105['Description' -> 'Fall and Spring,'].
 \##105['spring1' -> 1].
 \##105['fall1' -> 1].
@@ -1201,6 +1305,7 @@ May be repeated for credit.'].
 \##106['Credits' -> '1.00 - 9.00'].
 \##106['Prerequisites' -> 'NONE'].
 \##106['Antirequisites' -> 'NONE'].
+\##106['Corequisites' -> 'NONE'].
 \##106['Description' -> 'Prerequisite: Must be advanced to candidacy (G5). Major portion of research must take place on SBU campus, at Cold Spring Harbor, or at the Brookhaven National Lab.
 Fall, Spring, and Summer,'].
 \##106['spring1' -> 1].
@@ -1213,6 +1318,7 @@ Fall, Spring, and Summer,'].
 \##107['Credits' -> '1.00 - 9.00'].
 \##107['Prerequisites' -> 'NONE'].
 \##107['Antirequisites' -> 'NONE'].
+\##107['Corequisites' -> 'NONE'].
 \##107['Description' -> 'Prerequisite: Must be advanced to candidacy (G5). Major portion of research will take place off-campus, but in the United States and/or U.S. provinces. Please note, Brookhaven National Labs and the Cold Spring Harbor Lab are considered on-campus.
 All international students must enroll in one of the graduate student insurance plans and should be advised by an International Advisor.
 Fall, Spring, Summer'].
@@ -1226,6 +1332,7 @@ Fall, Spring, Summer'].
 \##108['Credits' -> '1.00 - 9.00'].
 \##108['Prerequisites' -> 'NONE'].
 \##108['Antirequisites' -> 'NONE'].
+\##108['Corequisites' -> 'NONE'].
 \##108['Description' -> 'Prerequisite: Must be advanced to candidacy (G5). Major portion of research will take place outside of the United States and/or U.S. provinces.
 Domestic students have the option of the health plan and may also enroll in MEDEX.
 International students who are in their home country are not covered by mandatory health plan and must contact the Insurance Office for the insurance charge to be removed.
@@ -1242,6 +1349,7 @@ Fall, Spring, Summer'].
 \##109['Credits' -> 0].
 \##109['Prerequisites' -> 'NONE'].
 \##109['Antirequisites' -> 'NONE'].
+\##109['Corequisites' -> 'NONE'].
 \##109['Description' -> ''].
 \##109['spring1' -> 1].
 \##109['fall1' -> 1].

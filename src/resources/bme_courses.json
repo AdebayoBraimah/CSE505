@@ -5,6 +5,7 @@
         "Credits":3.0,
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"A rigorous introduction to biomedical engineering that provides the historical and social context of BME though contemporary emerging areas within BME. Specific areas covered in depth include: bioelectricity and biosensors (action potentials to signal processing), bioimaging (invasive and non-invasive), genetic engineering (with ethical discussions), and biostatistics. Hands-on computational modeling introduces the physiological concept of positive and negative feedback loops in the body. Emphasis is placed on ways engineers view the living system by using design based approaches and computation.",
         "spring1":1,
         "fall1":1,
@@ -17,6 +18,7 @@
         "Credits":3.0,
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"This course will introduce the theory and fundamentals of computer programming specifically designed for the applications in biomedical engineering.  Students will learn the basic computer architecture and the interaction between the computer hardware, operating system and application software.  The course focus will be on the programming control logic and style critical to all programming languages including C and MATLAB.  several core and elective courses in biomedical engineering use MATLAB as a key programming language, and therefore MATLAB will be the primary language used to teach the above mentioned programming principles.  This course will also serve as the foundation where the students can pursue further advanced programming skills.",
         "spring1":1,
         "fall1":1,
@@ -29,6 +31,7 @@
         "Credits":3.0,
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Technology at the human-engineering interface that enables human life in harsh environments, including high temperatures, high altitude, deep sea and outer space. Emphasis on the technical design requirements of the bio-engineering interface that will enable life to thrive. Physiological limits to survival will be examined within the context of when the bio-engineering technology is required.  This course may not be taken for major credit.",
         "spring1":1,
         "fall1":1,
@@ -41,6 +44,7 @@
         "Credits":3.0,
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"This course is designed to provide students with early team-based design experience. Students will learn CAD, 3D printing, microcontroller programming and have hands-on experience in prototyping to solve bite-sized real engineering problems. Students will engage in teamwork, and be exposed to clinical settings to learn how to identify clinical needs.",
         "spring1":1,
         "fall1":1,
@@ -53,6 +57,7 @@
         "Credits":3.0,
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Technology used by current medical practice, focusing on weekly topics associated with a specific disease state.  Technology used to diagnose and treat these disease states will be rigorously examined. Weekly topics will include: cancer, cardiovascular disease, Alzheimer's, obesity, diabetes, osteoporosis, osteoarthritis, and organ transplant. Key disease states will be presented in physiological and cellular depth. This course may not be taken for major credit.",
         "spring1":1,
         "fall1":1,
@@ -69,6 +74,7 @@
             ]
         ],
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Students will learn an array of biostatistical techniques to correctly describe and analyze experimental data. The emphasis will be on how to select and apply statistical methods for common statistical tasks encountered in biomedical engineering, rather than on the math underlying individual methods. Statistical software will be heavily used for active learning. Not for credit in addition to AMS 102, 110, POL 201, PSY 201 and SOC 202.",
         "spring1":1,
         "fall1":1,
@@ -81,11 +87,15 @@
         "Credits":3.0,
         "Prerequisites":[
             [
-                "BME100",
-                "BIO202"
+                "BME100"
             ]
         ],
         "Antirequisites":"NONE",
+        "Corequisites":[
+            [
+                "BIO202"
+            ]
+        ],
         "Description":"Introduction to data collection and analysis in the context of biophysical measurements commonly used by bioengineers. Statistical measures, hypothesis testing, linear regression, and analysis of variance are introduced in an application-oriented manner. Data collection methods using various instruments, A\/D boards, and PCs as well as LabView, a powerful data collection computer package. This course has an associated fee. Please see www.stonybrook.edu\/coursefees for more information.",
         "spring1":1,
         "fall1":1,
@@ -108,6 +118,7 @@
             ]
         ],
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Fundamentals of engineering statics and dynamics on biological systems will be covered using vector methods. Covered topics will include free body diagrams, equilibrium of systems, rectilinear kinetics and kinematics, angular kinetics and kinematics, work, energy and momentum of biological systems. In parallel, the necessary anatomy and physiology of the organ systems including the musculoskeletal system, the nervous system and the cardiovascular system will be covered. This material will lead to a discussion on kinesiology.",
         "spring1":1,
         "fall1":1,
@@ -130,6 +141,7 @@
             ]
         ],
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"As an introductory course to circuit design, we begin with fundamental theory of circuit analysis, including lumped time-invariant models of resistors, capacitors, inductors, Ohm's Law, Kirchoff's Laws, nodal and mesh analysis techniques, two-port equivalent circuits, and steady-state AC circuits. The applications of basic circuit analysis techniques in biomedical instrumentation and biological circuitry will be discussed throughout the entire class. In the final part of the course, the principles of cell electrophysiology, bio-potentials and electrical interactions with tissue will be studied. Not for credit in addition to ESE 271.",
         "spring1":1,
         "fall1":1,
@@ -146,6 +158,7 @@
             ]
         ],
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"See Requirements for the Major in Biomedical Engineering, Upper-Division Writing Requirement.",
         "spring1":1,
         "fall1":1,
@@ -165,11 +178,15 @@
                 "ESE271"
             ],
             [
-                "BIO202",
-                "BME212"
+                "BIO202"
             ]
         ],
         "Antirequisites":"NONE",
+        "Corequisites":[
+            [
+                "BME212"
+            ]
+        ],
         "Description":"In this course, we will study how electrical signals are generated and propagated in biological tissue. From the basics of Ohm's Law, as well as the laws that govern diffusion and electric field theory, we will develop mathematical models of bioelectric processes as well as perform simulations of these processes using Matlab. Understanding these signals at the cell and membrane level will provide a foundation for understanding proper nerve, cardiac and muscle function, as well as disease conditions. Using this understanding, we will examine state-of-the-art applications in current literature.",
         "spring1":1,
         "fall1":1,
@@ -183,11 +200,15 @@
         "Prerequisites":[
             [
                 "BME260",
-                "MEC260",
-                "BIO202"
+                "MEC260"
             ]
         ],
         "Antirequisites":"NONE",
+        "Corequisites":[
+            [
+                "BIO202"
+            ]
+        ],
         "Description":"Illuminates the principles of mechanics and dynamics that apply to living organisms, from cells to humans to Sequoia trees. The behavior of organisms is examined to observe how they are constrained by the physical properties of biological materials.  Locomotion strategies (or the lack thereof) are investigated for the forces and range of motions required and energy expenditures. Includes the relationship between form and function to illustrate how form dominates behavior. Presents the physiological  effects of mechanical stresses on organs, pathologies that develop from abnormal stress, and how biological growth and adaptation arise as a natural response to the mechanics of living.",
         "spring1":1,
         "fall1":1,
@@ -207,6 +228,7 @@
             ]
         ],
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"An introduction to the realm of molecular bioengineering with a focus on genetic engineering. Includes the structure and function of DNA, the flow of genetic information in a cell, genetic mechanisms, the methodology involved in recombinant DNA technology and its application in society in terms of cloning and genetic modification of plants and animals (transgenics), biotechnology (pharmaceutics, genomics), bioprocessing (production and process engineering focusing on the production of genetically engineered products.), and gene therapy. Production factors such as time, rate, cost, efficiency, safety, and desired product quality are also covered.  Considers societal issues involving ethical and moral considerations, consequences of regulation, as well as risks and benefits of genetic engineering.",
         "spring1":1,
         "fall1":1,
@@ -230,15 +252,21 @@
             ],
             [
                 "BME260",
-                "MEC260",
-                "MEC262",
+                "MEC260"
+            ],
+            [
+                "MEC262"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Corequisites":[
+            [
                 "BIO202"
             ],
             [
                 "BME212"
             ]
         ],
-        "Antirequisites":"NONE",
         "Description":"The fundamentals of heat transfer, mass transfer, and fluid mechanics in the context of physiological systems. Techniques for formulating and solving biofluid and mass transfer problems with emphasis on the special features and the different scales encountered in physiological systems, from the organ and the tissue level down to the molecular transport level.",
         "spring1":1,
         "fall1":1,
@@ -255,6 +283,7 @@
             ]
         ],
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"The course will introduce fundamental concepts of tissue optics and ultrasound, light\/ultrasound tissue interaction, and optical\/ultrasound instrumentation, as well as current preclinical and clinical applications of light and ultrasound for diagnosis and therapy in biomedicine.",
         "spring1":1,
         "fall1":1,
@@ -271,6 +300,7 @@
             ]
         ],
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"This course will cover the fundamentals of modern imaging technologies, including techniques and applications within medicine and biomedical research.  The course will also introduce concepts in molecular imaging with the emphasis on the relations between imaging technologies and the design of target specific probes as well as unique challenges in the design of probes of each modality:  specificity, delivery, and amplification strategies.  The course includes visits to clinical sites.",
         "spring1":1,
         "fall1":1,
@@ -283,6 +313,7 @@
         "Credits":3.0,
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"LabVIEW is the leading software development platform that enables engineers and scientists to create and deploy powerful measurement and control applications and prototypes with minimal time. This course will systematically teach LabVIEW programming with the focus on the data flow model. The highlighted course topics are basic programming logics, graphic user interface design and parallel programming. It will also teach hardware integration using LabVIEW built-in functions for data acquisition, instrument control, measurement analysis and data presentation. Hands-on projects and demonstrations will be implemented throughout the course to enhance the knowledge learned in classroom. At the end of the course, students will be offered the free exam for Certified LabVIEW Associated Developer provided by National Instruments for future career development.",
         "spring1":1,
         "fall1":1,
@@ -300,6 +331,7 @@
             ]
         ],
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"The course content is directed to the basic concept of biomedical instrumentation and medical device. Main focus is on the application of the latest computer technology in bioinstrumentation. The course covers the topics such as basic sensors in biomedical engineering, biological signal measurement and conditioning, data acquisition and data analysis. In addition, the course will teach in detail the LabVIEW programming, a graphics tool for virtual instrumentation. The students will learn the techniques of collecting biological signals using basic sensors, and acquisition and analysis of biological signals using software and data acquisition hardware. The students will gain the hands-on experience in design of medical devices. This course will help students to develop skills to build instrumentation for laboratory research and prototyping medical devices.",
         "spring1":1,
         "fall1":1,
@@ -312,10 +344,14 @@
         "Credits":3.0,
         "Prerequisites":[
             [
+                "BME100"
+            ],
+            [
                 "BME212"
             ]
         ],
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"This course provides an introduction to materials, including metals, ceramics, polymers, composites, coatings, and adhesives that are used in the human body. It emphasizes the physiochemical properties of materials that are considered important to meet the criteria specified for the implant and device applications (e.g. strength, modulus, fatigue and corrosion resistance, conductivity), and to be compatible with the biological environment (e.g. nontoxic, noncarcinogenic, etc.). Not for credit in addition to CME 371\/ESM 453 or BME 504.",
         "spring1":1,
         "fall1":1,
@@ -333,6 +369,7 @@
             ]
         ],
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"This course is an overview of the applications of biomaterials. Here the emphasis is on the unique challenges in the design, fabrication, and evaluation of biomaterials for a particular application\/field. Since biomaterials applications entail their direct or indirect contact with humans, the various practical aspects associated with biomaterials such as sterilization, packaging, evaluating device failures as well as regulatory guidelines will be covered.",
         "spring1":1,
         "fall1":1,
@@ -345,13 +382,16 @@
         "Credits":3.0,
         "Prerequisites":[
             [
-                "BME120",
+                "BME120"
+            ],
+            [
                 "MAT125",
                 "AMS151",
                 "MAT131"
             ]
         ],
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"This course will introduce the basics of Python programming and how to address real-world data analysis challenges by programming. It provides an overview of standard library and coding techniques with functions, loops, classes and objectives, strings, lists, tuples, and also introduces a few advanced packages to process biomedical data and images. Students will learn this object-oriented programming language to address practical problems in the class. Both lectures and laboratories are provided for this course.",
         "spring1":1,
         "fall1":1,
@@ -368,6 +408,7 @@
             ]
         ],
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"This one semester course will outline theory and applications of special fluid handling conditions associated with living systems.  Microfluids will be examined with respect to aquaporin channels (single file molecular water movement), intercellular fluid transport mechanisms, microvascular convective fluid movement (2 phase flow), and transvascular fluid movement (3 pore theory) with reference to the similarity of each to flow in fabricated microchannels.",
         "spring1":1,
         "fall1":1,
@@ -383,11 +424,15 @@
                 "CHE132"
             ],
             [
-                "BME100",
-                "BIO202"
+                "BME100"
             ]
         ],
         "Antirequisites":"NONE",
+        "Corequisites":[
+            [
+                "BIO202"
+            ]
+        ],
         "Description":"Theory and applications of nanofabrication.  Reviews aspects of nanomachines in nature with special attention to the role of self-lubrication, intracellular or interstitial viscosity, and protein-guided adhesion.  Discusses current nanofabricated machines to perform the same tasks and considers the problems of lubrication, compliance, and adhesion.   Self-assembly mechanisms of nanofabrication with emphasis on cutting-edge discovery to overcome current challenges associated with nanofabricated machines.",
         "spring1":1,
         "fall1":1,
@@ -404,6 +449,7 @@
             ]
         ],
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"This course will provide an introduction into the realm of modern biotechnology and its applications.  This course introduces the historical development of biotechnology and its contemporary applications, including, bioproducts and biofuels, microbial fermentation\/bioprocessing, aerobic bioreactors, modeling and simulation, metabolism and enzyme kinetics, metabolic engineering, bioremediation and environmental sustainability and human medicine.  Further, societal issues involving ethical and moral implications, perceptions and fears, intellectual property, safety, risks and regulatory issues, as well as economics of biotechnology will be discussed.",
         "spring1":1,
         "fall1":1,
@@ -424,6 +470,7 @@
             ]
         ],
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Topics covered are: developmental biology (nature's tissue engineering), mechanisms of cel-cell and cell-matrix interactions, biomaterial formulation, characterization of biomaterial properties, evaluation of cell interactions with biomaterials, principles of designing an engineered tissue. Considers manufacturing parameters such as time, rate, cost, efficiency, safety and desired product quality as well as regulatory issues.",
         "spring1":1,
         "fall1":1,
@@ -440,6 +487,7 @@
             ]
         ],
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Introduces the concepts of skeletal biology; mechanics of bone, ligament, and tendon; and linear and nonlinear\nproperties of biological tissues. Principles of finite differences method (FDM) and finite elements method (FEM) to solve biological problems. Both FDM and FEM are applied to solve equations and problems in solid and porous media. Requires knowledge of Fortran or C programming.",
         "spring1":1,
         "fall1":1,
@@ -452,13 +500,16 @@
         "Credits":3.0,
         "Prerequisites":[
             [
-                "BIO202",
+                "BIO202"
+            ],
+            [
                 "AMS261",
                 "MAT203",
                 "MAT205"
             ]
         ],
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"This course will provide an introduction to the study of quantitative physiology. This course will introduce the physical, chemical and mathematical foundation of physiology. That knowledge will then be applied to membranes, transport, metabolisms, excitable cells and various organ systems.",
         "spring1":1,
         "fall1":1,
@@ -475,6 +526,7 @@
             ]
         ],
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Introduction to product development from the perspective of solving biomedical, biotechnological, environmental, and ergonomic problems incorporating appropriate engineering standards and multiple realistic constraints. Teamwork in design, establishing customer needs, writing specifications, and legal and financial issues are covered in the context of design as a decision-based process.  A semester-long team design project follows and provides the opportunity to apply concepts covered in class.",
         "spring1":1,
         "fall1":1,
@@ -491,6 +543,7 @@
             ]
         ],
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Formulation of optimal design problems in biomedical and physiological settings. Introduces optimization techniques for engineering design and modeling for compact and rapid optimization of realistic biomedical engineering problems. Necessary conditions for constrained local optimum with special consideration for the multiple realistic constraints in which the product designed should function in terms of the settings (corporal, ex-corporal, biological, etc.), the engineering standards, and the safety considerations involved which are unique to biomedical engineering. Students carry out the detailed design of projects chosen early in the semester. A final design report is required. This course has an associated fee. Please see www.stonybrook.edu\/coursefees for more information.",
         "spring1":1,
         "fall1":1,
@@ -507,6 +560,7 @@
             ]
         ],
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"This course is designed for students who engage in a substantial, structured experiential learning activity in conjunction with another class. Experiential learning occurs when knowledge acquired through formal learning and past experience are applied to a \"real-world\" setting or problem to create new knowledge through a process of reflection, critical analysis, feedback and synthesis. Beyond-the-classroom experiences that support experiential learning may include: service learning, mentored research, field work, or an internship.",
         "spring1":1,
         "fall1":1,
@@ -523,6 +577,7 @@
             ]
         ],
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Fundamentals of the linear time series analyses framework for modeling and mining biological data. Applications range from cardiorespiratory; renal blood pressure, flow, and sequence; to gene expression data.  Tools of data analysis include Laplace and Z transforms, convolution, correlation, Fourier transform, transfer function, coherence function, various filtering techniques, and time-invariant and time-varying spectral techniques.",
         "spring1":1,
         "fall1":1,
@@ -535,6 +590,7 @@
         "Credits":3.0,
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Students assist the faculty in teaching by conducting recitation or laboratory sections that supplement a lecture course. The student receives regularly scheduled supervision by the faculty instructor. May be used as an open elective and repeated once.",
         "spring1":1,
         "fall1":1,
@@ -547,6 +603,7 @@
         "Credits":3.0,
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Students assist the faculty in teaching and learn independent teaching skills while observed by the instructor. May be used as an open elective.",
         "spring1":1,
         "fall1":1,
@@ -567,6 +624,7 @@
             ]
         ],
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"A comprehensive introduction to the basic features of biosensors. Discusses types of most common biological agents (e.g. chromophores, fluorescence dyes) and the ways in which they can be connected to a variety of transducers to create complete biosensors for biomedical applications. Focus on optical biosensors and systems (e.g. fluorescence spectroscopy, microscopy), and fiberoptically-based biosensing techniques .  New technologies such as molecular beacons, Q-dots, bioMEMs, confocal microscopy and multiphoton microscopy, and OCT will be referenced.",
         "spring1":1,
         "fall1":1,
@@ -583,6 +641,7 @@
             ]
         ],
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Participation in off-campus biomedical engineering practice. Students are required to submit a proposal to the undergraduate program director at the time of registration that includes the location, immediate supervisor, nature of the project, and hours per week for the project. One mid-semester report and one end of semester report are required. May be repeated up to a limit of 12 credits.",
         "spring1":1,
         "fall1":1,
@@ -595,6 +654,7 @@
         "Credits":1.0,
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"The course outlines components of biomedical research vs design that includes experimental design, data recording, analysis and presentation at scientific meetings, as well as engineering design schematics, patents, and presentations to angel investors. The course culminates with an Honors Thesis Proposal that follows either a research (hypothesis testing) or design (prototype construction) pathway.",
         "spring1":1,
         "fall1":1,
@@ -611,6 +671,7 @@
             ]
         ],
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"The course involves research (hypothesis testing) or engineering design (prototype construction) that the student completes under the supervision of the faculty member. The course culminates with an Honors Thesis draft (Fall semester) or Honors Thesis that is orally defended (Spring semester). Both BME 494 and BME 495 must be taken to qualify to graduate with Honors in BME.",
         "spring1":1,
         "fall1":1,
@@ -623,6 +684,7 @@
         "Credits":"0.00 - 3.00",
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"An independent research project with faculty supervision.",
         "spring1":1,
         "fall1":1,
@@ -635,6 +697,7 @@
         "Credits":3.0,
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Course content is directed toward describing the physico-chemical and biological interactions within cells, and between cells and their environment. The course has two main objectives: 1) to equip students with essential knowledge and stimulate intuitive understanding of molecular and cell biology; 2) to introduce and develop common engineering concepts and approaches for quantitative analysis of physical-chemical systems in context of cell biology. The long-term goal is to help apply their knowledge of molecular and cellular phenomena and the analytical techniques learned in this course to design and development of products and processed for improving help and\/or medical care. Therefore, a major component of this course will be an individual project requiring the development of a patent for a biomedical device or process, which relies on one or more of the biological (cell and molecular level) and engineering principles covered in class.\nFall, 3 credits, ABCF grading",
         "spring1":1,
         "fall1":1,
@@ -647,6 +710,7 @@
         "Credits":3.0,
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Numerical analyses of Biological Data.  A unified mathematical\/time series framework for modeling and mining biological data.  Applications range from cardio-respiratory, renal blood pressure\/flow and sequence (DNA,RNA, proteins) to gene expression data.  Tools of data analysis include linear algebra, interpolation and extrapolation, parametric and nonparametric spectral estimation with the FFT and singular value decomposition, statistical description of data and integration of ordinary differential equations.  Special focus will be placed on the use of linear and nonlinear numerical methods for the identification of physiological system dynamics and the development of computer simulation techniques to study dynamic response of physiological systems. Cannot be repeated for credit.\nSpring, Every Year, 3 Credits, ABCF Grading",
         "spring1":1,
         "fall1":1,
@@ -659,6 +723,7 @@
         "Credits":3.0,
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"This course will cover basics of optics, microscopy, spectroscopy and fluorescence in the context of imaging at the cellular and molecular level.  Recently developed advanced imaging techniques for probing protein interactions and live cell functions are also discussed.  The course is organized in 3 modules:\n     1.   Optics and Spectroscopy (e.g., Properties of light, polarization, diffraction, spectra)\n     2.   Fundamentals of Fluorescence and Applications to Molecular and Cellular Measurements (e.g., Jablonsky diagram,\n           Stokes' shift, emission, excitation spectra, fluorescence anisotropy)\n     3.   Signal Processing, Image Analysis Techniques and Scientific Visualization (e.g., temporal and spatial filters, 1D and 2D\n           Fast Fourier transform, spectral analysis, cross-correlation).\nTheory will be complemented by extensive use of Matlab and its Image Processing Toolbox.\nFall",
         "spring1":1,
         "fall1":1,
@@ -671,6 +736,7 @@
         "Credits":3.0,
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Course content is directed toward providing an introductory treatment of the engineering issues implicit in understanding living tissue interactions with processed materials. Emphasis on identifying and eliminating surface contamination, corrosion, and optimizing material surface properties and compatibility.\nSpring,",
         "spring1":1,
         "fall1":1,
@@ -683,6 +749,7 @@
         "Credits":1.0,
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Introduces first year students to the basic and clinical research at the cutting edge of biomedical engineering. The course has two key components: the first is a seminar series presented by internationally renowned bioengineers. An interactive discussion of topic-specific scientific literature precedes the formal presentation. The second component of the course is teaming up with a physician, in rounds, the operating theater, clinics, etc., to get exposure to the real-life problems which face the medical community. It is hoped that the mix of science and clinic will move students towards determining how they can make contributions to health and society.\n2 Credits, ABCF Grading",
         "spring1":1,
         "fall1":1,
@@ -695,6 +762,7 @@
         "Credits":3.0,
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Course content revolves around the effects and interactions of mechanical forces at the cellular and molecular level.  The topics range from describing the molecular and cellular basis of the adaptation of tissues to physical signals, to prescribing specific mechanical environments for improved tissue engineering, to delineating relevant molecular, cellular, and biomechanical techniques, to issues involved in the development and approval of diagnostics and therapeutics in molecular engineering.  Course format is based on lectures and discussion of the current literature. For a deeper understanding of the scientific literature, this course will contain a module on the design and analysis of experiments (i.e., applied biostatistics).  \n\nFall and Spring, 3 credits, Letter graded (A, A-, B+, etc.)\nMay be repeated 2 times FOR credit.",
         "spring1":1,
         "fall1":1,
@@ -707,6 +775,7 @@
         "Credits":3.0,
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"A 4-module course set up to provide students with a comprehensive introduction to the complexities of the bioscience business environment.\nPrerequisite: Must be either a BME or MBA graduate student (West Campus).  All other students must obtain permission from the instructor.\nSpring, every year,",
         "spring1":1,
         "fall1":1,
@@ -719,6 +788,7 @@
         "Credits":3.0,
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"This course emphasizes the application of continuum mechanics to living tissues and organs in order to describe the material properties and their behavior under loading and stress. The interrelationship between biomechanics and physiology is examined in normal function and in disease processes. This course focuses on the physiology of tissue and organ systems in the context of mechanics, stress, strain, viscoelasticity and material behavior, and the constitutive equations and the field equations governing fluids and fluid flow, with an emphasis on the cardiovascular and musculoskeletal systems. Emphasis is placed on the utilization of engineering principles to analyze processes at the tissue and organ levels, covering soft and hard tissues and organs (blood, cardiovascular system, bone, cartilage, etc.) and to understand how these principles could be applied towards the design and development of prosthetic devices.\n(Fall Term, Three Credits).",
         "spring1":1,
         "fall1":1,
@@ -731,6 +801,7 @@
         "Credits":3.0,
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"This course will provide students with a comprehensive introduction to the bioscience business environment by examining the commercialization process \u00bf how an idea becomes a product. This includes evolving business models, product development cycles, regulatory issues, finance, managerial challenges and future trends in the life sciences. Special focus will be placed on preparing students to translate concepts presented in the course into commercial analysis of a technology. Must be either BME or MBA Graduate Student (West Campus)",
         "spring1":1,
         "fall1":1,
@@ -741,12 +812,9 @@
         "CourseTitle":"Fundamentals of the Bioscience Industry",
         "Career":"Graduate",
         "Credits":3.0,
-        "Prerequisites":[
-            [
-                "BME511"
-            ]
-        ],
+        "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"This course will build on topics presented in BME-511: Fundamentals of the Bioscience Industry Program, and is a pre- or co-requisite for enrollment. Students will work through modules addressing each component of the commercialization process including intellectual property strategy, market analysis and opportunity, regulatory pathway and technology financing. Students will work in groups to develop commercialization reports based on real intellectual property disclosures, preforming due diligence to identify areas of opportunity and challenges of their technologies. Based upon the commercialization report, students\u00bf groups will create a hypothetical company, and evolve their technology analyses into investor-like presentations delivered at a mock pitch session at the end of the term.",
         "spring1":1,
         "fall1":1,
@@ -759,6 +827,7 @@
         "Credits":3.0,
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"This course provides the foundations for advanced topics in modern optical imaging techniques,\nincluding nonlinear optics, Fourier optics, ultrafast time-domain and terahertz spectroscopy and\nimaging. The emphasis will be on connecting theory to modern technological advancements\nand their biomedical applications. The course consists of the following four general modules:\nReview of fundamental Optics; Nonlinear Optics; Fourier Optics; Ultrafast and Terahertz Optics",
         "spring1":1,
         "fall1":1,
@@ -771,6 +840,7 @@
         "Credits":3.0,
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"An introduction to the principles and applications of biomedical optical imaging, with an emphasis on high-resolution imaging and spectroscopy. This course provides a conceptual overview, along with basic mathematical theory (assignments), of some of the key concepts that are relevant to biomedical optical imaging, including Gaussian beams, refraction, total internal\nreflection, dispersion, coherence, interference, diffraction, and aberrations. Fundamental concepts in tissue optics will be introduced, including scattering in the ballistic and diffuse regimes. Some of the basic photophysics of absorption, fluorescence, and Raman spectroscopy will be discussed. Students will research and present on various techniques such\nas interferometry (optical coherence tomography), optical-sectioning microscopy (confocal and multiphoton), light-scattering spectroscopy (LSS, CLASS), and super-resolution microscopy (PALM, STORM, SIM, and STED). Finally, a brief survey of optical molecular imaging will be\nprovided, including contrast agent design, delivery issues, and imaging techniques.",
         "spring1":1,
         "fall1":1,
@@ -783,6 +853,7 @@
         "Credits":3.0,
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"This graduate offering provides an initial physical background required for the study of the Medical Physics. Sources of ionizing radiation including radioactivity (natural and manmade) and x-ray producing devices are studied as well as sources of nonionizing radiation such as radiofrequency and ultrasound. The physical aspects of these radiations are characterized by their interaction with matter and methods for their detection. Each student will select and present a proposal for solving a clinical medical physics problem.\nPrerequisites: Modern Physics or equivalent\nFall,",
         "spring1":1,
         "fall1":1,
@@ -795,6 +866,7 @@
         "Credits":3.0,
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"The biological consequences of irradiation (ionizing, ultrasound, laser, RF, etc.) will be examined. Interaction mechanisms will first be examined followed by examination of the radiation impact at the molecular and cellular level. The use of radiation for therapeutic gain will be considered. As well, models will be developed for risk estimates. Topics to be covered will include: target theory, biological response, NSD and risk estimates.\nSpring,",
         "spring1":1,
         "fall1":1,
@@ -807,6 +879,7 @@
         "Credits":3.0,
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"This course discusses the health physics and safety issues associated with radiological devices, facilities and procedures.\nPrerequisite: BME 517.\nSpring,",
         "spring1":1,
         "fall1":1,
@@ -819,6 +892,7 @@
         "Credits":"1.00 - 3.00",
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"",
         "spring1":1,
         "fall1":1,
@@ -831,6 +905,7 @@
         "Credits":"1.00 - 3.00",
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"",
         "spring1":1,
         "fall1":1,
@@ -843,6 +918,7 @@
         "Credits":3.0,
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"The course will emphasize diverse pathways from laboratory discoveries to product\ncommercialization in Tissue Engineering and Regenerative Medicine (TERM). Depending on the field of discovery, pathways can be quite dissimilar, e.g. devices, biologics, drugs, or combination products. The foundational sciences include: biomaterials, biological processes including cell biology and physiology, genomics, proteomics, metabolomics, stem cell differentiation, growth factors, and tissue\/organ development. An overarching core principle is\nengineering design. The course will be divided into 3 modules: Discovery and validation, Transition from laboratory prototype to fixed prototype, Progression through clinical trials. Although scale-up manufacturing and commercialization will be discussed, these final steps to the market-place will not be covered in detail. Students will work in teams. Each team will\nselect a TERM project with a specific type of bench to bedside pathway (team size will depend on the class size). However, other BME areas may be included, e.g. microelectron-mechanical systems (MEMS), can be designed to stimulate muscle, thus avoid atrophy while awaiting a TERM construct. For such projects, the team should choose an appropriate BME faculty advisor to guide them. Reading material and writing\/speaking assignments will be the basis for in-class\ndiscussions with embellishment of specific engineering or scientific principles.",
         "spring1":1,
         "fall1":1,
@@ -855,6 +931,7 @@
         "Credits":3.0,
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"This course is a hands-on study of systems engineering in biology, using computer modeling to conceptualize and simulate a wide variety of applications.  All skills taught in class. Appropriate and applicable to all BME tracks. May not be repeated for credit.\nFall, Spring , 3 Credits ABCF Grading",
         "spring1":1,
         "fall1":1,
@@ -867,6 +944,7 @@
         "Credits":3.0,
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"This course covers the physical aspects of medical image formation. Image receptor design\/optimization, reconstruction techniques, device hardware and performance characteristics are considered.\nFall,",
         "spring1":1,
         "fall1":1,
@@ -879,6 +957,7 @@
         "Credits":3.0,
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Basic concepts of biosensing and bioimaging, which include the elements of biological systems and bioimmobilizers, traditional electrode and novel optical transducers, and advanced biomedical optical imaging systems.\nFall,",
         "spring1":1,
         "fall1":1,
@@ -891,6 +970,7 @@
         "Credits":3.0,
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"A unified mathematical\/time series framework for modeling and mining biological data.  Applications range from cardio-respiratory, renal blood pressure\/flow and sequence (DNA, RNA, proteins) to gene expression data.  Tools of analysis include neural networks, time-invariant and time-varying spectral methods, fractal and nonlinear dynamics techniques, hidden Markov Model, clustering analysis, and various system identification techniques.\nSpring,",
         "spring1":1,
         "fall1":1,
@@ -903,6 +983,7 @@
         "Credits":"3.00 - 4.00",
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"The overall objective is to introduce conceptual, mathematical, and\ncomputational implementational aspects of analyzing biomedical signals and image\nprocessing, including real data with preclinical and clinical applications based on the recently developing neurophotonics and optical neuroimaging field. Programming examples using MATLAB will be presented. The students will also be introduced to GUIbased Virtual Photonics and Virtual Tissue Simulator. Practical and recent studies with current state-of-the-art imaging technologies in the field are also discussed. The course involves traditional-style lectures, small lab experiments to apply the basic concepts, an imaging facility tour, and a concise final paper\/grant writeup and presentation on the subject of the student's choice in accordance with the instructor.",
         "spring1":1,
         "fall1":1,
@@ -915,6 +996,7 @@
         "Credits":3.0,
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Course provides foundation in concepts of functional genomics and proteomics. Topics include organization and complexity of the mammalian genome and mechanisms of expression of genes, gene expression analysis technologies with a strong focus on construction and utilization of DNA microarrays, and tools for determining gene function by perturbation of gene expression.\nSpring,",
         "spring1":1,
         "fall1":1,
@@ -927,6 +1009,7 @@
         "Credits":3.0,
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"This course provides a background in therapeutic instrumentation, dosimetry and treatment planning.\nPrerequisite: BME 517\nFall,",
         "spring1":1,
         "fall1":1,
@@ -939,6 +1022,7 @@
         "Credits":1.0,
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Statistical methods useful in analyzing common types of physiological data. Topics include probability, data distributions, hypothesis testing, with parametric and non-parametric methods, ANOVA, regression and correlation and power analysis. Emphasis is on experimental design and appropriate, efficient use of statistical software.\nPermission is required.",
         "spring1":1,
         "fall1":1,
@@ -951,6 +1035,7 @@
         "Credits":1.0,
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"The analysis of common biochemical and physiological data by non-linear regression of data models and biophysical models of physiological and biochemical processes. Examples include binding kinetics, compartmental mass transfer and spectral analysis.\nPermission is required.",
         "spring1":1,
         "fall1":1,
@@ -963,6 +1048,7 @@
         "Credits":1.0,
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"The acquisition and analysis of data-arising from common biochemical and physiological measurements. Topics include computer-based data acquisition and processing, densitometry, microscopy, and image analysis and processing. Emphasis is on experimental design and strategies for optimizing signal to noise ratio of measurements.",
         "spring1":1,
         "fall1":1,
@@ -975,6 +1061,7 @@
         "Credits":1.0,
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"A series of lectures and laboratory exercises designed to introduce students to invitro experimental techniques used in systems physiology. Emphasis will be placed on the ethical use of rodents in biomedical research and the measurement of physiological variables. Data acquisition and analysis procedures used in cardio-vascular, respiratory, neural and renal physiology will also be covered.\nPermission is required.",
         "spring1":1,
         "fall1":1,
@@ -987,6 +1074,7 @@
         "Credits":3.0,
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"An introduction to mathematical modeling of cell and tissue function. Topics include the derivation and numerical solution of models of cell homeostasis, membrane transport and excitability, and cell signaling and metabolism. Grading is based on problems, student presentation, and completion of a modeling project.\nPermission is required.",
         "spring1":1,
         "fall1":1,
@@ -999,6 +1087,7 @@
         "Credits":3.0,
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"\u00bf\u00bfThis is a course on the principles of physical chemistry. We describe the nature of the forces and energies and entropies that drive molecular systems toward their states of equilibrium. We consider a broad range of applications throughout chemistry, biology, materials engineering and nanoscience. This course aims to give students an understanding of how the actions and behaviors of materials arise from their atomic and molecular structures. Co-listed with PHY 558 and CHE 558.",
         "spring1":1,
         "fall1":1,
@@ -1011,6 +1100,7 @@
         "Credits":3.0,
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"This course will outline theory and applications of special fluid handling conditions associated with living systems. Fall,\nThis course will be co-scheduled with BME 371",
         "spring1":1,
         "fall1":1,
@@ -1021,13 +1111,9 @@
         "CourseTitle":"Biomolecular Analysis",
         "Career":"Graduate",
         "Credits":3.0,
-        "Prerequisites":[
-            [
-                "BME501",
-                "BME502"
-            ]
-        ],
+        "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"This interdisciplinary course is intended for graduate students and advanced undergraduates in departments such as Biomedical Engineering, Chemistry, Physics, Biology and Chemical Engineering. This course will give an introduction to single molecule experiments using fluorescence, optical traps, AFM cantilevers, microneedles, magnetic microbeads as well as micro and nanofluidic devices.\nPrerequisites: BME 501 and 502, or instructor approval.\nFall,",
         "spring1":1,
         "fall1":1,
@@ -1040,6 +1126,7 @@
         "Credits":3.0,
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"iPhone Programming for Medical Applications.",
         "spring1":1,
         "fall1":1,
@@ -1050,12 +1137,9 @@
         "CourseTitle":"Machine Learning and Artificial Intelligence for Biomedical Engineering",
         "Career":"Graduate",
         "Credits":3.0,
-        "Prerequisites":[
-            [
-                "BME502"
-            ]
-        ],
+        "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"This course introduces students to machine learning and artificial intelligence methods applied to Biomedical Engineering problems. We will cover singular-value decomposition (SVD), and principal components analysis (PCA), Fourier and Wavelet Transforms, Regression and Model Selection, Clustering and Classification, Deep Learning using Neural Networks, and Scientific Machine Learning. Course emphasis will be placed on the concepts and implementation of machine learning and AI methods as implemented in the Julia programming language. The final project will teach the students how to apply the various methods learned and practiced in the class to tackle real-world complex BME challenges.",
         "spring1":1,
         "fall1":1,
@@ -1068,6 +1152,7 @@
         "Credits":3.0,
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"This one-semester, three section course, serves as an introduction to the applications of nanofabrication to various fields of importance to biomedical engineering. This will be done by a combination of examining how nature has accomplished nano-scale feats, how we can measure this, and whether we can duplicate nature\u00bfs functions in vitro. A significant portion of the course includes technical communications, in the form of a written report and oral lecture component to class.",
         "spring1":1,
         "fall1":1,
@@ -1080,6 +1165,7 @@
         "Credits":"0.00 - 1.00",
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"A weekly meeting devoted to current graduate student work in the program in Biomedical Engineering. Enrolled students present seminar each week throughout the semester, participate in seminars and responsible conduct of research training.",
         "spring1":1,
         "fall1":1,
@@ -1092,6 +1178,7 @@
         "Credits":"1.00 - 6.00",
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"This course is taken M.S. students who select MS Project track.  Conducted jointly by graduate students and one or more members of the faculty.  A final project report must be submitted to the advisor as well as to the Graduate Program Director.  Without the submitted report, credits from this course cannot be applied toward the MS degree.",
         "spring1":1,
         "fall1":1,
@@ -1104,6 +1191,7 @@
         "Credits":"1.00 - 9.00",
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Research to be supported by a faculty member of the Department of Biomedical Engineering. Students must have permission of instructor to enroll in appropriate section. Faculty to be identified by the student.\nFall and Spring,",
         "spring1":1,
         "fall1":1,
@@ -1116,6 +1204,7 @@
         "Credits":3.0,
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"The course will cover the application of fluid mechanics principles to the analysis of blood flow in the cardiovascular system under normal and pathological conditions.  It will follow an historical time line by beginning with the most basic models of arterial blood flow, and proceed to the most advanced theories related to physiology and pathology flow phenomena, including an examination of the most up to date research in the area and the development of devices and implants.\nSpring, alternate years,",
         "spring1":1,
         "fall1":1,
@@ -1128,6 +1217,7 @@
         "Credits":3.0,
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"This is a project based course which includes weekly seminars discussing advanced topics in fuzzy logic and neural networks and their applications, in biomedical devices.  Applications include drug delivery, diagnostics, management information handling.  Students utilize simulation software to develop algorithms to deal successfully with training data sets of their own choosing.\nFall, alternate years,",
         "spring1":1,
         "fall1":1,
@@ -1140,6 +1230,7 @@
         "Credits":3.0,
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"This course is intended to provide a deep and rigorous understanding of human physiology using a quantitative approach. This course will develop the physical, chemical and mathematical foundation of physiology, which is then applied to membranes, transport, metabolisms, excitable cells and various organ systems. A major component of this course will be an individual project requiring mastery of concepts developed in class.",
         "spring1":1,
         "fall1":1,
@@ -1152,6 +1243,7 @@
         "Credits":3.0,
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Both finite difference and FEM are applied to solve the equations of incompressible and compressible fluid flow in porous media with emphasis on flows in skeletal tissues, i.e., bone and cartilage.  Steady-state, transient flow, permeability and surface boundary conditions are discussed.  Practical and recent studies in the field are also discussed.  Programming using FORTRAN or C languages will be required.  The student is also introduced to commercially available software packages.\nSpring, alternate years,\nThis course will be co-scheduled with BME420.",
         "spring1":1,
         "fall1":1,
@@ -1164,6 +1256,7 @@
         "Credits":3.0,
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Detailed study of the biomechanics of tactile neurophysiology for engineers entering the field of haptics and robotics manipulations.  Anatomy and electrophysiology of transducer cells and neurons starting at the fingertips and extending to the somatosensory cortex.  Characteristics of the external stimulus and its peripheral transformation.  Relations of these topics to perceptual and\/or behavioral responses.\nSpring, alternate years,",
         "spring1":1,
         "fall1":1,
@@ -1176,6 +1269,7 @@
         "Credits":3.0,
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"General discussion on the nature of biotechnology and its historical development, applications, impact, consequences, and some of the social and ethical considerations.\nCo-scheduled with BME 402\nOffered Fall, 3 Credits, ABCF Grading",
         "spring1":1,
         "fall1":1,
@@ -1188,6 +1282,7 @@
         "Credits":3.0,
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"This course provides a comprehensive study of magnetic resonance and its applications in medical imaging. An introduction of NMR is followed with development of the hardware and processing aspects required for MR image formation. An overview of basic and advanced MR imaging techniques is provided. Each student will select a topic in MR imaging for presentation at the conclusion of the course. \nFall,",
         "spring1":1,
         "fall1":1,
@@ -1200,6 +1295,7 @@
         "Credits":3.0,
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Positron emission tomography (PET) is a unique and powerful functional imaging method used in the clinic and in medical research.  It is a multidisciplinary endeavor involving the fields of chemistry, physics, mathematics and medicine.  This course addresses the disparate areas of science underlying PET imaging, including radioisotope production, radiotracer synthesis, the physics of the imaging process, quantitative data processing, image reconstruction approaches, data analysis, and tracer kinetic modeling to extract quantitative physiological parameters.  Radioactive validation and applications of PET will also be covered including the area of drug addiction.  There is a hands-on component in which students will visit an active PET research center and acquire and manipulate PET data.",
         "spring1":1,
         "fall1":1,
@@ -1212,6 +1308,7 @@
         "Credits":3.0,
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"This course provides a comprehensive study of the use of radiation in medicine. Physical aspects of the interaction of radiation with matter and for the radiation production are initially considered. The underlying principles of current radiation based medical imaging is considered next. Topics include radiography, fluoroscopy, radionuclide imaging and computed tomography. The use of radiation for the treatment of malignancy is considered with the focus on required technology. Finally advanced applications of radiation are considered with focus on imaging and treatment. Each student will select a topic examining the engineering or technical application of radiation in medicine for presentation at the conclusion of the course.\nSpring,",
         "spring1":1,
         "fall1":1,
@@ -1224,6 +1321,7 @@
         "Credits":4.0,
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"This course is designed to prepare the Medical Physics graduate student in the area of clinical Medical Imaging.  In this clinical rotation, medical physics methods for: planar film, DR, CR, mamography, fluoroscopy, CT, ultrasound and MRI performance evaluations will be introduced.  In addition, basic medical ethics, radiographic anatomy and radiation safety will be covered.  A total of 200 clinical hours will be completed in this program\nPrerequisites: BME 517; BME 518; BME 519; BME 530 or BME 540.\nFall, every year,",
         "spring1":1,
         "fall1":1,
@@ -1236,6 +1334,7 @@
         "Credits":4.0,
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"This course is designed to prepare the Medical Physics graduate student in the area of clinical Nuclear Medicine Imaging.  In this clinical rotation, the students will be exposed to radionuclide processes, radiopharmaceuticlas including radioactive gases and aerosols-prepartio, characteristics and radiation dosimetry, in vitro and in vivo radiation detection systems, imaging systems and their performance evaluations.  In addition, basic medical ethics, clinical interpretations and radiation safety will be covered.  A total of 150 clinical hours will be completed in this program.\nFall, every year,",
         "spring1":1,
         "fall1":1,
@@ -1248,6 +1347,7 @@
         "Credits":4.0,
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"This course is designed to prepare the Medical Physics graduate student in the area of clinical radiation oncology physics.  In this clinical rotation, the student will learn by observation and participation some of a selection of the following medical physics procedures:  LINAC Beam Dosimetry (ion chamber measurement techniques, film dosimetry (radiographic and radiochromic), diode dosimetry, TLD dosimetry, water phantom scanning), implementation of photon and electon beam calibration protocols (AAPM TG51), LINAC beam data measurement and tabulation, commissioning a TPS system, LINAC, acceptance testing, LINAC monthly QA, HDR QA and planning, and IMRT inverse planning and IMRT clinical QA.  A total of 120 clinical hours will be completed in this program.  Prerequisite:  BME 517 and BME 540 with a B+ or better.\nSpring, every year,",
         "spring1":1,
         "fall1":1,
@@ -1260,6 +1360,7 @@
         "Credits":4.0,
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"This course provides basic radiographic anatomy from both the projection and cross sectional point of view. This course also introduces basic disease processes including the nature and causes of disease and injury. The appearance of these diseases and injuries are examined on medical images acquired through all current methods: radiography, computed tomography, angiography, magnetic resonance, scintigraphy, positron emission tomography and  sonography. Details of cancer initiation, growth, staging and treatment are considered.\nPrerequisite: In Medical Physic Track",
         "spring1":1,
         "fall1":1,
@@ -1272,6 +1373,7 @@
         "Credits":4.0,
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"An extensive series of lectures, training sessions and laboratory activities sponsored by the NASA's Radiation Health Program in collaboration with BNL. The material is oriented to cover basic and state of the art concepts in space radiation environment, physics and radiobiology. Content includes basic concepts in physics, dosimetry, radiobiology, space radiation problems and accelerator operations. Concurrent sessions are provided to complete specific BNL training and plan and prepare experiments for low- and high-LET radiation exposures. Students are trained in NSRL operations and are able to run control experiments using gamma rays in preparation for NSRL runs, and subsequently experiments at the NSRL using heavy ions. Data are obtained from different endpoints are discussed and analyzed with the instructors. Homework are used to test the student's level of comprehension of the lectures and laboratory activities. The write up of a full BNL beam time request proposal is required of each student.",
         "spring1":1,
         "fall1":1,
@@ -1282,13 +1384,9 @@
         "CourseTitle":"Special Topics in Biomedical Engineering",
         "Career":"Graduate",
         "Credits":"0.00 - 3.00",
-        "Prerequisites":[
-            [
-                "BME511",
-                "BME509"
-            ]
-        ],
+        "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Varying topics covering current active research projects and professional development skills for Biomedical Engineers. This course is designed to give the necessary flexibility to students and faculty to introduce and refine new material into the curriculum before it has attracted sufficient interest to be made part of the regular course material. Topics include biomedical engineering, regenerative medicine, bioimaging, biomechanics, career planning, negotiation, communications, long-range planning, among others.",
         "spring1":1,
         "fall1":1,
@@ -1301,6 +1399,7 @@
         "Credits":"1.00 - 9.00",
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Biomedical Engineering research for doctoral students who have already received their M.S. degree, but have not yet advanced to candidacy.\nFall and Spring,",
         "spring1":1,
         "fall1":1,
@@ -1313,6 +1412,7 @@
         "Credits":1.0,
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Undergraduate teaching to be supervised by a faculty member of the Program in Biomedical Engineering. Course to be identified by the student and graduate studies director.\nFall and Spring,",
         "spring1":1,
         "fall1":1,
@@ -1325,6 +1425,7 @@
         "Credits":"1.00 - 9.00",
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Prerequisite: Students must be advanced to candidacy (G5); permission of instructor and enroll in appropriate section. Major portion of research must take place on SBU campus, at Cold Spring Harbor, or at the Brookhaven National Lab.\nFall, Spring, and Summer,",
         "spring1":1,
         "fall1":1,
@@ -1337,6 +1438,7 @@
         "Credits":"1.00 - 9.00",
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Prerequisite: Must be advanced to candidacy (G5). Major portion of research will take place off-campus, but in the United States and\/or U.S. provinces. Please note, Brookhaven National Labs and the Cold Spring Harbor Lab are considered on-campus.\nAll international students must enroll in one of the graduate student insurance plans and should be advised by an International Advisor.\nFall, Spring, Summer",
         "spring1":1,
         "fall1":1,
@@ -1349,6 +1451,7 @@
         "Credits":"1.00 - 9.00",
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Prerequisite: Must be advanced to candidacy (G5). Major portion of research will take place outside of the United States and\/or U.S. provinces.\nDomestic students have the option of the health plan and may also enroll in MEDEX.\nInternational students who are in their home country are not covered by mandatory health plan and must contact the Insurance Office for the insurance charge to be removed.\nInternational students who are not in their home country are charged for the mandatory health insurance. If they are to be covered by another insurance plan they must file a waiver be second week of classes. The charge will only be removed if other plan is deemed comparable.\nAll international students must received clearance from an International Advisor.\nFall, Spring, Summer",
         "spring1":1,
         "fall1":1,
@@ -1361,6 +1464,7 @@
         "Credits":0.0,
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Full-time summer research.",
         "spring1":1,
         "fall1":1,

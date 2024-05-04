@@ -5,6 +5,7 @@
 \##2['Credits' -> 3].
 \##2['Prerequisites' -> 'NONE'].
 \##2['Antirequisites' -> [['CSE114', 'CSE160']]].
+\##2['Corequisites' -> 'NONE'].
 \##2['Description' -> 'Introduces central ideas of computing and computer science, instills practices of algorithmic and computational thinking, and engages students in the creative aspects of the field. Also introduces appropriate computing technology as a means for solving computational problems and exploring creative endeavors. Includes weekly computer programming assignments, but assumes no previous programming experience. May not be taken by students with credit for CSE 114 or CSE 160.'].
 \##2['spring1' -> 1].
 \##2['fall1' -> 1].
@@ -16,6 +17,7 @@
 \##3['Credits' -> 3].
 \##3['Prerequisites' -> [['CSE101']]].
 \##3['Antirequisites' -> 'NONE'].
+\##3['Corequisites' -> 'NONE'].
 \##3['Description' -> 'An introduction to the design of Web pages, specifically the development of browser and device independent HTML, with an emphasis on the XHTML standards. Includes the use of style sheets (CSS) and tools for page layout and verification.  HTML is presented as a mark-up language, exploring the rules of HTML elements and attributes. Students learn the separation of page viewing information from the HTML through CSS style sheets as well as the use of block layout without using HTML tables. Addresses HTML display properties including text, color, image, and graphic elements as well as approaches to HTML validation and techniques.'].
 \##3['spring1' -> 0].
 \##3['fall1' -> 0].
@@ -27,6 +29,7 @@
 \##4['Credits' -> 3].
 \##4['Prerequisites' -> 'NONE'].
 \##4['Antirequisites' -> 'NONE'].
+\##4['Corequisites' -> 'NONE'].
 \##4['Description' -> 'An introduction to fundamentals of computer science. Topics covered include algorithmic design, problem-solving techniques for computer programming, fundamentals of digital logic and computer organization, the role of the operating system, introductory programming methodology including variables, assignment statements, control statements and subroutines (methods), programming paradigms, the compilation process, theoretical limits of computation, social and ethical issues.  Intended for students who have not taken any college-level computer science course containing programming assignments in a high-level programming language.'].
 \##4['spring1' -> 1].
 \##4['fall1' -> 1].
@@ -38,6 +41,7 @@
 \##5['Credits' -> 4].
 \##5['Prerequisites' -> [['AMS151', 'MAT125', 'MAT131']]].
 \##5['Antirequisites' -> 'NONE'].
+\##5['Corequisites' -> 'NONE'].
 \##5['Description' -> 'Introduction to the mathematical foundations of computer science. Topics include logic (propositional and predicate); proof techniques (induction/recursion, contradiction, and others); and key concepts of mathematical structures (sequences, sets, functions, relations, and graphs). Not for credit in addition to CSE 215.'].
 \##5['spring1' -> 0].
 \##5['fall1' -> 1].
@@ -49,6 +53,7 @@
 \##6['Credits' -> 4].
 \##6['Prerequisites' -> [['CSE101', 'ISE108']]].
 \##6['Antirequisites' -> 'NONE'].
+\##6['Corequisites' -> 'NONE'].
 \##6['Description' -> 'An introduction to procedural and object-oriented  programming methodology. Topics include program structure, conditional and iterative programming, procedures, arrays and records, object classes, encapsulation, information hiding, inheritance, polymorphism, file I/O, and exceptions. Includes required laboratory. This course has been designated as a High Demand/Controlled Access (HD/CA) course. Students registering for HD/CA courses for the first time will have priority to do so.'].
 \##6['spring1' -> 1].
 \##6['fall1' -> 0].
@@ -60,6 +65,7 @@
 \##7['Credits' -> 3].
 \##7['Prerequisites' -> 'NONE'].
 \##7['Antirequisites' -> 'NONE'].
+\##7['Corequisites' -> 'NONE'].
 \##7['Description' -> 'Introduces programming concepts using the C language.  Variables, data types, and expressions.  Conditional and iterative statements, functions, and structures.  Pointers, arrays, and strings.  Scope of variables and program organization.  Includes programming projects of an interdisciplinary nature.  Suitable as an introductory programming course for non-CSE majors.'].
 \##7['spring1' -> 1].
 \##7['fall1' -> 0].
@@ -71,6 +77,7 @@
 \##8['Credits' -> 4].
 \##8['Prerequisites' -> 'NONE'].
 \##8['Antirequisites' -> 'NONE'].
+\##8['Corequisites' -> 'NONE'].
 \##8['Description' -> 'Introduction to the logical and mathematical foundations of computer science for computer science honors students. Topics include functions, relations, and sets; recursion and functional programming; basic logic; and mathematical induction and other proof techniques.'].
 \##8['spring1' -> 1].
 \##8['fall1' -> 1].
@@ -80,8 +87,9 @@
 \##9['CourseTitle' -> 'Computer Science A: Honors'].
 \##9['Career' -> 'Undergraduate'].
 \##9['Credits' -> 3].
-\##9['Prerequisites' -> [['CSE161']]].
+\##9['Prerequisites' -> 'NONE'].
 \##9['Antirequisites' -> 'NONE'].
+\##9['Corequisites' -> [['CSE161']]].
 \##9['Description' -> 'First part of a two-semester sequence, CSE 160 and CSE 260.  An introduction to procedural and object-oriented programming methodology and basic data structures. Topics include program structure, conditional and iterative programming, procedures, arrays, object classes, encapsulation, information hiding, inheritance, polymorphism, file I/O, exceptions and simple data structures, such as lists, queues and stacks.'].
 \##9['spring1' -> 1].
 \##9['fall1' -> 1].
@@ -91,8 +99,9 @@
 \##10['CourseTitle' -> 'Laboratory for Computer Science A: Honors'].
 \##10['Career' -> 'Undergraduate'].
 \##10['Credits' -> 1].
-\##10['Prerequisites' -> [['CSE160']]].
+\##10['Prerequisites' -> 'NONE'].
 \##10['Antirequisites' -> 'NONE'].
+\##10['Corequisites' -> [['CSE160']]].
 \##10['Description' -> 'Must be taken concurrently with lecture component, CSE 160; a common grade for both courses will be assigned. Laboratory sessions will focus on development of pragmatic programming skills and use of programming environments and tools in a supervised setting.'].
 \##10['spring1' -> 1].
 \##10['fall1' -> 1].
@@ -104,6 +113,7 @@
 \##11['Credits' -> 3].
 \##11['Prerequisites' -> 'NONE'].
 \##11['Antirequisites' -> 'NONE'].
+\##11['Corequisites' -> 'NONE'].
 \##11['Description' -> 'A lecture course on a current topic in the practice and application of computer science. May be repeated as the topic changes.'].
 \##11['spring1' -> 1].
 \##11['fall1' -> 1].
@@ -115,6 +125,7 @@
 \##12['Credits' -> 3].
 \##12['Prerequisites' -> 'NONE'].
 \##12['Antirequisites' -> 'NONE'].
+\##12['Corequisites' -> 'NONE'].
 \##12['Description' -> 'A lecture course on a current topic in the practice and application of computer science.  May be repeated as the topic changes.'].
 \##12['spring1' -> 0].
 \##12['fall1' -> 1].
@@ -126,6 +137,7 @@
 \##13['Credits' -> 3].
 \##13['Prerequisites' -> 'NONE'].
 \##13['Antirequisites' -> 'NONE'].
+\##13['Corequisites' -> 'NONE'].
 \##13['Description' -> 'A lecture course on a current topic in the practice and application of computer science. May be repeated as the topic changes.'].
 \##13['spring1' -> 0].
 \##13['fall1' -> 1].
@@ -137,6 +149,7 @@
 \##14['Credits' -> 4].
 \##14['Prerequisites' -> [['CSE113']]].
 \##14['Antirequisites' -> 'NONE'].
+\##14['Corequisites' -> 'NONE'].
 \##14['Description' -> 'A continuation of CSE 113 covering the mathematical foundations of computer science. Topics include counting techniques, graph theory, and finite automata.'].
 \##14['spring1' -> 1].
 \##14['fall1' -> 1].
@@ -148,6 +161,7 @@
 \##15['Credits' -> 4].
 \##15['Prerequisites' -> [['CSE114']]].
 \##15['Antirequisites' -> 'NONE'].
+\##15['Corequisites' -> 'NONE'].
 \##15['Description' -> 'An extension of programming methodology to data storage and manipulation on complex data sets. Topics include: programming and applications of data structures; stacks, queues, lists, binary trees, heaps, priority queues, balanced trees and graphs. Recursive programming is heavily utilized. Fundamental sorting and searching algorithms are examined along with informal efficiency comparisons.'].
 \##15['spring1' -> 0].
 \##15['fall1' -> 0].
@@ -159,6 +173,7 @@
 \##16['Credits' -> 4].
 \##16['Prerequisites' -> [['AMS151', 'MAT125', 'MAT131']]].
 \##16['Antirequisites' -> 'NONE'].
+\##16['Corequisites' -> 'NONE'].
 \##16['Description' -> 'Introduction to the logical and mathematical foundations of computer science. Topics include functions, relations, and sets; recursion; elementary logic; and mathematical induction and other proof techniques.'].
 \##16['spring1' -> 1].
 \##16['fall1' -> 1].
@@ -170,6 +185,7 @@
 \##17['Credits' -> 4].
 \##17['Prerequisites' -> [['CSE214']]].
 \##17['Antirequisites' -> 'NONE'].
+\##17['Corequisites' -> 'NONE'].
 \##17['Description' -> 'Intermediate-level programming concepts and paradigms, including  functional programming, object-orientation, basics of type systems, memory management, program and data abstractions, parameter passing, modularity, and parallel programming. Includes weekly recitations, which provide students with experience in the practice of programming in a variety of high-level languages.'].
 \##17['spring1' -> 1].
 \##17['fall1' -> 1].
@@ -179,8 +195,9 @@
 \##18['CourseTitle' -> 'Systems Fundamentals I'].
 \##18['Career' -> 'Undergraduate'].
 \##18['Credits' -> 4].
-\##18['Prerequisites' -> [['CSE214', 'CSE260']]].
+\##18['Prerequisites' -> [['CSE214']]].
 \##18['Antirequisites' -> 'NONE'].
+\##18['Corequisites' -> [['CSE260']]].
 \##18['Description' -> 'Introduces systems-level programming concepts using the C language and assembly language, and explores the correspondence of programming constructs in these languages. Topics include internal data representation, basic instructions and control structures, bitwise operations, arithmetic operations, memory management, pointers, function calls and parameter passing, linking and loading. Included is an overview of computer architecture and organization topics, including von Neumann architecture, the memory hierarchy, and basics of pipelining.'].
 \##18['spring1' -> 0].
 \##18['fall1' -> 1].
@@ -192,6 +209,7 @@
 \##19['Credits' -> 3].
 \##19['Prerequisites' -> [['CSE130', 'CSE220', 'ESE124', 'ESG111', 'BME120', 'MEC102']]].
 \##19['Antirequisites' -> 'NONE'].
+\##19['Corequisites' -> 'NONE'].
 \##19['Description' -> 'Intermediate programming concepts using the C language in a UNIX environment. Files, systems calls, stream I/O, the C preprocessor, bitwise operations, the use of makefiles, advanced formatting of input and output, conversions. Introduction to object-oriented programming using C++; classes, objects, inheritance, aggregation, and overloading. Suitable for all majors.'].
 \##19['spring1' -> 1].
 \##19['fall1' -> 1].
@@ -201,8 +219,9 @@
 \##20['CourseTitle' -> 'Computer Science B: Honors'].
 \##20['Career' -> 'Undergraduate'].
 \##20['Credits' -> 3].
-\##20['Prerequisites' -> [['CSE160', 'CSE261']]].
+\##20['Prerequisites' -> [['CSE160']]].
 \##20['Antirequisites' -> 'NONE'].
+\##20['Corequisites' -> [['CSE261']]].
 \##20['Description' -> 'Second part of a two-semester sequence, CSE 160 and CSE 260. Applies object-oriented programming methodology to data storage and manipulation on complex data sets, such as, binary trees, heaps, priority queues, balanced trees and graphs. Recursive programming is heavily utilized. Fundamental sorting and searching algorithms are examined along with informal efficiency comparisons. Intermediate-level programming language concepts and paradigms, including functional programming, basics of type systems, program and data abstractions, and modularity.'].
 \##20['spring1' -> 1].
 \##20['fall1' -> 0].
@@ -212,8 +231,9 @@
 \##21['CourseTitle' -> 'Laboratory for Computer Science B: Honors'].
 \##21['Career' -> 'Undergraduate'].
 \##21['Credits' -> 1].
-\##21['Prerequisites' -> [['CSE260']]].
+\##21['Prerequisites' -> 'NONE'].
 \##21['Antirequisites' -> 'NONE'].
+\##21['Corequisites' -> [['CSE260']]].
 \##21['Description' -> 'Must be taken concurrently with lecture component, CSE 260; a common grade for both courses will be assigned. Weekly laboratories provide students with experience in the practice of programming in a variety of high-level languages such as Java, Scala, Haskell, Python or Javascript.'].
 \##21['spring1' -> 1].
 \##21['fall1' -> 1].
@@ -225,6 +245,7 @@
 \##22['Credits' -> 3].
 \##22['Prerequisites' -> [['WRT102']]].
 \##22['Antirequisites' -> 'NONE'].
+\##22['Corequisites' -> 'NONE'].
 \##22['Description' -> 'Principles of professional technical communications for Computer Science and Information Systems majors. Topics include writing business communications, user manuals, press releases, literature reviews, and research abstracts. Persuasive oral communications and effective presentation techniques, to address a range of audiences, will also be covered. This course satisfies the upper-division writing requirement for CSE and ISE majors.'].
 \##22['spring1' -> 1].
 \##22['fall1' -> 0].
@@ -236,6 +257,7 @@
 \##23['Credits' -> 3].
 \##23['Prerequisites' -> 'NONE'].
 \##23['Antirequisites' -> 'NONE'].
+\##23['Corequisites' -> 'NONE'].
 \##23['Description' -> 'A study of the history of computational devices from the early ages through the end of the 20th century. Topics include needs for computation in ancient times, development of computational models and devices through the 1800's and early 1900's, World War II and the development of the first modern computer, and early uses in business. Creation of programming languages and the microchip. Societal changes in computer usage due to the microcomputer, emergence of the Internet, the World Wide Web, and mobile computing. Legal and social impacts of modern computing. Cannot be used as a technical elective for the CSE major or minor.  This course is offered as both CSE 301 and ISE 301.'].
 \##23['spring1' -> 1].
 \##23['fall1' -> 1].
@@ -247,6 +269,7 @@
 \##24['Credits' -> 3].
 \##24['Prerequisites' -> [['CSE160', 'CSE214'], ['CSE150', 'CSE215']]].
 \##24['Antirequisites' -> 'NONE'].
+\##24['Corequisites' -> 'NONE'].
 \##24['Description' -> 'An introduction to the abstract notions encountered in machine computation. Topics include finite automata, regular expressions, and formal languages, with emphasis on regular and context-free grammars. Questions relating to what can and cannot be done by machines are covered by considering various models of computation, including Turing machines, recursive functions, and universal machines. Not for credit in addition to CSE 350.'].
 \##24['spring1' -> 1].
 \##24['fall1' -> 1].
@@ -258,6 +281,7 @@
 \##25['Credits' -> 3].
 \##25['Prerequisites' -> [['CSE216', 'CSE260'], ['CSE220', 'CSE303', 'CSE350']]].
 \##25['Antirequisites' -> 'NONE'].
+\##25['Corequisites' -> 'NONE'].
 \##25['Description' -> 'Topics studied include formal description of programming languages, lexical analysis, syntax analysis, symbol tables and memory allocation, code generation, and interpreters. Students undertake a semester project that includes the design and implementation of a compiler for a language chosen by the instructor.'].
 \##25['spring1' -> 1].
 \##25['fall1' -> 1].
@@ -269,6 +293,7 @@
 \##26['Credits' -> 3].
 \##26['Prerequisites' -> [['CSE216', 'CSE260']]].
 \##26['Antirequisites' -> 'NONE'].
+\##26['Corequisites' -> 'NONE'].
 \##26['Description' -> 'The design of database management systems to obtain consistency, integrity, and availability of data. Conceptual models and schemas of data: relational, hierarchical, and network. Students undertake a semester project that includes the design and implementation of a database system.'].
 \##26['spring1' -> 1].
 \##26['fall1' -> 0].
@@ -280,6 +305,7 @@
 \##27['Credits' -> 3].
 \##27['Prerequisites' -> [['CSE216', 'CSE260'], ['CSE320', 'ESE380']]].
 \##27['Antirequisites' -> 'NONE'].
+\##27['Corequisites' -> 'NONE'].
 \##27['Description' -> 'Students are introduced to the structure of modern operating systems. Topics include virtual memory, resource allocation strategies, concurrency, and protection. The design and implementation of a simple operating system are performed. This course focuses on teaching the skills required to design and build modules of an operating system kernel. It covers key algorithms and architectures. A companion course, CSE 320, teaches complementary skills from the application programmer's point of view.'].
 \##27['spring1' -> 0].
 \##27['fall1' -> 1].
@@ -291,6 +317,7 @@
 \##28['Credits' -> 3].
 \##28['Prerequisites' -> [['CSE216', 'CSE260'], ['CSE220']]].
 \##28['Antirequisites' -> 'NONE'].
+\##28['Corequisites' -> 'NONE'].
 \##28['Description' -> 'An introduction to programming languages paradigms, including functional and logic programming, and the suitability of various languages for particular programming tasks. Students write sample programs in the studied languages. The languages are used to illustrate programming language constructs such as scoping and binding, type systems, storage management and operating environments. This illustration is accompanied by an introduction to the implementation of programming languages, such as parsing, semantic analysis, symbol tables, memory allocation and code generation. Students complete a series of assignments to implement a language chosen by the instructor.'].
 \##28['spring1' -> 1].
 \##28['fall1' -> 0].
@@ -300,8 +327,9 @@
 \##29['CourseTitle' -> 'Computer Networks'].
 \##29['Career' -> 'Undergraduate'].
 \##29['Credits' -> 3].
-\##29['Prerequisites' -> [['CSE214'], ['CSE220', 'ISE218'], ['AMS310']]].
+\##29['Prerequisites' -> [['CSE214'], ['CSE220', 'ISE218']]].
 \##29['Antirequisites' -> 'NONE'].
+\##29['Corequisites' -> [['AMS310']]].
 \##29['Description' -> 'Overview of computer networks and the Internet. Concept of end systems, access networks, clients and servers. Connection-oriented and connectionless services. Circuit switching and packet switching. Description of Internet protocol layers, including application layer, transport layer, network layer and link layer. Architecture of the current Internet and the World-Wide Web. TCP/IP protocol stack. Internet routing and addressing. Local area network protocols, Ethernet hubs and switches. Wireless LANs. Multimedia networking. May not be taken by students with credit for ESE 346.'].
 \##29['spring1' -> 0].
 \##29['fall1' -> 1].
@@ -313,6 +341,7 @@
 \##30['Credits' -> 3].
 \##30['Prerequisites' -> [['CSE214', 'CSE230', 'CSE260', 'ISE208']]].
 \##30['Antirequisites' -> 'NONE'].
+\##30['Corequisites' -> 'NONE'].
 \##30['Description' -> 'This course covers practical techniques to manage information systems, also known as IT Systems Administration.  Students will learn how to install computers for assorted hardware and software platforms (Windows, Unix/Linux, OS-X).  Install networking equipment and configure it.  Install server software on several systems (e.g. web, database, mail) and configure it.  Secure the network, hosts, and services, and apply system patches.  Set up redundant computing services, virtual machines/services, and hardware so that services can survive some hardware/software failures.  Evaluate the performance, reliability, and security of the overall system. This course is offered as both CSE 311 and ISE 311.'].
 \##30['spring1' -> 0].
 \##30['fall1' -> 1].
@@ -324,6 +353,7 @@
 \##31['Credits' -> 3].
 \##31['Prerequisites' -> 'NONE'].
 \##31['Antirequisites' -> 'NONE'].
+\##31['Corequisites' -> 'NONE'].
 \##31['Description' -> 'This course deals with the impact of computers on us as individuals and on our society.  Rapid changes in computing technology and in our use of that technology have changed the ways we work, play, and interact with other people.  These changes have created a flood of new social, legal and ethical issues that demand critical examination. This course is offered as both CSE 312 and ISE 312.'].
 \##31['spring1' -> 0].
 \##31['fall1' -> 1].
@@ -335,6 +365,7 @@
 \##32['Credits' -> 3].
 \##32['Prerequisites' -> [['CSE216', 'CSE260']]].
 \##32['Antirequisites' -> 'NONE'].
+\##32['Corequisites' -> 'NONE'].
 \##32['Description' -> 'Introduction to systematic design, development and testing of software systems, including event-driven and Web programming, information management, databases, principles and practices for secure computing, and version control. Students apply these skills in the construction of large, robust programs.'].
 \##32['spring1' -> 1].
 \##32['fall1' -> 1].
@@ -346,6 +377,7 @@
 \##33['Credits' -> 3].
 \##33['Prerequisites' -> [['CSE220']]].
 \##33['Antirequisites' -> 'NONE'].
+\##33['Corequisites' -> 'NONE'].
 \##33['Description' -> 'This course introduces C programming and essential concepts of operating systems, concurrency, and performance analysis, focused around several cross-cutting examples, such as memory management, error handling, and threaded programming. In this course, operating systems concepts are considered from the point of view of the application programmer, and the focus is on APIs for interacting with an operating system. A companion course, CSE 306, considers operating systems from the point of view of the OS kernel implementer.'].
 \##33['spring1' -> 1].
 \##33['fall1' -> 1].
@@ -357,6 +389,7 @@
 \##34['Credits' -> 3].
 \##34['Prerequisites' -> [['CSE214', 'CSE230', 'CSE260', 'ISE208']]].
 \##34['Antirequisites' -> 'NONE'].
+\##34['Corequisites' -> 'NONE'].
 \##34['Description' -> 'A survey course designed to introduce students to Human-Computer Interaction and prepare them for further study in the specialized topics of their choice.  Students will have the opportunity to delve deeper in the course through a course project, and through a two-three week special topic selected at the instructor's discretion. Course is cross-listed as CSE 323, EST 323 and ISE 323.'].
 \##34['spring1' -> 0].
 \##34['fall1' -> 0].
@@ -368,6 +401,7 @@
 \##35['Credits' -> 3].
 \##35['Prerequisites' -> [['CSE110', 'CSE101', 'CSE114']]].
 \##35['Antirequisites' -> 'NONE'].
+\##35['Corequisites' -> 'NONE'].
 \##35['Description' -> 'This multidisciplinary class surveys how computer science and computer technology are used in sculpture. Case studies with slides, videos, and software demonstrations illustrate a range of approaches of sculptors incorporating computers in their creative process. Various state-of-the art fabrication technologies are studied (with site visits if available on campus). Mathematical foundations are emphasized so students can recognize them when analyzing sculpture and choose the right tool when designing. In the weekly laboratory, these ideas are reinforced with projects using a range of available software and inexpensive construction materials, e.g., paper, cardboard, and foamcore.'].
 \##35['spring1' -> 0].
 \##35['fall1' -> 1].
@@ -379,6 +413,7 @@
 \##36['Credits' -> 3].
 \##36['Prerequisites' -> [['CSE214', 'CSE230', 'CSE260'], ['AMS210', 'MAT211']]].
 \##36['Antirequisites' -> 'NONE'].
+\##36['Corequisites' -> 'NONE'].
 \##36['Description' -> 'Introduces fundamental concepts, algorithms, and techniques in visual information processing. Covers image formation, binary image processing, image features, model fitting, optics, illumination, texture, motion, segmentation, and object recognition.'].
 \##36['spring1' -> 1].
 \##36['fall1' -> 0].
@@ -390,6 +425,7 @@
 \##37['Credits' -> 3].
 \##37['Prerequisites' -> [['CSE216', 'CSE260'], ['CSE220']]].
 \##37['Antirequisites' -> 'NONE'].
+\##37['Corequisites' -> 'NONE'].
 \##37['Description' -> 'An introduction to computer graphics including graphics application programming; data structures for graphics; representing and specifying color; fundamental hardware and software concepts for calligraphic and raster displays; two-dimensional, geometric transformations; introduction to three-dimensional graphics; graphics standards; and input devices, interaction handling, and user-computer interface.'].
 \##37['spring1' -> 0].
 \##37['fall1' -> 0].
@@ -399,8 +435,9 @@
 \##38['CourseTitle' -> 'Computer Security Fundamentals'].
 \##38['Career' -> 'Undergraduate'].
 \##38['Credits' -> 3].
-\##38['Prerequisites' -> [['CSE220'], ['CSE320']]].
+\##38['Prerequisites' -> [['CSE220']]].
 \##38['Antirequisites' -> 'NONE'].
+\##38['Corequisites' -> [['CSE320']]].
 \##38['Description' -> 'Introduces the basic concepts and terminology of computer security. Covers basic security topics such as cryptography, operating systems security, network security, and language-based security.'].
 \##38['spring1' -> 0].
 \##38['fall1' -> 1].
@@ -412,6 +449,7 @@
 \##39['Credits' -> 3].
 \##39['Prerequisites' -> [['CSE214', 'CSE260'], ['MAT211', 'AMS210'], ['AMS110', 'AMS310']]].
 \##39['Antirequisites' -> 'NONE'].
+\##39['Corequisites' -> 'NONE'].
 \##39['Description' -> 'This course is an introduction to both the foundations and applications of visualization and visual analytics, for the purpose of understanding complex data in science, medicine, business, finance, and many others. It will begin with the basics - visual perception, cognition, human-computer interaction, the sense-making process, data mining, computer graphics, and information visualization. It will then move to discuss how these elementary techniques are coupled into an effective visual analytics pipeline that allows humans to interactively think with data and gain insight. Students will get hands-on experience via several programming projects, using popular public-domain statistics and visualization libraries and APIs. This course is offered as both CSE 332 and  ISE 332.'].
 \##39['spring1' -> 1].
 \##39['fall1' -> 0].
@@ -423,6 +461,7 @@
 \##40['Credits' -> 3].
 \##40['Prerequisites' -> [['CSE214', 'CSE260']]].
 \##40['Antirequisites' -> 'NONE'].
+\##40['Corequisites' -> 'NONE'].
 \##40['Description' -> 'Survey of user interface systems, with emphasis on responsive and adaptive strategies to accommodate cross-platform deployment across multiple devices such as desktops and mobile devices. Demonstration of the use of tool kits for designing user interfaces. Additional topics include human factors, design standards, and visual languages. Students participate in a project involving the design and implementation of  user interface systems. This course is offered as both CSE 333 and ISE 333.'].
 \##40['spring1' -> 0].
 \##40['fall1' -> 1].
@@ -434,6 +473,7 @@
 \##41['Credits' -> 3].
 \##41['Prerequisites' -> 'NONE'].
 \##41['Antirequisites' -> 'NONE'].
+\##41['Corequisites' -> 'NONE'].
 \##41['Description' -> 'Survey of technologies available for user interfaces. Discussion of hypertext; voice, music, and video together with tools and models for capturing, editing, presenting, and combining them. Capabilities and characteristics of a range of peripheral devices including devices based on posture, gesture, head movement, and touch. Case studies of academic and commercial multimedia systems including virtual reality systems. Students participate in laboratory exercises and build a multimedia project. This course is offered as both CSE 334 and  ISE 334.'].
 \##41['spring1' -> 0].
 \##41['fall1' -> 0].
@@ -445,6 +485,7 @@
 \##42['Credits' -> 3].
 \##42['Prerequisites' -> [['CSE216', 'CSE260']]].
 \##42['Antirequisites' -> 'NONE'].
+\##42['Corequisites' -> 'NONE'].
 \##42['Description' -> 'Introduces the design and development of software for Internet commerce. Topics include extended markup language, servlets, cookies, sessions, Internet media types, Web protocols, digital signatures, certificates, encryption, and the wireless Internet.'].
 \##42['spring1' -> 0].
 \##42['fall1' -> 1].
@@ -456,6 +497,7 @@
 \##43['Credits' -> 3].
 \##43['Prerequisites' -> [['CSE214', 'CSE260']]].
 \##43['Antirequisites' -> 'NONE'].
+\##43['Corequisites' -> 'NONE'].
 \##43['Description' -> 'Scripting languages are widely used in the IT industry. Programming with scripting languages, also known as scripting, has several advantages compared to programming with other types of languages in that scripts facilitate rapid program development; can automate high-level jobs or tasks very effectively; and can be used to compose various software components, even binaries, into more complex and powerful applications. This course introduces the principles of scripting, covers one or two selected scripting languages in depth, and illustrates the advanced use of scripting by extensive case studies in application areas such as system administration, web application development, graphical user interface development, and text processing.'].
 \##43['spring1' -> 0].
 \##43['fall1' -> 1].
@@ -467,6 +509,7 @@
 \##44['Credits' -> 4].
 \##44['Prerequisites' -> [['CSE150', 'CSE215'], ['AMS210', 'MAT211']]].
 \##44['Antirequisites' -> 'NONE'].
+\##44['Corequisites' -> 'NONE'].
 \##44['Description' -> 'Introduces the abstract notions of machine computation for honors students. Includes finite automata, regular expressions, and formal languages, with emphasis on regular and context-free grammars. Explores what can and cannot be computed by considering various models of computation including Turing machines, recursive functions, and universal machines. Not for credit in addition to CSE 303.'].
 \##44['spring1' -> 1].
 \##44['fall1' -> 0].
@@ -478,6 +521,7 @@
 \##45['Credits' -> 3].
 \##45['Prerequisites' -> [['CSE214', 'CSE260'], ['AMS310']]].
 \##45['Antirequisites' -> 'NONE'].
+\##45['Corequisites' -> 'NONE'].
 \##45['Description' -> 'This multidisciplinary course introduces both theoretical concepts and practical approaches to extract knowledge from data. Topics include linear algebra, probability, statistics, machine learning, and programming. Using large data sets collected from real-world problems in areas of science, technology, and medicine, we introduce how to preprocess data, identify the best model that describes the data, make predictions, evaluate the results, and finally report the results using proper visualization methods. This course also teaches state-of-the art tools for data analysis, such as Python and its scientific libraries.'].
 \##45['spring1' -> 0].
 \##45['fall1' -> 0].
@@ -489,6 +533,7 @@
 \##46['Credits' -> 3].
 \##46['Prerequisites' -> [['CSE216', 'CSE260']]].
 \##46['Antirequisites' -> 'NONE'].
+\##46['Corequisites' -> 'NONE'].
 \##46['Description' -> 'Topics covered include critique of artificial intelligence research; state-space problem representations and search algorithms; game-playing programs; theorem-proving programs; programs for the study and simulation of cognitive processes and pattern recognition. Further topics in current research as time permits.'].
 \##46['spring1' -> 0].
 \##46['fall1' -> 0].
@@ -500,6 +545,7 @@
 \##47['Credits' -> 3].
 \##47['Prerequisites' -> [['CSE216', 'CSE260'], ['AMS310', 'AMS311', 'AMS412']]].
 \##47['Antirequisites' -> 'NONE'].
+\##47['Corequisites' -> 'NONE'].
 \##47['Description' -> 'Covers fundamental concepts for intelligent systems that autonomously learn to perform a task and improve with experience, including problem formulations (e.g., selecting input features and outputs) and learning frameworks (e.g., supervised vs. unsupervised), standard models, methods, computational tools, algorithms and modern techniques, as well as methodologies to evaluate learning ability and to automatically select optimal models. Applications to areas such as computer vision (e.g., character and digit recognition), natural-language processing (e.g., spam filtering) and robotics (e.g., navigating complex environments) will motivate the coursework and material.'].
 \##47['spring1' -> 0].
 \##47['fall1' -> 0].
@@ -511,6 +557,7 @@
 \##48['Credits' -> 3].
 \##48['Prerequisites' -> [['CSE216', 'CSE260']]].
 \##48['Antirequisites' -> 'NONE'].
+\##48['Corequisites' -> 'NONE'].
 \##48['Description' -> 'Natural language processing techniques power many intelligent language based applications. This course will introduce basic language analysis tasks such as language modeling and syntactic analysis, as well as core applications such as text classification, information extraction, question answering, and machine translation. The course will cover relevant algorithms, machine learning solutions, and evaluation methodologies.'].
 \##48['spring1' -> 0].
 \##48['fall1' -> 0].
@@ -522,6 +569,7 @@
 \##49['Credits' -> 3].
 \##49['Prerequisites' -> [['AMS301']]].
 \##49['Antirequisites' -> 'NONE'].
+\##49['Corequisites' -> 'NONE'].
 \##49['Description' -> 'The design and analysis of efficient algorithms to solve geometric problems that arise in computer graphics, robotics, geographical information systems, manufacturing, and optimization. Topics include convex hulls, triangulation, Voronoi diagrams, visibility, intersection, robot motion planning, and arrangements. This course is offered as both  AMS 345 and CSE 355.'].
 \##49['spring1' -> 0].
 \##49['fall1' -> 0].
@@ -533,6 +581,7 @@
 \##50['Credits' -> 3].
 \##50['Prerequisites' -> [['CSE316'], ['CSE320']]].
 \##50['Antirequisites' -> 'NONE'].
+\##50['Corequisites' -> 'NONE'].
 \##50['Description' -> 'Creating online services capable of handling millions of users requires a different mindset compared to traditional software development and deployment. Rather than building monolithic software packages from the ground up, bringing up modern online services calls for architecting systems by gluing together mature existing technologies deployed across many unreliable servers, working in concert to provide high-availability robust services. In this course, students will be exposed to the concepts and technologies behind deploying and scaling online services on the computing resources available in modern datacenters.'].
 \##50['spring1' -> 1].
 \##50['fall1' -> 1].
@@ -544,6 +593,7 @@
 \##51['Credits' -> 3].
 \##51['Prerequisites' -> [['CSE216', 'CSE260'], ['AMS310']]].
 \##51['Antirequisites' -> 'NONE'].
+\##51['Corequisites' -> 'NONE'].
 \##51['Description' -> 'This interdisciplinary course introduces the mathematical concepts required to interpret results and subsequently draw conclusions from data in an applied manner. The course presents different techniques for applied statistical inference and data analysis, including their implementation in Python, such as parameter and distribution estimators, hypothesis testing, Bayesian inference, and likelihood.'].
 \##51['spring1' -> 0].
 \##51['fall1' -> 0].
@@ -553,8 +603,9 @@
 \##52['CourseTitle' -> 'Software Security'].
 \##52['Career' -> 'Undergraduate'].
 \##52['Credits' -> 3].
-\##52['Prerequisites' -> [['CSE220'], ['CSE320']]].
+\##52['Prerequisites' -> [['CSE220']]].
 \##52['Antirequisites' -> 'NONE'].
+\##52['Corequisites' -> [['CSE320']]].
 \##52['Description' -> 'This course will describe the principles and practice of securing software systems. Topics will include: software vulnerabilities; static and dynamic analysis techniques for vulnerability detection; exploit detection and prevention; secure software development techniques and defensive programming; malware detection and analysis; security policies and sandboxing; information flow.'].
 \##52['spring1' -> 1].
 \##52['fall1' -> 0].
@@ -564,8 +615,9 @@
 \##53['CourseTitle' -> 'Web Security'].
 \##53['Career' -> 'Undergraduate'].
 \##53['Credits' -> 3].
-\##53['Prerequisites' -> [['CSE220'], ['CSE320']]].
+\##53['Prerequisites' -> [['CSE220']]].
 \##53['Antirequisites' -> 'NONE'].
+\##53['Corequisites' -> [['CSE320']]].
 \##53['Description' -> 'This course will cover all aspects of web security, including browser security, web server security, and web application security. Topics include: SOP and JavaScript; application and protocol vulnerabilities; probing, surveillance, and tracking; penetration testing; modern social engineering techniques; monetary incentives and monetization.'].
 \##53['spring1' -> 0].
 \##53['fall1' -> 1].
@@ -575,8 +627,9 @@
 \##54['CourseTitle' -> 'Mobile Security'].
 \##54['Career' -> 'Undergraduate'].
 \##54['Credits' -> 3].
-\##54['Prerequisites' -> [['CSE220'], ['CSE320']]].
+\##54['Prerequisites' -> [['CSE220']]].
 \##54['Antirequisites' -> 'NONE'].
+\##54['Corequisites' -> [['CSE320']]].
 \##54['Description' -> 'The course covers the latest security technologies for mobile platforms (e.g., Android and iOS). It first introduces the security issues plaguing mobile apps and discusses defensive mechanisms, such as code signing, app permissions, and sandbox. It then peeks into mobile OS, explaining how jailbreaking/rooting works and the internals of iOS/Android security designs. Finally, it surveys modern hardware-level security features, such as secure booting, TrustZone, and biometrics.'].
 \##54['spring1' -> 1].
 \##54['fall1' -> 0].
@@ -586,8 +639,9 @@
 \##55['CourseTitle' -> 'Offensive Security'].
 \##55['Career' -> 'Undergraduate'].
 \##55['Credits' -> 3].
-\##55['Prerequisites' -> [['CSE220'], ['CSE320']]].
+\##55['Prerequisites' -> [['CSE220']]].
 \##55['Antirequisites' -> 'NONE'].
+\##55['Corequisites' -> [['CSE320']]].
 \##55['Description' -> 'Hands-on course with the goal of understanding various security problems in depth, through a more adversarial way of thinking. By focusing on finding and exploiting vulnerabilities, the course will cover a broad range of topics, including the ethics of offensive security, reverse engineering, software vulnerability discovery and exploitation, malicious code analysis, network traffic interception and manipulation, reconnaissance and information gathering, physical security, and social engineering. All topics will be covered from a highly practical perspective, following a hands-on approach and tutorial-like sessions, along with programming assignments.'].
 \##55['spring1' -> 0].
 \##55['fall1' -> 1].
@@ -599,6 +653,7 @@
 \##56['Credits' -> 3].
 \##56['Prerequisites' -> [['ISE334']]].
 \##56['Antirequisites' -> 'NONE'].
+\##56['Corequisites' -> 'NONE'].
 \##56['Description' -> 'Digital media production techniques for high-bandwidth applications such as electronic magazine illustration, broadcast television, and motion picture special effects. Students explore techniques such as 3D modeling and character animation, video compositing, and high-resolution image processing in a state-of-the art multimedia computing laboratory. High-capacity mutlimedia storage, high-speed networks, and new technologies such as DVD, HDTV, and broadband will be reviewed. This course is offered as both CSE 364 and  ISE 364.'].
 \##56['spring1' -> 1].
 \##56['fall1' -> 0].
@@ -610,6 +665,7 @@
 \##57['Credits' -> 3].
 \##57['Prerequisites' -> [['CSE328', 'ISE332']]].
 \##57['Antirequisites' -> 'NONE'].
+\##57['Corequisites' -> 'NONE'].
 \##57['Description' -> 'An introduction to the practical issues in the design and implementation of virtual environments. Topics covered include the fundamentals of systems requirements, transformations, user-interaction models, human vision models, tracking systems, input/output devices and techniques, and augmented reality. The topics covered are explained through the use of real-life applications of virtual-reality systems in engineering, science, and medicine.'].
 \##57['spring1' -> 0].
 \##57['fall1' -> 0].
@@ -621,6 +677,7 @@
 \##58['Credits' -> 3].
 \##58['Prerequisites' -> [['CSE310']]].
 \##58['Antirequisites' -> 'NONE'].
+\##58['Corequisites' -> 'NONE'].
 \##58['Description' -> 'The fundamentals of wireless communication. Link, network and transcript layer protocols for wireless and mobile networking. Cellular networks. Wireless LANs. Wireless multihop networks. Mobile applications.'].
 \##58['spring1' -> 1].
 \##58['fall1' -> 1].
@@ -632,6 +689,7 @@
 \##59['Credits' -> 3].
 \##59['Prerequisites' -> [['CSE150', 'CSE215', 'MAT200', 'MAT250']]].
 \##59['Antirequisites' -> 'NONE'].
+\##59['Corequisites' -> 'NONE'].
 \##59['Description' -> 'A survey of the logical foundations of mathematics: development of propositional calculus and quantification theory, the notions of a proof and of a model, the completeness theorem, Goedel's incompleteness theorem. This course is offered as both CSE 371 and MAT 371.'].
 \##59['spring1' -> 0].
 \##59['fall1' -> 0].
@@ -643,8 +701,9 @@
 \##60['Credits' -> 3].
 \##60['Prerequisites' -> [['CSE150', 'CSE215', 'MAT200', 'MAT250'], ['MAT211', 'AMS210'], ['CSE214', 'CSE260']]].
 \##60['Antirequisites' -> 'NONE'].
+\##60['Corequisites' -> 'NONE'].
 \##60['Description' -> 'Mathematical analysis of a variety of computer algorithms including searching, sorting, matrix multiplication, fast Fourier transform, and graph algorithms. Time and space complexity. Upper-bound, lower- bound, and average-case analysis. Introduction to NP completeness. Some machine computation is required for the implementation and comparison of algorithms. This course is offered as CSE 373 and MAT 373. Not for credit in addition to CSE 385.'].
-\##60['spring1' -> 1].
+\##60['spring1' -> 0].
 \##60['fall1' -> 1].
 \##60['spring2' -> 1].
 \##60['fall2' -> 1].
@@ -654,6 +713,7 @@
 \##61['Credits' -> 3].
 \##61['Prerequisites' -> [['CSE216'], ['CSE320']]].
 \##61['Antirequisites' -> 'NONE'].
+\##61['Corequisites' -> 'NONE'].
 \##61['Description' -> 'Focuses on several aspects of producing commercial-grade system software: reliability, portability, security, and survivability.   Uses Unix and C, heavily used in industry when developing systems and embedded systems code. Emphasizes techniques and tools to produce reliable, secure, and highly portable code.  Requires substantial programming as well as a course project.'].
 \##61['spring1' -> 0].
 \##61['fall1' -> 0].
@@ -665,6 +725,7 @@
 \##62['Credits' -> 3].
 \##62['Prerequisites' -> [['AMS161', 'MAT127'], ['AMS210', 'MAT211']]].
 \##62['Antirequisites' -> 'NONE'].
+\##62['Corequisites' -> 'NONE'].
 \##62['Description' -> 'An introduction to the mathematical, physical, and computational principles underlying modern medical imaging systems. Covers fundamentals of X-ray computer tomography, ultrasonic imaging, nuclear imaging, and magnetic resonance imaging (MRI), as well as more general concepts required for these, such as linear systems theory and the Fourier transform. Popular techniques for the visualization, segmentation, and analysis of medical image data are discussed, as well as applications of medical imaging, such as image-guided intervention. The course is appropriate for computer science, biomedical engineering, and electrical engineering majors.'].
 \##62['spring1' -> 0].
 \##62['fall1' -> 0].
@@ -676,6 +737,7 @@
 \##63['Credits' -> 3].
 \##63['Prerequisites' -> [['AMS161', 'MAT127'], ['AMS210', 'MAT211', 'MEC262']]].
 \##63['Antirequisites' -> 'NONE'].
+\##63['Corequisites' -> 'NONE'].
 \##63['Description' -> 'Introduces basic concepts in robotics including coordinate transformation, kinematics, dynamics, Laplace transforms, equations of motion, feedback and feedforward control, and trajectory planning. Covers simple and complex sensors (such as cameras), hybrid and behavior based control and path planning. Concepts are illustrated through laboratories using the LEGO Robot Kit.'].
 \##63['spring1' -> 0].
 \##63['fall1' -> 0].
@@ -687,6 +749,7 @@
 \##64['Credits' -> 3].
 \##64['Prerequisites' -> [['CSE216', 'CSE220', 'CSE260']]].
 \##64['Antirequisites' -> 'NONE'].
+\##64['Corequisites' -> 'NONE'].
 \##64['Description' -> 'An introduction to the fundamental concepts of computer game programming. Students design and develop original games for PCs applying proven game design and software engineering principles.'].
 \##64['spring1' -> 0].
 \##64['fall1' -> 0].
@@ -698,6 +761,7 @@
 \##65['Credits' -> 3].
 \##65['Prerequisites' -> [['CSE216', 'CSE220', 'CSE260']]].
 \##65['Antirequisites' -> 'NONE'].
+\##65['Corequisites' -> 'NONE'].
 \##65['Description' -> 'This course explores the concepts and technologies behind making 3D, networked games. This will include the examination of game engine creation as well as the use of middleware to build graphically sophisticated game systems.'].
 \##65['spring1' -> 0].
 \##65['fall1' -> 0].
@@ -709,6 +773,7 @@
 \##66['Credits' -> 4].
 \##66['Prerequisites' -> [['CSE150', 'CSE215', 'MAT200', 'MAT250'], ['AMS210', 'MAT211'], ['CSE214', 'CSE260']]].
 \##66['Antirequisites' -> 'NONE'].
+\##66['Corequisites' -> 'NONE'].
 \##66['Description' -> 'Algorithmic design and analysis for Computer Science Honors students. Mathematical analysis of a variety of computer algorithms including searching, sorting, matrix multiplication, fast Fourier transform, and graph algorithms. Time and space complexity. Upper-bound, lower-bound, and average-case analysis. Randomization. Introduction to NP completeness. Some machine computation is required for the implementation and comparison of algorithms. Not for credit in addition to CSE/MAT 373.'].
 \##66['spring1' -> 0].
 \##66['fall1' -> 0].
@@ -720,6 +785,7 @@
 \##67['Credits' -> 3].
 \##67['Prerequisites' -> [['CSE214', 'CSE260']]].
 \##67['Antirequisites' -> 'NONE'].
+\##67['Corequisites' -> 'NONE'].
 \##67['Description' -> 'A lecture or seminar course on a current topic in computer science. May be repeated as the topic changes, but cannot be used more than twice to satisfy CSE major requirements.'].
 \##67['spring1' -> 0].
 \##67['fall1' -> 0].
@@ -731,6 +797,7 @@
 \##68['Credits' -> 3].
 \##68['Prerequisites' -> [['CSE214', 'CSE260']]].
 \##68['Antirequisites' -> 'NONE'].
+\##68['Corequisites' -> 'NONE'].
 \##68['Description' -> 'A lecture or seminar course on a current topic in computer science. May be repeated as the topic changes, but cannot be used more than twice to satisfy CSE major requirements.'].
 \##68['spring1' -> 1].
 \##68['fall1' -> 0].
@@ -742,6 +809,7 @@
 \##69['Credits' -> 3].
 \##69['Prerequisites' -> [['CSE214', 'CSE260']]].
 \##69['Antirequisites' -> 'NONE'].
+\##69['Corequisites' -> 'NONE'].
 \##69['Description' -> 'A lecture or seminar course on a current topic in computer science. May be repeated as the topic changes, but cannot be used more than twice to satisfy CSE major requirements.'].
 \##69['spring1' -> 0].
 \##69['fall1' -> 0].
@@ -753,6 +821,7 @@
 \##70['Credits' -> 3].
 \##70['Prerequisites' -> [['CSE214', 'CSE260']]].
 \##70['Antirequisites' -> 'NONE'].
+\##70['Corequisites' -> 'NONE'].
 \##70['Description' -> 'A lecture or seminar course on a current topic in computer science. May be repeated as the topic changes, but cannot be used more than twice to satisfy CSE major requirements.'].
 \##70['spring1' -> 0].
 \##70['fall1' -> 0].
@@ -764,6 +833,7 @@
 \##71['Credits' -> 3].
 \##71['Prerequisites' -> [['CSE214', 'CSE260']]].
 \##71['Antirequisites' -> 'NONE'].
+\##71['Corequisites' -> 'NONE'].
 \##71['Description' -> 'A lecture or seminar course on a current topic in computer science. May be repeated as the topic changes, but cannot be used more than twice to satisfy CSE major requirements.'].
 \##71['spring1' -> 1].
 \##71['fall1' -> 1].
@@ -775,6 +845,7 @@
 \##72['Credits' -> 3].
 \##72['Prerequisites' -> [['CSE316']]].
 \##72['Antirequisites' -> 'NONE'].
+\##72['Corequisites' -> 'NONE'].
 \##72['Description' -> 'Introduces the basic concepts and modern tools and techniques of software engineering. Emphasizes the development of reliable and maintainable software via system requirements and specifications, software design methodologies including object-oriented design, implementation, integration, and testing; software project management; life-cycle documentation; software maintenance; and consideration of human factor issues.'].
 \##72['spring1' -> 0].
 \##72['fall1' -> 1].
@@ -786,6 +857,7 @@
 \##73['Credits' -> 3].
 \##73['Prerequisites' -> 'NONE'].
 \##73['Antirequisites' -> 'NONE'].
+\##73['Corequisites' -> 'NONE'].
 \##73['Description' -> 'Students assist faculty in teaching by conducting a recitation or laboratory section that supplements a lecture course. The student receives regularly scheduled supervision from the faculty instructor. May be used as an open elective only and repeated once.'].
 \##73['spring1' -> 0].
 \##73['fall1' -> 0].
@@ -797,10 +869,11 @@
 \##74['Credits' -> '0.00 - 6.00'].
 \##74['Prerequisites' -> 'NONE'].
 \##74['Antirequisites' -> 'NONE'].
+\##74['Corequisites' -> 'NONE'].
 \##74['Description' -> 'An independent research project with faculty supervision. Only three credits of research electives (AMS 487, CSE 487, BME 499, ESE 499, ESM 499, ISE 487, and MEC 499) may be counted toward technical elective requirements. May not be taken for more than six credits.'].
-\##74['spring1' -> 0].
+\##74['spring1' -> 1].
 \##74['fall1' -> 1].
-\##74['spring2' -> 0].
+\##74['spring2' -> 1].
 \##74['fall2' -> 1].
 \##1['CSE488' -> \##75].
 \##75['CourseTitle' -> 'Internship in Computer Science'].
@@ -808,6 +881,7 @@
 \##75['Credits' -> 3].
 \##75['Prerequisites' -> 'NONE'].
 \##75['Antirequisites' -> 'NONE'].
+\##75['Corequisites' -> 'NONE'].
 \##75['Description' -> 'Participation in local, state, national, or international private enterprise, public agencies, or nonprofit institutions. To obtain permission to register for the courses, students are required to submit proof that the work is related to their studies and the work will include a minimum of 180 hours during the semester. During the semester, the student will submit progress reports and a final report on their experience to the client and to the department. May be repeated up to a limit of 12 credits but can only be used once as a technical elective to satisfy CSE major requirements.'].
 \##75['spring1' -> 0].
 \##75['fall1' -> 0].
@@ -819,6 +893,7 @@
 \##76['Credits' -> 3].
 \##76['Prerequisites' -> 'NONE'].
 \##76['Antirequisites' -> 'NONE'].
+\##76['Corequisites' -> 'NONE'].
 \##76['Description' -> 'A two-semester research project carried out under the supervision of a computer science faculty member. Students who enroll in CSE 495 must complete CSE 496 in the subsequent semester and receive only one grade upon completion of the sequence.'].
 \##76['spring1' -> 1].
 \##76['fall1' -> 0].
@@ -830,6 +905,7 @@
 \##77['Credits' -> 3].
 \##77['Prerequisites' -> [['CSE495']]].
 \##77['Antirequisites' -> 'NONE'].
+\##77['Corequisites' -> 'NONE'].
 \##77['Description' -> 'A two-semester research project carried out under the supervision of a computer science faculty member. Students must submit a written project report and make a presentation to the department at the year-end Honors Project Colloquium.'].
 \##77['spring1' -> 0].
 \##77['fall1' -> 1].
@@ -841,6 +917,7 @@
 \##78['Credits' -> 3].
 \##78['Prerequisites' -> 'NONE'].
 \##78['Antirequisites' -> 'NONE'].
+\##78['Corequisites' -> 'NONE'].
 \##78['Description' -> 'Topics covered include instruction pipelines and memory caches to improve computer performance; instruction-level parallelism;  machines: superscalar versus VLIW; cache and main memory hierarchy design tradeoffs; compiler optimizations to speed pipelines; low-power computer system design: processor, OS, and compiler support; graphics, DSP, and media processor design; disk I/O system design; interconnections and networking; and introduction to parallel architecture.  Advanced topics include asynchronous microprocessors; FPGA-based reconfigurable computing; system on a chip; embedded processors; intelligent RAM and superconducting computers.'].
 \##78['spring1' -> 1].
 \##78['fall1' -> 0].
@@ -852,6 +929,7 @@
 \##79['Credits' -> 3].
 \##79['Prerequisites' -> 'NONE'].
 \##79['Antirequisites' -> 'NONE'].
+\##79['Corequisites' -> 'NONE'].
 \##79['Description' -> 'This course covers advanced topics in compilation, including memory management, dataflow analysis, code optimization, just-in-time compilation, and selected topics from compilation of object-oriented and declarative languages.'].
 \##79['spring1' -> 1].
 \##79['fall1' -> 0].
@@ -863,6 +941,7 @@
 \##80['Credits' -> 3].
 \##80['Prerequisites' -> 'NONE'].
 \##80['Antirequisites' -> 'NONE'].
+\##80['Corequisites' -> 'NONE'].
 \##80['Description' -> 'The course explores logic-based computing and logic programming. It includes an introduction to programming in logic, covering basic techniques for solving problems in a logic programming system. Particular attention will be paid to user interface issues and how a logic system can provide a useful computing environment. The course covers implementation issues, emphasizing how a logic programming system generalizes both traditional programming language systems and traditional database systems.'].
 \##80['spring1' -> 0].
 \##80['fall1' -> 0].
@@ -874,6 +953,7 @@
 \##81['Credits' -> 3].
 \##81['Prerequisites' -> 'NONE'].
 \##81['Antirequisites' -> 'NONE'].
+\##81['Corequisites' -> 'NONE'].
 \##81['Description' -> 'This course is an in-depth study of important concepts and techniques found in modern computer operating systems.  The course focuses on an in-depth study of such important issues as virtual memory, resource management, locking and synchronization, file systems, networking, safety and security, and multiprocessor support, with an eye to recent directions in these areas. Textbook readings are supplemented where appropriate by papers from the research literature.  An important part of the course is the case study of an actual modern operating system (e.g., Linux).  Students study the source code for this operating system and do programming exercises and projects that involve modifying the operating system, testing their code's stability and functionality, and measuring its performance.'].
 \##81['spring1' -> 0].
 \##81['fall1' -> 1].
@@ -885,6 +965,7 @@
 \##82['Credits' -> 3].
 \##82['Prerequisites' -> 'NONE'].
 \##82['Antirequisites' -> 'NONE'].
+\##82['Corequisites' -> 'NONE'].
 \##82['Description' -> 'Overview of computational approaches to language use. Core topics include mathematical and logical foundations, syntax, semantics, and pragmatics. Special topics may include speech processing, dialog systems, machine translation, information extraction, and information retrieval. Statistical and traditional approaches are included. Students will develop familiarity with the literature and tools of the field.'].
 \##82['spring1' -> 0].
 \##82['fall1' -> 1].
@@ -896,6 +977,7 @@
 \##83['Credits' -> 3].
 \##83['Prerequisites' -> 'NONE'].
 \##83['Antirequisites' -> 'NONE'].
+\##83['Corequisites' -> 'NONE'].
 \##83['Description' -> 'Principles and practice of Computer Network Security.  Cryptography, authentication protocols, public key infrastructures, IP/www/E-commerce security, firewalls, VPN, and intrusion detection.'].
 \##83['spring1' -> 0].
 \##83['fall1' -> 0].
@@ -907,6 +989,7 @@
 \##84['Credits' -> 3].
 \##84['Prerequisites' -> 'NONE'].
 \##84['Antirequisites' -> 'NONE'].
+\##84['Corequisites' -> 'NONE'].
 \##84['Description' -> 'Principles and practice of building and administering secure systems.  Authentication and access control.  Operating system security.  Program security, database security.  Key management.  Information flow.  Assurance.  Vulnerability analysis and intrusion detection.'].
 \##84['spring1' -> 0].
 \##84['fall1' -> 0].
@@ -918,6 +1001,7 @@
 \##85['Credits' -> 3].
 \##85['Prerequisites' -> 'NONE'].
 \##85['Antirequisites' -> 'NONE'].
+\##85['Corequisites' -> 'NONE'].
 \##85['Description' -> 'Hybrid Systems combine discrete state-machines and continuous differential equations and have been used as models of a large number of applications such as real-time software, embedded systems, robotics, mechatronics, aerospace systems, process control and biological systems. The course will cover modeling, design, analysis, and verification methods for hybrid systems. Topics may include SAT/SMT solvers, timed automata, formal logics for system specification, verification algorithms and closed-loop neural network control systems.'].
 \##85['spring1' -> 1].
 \##85['fall1' -> 1].
@@ -929,6 +1013,7 @@
 \##86['Credits' -> 3].
 \##86['Prerequisites' -> 'NONE'].
 \##86['Antirequisites' -> 'NONE'].
+\##86['Corequisites' -> 'NONE'].
 \##86['Description' -> 'An introduction to brain modeling. Neuroscience topics include major brain structures, constituent glia and neurons, and synapses connecting neurons; how excited neurons send ionic firing spikes to other neurons; synapse changes during learning and forgetting; connection structures for stable ionic activity in neural networks; and distributed firing patterns underlying memory, perception, and thought. Computing topics include efficient methods for modeling electrical activity in single neurons using NEURON and in networks of millions of neurons using discrete event simulation. Participants will code simulations OR use neuroscience experience to refine brain models.'].
 \##86['spring1' -> 0].
 \##86['fall1' -> 0].
@@ -940,6 +1025,7 @@
 \##87['Credits' -> 3].
 \##87['Prerequisites' -> 'NONE'].
 \##87['Antirequisites' -> 'NONE'].
+\##87['Corequisites' -> 'NONE'].
 \##87['Description' -> 'A course on the fundamentals of machine learning, including basic models, formulations, and modern methods. Topics include PAC learnability, validation, classification, regression, clustering, component analysis, and graphical and deep learning models. Students are expected to have the following background: (i) working knowledge of probability theory and statistics, (ii) working knowledge of linear algebra and algorithms, and (iii) working knowledge of basic computer science principles at a level sufficient to write non-trivial computer programs in a language of preference.'].
 \##87['spring1' -> 0].
 \##87['fall1' -> 0].
@@ -951,6 +1037,7 @@
 \##88['Credits' -> 3].
 \##88['Prerequisites' -> 'NONE'].
 \##88['Antirequisites' -> 'NONE'].
+\##88['Corequisites' -> 'NONE'].
 \##88['Description' -> 'Architecture, and design of data analytics software stacks.  We will cover MapReduce/Hadoop/Dryad/Twister, Hadoop File System (HDFS), HBASE, NOSQL tools such as MongoDB, Cassandra, HIVE; column oriented database systems such as Vertica and MonetDB.  We will also cover data analysis management systems that target the scientific domain such as ADIOS, sciDB; streaming systems such as IBM System S/DataCutter.  Systems, data structures and algorithms to support management and analysis of spatio-temporal data from video cameras, satelliteds, telescopes or beamlines.  We will study statistical methods, machine learning and image anlysis/reconstruction methods used in big data/data analytic problems.  Finally, we will survey big data/data analytic problems from several domains including biomedical analysis of multi scale, multi-modal biomedical imaging data, next generation genetic and demonic data, analysis of electronic medical record/population heath data; internet,internet search, recommender systems; and engineering and physical science,analysis of experimental and simulation data associated with design of energetic materials, oil reservoir simulation, nuclear fusion and self-driving cars.'].
 \##88['spring1' -> 0].
 \##88['fall1' -> 1].
@@ -962,6 +1049,7 @@
 \##89['Credits' -> 3].
 \##89['Prerequisites' -> 'NONE'].
 \##89['Antirequisites' -> 'NONE'].
+\##89['Corequisites' -> 'NONE'].
 \##89['Description' -> 'Discusses transaction processing systems.  Topics covered include models of transactions, including nested transactions and workflow; architectures of transaction processing systems, including client-server, two-tiered, and three-tiered architectures; concurrency controls for conventional and relational databases including two-phase locking and the SQL isolation levels; logging and recovery; distributed transactions including the two-phase commit protocol; replication; Internet commerce, including encryption, the SSL and SET protocols, goods atomicity, and electronic cash.'].
 \##89['spring1' -> 0].
 \##89['fall1' -> 0].
@@ -973,6 +1061,7 @@
 \##90['Credits' -> 1].
 \##90['Prerequisites' -> 'NONE'].
 \##90['Antirequisites' -> 'NONE'].
+\##90['Corequisites' -> 'NONE'].
 \##90['Description' -> 'This is part one of an interdisciplinary course sequence (1 credit each) is designed for students in computer science (CS) and students of technology and society (DTS). Students taking this course will enhance their abilities to critically think and build awareness for science and technology (ST) and their societal aspects. They will learn strategies for assessing important questions such as: what should I focus my efforts on, where are societal needs, what policies are required or can be taken advantage of, how can I possibly influence policy, and finally, what are the dangers when developing new ST. To teach these topics the course takes a practical approach. The first section of the sequence examines historical science and technology successes and failures. Then, in the second section, teams composed of students from both the CS and DTS departments conduct case studies of existing ST or design and implement new ST under the perspectives of the course.
 
 1 credit'].
@@ -986,6 +1075,7 @@
 \##91['Credits' -> 1].
 \##91['Prerequisites' -> 'NONE'].
 \##91['Antirequisites' -> 'NONE'].
+\##91['Corequisites' -> 'NONE'].
 \##91['Description' -> 'This is part two of an interdisciplinary course sequence (1 credit each) is designed for students in computer science (CS) and students of technology and society (DTS). Students taking this course will enhance their abilities to critically think and build awareness for science and technology (ST) and their societal aspects. They will learn strategies for assessing important questions such as: what should I focus my efforts on, where are societal needs, what policies are required or can be taken advantage of, how can I possibly influence policy, and finally, what are the dangers when developing new ST. To teach these topics the course takes a practical approach. The first section of the sequence examines historical science and technology successes and failures. Then, in the second section, teams composed of students from both the CS and DTS departments  conduct case studies of existing ST or design and implement new ST under the perspectives of the course.
 
 1 credit'].
@@ -999,6 +1089,7 @@
 \##92['Credits' -> 3].
 \##92['Prerequisites' -> 'NONE'].
 \##92['Antirequisites' -> 'NONE'].
+\##92['Corequisites' -> 'NONE'].
 \##92['Description' -> 'The focus of this course is on the design, evaluation, and implementation of interactive computing systems for human use and on the study of major phenomena surrounding them.  This course will provide the students with a strong grounding in the guidelines, principles, methodologies, tools, and techniques for analyzing, designing, and evaluating user interfaces and interaction techniques.  Topics include: 1) Human Information Processing System 2) Interaction Behavior Modeling 3) Computational Interface Design 4) User Centered Design 5) Sketching and Prototyping 6) Usability Testing 7) Heuristic Evaluation 8) Natural User Interfaces & the Future of Uls 9) State-of-the-art research within HCI'].
 \##92['spring1' -> 0].
 \##92['fall1' -> 0].
@@ -1010,6 +1101,7 @@
 \##93['Credits' -> 3].
 \##93['Prerequisites' -> 'NONE'].
 \##93['Antirequisites' -> 'NONE'].
+\##93['Corequisites' -> 'NONE'].
 \##93['Description' -> 'This course will cover the building blocks of data science from managing the data itself to algorithmic and analytical techniques. Specific topics include data preparation, exploratory data analysis, statistics, visualization, optimization, unstructured data, distributed analyses.'].
 \##93['spring1' -> 0].
 \##93['fall1' -> 0].
@@ -1021,6 +1113,7 @@
 \##94['Credits' -> 3].
 \##94['Prerequisites' -> 'NONE'].
 \##94['Antirequisites' -> 'NONE'].
+\##94['Corequisites' -> 'NONE'].
 \##94['Description' -> 'Data Mining is a new, promising and flourishing interdisciplinary field drawing work from areas including database technology, artificial intelligence, machine learning, pattern recognition, high-performance computing, and data visualization. It focuses on issues relating to the feasibility, usefulness, efficiency, and scalability of techniques for automated extraction of patterns representing knowledge implicitly stored in large databases, warehouses, and other massive information repositories. The course gives a broad, yet in-depth overview of the field of data mining and presents one or two techniques in rigorous detail.'].
 \##94['spring1' -> 0].
 \##94['fall1' -> 0].
@@ -1032,6 +1125,7 @@
 \##95['Credits' -> 3].
 \##95['Prerequisites' -> 'NONE'].
 \##95['Antirequisites' -> 'NONE'].
+\##95['Corequisites' -> 'NONE'].
 \##95['Description' -> 'Project in a sub-discipline of Computer Science, including but not limited to, computer architecture, operating systems, programming languages, compliers, artificial intelligence, networking, computer graphics, data mining, databases, computer vision, visualization, computer security, mobile computing, parallel processing, logic programming, hybrid systems, simulation and modeling, computational biology, and multimedia.
 3 Credits, ABCF Grading'].
 \##95['spring1' -> 1].
@@ -1044,6 +1138,7 @@
 \##96['Credits' -> 3].
 \##96['Prerequisites' -> 'NONE'].
 \##96['Antirequisites' -> 'NONE'].
+\##96['Corequisites' -> 'NONE'].
 \##96['Description' -> 'First part of an advanced project in computer science that will extend over two semesters.  The student starts the project in one semester by registering for CSE523 and completes the project in a following semester by registering for CSE524.  CSE523/524 sequence must be on the same project under the direction of the same advisor.  The student must identify a faculty advisor before registering.
 3 Credits, ABCF Grading'].
 \##96['spring1' -> 1].
@@ -1056,6 +1151,7 @@
 \##97['Credits' -> 3].
 \##97['Prerequisites' -> 'NONE'].
 \##97['Antirequisites' -> 'NONE'].
+\##97['Corequisites' -> 'NONE'].
 \##97['Description' -> 'Part 2 of a 2-semester advanced research and development project undertaken by MS students under the supervision of a CS graduate program faculty member.  The student starts the project in one semester by registering for CSE 523 and completes the project in a subsequent semester by registering for CSE 524 under the supervision of the same faculty member.'].
 \##97['spring1' -> 0].
 \##97['fall1' -> 0].
@@ -1067,6 +1163,7 @@
 \##98['Credits' -> 3].
 \##98['Prerequisites' -> 'NONE'].
 \##98['Antirequisites' -> 'NONE'].
+\##98['Corequisites' -> 'NONE'].
 \##98['Description' -> 'This course introduces the fundamental concepts in robotics, including coordinate transformations, visual perception, sensors, path planning, kinematics, feedback control, and feedforward control. These topics will be exemplified with several state-of-the-art robotics platforms. The course will also focus on applying the fundamental concepts to the key approaches to mobile robot control (reactive, behavior-based, and hybrid), and briefly discuss robot learning and multi-robot systems.'].
 \##98['spring1' -> 1].
 \##98['fall1' -> 1].
@@ -1078,6 +1175,7 @@
 \##99['Credits' -> 3].
 \##99['Prerequisites' -> 'NONE'].
 \##99['Antirequisites' -> 'NONE'].
+\##99['Corequisites' -> 'NONE'].
 \##99['Description' -> 'Discusses programming language concepts and design, with emphasis on abstraction mechanisms. Topics include language paradigms (procedural, object-oriented, functional, and logic), language concepts (values, bindings, types, modules), and foundations (lambda calculus, denotational semantics). Examples will be drawn from several representative languages, such as C, Java, Standard ML, and Prolog.'].
 \##99['spring1' -> 0].
 \##99['fall1' -> 1].
@@ -1089,6 +1187,7 @@
 \##100['Credits' -> 3].
 \##100['Prerequisites' -> 'NONE'].
 \##100['Antirequisites' -> 'NONE'].
+\##100['Corequisites' -> 'NONE'].
 \##100['Description' -> 'Introduction to basic concepts in computer vision. Low-level image analysis, image formation, edge detection, segmentation. Image transformations for image synthesis methods for 3D scene reconstruction, motion analysis, object recognition.'].
 \##100['spring1' -> 1].
 \##100['fall1' -> 0].
@@ -1100,6 +1199,7 @@
 \##101['Credits' -> 3].
 \##101['Prerequisites' -> 'NONE'].
 \##101['Antirequisites' -> 'NONE'].
+\##101['Corequisites' -> 'NONE'].
 \##101['Description' -> 'This course emphasizes a hands-on approach to the use of computer graphics. The topics covered include models, picture description, and interaction; c windowing, clipping, panning, and zooming; geometrical transformations in 2D and 3D; algorithms for raster displays (scan-line conversion, polygon fill, polygon clipping, etc.); hidden line and hidden surface removal, shading models; user interaction. The students will implement a substantial graphics application program.'].
 \##101['spring1' -> 1].
 \##101['fall1' -> 1].
@@ -1111,6 +1211,7 @@
 \##102['Credits' -> 3].
 \##102['Prerequisites' -> 'NONE'].
 \##102['Antirequisites' -> 'NONE'].
+\##102['Corequisites' -> 'NONE'].
 \##102['Description' -> 'A comprehensive course in formulation, implementation, and application of simulation models. Topics include data structures, simulation languages, statistical analysis, pseudo-random number generation, and design of simulation experiments. Students apply simulation modeling methods to problems of their own design. This course is offered as CSE 529, AMS 553 and MBA 553.'].
 \##102['spring1' -> 0].
 \##102['fall1' -> 0].
@@ -1122,6 +1223,7 @@
 \##103['Credits' -> 3].
 \##103['Prerequisites' -> 'NONE'].
 \##103['Antirequisites' -> 'NONE'].
+\##103['Corequisites' -> 'NONE'].
 \##103['Description' -> 'This course will focus on mathematical tools, geometric modeling techniques, and fundamental algorithms that are relevant to graphics, visualization, and other visual computing areas. The goal is to provide graduate students with a comprehensive knowledge of geometric concepts and demonstrate the significance of these mathematical tools and geometric algorithms in graphics and relevant areas. Course topics include geometric algorithms for both polygonal and curved objects, theory of parametric and implicit representations, modeling methods of curves, surfaces, and solids, in-depth spline theory, rudiments of wavelet theory and multi-resolution shape representations, differential geometry fundamentals, and other sophisticated topics and latest advances in the field.'].
 \##103['spring1' -> 0].
 \##103['fall1' -> 0].
@@ -1133,6 +1235,7 @@
 \##104['Credits' -> 3].
 \##104['Prerequisites' -> 'NONE'].
 \##104['Antirequisites' -> 'NONE'].
+\##104['Corequisites' -> 'NONE'].
 \##104['Description' -> 'This is a new course that covers topics in the performance analysis of computer systems.  The contents of the course should prove very helpful for computer science students who wish to analyze computer systems and learn more about how to improve the performance of systems.  Existing courses do not cover this material.  The course is targeted primarily at PhD and Masters students in the Computer Science Department, however upper-level undergraduates can take the course as well.  In addition, students from AMS, Math and ECE would also benefit from the course contents.'].
 \##104['spring1' -> 0].
 \##104['fall1' -> 0].
@@ -1144,6 +1247,7 @@
 \##105['Credits' -> 3].
 \##105['Prerequisites' -> 'NONE'].
 \##105['Antirequisites' -> 'NONE'].
+\##105['Corequisites' -> 'NONE'].
 \##105['Description' -> 'The course will cover advanced topics in modern database systems, including object-oriented databases, rule-based databases, temporal and active databases, parallel and distributed databases, distributed object model, data mining, online analytical processing, data warehousing, multimedia databases.'].
 \##105['spring1' -> 1].
 \##105['fall1' -> 0].
@@ -1155,6 +1259,7 @@
 \##106['Credits' -> 3].
 \##106['Prerequisites' -> 'NONE'].
 \##106['Antirequisites' -> 'NONE'].
+\##106['Corequisites' -> 'NONE'].
 \##106['Description' -> 'Topics include Unix and Linux socket API programming at the TCP, UDP, IP (raw sockets) and datalink access (Linux PF_PACKET sockets, libpcap & libnet libraries) levels, in the context of developing and implementing client-server applications, reliable data transfer using TCP-like rdt and flow control mechanisms, routing protocols, address resolution protocols, multicasting, DNS protocols.'].
 \##106['spring1' -> 1].
 \##106['fall1' -> 0].
@@ -1166,6 +1271,7 @@
 \##107['Credits' -> 3].
 \##107['Prerequisites' -> 'NONE'].
 \##107['Antirequisites' -> 'NONE'].
+\##107['Corequisites' -> 'NONE'].
 \##107['Description' -> 'Internet protocol layers. Internet Architecture. Link layer and multiple access protocols. Local area networks including wireless LANs. Routing on the Internet. Intra- and Inter-domain routing. Mobile routing. Transport layer and TCP congestion control. Scheduling and fairness. Application layers. Overlay and P2P networks. Content distribution networks. Network performance modeling.'].
 \##107['spring1' -> 1].
 \##107['fall1' -> 0].
@@ -1177,6 +1283,7 @@
 \##108['Credits' -> 3].
 \##108['Prerequisites' -> 'NONE'].
 \##108['Antirequisites' -> 'NONE'].
+\##108['Corequisites' -> 'NONE'].
 \##108['Description' -> 'Discusses asynchronous systems, their description using concurrent and distributed programming languages, and their verification. Topics include concurrent programming using shared memory and message passing, formal semantics of communication, reliability, and concurrent algorithms.'].
 \##108['spring1' -> 1].
 \##108['fall1' -> 0].
@@ -1188,6 +1295,7 @@
 \##109['Credits' -> 3].
 \##109['Prerequisites' -> 'NONE'].
 \##109['Antirequisites' -> 'NONE'].
+\##109['Corequisites' -> 'NONE'].
 \##109['Description' -> 'Survey of user-interface systems, includes command language, windowing, multiple input/output devices, architecture of user interface management systems, toolkits for designing user-interface, human factors, standards, visual languages.  The course also includes discussion of emerging technologies, such as systems for cooperative work, physically distributed user-interfaces, parallelism and user-interfaces, virtual reality.  A substantial project requiring the design, implementation, and evaluation of a user-interface will be required'].
 \##109['spring1' -> 0].
 \##109['fall1' -> 0].
@@ -1199,6 +1307,7 @@
 \##110['Credits' -> 3].
 \##110['Prerequisites' -> 'NONE'].
 \##110['Antirequisites' -> 'NONE'].
+\##110['Corequisites' -> 'NONE'].
 \##110['Description' -> 'A comprehensive introduction to the problems of artificial intelligence and techniques for attacking them.  Topics include problem representation, problem-solving methods, search, pattern recognition, natural language processing, learning, expert systems, and AI programming languages and techniques. Covers both theoretical methods and practical implementations.'].
 \##110['spring1' -> 0].
 \##110['fall1' -> 0].
@@ -1210,6 +1319,7 @@
 \##111['Credits' -> 3].
 \##111['Prerequisites' -> 'NONE'].
 \##111['Antirequisites' -> 'NONE'].
+\##111['Corequisites' -> 'NONE'].
 \##111['Description' -> 'The course offers an introduction to Natural Language Processing techniques and applications. The course introduces basic deep learning techniques for constructing representations of natural language texts, syntactic analyses, and canonical applications such as Question Answering, and Machine Translation. The emphasis is on understanding how (i) the basic requirements of language analyses and specific application needs can be formulated as learning problems, (ii) how aspects of natural language, such as syntactic and semantic structure, inspire the design of and are captured by modern state of the art techniques, and (iii) how to evaluate and understand the limitations and shortcomings of the models'].
 \##111['spring1' -> 0].
 \##111['fall1' -> 0].
@@ -1221,6 +1331,7 @@
 \##112['Credits' -> 3].
 \##112['Prerequisites' -> 'NONE'].
 \##112['Antirequisites' -> 'NONE'].
+\##112['Corequisites' -> 'NONE'].
 \##112['Description' -> 'Topics include models of computation: finite-state machines, stack machines, Turing machines, Church's thesis; computability theory: halting problem and unsolvability, introductory recursion theory; complexity theory: complexity measures, time and space hierarchy, NP-complete problems.'].
 \##112['spring1' -> 0].
 \##112['fall1' -> 0].
@@ -1232,6 +1343,7 @@
 \##113['Credits' -> 3].
 \##113['Prerequisites' -> 'NONE'].
 \##113['Antirequisites' -> 'NONE'].
+\##113['Corequisites' -> 'NONE'].
 \##113['Description' -> 'A survey of the logical foundations of mathematics and the relationships to computer science; development of propositional calculus and quantification theory; the notions of a proof and of a model; the completeness theorem.'].
 \##113['spring1' -> 0].
 \##113['fall1' -> 0].
@@ -1243,6 +1355,7 @@
 \##114['Credits' -> 3].
 \##114['Prerequisites' -> 'NONE'].
 \##114['Antirequisites' -> 'NONE'].
+\##114['Corequisites' -> 'NONE'].
 \##114['Description' -> 'Recent progress on big data systems, algorithms and networks.  Topics include the web graph, search engines, targeted advertisements, online algorithms and competitive analysis, and analytics, storage, resource allocation, and security in big data systems.
 Offered in the Spring Semester'].
 \##114['spring1' -> 0].
@@ -1255,6 +1368,7 @@ Offered in the Spring Semester'].
 \##115['Credits' -> 3].
 \##115['Prerequisites' -> 'NONE'].
 \##115['Antirequisites' -> 'NONE'].
+\##115['Corequisites' -> 'NONE'].
 \##115['Description' -> 'The course will cover core concepts of probability theory and an assortment of standard statistical techniques.  Specific topics will include random variables and distributions, quantitative research methods (correlation and regression), and modern techniques of optimization and matching learning (clustering and prediction).'].
 \##115['spring1' -> 0].
 \##115['fall1' -> 0].
@@ -1266,6 +1380,7 @@ Offered in the Spring Semester'].
 \##116['Credits' -> 3].
 \##116['Prerequisites' -> 'NONE'].
 \##116['Antirequisites' -> 'NONE'].
+\##116['Corequisites' -> 'NONE'].
 \##116['Description' -> 'The course will cover concepts and standard tools used to analyze, so called, Big Data.  Specifically, it will cover algorithmic approaches to analyzing large datasets: MapReduce, graph analytics, text analytics, steaming algorithms, as well as modern distribution analysis platforms (e.g. Hadoop, Spark).'].
 \##116['spring1' -> 0].
 \##116['fall1' -> 0].
@@ -1277,6 +1392,7 @@ Offered in the Spring Semester'].
 \##117['Credits' -> 3].
 \##117['Prerequisites' -> 'NONE'].
 \##117['Antirequisites' -> 'NONE'].
+\##117['Corequisites' -> 'NONE'].
 \##117['Description' -> 'Cryptography studies how to perform computational tasks securely in adversarial environments. It plays an important role in designing secure systems. This is an introductory course that covers basic concepts and proof techniques in this area, as well as some recent research trends. The course is theoretical in nature, with emphasis on proofs and algorithmic reductions, even when discussing applied topics. No prior background in cryptography is assumed. However, students should have mathematical maturity and be comfortable with definitions and proofs.'].
 \##117['spring1' -> 0].
 \##117['fall1' -> 0].
@@ -1288,6 +1404,7 @@ Offered in the Spring Semester'].
 \##118['Credits' -> 3].
 \##118['Prerequisites' -> 'NONE'].
 \##118['Antirequisites' -> 'NONE'].
+\##118['Corequisites' -> 'NONE'].
 \##118['Description' -> 'This course introduces such mathematical tools as summations, number theory, binomial coefficients, generating functions, recurrence relations, discrete probability, asymptotics, combinatorics, and graph theory for use in algorithmic and combinatorial analysis. This course is offered as both CSE 547 and AMS 547.'].
 \##118['spring1' -> 0].
 \##118['fall1' -> 0].
@@ -1299,6 +1416,7 @@ Offered in the Spring Semester'].
 \##119['Credits' -> 3].
 \##119['Prerequisites' -> 'NONE'].
 \##119['Antirequisites' -> 'NONE'].
+\##119['Corequisites' -> 'NONE'].
 \##119['Description' -> 'Techniques for designing efficient algorithms, including choice of data structures, recursion, branch and bound, divide and conquer, and dynamic programming. Complexity analysis of searching, sorting, matrix multiplication, and graph algorithms. Standard NP-complete problems and polynomial transformation techniques.  This course is offered as both AMS 542 and CSE 548.'].
 \##119['spring1' -> 0].
 \##119['fall1' -> 0].
@@ -1310,6 +1428,7 @@ Offered in the Spring Semester'].
 \##120['Credits' -> 3].
 \##120['Prerequisites' -> 'NONE'].
 \##120['Antirequisites' -> 'NONE'].
+\##120['Corequisites' -> 'NONE'].
 \##120['Description' -> 'This course focuses on current problems in computational biology and bioinformatics. Our emphasis will be algorithmic, on discovering appropriate combinatorial algorithm problems and the techniques to solve them. Primary topics will include DNA sequence assembly, DNA/protein sequence comparison, hybridization array analysis, RNA and protein folding, and phylogenic trees.'].
 \##120['spring1' -> 0].
 \##120['fall1' -> 0].
@@ -1321,6 +1440,7 @@ Offered in the Spring Semester'].
 \##121['Credits' -> 3].
 \##121['Prerequisites' -> 'NONE'].
 \##121['Antirequisites' -> 'NONE'].
+\##121['Corequisites' -> 'NONE'].
 \##121['Description' -> 'This course is an introduction to and survey of the Quantum Computing, an emerging interdisciplinary field of science which has the potential to revolutionize computation over the next ten years, to transform chemistry, medicine, engineering and communications, as well as to change our understanding of physical world. The course will build intuitive approach to quantum computation and algorithms, but also will advance relevant vocabulary and skills for faculties and graduate students in engineering, computing, applied mathematics, chemistry, physics and related sciences.'].
 \##121['spring1' -> 0].
 \##121['fall1' -> 0].
@@ -1332,6 +1452,7 @@ Offered in the Spring Semester'].
 \##122['Credits' -> 3].
 \##122['Prerequisites' -> 'NONE'].
 \##122['Antirequisites' -> 'NONE'].
+\##122['Corequisites' -> 'NONE'].
 \##122['Description' -> 'Energy and sustainability have become critical issues of our generation.  While the abundant potential of renewable energy sources, such as solar and wind, provides a real opportunity for sustainability, their intermittency and uncertainty present a daunting operational challenge.  This course studies how to use Information Technology (IT) to improve sustainability in our energy-hungry society.  In particular, topics include the applications of mathematical modeling, algorithm design, optimization, game theory, and control theory in real systems.  The goal of the course is to provide rigorous foundations for the study of smart energy management for sustainability.
 Offered in the Spring Semester'].
 \##122['spring1' -> 0].
@@ -1344,6 +1465,7 @@ Offered in the Spring Semester'].
 \##123['Credits' -> 3].
 \##123['Prerequisites' -> 'NONE'].
 \##123['Antirequisites' -> 'NONE'].
+\##123['Corequisites' -> 'NONE'].
 \##123['Description' -> 'Energy is an important resource for a wide range of computer systems from laptops to data centers and clouds. There has been considerable recent research on the topic of of improving energy efficiency, cutting across different areas of Computer Science including Computer Architecture (e.g., energy efficient processor design), Networking (e.g., putting the network to sleep), Storage (e.g., exploiting idle I/O periods to spin down disks), Distributed Systems (e.g., capacity provisioning), Mobile Systems (e.g., putting the radio receiver to sleep in a smartphone), and Modeling/Analytics (e.g., modeling a server's power consumption). This course covers the recent research trends in energy-efficient computing, focusing specifically on themes and techniques for achieving efficiency in computer systems.'].
 \##123['spring1' -> 0].
 \##123['fall1' -> 0].
@@ -1355,6 +1477,7 @@ Offered in the Spring Semester'].
 \##124['Credits' -> 3].
 \##124['Prerequisites' -> 'NONE'].
 \##124['Antirequisites' -> 'NONE'].
+\##124['Corequisites' -> 'NONE'].
 \##124['Description' -> 'Study of the fundamental algorithmic problems associated with geometric computations, including convex hulls, Voronoi diagrams, triangulation, intersection, range queries, visibility, arrangements, and motion planning for robotics.  Algorithmic methods include plane sweep, incremental insertion, randomization, divide-and-conquer, etc.  This course is offered as both AMS 545 and CSE 555.'].
 \##124['spring1' -> 0].
 \##124['fall1' -> 0].
@@ -1366,6 +1489,7 @@ Offered in the Spring Semester'].
 \##125['Credits' -> 3].
 \##125['Prerequisites' -> 'NONE'].
 \##125['Antirequisites' -> 'NONE'].
+\##125['Corequisites' -> 'NONE'].
 \##125['Description' -> 'The course emphasizes a hands-on approach to scientific, medical, and information visualization and visual analytics. Topics include: traditional visualization techniques, the visualization process, visual perception and cognition, basic graphics and imaging concepts, visualization of sampled, observed, and computed data, volume and flow visualization, information visualization, human-computer interaction, and the coupling of intelligent computing with visualization'].
 \##125['spring1' -> 0].
 \##125['fall1' -> 0].
@@ -1377,6 +1501,7 @@ Offered in the Spring Semester'].
 \##126['Credits' -> 3].
 \##126['Prerequisites' -> 'NONE'].
 \##126['Antirequisites' -> 'NONE'].
+\##126['Corequisites' -> 'NONE'].
 \##126['Description' -> 'Virtual Reality (VR) is a fast-moving technology and has the potential to revolutionize our lives. VR stimulates the user¿s senses, thereby believing in an artificial version of reality. The course will cover VR fundamentals and technologies and related topics, including an introduction to VR, VR systems, geometry and transformations in VR, viewing and projections, light, optics, and human vision physiology, temporal human vision and perception, motion, vection, and tracking, 3D user interfaces (selection, manipulation, and travel), augmented reality (AR), audio in VR, and non-visual senses.'].
 \##126['spring1' -> 0].
 \##126['fall1' -> 0].
@@ -1388,6 +1513,7 @@ Offered in the Spring Semester'].
 \##127['Credits' -> 3].
 \##127['Prerequisites' -> 'NONE'].
 \##127['Antirequisites' -> 'NONE'].
+\##127['Corequisites' -> 'NONE'].
 \##127['Description' -> 'Wireless communication fundamentals: wireless signal transmission, coding, multiplexing. Link, network, and transport layer protocols for wireless and mobile networking: medium access control, transmission scheduling, wireless capacity, protocols for wireless multi-hop networks. Cellular networks. Wireless LANs: mobile IP, TCP over wireless networks. Mobile applications. Localization and location management, Network coding. Wireless security.'].
 \##127['spring1' -> 0].
 \##127['fall1' -> 0].
@@ -1399,6 +1525,7 @@ Offered in the Spring Semester'].
 \##128['Credits' -> 3].
 \##128['Prerequisites' -> 'NONE'].
 \##128['Antirequisites' -> 'NONE'].
+\##128['Corequisites' -> 'NONE'].
 \##128['Description' -> 'This course presents an introduction to the mathematical, physical, and computational principles underlying modern medical imaging systems. It covers fundamentals of X-ray radiography, X-ray computed tomography (CT), ultrasonic imaging, nuclear imaging, magnetic resonance imaging (MRI), and functional MRI (fMRI), as well as more general concepts required for these, such as linear systems theory, the Fourier Transform, and numerical optimization. Popular techniques for the visualization, segmentation, and analysis of medical image data will also be discussed, as well as applications of medical imaging, such as image-guided intervention.'].
 \##128['spring1' -> 0].
 \##128['fall1' -> 0].
@@ -1410,6 +1537,7 @@ Offered in the Spring Semester'].
 \##129['Credits' -> 3].
 \##129['Prerequisites' -> 'NONE'].
 \##129['Antirequisites' -> 'NONE'].
+\##129['Corequisites' -> 'NONE'].
 \##129['Description' -> 'The course consists of two parts. The first part covers discrete mathematics -- a division of mathematics that is extensively used in computer science. The topics covered include: logic (propositional logic and predicate logic), proof techniques, sequences (mathematical induction and recursion), and functions. The second part covers the theory of computation -- a division of theoretical computer science that deals with what can be computed and what cannot be computed on a computer. The topics covered include: computational models (FA, PDA, and Turing machines), grammars accepted by different computational models (regular grammars, context-free grammars, and unrestricted grammars), languages accepted by different computational models (regular languages, context-free language, and Turing-acceptable languages), Turing-complete systems, and algorithmically unsolvable problems.'].
 \##129['spring1' -> 0].
 \##129['fall1' -> 0].
@@ -1421,6 +1549,7 @@ Offered in the Spring Semester'].
 \##130['Credits' -> 3].
 \##130['Prerequisites' -> 'NONE'].
 \##130['Antirequisites' -> 'NONE'].
+\##130['Corequisites' -> 'NONE'].
 \##130['Description' -> 'The course consists of two parts. The first part covers data structures to efficiently store, organize, modify, and access data. Topics include: arrays, stacks, queues, linked lists, trees, sets, hash maps, priority queues, and graphs. The second part covers the design and analysis of algorithms for solving computer science problems. Topics include: algorithm analysis, exhaustive search algorithms, divide-and-conquer algorithms, greedy algorithms, and dynamic programming algorithms.'].
 \##130['spring1' -> 0].
 \##130['fall1' -> 0].
@@ -1432,6 +1561,7 @@ Offered in the Spring Semester'].
 \##131['Credits' -> 3].
 \##131['Prerequisites' -> 'NONE'].
 \##131['Antirequisites' -> 'NONE'].
+\##131['Corequisites' -> 'NONE'].
 \##131['Description' -> 'Programming concepts and paradigms, including functional programming, object-orientation, basics of type systems, program and data abstractions, parameter passing, and modularity.'].
 \##131['spring1' -> 0].
 \##131['fall1' -> 0].
@@ -1443,6 +1573,7 @@ Offered in the Spring Semester'].
 \##132['Credits' -> 3].
 \##132['Prerequisites' -> 'NONE'].
 \##132['Antirequisites' -> 'NONE'].
+\##132['Corequisites' -> 'NONE'].
 \##132['Description' -> 'This course is used by students to fill any gaps in key CS proficiency background) areas identified at the time of admission. This course is done under the supervision of a faculty member teaching an undergraduate course in the needed proficiency area.  By permission of the Graduate Program only.'].
 \##132['spring1' -> 0].
 \##132['fall1' -> 0].
@@ -1454,6 +1585,7 @@ Offered in the Spring Semester'].
 \##133['Credits' -> 3].
 \##133['Prerequisites' -> 'NONE'].
 \##133['Antirequisites' -> 'NONE'].
+\##133['Corequisites' -> 'NONE'].
 \##133['Description' -> 'An advanced lecture course on a new topic in computer science.  The course is primarily designed for M.S. students, but can be taken by Ph.D. students as well.  Semester supplements to this Bulletin contain specific description when course is offered.  May be repeated for credit as the topic changes, but cannot be used more than twice to satisfy CSE major requirements for M.S.  Limited to CSE graduate students; others permission of instructor.
 Spring,'].
 \##133['spring1' -> 0].
@@ -1466,6 +1598,7 @@ Spring,'].
 \##134['Credits' -> 3].
 \##134['Prerequisites' -> 'NONE'].
 \##134['Antirequisites' -> 'NONE'].
+\##134['Corequisites' -> 'NONE'].
 \##134['Description' -> 'An advanced lecture course on a new topic in computer science.  The course is primarily designed for M.S. students, but can be taken by Ph.D. students as well.  Semester supplements to this Bulletin contain specific description when course is offered.  May be repeated for credit as the topic changes, but cannot be used more than twice to satisfy CSE major requirements for M.S.  Limited to CSE graduate students; others, permission of instructor.
 Spring,'].
 \##134['spring1' -> 0].
@@ -1478,6 +1611,7 @@ Spring,'].
 \##135['Credits' -> 3].
 \##135['Prerequisites' -> 'NONE'].
 \##135['Antirequisites' -> 'NONE'].
+\##135['Corequisites' -> 'NONE'].
 \##135['Description' -> 'An advanced lecture course on a new topic in computer science.  The course is primarily designed for M.S. students, but can be taken by Ph.D. students as well.  Semester supplements to this Bulletin contain specific description when course is offered.  may be repeated for credit as the topic changes, but cannot be used more than twice to satisfy CSE major requirements for M.S.  Limited to CSE graduate students; others, permission of instructor.
 Spring,'].
 \##135['spring1' -> 0].
@@ -1490,17 +1624,19 @@ Spring,'].
 \##136['Credits' -> '1.00 - 9.00'].
 \##136['Prerequisites' -> 'NONE'].
 \##136['Antirequisites' -> 'NONE'].
+\##136['Corequisites' -> 'NONE'].
 \##136['Description' -> 'Research and/or project work under the supervision of a Computer Science graduate program faculty.'].
-\##136['spring1' -> 0].
-\##136['fall1' -> 0].
-\##136['spring2' -> 0].
-\##136['fall2' -> 0].
+\##136['spring1' -> 1].
+\##136['fall1' -> 1].
+\##136['spring2' -> 1].
+\##136['fall2' -> 1].
 \##1['CSE594' -> \##137].
 \##137['CourseTitle' -> 'Advanced Topics in Computer Science'].
 \##137['Career' -> 'Graduate'].
 \##137['Credits' -> 3].
 \##137['Prerequisites' -> 'NONE'].
 \##137['Antirequisites' -> 'NONE'].
+\##137['Corequisites' -> 'NONE'].
 \##137['Description' -> 'An advanced lecture course on a new topics in computer science.  This course is primarily designed for M.S. students, but can be taken by Ph.D. students as well.  Semester supplements to this Bulletin contain specific description when course is offered.  May be repeated as the topic changes, but cannot be used more than twice to satisfy the CSE major requirements for the M.S.
 Fall, Spring, every year,'].
 \##137['spring1' -> 0].
@@ -1513,6 +1649,7 @@ Fall, Spring, every year,'].
 \##138['Credits' -> 3].
 \##138['Prerequisites' -> 'NONE'].
 \##138['Antirequisites' -> 'NONE'].
+\##138['Corequisites' -> 'NONE'].
 \##138['Description' -> 'An advanced lecture course on a new topic in computer science.  This course is primarily designed for M.S. students, but can be taken by Ph.D. students as well.  Semester supplements to this Bulletin contain specific description when course is offered.  May be repeated for credit as the topic changes, but cannot be used more than twice to satisfy the SCE major requirements for the M.S.
 Fall, Spring, every year,'].
 \##138['spring1' -> 0].
@@ -1525,6 +1662,7 @@ Fall, Spring, every year,'].
 \##139['Credits' -> 1].
 \##139['Prerequisites' -> 'NONE'].
 \##139['Antirequisites' -> 'NONE'].
+\##139['Corequisites' -> 'NONE'].
 \##139['Description' -> 'Participation in internships at private corporations, public agencies, or non-profit institutions. Students will be required to have a faculty coordinator as well as a contact in the outside organization to participate with them in regular consultations on the project, and to submit a final report to both. This course is intended for MS students interning off campus.'].
 \##139['spring1' -> 0].
 \##139['fall1' -> 0].
@@ -1536,6 +1674,7 @@ Fall, Spring, every year,'].
 \##140['Credits' -> 1].
 \##140['Prerequisites' -> 'NONE'].
 \##140['Antirequisites' -> 'NONE'].
+\##140['Corequisites' -> 'NONE'].
 \##140['Description' -> 'Participation in internships at private corporations, public agencies, or non-profit institutions. Students will be required to have a faculty coordinator as well as a contact in the outside organization to participate with them in regular consultations on the project, and to submit a final report to both. This course is intended for MS students interning on campus.'].
 \##140['spring1' -> 0].
 \##140['fall1' -> 0].
@@ -1547,6 +1686,7 @@ Fall, Spring, every year,'].
 \##141['Credits' -> '1.00 - 12.00'].
 \##141['Prerequisites' -> 'NONE'].
 \##141['Antirequisites' -> 'NONE'].
+\##141['Corequisites' -> 'NONE'].
 \##141['Description' -> 'Thesis research under supervision of CS graduate program faculty for MS students.'].
 \##141['spring1' -> 0].
 \##141['fall1' -> 0].
@@ -1558,18 +1698,20 @@ Fall, Spring, every year,'].
 \##142['Credits' -> '0.00 - 1.00'].
 \##142['Prerequisites' -> 'NONE'].
 \##142['Antirequisites' -> 'NONE'].
+\##142['Corequisites' -> 'NONE'].
 \##142['Description' -> 'A survey of current computer science research areas and issues. This course comprises lectures by faculty members and visitors, selected readings, and introductory-level research problems.
 Prerequisite: Permission of instructor'].
-\##142['spring1' -> 0].
-\##142['fall1' -> 0].
-\##142['spring2' -> 0].
-\##142['fall2' -> 0].
+\##142['spring1' -> 1].
+\##142['fall1' -> 1].
+\##142['spring2' -> 1].
+\##142['fall2' -> 1].
 \##1['CSE602' -> \##143].
 \##143['CourseTitle' -> 'Advanced Computer Architecture'].
 \##143['Career' -> 'Graduate'].
 \##143['Credits' -> 3].
 \##143['Prerequisites' -> 'NONE'].
 \##143['Antirequisites' -> 'NONE'].
+\##143['Corequisites' -> 'NONE'].
 \##143['Description' -> 'The focus will be on the architectural rather than micro-architectural issues, and a systems approach to computer architecture taking into account the interaction between the architecture and the compiler, operating system, database, and networking.  The course starts with superscalar/VLIW processor architecture and proceeds to memory hierarchy, storage systems, network hardware, graphics processor, and database machines.  The emphasis will be on hands-on evaluation of architectural ideas, the exploration of software/hardware design trade-offs, and the articulation of experimental procedures and performance analysis. A publication-quality class project will be required. 
 Prerequisite: CSE 502 or permission of instructor'].
 \##143['spring1' -> 0].
@@ -1582,6 +1724,7 @@ Prerequisite: CSE 502 or permission of instructor'].
 \##144['Credits' -> 3].
 \##144['Prerequisites' -> 'NONE'].
 \##144['Antirequisites' -> 'NONE'].
+\##144['Corequisites' -> 'NONE'].
 \##144['Description' -> 'The purpose of this course is to provide background and training in understanding and evaluating the performance of computer systems, including centralized, distributed, parallel, client/server-based systems, and computer communication networks. The goal is to develop a perspective on how the performance of computer systems or networks should be evaluated in order to decide on various design alternatives. The course will include various analytical techniques, mainly based on Markov models and queuing theory, and simulation modeling.'].
 \##144['spring1' -> 0].
 \##144['fall1' -> 0].
@@ -1591,8 +1734,9 @@ Prerequisite: CSE 502 or permission of instructor'].
 \##145['CourseTitle' -> 'Advanced Computer Security'].
 \##145['Career' -> 'Graduate'].
 \##145['Credits' -> 3].
-\##145['Prerequisites' -> [['CSE508', 'CSE509']]].
+\##145['Prerequisites' -> 'NONE'].
 \##145['Antirequisites' -> 'NONE'].
+\##145['Corequisites' -> 'NONE'].
 \##145['Description' -> 'Advanced course on principles and practice of engineering secure information systems. Topics covered include threats and vulnerabilities, counter measures, legal policy issues, risk management and assurance. In-depth coverage of various research problems, which will vary from one offering of the course to another.
 Prerequisite: CSE 508 or CSE 509 or permission of instructor.
 Fall, Spring'].
@@ -1606,6 +1750,7 @@ Fall, Spring'].
 \##146['Credits' -> 3].
 \##146['Prerequisites' -> 'NONE'].
 \##146['Antirequisites' -> 'NONE'].
+\##146['Corequisites' -> 'NONE'].
 \##146['Description' -> 'Topics include parallel computer systems; important parallel applications; parallel computation models; interconnection networks; SIMD and MIMD architectures; hybrid architectures; memory management; cache coherence; distributed shared memory; synchronization methods; operating systems; compilers; and programming tools.
 Prerequisite: CSE 502 or permission of instructor'].
 \##146['spring1' -> 0].
@@ -1618,6 +1763,7 @@ Prerequisite: CSE 502 or permission of instructor'].
 \##147['Credits' -> 3].
 \##147['Prerequisites' -> 'NONE'].
 \##147['Antirequisites' -> 'NONE'].
+\##147['Corequisites' -> 'NONE'].
 \##147['Description' -> 'Algorithms and techniques for programming highly parallel computers. Trends in parallel and distributed computing; shared address space and message passing architectures; design issues for parallel algorithms; converting sequential algorithms into equivalent parallel algorithms; synchronization and data sharing; improving performance of parallel algorithms; interconnection network topologies, routing, and flow control; latency limits on speedup of algorithms by parallel implementations.'].
 \##147['spring1' -> 0].
 \##147['fall1' -> 0].
@@ -1629,6 +1775,7 @@ Prerequisite: CSE 502 or permission of instructor'].
 \##148['Credits' -> 3].
 \##148['Prerequisites' -> 'NONE'].
 \##148['Antirequisites' -> 'NONE'].
+\##148['Corequisites' -> 'NONE'].
 \##148['Description' -> 'Selected topics on advanced programming languages technology. Program analysis and transformation, program optimization and program manipulation systems. Very high-level and declarative languages such as sets and relations based languages and deductive and object-oriented languages.
 Prerequisite: CSE 526 or CSE 504
 Spring,'].
@@ -1642,6 +1789,7 @@ Spring,'].
 \##149['Credits' -> 3].
 \##149['Prerequisites' -> 'NONE'].
 \##149['Antirequisites' -> 'NONE'].
+\##149['Corequisites' -> 'NONE'].
 \##149['Description' -> 'Survey of methods used for the analysis of images by computer, including computer vision and pattern recognition.  Topics to be covered are image formation, image segmentation, and edge detection, binary images, and shape analysis, shape from shading, motion field, and optical flow, surface inference, classification techniques.'].
 \##149['spring1' -> 0].
 \##149['fall1' -> 0].
@@ -1653,6 +1801,7 @@ Spring,'].
 \##150['Credits' -> 3].
 \##150['Prerequisites' -> 'NONE'].
 \##150['Antirequisites' -> 'NONE'].
+\##150['Corequisites' -> 'NONE'].
 \##150['Description' -> 'Advance topics taken from ad hoc wireless networks and sensor networks.  Will comprise of lectures, presentations and/or a project. 
 Prerequisite: Limited to CSE graduate students; others, permission of instruction.
 Fall and Spring, 3 credits, ABCF grading
@@ -1667,6 +1816,7 @@ May be repeated twice for credit.'].
 \##151['Credits' -> 3].
 \##151['Prerequisites' -> 'NONE'].
 \##151['Antirequisites' -> 'NONE'].
+\##151['Corequisites' -> 'NONE'].
 \##151['Description' -> 'Practical issues in the design and implementation of virtual environments. Topics include system requirements, transformations, user-interaction models, human vision models, input/output devices and techniques, tracking systems, augmented reality, and virtual-reality applications. The course will involve a substantial programming project to implement an immersive virtual reality system. 
 Prerequisite: CSE 328 or 528 or 332 or 564'].
 \##151['spring1' -> 0].
@@ -1679,6 +1829,7 @@ Prerequisite: CSE 328 or 528 or 332 or 564'].
 \##152['Credits' -> 3].
 \##152['Prerequisites' -> 'NONE'].
 \##152['Antirequisites' -> 'NONE'].
+\##152['Corequisites' -> 'NONE'].
 \##152['Description' -> 'A unified approach to various fields such as graphics, visualization, computer-aided geometric design, biomedical imaging, vision, and virtual environment. The course will explore select research topics centered on physics-based modeling methodology and associated computational methods for theoretical and practical problems in widespread areas of visual computing. The emphasis will be on geometric and solid modeling, geometric design techniques, wavelets and multi-resolution analysis, deformable models based on mathematical physics, variational analysis, optimization methods, numerical simulation with finite-difference and finite-element algorithms, differential equations for initial-value and boundary-value problems, force-driven interaction with constraints, dynamic sculpting system, and a large variety of applications for visual computing.
 Prerequisite: CSE 528 or permission of instructor'].
 \##152['spring1' -> 0].
@@ -1689,8 +1840,9 @@ Prerequisite: CSE 528 or permission of instructor'].
 \##153['CourseTitle' -> 'Advanced Operating Systems'].
 \##153['Career' -> 'Graduate'].
 \##153['Credits' -> 3].
-\##153['Prerequisites' -> [['CSE506']]].
+\##153['Prerequisites' -> 'NONE'].
 \##153['Antirequisites' -> 'NONE'].
+\##153['Corequisites' -> 'NONE'].
 \##153['Description' -> 'Students will study advanced operating system topics and be exposed to recent developments in operating systems research. In addition to being conversant in classic and recent research papers, this course aims to teach students to read research papers critically, formulate new research questions, and evaluate these questions experimentally. Topics to be covered typically include: distributed systems, cloud computing and data centers, operating system design, virtual machines, OS interaction with the hardware architecture, synchronization and communication, file systems, and security.'].
 \##153['spring1' -> 0].
 \##153['fall1' -> 0].
@@ -1702,6 +1854,7 @@ Prerequisite: CSE 528 or permission of instructor'].
 \##154['Credits' -> 3].
 \##154['Prerequisites' -> 'NONE'].
 \##154['Antirequisites' -> 'NONE'].
+\##154['Corequisites' -> 'NONE'].
 \##154['Description' -> 'Formal specification and verification of asynchronous systems. Topics include concurrent programming, process algebras, logics for describing the properties of concurrent systems, and formal semantics of communication.
 Prerequisite: CSE 535 or permission of instructor.'].
 \##154['spring1' -> 0].
@@ -1714,6 +1867,7 @@ Prerequisite: CSE 535 or permission of instructor.'].
 \##155['Credits' -> 3].
 \##155['Prerequisites' -> 'NONE'].
 \##155['Antirequisites' -> 'NONE'].
+\##155['Corequisites' -> 'NONE'].
 \##155['Description' -> 'This course covers various switching and routing issues in parallel and distributed systems. Topics include message switching techniques, design of interconnection networks, permutation, multicast and all-to-all routing in various networking nonblocking, and rearrangable capability analysis and performance modeling.
 Prerequisite: ESE 503 and 545 or CSE 502 and 547, or permission of instructor'].
 \##155['spring1' -> 0].
@@ -1726,6 +1880,7 @@ Prerequisite: ESE 503 and 545 or CSE 502 and 547, or permission of instructor'].
 \##156['Credits' -> 3].
 \##156['Prerequisites' -> 'NONE'].
 \##156['Antirequisites' -> 'NONE'].
+\##156['Corequisites' -> 'NONE'].
 \##156['Description' -> 'The course offers computationally-oriented introduction to natural language processing (NLP). The focus is on modern quantitative techniques in NLP: algorithms and statistical approaches to word-level, syntactic, and semantic processing of natural language.  The choice of topics includes practically motivated questions in NLP such as (1) can we teach computers to automatically detect authorship of a document? (2) can computers automatically suggest paraphrases (phrases with similar meaning) to help with writing?
 Prerequisite:  Familiarity with either Artificial Intelligence or Machine Learning is strongly recommended, but not absolutely required.
 Limited to CSE Graduate Students
@@ -1740,6 +1895,7 @@ Fall and Spring, 3 Credits, ABCF Grading'].
 \##157['Credits' -> 3].
 \##157['Prerequisites' -> 'NONE'].
 \##157['Antirequisites' -> 'NONE'].
+\##157['Corequisites' -> 'NONE'].
 \##157['Description' -> 'Computability theory based on Turing machines and recursive functions; proof by diagonalization and reducibility; unsolvable problems in set, group, number and language theory; reducibility orderings and degrees of unsolvability; priority methods and Post's problem.  Prerequisite:  CSE 540 or consent of instructor.
 Spring'].
 \##157['spring1' -> 0].
@@ -1752,6 +1908,7 @@ Spring'].
 \##158['Credits' -> 3].
 \##158['Prerequisites' -> 'NONE'].
 \##158['Antirequisites' -> 'NONE'].
+\##158['Corequisites' -> 'NONE'].
 \##158['Description' -> 'This is an advanced course in the design and analysis of combinatorial algorithms, focusing on recent material and special topics, including randomized algorithms, approximation algorithms for NP-complete problems, string algorithms, amortized analysis of data structures, and heuristic methods such as simulated annealing. Material will be selected to have little or no overlap with traditional introductory algorithms courses.
 Prerequisite: CSE 548 or permission of instructor'].
 \##158['spring1' -> 0].
@@ -1764,6 +1921,7 @@ Prerequisite: CSE 548 or permission of instructor'].
 \##159['Credits' -> 1].
 \##159['Prerequisites' -> 'NONE'].
 \##159['Antirequisites' -> 'NONE'].
+\##159['Corequisites' -> 'NONE'].
 \##159['Description' -> ''].
 \##159['spring1' -> 0].
 \##159['fall1' -> 0].
@@ -1775,6 +1933,7 @@ Prerequisite: CSE 548 or permission of instructor'].
 \##160['Credits' -> 1].
 \##160['Prerequisites' -> 'NONE'].
 \##160['Antirequisites' -> 'NONE'].
+\##160['Corequisites' -> 'NONE'].
 \##160['Description' -> ''].
 \##160['spring1' -> 0].
 \##160['fall1' -> 0].
@@ -1786,6 +1945,7 @@ Prerequisite: CSE 548 or permission of instructor'].
 \##161['Credits' -> 1].
 \##161['Prerequisites' -> 'NONE'].
 \##161['Antirequisites' -> 'NONE'].
+\##161['Corequisites' -> 'NONE'].
 \##161['Description' -> ''].
 \##161['spring1' -> 0].
 \##161['fall1' -> 0].
@@ -1797,6 +1957,7 @@ Prerequisite: CSE 548 or permission of instructor'].
 \##162['Credits' -> 1].
 \##162['Prerequisites' -> 'NONE'].
 \##162['Antirequisites' -> 'NONE'].
+\##162['Corequisites' -> 'NONE'].
 \##162['Description' -> ''].
 \##162['spring1' -> 0].
 \##162['fall1' -> 0].
@@ -1808,6 +1969,7 @@ Prerequisite: CSE 548 or permission of instructor'].
 \##163['Credits' -> 1].
 \##163['Prerequisites' -> 'NONE'].
 \##163['Antirequisites' -> 'NONE'].
+\##163['Corequisites' -> 'NONE'].
 \##163['Description' -> ''].
 \##163['spring1' -> 0].
 \##163['fall1' -> 0].
@@ -1819,6 +1981,7 @@ Prerequisite: CSE 548 or permission of instructor'].
 \##164['Credits' -> 1].
 \##164['Prerequisites' -> 'NONE'].
 \##164['Antirequisites' -> 'NONE'].
+\##164['Corequisites' -> 'NONE'].
 \##164['Description' -> ''].
 \##164['spring1' -> 0].
 \##164['fall1' -> 0].
@@ -1830,6 +1993,7 @@ Prerequisite: CSE 548 or permission of instructor'].
 \##165['Credits' -> 1].
 \##165['Prerequisites' -> 'NONE'].
 \##165['Antirequisites' -> 'NONE'].
+\##165['Corequisites' -> 'NONE'].
 \##165['Description' -> ''].
 \##165['spring1' -> 0].
 \##165['fall1' -> 0].
@@ -1841,6 +2005,7 @@ Prerequisite: CSE 548 or permission of instructor'].
 \##166['Credits' -> 1].
 \##166['Prerequisites' -> 'NONE'].
 \##166['Antirequisites' -> 'NONE'].
+\##166['Corequisites' -> 'NONE'].
 \##166['Description' -> ''].
 \##166['spring1' -> 0].
 \##166['fall1' -> 0].
@@ -1852,6 +2017,7 @@ Prerequisite: CSE 548 or permission of instructor'].
 \##167['Credits' -> 1].
 \##167['Prerequisites' -> 'NONE'].
 \##167['Antirequisites' -> 'NONE'].
+\##167['Corequisites' -> 'NONE'].
 \##167['Description' -> ''].
 \##167['spring1' -> 0].
 \##167['fall1' -> 0].
@@ -1863,6 +2029,7 @@ Prerequisite: CSE 548 or permission of instructor'].
 \##168['Credits' -> 1].
 \##168['Prerequisites' -> 'NONE'].
 \##168['Antirequisites' -> 'NONE'].
+\##168['Corequisites' -> 'NONE'].
 \##168['Description' -> ''].
 \##168['spring1' -> 0].
 \##168['fall1' -> 0].
@@ -1874,6 +2041,7 @@ Prerequisite: CSE 548 or permission of instructor'].
 \##169['Credits' -> 1].
 \##169['Prerequisites' -> 'NONE'].
 \##169['Antirequisites' -> 'NONE'].
+\##169['Corequisites' -> 'NONE'].
 \##169['Description' -> ''].
 \##169['spring1' -> 0].
 \##169['fall1' -> 0].
@@ -1885,6 +2053,7 @@ Prerequisite: CSE 548 or permission of instructor'].
 \##170['Credits' -> 1].
 \##170['Prerequisites' -> 'NONE'].
 \##170['Antirequisites' -> 'NONE'].
+\##170['Corequisites' -> 'NONE'].
 \##170['Description' -> ''].
 \##170['spring1' -> 0].
 \##170['fall1' -> 0].
@@ -1896,6 +2065,7 @@ Prerequisite: CSE 548 or permission of instructor'].
 \##171['Credits' -> 1].
 \##171['Prerequisites' -> 'NONE'].
 \##171['Antirequisites' -> 'NONE'].
+\##171['Corequisites' -> 'NONE'].
 \##171['Description' -> ''].
 \##171['spring1' -> 0].
 \##171['fall1' -> 0].
@@ -1907,6 +2077,7 @@ Prerequisite: CSE 548 or permission of instructor'].
 \##172['Credits' -> 1].
 \##172['Prerequisites' -> 'NONE'].
 \##172['Antirequisites' -> 'NONE'].
+\##172['Corequisites' -> 'NONE'].
 \##172['Description' -> ''].
 \##172['spring1' -> 0].
 \##172['fall1' -> 0].
@@ -1918,6 +2089,7 @@ Prerequisite: CSE 548 or permission of instructor'].
 \##173['Credits' -> 1].
 \##173['Prerequisites' -> 'NONE'].
 \##173['Antirequisites' -> 'NONE'].
+\##173['Corequisites' -> 'NONE'].
 \##173['Description' -> ''].
 \##173['spring1' -> 0].
 \##173['fall1' -> 0].
@@ -1929,6 +2101,7 @@ Prerequisite: CSE 548 or permission of instructor'].
 \##174['Credits' -> 1].
 \##174['Prerequisites' -> 'NONE'].
 \##174['Antirequisites' -> 'NONE'].
+\##174['Corequisites' -> 'NONE'].
 \##174['Description' -> 'Current readings in computer vision and image understanding.
 Prerequisite: Limited to CSE graduate students; others need instructor consent
 Fall,
@@ -1943,6 +2116,7 @@ May be repeated for credit'].
 \##175['Credits' -> 1].
 \##175['Prerequisites' -> 'NONE'].
 \##175['Antirequisites' -> 'NONE'].
+\##175['Corequisites' -> 'NONE'].
 \##175['Description' -> 'Methods for constructing reliable and efficient computer systems. Topics include: modeling and specification, analysis and verification, design and optimization, code generation, simulation and testing. Tool support. Applications and case studies.
 Prerequisite: Limited to CSE graduate students; others need instructor consent
 Fall,
@@ -1957,6 +2131,7 @@ May be repeated for credit'].
 \##176['Credits' -> 1].
 \##176['Prerequisites' -> 'NONE'].
 \##176['Antirequisites' -> 'NONE'].
+\##176['Corequisites' -> 'NONE'].
 \##176['Description' -> 'This seminar course will draw topics from mobile and wireless networks of current interest. The main focus will be multi-hop wireless networks. It will cover topics on mobile routing, multiple access and transport protocols for such networks. It will also cover topics from micromobility architectures and pervasive computing.
 Prerequisites: Limited to CSE graduate students; others permission of instructor.
 Fall,'].
@@ -1970,6 +2145,7 @@ Fall,'].
 \##177['Credits' -> 1].
 \##177['Prerequisites' -> 'NONE'].
 \##177['Antirequisites' -> 'NONE'].
+\##177['Corequisites' -> 'NONE'].
 \##177['Description' -> 'Seminar course, covering various research problems in computer security.
 Spring,'].
 \##177['spring1' -> 0].
@@ -1982,6 +2158,7 @@ Spring,'].
 \##178['Credits' -> 1].
 \##178['Prerequisites' -> 'NONE'].
 \##178['Antirequisites' -> 'NONE'].
+\##178['Corequisites' -> 'NONE'].
 \##178['Description' -> 'Seminar course which focuses on research in sustainable computing.'].
 \##178['spring1' -> 0].
 \##178['fall1' -> 0].
@@ -1993,6 +2170,7 @@ Spring,'].
 \##179['Credits' -> 1].
 \##179['Prerequisites' -> 'NONE'].
 \##179['Antirequisites' -> 'NONE'].
+\##179['Corequisites' -> 'NONE'].
 \##179['Description' -> 'Current research in Data Privacy.
 Limited to CSE graduate students; others, permission of instructor.
 Spring,'].
@@ -2006,6 +2184,7 @@ Spring,'].
 \##180['Credits' -> 1].
 \##180['Prerequisites' -> 'NONE'].
 \##180['Antirequisites' -> 'NONE'].
+\##180['Corequisites' -> 'NONE'].
 \##180['Description' -> ''].
 \##180['spring1' -> 0].
 \##180['fall1' -> 0].
@@ -2017,6 +2196,7 @@ Spring,'].
 \##181['Credits' -> 1].
 \##181['Prerequisites' -> 'NONE'].
 \##181['Antirequisites' -> 'NONE'].
+\##181['Corequisites' -> 'NONE'].
 \##181['Description' -> 'Seminar course which focuses on research in Cyber-Physical Systems and Verification.'].
 \##181['spring1' -> 0].
 \##181['fall1' -> 0].
@@ -2028,6 +2208,7 @@ Spring,'].
 \##182['Credits' -> 1].
 \##182['Prerequisites' -> 'NONE'].
 \##182['Antirequisites' -> 'NONE'].
+\##182['Corequisites' -> 'NONE'].
 \##182['Description' -> 'Seminar course which focuses on research in Distributed Systems.'].
 \##182['spring1' -> 0].
 \##182['fall1' -> 0].
@@ -2039,6 +2220,7 @@ Spring,'].
 \##183['Credits' -> 2].
 \##183['Prerequisites' -> 'NONE'].
 \##183['Antirequisites' -> 'NONE'].
+\##183['Corequisites' -> 'NONE'].
 \##183['Description' -> ''].
 \##183['spring1' -> 0].
 \##183['fall1' -> 0].
@@ -2050,6 +2232,7 @@ Spring,'].
 \##184['Credits' -> 2].
 \##184['Prerequisites' -> 'NONE'].
 \##184['Antirequisites' -> 'NONE'].
+\##184['Corequisites' -> 'NONE'].
 \##184['Description' -> ''].
 \##184['spring1' -> 0].
 \##184['fall1' -> 0].
@@ -2061,6 +2244,7 @@ Spring,'].
 \##185['Credits' -> 2].
 \##185['Prerequisites' -> 'NONE'].
 \##185['Antirequisites' -> 'NONE'].
+\##185['Corequisites' -> 'NONE'].
 \##185['Description' -> ''].
 \##185['spring1' -> 0].
 \##185['fall1' -> 0].
@@ -2072,6 +2256,7 @@ Spring,'].
 \##186['Credits' -> 2].
 \##186['Prerequisites' -> 'NONE'].
 \##186['Antirequisites' -> 'NONE'].
+\##186['Corequisites' -> 'NONE'].
 \##186['Description' -> ''].
 \##186['spring1' -> 0].
 \##186['fall1' -> 0].
@@ -2083,6 +2268,7 @@ Spring,'].
 \##187['Credits' -> 2].
 \##187['Prerequisites' -> 'NONE'].
 \##187['Antirequisites' -> 'NONE'].
+\##187['Corequisites' -> 'NONE'].
 \##187['Description' -> ''].
 \##187['spring1' -> 0].
 \##187['fall1' -> 0].
@@ -2094,6 +2280,7 @@ Spring,'].
 \##188['Credits' -> 2].
 \##188['Prerequisites' -> 'NONE'].
 \##188['Antirequisites' -> 'NONE'].
+\##188['Corequisites' -> 'NONE'].
 \##188['Description' -> ''].
 \##188['spring1' -> 0].
 \##188['fall1' -> 0].
@@ -2105,6 +2292,7 @@ Spring,'].
 \##189['Credits' -> 2].
 \##189['Prerequisites' -> 'NONE'].
 \##189['Antirequisites' -> 'NONE'].
+\##189['Corequisites' -> 'NONE'].
 \##189['Description' -> ''].
 \##189['spring1' -> 0].
 \##189['fall1' -> 0].
@@ -2116,6 +2304,7 @@ Spring,'].
 \##190['Credits' -> 2].
 \##190['Prerequisites' -> 'NONE'].
 \##190['Antirequisites' -> 'NONE'].
+\##190['Corequisites' -> 'NONE'].
 \##190['Description' -> 'Advanced research topics course.
 Prerequisite: Limited to CSE graduate students; others need instructor consent
 Fall,
@@ -2130,6 +2319,7 @@ May be repeated for credit'].
 \##191['Credits' -> 2].
 \##191['Prerequisites' -> 'NONE'].
 \##191['Antirequisites' -> 'NONE'].
+\##191['Corequisites' -> 'NONE'].
 \##191['Description' -> 'Special topics course, covering selected research areas in computer security.
 Spring,'].
 \##191['spring1' -> 0].
@@ -2142,6 +2332,7 @@ Spring,'].
 \##192['Credits' -> 2].
 \##192['Prerequisites' -> 'NONE'].
 \##192['Antirequisites' -> 'NONE'].
+\##192['Corequisites' -> 'NONE'].
 \##192['Description' -> 'Advanced research topics course.
 Limited to CSE graduate students; others, permission of instructor.
 Spring,'].
@@ -2155,6 +2346,7 @@ Spring,'].
 \##193['Credits' -> 2].
 \##193['Prerequisites' -> 'NONE'].
 \##193['Antirequisites' -> 'NONE'].
+\##193['Corequisites' -> 'NONE'].
 \##193['Description' -> ''].
 \##193['spring1' -> 0].
 \##193['fall1' -> 0].
@@ -2166,6 +2358,7 @@ Spring,'].
 \##194['Credits' -> 3].
 \##194['Prerequisites' -> 'NONE'].
 \##194['Antirequisites' -> 'NONE'].
+\##194['Corequisites' -> 'NONE'].
 \##194['Description' -> 'An advanced lecture course on a new topics in computer science.  This course is primarily designed for PhD students, but can be taken by M.S. students as well.  Semester supplements to this Bulletin contain specific description when course is offered.  May be repeated for credit as the topic changes, but cannot be used more than twice to satisfy CSE major requirements for M.S.  Limited to CSE graduate students; others permission of instructor
 Spring,'].
 \##194['spring1' -> 0].
@@ -2178,6 +2371,7 @@ Spring,'].
 \##195['Credits' -> 3].
 \##195['Prerequisites' -> 'NONE'].
 \##195['Antirequisites' -> 'NONE'].
+\##195['Corequisites' -> 'NONE'].
 \##195['Description' -> 'An advanced course on a new topic in computer science.  This course is primarily designed for Ph.D. students, but can be taken by M.S. students as well.  Semester supplements to this Bulletin contain specific description when course is offered.  may be repeated for credit as the topic changes, but cannot be used more than twice to satisfy CSE major requirements for M.S.  Limited to CSE graduate students; others permission of instructor.
 Spring,'].
 \##195['spring1' -> 0].
@@ -2190,6 +2384,7 @@ Spring,'].
 \##196['Credits' -> 3].
 \##196['Prerequisites' -> 'NONE'].
 \##196['Antirequisites' -> 'NONE'].
+\##196['Corequisites' -> 'NONE'].
 \##196['Description' -> 'An advanced lecture course on a new topic in computer science.  This course is primarily designed for Ph.D. students, but can  be taken by M.S. students as well.  Semester supplements to this Bulletin contain specific description when course is offered.  may be repeated for credit as the topic changes, but cannot be used more than twice to satisfy CSE major requirements for M.S.  Limited to CSE graduate students; others permission of instructor.
 Spring,'].
 \##196['spring1' -> 0].
@@ -2202,6 +2397,7 @@ Spring,'].
 \##197['Credits' -> 3].
 \##197['Prerequisites' -> 'NONE'].
 \##197['Antirequisites' -> 'NONE'].
+\##197['Corequisites' -> 'NONE'].
 \##197['Description' -> 'An advanced lecture course on a new topic in Computer Science.  This course is primarily designed for Ph.D. students, but can be taken by M.S. students as well.  Semester supplements to this Bulletin contain specific description when course is offered.  May be repeated for credit as the topic changes, but cannot be used more than twice to satisfy CSE major requirements for M.S.   Limited to CSE graduate students; others permission of instructor.'].
 \##197['spring1' -> 0].
 \##197['fall1' -> 0].
@@ -2213,6 +2409,7 @@ Spring,'].
 \##198['Credits' -> 1].
 \##198['Prerequisites' -> 'NONE'].
 \##198['Antirequisites' -> 'NONE'].
+\##198['Corequisites' -> 'NONE'].
 \##198['Description' -> 'Sustainability is a societal problem that affects us all. With the recent emphasis on the adverse impact of carbon emissions from data centers, there is renewed interest from industry, government, and  acaemia in making computing more sustainable. This seminar course will cover recent advances in this space. Specifically, we will first discuss the nature of the problem and the cost of unsustainable data center operations, especially for Al workloads. We will then discuss factors that contribute to unsustainable operations in data centers and computing broadly, including operational and embedded carbon. The remaining of the course will focus on defining the problem, the metrics of sustainability in computing, and possible approaches to stem unsustainable computing in data centers, including  space-and time-scheduling of workloads to better leverage clean energy, lowering the compute demand of workloads, and harnessing latest hardware advances to reduce embodied carbon in computing.
 
 This 1-credit seminar course will cover topics in computation sustainability, including (but not limited to):
@@ -2232,6 +2429,7 @@ Students enrolling for the seminar will be expected to lead at least 2 weekly me
 \##199['Credits' -> 1].
 \##199['Prerequisites' -> 'NONE'].
 \##199['Antirequisites' -> 'NONE'].
+\##199['Corequisites' -> 'NONE'].
 \##199['Description' -> 'This course will cover some recent optimization theory as it relates to training deep neural networks, covering topics including:
 
 - landscape analysis of overparameterized nonconvex networks
@@ -2252,6 +2450,7 @@ all meeting discussions.'].
 \##200['Credits' -> '1.00 - 3.00'].
 \##200['Prerequisites' -> 'NONE'].
 \##200['Antirequisites' -> 'NONE'].
+\##200['Corequisites' -> 'NONE'].
 \##200['Description' -> 'Participation in internships at private corporations, public agencies, or non-profit institutions. Students will be required to have a faculty coordinator as well as a contact in the outside organization to participate with them in regular consultations on the project, and to submit a final report to both. This course is intended for PhD students interning off campus.'].
 \##200['spring1' -> 0].
 \##200['fall1' -> 0].
@@ -2263,6 +2462,7 @@ all meeting discussions.'].
 \##201['Credits' -> 1].
 \##201['Prerequisites' -> 'NONE'].
 \##201['Antirequisites' -> 'NONE'].
+\##201['Corequisites' -> 'NONE'].
 \##201['Description' -> 'Participation in internships at private corporations, public agencies, or non-profit institutions. Students will be required to have a faculty coordinator as well as a contact in the outside organization to participate with them in regular consultations on the project, and to submit a final report to both. This course is intended for PhD students interning on campus.'].
 \##201['spring1' -> 0].
 \##201['fall1' -> 0].
@@ -2274,17 +2474,19 @@ all meeting discussions.'].
 \##202['Credits' -> '0.00 - 3.00'].
 \##202['Prerequisites' -> 'NONE'].
 \##202['Antirequisites' -> 'NONE'].
+\##202['Corequisites' -> 'NONE'].
 \##202['Description' -> 'Supervised teaching in a course identified by the student and the Graduate Program Director.'].
-\##202['spring1' -> 0].
-\##202['fall1' -> 0].
-\##202['spring2' -> 0].
-\##202['fall2' -> 0].
+\##202['spring1' -> 1].
+\##202['fall1' -> 1].
+\##202['spring2' -> 1].
+\##202['fall2' -> 1].
 \##1['CSE699' -> \##203].
 \##203['CourseTitle' -> 'Dissertation Research on Campus'].
 \##203['Career' -> 'Graduate'].
 \##203['Credits' -> '0.00 - 9.00'].
 \##203['Prerequisites' -> 'NONE'].
 \##203['Antirequisites' -> 'NONE'].
+\##203['Corequisites' -> 'NONE'].
 \##203['Description' -> 'Thesis research for PhD students who have advanced to candidacy (G5 status).  This course is taken by students when a major portion of the research is done on campus, at Cold Spring Harbor, or at the Brookhaven National Lab.'].
 \##203['spring1' -> 0].
 \##203['fall1' -> 0].
@@ -2296,6 +2498,7 @@ all meeting discussions.'].
 \##204['Credits' -> '0.00 - 9.00'].
 \##204['Prerequisites' -> 'NONE'].
 \##204['Antirequisites' -> 'NONE'].
+\##204['Corequisites' -> 'NONE'].
 \##204['Description' -> 'Prerequisite: Must be advanced to candidacy (G5). Major portion of research will take place off-campus, but in the United States and/or U.S. provinces. Please note, Brookhaven National Labs and the Cold Spring Harbor Lab are considered on-campus.
 All international students must enroll in one of the graduate student insurance plans and should be advised by an International Advisor.
 Fall, Spring, Summer'].
@@ -2309,6 +2512,7 @@ Fall, Spring, Summer'].
 \##205['Credits' -> '0.00 - 9.00'].
 \##205['Prerequisites' -> 'NONE'].
 \##205['Antirequisites' -> 'NONE'].
+\##205['Corequisites' -> 'NONE'].
 \##205['Description' -> 'Prerequisite: Must be advanced to candidacy (G5). Major portion of research will take place outside of the United States and/or U.S. provinces.
 Domestic students have the option of the health plan and may also enroll in MEDEX.
 International students who are in their home country are not covered by mandatory health plan and must contact the Insurance Office for the insurance charge to be removed.
@@ -2325,6 +2529,7 @@ Fall, Spring, Summer'].
 \##206['Credits' -> 0].
 \##206['Prerequisites' -> 'NONE'].
 \##206['Antirequisites' -> 'NONE'].
+\##206['Corequisites' -> 'NONE'].
 \##206['Description' -> ''].
 \##206['spring1' -> 0].
 \##206['fall1' -> 0].

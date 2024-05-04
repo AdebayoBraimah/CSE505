@@ -5,6 +5,7 @@
 \##2['Credits' -> 3].
 \##2['Prerequisites' -> 'NONE'].
 \##2['Antirequisites' -> 'NONE'].
+\##2['Corequisites' -> 'NONE'].
 \##2['Description' -> 'Fundamental earth science concepts are used to assess the impact of increasing global population and development on earth's natural resources and also to examine how natural processes affect human activities. Topics include water usage and pollution, soil pollution and erosion, radioactive and solid waste disposal, landslides, stream flooding, coastal erosion, environmental consequences of energy and mineral resource utilization, acid rain, global climate change, and the environment effects on human health. Aspects of environmental geology that are particularly applicable to Long Island and metropolitan New York are emphasized.'].
 \##2['spring1' -> 1].
 \##2['fall1' -> 1].
@@ -16,6 +17,7 @@
 \##3['Credits' -> 3].
 \##3['Prerequisites' -> 'NONE'].
 \##3['Antirequisites' -> 'NONE'].
+\##3['Corequisites' -> 'NONE'].
 \##3['Description' -> 'A summary of the processes that have shaped the earth and the other terrestrial planets as inferred from study of their surface materials, structural features, and interiors. Topics include the earth in the solar system; earth materials and rock-forming processes; surface processes and their bearing on human activities; crustal deformation and global tectonics; the earth's interior; and the geological features, compositions, and evolution of the terrestrial planets. Not for credit in addition to GEO 122.'].
 \##3['spring1' -> 1].
 \##3['fall1' -> 1].
@@ -27,6 +29,7 @@
 \##4['Credits' -> 3].
 \##4['Prerequisites' -> 'NONE'].
 \##4['Antirequisites' -> 'NONE'].
+\##4['Corequisites' -> 'NONE'].
 \##4['Description' -> 'The history of the earth from its formation 4.5 billion years ago to the present. Major issues to be addressed include formation and early history of the earth and moon; evolution of continents, oceans, and atmosphere within the framework of plate tectonics; origin of life; and evidence of past climates.'].
 \##4['spring1' -> 1].
 \##4['fall1' -> 1].
@@ -38,6 +41,7 @@
 \##5['Credits' -> 3].
 \##5['Prerequisites' -> 'NONE'].
 \##5['Antirequisites' -> 'NONE'].
+\##5['Corequisites' -> 'NONE'].
 \##5['Description' -> 'Earthquakes and tsunamis create widespread devastation. Volcanic eruptions bury cities under ash and cause closures of distant airports. Heavy rains cause landslides and flooding. How do these disasters happen? What are the secondary global effects on societal infrastructure, on public health, on international trade? How do societal differences cause varied local responses and affect the global impact? This course focuses on evaluating the global effects of several recent geological disasters. Scientific and popular news sources are used to explore the underlying natural phenomena and the nature and global distribution of the effects from geologic, economic, and public health perspectives.'].
 \##5['spring1' -> 1].
 \##5['fall1' -> 1].
@@ -49,6 +53,7 @@
 \##6['Credits' -> 3].
 \##6['Prerequisites' -> 'NONE'].
 \##6['Antirequisites' -> 'NONE'].
+\##6['Corequisites' -> 'NONE'].
 \##6['Description' -> 'The increasing impacts of the climate change crisis present us with the urgent challenge of reducing greenhouse gas emissions, requiring an energy transition on a scale humanity has never attempted. This course examines current energy sources to assess their impacts on the global environment and evaluate their fitness for long term sustainability. Existing and potential energy sources, from fossil fuels to more sustainable energy sources, including nuclear, geothermal, solar, wind, hydro, and tidal, will be examined from the geologic processes that create them, technological advances in production and utilization, to their limitations and societal impacts. The evolving status of sustainable energy sources will be evaluated, projecting forward to anticipate energy needs and future availability of resources on decade to century time scales.'].
 \##6['spring1' -> 1].
 \##6['fall1' -> 1].
@@ -60,6 +65,7 @@
 \##7['Credits' -> 3].
 \##7['Prerequisites' -> 'NONE'].
 \##7['Antirequisites' -> 'NONE'].
+\##7['Corequisites' -> 'NONE'].
 \##7['Description' -> 'Geology and geological history of the terrestrial planets, planetary satellites and minor bodies of the solar system are evaluated. Whenever possible, emphasis will be placed on geological results from the most recent planetary missions. Among the main topics to be considered are meteorites and the origin of terrestrial planets, the internal structure of terrestrial planets, planetary volcanism, planetary stratigraphy, surface processes such as meteorite impacts, wind and weathering, minor bodies of the solar system and the origin of the solar system. Not for credit in addition to AST 105 or AST 205.'].
 \##7['spring1' -> 1].
 \##7['fall1' -> 1].
@@ -71,6 +77,7 @@
 \##8['Credits' -> 3].
 \##8['Prerequisites' -> 'NONE'].
 \##8['Antirequisites' -> 'NONE'].
+\##8['Corequisites' -> 'NONE'].
 \##8['Description' -> 'An introduction to the concepts, techniques, and scientific methods used in the earth sciences. The natural hazards posed by earthquakes and volcanic eruptions are used as a focus. These phenomena are examined in the context of the theory of plate tectonics to determine their cause, destructive potential, and the possibility of predicting and controlling their occurrence. Elementary probability methods are introduced in the treatment of approaches to prediction. Societal responses to forecasts are also considered.'].
 \##8['spring1' -> 1].
 \##8['fall1' -> 1].
@@ -80,8 +87,9 @@
 \##9['CourseTitle' -> 'Physical Geology Laboratory'].
 \##9['Career' -> 'Undergraduate'].
 \##9['Credits' -> 1].
-\##9['Prerequisites' -> [['GEO102']]].
+\##9['Prerequisites' -> 'NONE'].
 \##9['Antirequisites' -> 'NONE'].
+\##9['Corequisites' -> [['GEO102']]].
 \##9['Description' -> 'Rock and mineral identification, introduction to topographic and geologic maps. Not for credit in addition to GEO 122.'].
 \##9['spring1' -> 1].
 \##9['fall1' -> 1].
@@ -91,8 +99,9 @@
 \##10['CourseTitle' -> 'Historical Geology Laboratory'].
 \##10['Career' -> 'Undergraduate'].
 \##10['Credits' -> 1].
-\##10['Prerequisites' -> [['GEO103']]].
+\##10['Prerequisites' -> 'NONE'].
 \##10['Antirequisites' -> 'NONE'].
+\##10['Corequisites' -> [['GEO103']]].
 \##10['Description' -> 'An introduction to basic techniques used for interpreting geological history. Topics include interpretation of topographic and geological maps and cross sections, introduction to fossils, and basic stratigraphic techniques. One three-hour laboratory per week.'].
 \##10['spring1' -> 1].
 \##10['fall1' -> 1].
@@ -104,6 +113,7 @@
 \##11['Credits' -> 1].
 \##11['Prerequisites' -> [['CHE131']]].
 \##11['Antirequisites' -> 'NONE'].
+\##11['Corequisites' -> 'NONE'].
 \##11['Description' -> 'Light interacts with crystals and through this interaction reveals information on the composition of the crystals and their internal atomic arrangement. This course provides a hands-on exploration of the construction of the polarized light microscope, its use in investigating the behavior of polarized visible light passing through crystals, and how the observed behavior can be used to identify natural and synthetic crystalline materials. The scientific material covered is of particular relevance to students interested in chemistry, physics, materials science, and planetary and geological science. Two 80-min lectures and one three-hour laboratory per week for a 4-week period.'].
 \##11['spring1' -> 1].
 \##11['fall1' -> 1].
@@ -115,6 +125,7 @@
 \##12['Credits' -> 4].
 \##12['Prerequisites' -> 'NONE'].
 \##12['Antirequisites' -> 'NONE'].
+\##12['Corequisites' -> 'NONE'].
 \##12['Description' -> 'Course offered in conjunction with Sayville High School. Equivalent to GEO 122; GEO 122 may not be completed for credit after successful completion of GEO 121.'].
 \##12['spring1' -> 1].
 \##12['fall1' -> 1].
@@ -126,6 +137,7 @@
 \##13['Credits' -> 4].
 \##13['Prerequisites' -> 'NONE'].
 \##13['Antirequisites' -> 'NONE'].
+\##13['Corequisites' -> 'NONE'].
 \##13['Description' -> 'The nature of the earth and of the processes that shape it: the earth's external and internal energy; minerals and rocks; external processes and the evolution of the landscape; internal processes and the structure of the earth; the earth compared with other planets; sources of materials and energy. Laboratory includes study of minerals and rocks; landforms as shown on topographical maps and aerial photographs; geologic structures inferred from maps and block diagrams; problem sets. Two lectures and one three-hour laboratory and recitation per week. Not for credit in addition to GEO 102.'].
 \##13['spring1' -> 1].
 \##13['fall1' -> 1].
@@ -137,6 +149,7 @@
 \##14['Credits' -> '0.00 - 3.00'].
 \##14['Prerequisites' -> 'NONE'].
 \##14['Antirequisites' -> 'NONE'].
+\##14['Corequisites' -> 'NONE'].
 \##14['Description' -> 'Independent research, under the supervision of a faculty member, at a level appropriate to lower-division students. May be repeated once.'].
 \##14['spring1' -> 1].
 \##14['fall1' -> 1].
@@ -148,6 +161,7 @@
 \##15['Credits' -> 3].
 \##15['Prerequisites' -> 'NONE'].
 \##15['Antirequisites' -> 'NONE'].
+\##15['Corequisites' -> 'NONE'].
 \##15['Description' -> 'Field course that applies fundamental geological concepts to the sediments and rock units in the Turkana Basin, Kenya, to provide a foundation for the chronology and context for recorded events in human evolution. Emphasis is given to sedimentation, stratigraphy, volcanism, and tectonics, as they apply to local geology, including training in field methods. Modern terrestrial processes and landscape evolution are examined using features present in the Turkana Basin. Consideration is also given to broader geologic events spanning the Oligocene to the present. Geologic concepts are linked to modern and ancient environments, archaeology, and paleoanthropology in northern Kenya.'].
 \##15['spring1' -> 1].
 \##15['fall1' -> 1].
@@ -159,6 +173,7 @@
 \##16['Credits' -> 3].
 \##16['Prerequisites' -> 'NONE'].
 \##16['Antirequisites' -> 'NONE'].
+\##16['Corequisites' -> 'NONE'].
 \##16['Description' -> 'A survey of the origin, distribution, and importance to modern civilization of the fuels and minerals won from the earth. Geology of mineral resources and problems of finding, extracting, and supplying fossil fuels, metallic ores, water, and non-metallic commodities to industry and community as well as the ultimate limits of their abundances. Environmental concerns related to the exploitation of mineral resources with review of legislation and other steps being taken to minimize environmental damage.'].
 \##16['spring1' -> 1].
 \##16['fall1' -> 1].
@@ -168,8 +183,9 @@
 \##17['CourseTitle' -> 'Field Geology'].
 \##17['Career' -> 'Undergraduate'].
 \##17['Credits' -> 3].
-\##17['Prerequisites' -> [['GEO122', 'GEO102', 'GEO112']]].
+\##17['Prerequisites' -> [['GEO122', 'RGEO102'], ['GEO112']]].
 \##17['Antirequisites' -> 'NONE'].
+\##17['Corequisites' -> 'NONE'].
 \##17['Description' -> 'Geological field studies on and near the Stony Brook campus. Labs emphasize mapping techniques and field studies of glacial and environmental geology, and include geophysical and hydrological analyses and mapping. Course consists of two three-hour sessions per week, divided between lecture and outdoor labs.'].
 \##17['spring1' -> 1].
 \##17['fall1' -> 1].
@@ -179,8 +195,9 @@
 \##18['CourseTitle' -> 'Mineralogy'].
 \##18['Career' -> 'Undergraduate'].
 \##18['Credits' -> 3].
-\##18['Prerequisites' -> [['GEO122', 'GEO102', 'GEO112'], ['CHE131', 'CHE129', 'GEO366']]].
+\##18['Prerequisites' -> [['GEO122', 'RGEO102'], ['GEO112'], ['CHE131', 'CHE129']]].
 \##18['Antirequisites' -> 'NONE'].
+\##18['Corequisites' -> [['GEO366']]].
 \##18['Description' -> 'Topics include basic crystallography, crystal chemistry, and identification of the important rock-forming and ore minerals.  Included are the fundamentals of optical crystallography: indices of refraction, isotropic, uniaxial, and biaxial minerals; optical indicatrix theory and interference figures. Three hours of lecture  per week. The laboratory component, GEO 366, must be taken concurrently; a common grade for both courses will be assigned.'].
 \##18['spring1' -> 1].
 \##18['fall1' -> 1].
@@ -192,6 +209,7 @@
 \##19['Credits' -> 3].
 \##19['Prerequisites' -> [['SUS111', 'SBC111', 'SUS113', 'SBC113', 'ENS101', 'GEO101', 'GEO102', 'GEO122', 'ENV115', 'CHE131']]].
 \##19['Antirequisites' -> 'NONE'].
+\##19['Corequisites' -> 'NONE'].
 \##19['Description' -> 'An analysis of the physical, chemical, and biological processes in the atmosphere, hydrosphere, lithosphere, and biosphere that are susceptible to change either from natural or anthropogenic causes.  In addition to focusing on the processes, this course will examine the spatial/temporal scales of environmental changes, their consequences to systems including our economic, political, and social systems, and will consider our responsibility and capability in managing systems in a sustainable way. This course is offered as both ENV 304 and GEO 307.'].
 \##19['spring1' -> 1].
 \##19['fall1' -> 1].
@@ -201,8 +219,9 @@
 \##20['CourseTitle' -> 'Structural Geology'].
 \##20['Career' -> 'Undergraduate'].
 \##20['Credits' -> 3].
-\##20['Prerequisites' -> [['GEO122', 'GEO102'], ['PHY131', 'PHY125', 'GEO369']]].
+\##20['Prerequisites' -> [['GEO122', 'GEO102'], ['PHY131'], ['PHY125']]].
 \##20['Antirequisites' -> 'NONE'].
+\##20['Corequisites' -> [['GEO369']]].
 \##20['Description' -> 'Principles of structural geology, including classification, criteria for recognition, and mechanics of formation of crustal structural features. Elementary concepts of rock mechanics. Discussion of important tectonic features of the continents and oceans. Three hours of lecture per week. A two-day weekend field trip visits "classic" structural localities in the East. The laboratory component, GEO 369, must be taken concurrently; a common grade for both courses will be assigned.'].
 \##20['spring1' -> 1].
 \##20['fall1' -> 1].
@@ -212,8 +231,9 @@
 \##21['CourseTitle' -> 'Introduction to Geophysics'].
 \##21['Career' -> 'Undergraduate'].
 \##21['Credits' -> 3].
-\##21['Prerequisites' -> [['GEO122', 'GEO102', 'MAT127', 'MAT132', 'MAT142', 'MAT171', 'AMS161'], ['PHY133'], ['PHY132', 'PHY127', 'PHY142']]].
+\##21['Prerequisites' -> [['GEO122', 'GEO102']]].
 \##21['Antirequisites' -> 'NONE'].
+\##21['Corequisites' -> 'NONE'].
 \##21['Description' -> 'An introduction to theoretical and applied geophysics. Topics in global geophysics include seisomology, gravity, geomagnetics and heat flow, with applications to the structure and dynamics of the earth's interior. Students conduct computer-based analysis of geophysical data, some of which they collect using techniques of geophysical exploration and environmental geology. Three hours of lecture per week, plus group field experiments and analysis.'].
 \##21['spring1' -> 1].
 \##21['fall1' -> 1].
@@ -225,6 +245,7 @@
 \##22['Credits' -> 3].
 \##22['Prerequisites' -> 'NONE'].
 \##22['Antirequisites' -> 'NONE'].
+\##22['Corequisites' -> 'NONE'].
 \##22['Description' -> 'An exploration of how technologically-based problems facing the United States and the world are related to the basic scientific principles that explain the properties of the lithosphere, hydrosphere, and atmosphere. The set of issues include such geoscience-based topics as global warming, fossil fuel resources, nuclear waste disposal, and earthquake prediction and preparedness.'].
 \##22['spring1' -> 1].
 \##22['fall1' -> 1].
@@ -236,6 +257,7 @@
 \##23['Credits' -> 3].
 \##23['Prerequisites' -> 'NONE'].
 \##23['Antirequisites' -> 'NONE'].
+\##23['Corequisites' -> 'NONE'].
 \##23['Description' -> 'A survey of the world's water resources and the fundamental processes and concepts that govern their distribution and resupply.  Topics to be covered include processes in the hydrologic cycle, water resource supply and demand, water quality, and societal aspects relating to drinking water, and industrial and agricultural water usage.  Consideration is given to global water shortages, projected impacts of climate change, water-based conflict, water resource management, and conservation practices.  Detail will be devoted to pollution sources, water quality standards, drinking water treatment, and government regulation.  Local water issues will also be addressed.'].
 \##23['spring1' -> 1].
 \##23['fall1' -> 1].
@@ -247,6 +269,7 @@
 \##24['Credits' -> 3].
 \##24['Prerequisites' -> [['GEO102', 'GEO122'], ['MAT127', 'MAT132', 'MAT142', 'MAT171', 'AMS161']]].
 \##24['Antirequisites' -> 'NONE'].
+\##24['Corequisites' -> 'NONE'].
 \##24['Description' -> 'Physical and chemical principles of geohydrology. Concepts of groundwater geology. Introduction to quantitative models of regional fluid flow and groundwater contamination. Groundwater and geologic processes, with examples from tectonics, petroleum geology, geothermics, and economic mineralization.'].
 \##24['spring1' -> 1].
 \##24['fall1' -> 1].
@@ -258,6 +281,7 @@
 \##25['Credits' -> 4].
 \##25['Prerequisites' -> [['GEO122'], ['CHE132']]].
 \##25['Antirequisites' -> 'NONE'].
+\##25['Corequisites' -> 'NONE'].
 \##25['Description' -> 'Chemical principles used in the study of surface and near-surface water, rocks, and soils. Application of equilibrium concepts and reaction rates to reactions involving gases, fluids, and minerals in nature. Consideration of soil properties and processes.'].
 \##25['spring1' -> 1].
 \##25['fall1' -> 1].
@@ -269,6 +293,7 @@
 \##26['Credits' -> 3].
 \##26['Prerequisites' -> [['GEO122', 'GEO102'], ['MAT127', 'AMS161']]].
 \##26['Antirequisites' -> 'NONE'].
+\##26['Corequisites' -> 'NONE'].
 \##26['Description' -> 'Fundamental concepts of soil, sediment, and rock mechanics and the physics of surficial processes. Application is made to problems of geotechnical and coastal engineering. Topics include consolidation, loose boundary hydraulics, slope stability, underground excavations and beach and tidal inlet stability, and channel sedimentation. This course is offered as both GEO 318 and MAR 318.'].
 \##26['spring1' -> 1].
 \##26['fall1' -> 1].
@@ -280,6 +305,7 @@
 \##27['Credits' -> 3].
 \##27['Prerequisites' -> [['GEO102']]].
 \##27['Antirequisites' -> 'NONE'].
+\##27['Corequisites' -> 'NONE'].
 \##27['Description' -> 'History of glaciation on earth; formation and dynamics of glaciers and ice sheets; processes of glacial erosion and deposition; and the nature of glacial sediments and landforms particularly relating to the development of Long Island.'].
 \##27['spring1' -> 1].
 \##27['fall1' -> 1].
@@ -291,6 +317,7 @@
 \##28['Credits' -> 3].
 \##28['Prerequisites' -> [['GEO102', 'GEO122', 'GEO106']]].
 \##28['Antirequisites' -> 'NONE'].
+\##28['Corequisites' -> 'NONE'].
 \##28['Description' -> 'Overview of Mars as a planetary system. Evolution of the planet and its atmosphere through time. Detailed discussion of processes that have shaped the martian surface, including erosion, sedimentation, volcanism, impact cratering, physical and chemical weathering. Comparison of geologic processes on Mars and Earth. Discussion of past and future spacecraft missions to Mars.'].
 \##28['spring1' -> 1].
 \##28['fall1' -> 1].
@@ -302,6 +329,7 @@
 \##29['Credits' -> 3].
 \##29['Prerequisites' -> [['GEO102', 'GEO106', 'GEO122']]].
 \##29['Antirequisites' -> 'NONE'].
+\##29['Corequisites' -> 'NONE'].
 \##29['Description' -> 'An introduction to the fundamental principles of remote sensing, with emphasis on geological and environmental applications.  Discussion of the physical basis for remote sensing techniques.  Survey of commonly used sensors and image analysis methods in earth sciences. Participants gain practical experience in geologic and environmental analysis using satellite imagery.'].
 \##29['spring1' -> 1].
 \##29['fall1' -> 1].
@@ -311,8 +339,9 @@
 \##30['CourseTitle' -> 'Mineralogy Laboratory'].
 \##30['Career' -> 'Undergraduate'].
 \##30['Credits' -> 1].
-\##30['Prerequisites' -> [['GEO306']]].
+\##30['Prerequisites' -> 'NONE'].
 \##30['Antirequisites' -> 'NONE'].
+\##30['Corequisites' -> [['GEO306']]].
 \##30['Description' -> 'Three hours of laboratory per week that corresponds to the content of GEO 306. Laboratory exercises involve work with crystallographic models, mineral samples, refraction oils and the polarizing light microscope. This course has an associated fee. Please see www.stonybrook.edu/coursefees for more information.'].
 \##30['spring1' -> 1].
 \##30['fall1' -> 1].
@@ -322,8 +351,9 @@
 \##31['CourseTitle' -> 'Structural Geology Laboratory'].
 \##31['Career' -> 'Undergraduate'].
 \##31['Credits' -> 1].
-\##31['Prerequisites' -> [['GEO309']]].
+\##31['Prerequisites' -> 'NONE'].
 \##31['Antirequisites' -> 'NONE'].
+\##31['Corequisites' -> [['GEO309']]].
 \##31['Description' -> 'Three hours of laboratory per week that corresponds to the content of GEO 309. Laboratory exercises cover map interpretation and algebraic and graphical solutions of structural problems. This course has an associated fee. Please see www.stonybrook.edu/coursefees for more information.'].
 \##31['spring1' -> 1].
 \##31['fall1' -> 1].
@@ -333,8 +363,9 @@
 \##32['CourseTitle' -> 'Sedimentation and Stratigraphy'].
 \##32['Career' -> 'Undergraduate'].
 \##32['Credits' -> 3].
-\##32['Prerequisites' -> [['GEO103'], ['GEO113'], ['GEO306', 'GEO366', 'GEO463']]].
+\##32['Prerequisites' -> [['GEO103'], ['GEO113'], ['GEO306'], ['GEO366']]].
 \##32['Antirequisites' -> 'NONE'].
+\##32['Corequisites' -> [['GEO463']]].
 \##32['Description' -> 'The history and practice of defining units of layered rocks and interpreting their spatial relationships. Topics include the basis for the geologic time scale, lithostratigraphic versus chronostratigraphic units, biostratigraphy, magnetostratigraphy, facies patterns and Walther's Law, subsurface stratigraphy, and the application of stratigraphy to geological problems. The laboratory component, GEO 463, must be taken concurrently; a common grade for both courses will be assigned.'].
 \##32['spring1' -> 1].
 \##32['fall1' -> 1].
@@ -346,6 +377,7 @@
 \##33['Credits' -> 3].
 \##33['Prerequisites' -> [['GEO102', 'GEO122']]].
 \##33['Antirequisites' -> 'NONE'].
+\##33['Corequisites' -> 'NONE'].
 \##33['Description' -> 'An introduction to the study of landforms and the processes that produce and modify them. This active learning class meets for two, three-hour periods each week consisting of recitations, discussions, and exercises. A significant portion of the exercises will relate to Long Island geomorphology. Computers will be used extensively in class.'].
 \##33['spring1' -> 1].
 \##33['fall1' -> 1].
@@ -357,6 +389,7 @@
 \##34['Credits' -> '1.00 - 6.00'].
 \##34['Prerequisites' -> 'NONE'].
 \##34['Antirequisites' -> 'NONE'].
+\##34['Corequisites' -> 'NONE'].
 \##34['Description' -> 'A field course that may be taken at any one of several approved university field stations.'].
 \##34['spring1' -> 1].
 \##34['fall1' -> 1].
@@ -366,8 +399,9 @@
 \##35['CourseTitle' -> 'Igneous and Metamorphic Petrology'].
 \##35['Career' -> 'Undergraduate'].
 \##35['Credits' -> 3].
-\##35['Prerequisites' -> [['MAT125', 'MAT131', 'AMS151'], ['GEO306', 'GEO366', 'GEO467']]].
+\##35['Prerequisites' -> [['MAT125', 'MAT131', 'AMS151'], ['GEO306'], ['GEO366']]].
 \##35['Antirequisites' -> 'NONE'].
+\##35['Corequisites' -> [['GEO467']]].
 \##35['Description' -> 'Topics focus on the processes that govern the formation and distribution of igneous and metamorphic rocks and their link to the Earth's mantle, crust, and tectonic regimes. Emphasis will be placed on integrating assessment of the chemical control on compositional diversity through phase diagrams with the study of natural rock suites through hand sample and thin section analysis. Three hours of lecture per week. The laboratory component, GEO 467, must be taken concurrently; a common grade for both courses will be assigned.'].
 \##35['spring1' -> 1].
 \##35['fall1' -> 1].
@@ -379,6 +413,7 @@
 \##36['Credits' -> 0].
 \##36['Prerequisites' -> [['WRT102']]].
 \##36['Antirequisites' -> 'NONE'].
+\##36['Corequisites' -> 'NONE'].
 \##36['Description' -> 'This course is designed for students who engage in a substantial, structured experiential learning activity in conjunction with another class. Experiential learning occurs when knowledge acquired through formal learning and past experience are applied to a "real-world" setting or problem to create new knowledge through a process of reflection, critical analysis, feedback and synthesis. Beyond-the-classroom experiences that support experiential learning may include: service learning, mentored research, field work, or an internship.'].
 \##36['spring1' -> 1].
 \##36['fall1' -> 1].
@@ -390,6 +425,7 @@
 \##37['Credits' -> '1.00 - 3.00'].
 \##37['Prerequisites' -> 'NONE'].
 \##37['Antirequisites' -> 'NONE'].
+\##37['Corequisites' -> 'NONE'].
 \##37['Description' -> 'Independent readings in advanced topics. May be repeated once.'].
 \##37['spring1' -> 1].
 \##37['fall1' -> 1].
@@ -401,6 +437,7 @@
 \##38['Credits' -> 1].
 \##38['Prerequisites' -> 'NONE'].
 \##38['Antirequisites' -> 'NONE'].
+\##38['Corequisites' -> 'NONE'].
 \##38['Description' -> 'Every semester, the Department of Geosciences hosts a colloquium series. The series features weekly lectures covering a wide variety of geosciences research topics. The purpose of this course is to expose upper division geoscience students to current research being performed at Stony Brook University and elsewhere. May be repeated up to a limit of 3 credits.'].
 \##38['spring1' -> 1].
 \##38['fall1' -> 1].
@@ -410,8 +447,9 @@
 \##39['CourseTitle' -> 'Sedimentation and Stratigraphy Laboratory'].
 \##39['Career' -> 'Undergraduate'].
 \##39['Credits' -> 1].
-\##39['Prerequisites' -> [['GEO403']]].
+\##39['Prerequisites' -> 'NONE'].
 \##39['Antirequisites' -> 'NONE'].
+\##39['Corequisites' -> [['GEO403']]].
 \##39['Description' -> 'Three hours of laboratory per week that corresponds to the content of GEO 403. The course emphasizes practical techniques in stratigraphy. This course has an associated fee. Please see www.stonybrook.edu/coursefees for more information.'].
 \##39['spring1' -> 1].
 \##39['fall1' -> 1].
@@ -421,8 +459,9 @@
 \##40['CourseTitle' -> 'Igneous and Metamorphic Petrology Laboratory'].
 \##40['Career' -> 'Undergraduate'].
 \##40['Credits' -> 1].
-\##40['Prerequisites' -> [['GEO407']]].
+\##40['Prerequisites' -> 'NONE'].
 \##40['Antirequisites' -> 'NONE'].
+\##40['Corequisites' -> [['GEO407']]].
 \##40['Description' -> 'Three hours of laboratory per week that corresponds to the content of GEO 407. This course has an associated fee. Please see www.stonybrook.edu/coursefees for more information.'].
 \##40['spring1' -> 1].
 \##40['fall1' -> 1].
@@ -434,6 +473,7 @@
 \##41['Credits' -> 3].
 \##41['Prerequisites' -> 'NONE'].
 \##41['Antirequisites' -> 'NONE'].
+\##41['Corequisites' -> 'NONE'].
 \##41['Description' -> 'Work with a faculty member as an assistant in one of the faculty member's regularly scheduled classes.  The student is required to attend all the classes, do all the regularly assigned work, and meet with the faculty member at regularly scheduled times to discuss the intellectual and pedagogical matters relating to the course.'].
 \##41['spring1' -> 1].
 \##41['fall1' -> 1].
@@ -445,6 +485,7 @@
 \##42['Credits' -> 3].
 \##42['Prerequisites' -> [['GEO475']]].
 \##42['Antirequisites' -> 'NONE'].
+\##42['Corequisites' -> 'NONE'].
 \##42['Description' -> 'Work with a faculty member as an assistant in one of the faculty member's regularly scheduled classes.  Students assume greater responsibility in such areas as leading discussions and analyzing results of tests that have already been graded. Students mya not serve as teaching assistants in the same course twice.'].
 \##42['spring1' -> 1].
 \##42['fall1' -> 1].
@@ -456,6 +497,7 @@
 \##43['Credits' -> '0.00 - 6.00'].
 \##43['Prerequisites' -> 'NONE'].
 \##43['Antirequisites' -> 'NONE'].
+\##43['Corequisites' -> 'NONE'].
 \##43['Description' -> 'Under the supervision of a faculty member, a major in the department may conduct research for academic credit.'].
 \##43['spring1' -> 1].
 \##43['fall1' -> 1].
@@ -467,6 +509,7 @@
 \##44['Credits' -> '0.00 - 6.00'].
 \##44['Prerequisites' -> 'NONE'].
 \##44['Antirequisites' -> 'NONE'].
+\##44['Corequisites' -> 'NONE'].
 \##44['Description' -> 'Participation in local, state, or national private enterprises, public agencies, or nonprofit institutions. May be repeated to a limit of 6 credits.'].
 \##44['spring1' -> 1].
 \##44['fall1' -> 1].
@@ -478,6 +521,7 @@
 \##45['Credits' -> 1].
 \##45['Prerequisites' -> [['GEO102', 'GEO122']]].
 \##45['Antirequisites' -> 'NONE'].
+\##45['Corequisites' -> 'NONE'].
 \##45['Description' -> 'An introduction to writing a scientific literature review in the field of geosciences. Students will gain experience using scientific journal article databases, selecting relevant research articles from the peer-reviewed literature, and summarizing information effectively in written form. This course is to be taken in conjunction with any 300- or 400-level GEO course. Successful completion of this course satisfies the SBC categories WRTD and ESI.'].
 \##45['spring1' -> 1].
 \##45['fall1' -> 1].
@@ -487,8 +531,9 @@
 \##46['CourseTitle' -> 'Research Communication in Geoscience'].
 \##46['Career' -> 'Undergraduate'].
 \##46['Credits' -> 1].
-\##46['Prerequisites' -> [['GEO102', 'GEO112'], ['GEO122']]].
+\##46['Prerequisites' -> [['GEO102'], ['GEO112'], ['GEO122']]].
 \##46['Antirequisites' -> 'NONE'].
+\##46['Corequisites' -> 'NONE'].
 \##46['Description' -> 'An introduction to ethics in scientific research and research communication in Geoscience. Topics from the NIH Ethics training course will be discussed with a focus on the student's current and future research and the ethical aspects of scientific communication. Discussions of clarity in scientific communication as a means of effecting ethical dissemination of scientific results will involve exposure to best practices in oral and written presentation.  Students will give oral presentations of their written work (based on the co-requisite course GEO 496) and be involved in peer assessment of presentations. Successful completion of this course satisfies the SBC categories CER and SPK.'].
 \##46['spring1' -> 1].
 \##46['fall1' -> 1].
@@ -500,6 +545,7 @@
 \##47['Credits' -> 0].
 \##47['Prerequisites' -> 'NONE'].
 \##47['Antirequisites' -> 'NONE'].
+\##47['Corequisites' -> 'NONE'].
 \##47['Description' -> 'Meetings in which first-year graduate students and undergraduates with senior standing learn about the research activities of the Geosciences faculty.
 Fall,'].
 \##47['spring1' -> 1].
@@ -512,6 +558,7 @@ Fall,'].
 \##48['Credits' -> 1].
 \##48['Prerequisites' -> 'NONE'].
 \##48['Antirequisites' -> 'NONE'].
+\##48['Corequisites' -> 'NONE'].
 \##48['Description' -> 'A practical introduction to geographic information system software.  Participants learn to use direct measurement and mathematical techniques to compute the location of features and gain practical experience in rendering imagery and tabular geographic data as layers on maps. The course consists of two three-hour sessions per week for the first five weeks of semester, which include fieldwork, lectures, demonstrations and software-based analysis of data. 
 This course meets with GEO 588 (Geological Field Methods for Earth Science Teachers) for the first five weeks of the semester.  Students may not take GEO 502 and GEO 588 for credit.
 Fall, every year, 1 credit, ABCF grading'].
@@ -525,6 +572,7 @@ Fall, every year, 1 credit, ABCF grading'].
 \##49['Credits' -> 3].
 \##49['Prerequisites' -> 'NONE'].
 \##49['Antirequisites' -> 'NONE'].
+\##49['Corequisites' -> 'NONE'].
 \##49['Description' -> 'Covers the basics of the application of the principles of chemical thermodynamics to the resolution of geochemical and petrological problems. Begins with the first law and continues through phase transitions, properties of fluids, definitions of fugacity and activity of major and trace elements in fluids and molten solutions; configurational entropies; models quantifying nonideal mixing in solid solutions. Additional topics include interpretation of calorimetric studies and/or solubilities of minerals in aqueous solutions.
 Prerequisites: Physical chemistry and thermodynamics, or permission of instructor
 Fall, alternate years,'].
@@ -538,6 +586,7 @@ Fall, alternate years,'].
 \##50['Credits' -> 3].
 \##50['Prerequisites' -> 'NONE'].
 \##50['Antirequisites' -> 'NONE'].
+\##50['Corequisites' -> 'NONE'].
 \##50['Description' -> 'Students are introduced to the current perspectives on the origins and evolution of the Turkana Basin, Kenya. Students learn how to apply fundamental geological concepts to the sediments and rock units to provide a foundation for the chronology and context for recorded events in human evolution. Emphasis is given to sedimentation, statigraphy, volcanism, and tectonics, as they apply to local geology, including training in field methods. Modern terrestrial processes and landscape evolution are examined using features present in the Turkana Basin. Consideration is also given to broader geologic events spanning the Oligocene to he present. Geologic concepts are linked to modern and ancient environments, archaeology, and paleoanthropology in northern Kenya. It is a field-based course involving visits to important geological and fossil sites. Graded work includes fieldwork and lab assignments, independent research assignments, quizzes and a final exam.
 Semesters offered-Fall and Spring. Components- laboratory, lecture, and recitation.'].
 \##50['spring1' -> 1].
@@ -550,6 +599,7 @@ Semesters offered-Fall and Spring. Components- laboratory, lecture, and recitati
 \##51['Credits' -> 1].
 \##51['Prerequisites' -> 'NONE'].
 \##51['Antirequisites' -> 'NONE'].
+\##51['Corequisites' -> 'NONE'].
 \##51['Description' -> 'The course is designed to give the student experience in some or all of the following techniques of experimental petrology: evacuated silica-glass tube experiments, one-atmosphere quenching experiments (with and without controlled atmospheres), 1- to 5- kbar hydrothermal systems (using oxygen buffers where necessary), gas-media experiments up to 7 kbar, and solid-media, piston-cylinder experiments.
 Requirements: Completion of a project involving several of the above techniques; written report
 Prerequisite: Permission of instructor
@@ -564,6 +614,7 @@ Spring, alternate years,'].
 \##52['Credits' -> 3].
 \##52['Prerequisites' -> 'NONE'].
 \##52['Antirequisites' -> 'NONE'].
+\##52['Corequisites' -> 'NONE'].
 \##52['Description' -> 'Theory of phase diagrams, Schreinemaker's rules, heterogeneous equilibria, experimental systems of petrologic interest, and properties of solutions.
 Prerequisites: Metamorphic and igneous petrology and physical chemistry or thermodynamics; or permission of instructor
 Spring,'].
@@ -575,8 +626,9 @@ Spring,'].
 \##53['CourseTitle' -> 'Petrogenesis'].
 \##53['Career' -> 'Graduate'].
 \##53['Credits' -> 3].
-\##53['Prerequisites' -> [['GEO527']]].
+\##53['Prerequisites' -> 'NONE'].
 \##53['Antirequisites' -> 'NONE'].
+\##53['Corequisites' -> 'NONE'].
 \##53['Description' -> 'Discussion of the origin and evolutionary history of selected types of igneous and metamorphic rocks by integrating the principles of heterogeneous phase equilibria, trace-element and isotopic geochemistry, crystal chemistry, and geologic occurrence. The laboratory component, GEO 527, must be taken concurrently; a common grade for both courses will be assigned.
 Fall'].
 \##53['spring1' -> 1].
@@ -589,6 +641,7 @@ Fall'].
 \##54['Credits' -> 3].
 \##54['Prerequisites' -> 'NONE'].
 \##54['Antirequisites' -> 'NONE'].
+\##54['Corequisites' -> 'NONE'].
 \##54['Description' -> 'Study of the crystal chemistry, intracrystalline cation distribution (homogeneous equilibria) stability, and paragenesis of the rock-forming minerals. Special emphasis is placed on amphiboles, feldspars, micas, and pyroxenes.
 Fall,'].
 \##54['spring1' -> 1].
@@ -601,6 +654,7 @@ Fall,'].
 \##55['Credits' -> 3].
 \##55['Prerequisites' -> 'NONE'].
 \##55['Antirequisites' -> 'NONE'].
+\##55['Corequisites' -> 'NONE'].
 \##55['Description' -> 'This course is designed to be an intense study in global climate change science.  The emphasis will be on modern climate change however, by studying the contributions of paleoclimatology we can gain insight into how the climate system operates.  To understand modern climate change and predictions, it is necessary to develop an understanding of natural climate forcing, natural variability and feedbacks in the climate systems.  Adding to natural variation are the impacts of anthropogenic forcing.  The course will examine the measured and predicted consequences of these anthropogenic forcing.
 Offered Fall and Summer, 3 credits, ABCF Grading'].
 \##55['spring1' -> 1].
@@ -613,6 +667,7 @@ Offered Fall and Summer, 3 credits, ABCF Grading'].
 \##56['Credits' -> 3].
 \##56['Prerequisites' -> 'NONE'].
 \##56['Antirequisites' -> 'NONE'].
+\##56['Corequisites' -> 'NONE'].
 \##56['Description' -> 'An introduction to object-oriented programming in Java for geoscience students. Participants are required to develop interactive programs to serve as educational or research tools pertaining to topics within the geosciences.  These programs, or applets, include a graphical user interface that enables users to control parameters and observe results.  The applets are posted on the World Wide Web.
 Prerequisite: Geosciences graduate standing
 Spring,'].
@@ -624,8 +679,9 @@ Spring,'].
 \##57['CourseTitle' -> 'Structure and Properties of Materials'].
 \##57['Career' -> 'Graduate'].
 \##57['Credits' -> 3].
-\##57['Prerequisites' -> 'NONE'].
+\##57['Prerequisites' -> [['CHE131', 'PHY131']]].
 \##57['Antirequisites' -> 'NONE'].
+\##57['Corequisites' -> 'NONE'].
 \##57['Description' -> 'An introductory course that will explore materials from the viewpoint of their structure and chemistry and how these affect applications.  Different states of matter (crystals, quasicrystals, glasses, liquids) will be discussed and their similarities and differences, focusing on the crystalline state.  Nanomaterials and their peculiarities in terms of structure and properties will also be considered.  Particular attention will be paid to (1) Materials for energy and environment applications, (2) materials for technological applications, and (3) Earth and planet-forming materials.
 This course is co-scheduled with GEO312.
 Prerequisite: CHE131 or PHY131'].
@@ -639,6 +695,7 @@ Prerequisite: CHE131 or PHY131'].
 \##58['Credits' -> 3].
 \##58['Prerequisites' -> 'NONE'].
 \##58['Antirequisites' -> 'NONE'].
+\##58['Corequisites' -> 'NONE'].
 \##58['Description' -> 'This course provides the basic concepts underlying modern geographic information science and technology.  Emphasis is placed on the principles of GIS for collecting, storing, characterizing, and maintaining data and computer-based techniques for processing and analyzing spatial data.  The course includes three hours of lecture, in class exercises and homework projects each week. This is a computer based class with the majority of students work involving GIS computer software.  Prerequisite: working knowledge of spreadsheet software'].
 \##58['spring1' -> 1].
 \##58['fall1' -> 1].
@@ -650,6 +707,7 @@ Prerequisite: CHE131 or PHY131'].
 \##59['Credits' -> 3].
 \##59['Prerequisites' -> 'NONE'].
 \##59['Antirequisites' -> 'NONE'].
+\##59['Corequisites' -> 'NONE'].
 \##59['Description' -> 'Surface hydrology. Principles of groundwater flow. Well hydraulics. Geology of groundwater occurrence. Water quality and groundwater contamination. Hydrologic site evaluation.
 Spring,'].
 \##59['spring1' -> 1].
@@ -662,6 +720,7 @@ Spring,'].
 \##60['Credits' -> 3].
 \##60['Prerequisites' -> 'NONE'].
 \##60['Antirequisites' -> 'NONE'].
+\##60['Corequisites' -> 'NONE'].
 \##60['Description' -> 'Dynamics of fluids in porous media. Fundamentals of physical hydrogeology. Quantitative analysis of regional groundwater system and well hydraulics. Introduction to numerical simulation techniques. Hydrodynamic dispersion and basic concepts of contaminant transport.
 Spring,'].
 \##60['spring1' -> 1].
@@ -674,6 +733,7 @@ Spring,'].
 \##61['Credits' -> 3].
 \##61['Prerequisites' -> 'NONE'].
 \##61['Antirequisites' -> 'NONE'].
+\##61['Corequisites' -> 'NONE'].
 \##61['Description' -> 'The structure/property/composition relationships in solids. An introduction to the common structure types and how they illustrate principles useful in understanding more complex solid-state materials. Applications of modern scattering techniques to the study of solids, particularly Earth materials, are also included.
 Fall,'].
 \##61['spring1' -> 1].
@@ -686,6 +746,7 @@ Fall,'].
 \##62['Credits' -> 4].
 \##62['Prerequisites' -> 'NONE'].
 \##62['Antirequisites' -> 'NONE'].
+\##62['Corequisites' -> 'NONE'].
 \##62['Description' -> 'An intensive study of the formation, deposition, lithification, and diagenesis of carbonate sediments. Lectures and seminars emphasize principles of carbonate deposition, facies relationships, and chemistry. Laboratories emphasize binocular and petrographic analysis of recent and ancient carbonates.
 Spring, alternate years,'].
 \##62['spring1' -> 1].
@@ -698,6 +759,7 @@ Spring, alternate years,'].
 \##63['Credits' -> 3].
 \##63['Prerequisites' -> 'NONE'].
 \##63['Antirequisites' -> 'NONE'].
+\##63['Corequisites' -> 'NONE'].
 \##63['Description' -> 'A comprehensive quantitative treatment of the processes controlling the chemistry of polluted and unpolluted surface and groundwaters. Topics covered include thermodynamics and kinetics of water-rock interaction; mineral solubility; chemical speciation; redox reactions; adsorptions; carbonate chemistry; and speciation, mobility, and toxicity of metal ions. Based on a knowledge of these processes, the chemical composition of a wide variety of surface and groundwaters is interpreted. Water-quality criteria and their application are also discussed.
 Spring,'].
 \##63['spring1' -> 1].
@@ -710,6 +772,7 @@ Spring,'].
 \##64['Credits' -> 3].
 \##64['Prerequisites' -> 'NONE'].
 \##64['Antirequisites' -> 'NONE'].
+\##64['Corequisites' -> 'NONE'].
 \##64['Description' -> 'History of glaciation on earth, formation and dynamics of glaciers and ice sheets; processes of glacial erosion and deposition; and the nature of glacial sediments and landforms particularly relating to the development of Long Island. 
 Prerequisite: Physical Geology
 Spring,'].
@@ -723,6 +786,7 @@ Spring,'].
 \##65['Credits' -> 3].
 \##65['Prerequisites' -> 'NONE'].
 \##65['Antirequisites' -> 'NONE'].
+\##65['Corequisites' -> 'NONE'].
 \##65['Description' -> 'Application of radiogenic isotopes and trace elements to the petrogenesis of igneous, metamorphic, and sedimentary systems including water-rock interaction in diagenetic and hydrothermal systems.  Evaluation of radiogenetic techniques for determining the ages of rocks and minerals.
 Spring, alternate years,'].
 \##65['spring1' -> 1].
@@ -735,6 +799,7 @@ Spring, alternate years,'].
 \##66['Credits' -> 3].
 \##66['Prerequisites' -> 'NONE'].
 \##66['Antirequisites' -> 'NONE'].
+\##66['Corequisites' -> 'NONE'].
 \##66['Description' -> 'The chemical, physical, and petrologic properties of meteorites are reviewed. These data and data for the moon and the terrestrial planets are used to form a picture of the origin, chemical evolution, and accretion of planetary material. Fall,'].
 \##66['spring1' -> 1].
 \##66['fall1' -> 1].
@@ -746,6 +811,7 @@ Spring, alternate years,'].
 \##67['Credits' -> 3].
 \##67['Prerequisites' -> 'NONE'].
 \##67['Antirequisites' -> 'NONE'].
+\##67['Corequisites' -> 'NONE'].
 \##67['Description' -> 'Concepts of geodatabase design and management in geographic information systems (GIS), SQL statements, geographic data types and functions, data entry, and techniques of geographic information structure applications. 
 Prerequisite: GSS513 or equivalent'].
 \##67['spring1' -> 1].
@@ -758,6 +824,7 @@ Prerequisite: GSS513 or equivalent'].
 \##68['Credits' -> 3].
 \##68['Prerequisites' -> 'NONE'].
 \##68['Antirequisites' -> 'NONE'].
+\##68['Corequisites' -> 'NONE'].
 \##68['Description' -> 'There are a host of chemical, biological, and physical processes that affect the transport and fate of organic chemicals in natural waters. This course concerns understanding these processes and the structure-activity relationships available for predicting their rates. The major focus of this class is on contaminant hydrology of soil and aquifer environments, and includes the principles behind remediation and containment technologies. This course is offered as both MAR 524 and GEO 524.
 Prerequisite: GEO 526 or MAR 503 or permission of instructor
 Spring,'].
@@ -769,8 +836,9 @@ Spring,'].
 \##69['CourseTitle' -> 'GIS Fundamentals II'].
 \##69['Career' -> 'Graduate'].
 \##69['Credits' -> 3].
-\##69['Prerequisites' -> [['GSS513']]].
+\##69['Prerequisites' -> 'NONE'].
 \##69['Antirequisites' -> 'NONE'].
+\##69['Corequisites' -> 'NONE'].
 \##69['Description' -> 'GIS Fundamentals II will introduce the applied use of Geographic Information Systems (GIS) which is now used extensively in analytical studies.  The course emphasizes the applications of GIS in solving real-world problems.  Students are expected to gain an understanding of GIS theory, methodology and most importantly application.  Students are also expected to demonstrate abilities of spatial thinking, spatial analysis, and be able to solve practical spatial problems utilizing a GIS. 
 Prerequisite: GSS513 or equivalent'].
 \##69['spring1' -> 1].
@@ -783,6 +851,7 @@ Prerequisite: GSS513 or equivalent'].
 \##70['Credits' -> 3].
 \##70['Prerequisites' -> 'NONE'].
 \##70['Antirequisites' -> 'NONE'].
+\##70['Corequisites' -> 'NONE'].
 \##70['Description' -> 'Fundamental principles of chemical thermodynamics and kinetics, including isotope effects, as they pertain to geochemical processes occurring in surface and near-surface environments. Consideration is also given to mass transfer process and reaction pathways.
 Fall,'].
 \##70['spring1' -> 1].
@@ -793,8 +862,9 @@ Fall,'].
 \##71['CourseTitle' -> 'Petrogenesis Laboratory'].
 \##71['Career' -> 'Graduate'].
 \##71['Credits' -> 1].
-\##71['Prerequisites' -> [['GEO507']]].
+\##71['Prerequisites' -> 'NONE'].
 \##71['Antirequisites' -> 'NONE'].
+\##71['Corequisites' -> 'NONE'].
 \##71['Description' -> 'Three hours of laboratory per week that corresponds to the content of GEO 507'].
 \##71['spring1' -> 1].
 \##71['fall1' -> 1].
@@ -806,6 +876,7 @@ Fall,'].
 \##72['Credits' -> 3].
 \##72['Prerequisites' -> 'NONE'].
 \##72['Antirequisites' -> 'NONE'].
+\##72['Corequisites' -> 'NONE'].
 \##72['Description' -> 'Examination of the mineralogical and chemical characteristics of the rock-forming carbonates with emphasis on stabilities in the geological environments. Includes study of phase relations; trace and minor element chemistries; and mechanisms of growth, dissolution, and replacement. Use of current research techniques as applied to carbonate minerals.
 Fall, alternate years,'].
 \##72['spring1' -> 1].
@@ -818,6 +889,7 @@ Fall, alternate years,'].
 \##73['Credits' -> 3].
 \##73['Prerequisites' -> 'NONE'].
 \##73['Antirequisites' -> 'NONE'].
+\##73['Corequisites' -> 'NONE'].
 \##73['Description' -> 'Overview of Mars as a planetary system. Evolution of the planet and its atmosphere through time. Detailed discussion of processes that have shaped the martian surface, including erosion, sedimentation, volcanism, impact cratering, physical and chemical weathering. Comparison of geologic processes on Mars and Earth. Discussion of past and future spacecraft missions to Mars.  Three hours of lecture per week.
 Pre-requisite: Graduate standing or Permission of instructor
 Spring alternate years, ABCF grading, 3 credits'].
@@ -831,6 +903,7 @@ Spring alternate years, ABCF grading, 3 credits'].
 \##74['Credits' -> 3].
 \##74['Prerequisites' -> 'NONE'].
 \##74['Antirequisites' -> 'NONE'].
+\##74['Corequisites' -> 'NONE'].
 \##74['Description' -> 'Principles of symmetry, single-crystal, and powder X-ray diffraction techniques and elements of crystal structure determination are considered. Use of crystallographic data in the study of mineral systems. Laboratory in diffraction techniques includes extensive use of digital computers.
 Fall, alternate years,'].
 \##74['spring1' -> 1].
@@ -843,6 +916,7 @@ Fall, alternate years,'].
 \##75['Credits' -> 3].
 \##75['Prerequisites' -> 'NONE'].
 \##75['Antirequisites' -> 'NONE'].
+\##75['Corequisites' -> 'NONE'].
 \##75['Description' -> 'The application of crystallographic techniques to problems in mineral chemistry. Concepts of the crystalline state, order-disorder, atom radii, chemical bonding, atom coordination, solid solutions, and physical properties of minerals. Emphasis on silicate and sulfide crystal structures.
 Fall, alternate years,'].
 \##75['spring1' -> 1].
@@ -855,6 +929,7 @@ Fall, alternate years,'].
 \##76['Credits' -> 3].
 \##76['Prerequisites' -> 'NONE'].
 \##76['Antirequisites' -> 'NONE'].
+\##76['Corequisites' -> 'NONE'].
 \##76['Description' -> 'A brief overview of basic principles of geochemistry, including origin of the elements, geochemical and cosmochemical classification of the elements, and a geochemical perspective of the periodic table. This is followed by an examination of the compositions and chemical interactions among the major geochemical reservoirs of the terrestrial planets, including their cores, mantles, crusts, and where relevant, sedimentary shells.
 Fall, alternate years, 3 credits, ABCF grading'].
 \##76['spring1' -> 1].
@@ -867,6 +942,7 @@ Fall, alternate years, 3 credits, ABCF grading'].
 \##77['Credits' -> 3].
 \##77['Prerequisites' -> 'NONE'].
 \##77['Antirequisites' -> 'NONE'].
+\##77['Corequisites' -> 'NONE'].
 \##77['Description' -> 'Study of landforms and the processes that produce and modify them. Discussion and practice of field, laboratory, and remote sensing methods used to assess landscape evolution.'].
 \##77['spring1' -> 1].
 \##77['fall1' -> 1].
@@ -878,6 +954,7 @@ Fall, alternate years, 3 credits, ABCF grading'].
 \##78['Credits' -> 3].
 \##78['Prerequisites' -> 'NONE'].
 \##78['Antirequisites' -> 'NONE'].
+\##78['Corequisites' -> 'NONE'].
 \##78['Description' -> 'Formation and development of continental crust in Phanerozoic mountain belts. The structure and origin of ocean crust, magmatic arcs, and continental margin sequences are studied using geophysical, geochemical, and geologic data from ancient and modern examples.
 Fall, alternate years,'].
 \##78['spring1' -> 1].
@@ -890,6 +967,7 @@ Fall, alternate years,'].
 \##79['Credits' -> 3].
 \##79['Prerequisites' -> 'NONE'].
 \##79['Antirequisites' -> 'NONE'].
+\##79['Corequisites' -> 'NONE'].
 \##79['Description' -> 'An overview of solid earth geophysics. Topics include earthquake and exploratory seismology, gravity, magnetics, geochronolgy, and heat flow. There is an emphasis on how all of these techniques shed light on the nature of the Earth's interior and dynamics.
 Prerequisite: Physical geology, undergraduate physics and calculus
 Fall,'].
@@ -903,6 +981,7 @@ Fall,'].
 \##80['Credits' -> 3].
 \##80['Prerequisites' -> 'NONE'].
 \##80['Antirequisites' -> 'NONE'].
+\##80['Corequisites' -> 'NONE'].
 \##80['Description' -> 'Introduction to inverse theory and machine learning and their uses in solving various geological problems, with an emphasis on coding using python and related tools
 3 credits, Letter graded (A, A-, B+, etc.)'].
 \##80['spring1' -> 1].
@@ -913,8 +992,9 @@ Fall,'].
 \##81['CourseTitle' -> 'Stratigraphy'].
 \##81['Career' -> 'Graduate'].
 \##81['Credits' -> 3].
-\##81['Prerequisites' -> [['GEO563']]].
+\##81['Prerequisites' -> 'NONE'].
 \##81['Antirequisites' -> 'NONE'].
+\##81['Corequisites' -> 'NONE'].
 \##81['Description' -> 'The history and practice of defining units layered rocks and interpreting their spatial relationships. Topics include the basis for the geologic time scale, lithostratigraphic versus chronostratigraphic units, biostratigraphy, magnetostratigraphy, facies patterns and Walther's law, subsurface stratigraphy, and the application of stratigraphy to geological problems. The laboratory component, GEO 563, must be taken concurrently; a common grade for both courses will be assigned.
 Spring
 Prerequisite: GEO 546 or undergraduate mineralogy and petrology'].
@@ -926,8 +1006,9 @@ Prerequisite: GEO 546 or undergraduate mineralogy and petrology'].
 \##82['CourseTitle' -> 'Mineralogy and Petrology'].
 \##82['Career' -> 'Graduate'].
 \##82['Credits' -> 3].
-\##82['Prerequisites' -> [['GEO566']]].
+\##82['Prerequisites' -> 'NONE'].
 \##82['Antirequisites' -> 'NONE'].
+\##82['Corequisites' -> 'NONE'].
 \##82['Description' -> 'An introduction to mineralogy and petrology, including crystallography, crystal chemistry, mineral identification, and the processes that govern the formation of igneous and metamorphic rocks. Three hours of lecture per week. The laboratory component, GEO 566, must be taken concurrently; a common grade for both courses will be assigned.
 Spring
 Prerequisite: Undergraduate physical geology and one year of undergraduate chemistry'].
@@ -941,6 +1022,7 @@ Prerequisite: Undergraduate physical geology and one year of undergraduate chemi
 \##83['Credits' -> 3].
 \##83['Prerequisites' -> 'NONE'].
 \##83['Antirequisites' -> 'NONE'].
+\##83['Corequisites' -> 'NONE'].
 \##83['Description' -> 'Comprehensive study of commonly used image analysis methods in earth, environmental and planetary sciences. Discussion of physical principles that are the basis for remote sensing techniques.  Participants gain practical experience in geologic and environmental problem-solving using satellite imagery.
 Spring, 3 credits, Letter graded (A, A-, B+, etc.)'].
 \##83['spring1' -> 1].
@@ -951,8 +1033,9 @@ Spring, 3 credits, Letter graded (A, A-, B+, etc.)'].
 \##84['CourseTitle' -> 'Structural Geology'].
 \##84['Career' -> 'Graduate'].
 \##84['Credits' -> 3].
-\##84['Prerequisites' -> [['GEO569']]].
+\##84['Prerequisites' -> 'NONE'].
 \##84['Antirequisites' -> 'NONE'].
+\##84['Corequisites' -> 'NONE'].
 \##84['Description' -> 'Principles of structural geology, including the recognition and the mechanics crustal structural features. Topics include folding and faulting, stress and strain, and the nature of brittle and ductile lineations and foliations in the crust. Three hours of lecture per week. The laboratory component, GEO 569, must be taken concurrently; a common grade for both courses will be assigned.
 Spring
 Prerequisite: Undergraduate physical geology'].
@@ -966,6 +1049,7 @@ Prerequisite: Undergraduate physical geology'].
 \##85['Credits' -> 3].
 \##85['Prerequisites' -> 'NONE'].
 \##85['Antirequisites' -> 'NONE'].
+\##85['Corequisites' -> 'NONE'].
 \##85['Description' -> 'Geological, geochemical, and geophysical evidence related to the concepts of plate tectonics and mantle convection. Kinematics and dynamics of plate motions. Origin of first-order crustal structures of continents and ocean basins. Geochemical and thermal evolution of the Earth.
 Spring,'].
 \##85['spring1' -> 1].
@@ -978,6 +1062,7 @@ Spring,'].
 \##86['Credits' -> 3].
 \##86['Prerequisites' -> 'NONE'].
 \##86['Antirequisites' -> 'NONE'].
+\##86['Corequisites' -> 'NONE'].
 \##86['Description' -> 'Study of the internal structure and properties of the Earth as revealed by field and laboratory investigations. Topics include the rotation and figure of the Earth, gravity anomalies, solid-earth tides, geomagnetism and paleomagnetism, electromagnetic induction, and heat flow and the Earth's present and past thermal states. May be taken independently of GEO 552.
 Fall,'].
 \##86['spring1' -> 1].
@@ -990,6 +1075,7 @@ Fall,'].
 \##87['Credits' -> 3].
 \##87['Prerequisites' -> 'NONE'].
 \##87['Antirequisites' -> 'NONE'].
+\##87['Corequisites' -> 'NONE'].
 \##87['Description' -> 'Study of the Earth's structure and properties based on evidence from seismology and high-pressure geophysics. Topics include fundamental principles of elastic wave theory, body and surface wave propagation in layered media, earthquake source mechanisms, free oscillations of the Earth, and rheological properties of the Earth's interior. May be taken independently of GEO 551.
 Fall, alternate years,'].
 \##87['spring1' -> 1].
@@ -1002,6 +1088,7 @@ Fall, alternate years,'].
 \##88['Credits' -> 3].
 \##88['Prerequisites' -> 'NONE'].
 \##88['Antirequisites' -> 'NONE'].
+\##88['Corequisites' -> 'NONE'].
 \##88['Description' -> 'Application of lattice dynamics and equations of state of solids to studies in high-pressure, high-temperature geophysics. Reviews experimental data from physical acoustics, static and shock wave compression, and theoretical results from finite strain and atomistic models.
 Prerequisites: GEO 551 and 552, or permission of instructor
 Spring,'].
@@ -1015,6 +1102,7 @@ Spring,'].
 \##89['Credits' -> 3].
 \##89['Prerequisites' -> 'NONE'].
 \##89['Antirequisites' -> 'NONE'].
+\##89['Corequisites' -> 'NONE'].
 \##89['Description' -> 'The course treats qualitative and quantitative aspects of the early diagenesis of sediments. Topics include diffusion and adsorption of dissolved species; organic matter decomposition and storage; and diagenesis of clay materials, sulfur compounds, and calcium carbonates. The effects of bioturbation on sediment diagenesis are also discussed. This course is offered as both MAR 562 and GEO 562.
 Fall, alternate years,'].
 \##89['spring1' -> 1].
@@ -1025,8 +1113,9 @@ Fall, alternate years,'].
 \##90['CourseTitle' -> 'Stratigraphy Laboratory'].
 \##90['Career' -> 'Graduate'].
 \##90['Credits' -> 1].
-\##90['Prerequisites' -> [['GEO543']]].
+\##90['Prerequisites' -> 'NONE'].
 \##90['Antirequisites' -> 'NONE'].
+\##90['Corequisites' -> 'NONE'].
 \##90['Description' -> 'Three hours of laboratory per week that corresponds to the content of GEO 543. Laboratory work emphasizes practical techniques in stratigraphy.'].
 \##90['spring1' -> 1].
 \##90['fall1' -> 1].
@@ -1036,8 +1125,9 @@ Fall, alternate years,'].
 \##91['CourseTitle' -> 'Mineralogy and Petrology Laboratory'].
 \##91['Career' -> 'Graduate'].
 \##91['Credits' -> 1].
-\##91['Prerequisites' -> [['GEO546']]].
+\##91['Prerequisites' -> 'NONE'].
 \##91['Antirequisites' -> 'NONE'].
+\##91['Corequisites' -> 'NONE'].
 \##91['Description' -> 'Three hours of laboratory per week that corresponds to the content of GEO 546'].
 \##91['spring1' -> 1].
 \##91['fall1' -> 1].
@@ -1049,6 +1139,7 @@ Fall, alternate years,'].
 \##92['Credits' -> 3].
 \##92['Prerequisites' -> 'NONE'].
 \##92['Antirequisites' -> 'NONE'].
+\##92['Corequisites' -> 'NONE'].
 \##92['Description' -> 'An examination of major and trace elements and isotopic composition of terrigenous sedimentary rocks within a framework of tracing the composition and evolution of the continental crust.  Emphasis is placed on interpreting sedimentary compositions in terms of provenance and sedimentary history (e.g., weathering, diagenesis, recycling). Relationships between sediment composition and tectonic setting is also examined.
 Spring,'].
 \##92['spring1' -> 1].
@@ -1059,8 +1150,9 @@ Spring,'].
 \##93['CourseTitle' -> 'Structural Geology Laboratory'].
 \##93['Career' -> 'Graduate'].
 \##93['Credits' -> 1].
-\##93['Prerequisites' -> [['GEO549']]].
+\##93['Prerequisites' -> 'NONE'].
 \##93['Antirequisites' -> 'NONE'].
+\##93['Corequisites' -> 'NONE'].
 \##93['Description' -> 'Three hours of laboratory per week that corresponds to the content of GEO 549'].
 \##93['spring1' -> 1].
 \##93['fall1' -> 1].
@@ -1072,6 +1164,7 @@ Spring,'].
 \##94['Credits' -> 3].
 \##94['Prerequisites' -> 'NONE'].
 \##94['Antirequisites' -> 'NONE'].
+\##94['Corequisites' -> 'NONE'].
 \##94['Description' -> 'A survey of fundamental mechanics aspects of earthquake rupture; reviews concepts of fracture mechanics, elastodynamics, and experimental rock mechanics. Topics include state of stress in the lithosphere, theoretical models of earthquake instability, energetics of faulting, representation of dynamic elastic field generated by earthquakes, and relation of seismic signals to the kinematics and dynamics of seismic source.
 Prerequisite: GEO 552 or permission of instructor
 Spring, alternate years,'].
@@ -1085,6 +1178,7 @@ Spring, alternate years,'].
 \##95['Credits' -> 3].
 \##95['Prerequisites' -> 'NONE'].
 \##95['Antirequisites' -> 'NONE'].
+\##95['Corequisites' -> 'NONE'].
 \##95['Description' -> 'Elastic, thermal, and anelastic properties of geological materials. The course emphasizes a thermodynamic characterization of these properties including irreversible thermodynamics and nonhydrostatic thermodynamics. Specific applications to the Earth's environment are discussed.
 Prerequisites: GEO 551, 552, or permission of instructor
 Fall, alternate years,'].
@@ -1098,6 +1192,7 @@ Fall, alternate years,'].
 \##96['Credits' -> 3].
 \##96['Prerequisites' -> 'NONE'].
 \##96['Antirequisites' -> 'NONE'].
+\##96['Corequisites' -> 'NONE'].
 \##96['Description' -> 'Course is intended to expose the student to topics that are at the forefront of current seismological research. Examples include wave propagation in heterogeneous media, earthquake source studies, tsunami generation, and seismic network data analysis.
 Prerequisite: GEO 552
 Fall, alternate years,'].
@@ -1111,6 +1206,7 @@ Fall, alternate years,'].
 \##97['Credits' -> 3].
 \##97['Prerequisites' -> 'NONE'].
 \##97['Antirequisites' -> 'NONE'].
+\##97['Corequisites' -> 'NONE'].
 \##97['Description' -> 'Fundamentals of the physical properties of rock in relation to seismology, hydrogeology, geophysical prospecting and geotechnical engineering. Topics include: composition, pore structure and fabric of rocks; elasticity, anelasticity and plasticity; seismic velocity and anisotropy; poroelasticity; electrical, magnetic and hydraulic transpost properties.
 Fall, alternate years,'].
 \##97['spring1' -> 1].
@@ -1123,6 +1219,7 @@ Fall, alternate years,'].
 \##98['Credits' -> 3].
 \##98['Prerequisites' -> 'NONE'].
 \##98['Antirequisites' -> 'NONE'].
+\##98['Corequisites' -> 'NONE'].
 \##98['Description' -> 'Concepts of the mechanics of earth materials and the physics of surficial processes with applications to the coastal environment and engineering. This course is also offered as mar 581.
 Prerequisites: Enrollment in MESP or OEN program or instructor
 Fall,'].
@@ -1136,6 +1233,7 @@ Fall,'].
 \##99['Credits' -> '1.00 - 3.00'].
 \##99['Prerequisites' -> 'NONE'].
 \##99['Antirequisites' -> 'NONE'].
+\##99['Corequisites' -> 'NONE'].
 \##99['Description' -> 'Special studies directed by various faculty members.
 Fall, Spring, Summer,'].
 \##99['spring1' -> 1].
@@ -1148,6 +1246,7 @@ Fall, Spring, Summer,'].
 \##100['Credits' -> 0].
 \##100['Prerequisites' -> 'NONE'].
 \##100['Antirequisites' -> 'NONE'].
+\##100['Corequisites' -> 'NONE'].
 \##100['Description' -> 'Students will complete an in-depth capstone report based on analysis of original, independent research conducted by the student on a faculty supervisor-approved topic in hydrogeology.'].
 \##100['spring1' -> 1].
 \##100['fall1' -> 1].
@@ -1159,6 +1258,7 @@ Fall, Spring, Summer,'].
 \##101['Credits' -> 3].
 \##101['Prerequisites' -> 'NONE'].
 \##101['Antirequisites' -> 'NONE'].
+\##101['Corequisites' -> 'NONE'].
 \##101['Description' -> 'Geologic mapping techniques, geochemical analytical approach, and hydrological methodologies applied in the field to examples on Long Island.  These approaches are designed for developing research projects for secondary students in earth science.
 Prerequisite: Permission of instructor
 Summer,'].
@@ -1172,6 +1272,7 @@ Summer,'].
 \##102['Credits' -> '1.00 - 3.00'].
 \##102['Prerequisites' -> 'NONE'].
 \##102['Antirequisites' -> 'NONE'].
+\##102['Corequisites' -> 'NONE'].
 \##102['Description' -> 'This course is intended to provide earth science teachers or students in the M.A.T. in Earth Science program an opportunity to obtain research experience.  A written report is required.
 Prerequisite: Permission of instructor
 Summer,'].
@@ -1185,6 +1286,7 @@ Summer,'].
 \##103['Credits' -> '1.00 - 12.00'].
 \##103['Prerequisites' -> 'NONE'].
 \##103['Antirequisites' -> 'NONE'].
+\##103['Corequisites' -> 'NONE'].
 \##103['Description' -> 'Independent research
 Fall,Spring,Summer,'].
 \##103['spring1' -> 1].
@@ -1197,6 +1299,7 @@ Fall,Spring,Summer,'].
 \##104['Credits' -> '1.00 - 12.00'].
 \##104['Prerequisites' -> 'NONE'].
 \##104['Antirequisites' -> 'NONE'].
+\##104['Corequisites' -> 'NONE'].
 \##104['Description' -> 'Independent research for those students established in a research group.'].
 \##104['spring1' -> 1].
 \##104['fall1' -> 1].
@@ -1208,6 +1311,7 @@ Fall,Spring,Summer,'].
 \##105['Credits' -> '0.00 - 3.00'].
 \##105['Prerequisites' -> 'NONE'].
 \##105['Antirequisites' -> 'NONE'].
+\##105['Corequisites' -> 'NONE'].
 \##105['Description' -> 'Fall and Spring,'].
 \##105['spring1' -> 1].
 \##105['fall1' -> 1].
@@ -1219,6 +1323,7 @@ Fall,Spring,Summer,'].
 \##106['Credits' -> '1.00 - 3.00'].
 \##106['Prerequisites' -> 'NONE'].
 \##106['Antirequisites' -> 'NONE'].
+\##106['Corequisites' -> 'NONE'].
 \##106['Description' -> 'Fall and Spring,'].
 \##106['spring1' -> 1].
 \##106['fall1' -> 1].
@@ -1230,6 +1335,7 @@ Fall,Spring,Summer,'].
 \##107['Credits' -> '1.00 - 3.00'].
 \##107['Prerequisites' -> 'NONE'].
 \##107['Antirequisites' -> 'NONE'].
+\##107['Corequisites' -> 'NONE'].
 \##107['Description' -> ''].
 \##107['spring1' -> 1].
 \##107['fall1' -> 1].
@@ -1241,6 +1347,7 @@ Fall,Spring,Summer,'].
 \##108['Credits' -> '1.00 - 3.00'].
 \##108['Prerequisites' -> 'NONE'].
 \##108['Antirequisites' -> 'NONE'].
+\##108['Corequisites' -> 'NONE'].
 \##108['Description' -> 'Fall and Spring,'].
 \##108['spring1' -> 1].
 \##108['fall1' -> 1].
@@ -1252,6 +1359,7 @@ Fall,Spring,Summer,'].
 \##109['Credits' -> '1.00 - 3.00'].
 \##109['Prerequisites' -> 'NONE'].
 \##109['Antirequisites' -> 'NONE'].
+\##109['Corequisites' -> 'NONE'].
 \##109['Description' -> 'Topics in Geochronology'].
 \##109['spring1' -> 1].
 \##109['fall1' -> 1].
@@ -1263,6 +1371,7 @@ Fall,Spring,Summer,'].
 \##110['Credits' -> '1.00 - 3.00'].
 \##110['Prerequisites' -> 'NONE'].
 \##110['Antirequisites' -> 'NONE'].
+\##110['Corequisites' -> 'NONE'].
 \##110['Description' -> 'Fall and Spring,'].
 \##110['spring1' -> 1].
 \##110['fall1' -> 1].
@@ -1274,6 +1383,7 @@ Fall,Spring,Summer,'].
 \##111['Credits' -> '1.00 - 3.00'].
 \##111['Prerequisites' -> 'NONE'].
 \##111['Antirequisites' -> 'NONE'].
+\##111['Corequisites' -> 'NONE'].
 \##111['Description' -> 'Topics in Geochemistry'].
 \##111['spring1' -> 1].
 \##111['fall1' -> 1].
@@ -1285,6 +1395,7 @@ Fall,Spring,Summer,'].
 \##112['Credits' -> '1.00 - 3.00'].
 \##112['Prerequisites' -> 'NONE'].
 \##112['Antirequisites' -> 'NONE'].
+\##112['Corequisites' -> 'NONE'].
 \##112['Description' -> 'Fall and Spring,'].
 \##112['spring1' -> 1].
 \##112['fall1' -> 1].
@@ -1296,6 +1407,7 @@ Fall,Spring,Summer,'].
 \##113['Credits' -> 0].
 \##113['Prerequisites' -> 'NONE'].
 \##113['Antirequisites' -> 'NONE'].
+\##113['Corequisites' -> 'NONE'].
 \##113['Description' -> 'A weekly series of research seminars presented by visiting scientists as well as by the faculty. Required every semester of all geoscience graduate students.
 Fall and Spring,'].
 \##113['spring1' -> 1].
@@ -1308,6 +1420,7 @@ Fall and Spring,'].
 \##114['Credits' -> 0].
 \##114['Prerequisites' -> 'NONE'].
 \##114['Antirequisites' -> 'NONE'].
+\##114['Corequisites' -> 'NONE'].
 \##114['Description' -> 'Presentation of preliminary research results and current research problems by students and faculty. Required every semester of all geoscience graduate students.
 Fall and Spring,'].
 \##114['spring1' -> 1].
@@ -1320,6 +1433,7 @@ Fall and Spring,'].
 \##115['Credits' -> 0].
 \##115['Prerequisites' -> 'NONE'].
 \##115['Antirequisites' -> 'NONE'].
+\##115['Corequisites' -> 'NONE'].
 \##115['Description' -> 'A weekly series of specialized seminars in which graduate students and faculty discuss specific topics within the subgroups of geology. Research is reviewed, and theses are discussed.
 Fall and Spring,'].
 \##115['spring1' -> 1].
@@ -1332,6 +1446,7 @@ Fall and Spring,'].
 \##116['Credits' -> '1.00 - 9.00'].
 \##116['Prerequisites' -> 'NONE'].
 \##116['Antirequisites' -> 'NONE'].
+\##116['Corequisites' -> 'NONE'].
 \##116['Description' -> 'Independent research for Ph.D. degree. Open only to candidates for the Ph.D. who have passed the preliminary examination.
 Prerequisite: Advancement to candidacy (G5). Major portion of research must take place on SBU campus, at Cold Spring Harbor, or at the Brookhaven National Lab.
 Fall, Spring, and Summer,'].
@@ -1345,6 +1460,7 @@ Fall, Spring, and Summer,'].
 \##117['Credits' -> '1.00 - 9.00'].
 \##117['Prerequisites' -> 'NONE'].
 \##117['Antirequisites' -> 'NONE'].
+\##117['Corequisites' -> 'NONE'].
 \##117['Description' -> 'Prerequisite: Must be advanced to candidacy (G5). Major portion of research will take place off-campus, but in the United States and/or U.S. provinces. Please note, Brookhaven National Labs and the Cold Spring Harbor Lab are considered on-campus.
 All international students must enroll in one of the graduate student insurance plans and should be advised by an International Advisor.
 Fall, Spring, Summer'].
@@ -1358,6 +1474,7 @@ Fall, Spring, Summer'].
 \##118['Credits' -> '1.00 - 9.00'].
 \##118['Prerequisites' -> 'NONE'].
 \##118['Antirequisites' -> 'NONE'].
+\##118['Corequisites' -> 'NONE'].
 \##118['Description' -> 'Prerequisite: Must be advanced to candidacy (G5). Major portion of research will take place outside of the United States and/or U.S. provinces.
 Domestic students have the option of the health plan and may also enroll in MEDEX.
 International students who are in their home country are not covered by mandatory health plan and must contact the Insurance Office for the insurance charge to be removed.
@@ -1374,6 +1491,7 @@ Fall, Spring, Summer'].
 \##119['Credits' -> 0].
 \##119['Prerequisites' -> 'NONE'].
 \##119['Antirequisites' -> 'NONE'].
+\##119['Corequisites' -> 'NONE'].
 \##119['Description' -> ''].
 \##119['spring1' -> 1].
 \##119['fall1' -> 1].

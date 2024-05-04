@@ -9,6 +9,7 @@
             ]
         ],
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Development of quantitative thinking and problem solving abilities through a selection of mathematical topics: logic and reasoning; numbers, functions, and modeling; combinatorics and probability; growth and change. Other topics may include geometry, statistics, game theory, and graph theory. Through their engagement in problem solving, students develop an appreciation of the intellectual scope of mathematics and its connections with other disciplines.",
         "spring1":1,
         "fall1":1,
@@ -21,11 +22,15 @@
         "Credits":1.0,
         "Prerequisites":[
             [
-                "MAT123",
                 "MAT123"
             ]
         ],
         "Antirequisites":"NONE",
+        "Corequisites":[
+            [
+                "MAT123"
+            ]
+        ],
         "Description":"This course is a companion to MAT 123: Precalculus, providing a structured environment where students can refresh the algebra skills which are necessary for success in precalculus. These topics include understanding of exponents (especially fractional and negative exponents), manipulating mathemematical expressions, solving equations, and modeling\/word problems. Course may not be taken with CHE 129.",
         "spring1":1,
         "fall1":1,
@@ -42,6 +47,7 @@
             ]
         ],
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"The basics of calculus in a self-contained, one-semester course. Properties and applications of polynomial, exponential, and logarithmic functions. Derivatives:  slopes, rates of change, optimization, integrals, area, cumulative change, and average. The fundamental theorem of calculus. Emphasis on modeling examples from economics. Students who subsequently wish to enroll in MAT 125 or 131 will be required to score level 4 on the mathematics placement examination before taking either course. This course has been designated as a High Demand\/Controlled Access (HD\/CA) course. Students registering for HD\/CA courses for the first time will have priority to do so.",
         "spring1":1,
         "fall1":1,
@@ -54,11 +60,11 @@
         "Credits":3.0,
         "Prerequisites":[
             [
-                "MAP103",
-                "MAT119"
+                "MAP103"
             ]
         ],
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Comprehensive preparation for the regular calculus sequences. Careful development of rational, exponential, logarithmic, and trigonometric functions, and their applications. Asymptotics and curve sketching. General modeling examples. This course has been designated as a High Demand\/Controlled Access (HD\/CA) course. Students registering for HD\/CA courses for the first time will have priority to do so.",
         "spring1":1,
         "fall1":1,
@@ -72,12 +78,10 @@
         "Prerequisites":[
             [
                 "MAT123"
-            ],
-            [
-                "MAT130"
             ]
         ],
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Differential calculus, emphasizing conceptual understanding, computations and applications, for students who have the necessary background from 12th-year high school mathematics. Limits and continuous functions. Differentiation of elementary algebraic, trigonometric, exponential and logarithmic functions; graphing; modeling; and maximization. L'Hospital's rule.  May not be taken for credit in addition to MAT 131 or 141 or AMS 151. This course has been designated as a High Demand\/Controlled Access (HD\/CA) course. Students registering for HD\/CA courses for the first time will have priority to do so.",
         "spring1":1,
         "fall1":1,
@@ -95,6 +99,7 @@
             ]
         ],
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"A continuation of MAT 125, covering integral calculus: Riemann sums, the fundamental theorem, symbolic and numeric methods of integration, area under a curve, volume, applications such as work and probability, improper integrals. This course has been designated as a High Demand\/Controlled Access (HD\/CA) course. Students registering for HD\/CA courses for the first time will have priority to do so.",
         "spring1":1,
         "fall1":1,
@@ -111,6 +116,7 @@
             ]
         ],
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"A continuation of MAT 126, covering: sequences, series, Taylor series, differential equations and modeling.  May not be taken for credit in addition to MAT 132, MAT 142, MAT 171, or AMS 161. This course has been designated as a High Demand\/Controlled Access (HD\/CA) course. Students registering for HD\/CA courses for the first time will have priority to do so.",
         "spring1":1,
         "fall1":1,
@@ -128,6 +134,7 @@
             ]
         ],
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Inverse functions, exponential and logarithmic functions, radian measure of angles and trigonometric functions. Taught as a companion to MAT 125.",
         "spring1":1,
         "fall1":1,
@@ -144,6 +151,7 @@
             ]
         ],
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"The differential calculus and integral calculus, emphasizing conceptual understanding, computations and applications, for students who have the necessary background from 12th-year high school mathematics.  Differentiation of elementary algebraic; trigonometric, exponential, and logarithmic functions; graphing; modelling and maximization; L'Hospital's rule; the Riemann integral; and the Fundamental Theorem of Calculus. May not be taken for credit in addition to MAT 125 or 141 or AMS 151. This course has been designated as a High Demand\/Controlled Access (HD\/CA) course. Students registering for HD\/CA courses for the first time will have priority to do so.",
         "spring1":1,
         "fall1":1,
@@ -161,6 +169,7 @@
             ]
         ],
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"A continuation of MAT 131, covering symbolic and numeric methods of integration; area under a curve; volume; applications such as work and probability; sequences; series; Taylor series; differential equations; and modelling. May not be taken for credit in addition to MAT 127, MAT 142, MAT 171, or AMS 161. This course has been designated as a High Demand\/Controlled Access (HD\/CA) course. Students registering for HD\/CA courses for the first time will have priority to do so.",
         "spring1":1,
         "fall1":1,
@@ -173,6 +182,7 @@
         "Credits":3.0,
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"A basic course in the logic of mathematics, the construction of proofs and the writing of proofs. The mathematical content is primarily logic and proofs, set theory,  combinatorics, functions and relations. There is considerable focus on writing. May not be taken for credit in addition to MAT 250.",
         "spring1":1,
         "fall1":1,
@@ -190,6 +200,7 @@
             ]
         ],
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Vector algebra in two and three dimensions, multivariate differential and integral calculus, optimization, vector calculus including the theorems of Green, Gauss, and Stokes. Applications to economics, engineering, and all sciences, with emphasis on numerical and graphical solutions; use of graphing calculators or computers. May not be taken for credit in addition to AMS 261.",
         "spring1":1,
         "fall1":1,
@@ -208,6 +219,7 @@
             ]
         ],
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Introduction to the theory of linear algebra with some applications; vectors, vector spaces, bases and dimension, applications to geometry, linear transformations and rank, eigenvalues and eigenvectors, determinants and inner products. May not be taken for credit in addition to AMS 210.",
         "spring1":1,
         "fall1":1,
@@ -224,6 +236,7 @@
             ]
         ],
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"An introduction to the Advanced Track mathematics program. Provides the core of basic of propositional logic, quantifiers, proofs, sets, functions, cardinality, relations, equivalence relations and quotient sets, order relations, combinatorics. Number systems: natural numbers, integers, rational, real and complex numbers. MAT 250 is primarily intended for students in the Advanced Track program. It serves as an alternative to MAT 200 and may not be taken for credit in addition to MAT 200. Students wishing to enroll in MAT 250 should instead enroll in a corresponding section of MAT 200. In approximately the 3rd week, an assessment will be held and qualified students will be offered the option of moving to MAT 250. Formerly offered as MAT 150; not for credit in addition to MAT 150.",
         "spring1":1,
         "fall1":1,
@@ -236,6 +249,7 @@
         "Credits":1.0,
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Students actively solve challenging problems in  plane geometry, basic number theory, and calculus, and write precise arguments. Relevant preparation for problem-solving is provided in the course.",
         "spring1":1,
         "fall1":1,
@@ -253,6 +267,7 @@
             ]
         ],
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Homogeneous and inhomogeneous linear differential equations; systems of linear differential equations; series solutions; Laplace transforms; Fourier series. Applications to economics, engineering, and all sciences with emphasis on numerical and graphical solutions; use of computers. May not be taken for credit in addition to AMS 361 or MAT 308.",
         "spring1":1,
         "fall1":1,
@@ -270,6 +285,7 @@
             ]
         ],
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Introduction to linear algebra: vectors, matrices, systems of linear equations,  bases and dimension, dot product, determinants. Multivariate differential and integral calculus, divergence and curl, line and surface integrals, theorems of Green, Gauss, and Stokes. More theoretical and intensive than MAT 203, this course is primarily intended for math majors. Together with MAT 308, it forms a 2-semester sequence covering the same material as the 3-semester sequence of MAT 203, MAT 211 and MAT 303. May not be taken for credit in addition to MAT 203 or AMS 261.",
         "spring1":1,
         "fall1":1,
@@ -285,15 +301,20 @@
                 "MAT307"
             ],
             [
-                "MAT203",
+                "MAT203"
+            ],
+            [
                 "MAT211"
             ],
             [
-                "MAT132",
+                "MAT132"
+            ],
+            [
                 "MAT220"
             ]
         ],
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Linear algebra: determinants, eigenvalues and  eigenvectors, diagonalization. Differential equations; existence and uniqueness of solutions. First- and second-order equations; linear versus nonlinear equations. Systems of linear equations. Laplace transform. Applications to physics. More theoretical and intensive than MAT 303, this course is primarily intended for math majors. Together with MAT 307, it forms a 2-semester sequence covering the same material as the 3-semester sequence of MAT 205, MAT 211 and MAT 305. May not be taken for credit in addition to MAT 303 or AMS 361.",
         "spring1":1,
         "fall1":1,
@@ -316,6 +337,7 @@
             ]
         ],
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Finite dimensional vector spaces, linear maps, dual spaces, bilinear functions, inner products. Additional topics such as canonical forms, multilinear algebra, numerical linear algebra.",
         "spring1":1,
         "fall1":1,
@@ -336,6 +358,7 @@
             ]
         ],
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Congruences, quadratic residues, quadratic forms, continued fractions, Diophantine equations, number-theoretical functions, and properties of prime numbers.",
         "spring1":1,
         "fall1":1,
@@ -357,6 +380,7 @@
             ]
         ],
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Topics in algebra: groups, informal set theory, relations, homomorphisms. Applications: error correcting codes, Burnside's theorem, computational complexity, Chinese remainder theorem. This course is offered as both AMS 351 and  MAT 312.",
         "spring1":1,
         "fall1":1,
@@ -379,6 +403,7 @@
             ]
         ],
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Groups and rings together with their homomorphisms and quotient structures. Unique factorization, polynomials, and fields.",
         "spring1":1,
         "fall1":1,
@@ -395,6 +420,7 @@
             ]
         ],
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"This course is a continuation of MAT 313, Abstract algebra. It covers modules over rings, including structure theorem for modules over PID, theory of fields and field extensions and introduction to Galois theory.",
         "spring1":1,
         "fall1":1,
@@ -418,6 +444,7 @@
             ]
         ],
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Finite dimensional vector spaces over a field, linear maps, isomorphisms, dual\nspaces, quotient vector spaces, bilinear and quadratic functions, inner products,\ncanonical forms of linear operators, multilinear algebra, tensors. This course serves as an alternative to MAT 310. It is an intensive course, primarily intended for math majors in Advanced Track program. Students wishing to enroll in MAT 315 should instead enroll in MAT 310. In approximately the 4th week, an assessment will be held and qualified students will be offered the option of moving to MAT 315.",
         "spring1":1,
         "fall1":1,
@@ -441,6 +468,7 @@
             ]
         ],
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"A careful study of the theory underlying topics in one-variable calculus, with an emphasis on those topics arising in high school calculus. The real number system. Limits of functions and sequences. Differentiations, integration, and the fundamental theorem. Infinite series.",
         "spring1":1,
         "fall1":1,
@@ -464,6 +492,7 @@
             ]
         ],
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"A careful study of the theory underlying calculus. The real number system. Basic properties of functions of one real variable. Differentiation, integration, and the inverse theorem. Infinite sequences of functions and uniform convergence. Infinite series. Metric spaces and compactness. This course is a more demanding alternative of MAT 319, suitable for students who are comfortable with rigorous proofs. Students wishing to enroll in MAT 320 should instead enroll in MAT 319. In approximately the 6th week, an assessment will be held and qualified students will be offered the option of moving to MAT 320.",
         "spring1":1,
         "fall1":1,
@@ -490,6 +519,7 @@
             ]
         ],
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Continuity, differentiation, and integration in Euclidean n-space. Differentiable maps. Implicit and inverse function theorems. Differential forms and the general Stokes's theorem.",
         "spring1":1,
         "fall1":1,
@@ -506,6 +536,7 @@
             ]
         ],
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Introduction to Lebesgue measure and integration. Aspects of Fourier series, function spaces, Hilbert spaces, Banach spaces.",
         "spring1":1,
         "fall1":1,
@@ -523,6 +554,7 @@
             ]
         ],
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Exploration of the use of the computer as a tool to gain insight into complex mathematical problems through a project-oriented approach. Students learn both the relevant mathematical concepts and ways that the computer can be used (and sometimes misused) to understand them. The particular problems may vary by semester; past topics have included cryptography, fractals and recursion, modeling the flight of a glider, curve fitting, the Brachistochrone, and computer graphics. No previous experience with computers is required.",
         "spring1":1,
         "fall1":1,
@@ -543,6 +575,7 @@
             ]
         ],
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"A survey of the history of mathematics from the beginnings through the 19th century, with special attention to primary sources and to the interactions between culture and mathematics. Emphasis on topics germane to the high school curriculum. Mesopotamian, Egyptian, and Greek mathematics; non-European mathematics; early Renaissance mathematics;  the birth and flowering of calculus; the beginnings of probability theory; and the origin of non-Euclidean geometries and the modern concept of number.",
         "spring1":1,
         "fall1":1,
@@ -566,6 +599,7 @@
             ]
         ],
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Partial differential equations of mathematical physics: the heat, wave, and Laplace equations. Solutions by techniques such as separation of variables using orthogonal functions (e.g., Fourier series, Bessel functions, Legendre polynomials). D'Alembert solution of the wave equation.",
         "spring1":1,
         "fall1":1,
@@ -587,6 +621,7 @@
             ]
         ],
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Complex numbers, analytic functions, the Cauchy-Riemann and Laplace equations, the Cauchy integral formula and applications. Fundamental Theorem of Algebra and the Maximum Principle. The Cauchy residue theorem and applications to evaluating real integrals. Conformal mappings.",
         "spring1":1,
         "fall1":1,
@@ -615,6 +650,7 @@
             ]
         ],
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"A study of the long-term behavior of solutions to ordinary differential equations or of iterated mappings, emphasizing the distinction between stability on the one hand and sensitive dependence and chaotic behavior on the other. The course describes examples of chaotic behavior and of fractal attractors, and develops some mathematical tools for understanding them.",
         "spring1":1,
         "fall1":1,
@@ -625,17 +661,9 @@
         "CourseTitle":"Geometric Structures",
         "Career":"Undergraduate",
         "Credits":3.0,
-        "Prerequisites":[
-            [
-                "MAT203",
-                "AMS261"
-            ],
-            [
-                "MAT200",
-                "MAT250"
-            ]
-        ],
+        "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Formal geometries and models. Topics selected from projective, affine, Euclidean, and non-Euclidean geometries.",
         "spring1":1,
         "fall1":1,
@@ -659,6 +687,7 @@
             ]
         ],
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"The local and global geometry of surfaces: geodesics, parallel transport, curvature, isometries, the Gauss map, the Gauss-Bonnet theorem.",
         "spring1":1,
         "fall1":1,
@@ -680,6 +709,7 @@
             ]
         ],
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"A broadly based introduction to topology and geometry, the mathematical theories of shape, form, and rigid structure. Topics include intuitive knot theory, lattices and tilings, non-Euclidean geometry, smooth curves and surfaces in Euclidean 3-space, open sets and continuity, combinatorial and algebraic invariants of spaces, higher dimensional spaces.",
         "spring1":1,
         "fall1":1,
@@ -699,6 +729,7 @@
             ]
         ],
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"A survey of the logical foundations of mathematics: development of propositional calculus and quantification theory, the notions of a proof and of a model, the completeness theorem, Goedel's incompleteness theorem. This course is offered as both CSE 371 and MAT 371.",
         "spring1":1,
         "fall1":1,
@@ -726,6 +757,7 @@
             ]
         ],
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Mathematical analysis of a variety of computer algorithms including searching, sorting, matrix multiplication, fast Fourier transform, and graph algorithms. Time and space complexity. Upper-bound, lower- bound, and average-case analysis. Introduction to NP completeness. Some machine computation is required for the implementation and comparison of algorithms. This course is offered as CSE 373 and MAT 373. Not for credit in addition to CSE 385.",
         "spring1":1,
         "fall1":1,
@@ -738,6 +770,7 @@
         "Credits":3.0,
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Discussions of a specific area of interest in mathematics. The work of each semester covers a different area of mathematics. May be repeated as topic changes. Prerequisites will be announced with the topic each time the course is offered.",
         "spring1":1,
         "fall1":1,
@@ -750,6 +783,7 @@
         "Credits":3.0,
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Discussions of a specific area of interest in mathematics. The work of each semester covers a different area of mathematics. May be repeated as topic changes. Prerequisites will be announced with the topic each time the course is offered.",
         "spring1":1,
         "fall1":1,
@@ -766,6 +800,7 @@
             ]
         ],
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"This course is designed for students who engage in a substantial, structured experiential learning activity in conjunction with another class. Experiential learning occurs when knowledge acquired through formal learning and past experience are applied to a \"real-world\" setting or problem to create new knowledge through a process of reflection, critical analysis, feedback and synthesis. Beyond-the-classroom experiences that support experiential learning may include: service learning, mentored research, field work, or an internship.",
         "spring1":1,
         "fall1":1,
@@ -776,12 +811,13 @@
         "CourseTitle":"Speak Effectively Before an Audience",
         "Career":"Undergraduate",
         "Credits":0.0,
-        "Prerequisites":[
+        "Prerequisites":"NONE",
+        "Antirequisites":"NONE",
+        "Corequisites":[
             [
                 "WRT102"
             ]
         ],
-        "Antirequisites":"NONE",
         "Description":"A zero credit course that may be taken in conjunction with any MAT course that provides opportunity to achieve the learning outcomes of the Stony Brook Curriculum's SPK learning objective.",
         "spring1":1,
         "fall1":1,
@@ -798,6 +834,7 @@
             ]
         ],
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"A zero credit course that may be taken in conjunction with any 300- or 400-level MAT course, with permission of the instructor. The course provides opportunity to practice the skills and techniques of effective academic writing and satisfies the learning outcomes of the Stony Brook Curriculum's WRTD learning objective.",
         "spring1":1,
         "fall1":1,
@@ -810,6 +847,7 @@
         "Credits":3.0,
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Each student assists in teaching a lower-division mathematics course or works in the Mathematics Learning Center. The student's work is regularly supervised by a faculty member. In addition, a weekly seminar is conducted. Responsibilities may include preparation of materials for student use and discussions, helping students with problems, and involvement in \"alternative\" teaching projects. Intended for upper-division students who have excelled in the calculus sequence. May not be used for major credit.",
         "spring1":1,
         "fall1":1,
@@ -822,6 +860,7 @@
         "Credits":"0.00 - 6.00",
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"A reading course for juniors and seniors. The topics may be chosen by the student with the approval of a supervising member of the faculty, who also takes responsibility for evaluation. A topic that is covered in a course regularly offered by the department is not appropriate for independent study. May be repeated.",
         "spring1":1,
         "fall1":1,
@@ -834,6 +873,7 @@
         "Credits":3.0,
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"The student and a supervising faculty member together choose a topic in mathematics, and the student writes a substantial paper expounding the topic in a new way.",
         "spring1":1,
         "fall1":1,
@@ -846,6 +886,7 @@
         "Credits":3.0,
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Fundamental Concepts of Mathematics. Brief history of mathematics; sets, functions and logic; constructions of number systems, including their historical development; mathematical induction. The main focus of the course will be on the construction and writing of mathematical proofs.\nFall, Spring, or Summer,",
         "spring1":1,
         "fall1":1,
@@ -856,12 +897,9 @@
         "CourseTitle":"Algebra for Teachers",
         "Career":"Graduate",
         "Credits":3.0,
-        "Prerequisites":[
-            [
-                "MAT511"
-            ]
-        ],
+        "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Linear algebra, the algebra of polynomials, algebraic properties of the complex numbers, number fields, solutions of equations. Mathematical topics integrate the study of the historical development of algebra, including contributions from diverse cultures.\nPrerequisite: MAT 511\nSemesters Offered: Fall, Spring, Summer",
         "spring1":1,
         "fall1":1,
@@ -872,12 +910,9 @@
         "CourseTitle":"Analysis for Teachers I",
         "Career":"Graduate",
         "Credits":3.0,
-        "Prerequisites":[
-            [
-                "MAT511"
-            ]
-        ],
+        "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Topics in differential calculus, its foundations, and its applications. This course is designed for teachers and prospective teachers of advanced placement calculus. Mathematical topics integrate the study of the historical development of calculus, including contributions from diverse cultures.\nPrerequisite: MAT 511\nFall, Spring, or Summer,",
         "spring1":1,
         "fall1":1,
@@ -890,6 +925,7 @@
         "Credits":3.0,
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Topics in calculus, its foundations, and its applications. Emphasis is on integration and on numerical techniques. This course is designed for teachers and prospective teachers of advanced placement calculus. Mathematical topics integrate the study of the historical development of calculus, including contributions from diverse cultures. Analysis for Teachers I is not a prerequisite for this course.\nPrerequisite: MAT 511\nFall, Spring, or Summer,",
         "spring1":1,
         "fall1":1,
@@ -900,12 +936,9 @@
         "CourseTitle":"Geometry for Teachers",
         "Career":"Graduate",
         "Credits":3.0,
-        "Prerequisites":[
-            [
-                "MAT511"
-            ]
-        ],
+        "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"A re-examination of elementary geometry using concepts from analysis and algebra. Mathematical topics integrate the study of the historical development of Euclidean and non-Euclidian geometries, including contributions from diverse cultures.\nPrerequisite: MAT 511\nFall, Spring, or Summer,",
         "spring1":1,
         "fall1":1,
@@ -916,12 +949,9 @@
         "CourseTitle":"Probability and Statistics for Teachers",
         "Career":"Graduate",
         "Credits":3.0,
-        "Prerequisites":[
-            [
-                "MAT511"
-            ]
-        ],
+        "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"A priori and empirical probabilities; conditional probability; mean and standard deviation; random variables; financial distributions; continuous distributions; sampling; estimation; decision making. Mathematical topics integrate the study of the historical development of statistics and probability, including contributions from diverse cultures.\nPrerequisite: MAT 511\nFall, Spring, or Summer,",
         "spring1":1,
         "fall1":1,
@@ -934,6 +964,7 @@
         "Credits":3.0,
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Calculators and Computers for teachers. Graphing calculators, programming, computing and curve sketching; Geometers Sketchpad or other computer based classroom tools; educational use of the world wide web.\nFall, Spring, or Summer,",
         "spring1":1,
         "fall1":1,
@@ -946,6 +977,7 @@
         "Credits":3.0,
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"This seminar explores the ways in which secondary school and elementary college mathematics are used in such diverse areas as psychology, sociology, political science, economics, business, engineering, physics, chemistry, biology, and medicine. Primarily for secondary school teachers of mathematics.\nFall, Spring, or Summer,",
         "spring1":1,
         "fall1":1,
@@ -958,6 +990,7 @@
         "Credits":3.0,
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Seminar format. This course involves deliberative group inquiry - through reading, writing and intensive discussion - into mathematics teaching, learning and mathematics education research; analysis and design of cognitively demanding mathematical tasks; and analysis of students' mathematical thinking, written responses, and common misconceptions in the mathematics classroom. Each student completes an action research project focused on a topic selected with guidance from the instructor.\nOffered alternate years, 3 credits, ABCF grading",
         "spring1":1,
         "fall1":1,
@@ -974,6 +1007,7 @@
             ]
         ],
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Vector algebra on the  plane and in the 3-space;  area and volume of geometric figures; analytic  geometry.\nPrerequisite: MAT  511\nSpring, 3 credits, Letter  grad ed (A,  A-,  B+,  etc.) Spring, 3 credits, Letter graded (A,  A-, B+,  etc.)",
         "spring1":1,
         "fall1":1,
@@ -986,6 +1020,7 @@
         "Credits":3.0,
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Congruences, quadratic residues, quadratic forms, continued fractions, Diophantine equations, number-theoretical functions, and properties of prime numbers.",
         "spring1":1,
         "fall1":1,
@@ -998,6 +1033,7 @@
         "Credits":3.0,
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Introduction to Lebesgue measure and integration.  Aspects of Fourier series, function spaces, Hilbert spaces, Banach spaces.",
         "spring1":1,
         "fall1":1,
@@ -1010,6 +1046,7 @@
         "Credits":3.0,
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Continuity, differentiation and integration in Euclidean n-space. Differentiable maps. Implicit and inverse function theorems. Differential forms and the general Stokes' theorem.",
         "spring1":1,
         "fall1":1,
@@ -1022,6 +1059,7 @@
         "Credits":3.0,
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Groups and rings together with their homorphisms and quotient structures.  Unique factorization, polynomials, and fields.",
         "spring1":1,
         "fall1":1,
@@ -1034,6 +1072,7 @@
         "Credits":3.0,
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"A continuation of MAT 524, covering modules over rings (including the structure theorem for Modules over Principal Ideal Domains), theory of fields, field extensions, and an introduction to Galois theory.",
         "spring1":1,
         "fall1":1,
@@ -1046,6 +1085,7 @@
         "Credits":3.0,
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Finite dimensional vector spaces over a field, linear maps, isomorphisms, dual spaces, quotient vector spaces, bilinear and quadratic functions, inner products, canonical forms of linear operators, multilinear algebra, tensors.",
         "spring1":1,
         "fall1":1,
@@ -1058,6 +1098,7 @@
         "Credits":3.0,
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"A broadly based introduction to topology and geometry, the mathematical theories of shape, form, and rigid structure. Topics include intuitive knot theory, lattices and tiling, non-Euclidean geometry, smooth curves and surfaces in Euclidean 3-space, open sets and continuity, combinatorial and algebraic invariants of spaces, higher dimensional spaces.\nThere will be a required short paper on the fundamental group of a topological space or some similar topic.\nFall, 3 credits, Letter graded (A, A-, B+, etc.)",
         "spring1":1,
         "fall1":1,
@@ -1070,6 +1111,7 @@
         "Credits":3.0,
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Basic point set topology; connectedness, compactness, continuity, etc. Metric spaces, function spaces, and topological manifolds. Introduction to algebraic topology; fundamental group and covering space; homology; applications.\nFall,",
         "spring1":1,
         "fall1":1,
@@ -1082,6 +1124,7 @@
         "Credits":3.0,
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Foundations of differentiable manifolds: differentiable maps, vector fields and flows, and differential forms and integration on manifolds. Stokes' theorem. Froebenius theorem. Lie derivatives. Immersions and submersions. DeRham chomology, cochain complexes, degree of a map, Mayer-Vietoris Theorem.\nSpring,",
         "spring1":1,
         "fall1":1,
@@ -1094,6 +1137,7 @@
         "Credits":3.0,
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Ordinary differential equations; Banach and Hilbert spaces; inverse and implicit function theorems; Lebesque measure; general measures and integrals; measurable functions; convergence theorems for integrals.\nFall,",
         "spring1":1,
         "fall1":1,
@@ -1106,6 +1150,7 @@
         "Credits":3.0,
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Representations and decomposition theorems in measure theory; Fubini's theorem;\nL-p spaces; Fourier series; Laplace; heat and wave equations; open mapping and uniform boundedness theorems for Banach spaces; differentiation of the integral; change of variable of integration.\n\nSpring",
         "spring1":1,
         "fall1":1,
@@ -1118,6 +1163,7 @@
         "Credits":3.0,
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Groups: normal subgroups, quotient groups, Lagrange's theorem, class formula, finite p-groups and solvable groups, Sylow's theorems, finitely generated abelian groups. Rings and modules: subrings, fields, prime and maximal ideals, quotient rings, ID's, PID's, UFD's, polynomial rings, field of fractions, the Wedderburn theorem, Hilbert basis theorem, finitely generated modules over a PID. Vector spaces: basis, linear maps and matrices, dual spaces, determinants, eigenvalues and vectors, inner products, spectral theorem for normal operators.\nFall,",
         "spring1":1,
         "fall1":1,
@@ -1130,6 +1176,7 @@
         "Credits":3.0,
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Vector spaces: Cayley-Hamilton Theorem, Jordon normal form, bilinear forms, signature, tensor products, symmetric and exterior algebras. Homological algebra: categories and functors, universal and free objects, exact sequences, extensions. Representation theory for finite groups: irreducible representations and Shur's Lemma, characters, orthogonality. Galois theory: splitting fields, finite fields, extension fields of various types, Galois polynomial and group, fundamental theorem of Galois theory, symmetric functions.\nSpring,",
         "spring1":1,
         "fall1":1,
@@ -1142,6 +1189,7 @@
         "Credits":3.0,
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Elementary functions, holomorphic functions. Cauchy theory, power series, classification of isolated singularities, calculus of residues, open mapping theorem, Riemann mapping theorem.\nSpring,",
         "spring1":1,
         "fall1":1,
@@ -1152,12 +1200,9 @@
         "CourseTitle":"Several Complex Variables",
         "Career":"Graduate",
         "Credits":3.0,
-        "Prerequisites":[
-            [
-                "MAT536"
-            ]
-        ],
+        "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Definition and basic properties of holomorphic functions and mappings. Analytic sets: Basic definitions, Local theory of Weierstrass, Meromorphic functions. Hartogs Phenomenon. Domains of convergence of power series. Domains of holomorphy. Pseudoconvexity and the Levi Problem. Complex manifolds, holomorphic vector bundles and Hermitian metrics. Cousin problems. L2 estimates for the inhomogeneous Cauchy-Riemann Equations and applications.",
         "spring1":1,
         "fall1":1,
@@ -1168,14 +1213,9 @@
         "CourseTitle":"Riemann Surfaces",
         "Career":"Graduate",
         "Credits":3.0,
-        "Prerequisites":[
-            [
-                "MAT531",
-                "MAT533",
-                "MAT536"
-            ]
-        ],
+        "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Basic definitions and examples. Holomorphic differential forms. Riemann-Hurwitz Theorem. The Riemann-Roch Theroem. The Dirichlet Problem. The Hodge Theorem for Riemann surfaces. Embeddings into Projective Space. Uniformization theorem(s). Abel's Theorem and Jacobi's inversion theorem. Further topics may include: Sheaves and cohomology. Fields of meromorphic functions, valuations and connections with algebraic number theory. Monodromy and classification of branched covers.",
         "spring1":1,
         "fall1":1,
@@ -1188,6 +1228,7 @@
         "Credits":3.0,
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Homotopy, fundamental group and higher homotopy groups, fiber bundles and covering, homotopy exact sequences of pairs, fiber bundles, classification of coverings, CW-complexes, homotopy excision, suspension, topological manifolds, topological classification of 1- and 2-manifolds.",
         "spring1":1,
         "fall1":1,
@@ -1198,13 +1239,9 @@
         "CourseTitle":"Algebraic Topology",
         "Career":"Graduate",
         "Credits":3.0,
-        "Prerequisites":[
-            [
-                "MAT530",
-                "MAT531"
-            ]
-        ],
+        "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Singular and simplicial homology, their properties and equivalence, calculations for CW-complexes. Eilenberg-Steenrod axioms, cohomology, cup and cross products, Poincare, Lefschetz and Alexander dualities. Prerequisites: MAT 530, MAT 531, Fall",
         "spring1":1,
         "fall1":1,
@@ -1215,12 +1252,9 @@
         "CourseTitle":"Representation Theory",
         "Career":"Graduate",
         "Credits":3.0,
-        "Prerequisites":[
-            [
-                "MAT535"
-            ]
-        ],
+        "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"[will alternate with MAT 544]\nAn introduction to representation theory, with a focus on explicit examples. Representations of finite groups (in characteristic zero), especially symmetric and alternating groups. Representation theory of compact Lie groups and semisimple Lie algebras (which may also be covered in MAT 552). Representations of classical groups, esp. GL(n) and orthogonal groups. Schur-Weil duality for representations of S_n and GL(n), Young diagrams. Other possible topics include spin representations and Clifford algebras, representations of exceptional groups, applications to physics (e.g. hydrogen atom, spin, quarks), or an introduction to invariant theory.\nSample textbooks:\n- W. Fulton and J. Harris, Representation Theory: A First Course\n- A. Kirillov, Introduction to Lie Groups and Lie Algebras\n- T. Br\u00f6cker, Representations of compact Lie groups\n- P. Etingof et al, Introduction to representation theory\n(https:\/\/bookstore.ams.org\/stml-59\/)\n- G. Heckman, Lie Algebras in Mathematics and Physics\n(https:\/\/www.math.ru.nl\/~heckman\/Lie.pdf)\nPrerequisites: MAT 535.\nFall, 3 credits, Letter graded (A, A-, B+, etc.)",
         "spring1":1,
         "fall1":1,
@@ -1231,12 +1265,9 @@
         "CourseTitle":"Commutative and Homological Algebra",
         "Career":"Graduate",
         "Credits":3.0,
-        "Prerequisites":[
-            [
-                "MAT535"
-            ]
-        ],
+        "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"An introduction to the techniques of commutative and homological algebra useful in algebra, algebraic geometry, number theory, and related fields. Review of rings and modules, tensor products and localization. Spectrum of prime ideals, Noetherian and Artinian rings and modules, completion, dimension theory, local rings, discrete valuation rings and Dedekind domains, integral dependence. Chain complexes, projective and injective resolutions, examples of derived functors (Ext and Tor), basic category theory (adjoint functors, natural transformations, limits and colimits), abelian categories.\nPrerequisite: MAT 535\nFall,",
         "spring1":1,
         "fall1":1,
@@ -1255,6 +1286,7 @@
             ]
         ],
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Foundational material and techniques in complex algebraic and differential geometry: Review of basic results in several complex variables\/analytic geometry, sheaves and cohomology of sheaves, complex vector bundles, Chern classes, positivity, Kaehler manifolds, projective manifolds,  Hodge decomposition for Kaehler manifolds, Kodaira vanishing theorem, Hard Lefschetz Theorem, divisors and line bundles, Bertini's theorem, Lefschetz theorem on (1,1) classes, blowing up, Kodaira's embedding theorem.\nFall,",
         "spring1":1,
         "fall1":1,
@@ -1265,13 +1297,9 @@
         "CourseTitle":"Introduction to Probability",
         "Career":"Graduate",
         "Credits":3.0,
-        "Prerequisites":[
-            [
-                "MAT533",
-                "MAT536"
-            ]
-        ],
+        "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"[will alternate with MAT 551]\nIntroduction to probability theory: independence, laws of large numbers, central limit theorems, martingales, Markov chains, and a selection of other topics such as ergodic theory, Brownian motion, random walks on graphs and groups, percolation, mixing times, randomized algorithms.",
         "spring1":1,
         "fall1":1,
@@ -1282,13 +1310,9 @@
         "CourseTitle":"Introduction to PDE",
         "Career":"Graduate",
         "Credits":3.0,
-        "Prerequisites":[
-            [
-                "MAT531",
-                "MAT536"
-            ]
-        ],
+        "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Introduction to basic types of partial differential equations and techniques for studying them. First order equations; The Cauchy problem and the Cauchy-Kovalevskaya Theorem; Laplace, heat, and wave operators; Sobolev and Holder spaces; second order linear elliptic equations: weak solutions, existence and regularity theory; L^p and Schauder estimates; de Giorgi-Nash-Moser theory; introduction to nonlinear equations\"\nPrerequisite:  MAT 531, MAT 536\nFall,",
         "spring1":1,
         "fall1":1,
@@ -1299,12 +1323,9 @@
         "CourseTitle":"Introduction to Lie Groups and Lie Algebras",
         "Career":"Graduate",
         "Credits":3.0,
-        "Prerequisites":[
-            [
-                "MAT535"
-            ]
-        ],
+        "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"An introduction to Lie groups and Lie algebras, as used in mathematics and physics. Basic facts about Lie groups and Lie algebras; classical groups. Structure theory of Lie algebras. Representation theory of sl (2,C). Classification of complex semisimple Lie algebras via their root systems. Examples of exceptional Lie algebras. Other possible topics include the representation theory compact Lie groups and semisimple Lie algebras (with a focus on analytic techniques).",
         "spring1":1,
         "fall1":1,
@@ -1315,13 +1336,9 @@
         "CourseTitle":"Harmonic Analysis",
         "Career":"Graduate",
         "Credits":3.0,
-        "Prerequisites":[
-            [
-                "MAT533",
-                "MAT536"
-            ]
-        ],
+        "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"An introduction to the methods and ideas of modern harmonic analysis, including: Fourier series and integrals (convergence, summability, L^p); Maximal functions, weak type inequalities, interpolation; the Hilbert transform; singular integrals with Calderon-Zygmund kernels; H^1 and Bounded Mean Oscillation; Muckenhoupt (A_p) weights; Multipliers; the T(1) theorem. Offered every second year.",
         "spring1":1,
         "fall1":1,
@@ -1332,14 +1349,9 @@
         "CourseTitle":"Ergodic Theory and Smooth Dynamics",
         "Career":"Graduate",
         "Credits":3.0,
-        "Prerequisites":[
-            [
-                "MAT531",
-                "MAT533",
-                "MAT536"
-            ]
-        ],
+        "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"This course will give an overview of the main known topological, geometrical, and measure theoretical phenomena of smooth dynamics:\n1) Zero entropy of dynamics: Circle diffeomorphisms, KAM, period doubling, renormalization.\n2)Hyperbolic dynamics: stable manifold theorem, structural stability, central limit theorem, symbolic dynamics.\n3)General smooth ergodic theory: Oseledec, Pesin, Birkhof theorems.\n4)Non-hyperbolic examples: non-uniform hyperbolic examples, homoclinic theory, Newhouse phenomenon, aspects of unimodal dynamics, aspects of Henon dynamics.\nPrerequisites: MAT 531, MAT 533, MAT 536\n3 credits. Offered in Spring.",
         "spring1":1,
         "fall1":1,
@@ -1350,13 +1362,9 @@
         "CourseTitle":"One-dimensional Real and Complex Dynamics",
         "Career":"Graduate",
         "Credits":3.0,
-        "Prerequisites":[
-            [
-                "MAT533",
-                "MAT536"
-            ]
-        ],
+        "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Advanced material and techniques in one-dimensional dynamics. In real one-dimensional dynamics: circle diffeomorphisms, combinatorics and kneading theory, wandering intervals, ergodic properties and invariant measures, renormalization. For complex one-dimensional maps: Julia, Fatou sets, the Mandelbrot set, fixed point theory, external rays, quadratic-like maps and little Mandelbrot copies.",
         "spring1":1,
         "fall1":1,
@@ -1367,13 +1375,9 @@
         "CourseTitle":"Mathematical Physics I",
         "Career":"Graduate",
         "Credits":3.0,
-        "Prerequisites":[
-            [
-                "MAT533",
-                "MAT536"
-            ]
-        ],
+        "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Classical mechanics: Lagrangian and Hamiltonian formalism, Hamiltonian group actions. Special relativity and Lorentz and Poincare groups. Classical field theories: Lagrangian and Hamiltonian formulation, Noether theorem, examples. Relativistic theories. Gauge theories: electrodynamics and Yang-Mills theories. General relativity: Einstein-Hilbert action, Einstein equations and Schwarzchild solution. Optional topics may include: Chern-Simons and topological field theories; Classical theory of spinor fields and supergeometry.",
         "spring1":1,
         "fall1":1,
@@ -1384,13 +1388,9 @@
         "CourseTitle":"Mathematical Physics II",
         "Career":"Graduate",
         "Credits":3.0,
-        "Prerequisites":[
-            [
-                "MAT533",
-                "MAT536"
-            ]
-        ],
+        "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Quantum mechanics: Heisenberg and Schrodinger formalism, examples. Feynman path integral. Quantum field theory: Canonical quantization, Fock space and creation\/annihilation operators. Relativistic particles and unitary representations of the Poincare group. Path integral formalism for fields. Quantization of gauge fields, gauge fixing. Optional topics may include: Dirac equation and spinors, integration over anticommuting variables. Supersymmetric quantum field theories. Topological quantum field theories and other examples, localization.",
         "spring1":1,
         "fall1":1,
@@ -1403,6 +1403,7 @@
         "Credits":3.0,
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Hamilton's equations and their physical origin, symplectic manifolds and various submanifolds; Moser arguments including Darboux theorem and Moser neighborhood theorems, contact manifolds, contact hypersurfaces, symplectizations, Legendrian front diagrams, topological Legendrian knot invariants, almost complex structures compatible with symplectic form, Hamiltonian group actions and symplectic reduction, symplectic toric manifolds, h principle with emphasis on holonomic approximation theorem along with applications to symplectic and contact geometry , Gromov non squeezing theorem and a summary of pseudoholomorphic curve theory.\nPrerequisite: MAT 531",
         "spring1":1,
         "fall1":1,
@@ -1413,12 +1414,9 @@
         "CourseTitle":"Differential Topology",
         "Career":"Graduate",
         "Credits":3.0,
-        "Prerequisites":[
-            [
-                "MAT531"
-            ]
-        ],
+        "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Vector bundles, transversality, and characteristic classes. Further topics such as imbeddings and immersions, intersection theory, surgery, and foliations.\nPrerequisite: MAT 531\nFall,",
         "spring1":1,
         "fall1":1,
@@ -1429,12 +1427,9 @@
         "CourseTitle":"Differential Geometry",
         "Career":"Graduate",
         "Credits":3.0,
-        "Prerequisites":[
-            [
-                "MAT531"
-            ]
-        ],
+        "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Connections, curvature, geodesics, parallelism, and completeness. Riemannian manifolds, geometry of sub-manifolds; method of integral formulas; applications to global extrinsic theorems. Riemannian curvature. Gauss-Bonnet theorem, Hopf-Rinow theorem.\nPrerequisite: MAT 531\nFall,",
         "spring1":1,
         "fall1":1,
@@ -1445,12 +1440,9 @@
         "CourseTitle":"Differential Geometry",
         "Career":"Graduate",
         "Credits":3.0,
-        "Prerequisites":[
-            [
-                "MAT568"
-            ]
-        ],
+        "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"A broad introduction to the fundamentals of modern Riemannian geometry, including major ideas and useful techniques: holonomy groups, symmetric spaces; Riemannian submersions; constructing manifolds of non-negative sectional curvature; Ricci and scalar curvature; Weyl curvature and conformal geometry; harmonic forms and the Hodge theorem; the Bochner technique; the Bishop-Gromov inequality; the Cheeger-Gromoll splitting theorem; Gromov-Hausdorff convergence.\nPrerequisite: MAT 568\nSpring,",
         "spring1":1,
         "fall1":1,
@@ -1461,12 +1453,9 @@
         "CourseTitle":"Introduction to Algebraic Geometry",
         "Career":"Graduate",
         "Credits":3.0,
-        "Prerequisites":[
-            [
-                "MAT536"
-            ]
-        ],
+        "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"This course offers a systematic introduction to algebraic geometry, from a modern, scheme-theoretic perspective.",
         "spring1":1,
         "fall1":1,
@@ -1479,6 +1468,7 @@
         "Credits":3.0,
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Seminar and workshop for new teaching assistants.\nFall,",
         "spring1":1,
         "fall1":1,
@@ -1491,6 +1481,7 @@
         "Credits":"1.00 - 12.00",
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"",
         "spring1":1,
         "fall1":1,
@@ -1503,6 +1494,7 @@
         "Credits":3.0,
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Typical topics are drawn from group theory, ring theory, representation theory of groups and algebras, fields and commutative algebra, homological algebra.\nPrerequisite: Permission of instructor\nFall,",
         "spring1":1,
         "fall1":1,
@@ -1515,6 +1507,7 @@
         "Credits":3.0,
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Typical topics are drawn from group theory, ring theory, representation theory of groups and algebras, fields and commutative algebra, homological algebra.\nPrerequisite: Permission of instructor\nFall,",
         "spring1":1,
         "fall1":1,
@@ -1527,6 +1520,7 @@
         "Credits":3.0,
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Typical topics are drawn from analytic number theory, algebraic number theory, diophantine equations, and transcendental number theory, with indications of methods from algebra, geometry, analysis, and logic.\nPrerequisite: Permission of instructor\nFall,",
         "spring1":1,
         "fall1":1,
@@ -1539,6 +1533,7 @@
         "Credits":3.0,
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Typical topics are drawn from analytic number theory, algebraic number theory, diophantine equations, and transcendental number theory, with indications of methods from algebra, geometry, analysis, and logic.\nPrerequisite: Permission of instructor\nFall,",
         "spring1":1,
         "fall1":1,
@@ -1551,6 +1546,7 @@
         "Credits":3.0,
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Typical topics are drawn from varieties and schemes, algebraic curves, and their arithmetics. Fall\nPrerequisite: Permission of instructor",
         "spring1":1,
         "fall1":1,
@@ -1563,6 +1559,7 @@
         "Credits":3.0,
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Typical topics are drawn from varieties and schemes, algebraic curves, and their arithmetics. Fall\nPrerequisite: Permission of instructor",
         "spring1":1,
         "fall1":1,
@@ -1575,6 +1572,7 @@
         "Credits":3.0,
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Topics of current interest such as foliations, surgery, singularities, group actions on manifolds, and homotopy theory.\nPrerequisite: Permission of instructor\nMAT 620 - Fall, MAT 621 - Spring,",
         "spring1":1,
         "fall1":1,
@@ -1587,6 +1585,7 @@
         "Credits":3.0,
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Topics of current interest such as foliations, surgery, singularities, group actions on manifolds, and homotopy theory.\nPrerequisite: Permission of instructor\nMAT 620 - Fall, MAT 621 - Spring,",
         "spring1":1,
         "fall1":1,
@@ -1599,6 +1598,7 @@
         "Credits":3.0,
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Topics selected from Riemann surfaces, quasiconformal mappings, several complex variables, Fuchsian groups, Kleinian groups, moduli of Riemann surfaces and Kleinian groups, analytic spaces, singularities.\nPrerequisite: Permission of instructor\nMAT 626 - Fall, MAT 627 - Spring, 3 credits, ABCF grading",
         "spring1":1,
         "fall1":1,
@@ -1611,6 +1611,7 @@
         "Credits":3.0,
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Topics selected from Riemann surfaces, quasiconformal mappings, several complex variables, Fuchsian groups, Kleinian groups, moduli of Riemann surfaces and Kleinian groups, analytic spaces, singularities.\nPrerequisite: Permission of instructor\nMAT 626 - Fall, MAT 627 - Spring, 3 credits, ABCF grading",
         "spring1":1,
         "fall1":1,
@@ -1623,6 +1624,7 @@
         "Credits":3.0,
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Typical topics are hyperbolic or elliptic systems, parabolic equations, spectral theory, finite difference equations, Cauchy-Riemann equations and complex vector fields, equations with constant coefficients, solvability of linear equations, Fourier integral operators, nonlinear equations.\nPrerequisite: Permission of instructor\nMAT 632 - Fall, MAT 633 - Spring, 3 credits, ABCF grading",
         "spring1":1,
         "fall1":1,
@@ -1635,6 +1637,7 @@
         "Credits":3.0,
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Typical topics are hyperbolic or elliptic systems, parabolic equations, spectral theory, finite difference equations, Cauchy-Riemann equations and complex vector fields, equations with constant coefficients, solvability of linear equations, Fourier integral operators, nonlinear equations.\nPrerequisite: Permission of instructor\nMAT 632 - Fall, MAT 633 - Spring, 3 credits, ABCF grading",
         "spring1":1,
         "fall1":1,
@@ -1647,6 +1650,7 @@
         "Credits":3.0,
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Topics selected from functional analysis, harmonic analysis, Banach algebras, operator theory.\nPrerequisite: Permission of instructor\nMAT 638 - Fall, MAT 639 - Spring,",
         "spring1":1,
         "fall1":1,
@@ -1659,6 +1663,7 @@
         "Credits":3.0,
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Topics selected from functional analysis, harmonic analysis, Banach algebras, operator theory.\nPrerequisite: Permission of instructor\nMAT 638 - Fall, MAT 639 - Spring,",
         "spring1":1,
         "fall1":1,
@@ -1671,6 +1676,7 @@
         "Credits":3.0,
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Typical topics are universal enveloping algebras; free, solvable and nilpotent Lie algebras; Lie theory and formal groups; root systems, Dynkin diagrams, classification and representations of complex semisimple Lie algebras; method of orbits; representations of non-compact Lie groups; loop groups.\nPrerequisite: MAT 552\nSpring,",
         "spring1":1,
         "fall1":1,
@@ -1683,6 +1689,7 @@
         "Credits":3.0,
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Typical topics will be drawn from areas such as comparison theorems, pinching theorems, Morse theory, characteristic classes, minimal varieties, Hodge theory, spectrum of the Laplacian, and geometry of general relativity.\nPrerequisite: Permission of instructor\nMAT 644 - Fall, MAT 645 - Spring,",
         "spring1":1,
         "fall1":1,
@@ -1695,6 +1702,7 @@
         "Credits":3.0,
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Typical topics will be drawn from areas such as comparison theorems, pinching theorems, Morse theory, characteristic classes, minimal varieties, Hodge theory, spectrum of the Laplacian, and geometry of general relativity.\nPrerequisite: Permission of instructor\nMAT 644 - Fall, MAT 645 - Spring,",
         "spring1":1,
         "fall1":1,
@@ -1707,6 +1715,7 @@
         "Credits":3.0,
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Typical topics are mathematical methods of classical and quantum mechanics; methods of functional integration and its applications; infinite-dimensional Lie algebras, quantum groups and representations; conformal field theories; super-symmetry; topological quantum field theories; gauge theories and geometry in four-dimensions; supergravity and mirror symmetry; strings.\nPrerequisite: Permission of instructor\nMAT 648 - Fall, MAT 649 - Spring,",
         "spring1":1,
         "fall1":1,
@@ -1719,6 +1728,7 @@
         "Credits":3.0,
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Typical topics are mathematical methods of classical and quantum mechanics; methods of functional integration and its applications; infinite-dimensional Lie algebras, quantum groups and representations; conformal field theories; super-symmetry; topological quantum field theories; gauge theories and geometry in four-dimensions; supergravity and mirror symmetry; strings.\nPrerequisite: Permission of instructor\nMAT 648 - Fall, MAT 649 - Spring,",
         "spring1":1,
         "fall1":1,
@@ -1731,6 +1741,7 @@
         "Credits":3.0,
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Typical topics are drawn from holomorphic and low-dimensional dynamics, hyperbolic dynamics, theory of Hamiltonian systems, ergodic theory, and bifurcation theory.\nPrerequisite: Permission of instructor\nMAT 655 - Fall, MAT 656 - Spring, 3 credits, ABCF grading",
         "spring1":1,
         "fall1":1,
@@ -1743,6 +1754,7 @@
         "Credits":3.0,
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Typical topics are drawn from holomorphic and low-dimensional dynamics, hyperbolic dynamics, theory of Hamiltonian systems, ergodic theory, and bifurcation theory.\nPrerequisite: Permission of instructor\nMAT 655 - Fall, MAT 656 - Spring, 3 credits, ABCF grading",
         "spring1":1,
         "fall1":1,
@@ -1755,6 +1767,7 @@
         "Credits":3.0,
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Prerequisite: Permission of instructor\nMAT 662 - Fall, MAT 663 - Spring,",
         "spring1":1,
         "fall1":1,
@@ -1767,6 +1780,7 @@
         "Credits":3.0,
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Prerequisite: Permission of instructor\nMAT 662 - Fall, MAT 663 - Spring,",
         "spring1":1,
         "fall1":1,
@@ -1779,6 +1793,7 @@
         "Credits":3.0,
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Prerequisite: Permission of instructor\nMAT 666 - Fall, MAT 667 - Spring,",
         "spring1":1,
         "fall1":1,
@@ -1791,6 +1806,7 @@
         "Credits":3.0,
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Prerequisite: Permission of instructor\nMAT 666 - Fall, MAT 667 - Spring,",
         "spring1":1,
         "fall1":1,
@@ -1803,6 +1819,7 @@
         "Credits":3.0,
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Prerequisite: Permission of instructor\nMAT 670 - Fall, MAT 671 - Spring,",
         "spring1":1,
         "fall1":1,
@@ -1815,6 +1832,7 @@
         "Credits":3.0,
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Prerequisite: Permission of instructor\nMAT 670 - Fall, MAT 671 - Spring,",
         "spring1":1,
         "fall1":1,
@@ -1827,6 +1845,7 @@
         "Credits":3.0,
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Prerequisite: Permission of instructor\nMAT 674 - Fall, MAT 675 - Spring,",
         "spring1":1,
         "fall1":1,
@@ -1839,6 +1858,7 @@
         "Credits":3.0,
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Prerequisite: Permission of instructor\nMAT 674 - Fall, MAT 675 - Spring,",
         "spring1":1,
         "fall1":1,
@@ -1851,6 +1871,7 @@
         "Credits":3.0,
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Prerequisite: Permission of instructor\nMAT 678 - Fall, MAT 679 - Spring,",
         "spring1":1,
         "fall1":1,
@@ -1863,6 +1884,7 @@
         "Credits":3.0,
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Prerequisite: Permission of instructor\nMAT 678 - Fall, MAT 679 - Spring,",
         "spring1":1,
         "fall1":1,
@@ -1875,6 +1897,7 @@
         "Credits":3.0,
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Prerequisite: Permission of instructor\nMAT 682 - Fall, MAT 683 - Spring,",
         "spring1":1,
         "fall1":1,
@@ -1887,6 +1910,7 @@
         "Credits":3.0,
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Prerequisite: Permission of instructor\nMAT 682 - Fall, MAT 683 - Spring,",
         "spring1":1,
         "fall1":1,
@@ -1899,6 +1923,7 @@
         "Credits":3.0,
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"An advanced topic selected from holomorphic and low-dimensional dynamics, hyperbolic dynamics, KAM theory, smooth ergodic theory, geodesic flows, bifurcation theory.\nPrerequisite: Permission of instructor\nMAT 685 - Fall, MAT 686 - Spring, 3 credits, ABCF grading",
         "spring1":1,
         "fall1":1,
@@ -1911,6 +1936,7 @@
         "Credits":3.0,
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"An advanced topic selected from holomorphic and low-dimensional dynamics, hyperbolic dynamics, KAM theory, smooth ergodic theory, geodesic flows, bifurcation theory.\nPrerequisite: Permission of instructor\nMAT 685 - Fall, MAT 686 - Spring, 3 credits, ABCF grading",
         "spring1":1,
         "fall1":1,
@@ -1923,6 +1949,7 @@
         "Credits":3.0,
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Fall, 3 credits, Letter graded (A, A-, B+, etc.)",
         "spring1":1,
         "fall1":1,
@@ -1935,6 +1962,7 @@
         "Credits":3.0,
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Spring, 3 credits, Letter graded (A, A-, B+, etc.)",
         "spring1":1,
         "fall1":1,
@@ -1947,6 +1975,7 @@
         "Credits":"1.00 - 12.00",
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"",
         "spring1":1,
         "fall1":1,
@@ -1959,6 +1988,7 @@
         "Credits":"1.00 - 12.00",
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"",
         "spring1":1,
         "fall1":1,
@@ -1971,6 +2001,7 @@
         "Credits":"1.00 - 12.00",
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"",
         "spring1":1,
         "fall1":1,
@@ -1983,6 +2014,7 @@
         "Credits":"1.00 - 9.00",
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Dissertation research under direction of advisor.\nPrerequisite: Advancement to candidacy (G5). Major portion of research must take place on SBU campus, at Cold Spring Harbor, or at the Brookhaven National Lab.\nFall, Spring, and Summer,",
         "spring1":1,
         "fall1":1,
@@ -1995,6 +2027,7 @@
         "Credits":"1.00 - 9.00",
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Prerequisite: Must be advanced to candidacy (G5). Major portion of research will take place off-campus, but in the United States and\/or U.S. provinces. Please note, Brookhaven National Labs and the Cold Spring Harbor Lab are considered on-campus.\nAll international students must enroll in one of the graduate student insurance plans and should be advised by an International Advisor.\nFall, Spring, Summer",
         "spring1":1,
         "fall1":1,
@@ -2007,6 +2040,7 @@
         "Credits":"1.00 - 9.00",
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Prerequisite: Must be advanced to candidacy (G5). Major portion of research will take place outside of the United States and\/or U.S. provinces.\nDomestic students have the option of the health plan and may also enroll in MEDEX.\nInternational students who are in their home country are not covered by mandatory health plan and must contact the Insurance Office for the insurance charge to be removed.\nInternational students who are not in their home country are charged for the mandatory health insurance. If they are to be covered by another insurance plan they must file a waiver be second week of classes. The charge will only be removed if other plan is deemed comparable.\nAll international students must received clearance from an International Advisor.\nFall, Spring, Summer",
         "spring1":1,
         "fall1":1,
@@ -2019,6 +2053,7 @@
         "Credits":0.0,
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"",
         "spring1":1,
         "fall1":1,

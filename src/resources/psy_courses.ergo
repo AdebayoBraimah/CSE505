@@ -5,6 +5,7 @@
 \##2['Credits' -> 3].
 \##2['Prerequisites' -> 'NONE'].
 \##2['Antirequisites' -> 'NONE'].
+\##2['Corequisites' -> 'NONE'].
 \##2['Description' -> 'An introduction to research and theory in psychology in such areas as learning, perception, cognition, biopsychology, development, personality, and abnormal and social psychology. As part of the course, students must participate in experiments and/or a library research project.'].
 \##2['spring1' -> 1].
 \##2['fall1' -> 1].
@@ -16,6 +17,7 @@
 \##3['Credits' -> 3].
 \##3['Prerequisites' -> [['PSY103']]].
 \##3['Antirequisites' -> 'NONE'].
+\##3['Corequisites' -> 'NONE'].
 \##3['Description' -> 'The use and interpretation of elementary statistical techniques in research, emphasizing descriptive statistics, correlational analysis, and inferential statistics, including chi-square, t-tests, and an introduction to the Analysis of Variance. May not be taken for credit after AMS 102, ECO 320, POL 201, or SOC 202. This course has been designated as a High Demand/Controlled Access (HD/CA) course. Students registering for HD/CA courses for the first time will have priority to do so.'].
 \##3['spring1' -> 1].
 \##3['fall1' -> 1].
@@ -27,6 +29,7 @@
 \##4['Credits' -> 3].
 \##4['Prerequisites' -> [['PSY103']]].
 \##4['Antirequisites' -> 'NONE'].
+\##4['Corequisites' -> 'NONE'].
 \##4['Description' -> 'A study of growth and change in humans. Psychological, physical, social, and cognitive changes will be considered and the role of environmental and genetic influences on development will be examined.'].
 \##4['spring1' -> 1].
 \##4['fall1' -> 1].
@@ -38,6 +41,7 @@
 \##5['Credits' -> 3].
 \##5['Prerequisites' -> [['PSY103']]].
 \##5['Antirequisites' -> 'NONE'].
+\##5['Corequisites' -> 'NONE'].
 \##5['Description' -> 'Examines the description, etiology, course, and treatment of psychological disorders. Current theory and research are emphasized.'].
 \##5['spring1' -> 1].
 \##5['fall1' -> 1].
@@ -49,6 +53,7 @@
 \##6['Credits' -> 3].
 \##6['Prerequisites' -> [['PSY103']]].
 \##6['Antirequisites' -> 'NONE'].
+\##6['Corequisites' -> 'NONE'].
 \##6['Description' -> 'A presentation of various topics in social psychology including interpersonal processes, obedience to authority, social perception, attitude change, attraction and liking, and aggression and violence, especially as applied to national and international issues.'].
 \##6['spring1' -> 1].
 \##6['fall1' -> 1].
@@ -60,6 +65,7 @@
 \##7['Credits' -> 3].
 \##7['Prerequisites' -> [['PSY103', 'ANP101', 'BIO203']]].
 \##7['Antirequisites' -> 'NONE'].
+\##7['Corequisites' -> 'NONE'].
 \##7['Description' -> 'Introduction to the neural basis of sensory processes, motor control, attention, emotion, and learning.'].
 \##7['spring1' -> 1].
 \##7['fall1' -> 1].
@@ -71,6 +77,7 @@
 \##8['Credits' -> 3].
 \##8['Prerequisites' -> [['PSY103']]].
 \##8['Antirequisites' -> 'NONE'].
+\##8['Corequisites' -> 'NONE'].
 \##8['Description' -> 'A survey of theoretical and empirical work on human cognition and perception including pattern recognition, memory, attention, language comprehension, decision making, and problem solving.'].
 \##8['spring1' -> 1].
 \##8['fall1' -> 1].
@@ -82,6 +89,7 @@
 \##9['Credits' -> '0.00 - 6.00'].
 \##9['Prerequisites' -> 'NONE'].
 \##9['Antirequisites' -> 'NONE'].
+\##9['Corequisites' -> 'NONE'].
 \##9['Description' -> 'Initial training and participation in techniques or duties related to a specific laboratory or field research experience under the direct supervision of a faculty member or advanced graduate student in the Department of Psychology. Students may take two sections in a single semester, but no more than three credits may be applied to a section. May not be taken for more than six credits per faculty advisor during the student's career.'].
 \##9['spring1' -> 1].
 \##9['fall1' -> 1].
@@ -93,6 +101,7 @@
 \##10['Credits' -> '1.00 - 3.00'].
 \##10['Prerequisites' -> 'NONE'].
 \##10['Antirequisites' -> 'NONE'].
+\##10['Corequisites' -> 'NONE'].
 \##10['Description' -> 'Designed to provide opportunities for students to study and apply psychological principles outside the classroom (e.g., in settings such as hospitals and schools). Specific programs vary from semester to semester. General information is available in the Psychology Undergraduate Office. May be repeated up to a limit of six credits.'].
 \##10['spring1' -> 1].
 \##10['fall1' -> 1].
@@ -104,6 +113,7 @@
 \##11['Credits' -> 3].
 \##11['Prerequisites' -> [['PSY201', 'PSY310']]].
 \##11['Antirequisites' -> 'NONE'].
+\##11['Corequisites' -> 'NONE'].
 \##11['Description' -> 'Survey of probability and sampling theory, descriptive and inferential statistics, and introduction to experimental design.'].
 \##11['spring1' -> 1].
 \##11['fall1' -> 1].
@@ -115,6 +125,7 @@
 \##12['Credits' -> 4].
 \##12['Prerequisites' -> [['PSY103'], ['PSY201']]].
 \##12['Antirequisites' -> 'NONE'].
+\##12['Corequisites' -> 'NONE'].
 \##12['Description' -> 'An introduction to and critical analysis of the methodology of psychological research. In addition to attending lectures taught by faculty, students work closely with a graduate instructor and peers in small breakout sections to prepare a research proposal. Not for credit in addition to the discontinued PSY 300. This course has been designated as a High Demand/Controlled Access (HD/CA) course. Students registering for HD/CA courses for the first time will have priority to do so. This course has an associated fee. Please see www.stonybrook.edu/coursefees for more information.'].
 \##12['spring1' -> 1].
 \##12['fall1' -> 1].
@@ -126,6 +137,7 @@
 \##13['Credits' -> 3].
 \##13['Prerequisites' -> [['PSY220', 'PSY230', 'PSY240', 'PSY260', 'PSY310']]].
 \##13['Antirequisites' -> 'NONE'].
+\##13['Corequisites' -> 'NONE'].
 \##13['Description' -> 'A survey of the basic principles of cognition from experimental research with children. Topics include perceptual development, language development, memory development, conceptual development, and the development of academic skills.'].
 \##13['spring1' -> 1].
 \##13['fall1' -> 1].
@@ -137,6 +149,7 @@
 \##14['Credits' -> 3].
 \##14['Prerequisites' -> [['PSY220', 'PSY230', 'PSY240']]].
 \##14['Antirequisites' -> 'NONE'].
+\##14['Corequisites' -> 'NONE'].
 \##14['Description' -> 'Current theories, models, research methods, and findings in the study of children's socioemotional development. The course emphasizes the interaction of the individual with his or her social environment in developmental processes and outcomes. Eras covered include infancy, toddler/preschool, mid-late childhood, and adolescence.'].
 \##14['spring1' -> 1].
 \##14['fall1' -> 1].
@@ -148,6 +161,7 @@
 \##15['Credits' -> 3].
 \##15['Prerequisites' -> 'NONE'].
 \##15['Antirequisites' -> 'NONE'].
+\##15['Corequisites' -> 'NONE'].
 \##15['Description' -> 'The biological and psychological development of childhood and adolescence that affects teaching and curriculum development for diverse learners. Additional topics include childhood and adolescent psychiatric disorders, special education programs, drug and alcohol use and abuse, and societal issues. Formerly SSE 327 and SSI 327. Not for credit in addition to SSE 327 or SSI 327.'].
 \##15['spring1' -> 1].
 \##15['fall1' -> 1].
@@ -159,6 +173,7 @@
 \##16['Credits' -> 3].
 \##16['Prerequisites' -> [['PSY220', 'PSY230', 'PSY240', 'PSY310']]].
 \##16['Antirequisites' -> 'NONE'].
+\##16['Corequisites' -> 'NONE'].
 \##16['Description' -> 'May be repeated as the topic changes.'].
 \##16['spring1' -> 1].
 \##16['fall1' -> 1].
@@ -170,6 +185,7 @@
 \##17['Credits' -> 3].
 \##17['Prerequisites' -> [['PSY230']]].
 \##17['Antirequisites' -> 'NONE'].
+\##17['Corequisites' -> 'NONE'].
 \##17['Description' -> 'The mood disorders include bipolar (manic-depressive) and depressive disorders.  They are among the most common psychological disorders, and are a tremendous personal, social, and economic burden.  This course will provide an introduction to current theory and research on the mood disorders, including their classification, epidemiology, course, etiology, pathogenesis, and treatment. Not for credit in addition to PSY 339 with topic of "Mood Disorders."'].
 \##17['spring1' -> 1].
 \##17['fall1' -> 1].
@@ -181,6 +197,7 @@
 \##18['Credits' -> 3].
 \##18['Prerequisites' -> [['PSY230', 'PSY220']]].
 \##18['Antirequisites' -> 'NONE'].
+\##18['Corequisites' -> 'NONE'].
 \##18['Description' -> 'This course will provide information on history and current research into the causes (etiology), types (nosology), characteristics (symptomatology), prevalence, and treatment of autism spectrum disorders (ASDs). Topics to be dealt with include: etiology, assessment, family roles, social development, cognitive development, sensory and motor development, comorbidities, long-term outcomes, public policy legal issues, and future directions for research and practice.'].
 \##18['spring1' -> 1].
 \##18['fall1' -> 1].
@@ -192,6 +209,7 @@
 \##19['Credits' -> 3].
 \##19['Prerequisites' -> [['PSY220', 'PSY230', 'PSY240', 'PSY310']]].
 \##19['Antirequisites' -> 'NONE'].
+\##19['Corequisites' -> 'NONE'].
 \##19['Description' -> 'Development and modification of behavioral deviations in children; application of principles derived from experimental analysis of behavior to problems of children.'].
 \##19['spring1' -> 1].
 \##19['fall1' -> 1].
@@ -203,6 +221,7 @@
 \##20['Credits' -> 3].
 \##20['Prerequisites' -> [['PSY220', 'PSY230', 'PSY240', 'PSY310']]].
 \##20['Antirequisites' -> 'NONE'].
+\##20['Corequisites' -> 'NONE'].
 \##20['Description' -> 'May be repeated as the topic changes.'].
 \##20['spring1' -> 1].
 \##20['fall1' -> 1].
@@ -214,6 +233,7 @@
 \##21['Credits' -> 3].
 \##21['Prerequisites' -> [['PSY220', 'PSY230', 'PSY240', 'PSY250', 'PSY260', 'PSY310']]].
 \##21['Antirequisites' -> 'NONE'].
+\##21['Corequisites' -> 'NONE'].
 \##21['Description' -> 'An overview of theoretical perspectives, research methods, empirical findings, and practical applications of psychological research on prejudice. Topics include the development of prejudice among children; the role of cognitive, social, personality, and motivational factors in maintaining prejudice and stigma; the psychological consequences of prejudice and stigma; and strategies for reducing prejudice, stigma, and intergroup conflict.'].
 \##21['spring1' -> 1].
 \##21['fall1' -> 1].
@@ -225,6 +245,7 @@
 \##22['Credits' -> 3].
 \##22['Prerequisites' -> [['PSY220', 'PSY230', 'PSY240', 'PSY310']]].
 \##22['Antirequisites' -> 'NONE'].
+\##22['Corequisites' -> 'NONE'].
 \##22['Description' -> 'An investigation of psychological aspects of women's health and gender differences in health through readings, lectures, films, guest speakers and presentations, class discussions, a writing assignment, and other educational activities.'].
 \##22['spring1' -> 1].
 \##22['fall1' -> 1].
@@ -236,6 +257,7 @@
 \##23['Credits' -> 3].
 \##23['Prerequisites' -> [['PSY220', 'PSY230', 'PSY240', 'PSY310']]].
 \##23['Antirequisites' -> 'NONE'].
+\##23['Corequisites' -> 'NONE'].
 \##23['Description' -> 'The study of the ways in which people differ. Examines traditional and current thinking and research about the nature and causes of the individual patterns of behavior, emotion, and thinking that we call personality.'].
 \##23['spring1' -> 1].
 \##23['fall1' -> 1].
@@ -247,6 +269,7 @@
 \##24['Credits' -> 3].
 \##24['Prerequisites' -> [['PSY103', 'PSY310']]].
 \##24['Antirequisites' -> 'NONE'].
+\##24['Corequisites' -> 'NONE'].
 \##24['Description' -> 'The role of psychological factors in the maintenance of good health or in coping with illness. Topics include the modification of specific health behavior, such as alcoholism, obesity, lack of exercise, and smoking; the relationship of stress and illness; and coping with terminal illnesses.'].
 \##24['spring1' -> 1].
 \##24['fall1' -> 1].
@@ -258,6 +281,7 @@
 \##25['Credits' -> 3].
 \##25['Prerequisites' -> [['WST102', 'WST103', 'PSY103', 'SOC247']]].
 \##25['Antirequisites' -> 'NONE'].
+\##25['Corequisites' -> 'NONE'].
 \##25['Description' -> 'The psychological impact of important physiological and sociological events and epochs in the lives of women; menstruation, female sexuality, marriage, childbirth, and menopause; women and mental health, mental illness and psychotherapy; the role of women in the field of psychology. This course is offered as both PSY 347 and  WST 377.'].
 \##25['spring1' -> 1].
 \##25['fall1' -> 1].
@@ -269,6 +293,7 @@
 \##26['Credits' -> 3].
 \##26['Prerequisites' -> [['PSY220', 'PSY230', 'PSY240']]].
 \##26['Antirequisites' -> 'NONE'].
+\##26['Corequisites' -> 'NONE'].
 \##26['Description' -> 'May be repeated as the topic changes.'].
 \##26['spring1' -> 1].
 \##26['fall1' -> 1].
@@ -280,6 +305,7 @@
 \##27['Credits' -> 3].
 \##27['Prerequisites' -> [['PSY220', 'PSY230', 'PSY240']]].
 \##27['Antirequisites' -> 'NONE'].
+\##27['Corequisites' -> 'NONE'].
 \##27['Description' -> 'May be repeated as the topic changes.'].
 \##27['spring1' -> 1].
 \##27['fall1' -> 1].
@@ -291,6 +317,7 @@
 \##28['Credits' -> 3].
 \##28['Prerequisites' -> [['PSY250', 'BIO202', 'BIO203', 'BIO208']]].
 \##28['Antirequisites' -> 'NONE'].
+\##28['Corequisites' -> 'NONE'].
 \##28['Description' -> 'Our ability to be shaped by our experiences and our sense of personal identity require that our brain encode and store information as one of its fundamental functions. In this course we will look in detail at how neurons and neural circuits respond and change when an organism learns something new or recalls something learned in the past. The focus will be on integrating current work in basic cellular and molecular neurobiology with the experimental psychology of learning and memory. Not for credit in addition to PSY 358 with topic of "Learning and Memory."'].
 \##28['spring1' -> 1].
 \##28['fall1' -> 1].
@@ -302,6 +329,7 @@
 \##29['Credits' -> 3].
 \##29['Prerequisites' -> [['PSY250', 'BIO208', 'BIO338', 'PSY310']]].
 \##29['Antirequisites' -> 'NONE'].
+\##29['Corequisites' -> 'NONE'].
 \##29['Description' -> 'The functional organization of the human brain, including dysfunctions resulting from various types of brain pathology. Neuroanatomical, neuropsychological, neurophysiological, and experimental psychological approaches are described.'].
 \##29['spring1' -> 1].
 \##29['fall1' -> 1].
@@ -313,6 +341,7 @@
 \##30['Credits' -> 3].
 \##30['Prerequisites' -> [['PSY250', 'BIO202', 'BIO203', 'BIO208']]].
 \##30['Antirequisites' -> 'NONE'].
+\##30['Corequisites' -> 'NONE'].
 \##30['Description' -> 'An advanced survey of the neurobiological bases of complex behavior. A review of basic neurophysiology, neuroanatomy, and neurochemistry is followed by considerations of the circuitry and neural processing supporting perception, motion, emotion, sleep, attention, learning, language, and higher cognitive mechanisms.'].
 \##30['spring1' -> 1].
 \##30['fall1' -> 1].
@@ -324,6 +353,7 @@
 \##31['Credits' -> 3].
 \##31['Prerequisites' -> [['PSY250', 'PSY260', 'PSY310']]].
 \##31['Antirequisites' -> 'NONE'].
+\##31['Corequisites' -> 'NONE'].
 \##31['Description' -> 'Principles of adaptation and behavioral change with emphasis on techniques of reward and punishment and of stimulus control.'].
 \##31['spring1' -> 1].
 \##31['fall1' -> 1].
@@ -335,6 +365,7 @@
 \##32['Credits' -> 3].
 \##32['Prerequisites' -> [['PSY250', 'BIO202', 'BIO203', 'BIO208']]].
 \##32['Antirequisites' -> 'NONE'].
+\##32['Corequisites' -> 'NONE'].
 \##32['Description' -> 'May be repeated as the topic changes.'].
 \##32['spring1' -> 1].
 \##32['fall1' -> 1].
@@ -346,6 +377,7 @@
 \##33['Credits' -> 3].
 \##33['Prerequisites' -> [['PSY250', 'BIO202', 'BIO203', 'BIO208']]].
 \##33['Antirequisites' -> 'NONE'].
+\##33['Corequisites' -> 'NONE'].
 \##33['Description' -> 'May be repeated as the topic changes.'].
 \##33['spring1' -> 1].
 \##33['fall1' -> 1].
@@ -357,6 +389,7 @@
 \##34['Credits' -> 3].
 \##34['Prerequisites' -> [['PSY250', 'PSY260', 'PSY310']]].
 \##34['Antirequisites' -> 'NONE'].
+\##34['Corequisites' -> 'NONE'].
 \##34['Description' -> 'An exploration of the psychological factors that influence judgment and decision making. Topics include how judgments and decisions ought to be made (e.g., rational decision making), systematic flaws in people's  actual performance, and the neural systems that underlie decisions.'].
 \##34['spring1' -> 1].
 \##34['fall1' -> 1].
@@ -368,6 +401,7 @@
 \##35['Credits' -> 3].
 \##35['Prerequisites' -> [['PSY250', 'PSY260', 'PSY310']]].
 \##35['Antirequisites' -> 'NONE'].
+\##35['Corequisites' -> 'NONE'].
 \##35['Description' -> 'Examination of theories and research concerning the processes and representations that underlie language comprehension, production, and acquisition.'].
 \##35['spring1' -> 1].
 \##35['fall1' -> 1].
@@ -379,6 +413,7 @@
 \##36['Credits' -> 3].
 \##36['Prerequisites' -> [['PSY250', 'PSY260', 'PSY310']]].
 \##36['Antirequisites' -> 'NONE'].
+\##36['Corequisites' -> 'NONE'].
 \##36['Description' -> 'An exploration of human problem solving and critical thinking. Topics include memory strategies, the role of language in thinking, inductive and deductive reasoning, creativity, and the development of problem solving skills.'].
 \##36['spring1' -> 1].
 \##36['fall1' -> 1].
@@ -390,6 +425,7 @@
 \##37['Credits' -> 3].
 \##37['Prerequisites' -> [['PSY250', 'PSY260', 'PSY310']]].
 \##37['Antirequisites' -> 'NONE'].
+\##37['Corequisites' -> 'NONE'].
 \##37['Description' -> 'A review of classic and current theories of memory and empirical research on memory in memory-intact and memory-impaired populations.'].
 \##37['spring1' -> 1].
 \##37['fall1' -> 1].
@@ -401,6 +437,7 @@
 \##38['Credits' -> 3].
 \##38['Prerequisites' -> [['PSY250', 'PSY260', 'PSY310']]].
 \##38['Antirequisites' -> 'NONE'].
+\##38['Corequisites' -> 'NONE'].
 \##38['Description' -> 'An examination of both the basic mechanisms and the organizational processes of visual and auditory perception. Topics include the perception of color, depth, movement, pitch, loudness, speech, and music.'].
 \##38['spring1' -> 1].
 \##38['fall1' -> 1].
@@ -412,6 +449,7 @@
 \##39['Credits' -> 3].
 \##39['Prerequisites' -> [['PSY250', 'PSY260', 'PSY310']]].
 \##39['Antirequisites' -> 'NONE'].
+\##39['Corequisites' -> 'NONE'].
 \##39['Description' -> 'May be repeated as the topic changes.'].
 \##39['spring1' -> 1].
 \##39['fall1' -> 1].
@@ -423,6 +461,7 @@
 \##40['Credits' -> 3].
 \##40['Prerequisites' -> [['PSY220', 'PSY230', 'PSY240', 'PSY250', 'PSY260']]].
 \##40['Antirequisites' -> 'NONE'].
+\##40['Corequisites' -> 'NONE'].
 \##40['Description' -> 'History of psychology presented either as a development and testing of theories that emerge from a long philosophical tradition, or as a set of practices that serve particular social functions and respond to pressures from the socioeconomic context.'].
 \##40['spring1' -> 1].
 \##40['fall1' -> 1].
@@ -432,8 +471,9 @@
 \##41['CourseTitle' -> 'Research Lab: Human Cognition'].
 \##41['Career' -> 'Undergraduate'].
 \##41['Credits' -> 4].
-\##41['Prerequisites' -> [['PSY103', 'PSY201']]].
+\##41['Prerequisites' -> [['PSY103'], ['PSY201']]].
 \##41['Antirequisites' -> 'NONE'].
+\##41['Corequisites' -> 'NONE'].
 \##41['Description' -> 'Techniques and experimental methods to conduct research in cognition on a selection of topics such as perception and sensation, language, attention, or memory.  Hands-on learning of research and reporting of research. This course has an associated fee. Please see www.stonybrook.edu/coursefees for more information.'].
 \##41['spring1' -> 1].
 \##41['fall1' -> 1].
@@ -443,8 +483,9 @@
 \##42['CourseTitle' -> 'Research Lab: Social Psychology'].
 \##42['Career' -> 'Undergraduate'].
 \##42['Credits' -> 4].
-\##42['Prerequisites' -> [['PSY103', 'PSY201', 'PSY240']]].
+\##42['Prerequisites' -> [['PSY103'], ['PSY201', 'PSY240']]].
 \##42['Antirequisites' -> 'NONE'].
+\##42['Corequisites' -> 'NONE'].
 \##42['Description' -> 'Techniques and experimental problems in social psychology, including natural observation, surveys, and experimental design. Three hours of lecture and two hours of field or laboratory research per week. This course has an associated fee. Please see www.stonybrook.edu/coursefees for more information.'].
 \##42['spring1' -> 1].
 \##42['fall1' -> 1].
@@ -456,6 +497,7 @@
 \##43['Credits' -> 4].
 \##43['Prerequisites' -> [['PSY310']]].
 \##43['Antirequisites' -> 'NONE'].
+\##43['Corequisites' -> 'NONE'].
 \##43['Description' -> 'Research methods in cultural psychology, including natural observation, surveys, and experimental design. Three hours of lecture and two hours of field or laboratory research per week.'].
 \##43['spring1' -> 1].
 \##43['fall1' -> 1].
@@ -467,6 +509,7 @@
 \##44['Credits' -> 4].
 \##44['Prerequisites' -> [['PSY310']]].
 \##44['Antirequisites' -> 'NONE'].
+\##44['Corequisites' -> 'NONE'].
 \##44['Description' -> 'Research methods in varying topics in psychological research including natural observation, surveys, and experimental design. Three hours of lecture and two hours of field or laboratory research per week. May be repeated for credit as the topic changes. This course has an associated fee. Please see www.stonybrook.edu/coursefees for more information.'].
 \##44['spring1' -> 1].
 \##44['fall1' -> 1].
@@ -478,6 +521,7 @@
 \##45['Credits' -> 0].
 \##45['Prerequisites' -> [['WRT102']]].
 \##45['Antirequisites' -> 'NONE'].
+\##45['Corequisites' -> 'NONE'].
 \##45['Description' -> 'This course is designed for students who engage in a substantial, structured experiential learning activity in conjunction with another class. Experiential learning occurs when knowledge acquired through formal learning and past experience are applied to a "real-world" setting or problem to create new knowledge through a process of reflection, critical analysis, feedback and synthesis. Beyond-the-classroom experiences that support experiential learning may include: service learning, mentored research, field work, or an internship.'].
 \##45['spring1' -> 1].
 \##45['fall1' -> 1].
@@ -489,6 +533,7 @@
 \##46['Credits' -> '1.00 - 6.00'].
 \##46['Prerequisites' -> 'NONE'].
 \##46['Antirequisites' -> 'NONE'].
+\##46['Corequisites' -> 'NONE'].
 \##46['Description' -> 'Directed readings under the guidance of a faculty member. May be repeated once.'].
 \##46['spring1' -> 1].
 \##46['fall1' -> 1].
@@ -500,6 +545,7 @@
 \##47['Credits' -> 0].
 \##47['Prerequisites' -> [['WRT102']]].
 \##47['Antirequisites' -> 'NONE'].
+\##47['Corequisites' -> 'NONE'].
 \##47['Description' -> 'A zero credit course that may be taken in conjunction with any 300- or 400-level PSY course, with permission of the instructor. The course provides opportunity to practice the skills and techniques of effective academic writing and satisfies the learning outcomes of the Stony Brook Curriculum's WRTD learning objective.'].
 \##47['spring1' -> 1].
 \##47['fall1' -> 1].
@@ -511,6 +557,7 @@
 \##48['Credits' -> 3].
 \##48['Prerequisites' -> 'NONE'].
 \##48['Antirequisites' -> 'NONE'].
+\##48['Corequisites' -> 'NONE'].
 \##48['Description' -> 'Work with a faculty member as an assistant in one of the faculty member's regularly scheduled classes.  The student is required to attend all the classes, do all the regularly assigned work, and meet with the faculty member at regularly assigned times to discuss the intellectual and pedagogical matters relating to the course.'].
 \##48['spring1' -> 1].
 \##48['fall1' -> 1].
@@ -522,6 +569,7 @@
 \##49['Credits' -> 3].
 \##49['Prerequisites' -> 'NONE'].
 \##49['Antirequisites' -> 'NONE'].
+\##49['Corequisites' -> 'NONE'].
 \##49['Description' -> 'Work with a faculty member as an assistant in one of the faculty member's regularly scheduled classes.  Students assume greater responsibility in such areas as leading discussions and analyzing results of tests that have already been graded. Students may not serve as teaching assistants in the same course twice.'].
 \##49['spring1' -> 1].
 \##49['fall1' -> 1].
@@ -533,6 +581,7 @@
 \##50['Credits' -> '0.00 - 6.00'].
 \##50['Prerequisites' -> [['PSY273']]].
 \##50['Antirequisites' -> 'NONE'].
+\##50['Corequisites' -> 'NONE'].
 \##50['Description' -> 'Upper-division students interested in carrying out independent research projects under the auspices of a faculty member in the Department of Psychology may do so in this course. The student must propose and carry out the research project and must analyze and write up the results in a form acceptable to the sponsor. Written agreement by the faculty sponsor to undertake this responsibility and an outline of the project goals are filed with the Undergraduate Psychology Office. These become part of the student's departmental file. May be repeated up to a limit of 12 credits.'].
 \##50['spring1' -> 1].
 \##50['fall1' -> 1].
@@ -544,6 +593,7 @@
 \##51['Credits' -> '0.00 - 6.00'].
 \##51['Prerequisites' -> 'NONE'].
 \##51['Antirequisites' -> 'NONE'].
+\##51['Corequisites' -> 'NONE'].
 \##51['Description' -> 'Participation in public and private agencies and organizations. Students are required to submit written progress reports and a final written report on their experience to the faculty sponsor and department. May be repeated up to a limit of 12 credits.'].
 \##51['spring1' -> 1].
 \##51['fall1' -> 1].
@@ -555,6 +605,7 @@
 \##52['Credits' -> '1.00 - 3.00'].
 \##52['Prerequisites' -> [['PSY310']]].
 \##52['Antirequisites' -> 'NONE'].
+\##52['Corequisites' -> 'NONE'].
 \##52['Description' -> 'Special seminars covering current research theory.  Topics are announced prior to the beginning of each semester. May be repeated up to a limit of 18 credits. Students may take two sections in a single semester. May not be taken for more than six credits per faculty member during the student's career.'].
 \##52['spring1' -> 1].
 \##52['fall1' -> 1].
@@ -566,6 +617,7 @@
 \##53['Credits' -> '1.00 - 3.00'].
 \##53['Prerequisites' -> [['PSY310']]].
 \##53['Antirequisites' -> 'NONE'].
+\##53['Corequisites' -> 'NONE'].
 \##53['Description' -> 'Special seminars covering current research theory.  Topics are announced prior to the beginning of each semester. May be repeated up to a limit of 18 credits. Students may take two sections in a single semester. May not be taken for more than six credits per faculty member during the student's career.'].
 \##53['spring1' -> 1].
 \##53['fall1' -> 1].
@@ -575,8 +627,9 @@
 \##54['CourseTitle' -> 'Senior Honors Seminar'].
 \##54['Career' -> 'Undergraduate'].
 \##54['Credits' -> 1].
-\##54['Prerequisites' -> [['PSY487']]].
+\##54['Prerequisites' -> 'NONE'].
 \##54['Antirequisites' -> 'NONE'].
+\##54['Corequisites' -> [['PSY487']]].
 \##54['Description' -> 'First course of a two-semester directed-research activity employing methods and theories of psychological research. Students are expected to design and execute a research project and submit a thesis under the supervision of appropriate faculty sponsorship. Students enrolled in PSY 495 are obliged to complete PSY 496. Students receive only one grade upon completion of the sequence.'].
 \##54['spring1' -> 1].
 \##54['fall1' -> 1].
@@ -586,8 +639,9 @@
 \##55['CourseTitle' -> 'Senior Honors Seminar'].
 \##55['Career' -> 'Undergraduate'].
 \##55['Credits' -> 1].
-\##55['Prerequisites' -> [['PSY495'], ['PSY487']]].
+\##55['Prerequisites' -> [['PSY495']]].
 \##55['Antirequisites' -> 'NONE'].
+\##55['Corequisites' -> [['PSY487']]].
 \##55['Description' -> 'Second course of a two-semester directed-research activity employing methods and theories of psychological research. Students are expected to design and execute a research project and submit a thesis under the supervision of appropriate faculty sponsorship. Students enrolled in PSY 495 are obliged to complete PSY 496. Students receive only one grade upon completion of the sequence.'].
 \##55['spring1' -> 1].
 \##55['fall1' -> 1].
@@ -597,8 +651,9 @@
 \##56['CourseTitle' -> 'Analysis of Variance and Experimental Design'].
 \##56['Career' -> 'Graduate'].
 \##56['Credits' -> 3].
-\##56['Prerequisites' -> [['PSY508']]].
+\##56['Prerequisites' -> 'NONE'].
 \##56['Antirequisites' -> 'NONE'].
+\##56['Corequisites' -> 'NONE'].
 \##56['Description' -> 'The design and analysis of factorial experiments having a single dependent variable. Topics include between- and within-subjects designs, mixed-factor designs, interactions, trend analysis, and planned comparisons. Emphasis on applications in psychological research. Required of all Ph.D. students in psychology.
 Prerequisite: Undergraduate statistics, Co-requisite: PSY 508
 Fall, 3 credits, ABCDF grading'].
@@ -612,6 +667,7 @@ Fall, 3 credits, ABCDF grading'].
 \##57['Credits' -> 3].
 \##57['Prerequisites' -> 'NONE'].
 \##57['Antirequisites' -> 'NONE'].
+\##57['Corequisites' -> 'NONE'].
 \##57['Description' -> 'Correlation, regression, multiple correlation, multiple regression, partial correlation, and introductions to some of the following topics: factor analysis, mediational analysis, structural equation modeling, relation of regression to analysis of variance, analysis of covariance, discriminant function analysis, and multivariate analysis of variance. Required of all Ph.D. students in psychology. Spring
 Co-requisite: PSY 508'].
 \##57['spring1' -> 1].
@@ -624,6 +680,7 @@ Co-requisite: PSY 508'].
 \##58['Credits' -> '0.00 - 3.00'].
 \##58['Prerequisites' -> 'NONE'].
 \##58['Antirequisites' -> 'NONE'].
+\##58['Corequisites' -> 'NONE'].
 \##58['Description' -> 'This course includes discussion of current research and research practices by faculty and visiting speakers. This course is required of all first-year Ph.D. students and Masters students.
 
 0-3 credits, S/U grading
@@ -639,6 +696,7 @@ May be repeated for credit.'].
 \##59['Credits' -> 3].
 \##59['Prerequisites' -> 'NONE'].
 \##59['Antirequisites' -> 'NONE'].
+\##59['Corequisites' -> 'NONE'].
 \##59['Description' -> 'Thorough coverage of structural equation modeling and brief coverage of other specialized techniques used in data analysis in psychology, such as multi-level modeling and cluster analysis (topics for brief coverage vary from year to year).  The course emphasizes hands-on work with real data sets, using standard statistical software packages.
 Spring,'].
 \##59['spring1' -> 1].
@@ -651,6 +709,7 @@ Spring,'].
 \##60['Credits' -> 3].
 \##60['Prerequisites' -> 'NONE'].
 \##60['Antirequisites' -> 'NONE'].
+\##60['Corequisites' -> 'NONE'].
 \##60['Description' -> 'This course surveys traditional and evolving views on item design, reliability, and validity, reviews statistical methods related to test construction, and applies this material to the design and evaluation of observational, rating, and self-report methods in domains of interest to psychologists.  The course also examines the impact of test characteristics on data analysis and the role of test design in theory construction.
 Fall or Spring, alternate years, 3 credits, ABCDF grading.'].
 \##60['spring1' -> 1].
@@ -663,6 +722,7 @@ Fall or Spring, alternate years, 3 credits, ABCDF grading.'].
 \##61['Credits' -> 3].
 \##61['Prerequisites' -> 'NONE'].
 \##61['Antirequisites' -> 'NONE'].
+\##61['Corequisites' -> 'NONE'].
 \##61['Description' -> 'This course is an introduction to research synthesis and the use of meta-analytic techniques. The content is intended to be a thorough yet practical coverage of basic principles, with an emphasis on leading students through the steps of conducting their own meta-analytic project. A basic knowledge of statistics commonly used in the social and behavioral sciences is essential. Class meetings will involve both didactic instruction and discussion of readings and homework assignments.'].
 \##61['spring1' -> 1].
 \##61['fall1' -> 1].
@@ -672,8 +732,9 @@ Fall or Spring, alternate years, 3 credits, ABCDF grading.'].
 \##62['CourseTitle' -> 'Introduction to Computer Applications in Statistics'].
 \##62['Career' -> 'Graduate'].
 \##62['Credits' -> '0.00 - 1.00'].
-\##62['Prerequisites' -> [['PSY501']]].
+\##62['Prerequisites' -> 'NONE'].
 \##62['Antirequisites' -> 'NONE'].
+\##62['Corequisites' -> 'NONE'].
 \##62['Description' -> 'Computer protocol and introduction to statistical packages and necessary utility programs. Fall and Spring
 Prerequisite: Corequisite: PSY 501 or 502'].
 \##62['spring1' -> 1].
@@ -686,6 +747,7 @@ Prerequisite: Corequisite: PSY 501 or 502'].
 \##63['Credits' -> 3].
 \##63['Prerequisites' -> 'NONE'].
 \##63['Antirequisites' -> 'NONE'].
+\##63['Corequisites' -> 'NONE'].
 \##63['Description' -> 'Intensive reading in the history of psychology from original sources. Emphasis is on class discussion and relation to modern problems.  Fall or Spring, alternate years'].
 \##63['spring1' -> 1].
 \##63['fall1' -> 1].
@@ -697,6 +759,7 @@ Prerequisite: Corequisite: PSY 501 or 502'].
 \##64['Credits' -> 3].
 \##64['Prerequisites' -> 'NONE'].
 \##64['Antirequisites' -> 'NONE'].
+\##64['Corequisites' -> 'NONE'].
 \##64['Description' -> 'A consideration of the basic principles of learning. Analysis of the leading theories of learning as well as areas of controversy and dispute. Fall or Spring, alternate years'].
 \##64['spring1' -> 1].
 \##64['fall1' -> 1].
@@ -708,6 +771,7 @@ Prerequisite: Corequisite: PSY 501 or 502'].
 \##65['Credits' -> 3].
 \##65['Prerequisites' -> 'NONE'].
 \##65['Antirequisites' -> 'NONE'].
+\##65['Corequisites' -> 'NONE'].
 \##65['Description' -> 'This course covers some of the major theoretical perspectives that have shaped the attention literature, staring with historical distinctions of early versus late selection and ending with more contemporary mathematical, neurophysiological, and neuorcomputational theories.  Specific questions will include: "What is attention?" (is it a unitary thing or a grab-bag of assorted processes), "How does it work," and "What paradigms have researchers used to study attention?" (dichotic listening, priming, search, etc.).
 Fall or Spring, alternate years, 3 credits, ABCDF grading'].
 \##65['spring1' -> 1].
@@ -720,6 +784,7 @@ Fall or Spring, alternate years, 3 credits, ABCDF grading'].
 \##66['Credits' -> 3].
 \##66['Prerequisites' -> 'NONE'].
 \##66['Antirequisites' -> 'NONE'].
+\##66['Corequisites' -> 'NONE'].
 \##66['Description' -> 'This course covers the sensory mechanisms that change physical stimuli (e.g., a picture of your friend) into neural information, the major brain areas involved in processing this sensory information for various perceptual abilities (eg., motion perception, color perception, object perception, etc.), and the different theoretical approaches to analyzing a given perceptual phenomenon.
 Fall or Spring, alternate years, 3 credits, ABCDF grading'].
 \##66['spring1' -> 1].
@@ -732,6 +797,7 @@ Fall or Spring, alternate years, 3 credits, ABCDF grading'].
 \##67['Credits' -> 3].
 \##67['Prerequisites' -> 'NONE'].
 \##67['Antirequisites' -> 'NONE'].
+\##67['Corequisites' -> 'NONE'].
 \##67['Description' -> 'This course provides an overview of empirical and theoretical work on
 judgment and decision making.  Topics include what decision making is,
 how decisions ought to be made, the systematic flaws observed in
@@ -749,6 +815,7 @@ Fall or Spring, Alternating years'].
 \##68['Credits' -> 3].
 \##68['Prerequisites' -> 'NONE'].
 \##68['Antirequisites' -> 'NONE'].
+\##68['Corequisites' -> 'NONE'].
 \##68['Description' -> 'Review of theory and phenomena related to human memory. Topics include representation of schemas and categories, encoding, forgetting, implicit learning, and memory for procedures. Several recent models of long-term memory representation are discussed and compared.  Fall or Spring, alternate years'].
 \##68['spring1' -> 1].
 \##68['fall1' -> 1].
@@ -760,6 +827,7 @@ Fall or Spring, Alternating years'].
 \##69['Credits' -> 3].
 \##69['Prerequisites' -> 'NONE'].
 \##69['Antirequisites' -> 'NONE'].
+\##69['Corequisites' -> 'NONE'].
 \##69['Description' -> 'The psychology of language, including the mental lexicon, sentence processing, pragmatics, discourse, production and comprehension of utterances in conversation, language and thought, first-language acquisition, and computational approaches.  Fall or Spring, alternate years'].
 \##69['spring1' -> 1].
 \##69['fall1' -> 1].
@@ -771,6 +839,7 @@ Fall or Spring, Alternating years'].
 \##70['Credits' -> 3].
 \##70['Prerequisites' -> 'NONE'].
 \##70['Antirequisites' -> 'NONE'].
+\##70['Corequisites' -> 'NONE'].
 \##70['Description' -> 'This course presents the developmental perspective as applied to human cognition.  Topics include (1) characteristics and constraints on cognitive abilities in infancy, childhood, and adolescence, (2) mechanisms of developmental change, and (3) links between cognitive development and selected applied topics.
 Fall or Spring, alternate years'].
 \##70['spring1' -> 1].
@@ -783,6 +852,7 @@ Fall or Spring, alternate years'].
 \##71['Credits' -> 3].
 \##71['Prerequisites' -> 'NONE'].
 \##71['Antirequisites' -> 'NONE'].
+\##71['Corequisites' -> 'NONE'].
 \##71['Description' -> 'A critical review of how principles of general psychology apply to clinical psychology. The course material will be discussed within the context of the history of ideas and major systems of thought as they relate to conceptualization, assessment, and intervention.
 Prerequisite: Psychology doctoral student.
 Fall or Spring, alternate years , 3 credits, ABCF grading'].
@@ -796,6 +866,7 @@ Fall or Spring, alternate years , 3 credits, ABCF grading'].
 \##72['Credits' -> 2].
 \##72['Prerequisites' -> 'NONE'].
 \##72['Antirequisites' -> 'NONE'].
+\##72['Corequisites' -> 'NONE'].
 \##72['Description' -> 'General principles of assessment; clinical interviewing; structured interviews for assessing axis-I and axis-II psychopathology; ethics and cultural diversity. Prerequisite: Clinical psychology doctoral student
 Fall, 2 credits, ABCF grading'].
 \##72['spring1' -> 1].
@@ -808,6 +879,7 @@ Fall, 2 credits, ABCF grading'].
 \##73['Credits' -> 3].
 \##73['Prerequisites' -> 'NONE'].
 \##73['Antirequisites' -> 'NONE'].
+\##73['Corequisites' -> 'NONE'].
 \##73['Description' -> 'Advanced research methods employed in clinical, personality, social, and behavioral research. Fall or Spring
 Prerequisite: PSY 501, 502, and clinical doctoral student'].
 \##73['spring1' -> 1].
@@ -820,6 +892,7 @@ Prerequisite: PSY 501, 502, and clinical doctoral student'].
 \##74['Credits' -> 3].
 \##74['Prerequisites' -> 'NONE'].
 \##74['Antirequisites' -> 'NONE'].
+\##74['Corequisites' -> 'NONE'].
 \##74['Description' -> 'This course covers the theory and research associated with the treatment of internalizing disorders of adults, adolescents, and children.  Among the topics covered are the treatment of phobias, school refusual, panic disorder, general anxiety disorder, social anxiety, post-traumatic stress disorder, complicated grief, obsessive compulsive disorder, and mood disorders.  In the treatment of each, particular emphasis is placed on how therapy needs to be modified depending on whether one is working with a child, adolescent or adult.
 Fall, 3 credits, ABCF grading'].
 \##74['spring1' -> 1].
@@ -832,6 +905,7 @@ Fall, 3 credits, ABCF grading'].
 \##75['Credits' -> 3].
 \##75['Prerequisites' -> 'NONE'].
 \##75['Antirequisites' -> 'NONE'].
+\##75['Corequisites' -> 'NONE'].
 \##75['Description' -> 'This course focuses on the treatment of externalizing disorders of adults and children as well as intimate partner problems like relationship discord and partner abuse. A developmental focus is taken as exemplified by coverage of child externalizing problems such as Oppositional Defiant Disorder, Conduct Disorder, and Attention Deficit Disorder, Borderline Personality Disorder and Partner Abuse. Treatments of alcohol abuse and eating disorders in both teens and adults are presented. Finally, treatment of schizophrenia is addressed along with coverage of the course of schizophrenia across the lifespan. Individual, couple, and family treatments are reviewed.
 Spring, 3 credits, ABCF grading
 Prerequisite: Must be Psychology Graduate Student'].
@@ -845,6 +919,7 @@ Prerequisite: Must be Psychology Graduate Student'].
 \##76['Credits' -> 3].
 \##76['Prerequisites' -> 'NONE'].
 \##76['Antirequisites' -> 'NONE'].
+\##76['Corequisites' -> 'NONE'].
 \##76['Description' -> 'High level overview of current theory and research on the social psychology of close relationships.
 Fall or Spring, alternate years, 3 credits, ABCF grading'].
 \##76['spring1' -> 1].
@@ -857,6 +932,7 @@ Fall or Spring, alternate years, 3 credits, ABCF grading'].
 \##77['Credits' -> 3].
 \##77['Prerequisites' -> 'NONE'].
 \##77['Antirequisites' -> 'NONE'].
+\##77['Corequisites' -> 'NONE'].
 \##77['Description' -> 'Study of psychological, behavioral and biological theories of addiction.
 Fall or Spring, alternate years, 3 credits, ABCF grading'].
 \##77['spring1' -> 1].
@@ -869,6 +945,7 @@ Fall or Spring, alternate years, 3 credits, ABCF grading'].
 \##78['Credits' -> 3].
 \##78['Prerequisites' -> 'NONE'].
 \##78['Antirequisites' -> 'NONE'].
+\##78['Corequisites' -> 'NONE'].
 \##78['Description' -> 'This course examines current psychological theories of infant-parent and child parent relationships and adult-adult attachment with special attention to assessment methods, clinical applications and controversy regarding the importance of early experience.
 Fall or Spring, alternate years, 3 credits, ABCF grading'].
 \##78['spring1' -> 1].
@@ -881,6 +958,7 @@ Fall or Spring, alternate years, 3 credits, ABCF grading'].
 \##79['Credits' -> 3].
 \##79['Prerequisites' -> 'NONE'].
 \##79['Antirequisites' -> 'NONE'].
+\##79['Corequisites' -> 'NONE'].
 \##79['Description' -> 'This course focuses on fundamental questions  regarding the interaction between emotion and cognition, and how such this interaction can be measured.  Key topics will include: differentiating emotions from other affective states, understanding the functions of discrete emotions, the role of the consciousness in emotional experience, and whether emotions can be controlled ; additionally, the course will address emotion-cognition interactions in the domains of memory, attention, perception and reasoning/decision-making.  We will also address developmental changes and cross-cultural differences in emotion and cognition.  The goal of the course is to be able to develop a translational research proposal rooted in basic research on emotion and cognition.
 Fall or Spring, alternate years, 3 credits, ABCF grading'].
 \##79['spring1' -> 1].
@@ -893,6 +971,7 @@ Fall or Spring, alternate years, 3 credits, ABCF grading'].
 \##80['Credits' -> 2].
 \##80['Prerequisites' -> 'NONE'].
 \##80['Antirequisites' -> 'NONE'].
+\##80['Corequisites' -> 'NONE'].
 \##80['Description' -> 'Theory and research on abnormal behavior in children, adolescents, and adults. A lifespan development approach is taken, with a focus on classification, conceptualizations and models of psychological disorders, and the phenomenology, epidemiology, course, etiology, pathogenesis, psychopathology, and pathophysiology of internalizing disorders such as mood and anxiety disorders.
 Fall, 2 credits, ABCF grading'].
 \##80['spring1' -> 1].
@@ -905,6 +984,7 @@ Fall, 2 credits, ABCF grading'].
 \##81['Credits' -> 3].
 \##81['Prerequisites' -> 'NONE'].
 \##81['Antirequisites' -> 'NONE'].
+\##81['Corequisites' -> 'NONE'].
 \##81['Description' -> 'An historical introduction to the measurement of psychological variables and survey of contemporary scaling methods with an emphasis on psychophysical scaling and experimental applications.  Fall or Spring, alternate years'].
 \##81['spring1' -> 1].
 \##81['fall1' -> 1].
@@ -916,6 +996,7 @@ Fall, 2 credits, ABCF grading'].
 \##82['Credits' -> 3].
 \##82['Prerequisites' -> 'NONE'].
 \##82['Antirequisites' -> 'NONE'].
+\##82['Corequisites' -> 'NONE'].
 \##82['Description' -> 'This course will provide an overview of theoretical perspectives, research methods, empirical findings, and practical applications of psychological research on prejudice, stigma, and intergroup relations.  Critical thinking about theorizing and research in this area will be emphasized during class discussions and through a course project.  Students are admitted with permission by instructor.
 Fall or Spring, alternate years, 3 credits, ABCF grading'].
 \##82['spring1' -> 1].
@@ -928,6 +1009,7 @@ Fall or Spring, alternate years, 3 credits, ABCF grading'].
 \##83['Credits' -> 3].
 \##83['Prerequisites' -> 'NONE'].
 \##83['Antirequisites' -> 'NONE'].
+\##83['Corequisites' -> 'NONE'].
 \##83['Description' -> 'A survey of milestones and processes of social development in infancy and childhood. Relevance to understanding adult personality and social relationships is emphasized.  Fall or Spring, alternate years'].
 \##83['spring1' -> 1].
 \##83['fall1' -> 1].
@@ -939,6 +1021,7 @@ Fall or Spring, alternate years, 3 credits, ABCF grading'].
 \##84['Credits' -> 3].
 \##84['Prerequisites' -> 'NONE'].
 \##84['Antirequisites' -> 'NONE'].
+\##84['Corequisites' -> 'NONE'].
 \##84['Description' -> 'An introduction to social psychology, a field of study examining how people feel about, think about, and influence others.  Topics include attitudes, motivation, social judgements, and interpersonal behaviors.  Coursework focuses on identifying basic principles that transcend particular content domains.
 Fall or Spring, alternate years,'].
 \##84['spring1' -> 1].
@@ -951,6 +1034,7 @@ Fall or Spring, alternate years,'].
 \##85['Credits' -> 3].
 \##85['Prerequisites' -> 'NONE'].
 \##85['Antirequisites' -> 'NONE'].
+\##85['Corequisites' -> 'NONE'].
 \##85['Description' -> 'In this course, we examine current issues, challenges, and questions in two related areas of psychology: stress and coping. We will cover classical approaches in addition to recent empirical research and theoretical development. Students are not expected to have prior familiarity with the topic areas. We will begin by reviewing definitions and major theoretical orientations. In subsequent weeks we will concentrate on issues relevant to stress, coping, and related topics such as social support, across a broad range of circumstances, rather than focusing on specific stressful contexts such as chronic illness or bereavement. For example, we will examine ways to define successful and maladaptive coping. We will also consider whether social support is better conceptualized as a commodity or as an individual perception. We will compare contradictory evidence about the benefits of perceived control, and we will discuss problems of generalizing research findings to different ethnic, cultural, and other groups.
 Offered: Fall, Spring alternate years, 3 credits ABCF grading'].
 \##85['spring1' -> 1].
@@ -963,6 +1047,7 @@ Offered: Fall, Spring alternate years, 3 credits ABCF grading'].
 \##86['Credits' -> 3].
 \##86['Prerequisites' -> 'NONE'].
 \##86['Antirequisites' -> 'NONE'].
+\##86['Corequisites' -> 'NONE'].
 \##86['Description' -> 'This course provides an overview of the ways in which social psychological theories and perspectives can be used to understand thoughts and behavior relevant to health and illness. It covers social influence, social comparison, pluralistic ignorance, social support, cognitive dissonance, message framing, and fear communication. The course also covers links between personality characteristics and health and how broader social and cultural environment affects health and illness.
 Fall or Spring, alternate years, 3 credits, ABCF grading'].
 \##86['spring1' -> 1].
@@ -975,6 +1060,7 @@ Fall or Spring, alternate years, 3 credits, ABCF grading'].
 \##87['Credits' -> 3].
 \##87['Prerequisites' -> 'NONE'].
 \##87['Antirequisites' -> 'NONE'].
+\##87['Corequisites' -> 'NONE'].
 \##87['Description' -> 'This course covers a variety of psychologically-important topics in women's health based on current research findings. We address psychological contributors to and consequences of women's health and illness, focusing on diseases that affect women differently or disproportionately than men (including coronary heart disease, cancer, AIDS, and autoimmune diseases), women's reproductive health (including menstruation, contraception, pregnancy, infertility, and menopause), health behaviors (including substance abuse, exercise, and eating), and other topics such as violence against women, women's mental health, and women as health care providers and health researchers.
 Co-scheduled with WST 559.
 Fall or Spring, altenrate years, 3 credits, ABCF grading'].
@@ -988,6 +1074,7 @@ Fall or Spring, altenrate years, 3 credits, ABCF grading'].
 \##88['Credits' -> 3].
 \##88['Prerequisites' -> 'NONE'].
 \##88['Antirequisites' -> 'NONE'].
+\##88['Corequisites' -> 'NONE'].
 \##88['Description' -> 'Cognitive neuroscience is an interdisciplinary field, at the interface of systems neuroscience, computational neuroscience, and cognitive psychology.  In this course, we examine the current theories and empirical research findings on the neural basis of cognition.  We will cover anatomical, neurophysiological and pharmacological correlates of behavioral functions such as perception, attention, motivation, learning, memory, cognitive control, and communication.  We will evaluate the strengths and weaknesses of various approaches used to student the neural substrates of higher-order cognition.'].
 \##88['spring1' -> 1].
 \##88['fall1' -> 1].
@@ -999,6 +1086,7 @@ Fall or Spring, altenrate years, 3 credits, ABCF grading'].
 \##89['Credits' -> 3].
 \##89['Prerequisites' -> 'NONE'].
 \##89['Antirequisites' -> 'NONE'].
+\##89['Corequisites' -> 'NONE'].
 \##89['Description' -> 'This course introduces students to neural elements responsible for processing information supporting sensation, perception, cognition and movement. Starting with the philosophy of the mind and the history of neuroscience, the course proceeds with an introduction of cells, neural signaling, transmitters and receptors. How these elemental units are integrated to support emergent properties, usch as object recognition, is illustrated. Coversely, examples of complex behavioral impairments resulting from dysfunction in elemental units illustrated. The course proceed to cover neral metabolism, and its relation to disorders of memory and motor dysfunction. Last, stress and its role in neuropsychological disorders is discussed.
 Spring, 3 credits, ABCF grading'].
 \##89['spring1' -> 1].
@@ -1011,6 +1099,7 @@ Spring, 3 credits, ABCF grading'].
 \##90['Credits' -> 3].
 \##90['Prerequisites' -> 'NONE'].
 \##90['Antirequisites' -> 'NONE'].
+\##90['Corequisites' -> 'NONE'].
 \##90['Description' -> 'Cognitive and Behavioral Neuroscience illustrates how cellular circuits support function. Classic experiments demonstrating function fro the use of electrophysiological data, lesions and transmitter manipulations are discussed. Students interested in understanding how individual neurons and neural circuits and integrated regional systems directly support specific behaviors will find this course of interest. A textbook is used for the readings.
 Fall, 3 credits, ABCF grading'].
 \##90['spring1' -> 1].
@@ -1023,6 +1112,7 @@ Fall, 3 credits, ABCF grading'].
 \##91['Credits' -> 3].
 \##91['Prerequisites' -> 'NONE'].
 \##91['Antirequisites' -> 'NONE'].
+\##91['Corequisites' -> 'NONE'].
 \##91['Description' -> 'Classroom discussions of issues in neuropsychological assessment and design of assessment batteries are combined with practical experience in the assessment of clinical populations.  Each student is assigned to a supervisor to learn assessment techniques for research and/or clinical practice.  Fall or Spring, alternate years'].
 \##91['spring1' -> 1].
 \##91['fall1' -> 1].
@@ -1034,6 +1124,7 @@ Fall, 3 credits, ABCF grading'].
 \##92['Credits' -> 3].
 \##92['Prerequisites' -> 'NONE'].
 \##92['Antirequisites' -> 'NONE'].
+\##92['Corequisites' -> 'NONE'].
 \##92['Description' -> 'This course covers the mechanisms of transmitters and related drug action in the nervous system. In addition to exploring transmitter/receptor relationships, the course covers the sequence of events initiated by this action. Through understanding of these processes, the course then links drug action to nervous system outcomes such as movement, cognition, pain and mood.
 Spring, alternate years, 3 credits, ABCF grading'].
 \##92['spring1' -> 1].
@@ -1046,6 +1137,7 @@ Spring, alternate years, 3 credits, ABCF grading'].
 \##93['Credits' -> 3].
 \##93['Prerequisites' -> 'NONE'].
 \##93['Antirequisites' -> 'NONE'].
+\##93['Corequisites' -> 'NONE'].
 \##93['Description' -> 'Just as a function can be derived from the structure of everyday objects, so too can function be derived from the study of brain architecture and neural connectivity.  Accordingly, this course takes a structural approach to the understanding of the nervous system and behavior.  To complement a disciplinary focus on cognition, affect and emotions, this course will emphasize the connectivity of higher order brain regions.  Students will first be introduced to the global organization of the nervous system and a general framework for information processing.  Then sensory and motor pathways will be discussed imn more detail.  The course will end with topics such as the neurocircuitry of addiction, emotion, and memory.
 Offered Spring, 3 Credits, ABCF Grading'].
 \##93['spring1' -> 1].
@@ -1058,6 +1150,7 @@ Offered Spring, 3 Credits, ABCF Grading'].
 \##94['Credits' -> '0.00 - 3.00'].
 \##94['Prerequisites' -> 'NONE'].
 \##94['Antirequisites' -> 'NONE'].
+\##94['Corequisites' -> 'NONE'].
 \##94['Description' -> 'This course includes discussion of current research in Integrative Neuroscience by faculty, students, and visiting scientists. This sequence is required of all students in the Integrative Neuroscience Program.
 
 Fall, 0-3 credits, S/U grading
@@ -1073,6 +1166,7 @@ May be repeated for credit.'].
 \##95['Credits' -> '0.00 - 3.00'].
 \##95['Prerequisites' -> 'NONE'].
 \##95['Antirequisites' -> 'NONE'].
+\##95['Corequisites' -> 'NONE'].
 \##95['Description' -> 'This course includes discussions of current research in Integrative Neuroscience by faculty, students, and visiting scientists. This sequence is required of all students in the Integrative Neuroscience program.
 
 Spring, 0-3 credits, S/U grading
@@ -1088,6 +1182,7 @@ May be repeated for credit.'].
 \##96['Credits' -> '0.00 - 3.00'].
 \##96['Prerequisites' -> 'NONE'].
 \##96['Antirequisites' -> 'NONE'].
+\##96['Corequisites' -> 'NONE'].
 \##96['Description' -> 'This course includes discussions of current research in Cognitive Science by faculty, students, and invited scientists. This sequence is required of all students in the Cognitive Science program.
 
 Fall, 0-3 credits, S/U grading
@@ -1103,6 +1198,7 @@ May be repeated for credit.'].
 \##97['Credits' -> '0.00 - 3.00'].
 \##97['Prerequisites' -> 'NONE'].
 \##97['Antirequisites' -> 'NONE'].
+\##97['Corequisites' -> 'NONE'].
 \##97['Description' -> 'This course includes discussions of current research in Cognitive Science by faculty, students, and invited scientists. This sequence is required of all students in the Cognitive Science program.
 
 Spring, 0-3 credits, S/U grading
@@ -1118,6 +1214,7 @@ May be repeated for credit.'].
 \##98['Credits' -> '0.00 - 3.00'].
 \##98['Prerequisites' -> 'NONE'].
 \##98['Antirequisites' -> 'NONE'].
+\##98['Corequisites' -> 'NONE'].
 \##98['Description' -> 'This course includes discussions of current research in Social and Health Psychology by faculty, students, and visiting scientists. This sequence is required of all students in the Social and Health Psychology Program.
 
 Fall, 0-3 credits, S/U grading
@@ -1133,6 +1230,7 @@ May be repeated for credit.'].
 \##99['Credits' -> '0.00 - 3.00'].
 \##99['Prerequisites' -> 'NONE'].
 \##99['Antirequisites' -> 'NONE'].
+\##99['Corequisites' -> 'NONE'].
 \##99['Description' -> 'This course includes discussions of current research in Social and Health Psychology by faculty, students, and visiting scientists. This sequence is required of all students in the Social and Health Psychology Program.
 
 Spring, 0-3 credits, S/U grading
@@ -1148,6 +1246,7 @@ May be repeated for credit.'].
 \##100['Credits' -> '0.00 - 3.00'].
 \##100['Prerequisites' -> 'NONE'].
 \##100['Antirequisites' -> 'NONE'].
+\##100['Corequisites' -> 'NONE'].
 \##100['Description' -> 'This course includes discussions of current research in Clinical Psychology by faculty, students, and visiting scientists.
 
 Fall, 0-3 credits, S/U grading
@@ -1163,6 +1262,7 @@ May be repeated for credit.'].
 \##101['Credits' -> '0.00 - 3.00'].
 \##101['Prerequisites' -> 'NONE'].
 \##101['Antirequisites' -> 'NONE'].
+\##101['Corequisites' -> 'NONE'].
 \##101['Description' -> 'This course includes discussions of current research in Clinical Psychology by faculty, students, and visiting scientists.
 
 Spring, 0-3 credits, S/U grading
@@ -1178,6 +1278,7 @@ May be repeated for credit.'].
 \##102['Credits' -> 3].
 \##102['Prerequisites' -> 'NONE'].
 \##102['Antirequisites' -> 'NONE'].
+\##102['Corequisites' -> 'NONE'].
 \##102['Description' -> 'This class examines how gender affects and is affected by behavior, thoughts, and emotions.  We investigate gender differences and similarities across the lifespan and consider various perspectives on the study of gender, including psychobiology, social cognitive theory, social role theory, and cross-cultural research.
 Fall or Spring, alternate years,'].
 \##102['spring1' -> 1].
@@ -1190,6 +1291,7 @@ Fall or Spring, alternate years,'].
 \##103['Credits' -> 3].
 \##103['Prerequisites' -> 'NONE'].
 \##103['Antirequisites' -> 'NONE'].
+\##103['Corequisites' -> 'NONE'].
 \##103['Description' -> 'An examination of the biological and psychological development of children and adolescents and its relationship to teaching and curriculum development for diverse learners.  The course will focus on special education programs, childhood and adolescent psychiatric disorders, and societal issues.
 Offered: Fall, Spring, Summer
 3 credits, may be repeated for credit, ABCF grading,'].
@@ -1203,6 +1305,7 @@ Offered: Fall, Spring, Summer
 \##104['Credits' -> 2].
 \##104['Prerequisites' -> 'NONE'].
 \##104['Antirequisites' -> 'NONE'].
+\##104['Corequisites' -> 'NONE'].
 \##104['Description' -> 'Theory and research of abnormal behavior in children, adolescents, and adults. A lifespan development approach is taken, with a focus on the phenomenology, epidemiology, course, etiology, pathogenisis, psychopathology, and pathophysiology of externalizing disorders (e.g., conduct, disorder, personality disorders, substance use disorders) and psychotic disorders.
 Prerequisite: Must be Psychology Graduate Student
 Spring, 2 credits, ABCF grading'].
@@ -1216,6 +1319,7 @@ Spring, 2 credits, ABCF grading'].
 \##105['Credits' -> 2].
 \##105['Prerequisites' -> 'NONE'].
 \##105['Antirequisites' -> 'NONE'].
+\##105['Corequisites' -> 'NONE'].
 \##105['Description' -> 'Self-report and projective measures of personality and psychopathology; targeted assessments and measures; intellectual and cognitive assessment; assessment of children and parents; ethics and cultural diversity.
 Spring, 2 credits, ABCF grading
 Prerequisite: must be clinical doctoral student'].
@@ -1229,6 +1333,7 @@ Prerequisite: must be clinical doctoral student'].
 \##106['Credits' -> 2].
 \##106['Prerequisites' -> 'NONE'].
 \##106['Antirequisites' -> 'NONE'].
+\##106['Corequisites' -> 'NONE'].
 \##106['Description' -> 'Ethics and professional issues. Required of all first-year clinical students.
 Prerequisite: Clinical psychology doctoral student
 Spring, 2 credits, S/U grading'].
@@ -1242,6 +1347,7 @@ Spring, 2 credits, S/U grading'].
 \##107['Credits' -> 2].
 \##107['Prerequisites' -> 'NONE'].
 \##107['Antirequisites' -> 'NONE'].
+\##107['Corequisites' -> 'NONE'].
 \##107['Description' -> 'Exposure of the application of clinical intervention procedures.
 Prerequisite: PSY 537 or PSY 538, Must be Psychology Graduate Student
 Fall, 2 credits, S/U grading'].
@@ -1255,6 +1361,7 @@ Fall, 2 credits, S/U grading'].
 \##108['Credits' -> 2].
 \##108['Prerequisites' -> 'NONE'].
 \##108['Antirequisites' -> 'NONE'].
+\##108['Corequisites' -> 'NONE'].
 \##108['Description' -> 'Exposure to the application of advanced intervention procedures.
 Prerequisite: PSY 604 and Clinical psychology doctoral student
 Fall and Spring, 2 credits, S/U grading'].
@@ -1268,6 +1375,7 @@ Fall and Spring, 2 credits, S/U grading'].
 \##109['Credits' -> 3].
 \##109['Prerequisites' -> 'NONE'].
 \##109['Antirequisites' -> 'NONE'].
+\##109['Corequisites' -> 'NONE'].
 \##109['Description' -> 'Clinical Psychology faculty meet with students as a group with follow-up individual recitation sessions to cover topics such as assessment and treatment conceptualization of specific cases that students are seeing in Psychological Center. In addition, methods of providing documentation of change in individual cases are discussed as well as means of obtaining corroborating evidence to support self-reported information. Students present case material to the group and receive peer and faculty feedback about case conceptualization and treatment.
 Prerequisite: Clinical psychology doctoral student
 Fall,Spring, Summer, 3 credits, S/U grading'].
@@ -1281,6 +1389,7 @@ Fall,Spring, Summer, 3 credits, S/U grading'].
 \##110['Credits' -> 1].
 \##110['Prerequisites' -> 'NONE'].
 \##110['Antirequisites' -> 'NONE'].
+\##110['Corequisites' -> 'NONE'].
 \##110['Description' -> 'Qualified clinical students carry out supervised clinical responsibilities in settings approved by the faculty.
 Prerequisite:Clinical psychology doctoral student
 Fall and Spring, 1 credit, S/U grading, Repeat for Credit.'].
@@ -1294,6 +1403,7 @@ Fall and Spring, 1 credit, S/U grading, Repeat for Credit.'].
 \##111['Credits' -> '0.00 - 3.00'].
 \##111['Prerequisites' -> 'NONE'].
 \##111['Antirequisites' -> 'NONE'].
+\##111['Corequisites' -> 'NONE'].
 \##111['Description' -> 'Topics selected on the basis of the needs of the graduate program and research interests of the staff.
 Prerequisite: Permission of instructor
 Fall, 0-3 credits, ABCF grading, may be repeated for credit'].
@@ -1307,6 +1417,7 @@ Fall, 0-3 credits, ABCF grading, may be repeated for credit'].
 \##112['Credits' -> '0.00 - 3.00'].
 \##112['Prerequisites' -> 'NONE'].
 \##112['Antirequisites' -> 'NONE'].
+\##112['Corequisites' -> 'NONE'].
 \##112['Description' -> 'Topics selected on the basis of the needs of the graduate program and research interests of the staff.
 Prerequisite: Permission of instructor
 Spring, 0-3 credits, ABCF grading, may be repeated for credit'].
@@ -1320,6 +1431,7 @@ Spring, 0-3 credits, ABCF grading, may be repeated for credit'].
 \##113['Credits' -> '0.00 - 3.00'].
 \##113['Prerequisites' -> 'NONE'].
 \##113['Antirequisites' -> 'NONE'].
+\##113['Corequisites' -> 'NONE'].
 \##113['Description' -> 'Theory and pragmatics of good college teaching. Topics include lecturing, use of discussion, types of evaluation of students and teachers, factors affecting undergraduate learning, ethics, student-faculty relations, course administration, and audio-visual devices.
 Prerequisites: Matriculated psychology graduate student; permission of instructor 0-3 credits, ABCF grading'].
 \##113['spring1' -> 1].
@@ -1332,6 +1444,7 @@ Prerequisites: Matriculated psychology graduate student; permission of instructo
 \##114['Credits' -> '1.00 - 6.00'].
 \##114['Prerequisites' -> 'NONE'].
 \##114['Antirequisites' -> 'NONE'].
+\##114['Corequisites' -> 'NONE'].
 \##114['Description' -> 'Students enrolled in the M.A. program in Psychology may gain degree-relevant practical experience under the supervision of the program advisor. This experience may include participation in public and private agencies and organizations and experience in teaching support roles. Students are required to submit written progress reports and a final written report on their experience to the faculty sponsor and department.
 Offered Fall, Spring, and Summer, 1-6 Credits, S/U grading'].
 \##114['spring1' -> 1].
@@ -1344,6 +1457,7 @@ Offered Fall, Spring, and Summer, 1-6 Credits, S/U grading'].
 \##115['Credits' -> '1.00 - 12.00'].
 \##115['Prerequisites' -> 'NONE'].
 \##115['Antirequisites' -> 'NONE'].
+\##115['Corequisites' -> 'NONE'].
 \##115['Description' -> 'Prerequisite: Permission of instructor'].
 \##115['spring1' -> 1].
 \##115['fall1' -> 1].
@@ -1355,6 +1469,7 @@ Offered Fall, Spring, and Summer, 1-6 Credits, S/U grading'].
 \##116['Credits' -> '1.00 - 12.00'].
 \##116['Prerequisites' -> 'NONE'].
 \##116['Antirequisites' -> 'NONE'].
+\##116['Corequisites' -> 'NONE'].
 \##116['Description' -> 'Prerequisite: Permission of instructor'].
 \##116['spring1' -> 1].
 \##116['fall1' -> 1].
@@ -1366,6 +1481,7 @@ Offered Fall, Spring, and Summer, 1-6 Credits, S/U grading'].
 \##117['Credits' -> '1.00 - 9.00'].
 \##117['Prerequisites' -> 'NONE'].
 \##117['Antirequisites' -> 'NONE'].
+\##117['Corequisites' -> 'NONE'].
 \##117['Description' -> 'Dissertation research under direction of advisor.
 Prerequisite: Advancement to candidacy (G5). Major portion of research must take place on SBU campus, at Cold Spring Harbor, or at the Brookhaven National Lab.
 Fall, Spring and Summer'].
@@ -1379,6 +1495,7 @@ Fall, Spring and Summer'].
 \##118['Credits' -> '0.00 - 9.00'].
 \##118['Prerequisites' -> 'NONE'].
 \##118['Antirequisites' -> 'NONE'].
+\##118['Corequisites' -> 'NONE'].
 \##118['Description' -> 'Prerequisite: Must be advanced to candidacy (G5). Major portion of research will take place off-campus, but in the United States and/or U.S. provinces. Please note, Brookhaven National Labs and the Cold Spring Harbor Lab are considered on-campus.
 All international students must enroll in one of the graduate student insurance plans and should be advised by an International Advisor.
 Fall, Spring, Summer'].
@@ -1392,6 +1509,7 @@ Fall, Spring, Summer'].
 \##119['Credits' -> '1.00 - 9.00'].
 \##119['Prerequisites' -> 'NONE'].
 \##119['Antirequisites' -> 'NONE'].
+\##119['Corequisites' -> 'NONE'].
 \##119['Description' -> 'Prerequisite: Must be advanced to candidacy (G5). Major portion of research will take place outside of the United States and/or U.S. provinces.
 Domestic students have the option of the health plan and may also enroll in MEDEX.
 International students who are in their home country are not covered by mandatory health plan and must contact the Insurance Office for the insurance charge to be removed.
@@ -1408,6 +1526,7 @@ Fall, Spring, Summer'].
 \##120['Credits' -> 0].
 \##120['Prerequisites' -> 'NONE'].
 \##120['Antirequisites' -> 'NONE'].
+\##120['Corequisites' -> 'NONE'].
 \##120['Description' -> '0 credits, S/ grading'].
 \##120['spring1' -> 1].
 \##120['fall1' -> 1].
@@ -1419,6 +1538,7 @@ Fall, Spring, Summer'].
 \##121['Credits' -> 0].
 \##121['Prerequisites' -> 'NONE'].
 \##121['Antirequisites' -> 'NONE'].
+\##121['Corequisites' -> 'NONE'].
 \##121['Description' -> ''].
 \##121['spring1' -> 1].
 \##121['fall1' -> 1].

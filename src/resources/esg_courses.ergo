@@ -3,8 +3,9 @@
 \##2['CourseTitle' -> 'Introduction to Engineering Science'].
 \##2['Career' -> 'Undergraduate'].
 \##2['Credits' -> 3].
-\##2['Prerequisites' -> [['MAT125', 'AMS151', 'MAT131', 'MAT141', 'PHY125', 'PHY131', 'PHY141']]].
+\##2['Prerequisites' -> 'NONE'].
 \##2['Antirequisites' -> 'NONE'].
+\##2['Corequisites' -> 'NONE'].
 \##2['Description' -> 'An overview of the development and application of engineering principles in response to social, industrial, and environmental problems. Engineering methods and theory through case studies and real-world applications. Introduction to modern engineering design and problem solving through discussion of design theory and tools with an emphasis on design for manufacturing and reliability, engineering ethics including value sensitive design, and participation in a design project.'].
 \##2['spring1' -> 1].
 \##2['fall1' -> 1].
@@ -14,8 +15,9 @@
 \##3['CourseTitle' -> 'Programming for Engineers'].
 \##3['Career' -> 'Undergraduate'].
 \##3['Credits' -> 3].
-\##3['Prerequisites' -> [['AMS151', 'MAT125'], ['PHY125']]].
+\##3['Prerequisites' -> 'NONE'].
 \##3['Antirequisites' -> 'NONE'].
+\##3['Corequisites' -> 'NONE'].
 \##3['Description' -> 'Introduces computer programming techniques for engineering students who have not completed any programming courses prior. Students learn the basics of programming in general and programming MATLAB in particular. This is designed for students to become comfortable enough to continue learning MATLAB and other programming languages on their own.'].
 \##3['spring1' -> 1].
 \##3['fall1' -> 1].
@@ -25,8 +27,9 @@
 \##4['CourseTitle' -> 'Fundamentals of Engineering Chemistry'].
 \##4['Career' -> 'Undergraduate'].
 \##4['Credits' -> 3].
-\##4['Prerequisites' -> [['PHY132', 'PHY142', 'PHY126', 'PHY127'], ['MAT127', 'MAT132', 'MAT142', 'AMS161']]].
+\##4['Prerequisites' -> 'NONE'].
 \##4['Antirequisites' -> 'NONE'].
+\##4['Corequisites' -> 'NONE'].
 \##4['Description' -> 'ESG 198 is a course designed for engineering majors which will incorporate the major concepts and principles of CHE 130 and CHE 131.  Applications of these principles will be emphasized. The major areas which will be covered are: Matter and energy relationships; structure of matter; chemical bonding; gases, liquids and solids; solutions; acids and bases; oxidation-reduction; electrochemistry; thermodynamics; kinetics and equilibrium. May not be taken for credit in addition to CHE 131, or 152.'].
 \##4['spring1' -> 1].
 \##4['fall1' -> 1].
@@ -38,6 +41,7 @@
 \##5['Credits' -> '0.00 - 3.00'].
 \##5['Prerequisites' -> 'NONE'].
 \##5['Antirequisites' -> 'NONE'].
+\##5['Corequisites' -> 'NONE'].
 \##5['Description' -> 'An introduction to independent research and basic research skills. Students perform an independent research project in engineering science under the supervision of a faculty member. May be repeated.'].
 \##5['spring1' -> 1].
 \##5['fall1' -> 1].
@@ -49,6 +53,7 @@
 \##6['Credits' -> 3].
 \##6['Prerequisites' -> 'NONE'].
 \##6['Antirequisites' -> 'NONE'].
+\##6['Corequisites' -> 'NONE'].
 \##6['Description' -> 'The role of the engineer is to respond to a need by building or creating something along a certain set of guidelines (or specifications) which performs a given function.  Just as importantly, that device, plan or creation should perform its function without fail. Everything, however, does eventually fail and, in some cases, fails with catastrophic results.  Through discussion and analysis of engineering disasters from nuclear meltdowns to stock market crashes to climate-driven catastrophes, this course will focus on how modern engineers learn from their mistakes in order to create designs that decrease the chance and severity of failure. The impact of engineers' values and ethics, as well as the crucial role of diversity and inclusiveness on successful engineering design, will be discussed in detail.'].
 \##6['spring1' -> 1].
 \##6['fall1' -> 1].
@@ -60,6 +65,7 @@
 \##7['Credits' -> 3].
 \##7['Prerequisites' -> [['PHY132']]].
 \##7['Antirequisites' -> 'NONE'].
+\##7['Corequisites' -> 'NONE'].
 \##7['Description' -> 'A discussion of relativity followed by review of the atom and its constituents. Lectures treat the quantization of light and of atomic energy levels, matter waves, and introduce the Schrodinger equation, first in one dimension, then in three dimensions. Electron spin and magnetic effects are discussed, followed by multielectron atoms and the periodic table. Radiation and lasers, molecules and solids, including conductors, semiconductors, and insulators.'].
 \##7['spring1' -> 1].
 \##7['fall1' -> 1].
@@ -69,8 +75,9 @@
 \##8['CourseTitle' -> 'Writing in Engineering Science'].
 \##8['Career' -> 'Undergraduate'].
 \##8['Credits' -> 0].
-\##8['Prerequisites' -> [['WRT102'], ['ESG312']]].
+\##8['Prerequisites' -> [['WRT102']]].
 \##8['Antirequisites' -> 'NONE'].
+\##8['Corequisites' -> [['ESG312']]].
 \##8['Description' -> 'See Requirements for the Major in Engineering Science, Upper-Division Writing Requirement.'].
 \##8['spring1' -> 1].
 \##8['fall1' -> 1].
@@ -80,8 +87,9 @@
 \##9['CourseTitle' -> 'Thermodynamics of Materials'].
 \##9['Career' -> 'Undergraduate'].
 \##9['Credits' -> 3].
-\##9['Prerequisites' -> [['ESG198', 'CHE131', 'CHE152', 'AMS261', 'AMS361', 'CHE132', 'CHE154']]].
+\##9['Prerequisites' -> [['ESG198', 'CHE131', 'CHE152'], ['AMS261']]].
 \##9['Antirequisites' -> 'NONE'].
+\##9['Corequisites' -> [['AMS361'], ['CHE132', 'CHE154']]].
 \##9['Description' -> 'The basic laws and concepts of thermodynamics are elucidated, and the important thermodynamic relationships are systematically developed with reference to the behavior of materials. The thermodynamics of solids is discussed, including the thermodynamics of solutions and the calculation of reaction-free energies and equilibria in condensed phase reactions such as phase transformations, oxidation, and diffusion.'].
 \##9['spring1' -> 1].
 \##9['fall1' -> 1].
@@ -91,8 +99,9 @@
 \##10['CourseTitle' -> 'Engineering Laboratory'].
 \##10['Career' -> 'Undergraduate'].
 \##10['Credits' -> 4].
-\##10['Prerequisites' -> [['PHY126', 'PHY132'], ['ESG300']]].
+\##10['Prerequisites' -> [['PHY126'], ['PHY132']]].
 \##10['Antirequisites' -> 'NONE'].
+\##10['Corequisites' -> [['ESG300']]].
 \##10['Description' -> 'Laboratory exercises and lectures covering the theory, practice, and design of engineering experimentation. The course has three components: error analysis and data message; electrical circuits and experiment control; and mechanical and optical measurement. Laboratory fee required.'].
 \##10['spring1' -> 1].
 \##10['fall1' -> 1].
@@ -104,6 +113,7 @@
 \##11['Credits' -> 4].
 \##11['Prerequisites' -> [['ESG100'], ['AMS161', 'MAT127', 'MAT132', 'MAT142', 'MAT171']]].
 \##11['Antirequisites' -> 'NONE'].
+\##11['Corequisites' -> 'NONE'].
 \##11['Description' -> 'Design and design-planning methods are developed from the conceptual stages through the application stages using lecture and laboratory. Includes synthesis, optimization, modeling, and simulation and systems engineering. Case studies illustrate the design process. Students undertake a number of laboratory projects employing various design tools. Laboratory fee required.'].
 \##11['spring1' -> 1].
 \##11['fall1' -> 1].
@@ -113,8 +123,9 @@
 \##12['CourseTitle' -> 'Materials Science I: Structure and Properties of Materials'].
 \##12['Career' -> 'Undergraduate'].
 \##12['Credits' -> 3].
-\##12['Prerequisites' -> [['CHE131', 'CHE133', 'MEC301']]].
+\##12['Prerequisites' -> [['CHE131'], ['CHE133', 'MEC301']]].
 \##12['Antirequisites' -> 'NONE'].
+\##12['Corequisites' -> 'NONE'].
 \##12['Description' -> 'A study of the relationship between the structure and properties of engineering materials and the principles by which materials' properties are controlled. The structure and structural imperfections in simple crystalline materials and the role that these factors play in defining electrical conductivity, chemical reactivity, strength, and ductility are considered. The molecular structure of polymers is discussed and related to the behavior of plastics, rubbers, and synthetic fibers. The principles of phase equilibria and phase transformation in multicomponent systems are developed. These principles are applied to the control of the properties of semiconductors, commercial plastics, and engineering alloys by thermochemical treatment. Corrosion, oxidation, and other deterioration processes are interpreted through the interaction of materials with their environment.'].
 \##12['spring1' -> 1].
 \##12['fall1' -> 1].
@@ -126,6 +137,7 @@
 \##13['Credits' -> 3].
 \##13['Prerequisites' -> [['ESG281', 'PHY251'], ['ESG302', 'CME304']]].
 \##13['Antirequisites' -> 'NONE'].
+\##13['Corequisites' -> 'NONE'].
 \##13['Description' -> 'After a review of quantum mechanics and atomic physics, the binding energy and electronic energy levels in molecules and solids are discussed. The free-electron theory of metals is introduced and applied to the quantitative treatment of a number of electron emission effects. The band theory of solids is developed quantitatively via the Kronig-Penney model, and the transport properties of metals and semiconductors are discussed in detail. The physical principle of pn junctions, transistors, tunnel diodes, etc. is explained. Fundamentals and applications of photoconductors, lasers, magnetic materials, and superconductors are also discussed. (ESG 332 is not a prerequisite.)'].
 \##13['spring1' -> 1].
 \##13['fall1' -> 1].
@@ -137,6 +149,7 @@
 \##14['Credits' -> 1].
 \##14['Prerequisites' -> 'NONE'].
 \##14['Antirequisites' -> 'NONE'].
+\##14['Corequisites' -> 'NONE'].
 \##14['Description' -> 'The course provides an overview of professional licensure and focuses on the general fundamentals of the engineering exam.  Students take a practice exam for both the general exam and in-depth general exam option and review the results.'].
 \##14['spring1' -> 1].
 \##14['fall1' -> 1].
@@ -148,6 +161,7 @@
 \##15['Credits' -> 3].
 \##15['Prerequisites' -> [['PHY127', 'PHY132', 'PHY142'], ['AMS361', 'MAT303', 'MAT305']]].
 \##15['Antirequisites' -> 'NONE'].
+\##15['Corequisites' -> 'NONE'].
 \##15['Description' -> 'This course introduces the description of phenomena associated with fluid statics and fluid flow and the unifying principles and analytical description of phenomena of momentum transport (viscous flow), energy transport (heat conduction and convection) and mass transport (diffusion) in continuous media; similarities and differences in these phenomena. Not for credit in addition to MEC 364.'].
 \##15['spring1' -> 1].
 \##15['fall1' -> 1].
@@ -159,6 +173,7 @@
 \##16['Credits' -> 3].
 \##16['Prerequisites' -> [['ESG312'], ['ESG316'], ['ESG332']]].
 \##16['Antirequisites' -> 'NONE'].
+\##16['Corequisites' -> 'NONE'].
 \##16['Description' -> 'Lectures by faculty members and visitors on typical design problems encountered in engineering practice. During this semester each student chooses a senior design project. A preliminary design report is required. Not counted as a technical elective. Laboratory fee required.'].
 \##16['spring1' -> 1].
 \##16['fall1' -> 1].
@@ -170,6 +185,7 @@
 \##17['Credits' -> 3].
 \##17['Prerequisites' -> [['ESG440']]].
 \##17['Antirequisites' -> 'NONE'].
+\##17['Corequisites' -> 'NONE'].
 \##17['Description' -> 'Student groups carry out the detailed design of the senior projects chosen during the first semester. A final and detailed design report is prepared. Not counted as a technical elective. Laboratory fee required.'].
 \##17['spring1' -> 1].
 \##17['fall1' -> 1].
@@ -181,6 +197,7 @@
 \##18['Credits' -> '0.00 - 3.00'].
 \##18['Prerequisites' -> 'NONE'].
 \##18['Antirequisites' -> 'NONE'].
+\##18['Corequisites' -> 'NONE'].
 \##18['Description' -> 'An independent research course in which students apply principles of engineering design, technological problem solving, mathematical analysis,  computer-assisted engineering, and effective teamwork and communication to develop solutions for a need in a governmental, educational, non-profit, or community organization in a multidisciplinary setting.'].
 \##18['spring1' -> 1].
 \##18['fall1' -> 1].

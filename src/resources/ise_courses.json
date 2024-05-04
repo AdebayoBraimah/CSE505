@@ -9,6 +9,7 @@
             ]
         ],
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"An introduction to the design of Web pages, specifically the development of browser and device independent HTML, with an emphasis on the XHTML standards. Includes the use of style sheets (CSS) and tools for page layout and verification.  HTML is presented as a mark-up language, exploring the rules of HTML elements and attributes. Students learn the separation of page viewing information from the HTML through CSS style sheets as well as the use of block layout without using HTML tables. Addresses HTML display properties including text, color, image, and graphic elements as well as approaches to HTML validation and techniques.",
         "spring1":1,
         "fall1":1,
@@ -21,6 +22,7 @@
         "Credits":3.0,
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Introduces computer programming at a level suitable for those with no prior programming experiences, including liberal arts and humanities majors.  Programming exercises involve state-of-the-art visual applications.  Topics include problem-solving techniques, object-oriented design, and programming concepts such as conditionals, iteration, arrays, and modularity.",
         "spring1":1,
         "fall1":1,
@@ -37,6 +39,7 @@
             ]
         ],
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Teaches programming and system design techniques with an emphasis on applications to business.  Topics include object-oriented design techniques, testing and debugging, data structures, recursion, and exception-handling.  Uses the Java programming language.",
         "spring1":1,
         "fall1":1,
@@ -53,6 +56,7 @@
             ]
         ],
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"This course introduces the fundamentals of Information Technology (IT) to students interested in the relationship between computer hardware, software, networks, and information systems. The course examines components found in high use computing devices such as desktop computers, smart phones, and navigation systems. The focus of the examination is understanding the underlying technology of each component, along with price\/performance curves and competing technologies. Upon completion of the course, students should be proficient in reading device specifications, particularly functional and performance implications. Students should also be able to use that knowledge to compare competing devices.",
         "spring1":1,
         "fall1":1,
@@ -69,6 +73,7 @@
             ]
         ],
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Principles of professional technical communications for Computer Science and Information Systems majors. Topics include writing business communications, user manuals, press releases, literature reviews, and research abstracts. Persuasive oral communications and effective presentation techniques, to address a range of audiences, will also be covered. This course satisfies the upper-division writing requirement for CSE and ISE majors.",
         "spring1":1,
         "fall1":1,
@@ -81,6 +86,7 @@
         "Credits":3.0,
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"A study of the history of computational devices from the early ages through the end of the 20th century. Topics include needs for computation in ancient times, development of computational models and devices through the 1800's and early 1900's, World War II and the development of the first modern computer, and early uses in business. Creation of programming languages and the microchip. Societal changes in computer usage due to the microcomputer, emergence of the Internet, the World Wide Web, and mobile computing. Legal and social impacts of modern computing. Cannot be used as a technical elective for the CSE major or minor.  This course is offered as both CSE 301 and ISE 301.",
         "spring1":1,
         "fall1":1,
@@ -99,6 +105,7 @@
             ]
         ],
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"The design of database applications including Entity-Relationship data modeling, the relational data model, the SQL database query language, application development, and database administration.  Students will complete a project that includes designing a database application and implementing it using database development tools.",
         "spring1":1,
         "fall1":1,
@@ -118,6 +125,7 @@
             ]
         ],
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"This course covers practical techniques to manage information systems, also known as IT Systems Administration.  Students will learn how to install computers for assorted hardware and software platforms (Windows, Unix\/Linux, OS-X).  Install networking equipment and configure it.  Install server software on several systems (e.g. web, database, mail) and configure it.  Secure the network, hosts, and services, and apply system patches.  Set up redundant computing services, virtual machines\/services, and hardware so that services can survive some hardware\/software failures.  Evaluate the performance, reliability, and security of the overall system. This course is offered as both CSE 311 and ISE 311.",
         "spring1":1,
         "fall1":1,
@@ -130,6 +138,7 @@
         "Credits":3.0,
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"This course deals with the impact of computers on us as individuals and on our society.  Rapid changes in computing technology and in our use of that technology have changed the ways we work, play, and interact with other people.  These changes have created a flood of new social, legal and ethical issues that demand critical examination. This course is offered as both CSE 312 and ISE 312.",
         "spring1":1,
         "fall1":1,
@@ -144,14 +153,17 @@
             [
                 "CSE114",
                 "ISE208"
+            ],
+            [
+                "MAT123"
             ]
         ],
         "Antirequisites":[
             [
-                "MAT123",
                 "CSE310"
             ]
         ],
+        "Corequisites":"NONE",
         "Description":"This course introduces the principles of computer networks, including network architectures, algorithms, and performance, with the TCP\/IP based Internet as an example. It examines various networking protocols at different layers of the Internet protocol stack, including those at the application, transport, network, and the data link layers, respectively.",
         "spring1":1,
         "fall1":1,
@@ -169,6 +181,7 @@
             ]
         ],
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Today's computer networks have become an infrastructure as essential as utility networks such as the transportation network and the national grid of electricity. A wide variety of networking technologies are deployed to support nearly every sector of the society. Among these technologies, those that are related to wireless and mobile networking, multimedia networking, as well as network security are among the most popular and important.\nAfter learning fundamental concepts and protocols in computer networks from the first networks course, this second computer networks course examines more practical and advanced topics in computer networking. In addition to those mentioned above, we will also study advanced routing algorithms in computer networks and network management. Both are critical tasks for corporations such as network service providers and for individual professionals such as network administrators.",
         "spring1":1,
         "fall1":1,
@@ -181,6 +194,7 @@
         "Credits":3.0,
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"The course presents the relationship between information technology and the systems that use the technology.   The emphasis is on business systems with a high information technology components (e.g. software developments, communications, financial management, etc.).  Topics include infrastructure management, information management, security, and communications.  Emphasis is given to case studies relating to information management.",
         "spring1":1,
         "fall1":1,
@@ -198,6 +212,7 @@
             ]
         ],
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"The course introduces students to the fundamentals of network management, primarily for TCP\/IP networks. Students are introduced to networking protocols, hardware, architecture, media, and software and experience hands-on management of typical network components. Various network protocols are examined, including Internet routing protocols. Network security is introduced in the overall context of network management.",
         "spring1":1,
         "fall1":1,
@@ -217,6 +232,7 @@
             ]
         ],
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"A survey course designed to introduce students to Human-Computer Interaction and prepare them for further study in the specialized topics of their choice.  Students will have the opportunity to delve deeper in the course through a course project, and through a two-three week special topic selected at the instructor's discretion. Course is cross-listed as CSE 323, EST 323 and ISE 323.",
         "spring1":1,
         "fall1":1,
@@ -235,6 +251,7 @@
             ]
         ],
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"This multidisciplinary class surveys how computer science and computer technology are used in sculpture. Case studies with slides, videos, and software demonstrations illustrate a range of approaches of sculptors incorporating computers in their creative process. Various state-of-the art fabrication technologies are studied (with site visits if available on campus). Mathematical foundations are emphasized so students can recognize them when analyzing sculpture and choose the right tool when designing. In the weekly laboratory, these ideas are reinforced with projects using a range of available software and inexpensive construction materials, e.g., paper, cardboard, and foamcore.",
         "spring1":1,
         "fall1":1,
@@ -248,12 +265,16 @@
         "Prerequisites":[
             [
                 "ISE218",
-                "CSE220",
+                "CSE220"
+            ]
+        ],
+        "Antirequisites":"NONE",
+        "Corequisites":[
+            [
                 "ISE316",
                 "CSE310"
             ]
         ],
-        "Antirequisites":"NONE",
         "Description":"The course will introduce the concepts and terminology of computer security in addition to describing attacks against computer infrastructure and typical defenses against such attacks. The course will outline security policies and procedures used by enterprises and will introduce tools and techniques used by both attackers and defenders.",
         "spring1":1,
         "fall1":1,
@@ -279,6 +300,7 @@
             ]
         ],
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"This course is an introduction to both the foundations and applications of visualization and visual analytics, for the purpose of understanding complex data in science, medicine, business, finance, and many others. It will begin with the basics - visual perception, cognition, human-computer interaction, the sense-making process, data mining, computer graphics, and information visualization. It will then move to discuss how these elementary techniques are coupled into an effective visual analytics pipeline that allows humans to interactively think with data and gain insight. Students will get hands-on experience via several programming projects, using popular public-domain statistics and visualization libraries and APIs. This course is offered as both CSE 332 and  ISE 332.",
         "spring1":1,
         "fall1":1,
@@ -296,6 +318,7 @@
             ]
         ],
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Survey of user interface systems, with emphasis on responsive and adaptive strategies to accommodate cross-platform deployment across multiple devices such as desktops and mobile devices. Demonstration of the use of tool kits for designing user interfaces. Additional topics include human factors, design standards, and visual languages. Students participate in a project involving the design and implementation of  user interface systems. This course is offered as both CSE 333 and ISE 333.",
         "spring1":1,
         "fall1":1,
@@ -308,6 +331,7 @@
         "Credits":3.0,
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Survey of technologies available for user interfaces. Discussion of hypertext; voice, music, and video together with tools and models for capturing, editing, presenting, and combining them. Capabilities and characteristics of a range of peripheral devices including devices based on posture, gesture, head movement, and touch. Case studies of academic and commercial multimedia systems including virtual reality systems. Students participate in laboratory exercises and build a multimedia project. This course is offered as both CSE 334 and  ISE 334.",
         "spring1":1,
         "fall1":1,
@@ -325,6 +349,7 @@
             ]
         ],
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Scripting languages are widely used in the IT industry. Programming with scripting languages, also known as scripting, has several advantages compared to programming with other types of languages in that scripts facilitate rapid program development; can automate high-level jobs or tasks very effectively; and can be used to compose various software components, even binaries, into more complex and powerful applications. This course introduces the principles of scripting, covers one or two selected scripting languages in depth, and illustrates the advanced use of scripting by extensive case studies in application areas such as system administration, web application development, graphical user interface development, and text processing.",
         "spring1":1,
         "fall1":1,
@@ -337,6 +362,7 @@
         "Credits":3.0,
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"This course explores the recent phenomenon of software applications that leverage social networks and mobile and cloud computing to solve local and global problems. The course uses case studies to document the process of developing civically-oriented applications. Students work in teams to identify campus causes (or off-campus non-profit organizations); and to design and develop applications (mobile or web-based) that will help those organizations achieve their goals. The course material synthesizes some of the department's offerings in software engineering, human computer interaction, and ethics, but provides a practical focus and test bed for those concepts. Emphasis is on System Design, not on specific programming languages or development environments. This course is offered as ISE 339 and EST 339.",
         "spring1":1,
         "fall1":1,
@@ -349,6 +375,7 @@
         "Credits":3.0,
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Fundamental ideas underlying the design of games, which occurs before the programming stage. How games function to create experiences, including rule design, play mechanics, game balancing, social game interaction and the integration of visual, audio, tactile and textual elements into the total game experience. Game design documentation and play testing. Students will design their own game during the semester. This course is offered as both EST 310 and ISE 340.",
         "spring1":1,
         "fall1":1,
@@ -365,6 +392,7 @@
             ]
         ],
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Digital media production techniques for high-bandwidth applications such as electronic magazine illustration, broadcast television, and motion picture special effects. Students explore techniques such as 3D modeling and character animation, video compositing, and high-resolution image processing in a state-of-the art multimedia computing laboratory. High-capacity mutlimedia storage, high-speed networks, and new technologies such as DVD, HDTV, and broadband will be reviewed. This course is offered as both CSE 364 and  ISE 364.",
         "spring1":1,
         "fall1":1,
@@ -390,6 +418,7 @@
             ]
         ],
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Recent advances in the availability of large data sets, analytic methods, and technology tools have impacted the foundations of democratic society, specifically the ability of elections to provide representation for the underlying population. This course presents the information aspects of these advances. Topics covered include election data capture, election result data sets, gerrymandering, redistricting, micro-targeting, voter surveys, election security, election district geometry, impact of social media, measures of political quality, and the prediction of election results. This course is offered as both ISE 369 and POL 369.",
         "spring1":1,
         "fall1":1,
@@ -411,6 +440,7 @@
             ]
         ],
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"An introduction to the mathematical, physical, and computational principles underlying modern medical imaging systems. Covers fundamentals of X-ray computer tomography, ultrasonic imaging, nuclear imaging, and magnetic resonance imaging (MRI), as well as more general concepts required for these, such as linear systems theory and the Fourier transform. Popular techniques for the visualization, segmentation, and analysis of medical image data are discussed, as well as applications of medical imaging, such as image-guided intervention. The course is appropriate for computer science, biomedical engineering, and electrical engineering majors.",
         "spring1":1,
         "fall1":1,
@@ -433,6 +463,7 @@
             ]
         ],
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Introduces basic concepts in robotics including coordinate transformation, kinematics, dynamics, Laplace transforms, equations of motion, feedback and feedforward control, and trajectory planning. Covers simple and complex sensors (such as cameras), hybrid and behavior based control and path planning. Concepts are illustrated through laboratories using the LEGO Robot Kit.",
         "spring1":1,
         "fall1":1,
@@ -449,6 +480,7 @@
             ]
         ],
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Lecture or seminar course on a current topic in information systems. Semester supplements to this Bulletin contain specific description when course is offered. May be repeated as the topic changes, but cannot be used more than twice to satisfy ISE major requirements.",
         "spring1":1,
         "fall1":1,
@@ -465,6 +497,7 @@
             ]
         ],
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Lecture or seminar course on a current topic in information systems. Semester supplements to this Bulletin contain specific description when course is offered. May be repeated as the topic changes, but cannot be used more than twice to satisfy ISE major requirements.",
         "spring1":1,
         "fall1":1,
@@ -477,6 +510,7 @@
         "Credits":3.0,
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Lecture or seminar course on a current topic in information systems. Semester supplements to this Bulletin contain specific description when course is offered. May be repeated as the topic changes, but cannot be used more than twice to satisfy ISE major requirements.",
         "spring1":1,
         "fall1":1,
@@ -493,6 +527,7 @@
             ]
         ],
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Lecture or seminar course on a current topic in information systems. Semester supplements to this Bulletin contain specific description when course is offered. May be repeated as the topic changes, but cannot be used more than twice to satisfy ISE major requirements.",
         "spring1":1,
         "fall1":1,
@@ -505,6 +540,7 @@
         "Credits":3.0,
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Students assist faculty by conducting a recitation or laboratory section that supplements a lecture course The student receives regularly scheduled supervision from the faculty advisor. May be repeated once, but only one completion of the course will count towards the ISE upper division elective requirement.",
         "spring1":1,
         "fall1":1,
@@ -517,6 +553,7 @@
         "Credits":"0.00 - 6.00",
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"An independent research project with faculty supervision. Only three credits of research electives (AMS 487, BME 499, CSE 487, ESE 499, ESM 499, EST 499, ISE 487, MEC 499) may be counted toward technical elective requirements. May not be taken for more than six credits.",
         "spring1":1,
         "fall1":1,
@@ -529,6 +566,7 @@
         "Credits":3.0,
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Participation in local, state, national, or international private enterprise, public agencies, or nonprofit institutions. To obtain permission to register for the course, students are required to submit proof that the work is related to their studies and the work will include at a minimum of 180 hours during the semester. During the semester, the student will submit progress reports and a final report on their experience to the client and to the department. May be repeated up to a limit of 12 credits but can only be used once as a technical elective to satisfy ISE major requirements.",
         "spring1":1,
         "fall1":1,
@@ -541,6 +579,7 @@
         "Credits":3.0,
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"This course provides an understanding of the issues in managing database systems as an essential organizational resource.  Students learn the enterprise data architecture components, data storage configurations, and information retrieval methods.  It expands from the relational model to the multidimensional model, object-relational techniques, and web accessed data.  The course includes concepts, principles, issues, and techniques for managing corporate data resources.  Techniques for managing the design and development of large database systems including logical data models, concurrent processing, data distribution, database administration, data warehousing, data cleansing, and data mining.  Students will use current methods and tools for database design and development.  Limited to CSE\/ISE graduate students; others, permission of instructor.",
         "spring1":1,
         "fall1":1,
@@ -553,6 +592,7 @@
         "Credits":3.0,
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"Explores the physical structure of a computer; machine representation of information; architecture and organization of various mainframe, mini-, and microcomputers; primary and secondary storage; and input and output communication.  Architectural choices are compared and used to determine resulting function and performance.  Architectural trade-offs are also identified.",
         "spring1":1,
         "fall1":1,
@@ -565,6 +605,7 @@
         "Credits":3.0,
         "Prerequisites":"NONE",
         "Antirequisites":"NONE",
+        "Corequisites":"NONE",
         "Description":"The course focuses on both the technical aspects of project management as well as the human aspects. Technical components include project definition, work breakdown structure development, and the use of optimization techniques for planning a project and optimizing schedules. Graphical approaches to project definition are addressed, as are needs analysis, preliminary design, and detailed design and implementation. Human aspects of project management include forming a project team, managing performance, and resolving conflicts.\nPrerequisite: ISE graduate students or permission of instructor",
         "spring1":1,
         "fall1":1,

@@ -5,6 +5,7 @@
 \##2['Credits' -> 3].
 \##2['Prerequisites' -> [['MAP103']]].
 \##2['Antirequisites' -> 'NONE'].
+\##2['Corequisites' -> 'NONE'].
 \##2['Description' -> 'Development of quantitative thinking and problem solving abilities through a selection of mathematical topics: logic and reasoning; numbers, functions, and modeling; combinatorics and probability; growth and change. Other topics may include geometry, statistics, game theory, and graph theory. Through their engagement in problem solving, students develop an appreciation of the intellectual scope of mathematics and its connections with other disciplines.'].
 \##2['spring1' -> 1].
 \##2['fall1' -> 1].
@@ -14,8 +15,9 @@
 \##3['CourseTitle' -> 'Foundations for Precalculus'].
 \##3['Career' -> 'Undergraduate'].
 \##3['Credits' -> 1].
-\##3['Prerequisites' -> [['MAT123', 'MAT123']]].
+\##3['Prerequisites' -> [['MAT123']]].
 \##3['Antirequisites' -> 'NONE'].
+\##3['Corequisites' -> [['MAT123']]].
 \##3['Description' -> 'This course is a companion to MAT 123: Precalculus, providing a structured environment where students can refresh the algebra skills which are necessary for success in precalculus. These topics include understanding of exponents (especially fractional and negative exponents), manipulating mathemematical expressions, solving equations, and modeling/word problems. Course may not be taken with CHE 129.'].
 \##3['spring1' -> 1].
 \##3['fall1' -> 1].
@@ -27,6 +29,7 @@
 \##4['Credits' -> 3].
 \##4['Prerequisites' -> [['MAP103']]].
 \##4['Antirequisites' -> 'NONE'].
+\##4['Corequisites' -> 'NONE'].
 \##4['Description' -> 'The basics of calculus in a self-contained, one-semester course. Properties and applications of polynomial, exponential, and logarithmic functions. Derivatives:  slopes, rates of change, optimization, integrals, area, cumulative change, and average. The fundamental theorem of calculus. Emphasis on modeling examples from economics. Students who subsequently wish to enroll in MAT 125 or 131 will be required to score level 4 on the mathematics placement examination before taking either course. This course has been designated as a High Demand/Controlled Access (HD/CA) course. Students registering for HD/CA courses for the first time will have priority to do so.'].
 \##4['spring1' -> 1].
 \##4['fall1' -> 1].
@@ -36,8 +39,9 @@
 \##5['CourseTitle' -> 'Precalculus'].
 \##5['Career' -> 'Undergraduate'].
 \##5['Credits' -> 3].
-\##5['Prerequisites' -> [['MAP103', 'MAT119']]].
+\##5['Prerequisites' -> [['MAP103']]].
 \##5['Antirequisites' -> 'NONE'].
+\##5['Corequisites' -> 'NONE'].
 \##5['Description' -> 'Comprehensive preparation for the regular calculus sequences. Careful development of rational, exponential, logarithmic, and trigonometric functions, and their applications. Asymptotics and curve sketching. General modeling examples. This course has been designated as a High Demand/Controlled Access (HD/CA) course. Students registering for HD/CA courses for the first time will have priority to do so.'].
 \##5['spring1' -> 1].
 \##5['fall1' -> 1].
@@ -47,8 +51,9 @@
 \##6['CourseTitle' -> 'Calculus A'].
 \##6['Career' -> 'Undergraduate'].
 \##6['Credits' -> 3].
-\##6['Prerequisites' -> [['MAT123'], ['MAT130']]].
+\##6['Prerequisites' -> [['MAT123']]].
 \##6['Antirequisites' -> 'NONE'].
+\##6['Corequisites' -> 'NONE'].
 \##6['Description' -> 'Differential calculus, emphasizing conceptual understanding, computations and applications, for students who have the necessary background from 12th-year high school mathematics. Limits and continuous functions. Differentiation of elementary algebraic, trigonometric, exponential and logarithmic functions; graphing; modeling; and maximization. L'Hospital's rule.  May not be taken for credit in addition to MAT 131 or 141 or AMS 151. This course has been designated as a High Demand/Controlled Access (HD/CA) course. Students registering for HD/CA courses for the first time will have priority to do so.'].
 \##6['spring1' -> 1].
 \##6['fall1' -> 1].
@@ -60,6 +65,7 @@
 \##7['Credits' -> 3].
 \##7['Prerequisites' -> [['MAT125', 'AMS151']]].
 \##7['Antirequisites' -> 'NONE'].
+\##7['Corequisites' -> 'NONE'].
 \##7['Description' -> 'A continuation of MAT 125, covering integral calculus: Riemann sums, the fundamental theorem, symbolic and numeric methods of integration, area under a curve, volume, applications such as work and probability, improper integrals. This course has been designated as a High Demand/Controlled Access (HD/CA) course. Students registering for HD/CA courses for the first time will have priority to do so.'].
 \##7['spring1' -> 1].
 \##7['fall1' -> 1].
@@ -71,6 +77,7 @@
 \##8['Credits' -> 3].
 \##8['Prerequisites' -> [['MAT126']]].
 \##8['Antirequisites' -> 'NONE'].
+\##8['Corequisites' -> 'NONE'].
 \##8['Description' -> 'A continuation of MAT 126, covering: sequences, series, Taylor series, differential equations and modeling.  May not be taken for credit in addition to MAT 132, MAT 142, MAT 171, or AMS 161. This course has been designated as a High Demand/Controlled Access (HD/CA) course. Students registering for HD/CA courses for the first time will have priority to do so.'].
 \##8['spring1' -> 1].
 \##8['fall1' -> 1].
@@ -82,6 +89,7 @@
 \##9['Credits' -> 1].
 \##9['Prerequisites' -> [['MAT122', 'MAT125']]].
 \##9['Antirequisites' -> 'NONE'].
+\##9['Corequisites' -> 'NONE'].
 \##9['Description' -> 'Inverse functions, exponential and logarithmic functions, radian measure of angles and trigonometric functions. Taught as a companion to MAT 125.'].
 \##9['spring1' -> 1].
 \##9['fall1' -> 1].
@@ -93,6 +101,7 @@
 \##10['Credits' -> 4].
 \##10['Prerequisites' -> [['MAT123']]].
 \##10['Antirequisites' -> 'NONE'].
+\##10['Corequisites' -> 'NONE'].
 \##10['Description' -> 'The differential calculus and integral calculus, emphasizing conceptual understanding, computations and applications, for students who have the necessary background from 12th-year high school mathematics.  Differentiation of elementary algebraic; trigonometric, exponential, and logarithmic functions; graphing; modelling and maximization; L'Hospital's rule; the Riemann integral; and the Fundamental Theorem of Calculus. May not be taken for credit in addition to MAT 125 or 141 or AMS 151. This course has been designated as a High Demand/Controlled Access (HD/CA) course. Students registering for HD/CA courses for the first time will have priority to do so.'].
 \##10['spring1' -> 1].
 \##10['fall1' -> 1].
@@ -104,6 +113,7 @@
 \##11['Credits' -> 4].
 \##11['Prerequisites' -> [['AMS151', 'MAT131']]].
 \##11['Antirequisites' -> 'NONE'].
+\##11['Corequisites' -> 'NONE'].
 \##11['Description' -> 'A continuation of MAT 131, covering symbolic and numeric methods of integration; area under a curve; volume; applications such as work and probability; sequences; series; Taylor series; differential equations; and modelling. May not be taken for credit in addition to MAT 127, MAT 142, MAT 171, or AMS 161. This course has been designated as a High Demand/Controlled Access (HD/CA) course. Students registering for HD/CA courses for the first time will have priority to do so.'].
 \##11['spring1' -> 1].
 \##11['fall1' -> 1].
@@ -115,6 +125,7 @@
 \##12['Credits' -> 3].
 \##12['Prerequisites' -> 'NONE'].
 \##12['Antirequisites' -> 'NONE'].
+\##12['Corequisites' -> 'NONE'].
 \##12['Description' -> 'A basic course in the logic of mathematics, the construction of proofs and the writing of proofs. The mathematical content is primarily logic and proofs, set theory,  combinatorics, functions and relations. There is considerable focus on writing. May not be taken for credit in addition to MAT 250.'].
 \##12['spring1' -> 1].
 \##12['fall1' -> 1].
@@ -126,6 +137,7 @@
 \##13['Credits' -> 4].
 \##13['Prerequisites' -> [['MAT127', 'AMS161']]].
 \##13['Antirequisites' -> 'NONE'].
+\##13['Corequisites' -> 'NONE'].
 \##13['Description' -> 'Vector algebra in two and three dimensions, multivariate differential and integral calculus, optimization, vector calculus including the theorems of Green, Gauss, and Stokes. Applications to economics, engineering, and all sciences, with emphasis on numerical and graphical solutions; use of graphing calculators or computers. May not be taken for credit in addition to AMS 261.'].
 \##13['spring1' -> 1].
 \##13['fall1' -> 1].
@@ -137,6 +149,7 @@
 \##14['Credits' -> 3].
 \##14['Prerequisites' -> [['AMS151', 'MAT131', 'MAT126']]].
 \##14['Antirequisites' -> 'NONE'].
+\##14['Corequisites' -> 'NONE'].
 \##14['Description' -> 'Introduction to the theory of linear algebra with some applications; vectors, vector spaces, bases and dimension, applications to geometry, linear transformations and rank, eigenvalues and eigenvectors, determinants and inner products. May not be taken for credit in addition to AMS 210.'].
 \##14['spring1' -> 1].
 \##14['fall1' -> 1].
@@ -148,6 +161,7 @@
 \##15['Credits' -> 4].
 \##15['Prerequisites' -> [['MAT131']]].
 \##15['Antirequisites' -> 'NONE'].
+\##15['Corequisites' -> 'NONE'].
 \##15['Description' -> 'An introduction to the Advanced Track mathematics program. Provides the core of basic of propositional logic, quantifiers, proofs, sets, functions, cardinality, relations, equivalence relations and quotient sets, order relations, combinatorics. Number systems: natural numbers, integers, rational, real and complex numbers. MAT 250 is primarily intended for students in the Advanced Track program. It serves as an alternative to MAT 200 and may not be taken for credit in addition to MAT 200. Students wishing to enroll in MAT 250 should instead enroll in a corresponding section of MAT 200. In approximately the 3rd week, an assessment will be held and qualified students will be offered the option of moving to MAT 250. Formerly offered as MAT 150; not for credit in addition to MAT 150.'].
 \##15['spring1' -> 1].
 \##15['fall1' -> 1].
@@ -159,6 +173,7 @@
 \##16['Credits' -> 1].
 \##16['Prerequisites' -> 'NONE'].
 \##16['Antirequisites' -> 'NONE'].
+\##16['Corequisites' -> 'NONE'].
 \##16['Description' -> 'Students actively solve challenging problems in  plane geometry, basic number theory, and calculus, and write precise arguments. Relevant preparation for problem-solving is provided in the course.'].
 \##16['spring1' -> 1].
 \##16['fall1' -> 1].
@@ -170,6 +185,7 @@
 \##17['Credits' -> 4].
 \##17['Prerequisites' -> [['MAT127', 'AMS161']]].
 \##17['Antirequisites' -> 'NONE'].
+\##17['Corequisites' -> 'NONE'].
 \##17['Description' -> 'Homogeneous and inhomogeneous linear differential equations; systems of linear differential equations; series solutions; Laplace transforms; Fourier series. Applications to economics, engineering, and all sciences with emphasis on numerical and graphical solutions; use of computers. May not be taken for credit in addition to AMS 361 or MAT 308.'].
 \##17['spring1' -> 1].
 \##17['fall1' -> 1].
@@ -181,6 +197,7 @@
 \##18['Credits' -> 4].
 \##18['Prerequisites' -> [['MAT127', 'MAT132']]].
 \##18['Antirequisites' -> 'NONE'].
+\##18['Corequisites' -> 'NONE'].
 \##18['Description' -> 'Introduction to linear algebra: vectors, matrices, systems of linear equations,  bases and dimension, dot product, determinants. Multivariate differential and integral calculus, divergence and curl, line and surface integrals, theorems of Green, Gauss, and Stokes. More theoretical and intensive than MAT 203, this course is primarily intended for math majors. Together with MAT 308, it forms a 2-semester sequence covering the same material as the 3-semester sequence of MAT 203, MAT 211 and MAT 303. May not be taken for credit in addition to MAT 203 or AMS 261.'].
 \##18['spring1' -> 1].
 \##18['fall1' -> 1].
@@ -190,8 +207,9 @@
 \##19['CourseTitle' -> 'Differential Equations with Linear Algebra'].
 \##19['Career' -> 'Undergraduate'].
 \##19['Credits' -> 4].
-\##19['Prerequisites' -> [['MAT307'], ['MAT203', 'MAT211'], ['MAT132', 'MAT220']]].
+\##19['Prerequisites' -> [['MAT307'], ['MAT203'], ['MAT211'], ['MAT132'], ['MAT220']]].
 \##19['Antirequisites' -> 'NONE'].
+\##19['Corequisites' -> 'NONE'].
 \##19['Description' -> 'Linear algebra: determinants, eigenvalues and  eigenvectors, diagonalization. Differential equations; existence and uniqueness of solutions. First- and second-order equations; linear versus nonlinear equations. Systems of linear equations. Laplace transform. Applications to physics. More theoretical and intensive than MAT 303, this course is primarily intended for math majors. Together with MAT 307, it forms a 2-semester sequence covering the same material as the 3-semester sequence of MAT 205, MAT 211 and MAT 305. May not be taken for credit in addition to MAT 303 or AMS 361.'].
 \##19['spring1' -> 1].
 \##19['fall1' -> 1].
@@ -203,6 +221,7 @@
 \##20['Credits' -> 4].
 \##20['Prerequisites' -> [['MAT211', 'AMS210', 'MAT220'], ['MAT200', 'MAT250']]].
 \##20['Antirequisites' -> 'NONE'].
+\##20['Corequisites' -> 'NONE'].
 \##20['Description' -> 'Finite dimensional vector spaces, linear maps, dual spaces, bilinear functions, inner products. Additional topics such as canonical forms, multilinear algebra, numerical linear algebra.'].
 \##20['spring1' -> 1].
 \##20['fall1' -> 1].
@@ -214,6 +233,7 @@
 \##21['Credits' -> 3].
 \##21['Prerequisites' -> [['MAT312'], ['MAT200', 'MAT250']]].
 \##21['Antirequisites' -> 'NONE'].
+\##21['Corequisites' -> 'NONE'].
 \##21['Description' -> 'Congruences, quadratic residues, quadratic forms, continued fractions, Diophantine equations, number-theoretical functions, and properties of prime numbers.'].
 \##21['spring1' -> 1].
 \##21['fall1' -> 1].
@@ -225,6 +245,7 @@
 \##22['Credits' -> 3].
 \##22['Prerequisites' -> [['AMS210', 'MAT211', 'MAT220', 'MAT200', 'CSE215', 'CSE150']]].
 \##22['Antirequisites' -> 'NONE'].
+\##22['Corequisites' -> 'NONE'].
 \##22['Description' -> 'Topics in algebra: groups, informal set theory, relations, homomorphisms. Applications: error correcting codes, Burnside's theorem, computational complexity, Chinese remainder theorem. This course is offered as both AMS 351 and  MAT 312.'].
 \##22['spring1' -> 1].
 \##22['fall1' -> 1].
@@ -236,6 +257,7 @@
 \##23['Credits' -> 3].
 \##23['Prerequisites' -> [['MAT310', 'MAT312', 'MAT315'], ['MAT200', 'MAT250']]].
 \##23['Antirequisites' -> 'NONE'].
+\##23['Corequisites' -> 'NONE'].
 \##23['Description' -> 'Groups and rings together with their homomorphisms and quotient structures. Unique factorization, polynomials, and fields.'].
 \##23['spring1' -> 1].
 \##23['fall1' -> 1].
@@ -247,6 +269,7 @@
 \##24['Credits' -> 3].
 \##24['Prerequisites' -> [['MAT313']]].
 \##24['Antirequisites' -> 'NONE'].
+\##24['Corequisites' -> 'NONE'].
 \##24['Description' -> 'This course is a continuation of MAT 313, Abstract algebra. It covers modules over rings, including structure theorem for modules over PID, theory of fields and field extensions and introduction to Galois theory.'].
 \##24['spring1' -> 1].
 \##24['fall1' -> 1].
@@ -258,6 +281,7 @@
 \##25['Credits' -> 4].
 \##25['Prerequisites' -> [['MAT200', 'MAT250'], ['MAT211', 'AMS219', 'MAT308', 'MAT220']]].
 \##25['Antirequisites' -> 'NONE'].
+\##25['Corequisites' -> 'NONE'].
 \##25['Description' -> 'Finite dimensional vector spaces over a field, linear maps, isomorphisms, dual
 spaces, quotient vector spaces, bilinear and quadratic functions, inner products,
 canonical forms of linear operators, multilinear algebra, tensors. This course serves as an alternative to MAT 310. It is an intensive course, primarily intended for math majors in Advanced Track program. Students wishing to enroll in MAT 315 should instead enroll in MAT 310. In approximately the 4th week, an assessment will be held and qualified students will be offered the option of moving to MAT 315.'].
@@ -271,6 +295,7 @@ canonical forms of linear operators, multilinear algebra, tensors. This course s
 \##26['Credits' -> 4].
 \##26['Prerequisites' -> [['MAT200', 'MAT250'], ['MAT203', 'AMS261', 'MAT127', 'AMS161']]].
 \##26['Antirequisites' -> 'NONE'].
+\##26['Corequisites' -> 'NONE'].
 \##26['Description' -> 'A careful study of the theory underlying topics in one-variable calculus, with an emphasis on those topics arising in high school calculus. The real number system. Limits of functions and sequences. Differentiations, integration, and the fundamental theorem. Infinite series.'].
 \##26['spring1' -> 1].
 \##26['fall1' -> 1].
@@ -282,6 +307,7 @@ canonical forms of linear operators, multilinear algebra, tensors. This course s
 \##27['Credits' -> 4].
 \##27['Prerequisites' -> [['MAT200', 'MAT250'], ['MAT203', 'AMS261', 'MAT127', 'AMS161']]].
 \##27['Antirequisites' -> 'NONE'].
+\##27['Corequisites' -> 'NONE'].
 \##27['Description' -> 'A careful study of the theory underlying calculus. The real number system. Basic properties of functions of one real variable. Differentiation, integration, and the inverse theorem. Infinite sequences of functions and uniform convergence. Infinite series. Metric spaces and compactness. This course is a more demanding alternative of MAT 319, suitable for students who are comfortable with rigorous proofs. Students wishing to enroll in MAT 320 should instead enroll in MAT 319. In approximately the 6th week, an assessment will be held and qualified students will be offered the option of moving to MAT 320.'].
 \##27['spring1' -> 1].
 \##27['fall1' -> 1].
@@ -293,6 +319,7 @@ canonical forms of linear operators, multilinear algebra, tensors. This course s
 \##28['Credits' -> 3].
 \##28['Prerequisites' -> [['MAT203', 'MAT220', 'MAT307', 'AMS261'], ['MAT310', 'MAT315'], ['MAT320']]].
 \##28['Antirequisites' -> 'NONE'].
+\##28['Corequisites' -> 'NONE'].
 \##28['Description' -> 'Continuity, differentiation, and integration in Euclidean n-space. Differentiable maps. Implicit and inverse function theorems. Differential forms and the general Stokes's theorem.'].
 \##28['spring1' -> 1].
 \##28['fall1' -> 1].
@@ -304,6 +331,7 @@ canonical forms of linear operators, multilinear algebra, tensors. This course s
 \##29['Credits' -> 3].
 \##29['Prerequisites' -> [['MAT320']]].
 \##29['Antirequisites' -> 'NONE'].
+\##29['Corequisites' -> 'NONE'].
 \##29['Description' -> 'Introduction to Lebesgue measure and integration. Aspects of Fourier series, function spaces, Hilbert spaces, Banach spaces.'].
 \##29['spring1' -> 1].
 \##29['fall1' -> 1].
@@ -315,6 +343,7 @@ canonical forms of linear operators, multilinear algebra, tensors. This course s
 \##30['Credits' -> 3].
 \##30['Prerequisites' -> [['MAT203', 'AMS261']]].
 \##30['Antirequisites' -> 'NONE'].
+\##30['Corequisites' -> 'NONE'].
 \##30['Description' -> 'Exploration of the use of the computer as a tool to gain insight into complex mathematical problems through a project-oriented approach. Students learn both the relevant mathematical concepts and ways that the computer can be used (and sometimes misused) to understand them. The particular problems may vary by semester; past topics have included cryptography, fractals and recursion, modeling the flight of a glider, curve fitting, the Brachistochrone, and computer graphics. No previous experience with computers is required.'].
 \##30['spring1' -> 1].
 \##30['fall1' -> 1].
@@ -326,6 +355,7 @@ canonical forms of linear operators, multilinear algebra, tensors. This course s
 \##31['Credits' -> 3].
 \##31['Prerequisites' -> [['MAT200', 'MAT203', 'MAT250', 'MAT307', 'AMS261']]].
 \##31['Antirequisites' -> 'NONE'].
+\##31['Corequisites' -> 'NONE'].
 \##31['Description' -> 'A survey of the history of mathematics from the beginnings through the 19th century, with special attention to primary sources and to the interactions between culture and mathematics. Emphasis on topics germane to the high school curriculum. Mesopotamian, Egyptian, and Greek mathematics; non-European mathematics; early Renaissance mathematics;  the birth and flowering of calculus; the beginnings of probability theory; and the origin of non-Euclidean geometries and the modern concept of number.'].
 \##31['spring1' -> 1].
 \##31['fall1' -> 1].
@@ -337,6 +367,7 @@ canonical forms of linear operators, multilinear algebra, tensors. This course s
 \##32['Credits' -> 3].
 \##32['Prerequisites' -> [['MAT203', 'AMS261'], ['MAT303', 'AMS361', 'MAT200', 'MAT250']]].
 \##32['Antirequisites' -> 'NONE'].
+\##32['Corequisites' -> 'NONE'].
 \##32['Description' -> 'Partial differential equations of mathematical physics: the heat, wave, and Laplace equations. Solutions by techniques such as separation of variables using orthogonal functions (e.g., Fourier series, Bessel functions, Legendre polynomials). D'Alembert solution of the wave equation.'].
 \##32['spring1' -> 1].
 \##32['fall1' -> 1].
@@ -348,6 +379,7 @@ canonical forms of linear operators, multilinear algebra, tensors. This course s
 \##33['Credits' -> 3].
 \##33['Prerequisites' -> [['MAT203', 'MAT220', 'MAT307', 'AMS261', 'MAT200', 'MAT250']]].
 \##33['Antirequisites' -> 'NONE'].
+\##33['Corequisites' -> 'NONE'].
 \##33['Description' -> 'Complex numbers, analytic functions, the Cauchy-Riemann and Laplace equations, the Cauchy integral formula and applications. Fundamental Theorem of Algebra and the Maximum Principle. The Cauchy residue theorem and applications to evaluating real integrals. Conformal mappings.'].
 \##33['spring1' -> 1].
 \##33['fall1' -> 1].
@@ -359,6 +391,7 @@ canonical forms of linear operators, multilinear algebra, tensors. This course s
 \##34['Credits' -> 3].
 \##34['Prerequisites' -> [['MAT203', 'MAT220', 'MAT307', 'AMS261'], ['MAT303', 'MAT308', 'AMS361'], ['MAT200', 'MAT250']]].
 \##34['Antirequisites' -> 'NONE'].
+\##34['Corequisites' -> 'NONE'].
 \##34['Description' -> 'A study of the long-term behavior of solutions to ordinary differential equations or of iterated mappings, emphasizing the distinction between stability on the one hand and sensitive dependence and chaotic behavior on the other. The course describes examples of chaotic behavior and of fractal attractors, and develops some mathematical tools for understanding them.'].
 \##34['spring1' -> 1].
 \##34['fall1' -> 1].
@@ -368,8 +401,9 @@ canonical forms of linear operators, multilinear algebra, tensors. This course s
 \##35['CourseTitle' -> 'Geometric Structures'].
 \##35['Career' -> 'Undergraduate'].
 \##35['Credits' -> 3].
-\##35['Prerequisites' -> [['MAT203', 'AMS261'], ['MAT200', 'MAT250']]].
+\##35['Prerequisites' -> 'NONE'].
 \##35['Antirequisites' -> 'NONE'].
+\##35['Corequisites' -> 'NONE'].
 \##35['Description' -> 'Formal geometries and models. Topics selected from projective, affine, Euclidean, and non-Euclidean geometries.'].
 \##35['spring1' -> 1].
 \##35['fall1' -> 1].
@@ -381,6 +415,7 @@ canonical forms of linear operators, multilinear algebra, tensors. This course s
 \##36['Credits' -> 3].
 \##36['Prerequisites' -> [['MAT319', 'MAT320', 'MAT364'], ['MAT203', 'MAT307', 'MAT322']]].
 \##36['Antirequisites' -> 'NONE'].
+\##36['Corequisites' -> 'NONE'].
 \##36['Description' -> 'The local and global geometry of surfaces: geodesics, parallel transport, curvature, isometries, the Gauss map, the Gauss-Bonnet theorem.'].
 \##36['spring1' -> 1].
 \##36['fall1' -> 1].
@@ -392,6 +427,7 @@ canonical forms of linear operators, multilinear algebra, tensors. This course s
 \##37['Credits' -> 3].
 \##37['Prerequisites' -> [['MAT203', 'AMS261'], ['MAT200', 'MAT319']]].
 \##37['Antirequisites' -> 'NONE'].
+\##37['Corequisites' -> 'NONE'].
 \##37['Description' -> 'A broadly based introduction to topology and geometry, the mathematical theories of shape, form, and rigid structure. Topics include intuitive knot theory, lattices and tilings, non-Euclidean geometry, smooth curves and surfaces in Euclidean 3-space, open sets and continuity, combinatorial and algebraic invariants of spaces, higher dimensional spaces.'].
 \##37['spring1' -> 1].
 \##37['fall1' -> 1].
@@ -403,6 +439,7 @@ canonical forms of linear operators, multilinear algebra, tensors. This course s
 \##38['Credits' -> 3].
 \##38['Prerequisites' -> [['CSE150', 'CSE215', 'MAT200', 'MAT250']]].
 \##38['Antirequisites' -> 'NONE'].
+\##38['Corequisites' -> 'NONE'].
 \##38['Description' -> 'A survey of the logical foundations of mathematics: development of propositional calculus and quantification theory, the notions of a proof and of a model, the completeness theorem, Goedel's incompleteness theorem. This course is offered as both CSE 371 and MAT 371.'].
 \##38['spring1' -> 1].
 \##38['fall1' -> 1].
@@ -414,6 +451,7 @@ canonical forms of linear operators, multilinear algebra, tensors. This course s
 \##39['Credits' -> 3].
 \##39['Prerequisites' -> [['CSE150', 'CSE215', 'MAT200', 'MAT250'], ['MAT211', 'AMS210'], ['CSE214', 'CSE260']]].
 \##39['Antirequisites' -> 'NONE'].
+\##39['Corequisites' -> 'NONE'].
 \##39['Description' -> 'Mathematical analysis of a variety of computer algorithms including searching, sorting, matrix multiplication, fast Fourier transform, and graph algorithms. Time and space complexity. Upper-bound, lower- bound, and average-case analysis. Introduction to NP completeness. Some machine computation is required for the implementation and comparison of algorithms. This course is offered as CSE 373 and MAT 373. Not for credit in addition to CSE 385.'].
 \##39['spring1' -> 1].
 \##39['fall1' -> 1].
@@ -425,6 +463,7 @@ canonical forms of linear operators, multilinear algebra, tensors. This course s
 \##40['Credits' -> 3].
 \##40['Prerequisites' -> 'NONE'].
 \##40['Antirequisites' -> 'NONE'].
+\##40['Corequisites' -> 'NONE'].
 \##40['Description' -> 'Discussions of a specific area of interest in mathematics. The work of each semester covers a different area of mathematics. May be repeated as topic changes. Prerequisites will be announced with the topic each time the course is offered.'].
 \##40['spring1' -> 1].
 \##40['fall1' -> 1].
@@ -436,6 +475,7 @@ canonical forms of linear operators, multilinear algebra, tensors. This course s
 \##41['Credits' -> 3].
 \##41['Prerequisites' -> 'NONE'].
 \##41['Antirequisites' -> 'NONE'].
+\##41['Corequisites' -> 'NONE'].
 \##41['Description' -> 'Discussions of a specific area of interest in mathematics. The work of each semester covers a different area of mathematics. May be repeated as topic changes. Prerequisites will be announced with the topic each time the course is offered.'].
 \##41['spring1' -> 1].
 \##41['fall1' -> 1].
@@ -447,6 +487,7 @@ canonical forms of linear operators, multilinear algebra, tensors. This course s
 \##42['Credits' -> 0].
 \##42['Prerequisites' -> [['WRT102']]].
 \##42['Antirequisites' -> 'NONE'].
+\##42['Corequisites' -> 'NONE'].
 \##42['Description' -> 'This course is designed for students who engage in a substantial, structured experiential learning activity in conjunction with another class. Experiential learning occurs when knowledge acquired through formal learning and past experience are applied to a "real-world" setting or problem to create new knowledge through a process of reflection, critical analysis, feedback and synthesis. Beyond-the-classroom experiences that support experiential learning may include: service learning, mentored research, field work, or an internship.'].
 \##42['spring1' -> 1].
 \##42['fall1' -> 1].
@@ -456,8 +497,9 @@ canonical forms of linear operators, multilinear algebra, tensors. This course s
 \##43['CourseTitle' -> 'Speak Effectively Before an Audience'].
 \##43['Career' -> 'Undergraduate'].
 \##43['Credits' -> 0].
-\##43['Prerequisites' -> [['WRT102']]].
+\##43['Prerequisites' -> 'NONE'].
 \##43['Antirequisites' -> 'NONE'].
+\##43['Corequisites' -> [['WRT102']]].
 \##43['Description' -> 'A zero credit course that may be taken in conjunction with any MAT course that provides opportunity to achieve the learning outcomes of the Stony Brook Curriculum's SPK learning objective.'].
 \##43['spring1' -> 1].
 \##43['fall1' -> 1].
@@ -469,6 +511,7 @@ canonical forms of linear operators, multilinear algebra, tensors. This course s
 \##44['Credits' -> 0].
 \##44['Prerequisites' -> [['WRT102']]].
 \##44['Antirequisites' -> 'NONE'].
+\##44['Corequisites' -> 'NONE'].
 \##44['Description' -> 'A zero credit course that may be taken in conjunction with any 300- or 400-level MAT course, with permission of the instructor. The course provides opportunity to practice the skills and techniques of effective academic writing and satisfies the learning outcomes of the Stony Brook Curriculum's WRTD learning objective.'].
 \##44['spring1' -> 1].
 \##44['fall1' -> 1].
@@ -480,6 +523,7 @@ canonical forms of linear operators, multilinear algebra, tensors. This course s
 \##45['Credits' -> 3].
 \##45['Prerequisites' -> 'NONE'].
 \##45['Antirequisites' -> 'NONE'].
+\##45['Corequisites' -> 'NONE'].
 \##45['Description' -> 'Each student assists in teaching a lower-division mathematics course or works in the Mathematics Learning Center. The student's work is regularly supervised by a faculty member. In addition, a weekly seminar is conducted. Responsibilities may include preparation of materials for student use and discussions, helping students with problems, and involvement in "alternative" teaching projects. Intended for upper-division students who have excelled in the calculus sequence. May not be used for major credit.'].
 \##45['spring1' -> 1].
 \##45['fall1' -> 1].
@@ -491,6 +535,7 @@ canonical forms of linear operators, multilinear algebra, tensors. This course s
 \##46['Credits' -> '0.00 - 6.00'].
 \##46['Prerequisites' -> 'NONE'].
 \##46['Antirequisites' -> 'NONE'].
+\##46['Corequisites' -> 'NONE'].
 \##46['Description' -> 'A reading course for juniors and seniors. The topics may be chosen by the student with the approval of a supervising member of the faculty, who also takes responsibility for evaluation. A topic that is covered in a course regularly offered by the department is not appropriate for independent study. May be repeated.'].
 \##46['spring1' -> 1].
 \##46['fall1' -> 1].
@@ -502,6 +547,7 @@ canonical forms of linear operators, multilinear algebra, tensors. This course s
 \##47['Credits' -> 3].
 \##47['Prerequisites' -> 'NONE'].
 \##47['Antirequisites' -> 'NONE'].
+\##47['Corequisites' -> 'NONE'].
 \##47['Description' -> 'The student and a supervising faculty member together choose a topic in mathematics, and the student writes a substantial paper expounding the topic in a new way.'].
 \##47['spring1' -> 1].
 \##47['fall1' -> 1].
@@ -513,6 +559,7 @@ canonical forms of linear operators, multilinear algebra, tensors. This course s
 \##48['Credits' -> 3].
 \##48['Prerequisites' -> 'NONE'].
 \##48['Antirequisites' -> 'NONE'].
+\##48['Corequisites' -> 'NONE'].
 \##48['Description' -> 'Fundamental Concepts of Mathematics. Brief history of mathematics; sets, functions and logic; constructions of number systems, including their historical development; mathematical induction. The main focus of the course will be on the construction and writing of mathematical proofs.
 Fall, Spring, or Summer,'].
 \##48['spring1' -> 1].
@@ -523,8 +570,9 @@ Fall, Spring, or Summer,'].
 \##49['CourseTitle' -> 'Algebra for Teachers'].
 \##49['Career' -> 'Graduate'].
 \##49['Credits' -> 3].
-\##49['Prerequisites' -> [['MAT511']]].
+\##49['Prerequisites' -> 'NONE'].
 \##49['Antirequisites' -> 'NONE'].
+\##49['Corequisites' -> 'NONE'].
 \##49['Description' -> 'Linear algebra, the algebra of polynomials, algebraic properties of the complex numbers, number fields, solutions of equations. Mathematical topics integrate the study of the historical development of algebra, including contributions from diverse cultures.
 Prerequisite: MAT 511
 Semesters Offered: Fall, Spring, Summer'].
@@ -536,8 +584,9 @@ Semesters Offered: Fall, Spring, Summer'].
 \##50['CourseTitle' -> 'Analysis for Teachers I'].
 \##50['Career' -> 'Graduate'].
 \##50['Credits' -> 3].
-\##50['Prerequisites' -> [['MAT511']]].
+\##50['Prerequisites' -> 'NONE'].
 \##50['Antirequisites' -> 'NONE'].
+\##50['Corequisites' -> 'NONE'].
 \##50['Description' -> 'Topics in differential calculus, its foundations, and its applications. This course is designed for teachers and prospective teachers of advanced placement calculus. Mathematical topics integrate the study of the historical development of calculus, including contributions from diverse cultures.
 Prerequisite: MAT 511
 Fall, Spring, or Summer,'].
@@ -551,6 +600,7 @@ Fall, Spring, or Summer,'].
 \##51['Credits' -> 3].
 \##51['Prerequisites' -> 'NONE'].
 \##51['Antirequisites' -> 'NONE'].
+\##51['Corequisites' -> 'NONE'].
 \##51['Description' -> 'Topics in calculus, its foundations, and its applications. Emphasis is on integration and on numerical techniques. This course is designed for teachers and prospective teachers of advanced placement calculus. Mathematical topics integrate the study of the historical development of calculus, including contributions from diverse cultures. Analysis for Teachers I is not a prerequisite for this course.
 Prerequisite: MAT 511
 Fall, Spring, or Summer,'].
@@ -562,8 +612,9 @@ Fall, Spring, or Summer,'].
 \##52['CourseTitle' -> 'Geometry for Teachers'].
 \##52['Career' -> 'Graduate'].
 \##52['Credits' -> 3].
-\##52['Prerequisites' -> [['MAT511']]].
+\##52['Prerequisites' -> 'NONE'].
 \##52['Antirequisites' -> 'NONE'].
+\##52['Corequisites' -> 'NONE'].
 \##52['Description' -> 'A re-examination of elementary geometry using concepts from analysis and algebra. Mathematical topics integrate the study of the historical development of Euclidean and non-Euclidian geometries, including contributions from diverse cultures.
 Prerequisite: MAT 511
 Fall, Spring, or Summer,'].
@@ -575,8 +626,9 @@ Fall, Spring, or Summer,'].
 \##53['CourseTitle' -> 'Probability and Statistics for Teachers'].
 \##53['Career' -> 'Graduate'].
 \##53['Credits' -> 3].
-\##53['Prerequisites' -> [['MAT511']]].
+\##53['Prerequisites' -> 'NONE'].
 \##53['Antirequisites' -> 'NONE'].
+\##53['Corequisites' -> 'NONE'].
 \##53['Description' -> 'A priori and empirical probabilities; conditional probability; mean and standard deviation; random variables; financial distributions; continuous distributions; sampling; estimation; decision making. Mathematical topics integrate the study of the historical development of statistics and probability, including contributions from diverse cultures.
 Prerequisite: MAT 511
 Fall, Spring, or Summer,'].
@@ -590,6 +642,7 @@ Fall, Spring, or Summer,'].
 \##54['Credits' -> 3].
 \##54['Prerequisites' -> 'NONE'].
 \##54['Antirequisites' -> 'NONE'].
+\##54['Corequisites' -> 'NONE'].
 \##54['Description' -> 'Calculators and Computers for teachers. Graphing calculators, programming, computing and curve sketching; Geometers Sketchpad or other computer based classroom tools; educational use of the world wide web.
 Fall, Spring, or Summer,'].
 \##54['spring1' -> 1].
@@ -602,6 +655,7 @@ Fall, Spring, or Summer,'].
 \##55['Credits' -> 3].
 \##55['Prerequisites' -> 'NONE'].
 \##55['Antirequisites' -> 'NONE'].
+\##55['Corequisites' -> 'NONE'].
 \##55['Description' -> 'This seminar explores the ways in which secondary school and elementary college mathematics are used in such diverse areas as psychology, sociology, political science, economics, business, engineering, physics, chemistry, biology, and medicine. Primarily for secondary school teachers of mathematics.
 Fall, Spring, or Summer,'].
 \##55['spring1' -> 1].
@@ -614,6 +668,7 @@ Fall, Spring, or Summer,'].
 \##56['Credits' -> 3].
 \##56['Prerequisites' -> 'NONE'].
 \##56['Antirequisites' -> 'NONE'].
+\##56['Corequisites' -> 'NONE'].
 \##56['Description' -> 'Seminar format. This course involves deliberative group inquiry - through reading, writing and intensive discussion - into mathematics teaching, learning and mathematics education research; analysis and design of cognitively demanding mathematical tasks; and analysis of students' mathematical thinking, written responses, and common misconceptions in the mathematics classroom. Each student completes an action research project focused on a topic selected with guidance from the instructor.
 Offered alternate years, 3 credits, ABCF grading'].
 \##56['spring1' -> 1].
@@ -626,6 +681,7 @@ Offered alternate years, 3 credits, ABCF grading'].
 \##57['Credits' -> 3].
 \##57['Prerequisites' -> [['MAT511']]].
 \##57['Antirequisites' -> 'NONE'].
+\##57['Corequisites' -> 'NONE'].
 \##57['Description' -> 'Vector algebra on the  plane and in the 3-space;  area and volume of geometric figures; analytic  geometry.
 Prerequisite: MAT  511
 Spring, 3 credits, Letter  grad ed (A,  A-,  B+,  etc.) Spring, 3 credits, Letter graded (A,  A-, B+,  etc.)'].
@@ -639,6 +695,7 @@ Spring, 3 credits, Letter  grad ed (A,  A-,  B+,  etc.) Spring, 3 credits, Lette
 \##58['Credits' -> 3].
 \##58['Prerequisites' -> 'NONE'].
 \##58['Antirequisites' -> 'NONE'].
+\##58['Corequisites' -> 'NONE'].
 \##58['Description' -> 'Congruences, quadratic residues, quadratic forms, continued fractions, Diophantine equations, number-theoretical functions, and properties of prime numbers.'].
 \##58['spring1' -> 1].
 \##58['fall1' -> 1].
@@ -650,6 +707,7 @@ Spring, 3 credits, Letter  grad ed (A,  A-,  B+,  etc.) Spring, 3 credits, Lette
 \##59['Credits' -> 3].
 \##59['Prerequisites' -> 'NONE'].
 \##59['Antirequisites' -> 'NONE'].
+\##59['Corequisites' -> 'NONE'].
 \##59['Description' -> 'Introduction to Lebesgue measure and integration.  Aspects of Fourier series, function spaces, Hilbert spaces, Banach spaces.'].
 \##59['spring1' -> 1].
 \##59['fall1' -> 1].
@@ -661,6 +719,7 @@ Spring, 3 credits, Letter  grad ed (A,  A-,  B+,  etc.) Spring, 3 credits, Lette
 \##60['Credits' -> 3].
 \##60['Prerequisites' -> 'NONE'].
 \##60['Antirequisites' -> 'NONE'].
+\##60['Corequisites' -> 'NONE'].
 \##60['Description' -> 'Continuity, differentiation and integration in Euclidean n-space. Differentiable maps. Implicit and inverse function theorems. Differential forms and the general Stokes' theorem.'].
 \##60['spring1' -> 1].
 \##60['fall1' -> 1].
@@ -672,6 +731,7 @@ Spring, 3 credits, Letter  grad ed (A,  A-,  B+,  etc.) Spring, 3 credits, Lette
 \##61['Credits' -> 3].
 \##61['Prerequisites' -> 'NONE'].
 \##61['Antirequisites' -> 'NONE'].
+\##61['Corequisites' -> 'NONE'].
 \##61['Description' -> 'Groups and rings together with their homorphisms and quotient structures.  Unique factorization, polynomials, and fields.'].
 \##61['spring1' -> 1].
 \##61['fall1' -> 1].
@@ -683,6 +743,7 @@ Spring, 3 credits, Letter  grad ed (A,  A-,  B+,  etc.) Spring, 3 credits, Lette
 \##62['Credits' -> 3].
 \##62['Prerequisites' -> 'NONE'].
 \##62['Antirequisites' -> 'NONE'].
+\##62['Corequisites' -> 'NONE'].
 \##62['Description' -> 'A continuation of MAT 524, covering modules over rings (including the structure theorem for Modules over Principal Ideal Domains), theory of fields, field extensions, and an introduction to Galois theory.'].
 \##62['spring1' -> 1].
 \##62['fall1' -> 1].
@@ -694,6 +755,7 @@ Spring, 3 credits, Letter  grad ed (A,  A-,  B+,  etc.) Spring, 3 credits, Lette
 \##63['Credits' -> 3].
 \##63['Prerequisites' -> 'NONE'].
 \##63['Antirequisites' -> 'NONE'].
+\##63['Corequisites' -> 'NONE'].
 \##63['Description' -> 'Finite dimensional vector spaces over a field, linear maps, isomorphisms, dual spaces, quotient vector spaces, bilinear and quadratic functions, inner products, canonical forms of linear operators, multilinear algebra, tensors.'].
 \##63['spring1' -> 1].
 \##63['fall1' -> 1].
@@ -705,6 +767,7 @@ Spring, 3 credits, Letter  grad ed (A,  A-,  B+,  etc.) Spring, 3 credits, Lette
 \##64['Credits' -> 3].
 \##64['Prerequisites' -> 'NONE'].
 \##64['Antirequisites' -> 'NONE'].
+\##64['Corequisites' -> 'NONE'].
 \##64['Description' -> 'A broadly based introduction to topology and geometry, the mathematical theories of shape, form, and rigid structure. Topics include intuitive knot theory, lattices and tiling, non-Euclidean geometry, smooth curves and surfaces in Euclidean 3-space, open sets and continuity, combinatorial and algebraic invariants of spaces, higher dimensional spaces.
 There will be a required short paper on the fundamental group of a topological space or some similar topic.
 Fall, 3 credits, Letter graded (A, A-, B+, etc.)'].
@@ -718,6 +781,7 @@ Fall, 3 credits, Letter graded (A, A-, B+, etc.)'].
 \##65['Credits' -> 3].
 \##65['Prerequisites' -> 'NONE'].
 \##65['Antirequisites' -> 'NONE'].
+\##65['Corequisites' -> 'NONE'].
 \##65['Description' -> 'Basic point set topology; connectedness, compactness, continuity, etc. Metric spaces, function spaces, and topological manifolds. Introduction to algebraic topology; fundamental group and covering space; homology; applications.
 Fall,'].
 \##65['spring1' -> 1].
@@ -730,6 +794,7 @@ Fall,'].
 \##66['Credits' -> 3].
 \##66['Prerequisites' -> 'NONE'].
 \##66['Antirequisites' -> 'NONE'].
+\##66['Corequisites' -> 'NONE'].
 \##66['Description' -> 'Foundations of differentiable manifolds: differentiable maps, vector fields and flows, and differential forms and integration on manifolds. Stokes' theorem. Froebenius theorem. Lie derivatives. Immersions and submersions. DeRham chomology, cochain complexes, degree of a map, Mayer-Vietoris Theorem.
 Spring,'].
 \##66['spring1' -> 1].
@@ -742,6 +807,7 @@ Spring,'].
 \##67['Credits' -> 3].
 \##67['Prerequisites' -> 'NONE'].
 \##67['Antirequisites' -> 'NONE'].
+\##67['Corequisites' -> 'NONE'].
 \##67['Description' -> 'Ordinary differential equations; Banach and Hilbert spaces; inverse and implicit function theorems; Lebesque measure; general measures and integrals; measurable functions; convergence theorems for integrals.
 Fall,'].
 \##67['spring1' -> 1].
@@ -754,6 +820,7 @@ Fall,'].
 \##68['Credits' -> 3].
 \##68['Prerequisites' -> 'NONE'].
 \##68['Antirequisites' -> 'NONE'].
+\##68['Corequisites' -> 'NONE'].
 \##68['Description' -> 'Representations and decomposition theorems in measure theory; Fubini's theorem;
 L-p spaces; Fourier series; Laplace; heat and wave equations; open mapping and uniform boundedness theorems for Banach spaces; differentiation of the integral; change of variable of integration.
 
@@ -768,6 +835,7 @@ Spring'].
 \##69['Credits' -> 3].
 \##69['Prerequisites' -> 'NONE'].
 \##69['Antirequisites' -> 'NONE'].
+\##69['Corequisites' -> 'NONE'].
 \##69['Description' -> 'Groups: normal subgroups, quotient groups, Lagrange's theorem, class formula, finite p-groups and solvable groups, Sylow's theorems, finitely generated abelian groups. Rings and modules: subrings, fields, prime and maximal ideals, quotient rings, ID's, PID's, UFD's, polynomial rings, field of fractions, the Wedderburn theorem, Hilbert basis theorem, finitely generated modules over a PID. Vector spaces: basis, linear maps and matrices, dual spaces, determinants, eigenvalues and vectors, inner products, spectral theorem for normal operators.
 Fall,'].
 \##69['spring1' -> 1].
@@ -780,6 +848,7 @@ Fall,'].
 \##70['Credits' -> 3].
 \##70['Prerequisites' -> 'NONE'].
 \##70['Antirequisites' -> 'NONE'].
+\##70['Corequisites' -> 'NONE'].
 \##70['Description' -> 'Vector spaces: Cayley-Hamilton Theorem, Jordon normal form, bilinear forms, signature, tensor products, symmetric and exterior algebras. Homological algebra: categories and functors, universal and free objects, exact sequences, extensions. Representation theory for finite groups: irreducible representations and Shur's Lemma, characters, orthogonality. Galois theory: splitting fields, finite fields, extension fields of various types, Galois polynomial and group, fundamental theorem of Galois theory, symmetric functions.
 Spring,'].
 \##70['spring1' -> 1].
@@ -792,6 +861,7 @@ Spring,'].
 \##71['Credits' -> 3].
 \##71['Prerequisites' -> 'NONE'].
 \##71['Antirequisites' -> 'NONE'].
+\##71['Corequisites' -> 'NONE'].
 \##71['Description' -> 'Elementary functions, holomorphic functions. Cauchy theory, power series, classification of isolated singularities, calculus of residues, open mapping theorem, Riemann mapping theorem.
 Spring,'].
 \##71['spring1' -> 1].
@@ -802,8 +872,9 @@ Spring,'].
 \##72['CourseTitle' -> 'Several Complex Variables'].
 \##72['Career' -> 'Graduate'].
 \##72['Credits' -> 3].
-\##72['Prerequisites' -> [['MAT536']]].
+\##72['Prerequisites' -> 'NONE'].
 \##72['Antirequisites' -> 'NONE'].
+\##72['Corequisites' -> 'NONE'].
 \##72['Description' -> 'Definition and basic properties of holomorphic functions and mappings. Analytic sets: Basic definitions, Local theory of Weierstrass, Meromorphic functions. Hartogs Phenomenon. Domains of convergence of power series. Domains of holomorphy. Pseudoconvexity and the Levi Problem. Complex manifolds, holomorphic vector bundles and Hermitian metrics. Cousin problems. L2 estimates for the inhomogeneous Cauchy-Riemann Equations and applications.'].
 \##72['spring1' -> 1].
 \##72['fall1' -> 1].
@@ -813,8 +884,9 @@ Spring,'].
 \##73['CourseTitle' -> 'Riemann Surfaces'].
 \##73['Career' -> 'Graduate'].
 \##73['Credits' -> 3].
-\##73['Prerequisites' -> [['MAT531', 'MAT533', 'MAT536']]].
+\##73['Prerequisites' -> 'NONE'].
 \##73['Antirequisites' -> 'NONE'].
+\##73['Corequisites' -> 'NONE'].
 \##73['Description' -> 'Basic definitions and examples. Holomorphic differential forms. Riemann-Hurwitz Theorem. The Riemann-Roch Theroem. The Dirichlet Problem. The Hodge Theorem for Riemann surfaces. Embeddings into Projective Space. Uniformization theorem(s). Abel's Theorem and Jacobi's inversion theorem. Further topics may include: Sheaves and cohomology. Fields of meromorphic functions, valuations and connections with algebraic number theory. Monodromy and classification of branched covers.'].
 \##73['spring1' -> 1].
 \##73['fall1' -> 1].
@@ -826,6 +898,7 @@ Spring,'].
 \##74['Credits' -> 3].
 \##74['Prerequisites' -> 'NONE'].
 \##74['Antirequisites' -> 'NONE'].
+\##74['Corequisites' -> 'NONE'].
 \##74['Description' -> 'Homotopy, fundamental group and higher homotopy groups, fiber bundles and covering, homotopy exact sequences of pairs, fiber bundles, classification of coverings, CW-complexes, homotopy excision, suspension, topological manifolds, topological classification of 1- and 2-manifolds.'].
 \##74['spring1' -> 1].
 \##74['fall1' -> 1].
@@ -835,8 +908,9 @@ Spring,'].
 \##75['CourseTitle' -> 'Algebraic Topology'].
 \##75['Career' -> 'Graduate'].
 \##75['Credits' -> 3].
-\##75['Prerequisites' -> [['MAT530', 'MAT531']]].
+\##75['Prerequisites' -> 'NONE'].
 \##75['Antirequisites' -> 'NONE'].
+\##75['Corequisites' -> 'NONE'].
 \##75['Description' -> 'Singular and simplicial homology, their properties and equivalence, calculations for CW-complexes. Eilenberg-Steenrod axioms, cohomology, cup and cross products, Poincare, Lefschetz and Alexander dualities. Prerequisites: MAT 530, MAT 531, Fall'].
 \##75['spring1' -> 1].
 \##75['fall1' -> 1].
@@ -846,8 +920,9 @@ Spring,'].
 \##76['CourseTitle' -> 'Representation Theory'].
 \##76['Career' -> 'Graduate'].
 \##76['Credits' -> 3].
-\##76['Prerequisites' -> [['MAT535']]].
+\##76['Prerequisites' -> 'NONE'].
 \##76['Antirequisites' -> 'NONE'].
+\##76['Corequisites' -> 'NONE'].
 \##76['Description' -> '[will alternate with MAT 544]
 An introduction to representation theory, with a focus on explicit examples. Representations of finite groups (in characteristic zero), especially symmetric and alternating groups. Representation theory of compact Lie groups and semisimple Lie algebras (which may also be covered in MAT 552). Representations of classical groups, esp. GL(n) and orthogonal groups. Schur-Weil duality for representations of S_n and GL(n), Young diagrams. Other possible topics include spin representations and Clifford algebras, representations of exceptional groups, applications to physics (e.g. hydrogen atom, spin, quarks), or an introduction to invariant theory.
 Sample textbooks:
@@ -868,8 +943,9 @@ Fall, 3 credits, Letter graded (A, A-, B+, etc.)'].
 \##77['CourseTitle' -> 'Commutative and Homological Algebra'].
 \##77['Career' -> 'Graduate'].
 \##77['Credits' -> 3].
-\##77['Prerequisites' -> [['MAT535']]].
+\##77['Prerequisites' -> 'NONE'].
 \##77['Antirequisites' -> 'NONE'].
+\##77['Corequisites' -> 'NONE'].
 \##77['Description' -> 'An introduction to the techniques of commutative and homological algebra useful in algebra, algebraic geometry, number theory, and related fields. Review of rings and modules, tensor products and localization. Spectrum of prime ideals, Noetherian and Artinian rings and modules, completion, dimension theory, local rings, discrete valuation rings and Dedekind domains, integral dependence. Chain complexes, projective and injective resolutions, examples of derived functors (Ext and Tor), basic category theory (adjoint functors, natural transformations, limits and colimits), abelian categories.
 Prerequisite: MAT 535
 Fall,'].
@@ -883,6 +959,7 @@ Fall,'].
 \##78['Credits' -> 3].
 \##78['Prerequisites' -> [['MAT530', 'MAT534', 'MAT542']]].
 \##78['Antirequisites' -> 'NONE'].
+\##78['Corequisites' -> 'NONE'].
 \##78['Description' -> 'Foundational material and techniques in complex algebraic and differential geometry: Review of basic results in several complex variables/analytic geometry, sheaves and cohomology of sheaves, complex vector bundles, Chern classes, positivity, Kaehler manifolds, projective manifolds,  Hodge decomposition for Kaehler manifolds, Kodaira vanishing theorem, Hard Lefschetz Theorem, divisors and line bundles, Bertini's theorem, Lefschetz theorem on (1,1) classes, blowing up, Kodaira's embedding theorem.
 Fall,'].
 \##78['spring1' -> 1].
@@ -893,8 +970,9 @@ Fall,'].
 \##79['CourseTitle' -> 'Introduction to Probability'].
 \##79['Career' -> 'Graduate'].
 \##79['Credits' -> 3].
-\##79['Prerequisites' -> [['MAT533', 'MAT536']]].
+\##79['Prerequisites' -> 'NONE'].
 \##79['Antirequisites' -> 'NONE'].
+\##79['Corequisites' -> 'NONE'].
 \##79['Description' -> '[will alternate with MAT 551]
 Introduction to probability theory: independence, laws of large numbers, central limit theorems, martingales, Markov chains, and a selection of other topics such as ergodic theory, Brownian motion, random walks on graphs and groups, percolation, mixing times, randomized algorithms.'].
 \##79['spring1' -> 1].
@@ -905,8 +983,9 @@ Introduction to probability theory: independence, laws of large numbers, central
 \##80['CourseTitle' -> 'Introduction to PDE'].
 \##80['Career' -> 'Graduate'].
 \##80['Credits' -> 3].
-\##80['Prerequisites' -> [['MAT531', 'MAT536']]].
+\##80['Prerequisites' -> 'NONE'].
 \##80['Antirequisites' -> 'NONE'].
+\##80['Corequisites' -> 'NONE'].
 \##80['Description' -> 'Introduction to basic types of partial differential equations and techniques for studying them. First order equations; The Cauchy problem and the Cauchy-Kovalevskaya Theorem; Laplace, heat, and wave operators; Sobolev and Holder spaces; second order linear elliptic equations: weak solutions, existence and regularity theory; L^p and Schauder estimates; de Giorgi-Nash-Moser theory; introduction to nonlinear equations"
 Prerequisite:  MAT 531, MAT 536
 Fall,'].
@@ -918,8 +997,9 @@ Fall,'].
 \##81['CourseTitle' -> 'Introduction to Lie Groups and Lie Algebras'].
 \##81['Career' -> 'Graduate'].
 \##81['Credits' -> 3].
-\##81['Prerequisites' -> [['MAT535']]].
+\##81['Prerequisites' -> 'NONE'].
 \##81['Antirequisites' -> 'NONE'].
+\##81['Corequisites' -> 'NONE'].
 \##81['Description' -> 'An introduction to Lie groups and Lie algebras, as used in mathematics and physics. Basic facts about Lie groups and Lie algebras; classical groups. Structure theory of Lie algebras. Representation theory of sl (2,C). Classification of complex semisimple Lie algebras via their root systems. Examples of exceptional Lie algebras. Other possible topics include the representation theory compact Lie groups and semisimple Lie algebras (with a focus on analytic techniques).'].
 \##81['spring1' -> 1].
 \##81['fall1' -> 1].
@@ -929,8 +1009,9 @@ Fall,'].
 \##82['CourseTitle' -> 'Harmonic Analysis'].
 \##82['Career' -> 'Graduate'].
 \##82['Credits' -> 3].
-\##82['Prerequisites' -> [['MAT533', 'MAT536']]].
+\##82['Prerequisites' -> 'NONE'].
 \##82['Antirequisites' -> 'NONE'].
+\##82['Corequisites' -> 'NONE'].
 \##82['Description' -> 'An introduction to the methods and ideas of modern harmonic analysis, including: Fourier series and integrals (convergence, summability, L^p); Maximal functions, weak type inequalities, interpolation; the Hilbert transform; singular integrals with Calderon-Zygmund kernels; H^1 and Bounded Mean Oscillation; Muckenhoupt (A_p) weights; Multipliers; the T(1) theorem. Offered every second year.'].
 \##82['spring1' -> 1].
 \##82['fall1' -> 1].
@@ -940,8 +1021,9 @@ Fall,'].
 \##83['CourseTitle' -> 'Ergodic Theory and Smooth Dynamics'].
 \##83['Career' -> 'Graduate'].
 \##83['Credits' -> 3].
-\##83['Prerequisites' -> [['MAT531', 'MAT533', 'MAT536']]].
+\##83['Prerequisites' -> 'NONE'].
 \##83['Antirequisites' -> 'NONE'].
+\##83['Corequisites' -> 'NONE'].
 \##83['Description' -> 'This course will give an overview of the main known topological, geometrical, and measure theoretical phenomena of smooth dynamics:
 1) Zero entropy of dynamics: Circle diffeomorphisms, KAM, period doubling, renormalization.
 2)Hyperbolic dynamics: stable manifold theorem, structural stability, central limit theorem, symbolic dynamics.
@@ -957,8 +1039,9 @@ Prerequisites: MAT 531, MAT 533, MAT 536
 \##84['CourseTitle' -> 'One-dimensional Real and Complex Dynamics'].
 \##84['Career' -> 'Graduate'].
 \##84['Credits' -> 3].
-\##84['Prerequisites' -> [['MAT533', 'MAT536']]].
+\##84['Prerequisites' -> 'NONE'].
 \##84['Antirequisites' -> 'NONE'].
+\##84['Corequisites' -> 'NONE'].
 \##84['Description' -> 'Advanced material and techniques in one-dimensional dynamics. In real one-dimensional dynamics: circle diffeomorphisms, combinatorics and kneading theory, wandering intervals, ergodic properties and invariant measures, renormalization. For complex one-dimensional maps: Julia, Fatou sets, the Mandelbrot set, fixed point theory, external rays, quadratic-like maps and little Mandelbrot copies.'].
 \##84['spring1' -> 1].
 \##84['fall1' -> 1].
@@ -968,8 +1051,9 @@ Prerequisites: MAT 531, MAT 533, MAT 536
 \##85['CourseTitle' -> 'Mathematical Physics I'].
 \##85['Career' -> 'Graduate'].
 \##85['Credits' -> 3].
-\##85['Prerequisites' -> [['MAT533', 'MAT536']]].
+\##85['Prerequisites' -> 'NONE'].
 \##85['Antirequisites' -> 'NONE'].
+\##85['Corequisites' -> 'NONE'].
 \##85['Description' -> 'Classical mechanics: Lagrangian and Hamiltonian formalism, Hamiltonian group actions. Special relativity and Lorentz and Poincare groups. Classical field theories: Lagrangian and Hamiltonian formulation, Noether theorem, examples. Relativistic theories. Gauge theories: electrodynamics and Yang-Mills theories. General relativity: Einstein-Hilbert action, Einstein equations and Schwarzchild solution. Optional topics may include: Chern-Simons and topological field theories; Classical theory of spinor fields and supergeometry.'].
 \##85['spring1' -> 1].
 \##85['fall1' -> 1].
@@ -979,8 +1063,9 @@ Prerequisites: MAT 531, MAT 533, MAT 536
 \##86['CourseTitle' -> 'Mathematical Physics II'].
 \##86['Career' -> 'Graduate'].
 \##86['Credits' -> 3].
-\##86['Prerequisites' -> [['MAT533', 'MAT536']]].
+\##86['Prerequisites' -> 'NONE'].
 \##86['Antirequisites' -> 'NONE'].
+\##86['Corequisites' -> 'NONE'].
 \##86['Description' -> 'Quantum mechanics: Heisenberg and Schrodinger formalism, examples. Feynman path integral. Quantum field theory: Canonical quantization, Fock space and creation/annihilation operators. Relativistic particles and unitary representations of the Poincare group. Path integral formalism for fields. Quantization of gauge fields, gauge fixing. Optional topics may include: Dirac equation and spinors, integration over anticommuting variables. Supersymmetric quantum field theories. Topological quantum field theories and other examples, localization.'].
 \##86['spring1' -> 1].
 \##86['fall1' -> 1].
@@ -992,6 +1077,7 @@ Prerequisites: MAT 531, MAT 533, MAT 536
 \##87['Credits' -> 3].
 \##87['Prerequisites' -> 'NONE'].
 \##87['Antirequisites' -> 'NONE'].
+\##87['Corequisites' -> 'NONE'].
 \##87['Description' -> 'Hamilton's equations and their physical origin, symplectic manifolds and various submanifolds; Moser arguments including Darboux theorem and Moser neighborhood theorems, contact manifolds, contact hypersurfaces, symplectizations, Legendrian front diagrams, topological Legendrian knot invariants, almost complex structures compatible with symplectic form, Hamiltonian group actions and symplectic reduction, symplectic toric manifolds, h principle with emphasis on holonomic approximation theorem along with applications to symplectic and contact geometry , Gromov non squeezing theorem and a summary of pseudoholomorphic curve theory.
 Prerequisite: MAT 531'].
 \##87['spring1' -> 1].
@@ -1002,8 +1088,9 @@ Prerequisite: MAT 531'].
 \##88['CourseTitle' -> 'Differential Topology'].
 \##88['Career' -> 'Graduate'].
 \##88['Credits' -> 3].
-\##88['Prerequisites' -> [['MAT531']]].
+\##88['Prerequisites' -> 'NONE'].
 \##88['Antirequisites' -> 'NONE'].
+\##88['Corequisites' -> 'NONE'].
 \##88['Description' -> 'Vector bundles, transversality, and characteristic classes. Further topics such as imbeddings and immersions, intersection theory, surgery, and foliations.
 Prerequisite: MAT 531
 Fall,'].
@@ -1015,8 +1102,9 @@ Fall,'].
 \##89['CourseTitle' -> 'Differential Geometry'].
 \##89['Career' -> 'Graduate'].
 \##89['Credits' -> 3].
-\##89['Prerequisites' -> [['MAT531']]].
+\##89['Prerequisites' -> 'NONE'].
 \##89['Antirequisites' -> 'NONE'].
+\##89['Corequisites' -> 'NONE'].
 \##89['Description' -> 'Connections, curvature, geodesics, parallelism, and completeness. Riemannian manifolds, geometry of sub-manifolds; method of integral formulas; applications to global extrinsic theorems. Riemannian curvature. Gauss-Bonnet theorem, Hopf-Rinow theorem.
 Prerequisite: MAT 531
 Fall,'].
@@ -1028,8 +1116,9 @@ Fall,'].
 \##90['CourseTitle' -> 'Differential Geometry'].
 \##90['Career' -> 'Graduate'].
 \##90['Credits' -> 3].
-\##90['Prerequisites' -> [['MAT568']]].
+\##90['Prerequisites' -> 'NONE'].
 \##90['Antirequisites' -> 'NONE'].
+\##90['Corequisites' -> 'NONE'].
 \##90['Description' -> 'A broad introduction to the fundamentals of modern Riemannian geometry, including major ideas and useful techniques: holonomy groups, symmetric spaces; Riemannian submersions; constructing manifolds of non-negative sectional curvature; Ricci and scalar curvature; Weyl curvature and conformal geometry; harmonic forms and the Hodge theorem; the Bochner technique; the Bishop-Gromov inequality; the Cheeger-Gromoll splitting theorem; Gromov-Hausdorff convergence.
 Prerequisite: MAT 568
 Spring,'].
@@ -1041,8 +1130,9 @@ Spring,'].
 \##91['CourseTitle' -> 'Introduction to Algebraic Geometry'].
 \##91['Career' -> 'Graduate'].
 \##91['Credits' -> 3].
-\##91['Prerequisites' -> [['MAT536']]].
+\##91['Prerequisites' -> 'NONE'].
 \##91['Antirequisites' -> 'NONE'].
+\##91['Corequisites' -> 'NONE'].
 \##91['Description' -> 'This course offers a systematic introduction to algebraic geometry, from a modern, scheme-theoretic perspective.'].
 \##91['spring1' -> 1].
 \##91['fall1' -> 1].
@@ -1054,6 +1144,7 @@ Spring,'].
 \##92['Credits' -> 3].
 \##92['Prerequisites' -> 'NONE'].
 \##92['Antirequisites' -> 'NONE'].
+\##92['Corequisites' -> 'NONE'].
 \##92['Description' -> 'Seminar and workshop for new teaching assistants.
 Fall,'].
 \##92['spring1' -> 1].
@@ -1066,6 +1157,7 @@ Fall,'].
 \##93['Credits' -> '1.00 - 12.00'].
 \##93['Prerequisites' -> 'NONE'].
 \##93['Antirequisites' -> 'NONE'].
+\##93['Corequisites' -> 'NONE'].
 \##93['Description' -> ''].
 \##93['spring1' -> 1].
 \##93['fall1' -> 1].
@@ -1077,6 +1169,7 @@ Fall,'].
 \##94['Credits' -> 3].
 \##94['Prerequisites' -> 'NONE'].
 \##94['Antirequisites' -> 'NONE'].
+\##94['Corequisites' -> 'NONE'].
 \##94['Description' -> 'Typical topics are drawn from group theory, ring theory, representation theory of groups and algebras, fields and commutative algebra, homological algebra.
 Prerequisite: Permission of instructor
 Fall,'].
@@ -1090,6 +1183,7 @@ Fall,'].
 \##95['Credits' -> 3].
 \##95['Prerequisites' -> 'NONE'].
 \##95['Antirequisites' -> 'NONE'].
+\##95['Corequisites' -> 'NONE'].
 \##95['Description' -> 'Typical topics are drawn from group theory, ring theory, representation theory of groups and algebras, fields and commutative algebra, homological algebra.
 Prerequisite: Permission of instructor
 Fall,'].
@@ -1103,6 +1197,7 @@ Fall,'].
 \##96['Credits' -> 3].
 \##96['Prerequisites' -> 'NONE'].
 \##96['Antirequisites' -> 'NONE'].
+\##96['Corequisites' -> 'NONE'].
 \##96['Description' -> 'Typical topics are drawn from analytic number theory, algebraic number theory, diophantine equations, and transcendental number theory, with indications of methods from algebra, geometry, analysis, and logic.
 Prerequisite: Permission of instructor
 Fall,'].
@@ -1116,6 +1211,7 @@ Fall,'].
 \##97['Credits' -> 3].
 \##97['Prerequisites' -> 'NONE'].
 \##97['Antirequisites' -> 'NONE'].
+\##97['Corequisites' -> 'NONE'].
 \##97['Description' -> 'Typical topics are drawn from analytic number theory, algebraic number theory, diophantine equations, and transcendental number theory, with indications of methods from algebra, geometry, analysis, and logic.
 Prerequisite: Permission of instructor
 Fall,'].
@@ -1129,6 +1225,7 @@ Fall,'].
 \##98['Credits' -> 3].
 \##98['Prerequisites' -> 'NONE'].
 \##98['Antirequisites' -> 'NONE'].
+\##98['Corequisites' -> 'NONE'].
 \##98['Description' -> 'Typical topics are drawn from varieties and schemes, algebraic curves, and their arithmetics. Fall
 Prerequisite: Permission of instructor'].
 \##98['spring1' -> 1].
@@ -1141,6 +1238,7 @@ Prerequisite: Permission of instructor'].
 \##99['Credits' -> 3].
 \##99['Prerequisites' -> 'NONE'].
 \##99['Antirequisites' -> 'NONE'].
+\##99['Corequisites' -> 'NONE'].
 \##99['Description' -> 'Typical topics are drawn from varieties and schemes, algebraic curves, and their arithmetics. Fall
 Prerequisite: Permission of instructor'].
 \##99['spring1' -> 1].
@@ -1153,6 +1251,7 @@ Prerequisite: Permission of instructor'].
 \##100['Credits' -> 3].
 \##100['Prerequisites' -> 'NONE'].
 \##100['Antirequisites' -> 'NONE'].
+\##100['Corequisites' -> 'NONE'].
 \##100['Description' -> 'Topics of current interest such as foliations, surgery, singularities, group actions on manifolds, and homotopy theory.
 Prerequisite: Permission of instructor
 MAT 620 - Fall, MAT 621 - Spring,'].
@@ -1166,6 +1265,7 @@ MAT 620 - Fall, MAT 621 - Spring,'].
 \##101['Credits' -> 3].
 \##101['Prerequisites' -> 'NONE'].
 \##101['Antirequisites' -> 'NONE'].
+\##101['Corequisites' -> 'NONE'].
 \##101['Description' -> 'Topics of current interest such as foliations, surgery, singularities, group actions on manifolds, and homotopy theory.
 Prerequisite: Permission of instructor
 MAT 620 - Fall, MAT 621 - Spring,'].
@@ -1179,6 +1279,7 @@ MAT 620 - Fall, MAT 621 - Spring,'].
 \##102['Credits' -> 3].
 \##102['Prerequisites' -> 'NONE'].
 \##102['Antirequisites' -> 'NONE'].
+\##102['Corequisites' -> 'NONE'].
 \##102['Description' -> 'Topics selected from Riemann surfaces, quasiconformal mappings, several complex variables, Fuchsian groups, Kleinian groups, moduli of Riemann surfaces and Kleinian groups, analytic spaces, singularities.
 Prerequisite: Permission of instructor
 MAT 626 - Fall, MAT 627 - Spring, 3 credits, ABCF grading'].
@@ -1192,6 +1293,7 @@ MAT 626 - Fall, MAT 627 - Spring, 3 credits, ABCF grading'].
 \##103['Credits' -> 3].
 \##103['Prerequisites' -> 'NONE'].
 \##103['Antirequisites' -> 'NONE'].
+\##103['Corequisites' -> 'NONE'].
 \##103['Description' -> 'Topics selected from Riemann surfaces, quasiconformal mappings, several complex variables, Fuchsian groups, Kleinian groups, moduli of Riemann surfaces and Kleinian groups, analytic spaces, singularities.
 Prerequisite: Permission of instructor
 MAT 626 - Fall, MAT 627 - Spring, 3 credits, ABCF grading'].
@@ -1205,6 +1307,7 @@ MAT 626 - Fall, MAT 627 - Spring, 3 credits, ABCF grading'].
 \##104['Credits' -> 3].
 \##104['Prerequisites' -> 'NONE'].
 \##104['Antirequisites' -> 'NONE'].
+\##104['Corequisites' -> 'NONE'].
 \##104['Description' -> 'Typical topics are hyperbolic or elliptic systems, parabolic equations, spectral theory, finite difference equations, Cauchy-Riemann equations and complex vector fields, equations with constant coefficients, solvability of linear equations, Fourier integral operators, nonlinear equations.
 Prerequisite: Permission of instructor
 MAT 632 - Fall, MAT 633 - Spring, 3 credits, ABCF grading'].
@@ -1218,6 +1321,7 @@ MAT 632 - Fall, MAT 633 - Spring, 3 credits, ABCF grading'].
 \##105['Credits' -> 3].
 \##105['Prerequisites' -> 'NONE'].
 \##105['Antirequisites' -> 'NONE'].
+\##105['Corequisites' -> 'NONE'].
 \##105['Description' -> 'Typical topics are hyperbolic or elliptic systems, parabolic equations, spectral theory, finite difference equations, Cauchy-Riemann equations and complex vector fields, equations with constant coefficients, solvability of linear equations, Fourier integral operators, nonlinear equations.
 Prerequisite: Permission of instructor
 MAT 632 - Fall, MAT 633 - Spring, 3 credits, ABCF grading'].
@@ -1231,6 +1335,7 @@ MAT 632 - Fall, MAT 633 - Spring, 3 credits, ABCF grading'].
 \##106['Credits' -> 3].
 \##106['Prerequisites' -> 'NONE'].
 \##106['Antirequisites' -> 'NONE'].
+\##106['Corequisites' -> 'NONE'].
 \##106['Description' -> 'Topics selected from functional analysis, harmonic analysis, Banach algebras, operator theory.
 Prerequisite: Permission of instructor
 MAT 638 - Fall, MAT 639 - Spring,'].
@@ -1244,6 +1349,7 @@ MAT 638 - Fall, MAT 639 - Spring,'].
 \##107['Credits' -> 3].
 \##107['Prerequisites' -> 'NONE'].
 \##107['Antirequisites' -> 'NONE'].
+\##107['Corequisites' -> 'NONE'].
 \##107['Description' -> 'Topics selected from functional analysis, harmonic analysis, Banach algebras, operator theory.
 Prerequisite: Permission of instructor
 MAT 638 - Fall, MAT 639 - Spring,'].
@@ -1257,6 +1363,7 @@ MAT 638 - Fall, MAT 639 - Spring,'].
 \##108['Credits' -> 3].
 \##108['Prerequisites' -> 'NONE'].
 \##108['Antirequisites' -> 'NONE'].
+\##108['Corequisites' -> 'NONE'].
 \##108['Description' -> 'Typical topics are universal enveloping algebras; free, solvable and nilpotent Lie algebras; Lie theory and formal groups; root systems, Dynkin diagrams, classification and representations of complex semisimple Lie algebras; method of orbits; representations of non-compact Lie groups; loop groups.
 Prerequisite: MAT 552
 Spring,'].
@@ -1270,6 +1377,7 @@ Spring,'].
 \##109['Credits' -> 3].
 \##109['Prerequisites' -> 'NONE'].
 \##109['Antirequisites' -> 'NONE'].
+\##109['Corequisites' -> 'NONE'].
 \##109['Description' -> 'Typical topics will be drawn from areas such as comparison theorems, pinching theorems, Morse theory, characteristic classes, minimal varieties, Hodge theory, spectrum of the Laplacian, and geometry of general relativity.
 Prerequisite: Permission of instructor
 MAT 644 - Fall, MAT 645 - Spring,'].
@@ -1283,6 +1391,7 @@ MAT 644 - Fall, MAT 645 - Spring,'].
 \##110['Credits' -> 3].
 \##110['Prerequisites' -> 'NONE'].
 \##110['Antirequisites' -> 'NONE'].
+\##110['Corequisites' -> 'NONE'].
 \##110['Description' -> 'Typical topics will be drawn from areas such as comparison theorems, pinching theorems, Morse theory, characteristic classes, minimal varieties, Hodge theory, spectrum of the Laplacian, and geometry of general relativity.
 Prerequisite: Permission of instructor
 MAT 644 - Fall, MAT 645 - Spring,'].
@@ -1296,6 +1405,7 @@ MAT 644 - Fall, MAT 645 - Spring,'].
 \##111['Credits' -> 3].
 \##111['Prerequisites' -> 'NONE'].
 \##111['Antirequisites' -> 'NONE'].
+\##111['Corequisites' -> 'NONE'].
 \##111['Description' -> 'Typical topics are mathematical methods of classical and quantum mechanics; methods of functional integration and its applications; infinite-dimensional Lie algebras, quantum groups and representations; conformal field theories; super-symmetry; topological quantum field theories; gauge theories and geometry in four-dimensions; supergravity and mirror symmetry; strings.
 Prerequisite: Permission of instructor
 MAT 648 - Fall, MAT 649 - Spring,'].
@@ -1309,6 +1419,7 @@ MAT 648 - Fall, MAT 649 - Spring,'].
 \##112['Credits' -> 3].
 \##112['Prerequisites' -> 'NONE'].
 \##112['Antirequisites' -> 'NONE'].
+\##112['Corequisites' -> 'NONE'].
 \##112['Description' -> 'Typical topics are mathematical methods of classical and quantum mechanics; methods of functional integration and its applications; infinite-dimensional Lie algebras, quantum groups and representations; conformal field theories; super-symmetry; topological quantum field theories; gauge theories and geometry in four-dimensions; supergravity and mirror symmetry; strings.
 Prerequisite: Permission of instructor
 MAT 648 - Fall, MAT 649 - Spring,'].
@@ -1322,6 +1433,7 @@ MAT 648 - Fall, MAT 649 - Spring,'].
 \##113['Credits' -> 3].
 \##113['Prerequisites' -> 'NONE'].
 \##113['Antirequisites' -> 'NONE'].
+\##113['Corequisites' -> 'NONE'].
 \##113['Description' -> 'Typical topics are drawn from holomorphic and low-dimensional dynamics, hyperbolic dynamics, theory of Hamiltonian systems, ergodic theory, and bifurcation theory.
 Prerequisite: Permission of instructor
 MAT 655 - Fall, MAT 656 - Spring, 3 credits, ABCF grading'].
@@ -1335,6 +1447,7 @@ MAT 655 - Fall, MAT 656 - Spring, 3 credits, ABCF grading'].
 \##114['Credits' -> 3].
 \##114['Prerequisites' -> 'NONE'].
 \##114['Antirequisites' -> 'NONE'].
+\##114['Corequisites' -> 'NONE'].
 \##114['Description' -> 'Typical topics are drawn from holomorphic and low-dimensional dynamics, hyperbolic dynamics, theory of Hamiltonian systems, ergodic theory, and bifurcation theory.
 Prerequisite: Permission of instructor
 MAT 655 - Fall, MAT 656 - Spring, 3 credits, ABCF grading'].
@@ -1348,6 +1461,7 @@ MAT 655 - Fall, MAT 656 - Spring, 3 credits, ABCF grading'].
 \##115['Credits' -> 3].
 \##115['Prerequisites' -> 'NONE'].
 \##115['Antirequisites' -> 'NONE'].
+\##115['Corequisites' -> 'NONE'].
 \##115['Description' -> 'Prerequisite: Permission of instructor
 MAT 662 - Fall, MAT 663 - Spring,'].
 \##115['spring1' -> 1].
@@ -1360,6 +1474,7 @@ MAT 662 - Fall, MAT 663 - Spring,'].
 \##116['Credits' -> 3].
 \##116['Prerequisites' -> 'NONE'].
 \##116['Antirequisites' -> 'NONE'].
+\##116['Corequisites' -> 'NONE'].
 \##116['Description' -> 'Prerequisite: Permission of instructor
 MAT 662 - Fall, MAT 663 - Spring,'].
 \##116['spring1' -> 1].
@@ -1372,6 +1487,7 @@ MAT 662 - Fall, MAT 663 - Spring,'].
 \##117['Credits' -> 3].
 \##117['Prerequisites' -> 'NONE'].
 \##117['Antirequisites' -> 'NONE'].
+\##117['Corequisites' -> 'NONE'].
 \##117['Description' -> 'Prerequisite: Permission of instructor
 MAT 666 - Fall, MAT 667 - Spring,'].
 \##117['spring1' -> 1].
@@ -1384,6 +1500,7 @@ MAT 666 - Fall, MAT 667 - Spring,'].
 \##118['Credits' -> 3].
 \##118['Prerequisites' -> 'NONE'].
 \##118['Antirequisites' -> 'NONE'].
+\##118['Corequisites' -> 'NONE'].
 \##118['Description' -> 'Prerequisite: Permission of instructor
 MAT 666 - Fall, MAT 667 - Spring,'].
 \##118['spring1' -> 1].
@@ -1396,6 +1513,7 @@ MAT 666 - Fall, MAT 667 - Spring,'].
 \##119['Credits' -> 3].
 \##119['Prerequisites' -> 'NONE'].
 \##119['Antirequisites' -> 'NONE'].
+\##119['Corequisites' -> 'NONE'].
 \##119['Description' -> 'Prerequisite: Permission of instructor
 MAT 670 - Fall, MAT 671 - Spring,'].
 \##119['spring1' -> 1].
@@ -1408,6 +1526,7 @@ MAT 670 - Fall, MAT 671 - Spring,'].
 \##120['Credits' -> 3].
 \##120['Prerequisites' -> 'NONE'].
 \##120['Antirequisites' -> 'NONE'].
+\##120['Corequisites' -> 'NONE'].
 \##120['Description' -> 'Prerequisite: Permission of instructor
 MAT 670 - Fall, MAT 671 - Spring,'].
 \##120['spring1' -> 1].
@@ -1420,6 +1539,7 @@ MAT 670 - Fall, MAT 671 - Spring,'].
 \##121['Credits' -> 3].
 \##121['Prerequisites' -> 'NONE'].
 \##121['Antirequisites' -> 'NONE'].
+\##121['Corequisites' -> 'NONE'].
 \##121['Description' -> 'Prerequisite: Permission of instructor
 MAT 674 - Fall, MAT 675 - Spring,'].
 \##121['spring1' -> 1].
@@ -1432,6 +1552,7 @@ MAT 674 - Fall, MAT 675 - Spring,'].
 \##122['Credits' -> 3].
 \##122['Prerequisites' -> 'NONE'].
 \##122['Antirequisites' -> 'NONE'].
+\##122['Corequisites' -> 'NONE'].
 \##122['Description' -> 'Prerequisite: Permission of instructor
 MAT 674 - Fall, MAT 675 - Spring,'].
 \##122['spring1' -> 1].
@@ -1444,6 +1565,7 @@ MAT 674 - Fall, MAT 675 - Spring,'].
 \##123['Credits' -> 3].
 \##123['Prerequisites' -> 'NONE'].
 \##123['Antirequisites' -> 'NONE'].
+\##123['Corequisites' -> 'NONE'].
 \##123['Description' -> 'Prerequisite: Permission of instructor
 MAT 678 - Fall, MAT 679 - Spring,'].
 \##123['spring1' -> 1].
@@ -1456,6 +1578,7 @@ MAT 678 - Fall, MAT 679 - Spring,'].
 \##124['Credits' -> 3].
 \##124['Prerequisites' -> 'NONE'].
 \##124['Antirequisites' -> 'NONE'].
+\##124['Corequisites' -> 'NONE'].
 \##124['Description' -> 'Prerequisite: Permission of instructor
 MAT 678 - Fall, MAT 679 - Spring,'].
 \##124['spring1' -> 1].
@@ -1468,6 +1591,7 @@ MAT 678 - Fall, MAT 679 - Spring,'].
 \##125['Credits' -> 3].
 \##125['Prerequisites' -> 'NONE'].
 \##125['Antirequisites' -> 'NONE'].
+\##125['Corequisites' -> 'NONE'].
 \##125['Description' -> 'Prerequisite: Permission of instructor
 MAT 682 - Fall, MAT 683 - Spring,'].
 \##125['spring1' -> 1].
@@ -1480,6 +1604,7 @@ MAT 682 - Fall, MAT 683 - Spring,'].
 \##126['Credits' -> 3].
 \##126['Prerequisites' -> 'NONE'].
 \##126['Antirequisites' -> 'NONE'].
+\##126['Corequisites' -> 'NONE'].
 \##126['Description' -> 'Prerequisite: Permission of instructor
 MAT 682 - Fall, MAT 683 - Spring,'].
 \##126['spring1' -> 1].
@@ -1492,6 +1617,7 @@ MAT 682 - Fall, MAT 683 - Spring,'].
 \##127['Credits' -> 3].
 \##127['Prerequisites' -> 'NONE'].
 \##127['Antirequisites' -> 'NONE'].
+\##127['Corequisites' -> 'NONE'].
 \##127['Description' -> 'An advanced topic selected from holomorphic and low-dimensional dynamics, hyperbolic dynamics, KAM theory, smooth ergodic theory, geodesic flows, bifurcation theory.
 Prerequisite: Permission of instructor
 MAT 685 - Fall, MAT 686 - Spring, 3 credits, ABCF grading'].
@@ -1505,6 +1631,7 @@ MAT 685 - Fall, MAT 686 - Spring, 3 credits, ABCF grading'].
 \##128['Credits' -> 3].
 \##128['Prerequisites' -> 'NONE'].
 \##128['Antirequisites' -> 'NONE'].
+\##128['Corequisites' -> 'NONE'].
 \##128['Description' -> 'An advanced topic selected from holomorphic and low-dimensional dynamics, hyperbolic dynamics, KAM theory, smooth ergodic theory, geodesic flows, bifurcation theory.
 Prerequisite: Permission of instructor
 MAT 685 - Fall, MAT 686 - Spring, 3 credits, ABCF grading'].
@@ -1518,6 +1645,7 @@ MAT 685 - Fall, MAT 686 - Spring, 3 credits, ABCF grading'].
 \##129['Credits' -> 3].
 \##129['Prerequisites' -> 'NONE'].
 \##129['Antirequisites' -> 'NONE'].
+\##129['Corequisites' -> 'NONE'].
 \##129['Description' -> 'Fall, 3 credits, Letter graded (A, A-, B+, etc.)'].
 \##129['spring1' -> 1].
 \##129['fall1' -> 1].
@@ -1529,6 +1657,7 @@ MAT 685 - Fall, MAT 686 - Spring, 3 credits, ABCF grading'].
 \##130['Credits' -> 3].
 \##130['Prerequisites' -> 'NONE'].
 \##130['Antirequisites' -> 'NONE'].
+\##130['Corequisites' -> 'NONE'].
 \##130['Description' -> 'Spring, 3 credits, Letter graded (A, A-, B+, etc.)'].
 \##130['spring1' -> 1].
 \##130['fall1' -> 1].
@@ -1540,6 +1669,7 @@ MAT 685 - Fall, MAT 686 - Spring, 3 credits, ABCF grading'].
 \##131['Credits' -> '1.00 - 12.00'].
 \##131['Prerequisites' -> 'NONE'].
 \##131['Antirequisites' -> 'NONE'].
+\##131['Corequisites' -> 'NONE'].
 \##131['Description' -> ''].
 \##131['spring1' -> 1].
 \##131['fall1' -> 1].
@@ -1551,6 +1681,7 @@ MAT 685 - Fall, MAT 686 - Spring, 3 credits, ABCF grading'].
 \##132['Credits' -> '1.00 - 12.00'].
 \##132['Prerequisites' -> 'NONE'].
 \##132['Antirequisites' -> 'NONE'].
+\##132['Corequisites' -> 'NONE'].
 \##132['Description' -> ''].
 \##132['spring1' -> 1].
 \##132['fall1' -> 1].
@@ -1562,6 +1693,7 @@ MAT 685 - Fall, MAT 686 - Spring, 3 credits, ABCF grading'].
 \##133['Credits' -> '1.00 - 12.00'].
 \##133['Prerequisites' -> 'NONE'].
 \##133['Antirequisites' -> 'NONE'].
+\##133['Corequisites' -> 'NONE'].
 \##133['Description' -> ''].
 \##133['spring1' -> 1].
 \##133['fall1' -> 1].
@@ -1573,6 +1705,7 @@ MAT 685 - Fall, MAT 686 - Spring, 3 credits, ABCF grading'].
 \##134['Credits' -> '1.00 - 9.00'].
 \##134['Prerequisites' -> 'NONE'].
 \##134['Antirequisites' -> 'NONE'].
+\##134['Corequisites' -> 'NONE'].
 \##134['Description' -> 'Dissertation research under direction of advisor.
 Prerequisite: Advancement to candidacy (G5). Major portion of research must take place on SBU campus, at Cold Spring Harbor, or at the Brookhaven National Lab.
 Fall, Spring, and Summer,'].
@@ -1586,6 +1719,7 @@ Fall, Spring, and Summer,'].
 \##135['Credits' -> '1.00 - 9.00'].
 \##135['Prerequisites' -> 'NONE'].
 \##135['Antirequisites' -> 'NONE'].
+\##135['Corequisites' -> 'NONE'].
 \##135['Description' -> 'Prerequisite: Must be advanced to candidacy (G5). Major portion of research will take place off-campus, but in the United States and/or U.S. provinces. Please note, Brookhaven National Labs and the Cold Spring Harbor Lab are considered on-campus.
 All international students must enroll in one of the graduate student insurance plans and should be advised by an International Advisor.
 Fall, Spring, Summer'].
@@ -1599,6 +1733,7 @@ Fall, Spring, Summer'].
 \##136['Credits' -> '1.00 - 9.00'].
 \##136['Prerequisites' -> 'NONE'].
 \##136['Antirequisites' -> 'NONE'].
+\##136['Corequisites' -> 'NONE'].
 \##136['Description' -> 'Prerequisite: Must be advanced to candidacy (G5). Major portion of research will take place outside of the United States and/or U.S. provinces.
 Domestic students have the option of the health plan and may also enroll in MEDEX.
 International students who are in their home country are not covered by mandatory health plan and must contact the Insurance Office for the insurance charge to be removed.
@@ -1615,6 +1750,7 @@ Fall, Spring, Summer'].
 \##137['Credits' -> 0].
 \##137['Prerequisites' -> 'NONE'].
 \##137['Antirequisites' -> 'NONE'].
+\##137['Corequisites' -> 'NONE'].
 \##137['Description' -> ''].
 \##137['spring1' -> 1].
 \##137['fall1' -> 1].

@@ -5,6 +5,7 @@
 \##2['Credits' -> 1].
 \##2['Prerequisites' -> 'NONE'].
 \##2['Antirequisites' -> 'NONE'].
+\##2['Corequisites' -> 'NONE'].
 \##2['Description' -> 'Seminar designed to introduce students to the excitement of modern astronomy, focusing on the most recent discoveries, as reported in the media. The course provides sufficient scientific background to enable students to understand the impact of these discoveries.'].
 \##2['spring1' -> 1].
 \##2['fall1' -> 1].
@@ -16,6 +17,7 @@
 \##3['Credits' -> 3].
 \##3['Prerequisites' -> 'NONE'].
 \##3['Antirequisites' -> 'NONE'].
+\##3['Corequisites' -> 'NONE'].
 \##3['Description' -> 'Description of planets, stars, galaxies, black holes, pulsars, quasars, supernovae, and white dwarfs. Man's place in the cosmos. Cosmological theories. Students with better science preparation are encouraged to take AST 203. Not for major credit. Not for credit in addition to AST 203.'].
 \##3['spring1' -> 1].
 \##3['fall1' -> 1].
@@ -27,6 +29,7 @@
 \##4['Credits' -> 3].
 \##4['Prerequisites' -> 'NONE'].
 \##4['Antirequisites' -> 'NONE'].
+\##4['Corequisites' -> 'NONE'].
 \##4['Description' -> 'A general survey of present knowledge of the planets, satellites, interplanetary medium, comets, asteroids, and outer regions of the sun. Begins with a historical introduction and discussion of the methods of science. Emphasizes current NASA deep-space exploration missions and other modern astronomical methods. Not for major credit. Not for credit in addition to AST 205 or GEO 106.'].
 \##4['spring1' -> 1].
 \##4['fall1' -> 1].
@@ -36,8 +39,9 @@
 \##5['CourseTitle' -> 'Astronomy Laboratory'].
 \##5['Career' -> 'Undergraduate'].
 \##5['Credits' -> 1].
-\##5['Prerequisites' -> [['AST101']]].
+\##5['Prerequisites' -> 'NONE'].
 \##5['Antirequisites' -> 'NONE'].
+\##5['Corequisites' -> [['AST101']]].
 \##5['Description' -> 'An introduction to observational activities in astronomy. Students make astronomical measurements using simple instruments such as a quadrant, cross-staff, spectrometer, and telescope; analyze measurements; examine how quantities of interest and their errors are derived from the measurements and how they are properly reported. Not for major credit. This course has an associated fee. Please see www.stonybrook.edu/coursefees for more information.'].
 \##5['spring1' -> 1].
 \##5['fall1' -> 1].
@@ -49,6 +53,7 @@
 \##6['Credits' -> 1].
 \##6['Prerequisites' -> 'NONE'].
 \##6['Antirequisites' -> 'NONE'].
+\##6['Corequisites' -> 'NONE'].
 \##6['Description' -> 'Seminar designed to introduce students to astronomical research currently underway at Stony Brook. Faculty actively engaged in cutting edge research using facilities such as the Hubble space telescope, the CHANDRA X-Ray Observatory, the Keck and Gemini telescopes, or supercomputers give presentations on their own research. Appropriate for students considering undergraduate research in astronomy as well as students interested in current astronomy.'].
 \##6['spring1' -> 1].
 \##6['fall1' -> 1].
@@ -60,6 +65,7 @@
 \##7['Credits' -> 4].
 \##7['Prerequisites' -> [['PHY125', 'PHY131', 'PHY141']]].
 \##7['Antirequisites' -> 'NONE'].
+\##7['Corequisites' -> 'NONE'].
 \##7['Description' -> 'A survey of the physical nature of the universe for the student with some background in physics and mathematics. May not be taken for credit in addition to AST 101. Optional evening observing sessions with be held during the semester.'].
 \##7['spring1' -> 1].
 \##7['fall1' -> 1].
@@ -71,6 +77,7 @@
 \##8['Credits' -> 3].
 \##8['Prerequisites' -> [['PHY125', 'PHY131', 'PHY141']]].
 \##8['Antirequisites' -> 'NONE'].
+\##8['Corequisites' -> 'NONE'].
 \##8['Description' -> 'An introduction to the solar system for the student with a background in mathematics or physical sciences. A survey of the planets, comets, asteroids, and interplanetary medium, based upon the latest scientific discoveries. Not for credit in addition to AST 105 or GEO 106.'].
 \##8['spring1' -> 1].
 \##8['fall1' -> 1].
@@ -82,6 +89,7 @@
 \##9['Credits' -> 3].
 \##9['Prerequisites' -> 'NONE'].
 \##9['Antirequisites' -> 'NONE'].
+\##9['Corequisites' -> 'NONE'].
 \##9['Description' -> 'A study of the role of science in modern society through investigation of the question: Does life exist elsewhere in the universe? Topics include a review of the astronomical and biological settings; the origin of life on the earth and possibly elsewhere; the evolution of life and the development of intelligence and technology. Also discussed are the ramifications of the development of life and intelligence for the atmosphere and the biosphere.'].
 \##9['spring1' -> 1].
 \##9['fall1' -> 1].
@@ -93,6 +101,7 @@
 \##10['Credits' -> '0.00 - 3.00'].
 \##10['Prerequisites' -> 'NONE'].
 \##10['Antirequisites' -> 'NONE'].
+\##10['Corequisites' -> 'NONE'].
 \##10['Description' -> 'Independent research under the supervision of a faculty member, at a level appropriate for lower-division students. May be repeated.'].
 \##10['spring1' -> 1].
 \##10['fall1' -> 1].
@@ -104,6 +113,7 @@
 \##11['Credits' -> 3].
 \##11['Prerequisites' -> [['MAT125', 'AMS151'], ['PHY121', 'PHY125', 'PHY131', 'PHY141']]].
 \##11['Antirequisites' -> 'NONE'].
+\##11['Corequisites' -> 'NONE'].
 \##11['Description' -> 'A discussion of the evidence that comet and asteroid impacts have played a significant part in the evolution of the Earth, and other planets of the solar system, as well as an assessment of the actual and perceived hazard posed by terrestrial impacts and discussion of what can be done about it. The course follows an interdisciplinary approach and is not for major credit.'].
 \##11['spring1' -> 1].
 \##11['fall1' -> 1].
@@ -115,6 +125,7 @@
 \##12['Credits' -> 3].
 \##12['Prerequisites' -> [['AST203'], ['PHY251'], ['PHY277'], ['MAT203', 'AMS261']]].
 \##12['Antirequisites' -> 'NONE'].
+\##12['Corequisites' -> 'NONE'].
 \##12['Description' -> 'An introduction to, and development of, a firm physical understanding of the observed properties of stars.  Topics include the structure of the interior and atmosphere of stars, the transfer of energy by radiation in plasmas, the evolution of stars, and the end stages of stellar evolution, including white dwarfs, neutron stars, black holes and supernovae, with careful attention to the comparison of the predictions with observations.'].
 \##12['spring1' -> 1].
 \##12['fall1' -> 1].
@@ -126,6 +137,7 @@
 \##13['Credits' -> '0.00 - 1.00'].
 \##13['Prerequisites' -> 'NONE'].
 \##13['Antirequisites' -> 'NONE'].
+\##13['Corequisites' -> 'NONE'].
 \##13['Description' -> 'Student participation in faculty-directed research projects.'].
 \##13['spring1' -> 1].
 \##13['fall1' -> 1].
@@ -137,6 +149,7 @@
 \##14['Credits' -> 3].
 \##14['Prerequisites' -> [['AST203'], ['PHY251'], ['MAT203', 'AMS261']]].
 \##14['Antirequisites' -> 'NONE'].
+\##14['Corequisites' -> 'NONE'].
 \##14['Description' -> 'An introduction to the properties of galaxies, including the Milky Way and others. Examination of the physical processes that govern the stars, dust, and gas in galaxies. Stellar constituents of galaxies, equilibria of collisionless systems, gas dynamics, and radiative processes.'].
 \##14['spring1' -> 1].
 \##14['fall1' -> 1].
@@ -148,6 +161,7 @@
 \##15['Credits' -> 3].
 \##15['Prerequisites' -> [['AST203'], ['PHY251'], ['MAT203', 'AMS261']]].
 \##15['Antirequisites' -> 'NONE'].
+\##15['Corequisites' -> 'NONE'].
 \##15['Description' -> 'An introduction to physical cosmology. Examination of the physical properties that govern the galaxies and intergalactic matter in the universe. Expansion of the universe and the Friedmann equations, microwave background variation, thermal history of the universe, and nucleosynthesis.'].
 \##15['spring1' -> 1].
 \##15['fall1' -> 1].
@@ -159,6 +173,7 @@
 \##16['Credits' -> 3].
 \##16['Prerequisites' -> [['WRT102']]].
 \##16['Antirequisites' -> 'NONE'].
+\##16['Corequisites' -> 'NONE'].
 \##16['Description' -> 'The literary genre called Science Fiction enables us to explore our nature, and that of the universe we inhabit, by postulating worlds, cultures and technologies that do not (yet) exist, but could, and the consequences thereof. This course focuses on the sub-genre called hard science fiction, in which the science/technology is more or less plausible. Students should be prepared to address the genre from both its scientific and literary sides. Covers the Genre / Media topic for the English major. This course is offered as  both  AST 389 and EGL 389.'].
 \##16['spring1' -> 1].
 \##16['fall1' -> 1].
@@ -170,6 +185,7 @@
 \##17['Credits' -> 3].
 \##17['Prerequisites' -> [['AST203', 'PHY277', 'MAT203', 'AMS261']]].
 \##17['Antirequisites' -> 'NONE'].
+\##17['Corequisites' -> 'NONE'].
 \##17['Description' -> 'Covers selected topics in astrophysics and cosmology, such as black holes, neutron stars, and gravitational waves; computational astrophysics; astrobiology and exoplanets; high-energy astrophysics; etc. Topics may be repeated every few years. May be repeated to a maximum of 6 credits under different course topics.'].
 \##17['spring1' -> 1].
 \##17['fall1' -> 1].
@@ -181,6 +197,7 @@
 \##18['Credits' -> 4].
 \##18['Prerequisites' -> [['AST203'], ['PHY277'], ['WRT102']]].
 \##18['Antirequisites' -> 'NONE'].
+\##18['Corequisites' -> 'NONE'].
 \##18['Description' -> 'An introduction to modern astronomical instrumentation and data handling and to the use of telescopes. Emphasis on techniques and equipment appropriate for wavelengths shorter than one micron. Extensive laboratory and observing exercises are required. This course has an associated fee. Please see www.stonybrook.edu/coursefees for more information.'].
 \##18['spring1' -> 1].
 \##18['fall1' -> 1].
@@ -192,6 +209,7 @@
 \##19['Credits' -> 0].
 \##19['Prerequisites' -> [['WRT102']]].
 \##19['Antirequisites' -> 'NONE'].
+\##19['Corequisites' -> 'NONE'].
 \##19['Description' -> 'This course is designed for students who engage in a substantial, structured experiential learning activity in conjunction with another class. Experiential learning occurs when knowledge acquired through formal learning and past experience are applied to a "real-world" setting or problem to create new knowledge through a process of reflection, critical analysis, feedback and synthesis. Beyond-the-classroom experiences that support experiential learning may include: service learning, mentored research, field work, or an internship.'].
 \##19['spring1' -> 1].
 \##19['fall1' -> 1].
@@ -203,6 +221,7 @@
 \##20['Credits' -> '1.00 - 3.00'].
 \##20['Prerequisites' -> 'NONE'].
 \##20['Antirequisites' -> 'NONE'].
+\##20['Corequisites' -> 'NONE'].
 \##20['Description' -> 'Independent readings in advanced topics to be arranged prior to the beginning of the semester. Weekly conferences are held with a faculty member. May be repeated once.'].
 \##20['spring1' -> 1].
 \##20['fall1' -> 1].
@@ -212,8 +231,9 @@
 \##21['CourseTitle' -> 'Speak Effectively Before an Audience'].
 \##21['Career' -> 'Undergraduate'].
 \##21['Credits' -> 0].
-\##21['Prerequisites' -> [['WRT102']]].
+\##21['Prerequisites' -> 'NONE'].
 \##21['Antirequisites' -> 'NONE'].
+\##21['Corequisites' -> [['WRT102']]].
 \##21['Description' -> 'A zero credit course that may be taken in conjunction with any AST course that provides opportunity to achieve the learning outcomes of the Stony Brook Curriculum's SPK learning objective.'].
 \##21['spring1' -> 1].
 \##21['fall1' -> 1].
@@ -225,6 +245,7 @@
 \##22['Credits' -> 0].
 \##22['Prerequisites' -> [['WRT102']]].
 \##22['Antirequisites' -> 'NONE'].
+\##22['Corequisites' -> 'NONE'].
 \##22['Description' -> 'A zero credit course that may be taken in conjunction with any 300- or 400-level AST   course, with permission of the instructor. The course provides opportunity to practice the skills and techniques of effective academic writing and satisfies the learning outcomes of the Stony Brook Curriculum's WRTD learning objective.'].
 \##22['spring1' -> 1].
 \##22['fall1' -> 1].
@@ -236,6 +257,7 @@
 \##23['Credits' -> 3].
 \##23['Prerequisites' -> 'NONE'].
 \##23['Antirequisites' -> 'NONE'].
+\##23['Corequisites' -> 'NONE'].
 \##23['Description' -> 'Supervision of laboratory or recitation sections under the close guidance of the course instructor. Includes regular meetings with the instructor for purposes of planning and evaluation; supplementary reading in preparation for laboratory or recitation sessions; and opportunities to make oral presentations, provide individual or innovative instruction, and reinforce previously acquired knowledge.'].
 \##23['spring1' -> 1].
 \##23['fall1' -> 1].
@@ -247,6 +269,7 @@
 \##24['Credits' -> '0.00 - 6.00'].
 \##24['Prerequisites' -> 'NONE'].
 \##24['Antirequisites' -> 'NONE'].
+\##24['Corequisites' -> 'NONE'].
 \##24['Description' -> 'Under the supervision of a faculty member, a major in the department may conduct research for academic credit. A research proposal must be prepared by the student and submitted to the department chairperson for approval before the beginning of the semester in which credit is to be given. A written report must be submitted before the end of the semester. May be repeated.'].
 \##24['spring1' -> 1].
 \##24['fall1' -> 1].

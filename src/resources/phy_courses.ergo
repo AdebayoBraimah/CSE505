@@ -5,6 +5,7 @@
 \##2['Credits' -> 3].
 \##2['Prerequisites' -> 'NONE'].
 \##2['Antirequisites' -> 'NONE'].
+\##2['Corequisites' -> 'NONE'].
 \##2['Description' -> 'An introduction to the modern understanding of light, color, and vision, primarily for non-science majors and especially beneficial to students  majoring in visual arts or theatre.  Topics include the nature of light; the human eye and vision; illusions, color perception, and color theory; optical instruments; the camera and photography; optical phenomena in the atmosphere (mirages, rainbows, halos); and light in modern physics (relativity, lasers). Not for major credit. Not for credit in addition to PHY 122, PHY 126, PHY 132 or PHY 142. Students majoring or planning to major in PHY, AST, CHE, MAT, AMS or engineering may not take this course.'].
 \##2['spring1' -> 1].
 \##2['fall1' -> 1].
@@ -16,6 +17,7 @@
 \##3['Credits' -> 3].
 \##3['Prerequisites' -> 'NONE'].
 \##3['Antirequisites' -> 'NONE'].
+\##3['Corequisites' -> 'NONE'].
 \##3['Description' -> 'First part of an introduction to physics from the perspective of sports, especially designed for non-science majors. Basic concepts in classical mechanics and fluid dynamics are used to analyze particular actions in football, baseball, soccer, track and field, and other sports. Students learn, for example, about the knuckle ball in baseball and why it is so hard to hit, and why quarterbacks throw a football in a spiral. The concepts of heat, energy, and calories are also discussed. The laboratory component, PHY 115, may be taken concurrently with or after PHY 113. Not for credit in addition to PHY 121, PHY 125, PHY 131 or PHY 141. Students majoring or planning to major in PHY, AST, CHE, MAT, AMS or engineering may not take this course.'].
 \##3['spring1' -> 1].
 \##3['fall1' -> 1].
@@ -25,8 +27,9 @@
 \##4['CourseTitle' -> 'Physics of Sports Laboratory'].
 \##4['Career' -> 'Undergraduate'].
 \##4['Credits' -> 1].
-\##4['Prerequisites' -> [['PHY113']]].
+\##4['Prerequisites' -> 'NONE'].
 \##4['Antirequisites' -> 'NONE'].
+\##4['Corequisites' -> [['PHY113']]].
 \##4['Description' -> 'Laboratory component of PHY 113. Experiments are designed to help students better understand the physics aspects of sports. Students work in groups and conduct experiments indoors and outdoors. Knowledge of first-year college-level mathematics is recommended, but most necessary information is taught in class as needed. May be taken concurrently with or after PHY 113. This course has an associated fee. Please see www.stonybrook.edu/coursefees for more information.'].
 \##4['spring1' -> 1].
 \##4['fall1' -> 1].
@@ -38,6 +41,7 @@
 \##5['Credits' -> 4].
 \##5['Prerequisites' -> [['MAT123'], ['CHE131']]].
 \##5['Antirequisites' -> 'NONE'].
+\##5['Corequisites' -> 'NONE'].
 \##5['Description' -> 'The principles of physics as they apply to environmental issues. A review of mathematics is followed by a discussion of Newton's laws, conservation principles, topics in fluids and wave motion, optical instruments, and radioactivity. Three lectures and one laboratory session per week. This course is offered as both ENS 119 and PHY 119. This course has an associated fee. Please see www.stonybrook.edu/coursefees for more information.'].
 \##5['spring1' -> 1].
 \##5['fall1' -> 1].
@@ -49,6 +53,7 @@
 \##6['Credits' -> 4].
 \##6['Prerequisites' -> [['MAT125', 'MAT131', 'MAT141', 'AMS151']]].
 \##6['Antirequisites' -> 'NONE'].
+\##6['Corequisites' -> 'NONE'].
 \##6['Description' -> 'First part of an introduction to physics with applications to biology, primarily for students majoring in biological sciences or pre-clinical programs. Topics include mechanics, fluid mechanics, and thermodynamics. Strong algebra skills and knowledge of the ideas of calculus are required. Three lecture hours and two laboratory hours per week. PHY 121 may not be taken for credit in addition to PHY 125, 131, or 141. This course has been designated as a High Demand/Controlled Access (HD/CA) course. Students registering for HD/CA courses for the first time will have priority to do so. This course has an associated fee. Please see www.stonybrook.edu/coursefees for more information.'].
 \##6['spring1' -> 1].
 \##6['fall1' -> 1].
@@ -58,8 +63,9 @@
 \##7['CourseTitle' -> 'Physics for the Life Sciences II'].
 \##7['Career' -> 'Undergraduate'].
 \##7['Credits' -> 4].
-\##7['Prerequisites' -> [['PHY121', 'CHE132', 'CHE152']]].
+\##7['Prerequisites' -> [['PHY121']]].
 \##7['Antirequisites' -> 'NONE'].
+\##7['Corequisites' -> [['CHE132', 'CHE152']]].
 \##7['Description' -> 'Second part of an introduction to physics with applications to biology, primarily for students majoring in biological sciences or pre-clinical programs. Topics include electromagnetism, optics, acoustics, and radiation phenomena. Strong algebra skills and knowledge of the ideas of calculus are required. Three lecture hours and two laboratory hours per week. PHY 122 may not be taken for credit in addition to PHY 127, 132, or 142. This course has been designated as a High Demand/Controlled Access (HD/CA) course. Students registering for HD/CA courses for the first time will have priority to do so. This course has an associated fee. Please see www.stonybrook.edu/coursefees for more information.'].
 \##7['spring1' -> 1].
 \##7['fall1' -> 1].
@@ -69,8 +75,9 @@
 \##8['CourseTitle' -> 'Classical Physics A'].
 \##8['Career' -> 'Undergraduate'].
 \##8['Credits' -> 3].
-\##8['Prerequisites' -> [['MAT123', 'MAT125', 'MAT131', 'MAT141', 'AMS151']]].
+\##8['Prerequisites' -> [['MAT123']]].
 \##8['Antirequisites' -> 'NONE'].
+\##8['Corequisites' -> [['MAT125', 'MAT131', 'MAT141', 'AMS151']]].
 \##8['Description' -> 'First of a three-part sequence intended for physical-sciences or engineering majors. It focuses on the mechanics of point particles and simple oscillators, and emphasizes motion in one and two dimensions and the concepts
 of momentum and energy. Calculus is used concurrently with its development in MAT 125. Three lecture hours and one recitation hour per week. Not for credit in addition to PHY 121, PHY 131, or PHY 141. This course has been designated as a High Demand/Controlled Access (HD/CA) course. Students registering for HD/CA courses for the first time will have priority to do so.'].
 \##8['spring1' -> 1].
@@ -81,8 +88,9 @@ of momentum and energy. Calculus is used concurrently with its development in MA
 \##9['CourseTitle' -> 'Classical Physics B'].
 \##9['Career' -> 'Undergraduate'].
 \##9['Credits' -> 3].
-\##9['Prerequisites' -> [['PHY125', 'MAT126', 'AMS161']]].
+\##9['Prerequisites' -> [['PHY125']]].
 \##9['Antirequisites' -> 'NONE'].
+\##9['Corequisites' -> [['MAT126', 'AMS161']]].
 \##9['Description' -> 'Second or third of a three-part sequence for physical-sciences or engineering majors. It focuses on the mechanics of rigid bodies, on fluids, waves, thermodynamics, and optics. Three lecture hours and one recitation hour per week.  Associated Labs (PHY 133 or PHY 134) are offered separately. Not for credit in addition to PHY 132, or PHY 142. This course has been designated as a High Demand/Controlled Access (HD/CA) course. Students registering for HD/CA courses for the first time will have priority to do so.'].
 \##9['spring1' -> 1].
 \##9['fall1' -> 1].
@@ -92,8 +100,9 @@ of momentum and energy. Calculus is used concurrently with its development in MA
 \##10['CourseTitle' -> 'Classical Physics C'].
 \##10['Career' -> 'Undergraduate'].
 \##10['Credits' -> 3].
-\##10['Prerequisites' -> [['PHY125', 'MAT126', 'AMS161']]].
+\##10['Prerequisites' -> [['PHY125']]].
 \##10['Antirequisites' -> 'NONE'].
+\##10['Corequisites' -> [['MAT126', 'AMS161']]].
 \##10['Description' -> 'Second or third of a three-part sequence for physical-sciences or engineering majors. It focuses on electromagnetism using the concepts of vector fields and scalar potentials, and on DC and AC electric circuits. Calculus is used concurrently with its development in MAT 126. Three lecture hours and one recitation hour per week. Associated Labs (PHY 133 or PHY 134) are offered separately. Not for credit in addition to PHY 122, PHY 132, or PHY 142. This course has been designated as a High Demand/Controlled Access (HD/CA) course. Students registering for HD/CA courses for the first time will have priority to do so.'].
 \##10['spring1' -> 1].
 \##10['fall1' -> 1].
@@ -103,8 +112,9 @@ of momentum and energy. Calculus is used concurrently with its development in MA
 \##11['CourseTitle' -> 'Classical Physics I'].
 \##11['Career' -> 'Undergraduate'].
 \##11['Credits' -> 3].
-\##11['Prerequisites' -> [['MAT123', 'MAT125', 'MAT131', 'MAT141', 'AMS151']]].
+\##11['Prerequisites' -> [['MAT123']]].
 \##11['Antirequisites' -> 'NONE'].
+\##11['Corequisites' -> [['MAT125', 'MAT131', 'MAT141', 'AMS151']]].
 \##11['Description' -> 'First part of a two-semester physics sequence for physical-sciences or engineering majors who have a strong mathematics background and are ready for a fast learning pace. It covers mechanics, wave motion, kinetic theory, and thermodynamics. Calculus is used concurrently with its development in MAT 131. Three lecture hours and one recitation hour per week. The Laboratory component, PHY 133 (Lab 1), could be taken concurrently. Not for credit in addition to PHY 121, PHY 125, or PHY 141. Advanced Placement Physics or a very strong course in high school Physics is recommended. This course has been designated as a High Demand/Controlled Access (HD/CA) course. Students registering for HD/CA courses for the first time will have priority to do so.'].
 \##11['spring1' -> 1].
 \##11['fall1' -> 1].
@@ -114,8 +124,9 @@ of momentum and energy. Calculus is used concurrently with its development in MA
 \##12['CourseTitle' -> 'Classical Physics II'].
 \##12['Career' -> 'Undergraduate'].
 \##12['Credits' -> 3].
-\##12['Prerequisites' -> [['PHY131', 'PHY141', 'MAT132', 'MAT142', 'MAT126', 'MAT171', 'AMS161']]].
+\##12['Prerequisites' -> [['PHY131', 'PHY141']]].
 \##12['Antirequisites' -> 'NONE'].
+\##12['Corequisites' -> [['MAT132', 'MAT142', 'MAT126', 'MAT171', 'AMS161']]].
 \##12['Description' -> 'Second part of a two-semester physics sequence for physical-sciences or engineering majors who have a strong mathematics background and are ready for a fast learning pace. It covers electromagnetism, electric circuit theory, and optics. Calculus is used concurrently with its development in MAT 132. Three lecture hours and one recitation hour per week. The Laboratory component, PHY 134, may be taken concurrently. Not for credit in addition to PHY 122, PHY 127, or PHY 142. This course has been designated as a High Demand/Controlled Access (HD/CA) course. Students registering for HD/CA courses for the first time will have priority to do so.'].
 \##12['spring1' -> 1].
 \##12['fall1' -> 1].
@@ -125,8 +136,9 @@ of momentum and energy. Calculus is used concurrently with its development in MA
 \##13['CourseTitle' -> 'Classical Physics Laboratory I'].
 \##13['Career' -> 'Undergraduate'].
 \##13['Credits' -> 1].
-\##13['Prerequisites' -> [['PHY125', 'PHY126'], ['PHY131', 'PHY141']]].
+\##13['Prerequisites' -> 'NONE'].
 \##13['Antirequisites' -> 'NONE'].
+\##13['Corequisites' -> [['PHY125'], ['PHY126'], ['PHY131', 'PHY141']]].
 \##13['Description' -> 'Two and one half hours of laboratory per week that corresponds to the content of PHY 131 or PHY 125+PHY 126. This course has been designated as a High Demand/Controlled Access (HD/CA) course. Students registering for HD/CA courses for the first time will have priority to do so. This course has an associated fee. Please see www.stonybrook.edu/coursefees for more information.'].
 \##13['spring1' -> 1].
 \##13['fall1' -> 1].
@@ -136,8 +148,9 @@ of momentum and energy. Calculus is used concurrently with its development in MA
 \##14['CourseTitle' -> 'Classical Physics Laboratory II'].
 \##14['Career' -> 'Undergraduate'].
 \##14['Credits' -> 1].
-\##14['Prerequisites' -> [['PHY133', 'PHY126', 'PHY127'], ['PHY132'], ['PHY142']]].
+\##14['Prerequisites' -> [['PHY133']]].
 \##14['Antirequisites' -> 'NONE'].
+\##14['Corequisites' -> [['PHY126'], ['PHY127'], ['PHY132'], ['PHY142']]].
 \##14['Description' -> 'Two and one half hours of laboratory per week that corresponds to the content of PHY 132 or PHY 126+127. This course has been designated as a High Demand/Controlled Access (HD/CA) course. Students registering for HD/CA courses for the first time will have priority to do so. This course has an associated fee. Please see www.stonybrook.edu/coursefees for more information.'].
 \##14['spring1' -> 1].
 \##14['fall1' -> 1].
@@ -147,8 +160,9 @@ of momentum and energy. Calculus is used concurrently with its development in MA
 \##15['CourseTitle' -> 'Classical Physics I: Honors'].
 \##15['Career' -> 'Undergraduate'].
 \##15['Credits' -> 3].
-\##15['Prerequisites' -> [['MAT131', 'AMS151', 'MAT125', 'MAT131', 'AMS151'], ['PHY133']]].
+\##15['Prerequisites' -> 'NONE'].
 \##15['Antirequisites' -> 'NONE'].
+\##15['Corequisites' -> [['MAT131', 'AMS151'], ['PHY133']]].
 \##15['Description' -> 'First part of a demanding two-semester sequence for students with the strongest background, interests, and abilities in science and mathematics. The topics covered in PHY 141 are similar to those in PHY 131 but are treated in more depth in a small-class setting. Students may transfer to PHY 131 at any time during the first half of each semester without penalty. Three lecture hours and  one recitation hour per week. PHY 141 may not be taken for credit in addition to PHY 121, PHY 125, or PHY 131. Advanced Placement Physics or a very strong course in high school Physics is recommended. This course has an associated fee.  Please see www.stonybrook.edu/coursefees for more information.'].
 \##15['spring1' -> 1].
 \##15['fall1' -> 1].
@@ -158,8 +172,9 @@ of momentum and energy. Calculus is used concurrently with its development in MA
 \##16['CourseTitle' -> 'Classical Physics II: Honors'].
 \##16['Career' -> 'Undergraduate'].
 \##16['Credits' -> 3].
-\##16['Prerequisites' -> [['PHY141', 'MAT132', 'AMS161'], ['PHY134']]].
+\##16['Prerequisites' -> [['PHY141']]].
 \##16['Antirequisites' -> 'NONE'].
+\##16['Corequisites' -> [['MAT132', 'AMS161'], ['PHY134']]].
 \##16['Description' -> 'Second part of a demanding two-semester sequence for students with the strongest background, interests and abilities in science and mathematics. The topics covered in PHY 142 are similar to those in PHY 132, but are treated in more depth in a small-class setting. Students may transfer to PHY 132 at any time during the first half of each semester without penalty. Three lecture hours and one recitation hour per week. PHY 142 may not be taken for credit in addition to PHY 122, PHY 127, or PHY 132. This course has an associated fee.  Please see www.stonybrook.edu/coursefees for more information.'].
 \##16['spring1' -> 1].
 \##16['fall1' -> 1].
@@ -169,8 +184,9 @@ of momentum and energy. Calculus is used concurrently with its development in MA
 \##17['CourseTitle' -> 'Data Analysis for Physics and Astronomy with Python'].
 \##17['Career' -> 'Undergraduate'].
 \##17['Credits' -> 3].
-\##17['Prerequisites' -> [['PHY133', 'MAT125', 'MAT131', 'MAT141', 'AMS151', 'MAT171']]].
+\##17['Prerequisites' -> [['PHY133'], ['MAT125', 'MAT131', 'MAT141', 'AMS151', 'MAT171']]].
 \##17['Antirequisites' -> 'NONE'].
+\##17['Corequisites' -> 'NONE'].
 \##17['Description' -> 'An introduction to statistical data analysis with modern techniques, including the Python programming language on Windows computers for students with no prior experience in programming. Topics include concepts and methods to characterize experimental data such as averages, variances, standard deviations, propagation of uncertainties, probability distributions, confidence intervals, hypothesis testing, chi-squared minimization, and straight line fitting.  Emphasis on practical data centric applications--preparation for experimental laboratory work and research.  Extensive use of computers outside the classroom will be required.'].
 \##17['spring1' -> 1].
 \##17['fall1' -> 1].
@@ -182,6 +198,7 @@ of momentum and energy. Calculus is used concurrently with its development in MA
 \##18['Credits' -> 1].
 \##18['Prerequisites' -> 'NONE'].
 \##18['Antirequisites' -> 'NONE'].
+\##18['Corequisites' -> 'NONE'].
 \##18['Description' -> 'Laboratory for transfer students to supplement courses taken at another institution. Students take the laboratory portion of a 100-level course for which they have taken the theoretical portion elsewhere.'].
 \##18['spring1' -> 1].
 \##18['fall1' -> 1].
@@ -193,6 +210,7 @@ of momentum and energy. Calculus is used concurrently with its development in MA
 \##19['Credits' -> 1].
 \##19['Prerequisites' -> 'NONE'].
 \##19['Antirequisites' -> 'NONE'].
+\##19['Corequisites' -> 'NONE'].
 \##19['Description' -> 'Laboratory for transfer students to supplement courses taken at another institution. Students take the laboratory portion of a 100-level course for which they have taken the theoretical portion elsewhere.'].
 \##19['spring1' -> 1].
 \##19['fall1' -> 1].
@@ -204,6 +222,7 @@ of momentum and energy. Calculus is used concurrently with its development in MA
 \##20['Credits' -> 3].
 \##20['Prerequisites' -> 'NONE'].
 \##20['Antirequisites' -> 'NONE'].
+\##20['Corequisites' -> 'NONE'].
 \##20['Description' -> 'A study of key physics ideas that a newly-inaugurated President of the country, or a newly-hired President of a company, needs to know. This course equips the future President with enough knowledge of the physics behind a pressing issue to make an intelligent decision even in the face of conflicting advice about issues including energy,  national security, and space exploration. Politics is the art of balancing competing demands, and business involves profitably serving  customers, so the economics of many technologies will also be discussed.'].
 \##20['spring1' -> 1].
 \##20['fall1' -> 1].
@@ -215,6 +234,7 @@ of momentum and energy. Calculus is used concurrently with its development in MA
 \##21['Credits' -> 3].
 \##21['Prerequisites' -> 'NONE'].
 \##21['Antirequisites' -> 'NONE'].
+\##21['Corequisites' -> 'NONE'].
 \##21['Description' -> 'An exploration of current concerns about the greenhouse effect, acid rain, and global ozone loss, in a format accessible to non-science majors. The social and political steps being taken to limit global atmospheric pollution and climate change are discussed. Not for major credit. This course is offered as both ATM 237 and PHY 237.'].
 \##21['spring1' -> 1].
 \##21['fall1' -> 1].
@@ -224,8 +244,9 @@ of momentum and energy. Calculus is used concurrently with its development in MA
 \##22['CourseTitle' -> 'Modern Physics'].
 \##22['Career' -> 'Undergraduate'].
 \##22['Credits' -> 3].
-\##22['Prerequisites' -> [['PHY122', 'PHY126', 'PHY132', 'PHY142'], ['PHY134'], ['MAT126', 'AMS161', 'MAT203', 'MAT205', 'AMS261', 'MAT307']]].
+\##22['Prerequisites' -> [['PHY122', 'PHY126'], ['PHY132', 'PHY142'], ['PHY134'], ['MAT126', 'AMS161']]].
 \##22['Antirequisites' -> 'NONE'].
+\##22['Corequisites' -> [['MAT203', 'MAT205', 'AMS261', 'MAT307']]].
 \##22['Description' -> 'A survey of the major physics theories of the 20th century (relativity and quantum mechanics) and their impact on most areas of physics. It introduces the special theory of relativity, the concepts of quantum and wave-particle duality, Schroedinger's wave equation, and other fundamentals of quantum theory as they apply to nuclei, atoms, molecules, and solids. It is recommended that students take the laboratory component, PHY 252, concurrently. Three hours lecture and one hour recitation per week.'].
 \##22['spring1' -> 1].
 \##22['fall1' -> 1].
@@ -235,8 +256,9 @@ of momentum and energy. Calculus is used concurrently with its development in MA
 \##23['CourseTitle' -> 'Modern Physics Laboratory'].
 \##23['Career' -> 'Undergraduate'].
 \##23['Credits' -> 1].
-\##23['Prerequisites' -> [['PHY251']]].
+\##23['Prerequisites' -> 'NONE'].
 \##23['Antirequisites' -> 'NONE'].
+\##23['Corequisites' -> [['PHY251']]].
 \##23['Description' -> 'Students perform some of the pivotal experiments of the 20th century. It is recommended that students take the lecture component, PHY 251, concurrently. Two hours of laboratory per week. This course has an associated fee. Please see www.stonybrook.edu/coursefees for more information.'].
 \##23['spring1' -> 1].
 \##23['fall1' -> 1].
@@ -246,8 +268,9 @@ of momentum and energy. Calculus is used concurrently with its development in MA
 \##24['CourseTitle' -> 'Computation for Physics and Astronomy'].
 \##24['Career' -> 'Undergraduate'].
 \##24['Credits' -> 3].
-\##24['Prerequisites' -> [['PHY125', 'PHY126', 'PHY127', 'PHY133', 'PHY134'], ['PHY131', 'PHY132'], ['PHY141', 'PHY142'], ['AMS151', 'MAT126', 'MAT131', 'MAT141', 'AMS161', 'MAT127', 'MAT132', 'MAT142', 'MAT171']]].
+\##24['Prerequisites' -> [['PHY125', 'PHY126', 'PHY127'], ['PHY133', 'PHY134'], ['PHY131', 'PHY132'], ['PHY141', 'PHY142'], ['AMS151', 'MAT126', 'MAT131', 'MAT141', 'AMS161', 'MAT127', 'MAT132', 'MAT142', 'MAT171']]].
 \##24['Antirequisites' -> 'NONE'].
+\##24['Corequisites' -> 'NONE'].
 \##24['Description' -> 'An introduction to computing on UNIX/Linux computers. Fundamentals of using UNIX/Linux to write computer programs for numerical algorithms to solve computational physics and astronomy problems. Assignments are carried out in a high-level compiled programming language such as modern Fortran or C++ and require extensive use of SINC site computers outside the classroom.'].
 \##24['spring1' -> 1].
 \##24['fall1' -> 1].
@@ -259,6 +282,7 @@ of momentum and energy. Calculus is used concurrently with its development in MA
 \##25['Credits' -> '0.00 - 3.00'].
 \##25['Prerequisites' -> 'NONE'].
 \##25['Antirequisites' -> 'NONE'].
+\##25['Corequisites' -> 'NONE'].
 \##25['Description' -> 'An opportunity for students, while still early in their studies, to do research commensurate with their level of preparation. Students work alongside faculty, post-doctoral fellows, and graduate students on ongoing research projects. Students must take the initiative to negotiate the opportunity. BNL and other scientists may be allowed as co-supervisors. May be repeated up to a total of 3 credits.'].
 \##25['spring1' -> 1].
 \##25['fall1' -> 1].
@@ -270,6 +294,7 @@ of momentum and energy. Calculus is used concurrently with its development in MA
 \##26['Credits' -> 1].
 \##26['Prerequisites' -> 'NONE'].
 \##26['Antirequisites' -> 'NONE'].
+\##26['Corequisites' -> 'NONE'].
 \##26['Description' -> 'A laboratory for transfer students to supplement a course taken at another institution. Students take the laboratory portion of a 200-level course for which they have taken the theoretical portion elsewhere.'].
 \##26['spring1' -> 1].
 \##26['fall1' -> 1].
@@ -279,8 +304,9 @@ of momentum and energy. Calculus is used concurrently with its development in MA
 \##27['CourseTitle' -> 'Waves and Optics'].
 \##27['Career' -> 'Undergraduate'].
 \##27['Credits' -> 4].
-\##27['Prerequisites' -> [['PHY132', 'PHY134', 'PHY142', 'PHY134', 'PHY126', 'PHY127', 'PHY134', 'MAT203', 'MAT205', 'AMS261', 'MAT307']]].
+\##27['Prerequisites' -> [['PHY132', 'PHY134', 'PHY142', 'PHY134', 'PHY126', 'PHY127', 'PHY134']]].
 \##27['Antirequisites' -> 'NONE'].
+\##27['Corequisites' -> [['MAT203', 'MAT205', 'AMS261', 'MAT307']]].
 \##27['Description' -> 'The physics of oscillations and waves, from mechanical waves to light waves to electron waves. Topics include resonance and normal modes of coupled oscillators, the wave equation and wave propagation, interference and diffraction, polarization and imaging, coherence, and lasers. Three lecture hours and one two-hour laboratory per week. This course has an associated fee. Please see www.stonybrook.edu/coursefees for more information.'].
 \##27['spring1' -> 1].
 \##27['fall1' -> 1].
@@ -290,8 +316,9 @@ of momentum and energy. Calculus is used concurrently with its development in MA
 \##28['CourseTitle' -> 'Electromagnetic Theory I'].
 \##28['Career' -> 'Undergraduate'].
 \##28['Credits' -> 3].
-\##28['Prerequisites' -> [['PHY251', 'PHY277'], ['MAT203', 'MAT205', 'AMS261', 'MAT307', 'MAT341']]].
+\##28['Prerequisites' -> [['PHY251'], ['PHY277'], ['MAT203', 'MAT205', 'AMS261', 'MAT307']]].
 \##28['Antirequisites' -> 'NONE'].
+\##28['Corequisites' -> [['MAT341']]].
 \##28['Description' -> 'The application of Maxwell's equations to solve time-independent boundary-value problems and to study the interactions of electric and magnetic fields with bulk matter.'].
 \##28['spring1' -> 1].
 \##28['fall1' -> 1].
@@ -303,6 +330,7 @@ of momentum and energy. Calculus is used concurrently with its development in MA
 \##29['Credits' -> 3].
 \##29['Prerequisites' -> [['PHY301']]].
 \##29['Antirequisites' -> 'NONE'].
+\##29['Corequisites' -> 'NONE'].
 \##29['Description' -> 'A study of time-dependent electric and magnetic fields as derived from Maxwell's equations. Topics include the interrelations of electric and magnetic fields and their potentials; energy and momentum associated with electromagnetic fields and the Maxwell vacuum and matter; waveguides and transmission lines; special relativity for electromagnetism; retarded potentials for time-varying sources; and radiation of electromagnetic waves.'].
 \##29['spring1' -> 1].
 \##29['fall1' -> 1].
@@ -312,8 +340,9 @@ of momentum and energy. Calculus is used concurrently with its development in MA
 \##30['CourseTitle' -> 'Mechanics'].
 \##30['Career' -> 'Undergraduate'].
 \##30['Credits' -> 3].
-\##30['Prerequisites' -> [['PHY251', 'PHY277'], ['MAT303', 'MAT305', 'AMS361', 'MAT308']]].
+\##30['Prerequisites' -> [['PHY251'], ['PHY277'], ['MAT303', 'MAT305', 'AMS361', 'MAT308']]].
 \##30['Antirequisites' -> 'NONE'].
+\##30['Corequisites' -> 'NONE'].
 \##30['Description' -> 'An in-depth study of classical mechanics, from the Newtonian to the Lagrangian and Hamiltonian formulations. First, Newtonian mechanics is reviewed and applied to more advanced problems than those considered in PHY 131 or 141. The Lagrangian and Hamiltonian methods are then derived from the Newtonian treatment and applied to various problems.'].
 \##30['spring1' -> 1].
 \##30['fall1' -> 1].
@@ -325,6 +354,7 @@ of momentum and energy. Calculus is used concurrently with its development in MA
 \##31['Credits' -> 3].
 \##31['Prerequisites' -> [['PHY251']]].
 \##31['Antirequisites' -> 'NONE'].
+\##31['Corequisites' -> 'NONE'].
 \##31['Description' -> 'A study of the laws that govern physical systems in thermal equilibrium. In the first part, the concepts of temperature, internal energy, and entropy are analyzed and the first and second laws of thermodynamics are used to connect various properties that are independent of the microscopic details of the system. The second part is devoted to a microscopic study of a system in thermal equilibrium, from the kinetic theory of gases to statistical mechanics and the relation between entropy and probability, with application to simple examples in classical and quantum statistics.'].
 \##31['spring1' -> 1].
 \##31['fall1' -> 1].
@@ -334,8 +364,9 @@ of momentum and energy. Calculus is used concurrently with its development in MA
 \##32['CourseTitle' -> 'Physical and Mathematical Foundations of Quantum Mechanics'].
 \##32['Career' -> 'Undergraduate'].
 \##32['Credits' -> 4].
-\##32['Prerequisites' -> [['PHY122', 'PHY126', 'PHY127', 'PHY134', 'PHY132', 'PHY134', 'PHY142', 'PHY134'], ['MAT132', 'MAT142', 'MAT127', 'MAT171', 'AMS161', 'MAT203', 'MAT205', 'AMS261', 'MAT307']]].
+\##32['Prerequisites' -> [['PHY122', 'PHY126'], ['PHY127'], ['PHY134', 'PHY132'], ['PHY134', 'PHY142'], ['PHY134'], ['MAT132', 'MAT142', 'MAT127', 'MAT171', 'AMS161']]].
 \##32['Antirequisites' -> 'NONE'].
+\##32['Corequisites' -> [['MAT203', 'MAT205', 'AMS261', 'MAT307']]].
 \##32['Description' -> 'Physical and mathematical foundations of quantum mechanics. Maxwell waves and their properties: intensity, energy density, and momentum density. Planck-Einstein relation between energy and frequency for light quanta. De Broglie relation between momentum and wavelength. Number density and probability density of photons. One-photon quantum mechanics, with Maxwell field as the wave function. Diffraction phenomena. Uncertainty relation between wavelength and position, hence between momentum and position. Not for credit in addition to PHY 390 with similar topic.  Not for credit in addition to PHY 274.'].
 \##32['spring1' -> 1].
 \##32['fall1' -> 1].
@@ -347,6 +378,7 @@ of momentum and energy. Calculus is used concurrently with its development in MA
 \##33['Credits' -> 3].
 \##33['Prerequisites' -> [['PHY300']]].
 \##33['Antirequisites' -> 'NONE'].
+\##33['Corequisites' -> 'NONE'].
 \##33['Description' -> 'The concepts, historical development, and mathematical methods of quantum mechanics. Topics include Schroedinger's equation in time-dependent and time-independent forms; one- and three-dimensional solutions, including the treatment of angular momentum and spin. Applications to simple systems, especially the hydrogen atom, are stressed.'].
 \##33['spring1' -> 1].
 \##33['fall1' -> 1].
@@ -356,8 +388,9 @@ of momentum and energy. Calculus is used concurrently with its development in MA
 \##34['CourseTitle' -> 'Connections in Science'].
 \##34['Career' -> 'Undergraduate'].
 \##34['Credits' -> 1].
-\##34['Prerequisites' -> [['PHY122', 'PHY126', 'PHY127', 'PHY134', 'PHY132', 'PHY142']]].
+\##34['Prerequisites' -> [['PHY122', 'PHY126'], ['PHY127'], ['PHY134', 'PHY132', 'PHY142']]].
 \##34['Antirequisites' -> 'NONE'].
+\##34['Corequisites' -> 'NONE'].
 \##34['Description' -> 'A selection of the interrelations between physics and other scientific and technological fields, using modern examples from engineering, medicine, and applied mathematics, among others. The course is taught as a seminar and includes guest lecturers, tours of laboratories, and discussion of classic and current research projects. Appropriate for physics and non-physics majors alike.'].
 \##34['spring1' -> 1].
 \##34['fall1' -> 1].
@@ -369,6 +402,7 @@ of momentum and energy. Calculus is used concurrently with its development in MA
 \##35['Credits' -> 3].
 \##35['Prerequisites' -> 'NONE'].
 \##35['Antirequisites' -> 'NONE'].
+\##35['Corequisites' -> 'NONE'].
 \##35['Description' -> 'Exploration of our understanding of the basic constituents of matter, and of how that understanding and the tools developed to study them affect aspects of contemporary society. Historical discoveries and their place in social and political institutions of the time are considered, along with issues of government funding and the cost to society. Includes a discussion of developments at Brookhaven National Laboratory and their scientific and social impact. Not intended for Physics majors with U3 or U4 status.'].
 \##35['spring1' -> 1].
 \##35['fall1' -> 1].
@@ -378,8 +412,9 @@ of momentum and energy. Calculus is used concurrently with its development in MA
 \##36['CourseTitle' -> 'Electronics and Instrumentation Laboratory'].
 \##36['Career' -> 'Undergraduate'].
 \##36['Credits' -> 3].
-\##36['Prerequisites' -> [['PHY251', 'WRT102']]].
+\##36['Prerequisites' -> [['PHY251'], ['WRT102']]].
 \##36['Antirequisites' -> 'NONE'].
+\##36['Corequisites' -> 'NONE'].
 \##36['Description' -> 'Students will design, build and test basic DC and AC circuits which perform a useful function, as viewed by physicists, involving resistors, capacitors, transformers, diodes, transistors and operational amplifiers. Students will measure these circuits using digital multi-meters and digital oscilloscopes. Understanding of analog circuits will be stressed including negative feedback applied to operational amplifiers. Two three-hour laboratories per week. This course has an associated fee. Please see www.stonybrook.edu/coursefees for more information.'].
 \##36['spring1' -> 1].
 \##36['fall1' -> 1].
@@ -391,6 +426,7 @@ of momentum and energy. Calculus is used concurrently with its development in MA
 \##37['Credits' -> 3].
 \##37['Prerequisites' -> 'NONE'].
 \##37['Antirequisites' -> 'NONE'].
+\##37['Corequisites' -> 'NONE'].
 \##37['Description' -> 'This course explores the implications and influence, real and alleged, of quantum mechanics on fields other than physics.  What does quantum mechanics mean, if anything, for philosophy, ethics, and social behavior?  At the same time, we shall look into how social and cultural influences may have affected the way that quantum mechanics was formulated, and how it has evolved.   We shall review the early history of quantum mechanics, and discuss some of the important debates at the founding of quantum mechanics.   Students will not be expected to learn the mathematics in depth, only the introduction provided by the instructors aimed at non-science students.  Besides readings, the course will also involve plays, films, and guest speakers.  Students will be expected to work on a final project, to be presented in class.  This course is offered as both PHI 382 and PHY 382.'].
 \##37['spring1' -> 1].
 \##37['fall1' -> 1].
@@ -402,6 +438,7 @@ of momentum and energy. Calculus is used concurrently with its development in MA
 \##38['Credits' -> 3].
 \##38['Prerequisites' -> 'NONE'].
 \##38['Antirequisites' -> 'NONE'].
+\##38['Corequisites' -> 'NONE'].
 \##38['Description' -> 'May be repeated once as the topic changes.'].
 \##38['spring1' -> 1].
 \##38['fall1' -> 1].
@@ -411,8 +448,9 @@ of momentum and energy. Calculus is used concurrently with its development in MA
 \##39['CourseTitle' -> 'Advanced Quantum Physics'].
 \##39['Career' -> 'Undergraduate'].
 \##39['Credits' -> 3].
-\##39['Prerequisites' -> [['PHY303', 'PHY308'], ['MAT341']]].
+\##39['Prerequisites' -> [['PHY303'], ['PHY308'], ['MAT341']]].
 \##39['Antirequisites' -> 'NONE'].
+\##39['Corequisites' -> 'NONE'].
 \##39['Description' -> 'Study of quantitative methods of quantum mechanics, including perturbation theory and the WKB approximation, scattering theory, and elements of quantum-information theory. Symmetry principles are stressed and advanced mathematical techniques are used throughout the course.'].
 \##39['spring1' -> 1].
 \##39['fall1' -> 1].
@@ -422,8 +460,9 @@ of momentum and energy. Calculus is used concurrently with its development in MA
 \##40['CourseTitle' -> 'Relativity'].
 \##40['Career' -> 'Undergraduate'].
 \##40['Credits' -> 3].
-\##40['Prerequisites' -> [['PHY303', 'PHY302']]].
+\##40['Prerequisites' -> [['PHY303']]].
 \##40['Antirequisites' -> 'NONE'].
+\##40['Corequisites' -> [['PHY302']]].
 \##40['Description' -> 'A development of the special theory of relativity leading to general relativity with applications to cosmology.'].
 \##40['spring1' -> 1].
 \##40['fall1' -> 1].
@@ -433,8 +472,9 @@ of momentum and energy. Calculus is used concurrently with its development in MA
 \##41['CourseTitle' -> 'Introduction to Accelerator Science and Technology'].
 \##41['Career' -> 'Undergraduate'].
 \##41['Credits' -> 3].
-\##41['Prerequisites' -> [['PHY277', 'PHY300', 'PHY301', 'PHY302', 'PHY303', 'PHY335']]].
+\##41['Prerequisites' -> [['PHY277', 'PHY300', 'PHY301', 'PHY302'], ['PHY303']]].
 \##41['Antirequisites' -> 'NONE'].
+\##41['Corequisites' -> [['PHY335']]].
 \##41['Description' -> 'This course will introduce students to the field of accelerator science and technology, a very versatile branch of physics and technology. This course is composed of the following parts: introduction of accelerator history and their basic principles, basic beam dynamics in synchrotrons, introduction of challenges in Accelerator physics, and introduction of typical beam measurements and instrumentations.'].
 \##41['spring1' -> 1].
 \##41['fall1' -> 1].
@@ -446,6 +486,7 @@ of momentum and energy. Calculus is used concurrently with its development in MA
 \##42['Credits' -> 3].
 \##42['Prerequisites' -> [['PHY308']]].
 \##42['Antirequisites' -> 'NONE'].
+\##42['Corequisites' -> 'NONE'].
 \##42['Description' -> 'Students will study a selection of topics from the properties of elementary particles, the strong, weak, and electromagnetic forces, symmetries, particle interaction and decay rates, nuclear structure, nuclear reactions, nuclear forces, the interaction of radiation with matter, accelerators and radiation detectors.'].
 \##42['spring1' -> 1].
 \##42['fall1' -> 1].
@@ -457,6 +498,7 @@ of momentum and energy. Calculus is used concurrently with its development in MA
 \##43['Credits' -> 0].
 \##43['Prerequisites' -> [['WRT102']]].
 \##43['Antirequisites' -> 'NONE'].
+\##43['Corequisites' -> 'NONE'].
 \##43['Description' -> 'This course is designed for students who engage in a substantial, structured experiential learning activity in conjunction with another class. Experiential learning occurs when knowledge acquired through formal learning and past experience are applied to a "real-world" setting or problem to create new knowledge through a process of reflection, critical analysis, feedback and synthesis. Beyond-the-classroom experiences that support experiential learning may include: service learning, mentored research, field work, or an internship.'].
 \##43['spring1' -> 1].
 \##43['fall1' -> 1].
@@ -466,8 +508,9 @@ of momentum and energy. Calculus is used concurrently with its development in MA
 \##44['CourseTitle' -> 'Senior Laboratory'].
 \##44['Career' -> 'Undergraduate'].
 \##44['Credits' -> 3].
-\##44['Prerequisites' -> [['PHY308', 'PHY335', 'WRT102']]].
+\##44['Prerequisites' -> [['PHY308', 'PHY335'], ['WRT102']]].
 \##44['Antirequisites' -> 'NONE'].
+\##44['Corequisites' -> 'NONE'].
 \##44['Description' -> 'A selection of historically important experiments from atomic and nuclear spectroscopy, particle physics, solid-state and low-temperature physics  performed with modern instrumentation. Each student does three experiments, usually with a partner. As students progress, they are encouraged to pursue independent projects, without rigid formats or procedures. The emphasis is on the development of experimental skills and on individual, ethical, professionally acceptable analysis and presentation of results, both orally and in writing. Two three-hour laboratory sessions per week. This course has an associated fee. Please see www.stonybrook.edu/coursefees for more information.'].
 \##44['spring1' -> 1].
 \##44['fall1' -> 1].
@@ -479,6 +522,7 @@ of momentum and energy. Calculus is used concurrently with its development in MA
 \##45['Credits' -> '1.00 - 6.00'].
 \##45['Prerequisites' -> 'NONE'].
 \##45['Antirequisites' -> 'NONE'].
+\##45['Corequisites' -> 'NONE'].
 \##45['Description' -> 'Selected readings in advanced topics for upper-division students of unusual ability and substantial accomplishments. Prior to the beginning of the semester, the topic to be studied is selected by the supervising member of the faculty and a reading assignment is planned. Weekly conferences with this faculty member are devoted to discussion of material, resolution of problems encountered, and assessment of the student's progress. May be repeated up to a total of 6 credits.'].
 \##45['spring1' -> 1].
 \##45['fall1' -> 1].
@@ -488,8 +532,9 @@ of momentum and energy. Calculus is used concurrently with its development in MA
 \##46['CourseTitle' -> 'Quantum Electronics'].
 \##46['Career' -> 'Undergraduate'].
 \##46['Credits' -> 3].
-\##46['Prerequisites' -> [['PHY405']]].
+\##46['Prerequisites' -> 'NONE'].
 \##46['Antirequisites' -> 'NONE'].
+\##46['Corequisites' -> [['PHY405']]].
 \##46['Description' -> 'Introduction to modern atomic physics for the laser era. Emphasis on the interaction between atoms and light, as well as on atomic structure and how it affects this interaction. Modern applications such as laser cooling, atom trapping, precision spectroscopy with frequency comb, quantum information, and others will be discussed.'].
 \##46['spring1' -> 1].
 \##46['fall1' -> 1].
@@ -499,8 +544,9 @@ of momentum and energy. Calculus is used concurrently with its development in MA
 \##47['CourseTitle' -> 'Atomic Physics and Lasers'].
 \##47['Career' -> 'Undergraduate'].
 \##47['Credits' -> 3].
-\##47['Prerequisites' -> [['PHY300', 'PHY308']]].
+\##47['Prerequisites' -> [['PHY300'], ['PHY308']]].
 \##47['Antirequisites' -> 'NONE'].
+\##47['Corequisites' -> 'NONE'].
 \##47['Description' -> 'This course begins with an in-depth introduction to modern atomic physics for the laser era.  Emphasis is on the fundamentals of light-matter interactions as well as on atomic structure and how it affects the interaction. The main topics include laser fundamentals, atom trapping, precision spectroscopy with frequency comb, quantum information and others.'].
 \##47['spring1' -> 1].
 \##47['fall1' -> 1].
@@ -510,8 +556,9 @@ of momentum and energy. Calculus is used concurrently with its development in MA
 \##48['CourseTitle' -> 'Speak Effectively Before an Audience'].
 \##48['Career' -> 'Undergraduate'].
 \##48['Credits' -> 0].
-\##48['Prerequisites' -> [['WRT102']]].
+\##48['Prerequisites' -> 'NONE'].
 \##48['Antirequisites' -> 'NONE'].
+\##48['Corequisites' -> [['WRT102']]].
 \##48['Description' -> 'A zero credit course that may be taken in conjunction with any PHY course that provides opportunity to achieve the learning outcomes of the Stony Brook Curriculum's SPK learning objective.'].
 \##48['spring1' -> 1].
 \##48['fall1' -> 1].
@@ -523,6 +570,7 @@ of momentum and energy. Calculus is used concurrently with its development in MA
 \##49['Credits' -> 0].
 \##49['Prerequisites' -> [['WRT102']]].
 \##49['Antirequisites' -> 'NONE'].
+\##49['Corequisites' -> 'NONE'].
 \##49['Description' -> 'A zero credit course that may be taken in conjunction with any 300- or 400-level PHY course, with permission of the instructor. The course provides opportunity to practice the skills and techniques of effective academic writing and satisfies the learning outcomes of the Stony Brook Curriculum's WRTD learning objective.'].
 \##49['spring1' -> 1].
 \##49['fall1' -> 1].
@@ -534,6 +582,7 @@ of momentum and energy. Calculus is used concurrently with its development in MA
 \##50['Credits' -> 3].
 \##50['Prerequisites' -> [['PHY306']]].
 \##50['Antirequisites' -> 'NONE'].
+\##50['Corequisites' -> 'NONE'].
 \##50['Description' -> 'A study of the different types of solids, with emphasis on their thermal, electrical, and optical properties. It introduces the concepts of phonons and electronic bands, and applications to metals, semiconductors, superconductors, and magnetism.'].
 \##50['spring1' -> 1].
 \##50['fall1' -> 1].
@@ -545,6 +594,7 @@ of momentum and energy. Calculus is used concurrently with its development in MA
 \##51['Credits' -> '0.00 - 3.00'].
 \##51['Prerequisites' -> 'NONE'].
 \##51['Antirequisites' -> 'NONE'].
+\##51['Corequisites' -> 'NONE'].
 \##51['Description' -> 'An opportunity for selected undergraduates to collaborate with the faculty in teaching at the introductory level. In addition to working as tutors and as laboratory assistants, students meet once a week with a faculty supervisor to discuss problems they have encountered and to plan future activities. Students are generally assigned to assist in courses they have completed and in which they have excelled. Not for major credit. Can be repeated up to a maximum of 6 credits with a maximum of 3 credits per course taught.'].
 \##51['spring1' -> 1].
 \##51['fall1' -> 1].
@@ -556,6 +606,7 @@ of momentum and energy. Calculus is used concurrently with its development in MA
 \##52['Credits' -> '0.00 - 6.00'].
 \##52['Prerequisites' -> 'NONE'].
 \##52['Antirequisites' -> 'NONE'].
+\##52['Corequisites' -> 'NONE'].
 \##52['Description' -> 'An opportunity for students to conduct faculty-supervised research for academic credit. Students must take the initiative to negotiate the opportunity. BNL and other scientists may be allowed as co-supervisors. Research proposals must be prepared by the student and submitted for approval by the supervising faculty before the beginning of the credit period. An account of the work and the results achieved is submitted to the supervisor before the end of the credit period. May be repeated, up to a total of 6 credits.'].
 \##52['spring1' -> 1].
 \##52['fall1' -> 1].
@@ -567,6 +618,7 @@ of momentum and energy. Calculus is used concurrently with its development in MA
 \##53['Credits' -> 3].
 \##53['Prerequisites' -> 'NONE'].
 \##53['Antirequisites' -> 'NONE'].
+\##53['Corequisites' -> 'NONE'].
 \##53['Description' -> 'Analytical classical mechanics including Lagrangian and Hamiltonian formulations and the Hamilton-Jacobi theory. Variational principles, symmetries and conservation laws. Selected advanced problems such as parametric and nonlinear oscillations, planetary motion, classical theory of scattering, rigid body rotation, and deterministic chaos. Basic notions of elasticity theory and fluid dynamics.'].
 \##53['spring1' -> 1].
 \##53['fall1' -> 1].
@@ -578,6 +630,7 @@ of momentum and energy. Calculus is used concurrently with its development in MA
 \##54['Credits' -> 3].
 \##54['Prerequisites' -> 'NONE'].
 \##54['Antirequisites' -> 'NONE'].
+\##54['Corequisites' -> 'NONE'].
 \##54['Description' -> 'A selection of mathematical techniques useful for physicists. Topics are selected from: linear algebra, complex variables, differential equations, asymptotic analysis, special functions, boundary value problems, integral transforms, perturbation theory as applied to linear and nonlinear systems. This course should be taken by entering graduate students seeking enrichment in these areas.
 Fall and Spring,'].
 \##54['spring1' -> 1].
@@ -590,6 +643,7 @@ Fall and Spring,'].
 \##55['Credits' -> 3].
 \##55['Prerequisites' -> 'NONE'].
 \##55['Antirequisites' -> 'NONE'].
+\##55['Corequisites' -> 'NONE'].
 \##55['Description' -> 'An introduction to procedural and object-oriented programming in a high-level language such as C++ or modern Fortran with examples and assignments consisting of rudimentary algorithms for problems in physics and astronomy. Students will use the UNIX/Linux operating system to write programs and manage data, and the course will include an introduction to parallel computing and good programming practices such as version control and verification. The course will prepare students for courses in algorithms and methods that assume a knowledge of programming.
 
 Fall or Spring, 3 Credits, letter Graded (A, A-, B+, etc.)'].
@@ -603,6 +657,7 @@ Fall or Spring, 3 Credits, letter Graded (A, A-, B+, etc.)'].
 \##56['Credits' -> 3].
 \##56['Prerequisites' -> 'NONE'].
 \##56['Antirequisites' -> 'NONE'].
+\##56['Corequisites' -> 'NONE'].
 \##56['Description' -> 'Electrostatics and Magnetostatics in vacuum and medium; Green's functions;  Maxwell's equations and gauge invariance; Electromagnetic wave propagation; Radiation, scattering, interference, and diffraction; Special relativity;  Radiation by relativistic charges; Additional topics as time permits. Three lecture hours plus two recitation hours per week.
 Fall, 3 Credits, Graded A, A-, B+, etc.,  Prerequisites: PHY 301-302 or similar'].
 \##56['spring1' -> 1].
@@ -615,6 +670,7 @@ Fall, 3 Credits, Graded A, A-, B+, etc.,  Prerequisites: PHY 301-302 or similar'
 \##57['Credits' -> 3].
 \##57['Prerequisites' -> 'NONE'].
 \##57['Antirequisites' -> 'NONE'].
+\##57['Corequisites' -> 'NONE'].
 \##57['Description' -> 'This course concentrates on developing the tools used to analyze models of dynamical systems associated with physical phenomena, such as coupled electrical mechanical, chemical and biological oscillators, amplitude equations, symplectic maps, etc. There is a discussion of the basic theorems, as well as methods used to derive perturbation solutions for differential equations and maps using the method of normal forms.
 Fall or Spring,'].
 \##57['spring1' -> 1].
@@ -627,6 +683,7 @@ Fall or Spring,'].
 \##58['Credits' -> 3].
 \##58['Prerequisites' -> 'NONE'].
 \##58['Antirequisites' -> 'NONE'].
+\##58['Corequisites' -> 'NONE'].
 \##58['Description' -> 'First course in a two-part sequence.  Topics include basic quantum physics and mathematical apparatus; application to one dimensional examples and simple systems.  Symmetries, angular momentum, and spin.  Additional topics as time permits.
 Fall,'].
 \##58['spring1' -> 1].
@@ -639,6 +696,7 @@ Fall,'].
 \##59['Credits' -> 3].
 \##59['Prerequisites' -> 'NONE'].
 \##59['Antirequisites' -> 'NONE'].
+\##59['Corequisites' -> 'NONE'].
 \##59['Description' -> 'Second course in a two-part sequence, covering variational principles, perturbation theory, relativistic quantum mechanics, quantization of the radiation field, many-body systems.  Application to atoms, solids, nuclei and elementary particles, as time permits.
 Spring,'].
 \##59['spring1' -> 1].
@@ -651,6 +709,7 @@ Spring,'].
 \##60['Credits' -> 3].
 \##60['Prerequisites' -> 'NONE'].
 \##60['Antirequisites' -> 'NONE'].
+\##60['Corequisites' -> 'NONE'].
 \##60['Description' -> 'In a series of distinct units, various members of the experimental research faculty describe the nature of their work, explain the major principles of their laboratory instruments, discuss how these instrument systems function, and conduct tours of their laboratories showing the apparatus in action. The student becomes familiar with most of the experimental research instrumentation in the department.
 Fall or Spring,'].
 \##60['spring1' -> 1].
@@ -663,6 +722,7 @@ Fall or Spring,'].
 \##61['Credits' -> 3].
 \##61['Prerequisites' -> 'NONE'].
 \##61['Antirequisites' -> 'NONE'].
+\##61['Corequisites' -> 'NONE'].
 \##61['Description' -> 'An experimental course required for all graduate students. The goal of the course is to provide firsthand experience with the nature of experimental work. For students oriented toward theory, the course gives a background for reading and evaluating experimental papers. The course is based on classic measurements in nuclear, particle, atomic, condensed matter physics, and astronomy. Students can gain experience in handling cryogenic liquids, vacuum systems, lasers, pulse counting and coincidence methods, resonance measurements, and electronic instrumentation, such as lock-in amplifiers, particle detectors, coincidence counters, computer control, etc. Numerical analysis of data, presentation of results in written, graphic, and oral form, and meaningful comparison of experiments and theory are part of the course. Working alone or with, at most, one partner, each student must do one experiment from each of four different groups.'].
 \##61['spring1' -> 1].
 \##61['fall1' -> 1].
@@ -674,6 +734,7 @@ Fall or Spring,'].
 \##62['Credits' -> 3].
 \##62['Prerequisites' -> 'NONE'].
 \##62['Antirequisites' -> 'NONE'].
+\##62['Corequisites' -> 'NONE'].
 \##62['Description' -> 'A course designed to introduce the theory, design, and operation of modern astronomical instrumentation and to familiarize the student with the use of telescopes. Current astronomical techniques will be discussed with emphasis on methods of observational measurements and reduction of data. Emphasis is given on optical techniques appropriate for wavelengths shorter than one micron. Extensive laboratory and observing exercises may be expected.
 Spring, alternate years,'].
 \##62['spring1' -> 1].
@@ -686,6 +747,7 @@ Spring, alternate years,'].
 \##63['Credits' -> '1.00 - 3.00'].
 \##63['Prerequisites' -> 'NONE'].
 \##63['Antirequisites' -> 'NONE'].
+\##63['Corequisites' -> 'NONE'].
 \##63['Description' -> 'An introduction to the principles of synchrotron radiation is followed by a series of lectures given by graduate faculty and guest lecturers with expertise in using synchrotron radiation for research in physics, chemistry, materials science, biology and medicine.  Most of these presentations are followed by hands-on experience with synchrotron instrumentation at Brookhaven National Laboratory.  Access to user facilities, including safety requirements, preparation of user proposals, user training and other issues, and also covered.
 Spring, S/U grading, 0-3 credits'].
 \##63['spring1' -> 1].
@@ -698,6 +760,7 @@ Spring, S/U grading, 0-3 credits'].
 \##64['Credits' -> 3].
 \##64['Prerequisites' -> 'NONE'].
 \##64['Antirequisites' -> 'NONE'].
+\##64['Corequisites' -> 'NONE'].
 \##64['Description' -> 'A study of the atmospheres, interiors, and evolution of stars. The contact between theory and observations is emphasized. Stellar atmospheres in hydrostatic and radiative equilibrium described. Models for the calculation of stellar spectra are discussed.  Stellar winds are studied. Next, theoretical studies of stellar interiors and evolution, including equations of state, energy transport, and nuclear energy generation, are developed. Structures of main sequence, red giant, pre-main sequence, and white dwarves are studied and compared to observations. The evolution of single stars up to supernovae and the peculiar evolution of close binary systems are also studied.
 Fall, alternate years, 0-3 Credits,'].
 \##64['spring1' -> 1].
@@ -710,6 +773,7 @@ Fall, alternate years, 0-3 Credits,'].
 \##65['Credits' -> 3].
 \##65['Prerequisites' -> 'NONE'].
 \##65['Antirequisites' -> 'NONE'].
+\##65['Corequisites' -> 'NONE'].
 \##65['Description' -> 'A study of the interstellar medium with emphasis on physical processes. Topics include kinetic theory, equation of transfer, spectral lines, non-thermal emission, ionization effects of dust, and formation and spectroscopy of molecular clouds. The components of the interstellar medium and the interactions between them are discussed in detail, as well as the process of star formation.
 Spring, alternate years,'].
 \##65['spring1' -> 1].
@@ -722,6 +786,7 @@ Spring, alternate years,'].
 \##66['Credits' -> 3].
 \##66['Prerequisites' -> 'NONE'].
 \##66['Antirequisites' -> 'NONE'].
+\##66['Corequisites' -> 'NONE'].
 \##66['Description' -> 'A basic course on the observational and theoretical aspects of the content, morphology, kinematics, and dynamics of galaxies. Topics include the size, shape, and location of the sun in the Milky Way; stellar populations; the disk and spheroidal components; galactic rotation; distance determination in the Milky Way and to external galaxies; galaxy classification and the Hubble Law. Theoretical topics center on stellar dynamics, including potential theory; stellar orbits; and spiral structure. The course also includes a brief introduction to cosmology.
 Fall, alternate years,'].
 \##66['spring1' -> 1].
@@ -734,6 +799,7 @@ Fall, alternate years,'].
 \##67['Credits' -> 3].
 \##67['Prerequisites' -> 'NONE'].
 \##67['Antirequisites' -> 'NONE'].
+\##67['Corequisites' -> 'NONE'].
 \##67['Description' -> 'A basic course on cosmology: Hubble expansion, Friedmann universes, age of the universe, microwave background radiation, big-bang nucleosynthesis, inflation, growth  of gravitational instabilities and galaxy formation, correlation functions, local density and velocity perturbations, and dark matter.
 Prerequisite: PHY 523 or permission of instructor
 Spring, alternate years,'].
@@ -747,6 +813,7 @@ Spring, alternate years,'].
 \##68['Credits' -> '1.00 - 3.00'].
 \##68['Prerequisites' -> 'NONE'].
 \##68['Antirequisites' -> 'NONE'].
+\##68['Corequisites' -> 'NONE'].
 \##68['Description' -> 'Introduction to modern atomic physics for the laser era for graduate students. Emphasis on the interaction between atoms and light, as well as on atomic structure and how it affects this interaction. Modern applications such as laser cooling, atom trapping, precision spectroscopy with frequency comb, quantum information, and others will be discussed. Not for satisfying physics Ph.D. breadth course requirements.
 Spring every year, 1-3 credits, ABCF grading'].
 \##68['spring1' -> 1].
@@ -759,6 +826,7 @@ Spring every year, 1-3 credits, ABCF grading'].
 \##69['Credits' -> '1.00 - 3.00'].
 \##69['Prerequisites' -> 'NONE'].
 \##69['Antirequisites' -> 'NONE'].
+\##69['Corequisites' -> 'NONE'].
 \##69['Description' -> 'Topics covered include continuum and spectral-line radio astronomy. Within the Milky Way Galaxy topics include the interstellar medium, the physics and kinematics of molecular clouds, star formation in giant molecular clouds, chemistry of molecular clouds, galactic structure, spiral structure, and pulsars. Extragalactic topics include radio galaxies and jets, radio loud quasars, molecular and atomic gas in galaxies, luminous infrared galaxies, the missing mass problem in spiral galaxies, and cosmic microwave background radiation. Radio astronomy measurement techniques for single telescopes and aperture synthesis techniques are also covered, although the emphasis is on scientific results.
 Fall or Spring, alternate years,'].
 \##69['spring1' -> 1].
@@ -771,6 +839,7 @@ Fall or Spring, alternate years,'].
 \##70['Credits' -> '1.00 - 2.00'].
 \##70['Prerequisites' -> 'NONE'].
 \##70['Antirequisites' -> 'NONE'].
+\##70['Corequisites' -> 'NONE'].
 \##70['Description' -> 'The purpose of this course is to introduce the students to the physics of Free Electron Lasers and Synchrotron Radiation. This course is suitable for graduate students who want to learn more about Free Electron Lasers and Synchrotron Radiation physics.
 Offered: Summer,'].
 \##70['spring1' -> 1].
@@ -783,6 +852,7 @@ Offered: Summer,'].
 \##71['Credits' -> 3].
 \##71['Prerequisites' -> 'NONE'].
 \##71['Antirequisites' -> 'NONE'].
+\##71['Corequisites' -> 'NONE'].
 \##71['Description' -> 'Brief review of thermodynamics, principles of physical statistics, systems of non-interacting particles: Boltzmann, Fermi-Dirac, and Bose-Einstein statistics. Applications to ideal gases, electrons and phonons in solids, and black body radiation. Approximate treatment of non-ideal gases. First-order and second-order phase transitions. Ising model, transfer matrix, and renormalization group approach.  Fluctuations in thermal equilibrium, fluctuation-dissipation theorem, brief review of non-equilibrium fluctuations. Basic notions of ergodicity, classical and quantum chaos.
 Spring,'].
 \##71['spring1' -> 1].
@@ -795,6 +865,7 @@ Spring,'].
 \##72['Credits' -> '1.00 - 3.00'].
 \##72['Prerequisites' -> 'NONE'].
 \##72['Antirequisites' -> 'NONE'].
+\##72['Corequisites' -> 'NONE'].
 \##72['Description' -> 'Topics are selected from cluster expansions, elementary theory of quantum fluids, phase transitions, transfer matrix, Ising and ferroelectric models, polymers and membranes, disordered systems, and fluctuation and nonequilibrium phenomena.
 Fall,'].
 \##72['spring1' -> 1].
@@ -807,6 +878,7 @@ Fall,'].
 \##73['Credits' -> '1.00 - 2.00'].
 \##73['Prerequisites' -> 'NONE'].
 \##73['Antirequisites' -> 'NONE'].
+\##73['Corequisites' -> 'NONE'].
 \##73['Description' -> 'This course is an introduction to the underlying principles and uses of the nearly 14,000 particle accelerators that are used worldwide in medicine, industry, and scientific research. The course is suitable for senior undergraduate and entry-level graduate students in physics and engineering or students from other fields with a particular interest in accelerator-based science.
 Summer,'].
 \##73['spring1' -> 1].
@@ -819,6 +891,7 @@ Summer,'].
 \##74['Credits' -> '1.00 - 3.00'].
 \##74['Prerequisites' -> 'NONE'].
 \##74['Antirequisites' -> 'NONE'].
+\##74['Corequisites' -> 'NONE'].
 \##74['Description' -> 'This graduate level course covers application of superconducting radio frequency (SRF) technology to contemporary high-ß accelerators: storage rings, pulsed and CW linacs, including energy recovery linacs (ERLs).  The course will address physics and engineering aspects of using SRF in accelerators.  It will cover beam-cavity interactions issues specific to superconducting cavities, a systems approach to designing SRF systems and engineering of superconducting cavity cryomodules.  The course is intended for graduate students pursuing accelerator physics and graduate engineers and physicists who want to familiarize themselves with superconducting RF systems.
 Fall,'].
 \##74['spring1' -> 1].
@@ -831,6 +904,7 @@ Fall,'].
 \##75['Credits' -> '1.00 - 3.00'].
 \##75['Prerequisites' -> 'NONE'].
 \##75['Antirequisites' -> 'NONE'].
+\##75['Corequisites' -> 'NONE'].
 \##75['Description' -> 'Polarization is a possible property of charged particle beams, which has been used and developed from the early times of particle accelerator developments. It is a property of paramount interest in future nuclear and high energy physics accelerator projects, as well as in several existing accelerator facilities. Polarization requires sophisticated beam and spin manipulations, from production to utilization, based on dedicated accelerator design rules and technological components. This course will introduce students to the dynamics of spin in charged particle accelerators, and to the accelerator components and spin manipulation techniques which enable and allow preserving beam polarization. The course material will provide the basic tools for the design of practical polarized beam accelerator components and structures, and will convey an understanding of the essential underlying physics of polarized beams.'].
 \##75['spring1' -> 1].
 \##75['fall1' -> 1].
@@ -842,6 +916,7 @@ Fall,'].
 \##76['Credits' -> '1.00 - 3.00'].
 \##76['Prerequisites' -> 'NONE'].
 \##76['Antirequisites' -> 'NONE'].
+\##76['Corequisites' -> 'NONE'].
 \##76['Description' -> 'Cyclotrons are versatile accelerators whose use continues to expand in basic research, industry, medicine, and education. This course provides students with an introduction to the physics and technology of cyclotrons and their design. Issues associated with the construction of practical facilities for prototypical applications are reviewed. Upon completion of this course, students are expected to apply cyclotron theory and practical constraints to propose a complete cyclotron design for a prototypical application.'].
 \##76['spring1' -> 1].
 \##76['fall1' -> 1].
@@ -853,6 +928,7 @@ Fall,'].
 \##77['Credits' -> '0.00 - 1.00'].
 \##77['Prerequisites' -> 'NONE'].
 \##77['Antirequisites' -> 'NONE'].
+\##77['Corequisites' -> 'NONE'].
 \##77['Description' -> 'Python has seen wide adoption in the scientific community for data analysis, simulation, prototyping and visualization.  It provided a simple, yet powerful means to build applications.  This seminar introduces python and its use in scientific computing.  Students will learn the standard python libraries for array manipulation, visualization, numerical analysis and symbolic mathematics, as well as how to interface python with other languages, build applications, and good software engineering practices (including version control and testing).  Students are encouraged to share examples for their discipline'].
 \##77['spring1' -> 1].
 \##77['fall1' -> 1].
@@ -864,6 +940,7 @@ Fall,'].
 \##78['Credits' -> '1.00 - 3.00'].
 \##78['Prerequisites' -> 'NONE'].
 \##78['Antirequisites' -> 'NONE'].
+\##78['Corequisites' -> 'NONE'].
 \##78['Description' -> 'Course Description: This course is intended for accelerator physicists who are interested in the design of timing systems and synchronization techniques for particle accelerators and light sources. The course focuses on transmission, measurement and control of highspeed electromagnetic signals in transmission lines or waveguides, whether RF/microwave or optical. These systems are important in the distribution of timing reference information in accelerating systems, and diagnostic techniques to measure beams with respect to RF or ultrafast pulse signals. Examples include ultrafast pump/probe experiments in accelerator-based light sources, or diagnostics for short particle bunches. The course enables students to understand how precise timing signals are transmitted and used in state-of-the-art systems. Concepts and technology for subpicosecond, and even sub-femtosecond synchronization of ultrafast pulse optical sources, RF, and particle beams will be discussed.'].
 \##78['spring1' -> 1].
 \##78['fall1' -> 1].
@@ -875,6 +952,7 @@ Fall,'].
 \##79['Credits' -> '1.00 - 3.00'].
 \##79['Prerequisites' -> 'NONE'].
 \##79['Antirequisites' -> 'NONE'].
+\##79['Corequisites' -> 'NONE'].
 \##79['Description' -> 'Optimization techniques are key to both the design and operation of contemporary charged particle accelerator systems. In addition, machine learning techniques are now being increasingly used, either to augment the capabilities of standard optimization (e.g. through surrogate modeling), or to address entirely new tasks (e.g. anomaly detection, fault classification). This course will introduce a number of optimization and machine learning techniques that are commonly used for particle accelerators, as well as their range of applicability and limitations.'].
 \##79['spring1' -> 1].
 \##79['fall1' -> 1].
@@ -886,6 +964,7 @@ Fall,'].
 \##80['Credits' -> 3].
 \##80['Prerequisites' -> 'NONE'].
 \##80['Antirequisites' -> 'NONE'].
+\##80['Corequisites' -> 'NONE'].
 \##80['Description' -> 'Nucleon structure, conservation laws and the static quark model; nuclear force and the two nucleon system; bulk properties of nuclear matter, charge distribution, spin, isospin, mass, alpha decay, nuclear fission; electromagnetic and weak interaction; collective motion; microscopic models of the nucleus; nuclear matter under extreme conditions, high rotational states, heavy ion physics at RHIC, nuclear astrophysics.
 Spring,'].
 \##80['spring1' -> 1].
@@ -898,6 +977,7 @@ Spring,'].
 \##81['Credits' -> '1.00 - 3.00'].
 \##81['Prerequisites' -> 'NONE'].
 \##81['Antirequisites' -> 'NONE'].
+\##81['Corequisites' -> 'NONE'].
 \##81['Description' -> 'Nucleon-nucleon scattering and effective range approximation; the nucleon-nucleon interaction calculated from meson exchange; effective forces between nucleons in nuclei and nuclear matter; the renormalization group approach to these interactions; Fermi-liquid theory of the nuclear many-body problem; thermodynamics of hadrons at high temperature; RHIC physics with heavy ions including transition from hadrons to quark gluon plasma, restoration of chiral symmetry, equation of state, initial conditions, thermodynamics of hadrons at high temperature.'].
 \##81['spring1' -> 1].
 \##81['fall1' -> 1].
@@ -909,6 +989,7 @@ Spring,'].
 \##82['Credits' -> 3].
 \##82['Prerequisites' -> 'NONE'].
 \##82['Antirequisites' -> 'NONE'].
+\##82['Corequisites' -> 'NONE'].
 \##82['Description' -> 'History of accelerators, basic principles including centre of mass energy, luminosity, accelerating gradient; Characteristics of modern colliders: RHIC, LEP, LHC, b-factories; Transverse motion, principles of beam cooling, Strong focusing, simple lattices; Circulating beams, synchrotron radiation; Longitutdinal dynamics; Non-linearities and resonances; Radio Frequency cavities, superconductivity in accelerators; Applications of accelerators: light sources, medical uses, Future Accelerators: eRHIC, ILC, neutrino factories, muon collider, laser plasma acceleration.
 Offered Fall, 3 Credits, ABCF Grading'].
 \##82['spring1' -> 1].
@@ -921,6 +1002,7 @@ Offered Fall, 3 Credits, ABCF Grading'].
 \##83['Credits' -> 3].
 \##83['Prerequisites' -> 'NONE'].
 \##83['Antirequisites' -> 'NONE'].
+\##83['Corequisites' -> 'NONE'].
 \##83['Description' -> 'This course concentrates on the basic notions of solid state physics, treated mostly within the single-particle approximation. Main topics include: crystal lattices and symmetries, reciprocal lattice and state counting, phonons, electron energy band theory, bonding and cohesion (semi-quantitatively), electron dynamics and electron transport in metals and semiconductors, screening, optical properties of solids, and an introduction to superconductivity and magnetism.
 Fall,'].
 \##83['spring1' -> 1].
@@ -933,6 +1015,7 @@ Fall,'].
 \##84['Credits' -> '1.00 - 3.00'].
 \##84['Prerequisites' -> 'NONE'].
 \##84['Antirequisites' -> 'NONE'].
+\##84['Corequisites' -> 'NONE'].
 \##84['Description' -> 'The course focuses on the many-particle aspects of solid state physics addressing classical topics such as superconductivity and the transport properties of disordered conductors, as well as more modern subjects including the fractional quantum Hall effect, dissipative quantum mechanics, and problems of mesoscoptic physics. Both phenomenological and theoretical descriptions are discussed.
 Spring,'].
 \##84['spring1' -> 1].
@@ -945,6 +1028,7 @@ Spring,'].
 \##85['Credits' -> 3].
 \##85['Prerequisites' -> 'NONE'].
 \##85['Antirequisites' -> 'NONE'].
+\##85['Corequisites' -> 'NONE'].
 \##85['Description' -> 'Introduction to elementary particle physics. Symmetries and invariance in particle physics. The properties of particles in terms of quarks and leptons and their interactions. An introduction to the electroweak and for strong interactions. Interactions at high energies. Interactions between particles and matter, experiments in particle and experimental results.  Survey of particle accelerators.
 Fall or Spring, 0-3 Credits,'].
 \##85['spring1' -> 1].
@@ -957,6 +1041,7 @@ Fall or Spring, 0-3 Credits,'].
 \##86['Credits' -> 3].
 \##86['Prerequisites' -> 'NONE'].
 \##86['Antirequisites' -> 'NONE'].
+\##86['Corequisites' -> 'NONE'].
 \##86['Description' -> 'Topics of this course include but are not limited to: Time and space in cells; Structural basis of biology; Molecular solvation and lattice models;  Chemical potential; Electrostatics, potentials, dipoles, electrochemical potentials[ Poisson-Boltzmann and Born models; Acids, bases and salts; Intermolecular potentials and force fields; Phase transitions; Lattice and Ising models; Adsorption; Binding polynomials; Binding cooperativity; Semigrand ensemble, molecular machines; Molecular motors, energy conversion and transduction; Polymer theory; Flory-Huggins; Random flights; Elasticity; Helix-coil theory; Collapse transitions; Protein folding equilibria; Protein folding kinetics; Sequence space; Protein evolution; Protein elasticity and biological mechanics of proteins; Biophysics of the cell; Proteome stabilities, aggregation, kinetics.
 Spring, 3 Credits, ABCF Grading'].
 \##86['spring1' -> 1].
@@ -969,6 +1054,7 @@ Spring, 3 Credits, ABCF Grading'].
 \##87['Credits' -> 3].
 \##87['Prerequisites' -> 'NONE'].
 \##87['Antirequisites' -> 'NONE'].
+\##87['Corequisites' -> 'NONE'].
 \##87['Description' -> 'This course will provide a solid foundation in key theoretical concepts for the study of dynamics in biological systems and networks at different scales ranging from the molecular level to metabolic and gene regulatory networks. Topics of this course include but are not limited to: Physical kinetics; Diffusion/Smoluchowskii; Random flights; Waiting times; Poisson; Brownian ratchets; Chemical kinetics; Transition states; Stability, bifurcations, pattern development; Noise in cells: intrinsic and Extrinsic; Feedback; Biological Osciillators; Recurrence, period doubling, chaos; Networks; Topologies; Degree distribution, betweenness; Models of nets: Erdos-Renyi, scale-free, social, Watts-Strogatz, agents; Robustness, highly-optimized tolerance, bowties, epidemics; Biological networks: Protein-protein nets, regulatory and metabolic nets; Known biological circuits and their behaviors; How networks evolve: Preferential attachment, rewiring; Power laws; Fluxed through networks; Information and communication, entropy; Metabolic flux analysis; Artificial and Natural selection for traits; Darwinian evolution; Population dynamics.
 Spring, 3 credits, ABCF grading
 Crosslisted with PHY 559 and CHE 559'].
@@ -982,6 +1068,7 @@ Crosslisted with PHY 559 and CHE 559'].
 \##88['Credits' -> '0.00 - 3.00'].
 \##88['Prerequisites' -> 'NONE'].
 \##88['Antirequisites' -> 'NONE'].
+\##88['Corequisites' -> 'NONE'].
 \##88['Description' -> 'This course complements the graduate physics courses in particle physics, particle astrophysics and cosmology, concentrating on interrelationships between these areas of research in understanding the physics of the universe. The course will introduce advanced physics students to the key issues, experimental facilities and prospects for the future. The present status and future major experiments will be reviewed from the perspective of both the technologies and science. In addition to the assigned readings and class participation, students will investigate in depth a specific area of their choice, producing a ~ 10 page paper on the subject, as well as give an oral presentation.'].
 \##88['spring1' -> 1].
 \##88['fall1' -> 1].
@@ -993,6 +1080,7 @@ Crosslisted with PHY 559 and CHE 559'].
 \##89['Credits' -> '1.00 - 3.00'].
 \##89['Prerequisites' -> 'NONE'].
 \##89['Antirequisites' -> 'NONE'].
+\##89['Corequisites' -> 'NONE'].
 \##89['Description' -> 'Topics of this course include but are not restricted to: Overview of living things; Six kingdoms, animal phyla. Physiology and organs; Chemistry of life; Noncovalent interactions; Hydrogen bonds; Solvation; Biochemistry: reactions, catalysis, ATP amino acids, nucleic acids, lipids; Cell structures: Nucleus, mitochondria, chromosomes, membranes; Basic paradigm: DNA makes RNA makes protein; How cell machines and circuits work; Cell cycle; The processes of evolution; Genetics and heredity; Diseases: how biological systems fail; How drugs are discovered; Tight-binding inhibitors; Antibodies; Current research: Cell division and cancer, genomics, bioinformatics, high throughput sequencing, systems and synthetic biology.
 Spring, 1- 3 Credits, ABCF Grading'].
 \##89['spring1' -> 1].
@@ -1005,6 +1093,7 @@ Spring, 1- 3 Credits, ABCF Grading'].
 \##90['Credits' -> '1.00 - 3.00'].
 \##90['Prerequisites' -> 'NONE'].
 \##90['Antirequisites' -> 'NONE'].
+\##90['Corequisites' -> 'NONE'].
 \##90['Description' -> 'Introduction to the theory of lasers including resonance conditions, normal modes, optical cavities and elementary quantum mechanics. Description of types of lasers, methods of control, limitations of power, precision, wavelength, etc. Applications to research and industry. Throughout the course, there will be many problems that involve writing computer programs to solve simple differential equations and model different aspects of laser operation. Not for satisfying physics Ph.D. breadth course requirements.
 Fall, every year,'].
 \##90['spring1' -> 1].
@@ -1017,6 +1106,7 @@ Fall, every year,'].
 \##91['Credits' -> '1.00 - 3.00'].
 \##91['Prerequisites' -> 'NONE'].
 \##91['Antirequisites' -> 'NONE'].
+\##91['Corequisites' -> 'NONE'].
 \##91['Description' -> 'Types and Components of Accelerators, Relativistic Mechanics and EM for Accelerators, Accelerator Hamiltonian and N-dimensional phase space, Poincare diagrams, Lie algebras and symplectic maps and matrices; exact parameterization of linear motion in accelerators; matrix functions, Sylvester's formula; non-linear effects, Collective instabilities & Landau Damping, Radiation damping and Excitation, natural Emittance; Spin motion in accelerators.'].
 \##91['spring1' -> 1].
 \##91['fall1' -> 1].
@@ -1028,6 +1118,7 @@ Fall, every year,'].
 \##92['Credits' -> 3].
 \##92['Prerequisites' -> 'NONE'].
 \##92['Antirequisites' -> 'NONE'].
+\##92['Corequisites' -> 'NONE'].
 \##92['Description' -> 'Quantum electronics is a synthesis of quantum physics and electrical engineering, and is introduced in two independent semesters. A description of simple atoms and molecules and their interaction with radiation includes atoms in strong and/or weak external fields, two-photon spectroscopy, superradiance, Rydberg states, lasers and laser spec-troscopy, coherent transients, etc.
 Spring,'].
 \##92['spring1' -> 1].
@@ -1040,6 +1131,7 @@ Spring,'].
 \##93['Credits' -> '1.00 - 3.00'].
 \##93['Prerequisites' -> 'NONE'].
 \##93['Antirequisites' -> 'NONE'].
+\##93['Corequisites' -> 'NONE'].
 \##93['Description' -> 'Quantum electronics is a synthesis of quantum physics and electrical engineering, and is introduced in two independent semesters. This course focuses on the quantum properties of light. The quantized electromagnetic field and its correlations are used to understand nonclassical states from various sources such as two-level atoms and nonlinear systems interacting with radiation fields.
 Fall,'].
 \##93['spring1' -> 1].
@@ -1052,6 +1144,7 @@ Fall,'].
 \##94['Credits' -> 3].
 \##94['Prerequisites' -> 'NONE'].
 \##94['Antirequisites' -> 'NONE'].
+\##94['Corequisites' -> 'NONE'].
 \##94['Description' -> 'This course stresses the physical theory underlying chemical phenomena. Special emphasis is given to advanced topics in electronic structure theory, molecular dynamics, condensed matter and surfaces, many-body and quantum ensemble theory,
 and the interaction of light and molecules.'].
 \##94['spring1' -> 1].
@@ -1064,6 +1157,7 @@ and the interaction of light and molecules.'].
 \##95['Credits' -> '1.00 - 3.00'].
 \##95['Prerequisites' -> 'NONE'].
 \##95['Antirequisites' -> 'NONE'].
+\##95['Corequisites' -> 'NONE'].
 \##95['Description' -> 'This is a survey of the fast evolving field of quantum information, ranging from Bell inequality, quantum teleportation to quantum algorithms and quantum programming frameworks. It aims to cover the essential knowledge of quantum information science and helps to bridge the gap to the current research activities of the field. Emphasis will be placed on solid-state platforms of quantum computers, topological error correction codes, and applications. Some illustration of quantum programming will be done on IBM's transmon-type cloud quantum computers.'].
 \##95['spring1' -> 1].
 \##95['fall1' -> 1].
@@ -1075,6 +1169,7 @@ and the interaction of light and molecules.'].
 \##96['Credits' -> '1.00 - 3.00'].
 \##96['Prerequisites' -> 'NONE'].
 \##96['Antirequisites' -> 'NONE'].
+\##96['Corequisites' -> 'NONE'].
 \##96['Description' -> 'This is an experimental course that consists of several modules of experiments designed to enhance students¿ experimental skills used in quantum information science and technology. Students will work individually or with at most one partner on five modules and write their lab reports.'].
 \##96['spring1' -> 1].
 \##96['fall1' -> 1].
@@ -1086,6 +1181,7 @@ and the interaction of light and molecules.'].
 \##97['Credits' -> 3].
 \##97['Prerequisites' -> 'NONE'].
 \##97['Antirequisites' -> 'NONE'].
+\##97['Corequisites' -> 'NONE'].
 \##97['Description' -> 'This seminar allows students to explore the fine points of topics normally covered in high school physics. Not for PhD credit.
 Spring,'].
 \##97['spring1' -> 1].
@@ -1098,6 +1194,7 @@ Spring,'].
 \##98['Credits' -> 3].
 \##98['Prerequisites' -> 'NONE'].
 \##98['Antirequisites' -> 'NONE'].
+\##98['Corequisites' -> 'NONE'].
 \##98['Description' -> 'The course reviews vector calculus and develops Maxwell's equations relating electric and magnetic fields to their sources. Applications for time-independent fields are developed for solving boundary value problems and the interactions of fields in bulk matter. An oral presentation of a relevant topic suitable for a high-school class is required. Not for PhD credit.
 Fall,'].
 \##98['spring1' -> 1].
@@ -1110,6 +1207,7 @@ Fall,'].
 \##99['Credits' -> 3].
 \##99['Prerequisites' -> 'NONE'].
 \##99['Antirequisites' -> 'NONE'].
+\##99['Corequisites' -> 'NONE'].
 \##99['Description' -> 'The Newtonian formulation of classical mechanics is reviewed and applied to more advanced problems than those considered in introductory physics. The Lagrangian and Hamiltonian methods are then derived from the Newtonian treatment and applied to various problems. An oral presentation of a relevant topic suitable for a high-school class is required. Not for PhD credit.
 Fall,'].
 \##99['spring1' -> 1].
@@ -1122,6 +1220,7 @@ Fall,'].
 \##100['Credits' -> 3].
 \##100['Prerequisites' -> 'NONE'].
 \##100['Antirequisites' -> 'NONE'].
+\##100['Corequisites' -> 'NONE'].
 \##100['Description' -> 'This course consists of two parts. Those relations among the properties of systems at thermal equilibrium that are independent of a detailed microscopic understanding are developed by use of the first and second laws of thermodynamics. The concepts of temperature, internal energy and entropy are analyzed. The thermodynamic potentials are introduced. Applications to a wide variety of systems are made. The second portion of the course, beginning with the kinetic theory of gases, develops elementary statistical mechanics, relates entropy and probability, and treats simple examples in classical and quantum statistics. An oral presentation of a relevant topic suitable for a high-school class is required. Not for PhD credit.
 Spring,'].
 \##100['spring1' -> 1].
@@ -1134,6 +1233,7 @@ Spring,'].
 \##101['Credits' -> 3].
 \##101['Prerequisites' -> 'NONE'].
 \##101['Antirequisites' -> 'NONE'].
+\##101['Corequisites' -> 'NONE'].
 \##101['Description' -> 'Physical and mathematical foundations of quantum mechanics.  Maxwell waves and their properties: intensity, energy density, and momentum density.  Planck-Einstein relation between energy and frequency for light quanta.  De Broglie relation between momentum and wavelength.  Number density and probability density of photons.  One-photon quantum mechanics, with Maxwell field as wave function.  Diffraction phenomena.  Uncertainty relation between wavelength and position, hence between momentum and position.
 In addition to the requirements for the undergraduate course PHY 307, students taking this course must prepare and present a talk on quantum physics suitable for a general (non-physics) adult audience.  This course cannot be taken for credit toward the PhD degrees in Physics.  Approval of the Program Director is required for taking this course for credit toward a Master Degree.
 Fall,'].
@@ -1147,6 +1247,7 @@ Fall,'].
 \##102['Credits' -> 3].
 \##102['Prerequisites' -> 'NONE'].
 \##102['Antirequisites' -> 'NONE'].
+\##102['Corequisites' -> 'NONE'].
 \##102['Description' -> 'The concepts, historical development and mathematical methods of quantum mechanics. Topics include Schroedinger's equation in time-dependent and time-independent forms, and one- and three-dimensional solutions, including the treatment of angular momentum and spin. Applications to simple systems, especially the hydrogen atom, are stressed. An oral presentation of a relevant topic suitable for a high school class is required. Not for PhD credit.
 Spring,'].
 \##102['spring1' -> 1].
@@ -1159,6 +1260,7 @@ Spring,'].
 \##103['Credits' -> '1.00 - 3.00'].
 \##103['Prerequisites' -> 'NONE'].
 \##103['Antirequisites' -> 'NONE'].
+\##103['Corequisites' -> 'NONE'].
 \##103['Description' -> 'Topics of current interest to high school teachers are discussed in order to bring the teachers up to date on the latest developments in various areas of research. Examples could include the standard model of particle physics, nanofabrication techniques, atomic force microscopy, etc. Not for PhD credit.
 Fall or Spring,'].
 \##103['spring1' -> 1].
@@ -1171,6 +1273,7 @@ Fall or Spring,'].
 \##104['Credits' -> '1.00 - 18.00'].
 \##104['Prerequisites' -> 'NONE'].
 \##104['Antirequisites' -> 'NONE'].
+\##104['Corequisites' -> 'NONE'].
 \##104['Description' -> 'Research under the direction of a faculty member. Not open to Ph.D. candidates.
 Fall and Spring,'].
 \##104['spring1' -> 1].
@@ -1183,6 +1286,7 @@ Fall and Spring,'].
 \##105['Credits' -> '0.00 - 2.00'].
 \##105['Prerequisites' -> 'NONE'].
 \##105['Antirequisites' -> 'NONE'].
+\##105['Corequisites' -> 'NONE'].
 \##105['Description' -> 'Optical science students experience three to eight week periods in each of several appropriate research groups. At the end of each period a report is required that describes the topics studied or project done. May not be taken for credit more than two semesters.
 Fall and Spring,'].
 \##105['spring1' -> 1].
@@ -1195,6 +1299,7 @@ Fall and Spring,'].
 \##106['Credits' -> '1.00 - 3.00'].
 \##106['Prerequisites' -> 'NONE'].
 \##106['Antirequisites' -> 'NONE'].
+\##106['Corequisites' -> 'NONE'].
 \##106['Description' -> 'A two-semester course in which students spend at least 8 weeks in each of three different laboratories actively participating in the research of faculty associated with the Laufer Center. At least one of the rotations must be in experimental physical biology.
 Participants will give a research talk at the end of each eight week period.
 Fall and Spring, 1-3 credits, ABCF grading, May be repeated for credit'].
@@ -1208,6 +1313,7 @@ Fall and Spring, 1-3 credits, ABCF grading, May be repeated for credit'].
 \##107['Credits' -> '1.00 - 18.00'].
 \##107['Prerequisites' -> 'NONE'].
 \##107['Antirequisites' -> 'NONE'].
+\##107['Corequisites' -> 'NONE'].
 \##107['Description' -> 'Reading course in selected topics.
 Fall and Spring,'].
 \##107['spring1' -> 1].
@@ -1220,6 +1326,7 @@ Fall and Spring,'].
 \##108['Credits' -> '1.00 - 18.00'].
 \##108['Prerequisites' -> 'NONE'].
 \##108['Antirequisites' -> 'NONE'].
+\##108['Corequisites' -> 'NONE'].
 \##108['Description' -> 'Independent research for Master's degree students. Open only to those approved by individual faculty for thesis work. This course also includes a minimum of two hours person to person discussion of ethics and conduct in research and scholarship which addresses among others integrity in scholarship, academic honesty, authorship, plagiarism, mentoring and collaborations.  These topics will be illustrated with case studies and issues that arise in current research projects.'].
 \##108['spring1' -> 1].
 \##108['fall1' -> 1].
@@ -1231,6 +1338,7 @@ Fall and Spring,'].
 \##109['Credits' -> '0.00 - 1.00'].
 \##109['Prerequisites' -> 'NONE'].
 \##109['Antirequisites' -> 'NONE'].
+\##109['Corequisites' -> 'NONE'].
 \##109['Description' -> 'Special research topics centered on monographs, conference proceedings, or journal articles.  Topics include solid-state physics, atomic physics, quantum optics and applications of synchroton radiation.  Required for all first-year graduate students.
 Fall and Spring, ABCF grading, 0-1 credits, may be repeated'].
 \##109['spring1' -> 1].
@@ -1243,6 +1351,7 @@ Fall and Spring, ABCF grading, 0-1 credits, may be repeated'].
 \##110['Credits' -> '0.00 - 1.00'].
 \##110['Prerequisites' -> 'NONE'].
 \##110['Antirequisites' -> 'NONE'].
+\##110['Corequisites' -> 'NONE'].
 \##110['Description' -> 'Special research topics centered on monographs, conference proceedings, or journal articles. Topics include elementary particles, nuclear physics, galactic and extragalactic astronomy, and cosmology and accelerator physics. Required for all first-year graduate students.
 Fall and Spring, ABCF grading, 0-1 credits, may be repeated'].
 \##110['spring1' -> 1].
@@ -1255,6 +1364,7 @@ Fall and Spring, ABCF grading, 0-1 credits, may be repeated'].
 \##111['Credits' -> '0.00 - 3.00'].
 \##111['Prerequisites' -> 'NONE'].
 \##111['Antirequisites' -> 'NONE'].
+\##111['Corequisites' -> 'NONE'].
 \##111['Description' -> 'This course provides hands-on experience in teaching.  Activities may include classroom teaching, preparation and supervision of laboratory experiments, exams, homework assignments, and projects.
 Fall and Spring,'].
 \##111['spring1' -> 1].
@@ -1267,6 +1377,7 @@ Fall and Spring,'].
 \##112['Credits' -> '1.00 - 3.00'].
 \##112['Prerequisites' -> 'NONE'].
 \##112['Antirequisites' -> 'NONE'].
+\##112['Corequisites' -> 'NONE'].
 \##112['Description' -> 'This course provides an introduction to group theory and discusses topics that are important for applications in physics. Topics that will be discussed include but are not restricted to the following: finite groups, Lie groups, Lie algebras, Clifford algebras, Cartan generators, Dynkin diagrams, Young tableaux, noncompact groups such as the Poincar\'e group, invariant measures and coset manifolds. Additional topics such as Kac-Moody algebras, Virasoro algebras, symmetric spaces, supergroups and their invariant measure may be discussed as well.
 PS. The accent on the "e" of Poincare is and acute accent denoted by\'
 Offered Fall or Spring'].
@@ -1280,6 +1391,7 @@ Offered Fall or Spring'].
 \##113['Credits' -> '1.00 - 3.00'].
 \##113['Prerequisites' -> 'NONE'].
 \##113['Antirequisites' -> 'NONE'].
+\##113['Corequisites' -> 'NONE'].
 \##113['Description' -> 'This course discusses numerical methods used in physics and astrophysics. Topics include but are not limited to the following: Numerical integration and differentiation, differential equations, interpolation, root-finding, linear algebra, eigenvalues, Fourier transforms, Monte Carlo methods, hyperbolic and parabolic partial differential equations, parallel computing. All methods
 will be illustrated by examples from physics or astrophysics. Familiarity with Computational Methods in Physics and Astrophysics (PHY 504) is assumed.'].
 \##113['spring1' -> 1].
@@ -1292,6 +1404,7 @@ will be illustrated by examples from physics or astrophysics. Familiarity with C
 \##114['Credits' -> '1.00 - 3.00'].
 \##114['Prerequisites' -> 'NONE'].
 \##114['Antirequisites' -> 'NONE'].
+\##114['Corequisites' -> 'NONE'].
 \##114['Description' -> 'The field of quantum information and computation has evolved to a stage where there are quantum devices that can be programmed and various tasks and algorithms can be tested on these devices. This course introduces various quantum programming frameworks. It aims to provide a more practical approach of learning quantum computing by programming, via software developed using Python. Important basic quantum algorithms will be reviewed and learned by programming them and simulating their action. Moreover, an emphasis will be paid to the so-called Variational Quantum Eigensolver that has already been used on many problems, from molecular energies and optimization to financial applications and quantum machine learning. Some illustration of quantum programming will be done on IBM's transmon-type cloud quantum computers. Beyond the circuit-based quantum computers, programming quantum annealers will provide an alternative approach to solve a wide family of optimization problems.'].
 \##114['spring1' -> 1].
 \##114['fall1' -> 1].
@@ -1303,6 +1416,7 @@ will be illustrated by examples from physics or astrophysics. Familiarity with C
 \##115['Credits' -> 3].
 \##115['Prerequisites' -> 'NONE'].
 \##115['Antirequisites' -> 'NONE'].
+\##115['Corequisites' -> 'NONE'].
 \##115['Description' -> 'Quantization of relativistic fields: Lorentz and gauge symmetries, relativistic spin, the S-matrix and scattering; the standard model; perturbation theory, renormalization and effective field theories; path integrals and relations to condensed matter physics.
 Fall,'].
 \##115['spring1' -> 1].
@@ -1315,6 +1429,7 @@ Fall,'].
 \##116['Credits' -> '1.00 - 3.00'].
 \##116['Prerequisites' -> 'NONE'].
 \##116['Antirequisites' -> 'NONE'].
+\##116['Corequisites' -> 'NONE'].
 \##116['Description' -> 'Quantization of relativistic fields: Lorentz and gauge symmetries, relativistic spin, the S-matrix and scattering; the standard model; perturbation theory, renormalization and effective field theories; path integrals and relations to condensed matter physics.
 Spring,'].
 \##116['spring1' -> 1].
@@ -1327,6 +1442,7 @@ Spring,'].
 \##117['Credits' -> '1.00 - 3.00'].
 \##117['Prerequisites' -> 'NONE'].
 \##117['Antirequisites' -> 'NONE'].
+\##117['Corequisites' -> 'NONE'].
 \##117['Description' -> 'Applications of quantum field theory to interactions between elementary particles. Topics are chosen from perturbative quantum chromodynamics, the standard electro-weak model, lattice field theory, grand unified models, supersymmetry, and current research problems.
 Fall,'].
 \##117['spring1' -> 1].
@@ -1339,6 +1455,7 @@ Fall,'].
 \##118['Credits' -> '1.00 - 3.00'].
 \##118['Prerequisites' -> 'NONE'].
 \##118['Antirequisites' -> 'NONE'].
+\##118['Corequisites' -> 'NONE'].
 \##118['Description' -> 'This course is a continuation of PHY 612 and prepares students for research in theoretical particle physics. Topics that will be discussed include the properties of Quantum Chromodyanamics, Electorweak Symmetry Breaking, Cabbibbo-Kobayahi-Maskawa quark mixing, Effective Field theory, Neutrino masses, the hierarchy problems, dark matter, early universe cosmology and primordial nucleosynthesis. Physics beyond the standard model will be discussed as well including models of quark and lepton masses, grand unified theories and baryon number violation.
 Semesters Offered: Spring and Fall, 1-3 credits, Letter graded (A,A-,B+, etc.)'].
 \##118['spring1' -> 1].
@@ -1351,6 +1468,7 @@ Semesters Offered: Spring and Fall, 1-3 credits, Letter graded (A,A-,B+, etc.)']
 \##119['Credits' -> 3].
 \##119['Prerequisites' -> 'NONE'].
 \##119['Antirequisites' -> 'NONE'].
+\##119['Corequisites' -> 'NONE'].
 \##119['Description' -> 'General theory of relativity; tensor analysis, Einstein's field equations, experimental tests, black holes, gravitational waves, cosmology. May also include topics such as spinor methods, conformal invariance, and introduction to string theory or supergravity.
 Fall or Spring,'].
 \##119['spring1' -> 1].
@@ -1363,6 +1481,7 @@ Fall or Spring,'].
 \##120['Credits' -> '1.00 - 3.00'].
 \##120['Prerequisites' -> 'NONE'].
 \##120['Antirequisites' -> 'NONE'].
+\##120['Corequisites' -> 'NONE'].
 \##120['Description' -> 'Proofs of renormalizability and unitarity on non-Abelian guage theories using modern methods of Becchi-Rouet-Store-Tyutin (BRST) symmetry; descent equations for anomalies; classical instantons and their quantum corrections, including integration over zero modes; background field methods, other topics if time permits.  PHY 610/611 or equivalent is prerequisite.
 Fall or Spring, May be repeated for credit.'].
 \##120['spring1' -> 1].
@@ -1375,6 +1494,7 @@ Fall or Spring, May be repeated for credit.'].
 \##121['Credits' -> '1.00 - 3.00'].
 \##121['Prerequisites' -> 'NONE'].
 \##121['Antirequisites' -> 'NONE'].
+\##121['Corequisites' -> 'NONE'].
 \##121['Description' -> 'This course is intended for graduate students who have familiarity with guage & quantum field theory.  Topics will be selected from: Free bosonic & spinning strings and heterotic & Green-Schwarz superstrings; conformal field theory; tree-level and one-loop amplitudes; partition functions; spacetime supersymmetry and supergravity; compactification & duality; winding & Kaluza-Klein modes; 11-dimensional supergravity; branes in supergravity; D-branes in string theory; T-duality; M-theory; complex geometry and Calabi-Yau manifolds; string field theory; other advanced topics if time permits.  PHY 610/611 or equivalent is prerequisite.
 Fall or Spring,'].
 \##121['spring1' -> 1].
@@ -1387,6 +1507,7 @@ Fall or Spring,'].
 \##122['Credits' -> '1.00 - 3.00'].
 \##122['Prerequisites' -> 'NONE'].
 \##122['Antirequisites' -> 'NONE'].
+\##122['Corequisites' -> 'NONE'].
 \##122['Description' -> 'This course is intended for graduate students who have familiarity with guage & quantum field theory.  Topics will be selected from: free bosonic & spinning strings and heterotic & Green-Schwarz superstrings; conformal field theory; tree-level and one-loop amplitudes; partition functions; spacetime supersymmetry and supergravity; compactification & duality; winding & Kaluza-Klein modes; 11-dimensional supergravity; branes in supergravity; D-branes in string theory; T-duality; M-theory; complex geometry and Calabi-Yau manifolds; string field theory; other advanced topics if time permits.  PHY 610/611 or equivalent is prerequisite.
 Fall or Spring,'].
 \##122['spring1' -> 1].
@@ -1399,6 +1520,7 @@ Fall or Spring,'].
 \##123['Credits' -> '1.00 - 3.00'].
 \##123['Prerequisites' -> 'NONE'].
 \##123['Antirequisites' -> 'NONE'].
+\##123['Corequisites' -> 'NONE'].
 \##123['Description' -> 'Quantum computing is fast evolving to soon provide real applications that supersede classical computers. However to build quantum computers relies on ab understanding of physical systems, materials and the functioning of devices. This course will cover various important physical systems and materials currently used for quantum information processing. It is divided into a few modules, including superconducting qubits, solid-state spin qubits, photons, trapped ions, and topological qubits (p-wave superconductors, fractional quantum Hall systems, topological insulators, etc.) This course aims to bridge the gap from the physical principles to the potential functioning of devices.'].
 \##123['spring1' -> 1].
 \##123['fall1' -> 1].
@@ -1410,6 +1532,7 @@ Fall or Spring,'].
 \##124['Credits' -> '0.00 - 3.00'].
 \##124['Prerequisites' -> 'NONE'].
 \##124['Antirequisites' -> 'NONE'].
+\##124['Corequisites' -> 'NONE'].
 \##124['Description' -> 'A weekly seminar on advanced theoretical concepts. The discussion starts with a graduate student presentation and it is conducted under the guidance of a faculty supervisor.'].
 \##124['spring1' -> 1].
 \##124['fall1' -> 1].
@@ -1421,6 +1544,7 @@ Fall or Spring,'].
 \##125['Credits' -> '0.00 - 1.00'].
 \##125['Prerequisites' -> 'NONE'].
 \##125['Antirequisites' -> 'NONE'].
+\##125['Corequisites' -> 'NONE'].
 \##125['Description' -> 'Presentation of preliminary research results and current research problems by students and faculty. Required every semester of all astronomy graduate students.
 Fall and Spring.'].
 \##125['spring1' -> 1].
@@ -1433,6 +1557,7 @@ Fall and Spring.'].
 \##126['Credits' -> '0.00 - 1.00'].
 \##126['Prerequisites' -> 'NONE'].
 \##126['Antirequisites' -> 'NONE'].
+\##126['Corequisites' -> 'NONE'].
 \##126['Description' -> 'The goal of this course is for students to hone critical reading and analytic skills through discussions of literature in the area of Computational Biology.  Participants take turn being a "discussion leader" who informally guides the group through a peer-reviewed manuscript for which all Journal Club members will have to read in advance of the meeting.  Meetings in the Spring semester will include in Person Training (IPT) in Responsible conduct of Research and Scholarship (RCRS) on topics that comprise (1) Integrity in Scholarship, (2) Scientific Misconduct, (3) Mentoring, (4) Ownership and Authorship, (5) Plagiarism, (6) Data Management, (7) Journalism and Science, (8) Human Subjects, and (9) Laboratory Animals.'].
 \##126['spring1' -> 1].
 \##126['fall1' -> 1].
@@ -1444,6 +1569,7 @@ Fall and Spring.'].
 \##127['Credits' -> '0.00 - 1.00'].
 \##127['Prerequisites' -> 'NONE'].
 \##127['Antirequisites' -> 'NONE'].
+\##127['Corequisites' -> 'NONE'].
 \##127['Description' -> 'A weekly seminar concentrating on observational and theoretical studies of cool stars and related objects. Emphasis is on ongoing research and recent results in this area. Speakers include faculty, students, and visitors. Topics anticipated in the near future include results from the Hubble Space Telescope and ROSAT. Students registering for one credit will be expected to present at least one seminar.
 Fall and Spring,
 Prerequisite: Permission of instructor'].
@@ -1457,6 +1583,7 @@ Prerequisite: Permission of instructor'].
 \##128['Credits' -> '0.00 - 1.00'].
 \##128['Prerequisites' -> 'NONE'].
 \##128['Antirequisites' -> 'NONE'].
+\##128['Corequisites' -> 'NONE'].
 \##128['Description' -> 'A weekly series of research seminars presented by visiting scientists as well as by the faculty. Required every semester of all astronomy graduate students.
 Fall and Spring,'].
 \##128['spring1' -> 1].
@@ -1469,6 +1596,7 @@ Fall and Spring,'].
 \##129['Credits' -> '0.00 - 1.00'].
 \##129['Prerequisites' -> 'NONE'].
 \##129['Antirequisites' -> 'NONE'].
+\##129['Corequisites' -> 'NONE'].
 \##129['Description' -> 'A weekly seminar concentrating on topics in nuclear astrophysics, including dynamics of supernova collapse, structure and evolution of neutron stars, equation of state, the role of neutrinos in nucleosynthesis, etc.
 Fall or Spring.'].
 \##129['spring1' -> 1].
@@ -1481,6 +1609,7 @@ Fall or Spring.'].
 \##130['Credits' -> '0.00 - 1.00'].
 \##130['Prerequisites' -> 'NONE'].
 \##130['Antirequisites' -> 'NONE'].
+\##130['Corequisites' -> 'NONE'].
 \##130['Description' -> 'Fall and Spring,'].
 \##130['spring1' -> 1].
 \##130['fall1' -> 1].
@@ -1492,6 +1621,7 @@ Fall or Spring.'].
 \##131['Credits' -> '0.00 - 1.00'].
 \##131['Prerequisites' -> 'NONE'].
 \##131['Antirequisites' -> 'NONE'].
+\##131['Corequisites' -> 'NONE'].
 \##131['Description' -> 'Fall and Spring,'].
 \##131['spring1' -> 1].
 \##131['fall1' -> 1].
@@ -1503,6 +1633,7 @@ Fall or Spring.'].
 \##132['Credits' -> '0.00 - 1.00'].
 \##132['Prerequisites' -> 'NONE'].
 \##132['Antirequisites' -> 'NONE'].
+\##132['Corequisites' -> 'NONE'].
 \##132['Description' -> 'This seminar discusses current topics in cosmology. Each semester consists of a formal talk followed by an informal discussion of active areas of cosmology research.
 Fall and Spring, 0-1 credits, S/U grading.'].
 \##132['spring1' -> 1].
@@ -1515,6 +1646,7 @@ Fall and Spring, 0-1 credits, S/U grading.'].
 \##133['Credits' -> '0.00 - 1.00'].
 \##133['Prerequisites' -> 'NONE'].
 \##133['Antirequisites' -> 'NONE'].
+\##133['Corequisites' -> 'NONE'].
 \##133['Description' -> 'Fall and Spring,'].
 \##133['spring1' -> 1].
 \##133['fall1' -> 1].
@@ -1526,6 +1658,7 @@ Fall and Spring, 0-1 credits, S/U grading.'].
 \##134['Credits' -> '0.00 - 1.00'].
 \##134['Prerequisites' -> 'NONE'].
 \##134['Antirequisites' -> 'NONE'].
+\##134['Corequisites' -> 'NONE'].
 \##134['Description' -> 'Fall and Spring,'].
 \##134['spring1' -> 1].
 \##134['fall1' -> 1].
@@ -1537,6 +1670,7 @@ Fall and Spring, 0-1 credits, S/U grading.'].
 \##135['Credits' -> '0.00 - 1.00'].
 \##135['Prerequisites' -> 'NONE'].
 \##135['Antirequisites' -> 'NONE'].
+\##135['Corequisites' -> 'NONE'].
 \##135['Description' -> 'Fall and Spring,'].
 \##135['spring1' -> 1].
 \##135['fall1' -> 1].
@@ -1548,6 +1682,7 @@ Fall and Spring, 0-1 credits, S/U grading.'].
 \##136['Credits' -> '1.00 - 3.00'].
 \##136['Prerequisites' -> 'NONE'].
 \##136['Antirequisites' -> 'NONE'].
+\##136['Corequisites' -> 'NONE'].
 \##136['Description' -> 'Fall and Spring'].
 \##136['spring1' -> 1].
 \##136['fall1' -> 1].
@@ -1559,6 +1694,7 @@ Fall and Spring, 0-1 credits, S/U grading.'].
 \##137['Credits' -> '1.00 - 3.00'].
 \##137['Prerequisites' -> 'NONE'].
 \##137['Antirequisites' -> 'NONE'].
+\##137['Corequisites' -> 'NONE'].
 \##137['Description' -> 'Fall and Spring,'].
 \##137['spring1' -> 1].
 \##137['fall1' -> 1].
@@ -1570,6 +1706,7 @@ Fall and Spring, 0-1 credits, S/U grading.'].
 \##138['Credits' -> '1.00 - 3.00'].
 \##138['Prerequisites' -> 'NONE'].
 \##138['Antirequisites' -> 'NONE'].
+\##138['Corequisites' -> 'NONE'].
 \##138['Description' -> 'Fall and Spring,'].
 \##138['spring1' -> 1].
 \##138['fall1' -> 1].
@@ -1581,6 +1718,7 @@ Fall and Spring, 0-1 credits, S/U grading.'].
 \##139['Credits' -> '1.00 - 3.00'].
 \##139['Prerequisites' -> 'NONE'].
 \##139['Antirequisites' -> 'NONE'].
+\##139['Corequisites' -> 'NONE'].
 \##139['Description' -> 'Fall and Spring,'].
 \##139['spring1' -> 1].
 \##139['fall1' -> 1].
@@ -1592,6 +1730,7 @@ Fall and Spring, 0-1 credits, S/U grading.'].
 \##140['Credits' -> '1.00 - 3.00'].
 \##140['Prerequisites' -> 'NONE'].
 \##140['Antirequisites' -> 'NONE'].
+\##140['Corequisites' -> 'NONE'].
 \##140['Description' -> 'Fall and Spring,'].
 \##140['spring1' -> 1].
 \##140['fall1' -> 1].
@@ -1603,6 +1742,7 @@ Fall and Spring, 0-1 credits, S/U grading.'].
 \##141['Credits' -> '1.00 - 3.00'].
 \##141['Prerequisites' -> 'NONE'].
 \##141['Antirequisites' -> 'NONE'].
+\##141['Corequisites' -> 'NONE'].
 \##141['Description' -> 'Fall and Spring,'].
 \##141['spring1' -> 1].
 \##141['fall1' -> 1].
@@ -1614,6 +1754,7 @@ Fall and Spring, 0-1 credits, S/U grading.'].
 \##142['Credits' -> '1.00 - 3.00'].
 \##142['Prerequisites' -> 'NONE'].
 \##142['Antirequisites' -> 'NONE'].
+\##142['Corequisites' -> 'NONE'].
 \##142['Description' -> 'Fall and Spring,'].
 \##142['spring1' -> 1].
 \##142['fall1' -> 1].
@@ -1625,6 +1766,7 @@ Fall and Spring, 0-1 credits, S/U grading.'].
 \##143['Credits' -> '1.00 - 3.00'].
 \##143['Prerequisites' -> 'NONE'].
 \##143['Antirequisites' -> 'NONE'].
+\##143['Corequisites' -> 'NONE'].
 \##143['Description' -> 'The "Topics" courses in the 680 sequence do not have specific description, since the subject matter within the broadly defined topic may change from one semester to the next.
 May be repeated for credit.
 1-3 Credits, ABCF Grading'].
@@ -1638,6 +1780,7 @@ May be repeated for credit.
 \##144['Credits' -> '1.00 - 3.00'].
 \##144['Prerequisites' -> 'NONE'].
 \##144['Antirequisites' -> 'NONE'].
+\##144['Corequisites' -> 'NONE'].
 \##144['Description' -> 'Fall and Spring,'].
 \##144['spring1' -> 1].
 \##144['fall1' -> 1].
@@ -1649,6 +1792,7 @@ May be repeated for credit.
 \##145['Credits' -> '1.00 - 3.00'].
 \##145['Prerequisites' -> 'NONE'].
 \##145['Antirequisites' -> 'NONE'].
+\##145['Corequisites' -> 'NONE'].
 \##145['Description' -> 'Recently we established the Center for Accelerator Physics with Vladimir Litvinenko appointed as Director (with a shared appointment at BNL), and with a second faculty position in accelerator physics being added in the near future, we expect that the number of students working on accelerator physics will increase significantly and there will be much more demand for courses in this area. For a long time accelerator physics courses have been taught as "PHY 584: Special Topics in Nuclear Physics", but this is improper use of the course listing. The purpose of this course is two-fold. First, it is a special topic course that is taught full time at Stony Brook. Second, it is special topics course which is taught in collaboration with the United States Particle Accelerator School (USPAS), which is taught on a rotating basis at various universities and National Laboratories in the US. If that is the case, students will prepare for the USPAS course during the semester, and will particioate in the USPAS school in the following Winter or Summer break. The grade for the course will be determined by the grade in the USPAS school. Funding to participate in the USPAS course will be provided by USPAS if students are registered for such course at their local university.'].
 \##145['spring1' -> 1].
 \##145['fall1' -> 1].
@@ -1660,6 +1804,7 @@ May be repeated for credit.
 \##146['Credits' -> '1.00 - 3.00'].
 \##146['Prerequisites' -> 'NONE'].
 \##146['Antirequisites' -> 'NONE'].
+\##146['Corequisites' -> 'NONE'].
 \##146['Description' -> 'Fall and Spring,'].
 \##146['spring1' -> 1].
 \##146['fall1' -> 1].
@@ -1671,6 +1816,7 @@ May be repeated for credit.
 \##147['Credits' -> '1.00 - 3.00'].
 \##147['Prerequisites' -> 'NONE'].
 \##147['Antirequisites' -> 'NONE'].
+\##147['Corequisites' -> 'NONE'].
 \##147['Description' -> 'The course prepares graduate students in a comprehensive and systematic way for applying numerical methods to solve problems for which analytical methods have limitations. This knowledge will be applied to producing, collecting, analyzing and understanding numerical simulation data, and presenting and reporting results using appropriate media. This course will allow students to attain the level of knowledge needed to thrive in the field of particle accelerators, including cyclotrons, synchrotrons, storage rings, linear accelerators, colliders and industrial accelerators.'].
 \##147['spring1' -> 1].
 \##147['fall1' -> 1].
@@ -1682,6 +1828,7 @@ May be repeated for credit.
 \##148['Credits' -> '1.00 - 3.00'].
 \##148['Prerequisites' -> 'NONE'].
 \##148['Antirequisites' -> 'NONE'].
+\##148['Corequisites' -> 'NONE'].
 \##148['Description' -> 'The course will include discussions of accelerator physics and engineering topics, and phenomena specific to large accelerators: conceptual differences in accelerator physics resulting from the large scale of accelerators, high field superconducting magnets and gigantic SRF linacs, high power RF, large cryogenic and utility systems, vibration, support structures and alignment, large computer network and real-time controls, personal safety and machine protection challenges, large UHV systems, etc. The course will use examples of prior and existing facilities (RHIC, TEVATRON, APS/NSLS II, SLAC linac, LEP, LHC, CEBAF) as well as challenges in future facilities (EIC, PIP II, FRIB, FCC, ILC, neutrino factories, and muon colliders) to emphasize their problems and to describe either existing or possible solutions.'].
 \##148['spring1' -> 1].
 \##148['fall1' -> 1].
@@ -1693,6 +1840,7 @@ May be repeated for credit.
 \##149['Credits' -> '1.00 - 3.00'].
 \##149['Prerequisites' -> 'NONE'].
 \##149['Antirequisites' -> 'NONE'].
+\##149['Corequisites' -> 'NONE'].
 \##149['Description' -> 'The course starts with an essential review of the properties of low and medium power RF waves and components including transmission lines, waveguides and cavities, and then proceeds to highlight the properties and limitations under high power RF conditions. The principal deleterious effects taking place at high power levels are caused by arcing (a high peak power effect) and the ohmic dissipation in the metal walls (a high average power effect). Exceeding the power handling capacity of the RF components can result in expensive repairs. Methods of mitigating or avoiding these expensive repairs are discussed. Important applications of high power rf are discussed in depth. Finally the students are given an extended project on implementing a particle accelerator using the traditional method of placing cylindrical cavities in tandem and using the longitudinal electric field in the TM010 cavity mode to pump RF power into a particle beam and cause the desired acceleration of the charge particles.'].
 \##149['spring1' -> 1].
 \##149['fall1' -> 1].
@@ -1704,6 +1852,7 @@ May be repeated for credit.
 \##150['Credits' -> '1.00 - 3.00'].
 \##150['Prerequisites' -> 'NONE'].
 \##150['Antirequisites' -> 'NONE'].
+\##150['Corequisites' -> 'NONE'].
 \##150['Description' -> 'This course provides an introduction to the physics of laser-driven and beam-driven plasma wakefield accelerators. Topics include the description of the motion of a single particle in the fields of a laser or relativistic particle beam, coupling of intense drivers to plasma waves, description of linear and nonlinear plasma waves in 1D and 3D, injection of particles into plasma waves and beam loading, as well as other advanced topics such as the directions of present research as time permits. In addition to the theoretical concepts, the students will also be introduced to the computational and experimental tools used to explore the relevant physical phenomena.'].
 \##150['spring1' -> 1].
 \##150['fall1' -> 1].
@@ -1715,6 +1864,7 @@ May be repeated for credit.
 \##151['Credits' -> '1.00 - 3.00'].
 \##151['Prerequisites' -> 'NONE'].
 \##151['Antirequisites' -> 'NONE'].
+\##151['Corequisites' -> 'NONE'].
 \##151['Description' -> 'This course covers fundamental aspects of cryogenics system and engineering properties of materials and fluids at low temperatures. Cryogenic heat transfer and fluid dynamics, low temperature refrigeration and system engineering, application of helium cryogenic technology to contemporary particle accelerators, detectors and sensors.
 
 The course will address physics and engineering aspects of using helium cryogenics. It will cover fundamentals of normal and superfluid cryogenics. The course is intended for graduate students pursuing accelerator physics and graduate engineers and physicists who want to familiarize themselves with cryogenics.'].
@@ -1728,6 +1878,7 @@ The course will address physics and engineering aspects of using helium cryogeni
 \##152['Credits' -> '1.00 - 3.00'].
 \##152['Prerequisites' -> 'NONE'].
 \##152['Antirequisites' -> 'NONE'].
+\##152['Corequisites' -> 'NONE'].
 \##152['Description' -> 'The courses teaches students both the understanding and the practical experience of real accelerator hardware: magnets, RF cavities, vacuum chambers, controls, diagnostics, particle sources and other accelerator hardware and software. The course is taught in the control room of the Accelerator Lab in the basement of the SBU Physics department, where a state-of-the-art polarized electron gun is currently located. It will use cut-offs of real scale superconducting magnets, RF cavities, and vacuum chambers.  The course also includes a tour of operational hardware at BNL facilities'].
 \##152['spring1' -> 1].
 \##152['fall1' -> 1].
@@ -1739,6 +1890,7 @@ The course will address physics and engineering aspects of using helium cryogeni
 \##153['Credits' -> '0.00 - 1.00'].
 \##153['Prerequisites' -> 'NONE'].
 \##153['Antirequisites' -> 'NONE'].
+\##153['Corequisites' -> 'NONE'].
 \##153['Description' -> 'Fall and Spring,
 Delivery: 1 credit'].
 \##153['spring1' -> 1].
@@ -1751,6 +1903,7 @@ Delivery: 1 credit'].
 \##154['Credits' -> '1.00 - 9.00'].
 \##154['Prerequisites' -> 'NONE'].
 \##154['Antirequisites' -> 'NONE'].
+\##154['Corequisites' -> 'NONE'].
 \##154['Description' -> 'Independent research for Ph.D. degree candidates. Open only to students who have advanced to candidacy (G5). Major portion of research must take place on SBU campus, at Cold Spring Harbor, or at the Brookhaven National Lab. This course also includes a minimum of two hours person to person discussion of ethics and conduct in research and scholarship which addresses among others integrity in scholarship, academic honesty, authorship, plagiarism, mentoring and collaborations. These topics will be illustrated with case studies and issues that arise in current research projects.
 Fall, Spring, and Summer,'].
 \##154['spring1' -> 1].
@@ -1763,6 +1916,7 @@ Fall, Spring, and Summer,'].
 \##155['Credits' -> '1.00 - 9.00'].
 \##155['Prerequisites' -> 'NONE'].
 \##155['Antirequisites' -> 'NONE'].
+\##155['Corequisites' -> 'NONE'].
 \##155['Description' -> 'Independent research for Ph.D. degree candidates. Open only to students who have advanced to candidacy (G5). Major portion of research will take place off-campus, but in the United States and/or U.S. provinces. Please note, Brookhaven National Labs and the Cold Spring Harbor Lab are considered on-campus.   This course also includes a minimum of two hours person to person discussion of ethics and conduct in research and scholarship which addresses among others integrity in scholarship, academic honesty, authorship, plagiarism, mentoring and collaborations.  These topics will be illustrated with case studies and issues that arise in current research projects. All international students must enroll in one of the graduate student insurance plans and should be advised by an International Advisor.'].
 \##155['spring1' -> 1].
 \##155['fall1' -> 1].
@@ -1774,6 +1928,7 @@ Fall, Spring, and Summer,'].
 \##156['Credits' -> 0].
 \##156['Prerequisites' -> 'NONE'].
 \##156['Antirequisites' -> 'NONE'].
+\##156['Corequisites' -> 'NONE'].
 \##156['Description' -> ''].
 \##156['spring1' -> 1].
 \##156['fall1' -> 1].
