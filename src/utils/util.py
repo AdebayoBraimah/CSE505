@@ -10,14 +10,52 @@
 
 import os
 import shutil
+import time
 
 from typing import Tuple
 
 
+# TODO:
+#   from cProfile import Profile
+#   from pstats import Stats
+#   with Profile() as pr:
+#       main()
 class DependencyError(Exception):
     """Exception intended for unmet dependencies"""
 
     pass
+
+
+def timeit(func: callable) -> callable:
+    """Timing (decorator) function to time the execution of a function.
+
+    Prints the execution time of the function.
+
+    Args:
+        func: Function to be timed.
+
+    Returns:
+        Decorated function.
+    """
+
+    def timed(*args, **kwargs):
+        """Inner/nested function to time the execution of the function.
+
+        Returns:
+            Result of the function.
+        """
+        start_time = time.time()
+        print("--------------------------------------------\n")
+        print(f"Begin: {func.__name__}")
+        print("--------------------------------------------\n")
+        result = func(*args, **kwargs)
+        end_time = time.time()
+        print("--------------------------------------------\n")
+        print(f"End: {func.__name__} Execution time: {end_time - start_time:.2f} sec.")
+        print("--------------------------------------------\n")
+        return result
+
+    return timed
 
 
 def check_dependencies(dependencies: Tuple[str]) -> bool:
