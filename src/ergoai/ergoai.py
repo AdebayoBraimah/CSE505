@@ -93,7 +93,7 @@ def json_to_ergo(
 
 
 def query_ergoai(
-    knowledge: Union[KnowledgeBase, KnowledgeGraph, str], query: str
+    knowledge: Union[KnowledgeBase, KnowledgeGraph], query: str
 ) -> Union[str, Any]:
     """Queries an ERGO knowledge base/graph using ErgoAI.
 
@@ -108,23 +108,21 @@ def query_ergoai(
         Results of the query.
     """
     # NOTE: Query must be formatted like this: ?X[ancestor->?Y].
-    # TODO: Need to add argument for queries to pass to
-    #   ErgoAI.
 
     # Start ErgoAI session
     pyergo_start_session(XSBARCHDIR, ERGOROOT)
 
-    # TODO: Convert JSON to ERGO files
-    if isinstance(knowledge, str):
-        pass
+    if (isinstance(knowledge, str)) and (knowledge.endswith(".ergo")):
+        kg: Union[KnowledgeBase, KnowledgeGraph] = KnowledgeGraph(ergo=knowledge)
+        knowledge: str = kg.ergo
+    elif isinstance(knowledge, str):
+        raise ValueError(
+            "Knowledge must be a 'KnowledgeBase' or 'KnowledgeGraph' object."
+        )
 
-    if isinstance(knowledge, KnowledgeBase):
-        # store as knowledge graph file
-        pass
-
-    if isinstance(knowledge, KnowledgeGraph):
-        # store as file
-        pass
+    if (isinstance(knowledge, KnowledgeBase)) or isinstance(knowledge, KnowledgeGraph):
+        kg: Union[KnowledgeBase, KnowledgeGraph] = knowledge
+        knowledge: str = kg.ergo
 
     # Remove file extension (if present)
     filepath: str
