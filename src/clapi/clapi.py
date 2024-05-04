@@ -96,6 +96,7 @@ def process_course_data_clingo(
                         f"antirequisite({course_name.lower()}, {antireq_code.lower()})."
                     )
     output = courses_list + prerequisites_list + antirequisites_list
+
     _write_list_to_file(output, output_file)
 
     if kg:
