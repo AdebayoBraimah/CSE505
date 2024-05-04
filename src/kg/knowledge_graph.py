@@ -427,7 +427,9 @@ def scrape_sbu_solar(
         except NoSuchElementException:
             grading_basis: str = ""
 
-        # Enrollment requirements (pre-requisites)
+        # TODO: Parse corequisites and include as separate column
+        #
+        # Enrollment requirements (prerequisites, anti-requisites, and corequisites)
         try:
             _enrollment_requirement: str = driver.find_element(
                 By.ID, "DERIVED_CRSECAT_DESCR254A$0"
@@ -435,10 +437,6 @@ def scrape_sbu_solar(
         except NoSuchElementException:
             _enrollment_requirement: str = ""
 
-        # Format enrollment requirements (prerequisites)
-        # enrollment_requirement: List[List[str]] = parse_requirements(
-        #     input_string=_enrollment_requirement
-        # )
         enrollment_requirement: Union[str, List[List[str]]]
         enrollment_anti_requisite: Union[str, List[List[str]]]
 
@@ -523,12 +521,7 @@ def scrape_sbu_solar(
         inplace=True,
     )
 
-    # TODO: Add course offered information here
-    #
-    # NOTE:
-    #  - Replace NaN with 0
-    #  - Concatenate along CourseNumber
-    #  - Consider non-CSE cases, add columns: spring1, fall1, spring2, fall2
+    # Add semester offering information here
     if major_three_letter_code.upper() == "CSE":
         # Get course offering information for CSE
         _df = get_sbu_cse_course_offered_info(
@@ -733,6 +726,9 @@ def parse_prerequisites(
     # Split the input string into parts by semi-colon for prerequisites
     conjunctive_parts = input_string.split(";")
 
+    # TODO: Parse corequisites and include as separate list
+    #   - Use CSE160 as an example
+    #
     # Result list to hold parsed prerequisites
     prerequisites = []
     anti_requisites = []
@@ -956,7 +952,8 @@ def get_sbu_cse_course_offered_info(undergrad_url: str, grad_url: str) -> pd.Dat
         },
         inplace=True,
     )
-    # HERE
+    # TODO: Keep adding courses that are regularly offered but
+    #       not scheduled here.
     for rows in df.itertuples():
         if (
             ("cse593" in rows[1].lower())
