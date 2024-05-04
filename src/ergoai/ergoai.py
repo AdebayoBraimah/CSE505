@@ -52,6 +52,9 @@ def json_to_ergo(
         - If a JSON file needs to be converted to an ERGO file, this function MUST be called first before calling ``pyergo_query``.
         - If a KnowledgeBase or KnowledgeGraph object is passed, then the object is updated with the ERGO file path.
 
+    WARNING:
+        - This function can only be once per session. If you need to convert multiple JSON files to ERGO files, you must start a new session each time, otherwise the current session will crash.
+
     Args:
         json_file: Input JSON file (``KnowledgeBase`` or ``KnowledgeGraph`` object) to be converted to ERGO file.
         output_file: Output filename. If not specified, then a new file of the same name is created, with a '.ergo' file extension. Defaults to None.
