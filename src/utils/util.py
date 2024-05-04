@@ -31,6 +31,22 @@ def timeit(func: callable) -> callable:
 
     Prints the execution time of the function.
 
+    Usage example:
+        >>> @timeit
+        ... def main():
+        ...     print("Hello, World!")
+        ...
+        >>> main()
+        --------------------------------------------
+        Begin: main
+        --------------------------------------------
+
+        Hello, World!
+
+        --------------------------------------------
+        End: main Execution time: 0.00 sec.
+        --------------------------------------------
+
     Args:
         func: Function to be timed.
 
@@ -45,12 +61,12 @@ def timeit(func: callable) -> callable:
             Result of the function.
         """
         start_time = time.time()
-        print("--------------------------------------------\n")
+        print("--------------------------------------------")
         print(f"Begin: {func.__name__}")
         print("--------------------------------------------\n")
         result = func(*args, **kwargs)
         end_time = time.time()
-        print("--------------------------------------------\n")
+        print("--------------------------------------------")
         print(f"End: {func.__name__} Execution time: {end_time - start_time:.2f} sec.")
         print("--------------------------------------------\n")
         return result
