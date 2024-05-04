@@ -1,5 +1,7 @@
 % NOTE: This works -- use this as a template
 % 
+% Command to run: clingo test.prereq.lp test.data.lp
+% 
 % TODO: Create python function that generates these atoms
 
 % Define possible prerequisite fulfillment

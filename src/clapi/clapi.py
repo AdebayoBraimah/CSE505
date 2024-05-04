@@ -22,6 +22,16 @@ from src.utils.util import DependencyError, check_dependencies
 #   - Repeatable classes - Use course description to create separate file of atoms of repeatable classes,
 #       including how many times can be repeated, and/or for up to how many credits.
 
+# TODO:
+#   - Write function that formats:
+#     - course info predicate: course_id, course_name, credits, career, spring1, fall1, spring2, fall2
+#     - prerequisite rules
+#     - antirequisite rules
+#     - corequisite rules
+#     - repeatable course predicate [Not automated] -- update this as you go
+#
+#  - See test.anti_and_coreq.lp and test.data.2.lp for examples.
+
 
 def process_course_data_clingo(
     file_path: Union[KnowledgeBase, KnowledgeGraph, str], output_file: str = None
