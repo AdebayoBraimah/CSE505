@@ -440,7 +440,7 @@ def scrape_sbu_solar(
         enrollment_requirement: Union[str, List[List[str]]]
         enrollment_anti_requisite: Union[str, List[List[str]]]
 
-        enrollment_requirement, enrollment_anti_requisite = parse_prerequisites(
+        enrollment_requirement, enrollment_anti_requisite = parse_requirements(
             input_string=_enrollment_requirement
         )
 
@@ -590,18 +590,18 @@ def scrape_sbu_solar(
     return kg
 
 
-def parse_requirements(input_string: str) -> Union[str, List[List[str]]]:
+def parse_prerequisites(input_string: str) -> Union[str, List[List[str]]]:
     """Parse major requirements from a string into a list of lists of course codes.
     This function is mainly used to separate disjunctions and conjunctions course prerequisites.
     Disjunctions are grouped together in the same sub-list, while conjunctions are separated into different sub-lists.
     For example, ``"Prerequisite: CSE 216 or CSE 260; AMS 310; CSE major"`` would be parsed as: ``[["CSE 216", "CSE 260"], ["AMS 310"], ["CSE major"]]``.
 
     WARNING:
-        - This function is deprecated. Use ``parse_prerequisites()`` instead.
+        - This function is deprecated. Use ``parse_requirements()`` instead.
 
     Usage example:
         >>> input_string = "Prerequisite: CSE 216 or CSE 260; AMS 310; CSE major"
-        >>> parse_requirements(input_string)
+        >>> parse_prerequisites(input_string)
         [['CSE 216', 'CSE 260'], ['AMS 310'], ['CSE major']]
 
     Args:
@@ -611,7 +611,7 @@ def parse_requirements(input_string: str) -> Union[str, List[List[str]]]:
         List of lists of containing strings that corresponds to course prequisites.
     """
     warn(
-        "``parse_requirements()`` is deprecated. Please use ``parse_prerequisites()`` instead.",
+        "``parse_prerequisites()`` is deprecated. Please use ``parse_requirements()`` instead.",
         DeprecationWarning,
         stacklevel=2,
     )
@@ -693,7 +693,7 @@ def parse_requirements(input_string: str) -> Union[str, List[List[str]]]:
 #     return result
 
 
-def parse_prerequisites(
+def parse_requirements(
     input_string: str,
 ) -> Union[Tuple[str, str], Tuple[List[List[str]], List[List[str]]]]:
     """Parse major requirements from a string into a list of lists of course codes.
@@ -702,11 +702,11 @@ def parse_prerequisites(
     are separated into different sub-lists. Returns lists for both prerequisites and anti-requisites.
 
     NOTE:
-        - Use this function in place of ``parse_requirements()``.
+        - Use this function in place of ``parse_prerequisites()``.
 
     Usage example:
         >>> input_string = "Prerequisite: CSE 216 or CSE 260; AMS 310; CSE major; Anti-requisite: CSE 260"
-        >>> parse_prerequisites(input_string)
+        >>> parse_requirements(input_string)
         ([['CSE216', 'CSE260'], ['AMS310']], [['CSE260']])
 
     Args:
