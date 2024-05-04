@@ -19,7 +19,6 @@ from src.kg.knowledge_graph import KnowledgeBase, KnowledgeGraph
 from src.utils.util import DependencyError, check_dependencies
 
 # TODO:
-#   - Honors - use course description to separate out into different file e.g. cse_honors.lp -- cse_honors(cse160).
 #   - Repeatable classes - Use course description to create separate file of atoms of repeatable classes,
 #       including how many times can be repeated, and/or for up to how many credits.
 
@@ -71,10 +70,12 @@ def process_course_data_clingo(
         prerequisites = details.get("Prerequisites", [])
         antirequisites = details.get("Antirequisites", [])
 
+        # NOTE: Career must be quoted to avoid issues with Clingo
+        #   in the future, the career should be defined as its own atom
         courses_list.append(
-            f"course({course_name.lower()}, {credits}, {details.get('Career')},{int(details.get('spring1'))}, {int(details.get('fall1'))}, {int(details.get('spring2'))}, {int(details.get('fall2'))})."
+            f"course({course_name.lower()}, {credits}, \"{details.get('Career')}\", {int(details.get('spring1'))}, {int(details.get('fall1'))}, {int(details.get('spring2'))}, {int(details.get('fall2'))})."
         )
-
+        # TODO: process corequisites
         # Process prerequisites
         if prerequisites != "NONE" and isinstance(prerequisites, list):
             for prereq_list in prerequisites:
@@ -94,7 +95,6 @@ def process_course_data_clingo(
                     antirequisites_list.append(
                         f"antirequisite({course_name.lower()}, {antireq_code.lower()})."
                     )
-
     output = courses_list + prerequisites_list + antirequisites_list
     _write_list_to_file(output, output_file)
 
