@@ -827,6 +827,7 @@ def parse_prerequisites(input_string: str) -> Union[str, List[List[str]]]:
 #     return prerequisites, anti_requisites, corequisites
 
 
+# TODO: Add doc-strings
 def parse_requirements(input_string):
     # Normalize spaces and split the string into main sections
     input_string = re.sub(r"\s+", " ", input_string.strip())
