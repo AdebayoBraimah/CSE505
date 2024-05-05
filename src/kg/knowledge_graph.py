@@ -230,6 +230,10 @@ def scrape_sbu_solar(
     output_filename: Optional[str] = None,
 ) -> KnowledgeGraph:
     """Scrape Stony Brook University's course catalog for a specific major's course information.
+    This function scrapes Stony Brook University's course catalog and stores the information in a :class:`KnowledgeGraph` object.
+    The course information includes course number, title, career, units, grading basis, enrollment requirements, anti-requisites, corequisites, course components, academic group, academic organization, and course description.
+    Additionally, information to when courses are offered over a 4 semester span (specific only to CSE courses) is also included. This information is scraped from the CSE department's website, and is
+    hardcoded for CSE courses only see (:func:`get_sbu_cse_course_offered_info`).
 
     WARNING:
         - This function uses a ``Selenium WebDriver`` and specific ``div`` IDs to scrape the course catalog.
