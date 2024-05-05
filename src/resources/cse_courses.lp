@@ -205,6 +205,37 @@ course(cse700, 0..9, "Graduate", 0, 0, 0, 0).
 course(cse701, 0..9, "Graduate", 0, 0, 0, 0).
 course(cse800, 0, "Graduate", 0, 0, 0, 0).
 
+% Honors Courses
+honors(cse150).
+honors(cse160).
+honors(cse161).
+honors(cse260).
+honors(cse261).
+honors(cse350).
+honors(cse385).
+honors(cse495).
+honors(cse496).
+
+% Repeatable Courses
+repeatable(cse390, 2, _).
+repeatable(cse391, 2, _).
+repeatable(cse392, 2, _).
+repeatable(cse393, 2, _).
+repeatable(cse394, 2, _).
+repeatable(cse475, 2, _).
+repeatable(cse488, _, 12).
+repeatable(cse590, 2, _).
+repeatable(cse591, 2, _).
+repeatable(cse592, 2, _).
+repeatable(cse593, _, _).
+repeatable(cse594, 2, _).
+repeatable(cse595, 2, _).
+repeatable(cse617, 3, _).
+repeatable(cse690, 2, _).
+repeatable(cse691, 2, _).
+repeatable(cse692, 2, _).
+repeatable(cse693, 2, _).
+
 % Course Rules 
 
 % Antirequisites for CSE101

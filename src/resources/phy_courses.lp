@@ -1,3 +1,4 @@
+% Course predicates
 course(phy112, 3, "Undergraduate", 1, 1, 1, 1).
 course(phy113, 3, "Undergraduate", 1, 1, 1, 1).
 course(phy115, 1, "Undergraduate", 1, 1, 1, 1).
@@ -153,110 +154,449 @@ course(phy698, 0..1, "Graduate", 1, 1, 1, 1).
 course(phy699, 1..9, "Graduate", 1, 1, 1, 1).
 course(phy700, 1..9, "Graduate", 1, 1, 1, 1).
 course(phy800, 0, "Graduate", 1, 1, 1, 1).
-prerequisite(phy119, mat123).
-prerequisite(phy119, che131).
-prerequisite(phy121, mat125).
-prerequisite(phy121, mat131).
-prerequisite(phy121, mat141).
-prerequisite(phy121, ams151).
-prerequisite(phy122, phy121).
-prerequisite(phy125, mat123).
-prerequisite(phy126, phy125).
-prerequisite(phy127, phy125).
-prerequisite(phy131, mat123).
-prerequisite(phy132, phy131).
-prerequisite(phy132, phy141).
-prerequisite(phy134, phy133).
-prerequisite(phy142, phy141).
-prerequisite(phy153, phy133).
-prerequisite(phy153, mat125).
-prerequisite(phy153, mat131).
-prerequisite(phy153, mat141).
-prerequisite(phy153, ams151).
-prerequisite(phy153, mat171).
-prerequisite(phy251, phy122).
-prerequisite(phy251, phy126).
-prerequisite(phy251, phy132).
-prerequisite(phy251, phy142).
-prerequisite(phy251, phy134).
-prerequisite(phy251, mat126).
-prerequisite(phy251, ams161).
-prerequisite(phy277, phy125).
-prerequisite(phy277, phy126).
-prerequisite(phy277, phy127).
-prerequisite(phy277, phy133).
-prerequisite(phy277, phy134).
-prerequisite(phy277, phy131).
-prerequisite(phy277, phy132).
-prerequisite(phy277, phy141).
-prerequisite(phy277, phy142).
-prerequisite(phy277, ams151).
-prerequisite(phy277, mat126).
-prerequisite(phy277, mat131).
-prerequisite(phy277, mat141).
-prerequisite(phy277, ams161).
-prerequisite(phy277, mat127).
-prerequisite(phy277, mat132).
-prerequisite(phy277, mat142).
-prerequisite(phy277, mat171).
-prerequisite(phy300, phy132).
-prerequisite(phy300, phy134).
-prerequisite(phy300, phy142).
-prerequisite(phy300, phy134).
-prerequisite(phy300, phy126).
-prerequisite(phy300, phy127).
-prerequisite(phy300, phy134).
-prerequisite(phy301, phy251).
-prerequisite(phy301, phy277).
-prerequisite(phy301, mat203).
-prerequisite(phy301, mat205).
-prerequisite(phy301, ams261).
-prerequisite(phy301, mat307).
-prerequisite(phy302, phy301).
-prerequisite(phy303, phy251).
-prerequisite(phy303, phy277).
-prerequisite(phy303, mat303).
-prerequisite(phy303, mat305).
-prerequisite(phy303, ams361).
-prerequisite(phy303, mat308).
-prerequisite(phy306, phy251).
-prerequisite(phy307, phy122).
-prerequisite(phy307, phy126).
-prerequisite(phy307, phy127).
-prerequisite(phy307, phy134).
-prerequisite(phy307, phy132).
-prerequisite(phy307, phy134).
-prerequisite(phy307, phy142).
-prerequisite(phy307, phy134).
-prerequisite(phy307, mat132).
-prerequisite(phy307, mat142).
-prerequisite(phy307, mat127).
-prerequisite(phy307, mat171).
-prerequisite(phy307, ams161).
-prerequisite(phy308, phy300).
-prerequisite(phy311, phy122).
-prerequisite(phy311, phy126).
-prerequisite(phy311, phy127).
-prerequisite(phy311, phy134).
-prerequisite(phy311, phy132).
-prerequisite(phy311, phy142).
-prerequisite(phy335, phy251).
-prerequisite(phy335, wrt102).
-prerequisite(phy405, phy303).
-prerequisite(phy405, phy308).
-prerequisite(phy405, mat341).
-prerequisite(phy408, phy303).
-prerequisite(phy420, phy277).
-prerequisite(phy420, phy300).
-prerequisite(phy420, phy301).
-prerequisite(phy420, phy302).
-prerequisite(phy420, phy303).
-prerequisite(phy431, phy308).
-prerequisite(phy444, wrt102).
-prerequisite(phy445, phy308).
-prerequisite(phy445, phy335).
-prerequisite(phy445, wrt102).
-prerequisite(phy452, phy300).
-prerequisite(phy452, phy308).
-prerequisite(phy459, wrt102).
-prerequisite(phy472, phy306).
+
+% Honors Courses
+honors(phy141).
+honors(phy142).
+
+% Repeatable Courses
+repeatable(phy287, _, 3).
+repeatable(phy390, 2, _).
+repeatable(phy447, _, 6).
+repeatable(phy475, _, 6).
+repeatable(phy487, _, 6).
+repeatable(phy584, _, 3).
+repeatable(phy598, _, 1).
+repeatable(phy599, _, 1).
+repeatable(phy687, _, 3).
+
+% Course Rules 
+
+% Corequisites for PHY115
+:- course(phy115, 1, "Undergraduate", 1, 1, 1, 1), 
+   not course(phy113, _, "Undergraduate", 1, 1, 1, 1). 
+
+% Prerequisites for PHY119
+:- course(phy119, 4, "Undergraduate", 1, 1, 1, 1), 
+   not course(mat123, _, "Undergraduate", _, _, _, _). 
+
+:- course(phy119, 4, "Undergraduate", 1, 1, 1, 1), 
+   not course(che131, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for PHY121
+:- course(phy121, 4, "Undergraduate", 1, 1, 1, 1), 
+   not course(mat125, _, "Undergraduate", _, _, _, _), 
+   not course(mat131, _, "Undergraduate", _, _, _, _), 
+   not course(mat141, _, "Undergraduate", _, _, _, _), 
+   not course(ams151, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for PHY122
+:- course(phy122, 4, "Undergraduate", 1, 1, 1, 1), 
+   not course(phy121, _, "Undergraduate", _, _, _, _). 
+
+% Corequisites for PHY122
+:- course(phy122, 4, "Undergraduate", 1, 1, 1, 1), 
+   not course(che132, _, "Undergraduate", 1, 1, 1, 1). 
+
+:- course(phy122, 4, "Undergraduate", 1, 1, 1, 1), 
+   not course(che152, _, "Undergraduate", 1, 1, 1, 1). 
+
+% Prerequisites for PHY125
+:- course(phy125, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(mat123, _, "Undergraduate", _, _, _, _). 
+
+% Corequisites for PHY125
+:- course(phy125, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(mat125, _, "Undergraduate", 1, 1, 1, 1). 
+
+:- course(phy125, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(mat131, _, "Undergraduate", 1, 1, 1, 1). 
+
+:- course(phy125, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(mat141, _, "Undergraduate", 1, 1, 1, 1). 
+
+:- course(phy125, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(ams151, _, "Undergraduate", 1, 1, 1, 1). 
+
+% Prerequisites for PHY126
+:- course(phy126, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(phy125, _, "Undergraduate", _, _, _, _). 
+
+% Corequisites for PHY126
+:- course(phy126, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(mat126, _, "Undergraduate", 1, 1, 1, 1). 
+
+:- course(phy126, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(ams161, _, "Undergraduate", 1, 1, 1, 1). 
+
+% Prerequisites for PHY127
+:- course(phy127, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(phy125, _, "Undergraduate", _, _, _, _). 
+
+% Corequisites for PHY127
+:- course(phy127, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(mat126, _, "Undergraduate", 1, 1, 1, 1). 
+
+:- course(phy127, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(ams161, _, "Undergraduate", 1, 1, 1, 1). 
+
+% Prerequisites for PHY131
+:- course(phy131, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(mat123, _, "Undergraduate", _, _, _, _). 
+
+% Corequisites for PHY131
+:- course(phy131, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(mat125, _, "Undergraduate", 1, 1, 1, 1). 
+
+:- course(phy131, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(mat131, _, "Undergraduate", 1, 1, 1, 1). 
+
+:- course(phy131, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(mat141, _, "Undergraduate", 1, 1, 1, 1). 
+
+:- course(phy131, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(ams151, _, "Undergraduate", 1, 1, 1, 1). 
+
+% Prerequisites for PHY132
+:- course(phy132, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(phy131, _, "Undergraduate", _, _, _, _), 
+   not course(phy141, _, "Undergraduate", _, _, _, _). 
+
+% Corequisites for PHY132
+:- course(phy132, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(mat132, _, "Undergraduate", 1, 1, 1, 1). 
+
+:- course(phy132, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(mat142, _, "Undergraduate", 1, 1, 1, 1). 
+
+:- course(phy132, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(mat126, _, "Undergraduate", 1, 1, 1, 1). 
+
+:- course(phy132, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(mat171, _, "Undergraduate", 1, 1, 1, 1). 
+
+:- course(phy132, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(ams161, _, "Undergraduate", 1, 1, 1, 1). 
+
+% Corequisites for PHY133
+:- course(phy133, 1, "Undergraduate", 1, 1, 1, 1), 
+   not course(phy125, _, "Undergraduate", 1, 1, 1, 1). 
+
+:- course(phy133, 1, "Undergraduate", 1, 1, 1, 1), 
+   not course(phy126, _, "Undergraduate", 1, 1, 1, 1). 
+
+:- course(phy133, 1, "Undergraduate", 1, 1, 1, 1), 
+   not course(phy131, _, "Undergraduate", 1, 1, 1, 1). 
+
+:- course(phy133, 1, "Undergraduate", 1, 1, 1, 1), 
+   not course(phy141, _, "Undergraduate", 1, 1, 1, 1). 
+
+% Prerequisites for PHY134
+:- course(phy134, 1, "Undergraduate", 1, 1, 1, 1), 
+   not course(phy133, _, "Undergraduate", _, _, _, _). 
+
+% Corequisites for PHY134
+:- course(phy134, 1, "Undergraduate", 1, 1, 1, 1), 
+   not course(phy126, _, "Undergraduate", 1, 1, 1, 1). 
+
+:- course(phy134, 1, "Undergraduate", 1, 1, 1, 1), 
+   not course(phy127, _, "Undergraduate", 1, 1, 1, 1). 
+
+:- course(phy134, 1, "Undergraduate", 1, 1, 1, 1), 
+   not course(phy132, _, "Undergraduate", 1, 1, 1, 1). 
+
+:- course(phy134, 1, "Undergraduate", 1, 1, 1, 1), 
+   not course(phy142, _, "Undergraduate", 1, 1, 1, 1). 
+
+% Corequisites for PHY141
+:- course(phy141, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(mat131, _, "Undergraduate", 1, 1, 1, 1). 
+
+:- course(phy141, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(ams151, _, "Undergraduate", 1, 1, 1, 1). 
+
+:- course(phy141, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(phy133, _, "Undergraduate", 1, 1, 1, 1). 
+
+% Prerequisites for PHY142
+:- course(phy142, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(phy141, _, "Undergraduate", _, _, _, _). 
+
+% Corequisites for PHY142
+:- course(phy142, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(mat132, _, "Undergraduate", 1, 1, 1, 1). 
+
+:- course(phy142, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(ams161, _, "Undergraduate", 1, 1, 1, 1). 
+
+:- course(phy142, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(phy134, _, "Undergraduate", 1, 1, 1, 1). 
+
+% Prerequisites for PHY153
+:- course(phy153, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(phy133, _, "Undergraduate", _, _, _, _). 
+
+:- course(phy153, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(mat125, _, "Undergraduate", _, _, _, _), 
+   not course(mat131, _, "Undergraduate", _, _, _, _), 
+   not course(mat141, _, "Undergraduate", _, _, _, _), 
+   not course(ams151, _, "Undergraduate", _, _, _, _), 
+   not course(mat171, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for PHY251
+:- course(phy251, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(phy122, _, "Undergraduate", _, _, _, _), 
+   not course(phy126, _, "Undergraduate", _, _, _, _). 
+
+:- course(phy251, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(phy132, _, "Undergraduate", _, _, _, _), 
+   not course(phy142, _, "Undergraduate", _, _, _, _). 
+
+:- course(phy251, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(phy134, _, "Undergraduate", _, _, _, _). 
+
+:- course(phy251, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(mat126, _, "Undergraduate", _, _, _, _), 
+   not course(ams161, _, "Undergraduate", _, _, _, _). 
+
+% Corequisites for PHY251
+:- course(phy251, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(mat203, _, "Undergraduate", 1, 1, 1, 1). 
+
+:- course(phy251, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(mat205, _, "Undergraduate", 1, 1, 1, 1). 
+
+:- course(phy251, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(ams261, _, "Undergraduate", 1, 1, 1, 1). 
+
+:- course(phy251, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(mat307, _, "Undergraduate", 1, 1, 1, 1). 
+
+% Corequisites for PHY252
+:- course(phy252, 1, "Undergraduate", 1, 1, 1, 1), 
+   not course(phy251, _, "Undergraduate", 1, 1, 1, 1). 
+
+% Prerequisites for PHY277
+:- course(phy277, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(phy125, _, "Undergraduate", _, _, _, _), 
+   not course(phy126, _, "Undergraduate", _, _, _, _), 
+   not course(phy127, _, "Undergraduate", _, _, _, _). 
+
+:- course(phy277, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(phy133, _, "Undergraduate", _, _, _, _), 
+   not course(phy134, _, "Undergraduate", _, _, _, _). 
+
+:- course(phy277, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(phy131, _, "Undergraduate", _, _, _, _), 
+   not course(phy132, _, "Undergraduate", _, _, _, _). 
+
+:- course(phy277, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(phy141, _, "Undergraduate", _, _, _, _), 
+   not course(phy142, _, "Undergraduate", _, _, _, _). 
+
+:- course(phy277, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(ams151, _, "Undergraduate", _, _, _, _), 
+   not course(mat126, _, "Undergraduate", _, _, _, _), 
+   not course(mat131, _, "Undergraduate", _, _, _, _), 
+   not course(mat141, _, "Undergraduate", _, _, _, _), 
+   not course(ams161, _, "Undergraduate", _, _, _, _), 
+   not course(mat127, _, "Undergraduate", _, _, _, _), 
+   not course(mat132, _, "Undergraduate", _, _, _, _), 
+   not course(mat142, _, "Undergraduate", _, _, _, _), 
+   not course(mat171, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for PHY300
+:- course(phy300, 4, "Undergraduate", 1, 1, 1, 1), 
+   not course(phy132, _, "Undergraduate", _, _, _, _), 
+   not course(phy134, _, "Undergraduate", _, _, _, _), 
+   not course(phy142, _, "Undergraduate", _, _, _, _), 
+   not course(phy134, _, "Undergraduate", _, _, _, _), 
+   not course(phy126, _, "Undergraduate", _, _, _, _), 
+   not course(phy127, _, "Undergraduate", _, _, _, _), 
+   not course(phy134, _, "Undergraduate", _, _, _, _). 
+
+% Corequisites for PHY300
+:- course(phy300, 4, "Undergraduate", 1, 1, 1, 1), 
+   not course(mat203, _, "Undergraduate", 1, 1, 1, 1). 
+
+:- course(phy300, 4, "Undergraduate", 1, 1, 1, 1), 
+   not course(mat205, _, "Undergraduate", 1, 1, 1, 1). 
+
+:- course(phy300, 4, "Undergraduate", 1, 1, 1, 1), 
+   not course(ams261, _, "Undergraduate", 1, 1, 1, 1). 
+
+:- course(phy300, 4, "Undergraduate", 1, 1, 1, 1), 
+   not course(mat307, _, "Undergraduate", 1, 1, 1, 1). 
+
+% Prerequisites for PHY301
+:- course(phy301, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(phy251, _, "Undergraduate", _, _, _, _). 
+
+:- course(phy301, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(phy277, _, "Undergraduate", _, _, _, _). 
+
+:- course(phy301, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(mat203, _, "Undergraduate", _, _, _, _), 
+   not course(mat205, _, "Undergraduate", _, _, _, _), 
+   not course(ams261, _, "Undergraduate", _, _, _, _), 
+   not course(mat307, _, "Undergraduate", _, _, _, _). 
+
+% Corequisites for PHY301
+:- course(phy301, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(mat341, _, "Undergraduate", 1, 1, 1, 1). 
+
+% Prerequisites for PHY302
+:- course(phy302, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(phy301, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for PHY303
+:- course(phy303, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(phy251, _, "Undergraduate", _, _, _, _). 
+
+:- course(phy303, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(phy277, _, "Undergraduate", _, _, _, _). 
+
+:- course(phy303, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(mat303, _, "Undergraduate", _, _, _, _), 
+   not course(mat305, _, "Undergraduate", _, _, _, _), 
+   not course(ams361, _, "Undergraduate", _, _, _, _), 
+   not course(mat308, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for PHY306
+:- course(phy306, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(phy251, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for PHY307
+:- course(phy307, 4, "Undergraduate", 1, 1, 1, 1), 
+   not course(phy122, _, "Undergraduate", _, _, _, _), 
+   not course(phy126, _, "Undergraduate", _, _, _, _). 
+
+:- course(phy307, 4, "Undergraduate", 1, 1, 1, 1), 
+   not course(phy127, _, "Undergraduate", _, _, _, _). 
+
+:- course(phy307, 4, "Undergraduate", 1, 1, 1, 1), 
+   not course(phy134, _, "Undergraduate", _, _, _, _), 
+   not course(phy132, _, "Undergraduate", _, _, _, _). 
+
+:- course(phy307, 4, "Undergraduate", 1, 1, 1, 1), 
+   not course(phy134, _, "Undergraduate", _, _, _, _), 
+   not course(phy142, _, "Undergraduate", _, _, _, _). 
+
+:- course(phy307, 4, "Undergraduate", 1, 1, 1, 1), 
+   not course(phy134, _, "Undergraduate", _, _, _, _). 
+
+:- course(phy307, 4, "Undergraduate", 1, 1, 1, 1), 
+   not course(mat132, _, "Undergraduate", _, _, _, _), 
+   not course(mat142, _, "Undergraduate", _, _, _, _), 
+   not course(mat127, _, "Undergraduate", _, _, _, _), 
+   not course(mat171, _, "Undergraduate", _, _, _, _), 
+   not course(ams161, _, "Undergraduate", _, _, _, _). 
+
+% Corequisites for PHY307
+:- course(phy307, 4, "Undergraduate", 1, 1, 1, 1), 
+   not course(mat203, _, "Undergraduate", 1, 1, 1, 1). 
+
+:- course(phy307, 4, "Undergraduate", 1, 1, 1, 1), 
+   not course(mat205, _, "Undergraduate", 1, 1, 1, 1). 
+
+:- course(phy307, 4, "Undergraduate", 1, 1, 1, 1), 
+   not course(ams261, _, "Undergraduate", 1, 1, 1, 1). 
+
+:- course(phy307, 4, "Undergraduate", 1, 1, 1, 1), 
+   not course(mat307, _, "Undergraduate", 1, 1, 1, 1). 
+
+% Prerequisites for PHY308
+:- course(phy308, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(phy300, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for PHY311
+:- course(phy311, 1, "Undergraduate", 1, 1, 1, 1), 
+   not course(phy122, _, "Undergraduate", _, _, _, _), 
+   not course(phy126, _, "Undergraduate", _, _, _, _). 
+
+:- course(phy311, 1, "Undergraduate", 1, 1, 1, 1), 
+   not course(phy127, _, "Undergraduate", _, _, _, _). 
+
+:- course(phy311, 1, "Undergraduate", 1, 1, 1, 1), 
+   not course(phy134, _, "Undergraduate", _, _, _, _), 
+   not course(phy132, _, "Undergraduate", _, _, _, _), 
+   not course(phy142, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for PHY335
+:- course(phy335, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(phy251, _, "Undergraduate", _, _, _, _). 
+
+:- course(phy335, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(wrt102, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for PHY405
+:- course(phy405, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(phy303, _, "Undergraduate", _, _, _, _). 
+
+:- course(phy405, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(phy308, _, "Undergraduate", _, _, _, _). 
+
+:- course(phy405, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(mat341, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for PHY408
+:- course(phy408, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(phy303, _, "Undergraduate", _, _, _, _). 
+
+% Corequisites for PHY408
+:- course(phy408, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(phy302, _, "Undergraduate", 1, 1, 1, 1). 
+
+% Prerequisites for PHY420
+:- course(phy420, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(phy277, _, "Undergraduate", _, _, _, _), 
+   not course(phy300, _, "Undergraduate", _, _, _, _), 
+   not course(phy301, _, "Undergraduate", _, _, _, _), 
+   not course(phy302, _, "Undergraduate", _, _, _, _). 
+
+:- course(phy420, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(phy303, _, "Undergraduate", _, _, _, _). 
+
+% Corequisites for PHY420
+:- course(phy420, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(phy335, _, "Undergraduate", 1, 1, 1, 1). 
+
+% Prerequisites for PHY431
+:- course(phy431, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(phy308, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for PHY444
+:- course(phy444, 0, "Undergraduate", 1, 1, 1, 1), 
+   not course(wrt102, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for PHY445
+:- course(phy445, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(phy308, _, "Undergraduate", _, _, _, _), 
+   not course(phy335, _, "Undergraduate", _, _, _, _). 
+
+:- course(phy445, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(wrt102, _, "Undergraduate", _, _, _, _). 
+
+% Corequisites for PHY451
+:- course(phy451, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(phy405, _, "Undergraduate", 1, 1, 1, 1). 
+
+% Prerequisites for PHY452
+:- course(phy452, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(phy300, _, "Undergraduate", _, _, _, _). 
+
+:- course(phy452, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(phy308, _, "Undergraduate", _, _, _, _). 
+
+% Corequisites for PHY458
+:- course(phy458, 0, "Undergraduate", 1, 1, 1, 1), 
+   not course(wrt102, _, "Undergraduate", 1, 1, 1, 1). 
+
+% Prerequisites for PHY459
+:- course(phy459, 0, "Undergraduate", 1, 1, 1, 1), 
+   not course(wrt102, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for PHY472
+:- course(phy472, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(phy306, _, "Undergraduate", _, _, _, _). 
+

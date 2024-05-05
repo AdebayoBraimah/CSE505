@@ -1,3 +1,4 @@
+% Course predicates
 course(psy103, 3, "Undergraduate", 1, 1, 1, 1).
 course(psy201, 3, "Undergraduate", 1, 1, 1, 1).
 course(psy220, 3, "Undergraduate", 1, 1, 1, 1).
@@ -118,123 +119,298 @@ course(psy700, 0..9, "Graduate", 1, 1, 1, 1).
 course(psy701, 1..9, "Graduate", 1, 1, 1, 1).
 course(psy800, 0, "Graduate", 1, 1, 1, 1).
 course(psy820, 0, "Graduate", 1, 1, 1, 1).
-prerequisite(psy201, psy103).
-prerequisite(psy220, psy103).
-prerequisite(psy230, psy103).
-prerequisite(psy240, psy103).
-prerequisite(psy250, psy103).
-prerequisite(psy250, anp101).
-prerequisite(psy250, bio203).
-prerequisite(psy260, psy103).
-prerequisite(psy301, psy201).
-prerequisite(psy301, psy310).
-prerequisite(psy310, psy103).
-prerequisite(psy310, psy201).
-prerequisite(psy325, psy220).
-prerequisite(psy325, psy230).
-prerequisite(psy325, psy240).
-prerequisite(psy325, psy260).
-prerequisite(psy325, psy310).
-prerequisite(psy326, psy220).
-prerequisite(psy326, psy230).
-prerequisite(psy326, psy240).
-prerequisite(psy329, psy220).
-prerequisite(psy329, psy230).
-prerequisite(psy329, psy240).
-prerequisite(psy329, psy310).
-prerequisite(psy333, psy230).
-prerequisite(psy334, psy230).
-prerequisite(psy334, psy220).
-prerequisite(psy338, psy220).
-prerequisite(psy338, psy230).
-prerequisite(psy338, psy240).
-prerequisite(psy338, psy310).
-prerequisite(psy339, psy220).
-prerequisite(psy339, psy230).
-prerequisite(psy339, psy240).
-prerequisite(psy339, psy310).
-prerequisite(psy341, psy220).
-prerequisite(psy341, psy230).
-prerequisite(psy341, psy240).
-prerequisite(psy341, psy250).
-prerequisite(psy341, psy260).
-prerequisite(psy341, psy310).
-prerequisite(psy342, psy220).
-prerequisite(psy342, psy230).
-prerequisite(psy342, psy240).
-prerequisite(psy342, psy310).
-prerequisite(psy345, psy220).
-prerequisite(psy345, psy230).
-prerequisite(psy345, psy240).
-prerequisite(psy345, psy310).
-prerequisite(psy346, psy103).
-prerequisite(psy346, psy310).
-prerequisite(psy347, wst102).
-prerequisite(psy347, wst103).
-prerequisite(psy347, psy103).
-prerequisite(psy347, soc247).
-prerequisite(psy348, psy220).
-prerequisite(psy348, psy230).
-prerequisite(psy348, psy240).
-prerequisite(psy349, psy220).
-prerequisite(psy349, psy230).
-prerequisite(psy349, psy240).
-prerequisite(psy354, psy250).
-prerequisite(psy354, bio202).
-prerequisite(psy354, bio203).
-prerequisite(psy354, bio208).
-prerequisite(psy355, psy250).
-prerequisite(psy355, bio208).
-prerequisite(psy355, bio338).
-prerequisite(psy355, psy310).
-prerequisite(psy356, psy250).
-prerequisite(psy356, bio202).
-prerequisite(psy356, bio203).
-prerequisite(psy356, bio208).
-prerequisite(psy357, psy250).
-prerequisite(psy357, psy260).
-prerequisite(psy357, psy310).
-prerequisite(psy358, psy250).
-prerequisite(psy358, bio202).
-prerequisite(psy358, bio203).
-prerequisite(psy358, bio208).
-prerequisite(psy359, psy250).
-prerequisite(psy359, bio202).
-prerequisite(psy359, bio203).
-prerequisite(psy359, bio208).
-prerequisite(psy364, psy250).
-prerequisite(psy364, psy260).
-prerequisite(psy364, psy310).
-prerequisite(psy365, psy250).
-prerequisite(psy365, psy260).
-prerequisite(psy365, psy310).
-prerequisite(psy366, psy250).
-prerequisite(psy366, psy260).
-prerequisite(psy366, psy310).
-prerequisite(psy367, psy250).
-prerequisite(psy367, psy260).
-prerequisite(psy367, psy310).
-prerequisite(psy368, psy250).
-prerequisite(psy368, psy260).
-prerequisite(psy368, psy310).
-prerequisite(psy369, psy250).
-prerequisite(psy369, psy260).
-prerequisite(psy369, psy310).
-prerequisite(psy375, psy220).
-prerequisite(psy375, psy230).
-prerequisite(psy375, psy240).
-prerequisite(psy375, psy250).
-prerequisite(psy375, psy260).
-prerequisite(psy380, psy103).
-prerequisite(psy380, psy201).
-prerequisite(psy382, psy103).
-prerequisite(psy382, psy201).
-prerequisite(psy382, psy240).
-prerequisite(psy386, psy310).
-prerequisite(psy389, psy310).
-prerequisite(psy444, wrt102).
-prerequisite(psy459, wrt102).
-prerequisite(psy487, psy273).
-prerequisite(psy491, psy310).
-prerequisite(psy492, psy310).
-prerequisite(psy496, psy495).
+
+% Honors Courses
+honors(psy495).
+honors(psy496).
+
+% Repeatable Courses
+repeatable(psy447, 2, _).
+repeatable(psy487, _, 12).
+repeatable(psy488, _, 12).
+repeatable(psy491, _, 18).
+repeatable(psy492, _, 18).
+repeatable(psy504, _, 3).
+repeatable(psy581, _, 3).
+repeatable(psy582, _, 3).
+repeatable(psy583, _, 3).
+repeatable(psy584, _, 3).
+repeatable(psy585, _, 3).
+repeatable(psy586, _, 3).
+repeatable(psy587, _, 3).
+repeatable(psy588, _, 3).
+repeatable(psy595, _, 3).
+repeatable(psy610, _, 3).
+repeatable(psy620, _, 3).
+
+% Course Rules 
+
+% Prerequisites for PSY201
+:- course(psy201, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(psy103, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for PSY220
+:- course(psy220, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(psy103, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for PSY230
+:- course(psy230, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(psy103, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for PSY240
+:- course(psy240, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(psy103, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for PSY250
+:- course(psy250, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(psy103, _, "Undergraduate", _, _, _, _), 
+   not course(anp101, _, "Undergraduate", _, _, _, _), 
+   not course(bio203, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for PSY260
+:- course(psy260, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(psy103, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for PSY301
+:- course(psy301, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(psy201, _, "Undergraduate", _, _, _, _), 
+   not course(psy310, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for PSY310
+:- course(psy310, 4, "Undergraduate", 1, 1, 1, 1), 
+   not course(psy103, _, "Undergraduate", _, _, _, _). 
+
+:- course(psy310, 4, "Undergraduate", 1, 1, 1, 1), 
+   not course(psy201, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for PSY325
+:- course(psy325, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(psy220, _, "Undergraduate", _, _, _, _), 
+   not course(psy230, _, "Undergraduate", _, _, _, _), 
+   not course(psy240, _, "Undergraduate", _, _, _, _), 
+   not course(psy260, _, "Undergraduate", _, _, _, _), 
+   not course(psy310, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for PSY326
+:- course(psy326, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(psy220, _, "Undergraduate", _, _, _, _), 
+   not course(psy230, _, "Undergraduate", _, _, _, _), 
+   not course(psy240, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for PSY329
+:- course(psy329, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(psy220, _, "Undergraduate", _, _, _, _), 
+   not course(psy230, _, "Undergraduate", _, _, _, _), 
+   not course(psy240, _, "Undergraduate", _, _, _, _), 
+   not course(psy310, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for PSY333
+:- course(psy333, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(psy230, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for PSY334
+:- course(psy334, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(psy230, _, "Undergraduate", _, _, _, _), 
+   not course(psy220, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for PSY338
+:- course(psy338, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(psy220, _, "Undergraduate", _, _, _, _), 
+   not course(psy230, _, "Undergraduate", _, _, _, _), 
+   not course(psy240, _, "Undergraduate", _, _, _, _), 
+   not course(psy310, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for PSY339
+:- course(psy339, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(psy220, _, "Undergraduate", _, _, _, _), 
+   not course(psy230, _, "Undergraduate", _, _, _, _), 
+   not course(psy240, _, "Undergraduate", _, _, _, _), 
+   not course(psy310, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for PSY341
+:- course(psy341, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(psy220, _, "Undergraduate", _, _, _, _), 
+   not course(psy230, _, "Undergraduate", _, _, _, _), 
+   not course(psy240, _, "Undergraduate", _, _, _, _), 
+   not course(psy250, _, "Undergraduate", _, _, _, _), 
+   not course(psy260, _, "Undergraduate", _, _, _, _), 
+   not course(psy310, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for PSY342
+:- course(psy342, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(psy220, _, "Undergraduate", _, _, _, _), 
+   not course(psy230, _, "Undergraduate", _, _, _, _), 
+   not course(psy240, _, "Undergraduate", _, _, _, _), 
+   not course(psy310, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for PSY345
+:- course(psy345, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(psy220, _, "Undergraduate", _, _, _, _), 
+   not course(psy230, _, "Undergraduate", _, _, _, _), 
+   not course(psy240, _, "Undergraduate", _, _, _, _), 
+   not course(psy310, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for PSY346
+:- course(psy346, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(psy103, _, "Undergraduate", _, _, _, _), 
+   not course(psy310, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for PSY347
+:- course(psy347, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(wst102, _, "Undergraduate", _, _, _, _), 
+   not course(wst103, _, "Undergraduate", _, _, _, _), 
+   not course(psy103, _, "Undergraduate", _, _, _, _), 
+   not course(soc247, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for PSY348
+:- course(psy348, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(psy220, _, "Undergraduate", _, _, _, _), 
+   not course(psy230, _, "Undergraduate", _, _, _, _), 
+   not course(psy240, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for PSY349
+:- course(psy349, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(psy220, _, "Undergraduate", _, _, _, _), 
+   not course(psy230, _, "Undergraduate", _, _, _, _), 
+   not course(psy240, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for PSY354
+:- course(psy354, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(psy250, _, "Undergraduate", _, _, _, _), 
+   not course(bio202, _, "Undergraduate", _, _, _, _), 
+   not course(bio203, _, "Undergraduate", _, _, _, _), 
+   not course(bio208, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for PSY355
+:- course(psy355, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(psy250, _, "Undergraduate", _, _, _, _), 
+   not course(bio208, _, "Undergraduate", _, _, _, _), 
+   not course(bio338, _, "Undergraduate", _, _, _, _), 
+   not course(psy310, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for PSY356
+:- course(psy356, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(psy250, _, "Undergraduate", _, _, _, _), 
+   not course(bio202, _, "Undergraduate", _, _, _, _), 
+   not course(bio203, _, "Undergraduate", _, _, _, _), 
+   not course(bio208, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for PSY357
+:- course(psy357, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(psy250, _, "Undergraduate", _, _, _, _), 
+   not course(psy260, _, "Undergraduate", _, _, _, _), 
+   not course(psy310, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for PSY358
+:- course(psy358, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(psy250, _, "Undergraduate", _, _, _, _), 
+   not course(bio202, _, "Undergraduate", _, _, _, _), 
+   not course(bio203, _, "Undergraduate", _, _, _, _), 
+   not course(bio208, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for PSY359
+:- course(psy359, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(psy250, _, "Undergraduate", _, _, _, _), 
+   not course(bio202, _, "Undergraduate", _, _, _, _), 
+   not course(bio203, _, "Undergraduate", _, _, _, _), 
+   not course(bio208, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for PSY364
+:- course(psy364, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(psy250, _, "Undergraduate", _, _, _, _), 
+   not course(psy260, _, "Undergraduate", _, _, _, _), 
+   not course(psy310, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for PSY365
+:- course(psy365, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(psy250, _, "Undergraduate", _, _, _, _), 
+   not course(psy260, _, "Undergraduate", _, _, _, _), 
+   not course(psy310, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for PSY366
+:- course(psy366, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(psy250, _, "Undergraduate", _, _, _, _), 
+   not course(psy260, _, "Undergraduate", _, _, _, _), 
+   not course(psy310, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for PSY367
+:- course(psy367, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(psy250, _, "Undergraduate", _, _, _, _), 
+   not course(psy260, _, "Undergraduate", _, _, _, _), 
+   not course(psy310, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for PSY368
+:- course(psy368, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(psy250, _, "Undergraduate", _, _, _, _), 
+   not course(psy260, _, "Undergraduate", _, _, _, _), 
+   not course(psy310, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for PSY369
+:- course(psy369, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(psy250, _, "Undergraduate", _, _, _, _), 
+   not course(psy260, _, "Undergraduate", _, _, _, _), 
+   not course(psy310, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for PSY375
+:- course(psy375, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(psy220, _, "Undergraduate", _, _, _, _), 
+   not course(psy230, _, "Undergraduate", _, _, _, _), 
+   not course(psy240, _, "Undergraduate", _, _, _, _), 
+   not course(psy250, _, "Undergraduate", _, _, _, _), 
+   not course(psy260, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for PSY380
+:- course(psy380, 4, "Undergraduate", 1, 1, 1, 1), 
+   not course(psy103, _, "Undergraduate", _, _, _, _). 
+
+:- course(psy380, 4, "Undergraduate", 1, 1, 1, 1), 
+   not course(psy201, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for PSY382
+:- course(psy382, 4, "Undergraduate", 1, 1, 1, 1), 
+   not course(psy103, _, "Undergraduate", _, _, _, _). 
+
+:- course(psy382, 4, "Undergraduate", 1, 1, 1, 1), 
+   not course(psy201, _, "Undergraduate", _, _, _, _), 
+   not course(psy240, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for PSY386
+:- course(psy386, 4, "Undergraduate", 1, 1, 1, 1), 
+   not course(psy310, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for PSY389
+:- course(psy389, 4, "Undergraduate", 1, 1, 1, 1), 
+   not course(psy310, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for PSY444
+:- course(psy444, 0, "Undergraduate", 1, 1, 1, 1), 
+   not course(wrt102, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for PSY459
+:- course(psy459, 0, "Undergraduate", 1, 1, 1, 1), 
+   not course(wrt102, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for PSY487
+:- course(psy487, 0..6, "Undergraduate", 1, 1, 1, 1), 
+   not course(psy273, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for PSY491
+:- course(psy491, 1..3, "Undergraduate", 1, 1, 1, 1), 
+   not course(psy310, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for PSY492
+:- course(psy492, 1..3, "Undergraduate", 1, 1, 1, 1), 
+   not course(psy310, _, "Undergraduate", _, _, _, _). 
+
+% Corequisites for PSY495
+:- course(psy495, 1, "Undergraduate", 1, 1, 1, 1), 
+   not course(psy487, _, "Undergraduate", 1, 1, 1, 1). 
+
+% Prerequisites for PSY496
+:- course(psy496, 1, "Undergraduate", 1, 1, 1, 1), 
+   not course(psy495, _, "Undergraduate", _, _, _, _). 
+
+% Corequisites for PSY496
+:- course(psy496, 1, "Undergraduate", 1, 1, 1, 1), 
+   not course(psy487, _, "Undergraduate", 1, 1, 1, 1). 
+

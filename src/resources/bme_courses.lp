@@ -1,3 +1,4 @@
+% Course predicates
 course(bme100, 3, "Undergraduate", 1, 1, 1, 1).
 course(bme120, 3, "Undergraduate", 1, 1, 1, 1).
 course(bme200, 3, "Undergraduate", 1, 1, 1, 1).
@@ -96,64 +97,215 @@ course(bme699, 1..9, "Graduate", 1, 1, 1, 1).
 course(bme700, 1..9, "Graduate", 1, 1, 1, 1).
 course(bme701, 1..9, "Graduate", 1, 1, 1, 1).
 course(bme800, 0, "Graduate", 1, 1, 1, 1).
-prerequisite(bme210, bme100).
-prerequisite(bme212, bme100).
-prerequisite(bme260, bme100).
-prerequisite(bme260, ams161).
-prerequisite(bme260, phy125).
-prerequisite(bme271, ams161).
-prerequisite(bme271, mat127).
-prerequisite(bme271, phy127).
-prerequisite(bme271, phy132).
-prerequisite(bme271, phy142).
-prerequisite(bme300, wrt102).
-prerequisite(bme301, bme120).
-prerequisite(bme301, bme271).
-prerequisite(bme301, ese271).
-prerequisite(bme301, bio202).
-prerequisite(bme303, bme260).
-prerequisite(bme303, mec260).
-prerequisite(bme304, bme100).
-prerequisite(bme304, bio202).
-prerequisite(bme305, ams261).
-prerequisite(bme305, mat203).
-prerequisite(bme305, mat205).
-prerequisite(bme305, ams361).
-prerequisite(bme305, mat303).
-prerequisite(bme305, mat305).
-prerequisite(bme305, bme260).
-prerequisite(bme305, mec260).
-prerequisite(bme305, mec262).
-prerequisite(bme310, bme271).
-prerequisite(bme311, bme212).
-prerequisite(bme313, bme271).
-prerequisite(bme313, ese271).
-prerequisite(bme353, bme100).
-prerequisite(bme353, bme212).
-prerequisite(bme354, bme353).
-prerequisite(bme354, esm453).
-prerequisite(bme361, bme120).
-prerequisite(bme361, mat125).
-prerequisite(bme361, ams151).
-prerequisite(bme361, mat131).
-prerequisite(bme371, bme305).
-prerequisite(bme381, che132).
-prerequisite(bme381, bme100).
-prerequisite(bme402, bme304).
-prerequisite(bme404, bio202).
-prerequisite(bme404, che132).
-prerequisite(bme404, che321).
-prerequisite(bme420, bme303).
-prerequisite(bme430, bio202).
-prerequisite(bme430, ams261).
-prerequisite(bme430, mat203).
-prerequisite(bme430, mat205).
-prerequisite(bme440, bme301).
-prerequisite(bme441, bme440).
-prerequisite(bme444, wrt102).
-prerequisite(bme461, bme212).
-prerequisite(bme481, bio202).
-prerequisite(bme481, bme271).
-prerequisite(bme481, ese271).
-prerequisite(bme488, bme212).
-prerequisite(bme495, bme494).
+
+% Honors Courses
+honors(bme494).
+honors(bme495).
+
+% Repeatable Courses
+repeatable(bme475, 2, _).
+repeatable(bme488, _, 12).
+repeatable(bme502, _, 3).
+repeatable(bme508, _, 3).
+repeatable(bme526, _, 3).
+
+% Course Rules 
+
+% Prerequisites for BME210
+:- course(bme210, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(bme100, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for BME212
+:- course(bme212, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(bme100, _, "Undergraduate", _, _, _, _). 
+
+% Corequisites for BME212
+:- course(bme212, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(bio202, _, "Undergraduate", 1, 1, 1, 1). 
+
+% Prerequisites for BME260
+:- course(bme260, 4, "Undergraduate", 1, 1, 1, 1), 
+   not course(bme100, _, "Undergraduate", _, _, _, _). 
+
+:- course(bme260, 4, "Undergraduate", 1, 1, 1, 1), 
+   not course(ams161, _, "Undergraduate", _, _, _, _). 
+
+:- course(bme260, 4, "Undergraduate", 1, 1, 1, 1), 
+   not course(phy125, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for BME271
+:- course(bme271, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(ams161, _, "Undergraduate", _, _, _, _), 
+   not course(mat127, _, "Undergraduate", _, _, _, _). 
+
+:- course(bme271, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(phy127, _, "Undergraduate", _, _, _, _), 
+   not course(phy132, _, "Undergraduate", _, _, _, _), 
+   not course(phy142, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for BME300
+:- course(bme300, 0, "Undergraduate", 1, 1, 1, 1), 
+   not course(wrt102, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for BME301
+:- course(bme301, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(bme120, _, "Undergraduate", _, _, _, _). 
+
+:- course(bme301, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(bme271, _, "Undergraduate", _, _, _, _), 
+   not course(ese271, _, "Undergraduate", _, _, _, _). 
+
+:- course(bme301, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(bio202, _, "Undergraduate", _, _, _, _). 
+
+% Corequisites for BME301
+:- course(bme301, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(bme212, _, "Undergraduate", 1, 1, 1, 1). 
+
+% Prerequisites for BME303
+:- course(bme303, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(bme260, _, "Undergraduate", _, _, _, _), 
+   not course(mec260, _, "Undergraduate", _, _, _, _). 
+
+% Corequisites for BME303
+:- course(bme303, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(bio202, _, "Undergraduate", 1, 1, 1, 1). 
+
+% Prerequisites for BME304
+:- course(bme304, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(bme100, _, "Undergraduate", _, _, _, _). 
+
+:- course(bme304, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(bio202, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for BME305
+:- course(bme305, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(ams261, _, "Undergraduate", _, _, _, _), 
+   not course(mat203, _, "Undergraduate", _, _, _, _), 
+   not course(mat205, _, "Undergraduate", _, _, _, _). 
+
+:- course(bme305, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(ams361, _, "Undergraduate", _, _, _, _), 
+   not course(mat303, _, "Undergraduate", _, _, _, _), 
+   not course(mat305, _, "Undergraduate", _, _, _, _). 
+
+:- course(bme305, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(bme260, _, "Undergraduate", _, _, _, _), 
+   not course(mec260, _, "Undergraduate", _, _, _, _). 
+
+:- course(bme305, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(mec262, _, "Undergraduate", _, _, _, _). 
+
+% Corequisites for BME305
+:- course(bme305, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(bio202, _, "Undergraduate", 1, 1, 1, 1). 
+
+:- course(bme305, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(bme212, _, "Undergraduate", 1, 1, 1, 1). 
+
+% Prerequisites for BME310
+:- course(bme310, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(bme271, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for BME311
+:- course(bme311, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(bme212, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for BME313
+:- course(bme313, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(bme271, _, "Undergraduate", _, _, _, _), 
+   not course(ese271, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for BME353
+:- course(bme353, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(bme100, _, "Undergraduate", _, _, _, _). 
+
+:- course(bme353, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(bme212, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for BME354
+:- course(bme354, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(bme353, _, "Undergraduate", _, _, _, _), 
+   not course(esm453, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for BME361
+:- course(bme361, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(bme120, _, "Undergraduate", _, _, _, _). 
+
+:- course(bme361, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(mat125, _, "Undergraduate", _, _, _, _), 
+   not course(ams151, _, "Undergraduate", _, _, _, _), 
+   not course(mat131, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for BME371
+:- course(bme371, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(bme305, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for BME381
+:- course(bme381, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(che132, _, "Undergraduate", _, _, _, _). 
+
+:- course(bme381, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(bme100, _, "Undergraduate", _, _, _, _). 
+
+% Corequisites for BME381
+:- course(bme381, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(bio202, _, "Undergraduate", 1, 1, 1, 1). 
+
+% Prerequisites for BME402
+:- course(bme402, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(bme304, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for BME404
+:- course(bme404, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(bio202, _, "Undergraduate", _, _, _, _). 
+
+:- course(bme404, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(che132, _, "Undergraduate", _, _, _, _), 
+   not course(che321, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for BME420
+:- course(bme420, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(bme303, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for BME430
+:- course(bme430, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(bio202, _, "Undergraduate", _, _, _, _). 
+
+:- course(bme430, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(ams261, _, "Undergraduate", _, _, _, _), 
+   not course(mat203, _, "Undergraduate", _, _, _, _), 
+   not course(mat205, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for BME440
+:- course(bme440, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(bme301, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for BME441
+:- course(bme441, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(bme440, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for BME444
+:- course(bme444, 0, "Undergraduate", 1, 1, 1, 1), 
+   not course(wrt102, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for BME461
+:- course(bme461, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(bme212, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for BME481
+:- course(bme481, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(bio202, _, "Undergraduate", _, _, _, _). 
+
+:- course(bme481, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(bme271, _, "Undergraduate", _, _, _, _), 
+   not course(ese271, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for BME488
+:- course(bme488, 3..6, "Undergraduate", 1, 1, 1, 1), 
+   not course(bme212, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for BME495
+:- course(bme495, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(bme494, _, "Undergraduate", _, _, _, _). 
+

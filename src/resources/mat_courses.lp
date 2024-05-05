@@ -1,3 +1,4 @@
+% Course predicates
 course(mat118, 3, "Undergraduate", 1, 1, 1, 1).
 course(mat119, 1, "Undergraduate", 1, 1, 1, 1).
 course(mat122, 3, "Undergraduate", 1, 1, 1, 1).
@@ -134,133 +135,302 @@ course(mat699, 1..9, "Graduate", 1, 1, 1, 1).
 course(mat700, 1..9, "Graduate", 1, 1, 1, 1).
 course(mat701, 1..9, "Graduate", 1, 1, 1, 1).
 course(mat800, 0, "Graduate", 1, 1, 1, 1).
-prerequisite(mat118, map103).
-prerequisite(mat119, mat123).
-prerequisite(mat122, map103).
-prerequisite(mat123, map103).
-prerequisite(mat125, mat123).
-prerequisite(mat126, mat125).
-prerequisite(mat126, ams151).
-prerequisite(mat127, mat126).
-prerequisite(mat130, mat122).
-prerequisite(mat130, mat125).
-prerequisite(mat131, mat123).
-prerequisite(mat132, ams151).
-prerequisite(mat132, mat131).
-prerequisite(mat203, mat127).
-prerequisite(mat203, ams161).
-prerequisite(mat211, ams151).
-prerequisite(mat211, mat131).
-prerequisite(mat211, mat126).
-prerequisite(mat250, mat131).
-prerequisite(mat303, mat127).
-prerequisite(mat303, ams161).
-prerequisite(mat307, mat127).
-prerequisite(mat307, mat132).
-prerequisite(mat308, mat307).
-prerequisite(mat308, mat203).
-prerequisite(mat308, mat211).
-prerequisite(mat308, mat132).
-prerequisite(mat308, mat220).
-prerequisite(mat310, mat211).
-prerequisite(mat310, ams210).
-prerequisite(mat310, mat220).
-prerequisite(mat310, mat200).
-prerequisite(mat310, mat250).
-prerequisite(mat311, mat312).
-prerequisite(mat311, mat200).
-prerequisite(mat311, mat250).
-prerequisite(mat312, ams210).
-prerequisite(mat312, mat211).
-prerequisite(mat312, mat220).
-prerequisite(mat312, mat200).
-prerequisite(mat312, cse215).
-prerequisite(mat312, cse150).
-prerequisite(mat313, mat310).
-prerequisite(mat313, mat312).
-prerequisite(mat313, mat315).
-prerequisite(mat313, mat200).
-prerequisite(mat313, mat250).
-prerequisite(mat314, mat313).
-prerequisite(mat315, mat200).
-prerequisite(mat315, mat250).
-prerequisite(mat315, mat211).
-prerequisite(mat315, ams219).
-prerequisite(mat315, mat308).
-prerequisite(mat315, mat220).
-prerequisite(mat319, mat200).
-prerequisite(mat319, mat250).
-prerequisite(mat319, mat203).
-prerequisite(mat319, ams261).
-prerequisite(mat319, mat127).
-prerequisite(mat319, ams161).
-prerequisite(mat320, mat200).
-prerequisite(mat320, mat250).
-prerequisite(mat320, mat203).
-prerequisite(mat320, ams261).
-prerequisite(mat320, mat127).
-prerequisite(mat320, ams161).
-prerequisite(mat322, mat203).
-prerequisite(mat322, mat220).
-prerequisite(mat322, mat307).
-prerequisite(mat322, ams261).
-prerequisite(mat322, mat310).
-prerequisite(mat322, mat315).
-prerequisite(mat322, mat320).
-prerequisite(mat324, mat320).
-prerequisite(mat331, mat203).
-prerequisite(mat331, ams261).
-prerequisite(mat336, mat200).
-prerequisite(mat336, mat203).
-prerequisite(mat336, mat250).
-prerequisite(mat336, mat307).
-prerequisite(mat336, ams261).
-prerequisite(mat341, mat203).
-prerequisite(mat341, ams261).
-prerequisite(mat341, mat303).
-prerequisite(mat341, ams361).
-prerequisite(mat341, mat200).
-prerequisite(mat341, mat250).
-prerequisite(mat342, mat203).
-prerequisite(mat342, mat220).
-prerequisite(mat342, mat307).
-prerequisite(mat342, ams261).
-prerequisite(mat342, mat200).
-prerequisite(mat342, mat250).
-prerequisite(mat351, mat203).
-prerequisite(mat351, mat220).
-prerequisite(mat351, mat307).
-prerequisite(mat351, ams261).
-prerequisite(mat351, mat303).
-prerequisite(mat351, mat308).
-prerequisite(mat351, ams361).
-prerequisite(mat351, mat200).
-prerequisite(mat351, mat250).
-prerequisite(mat362, mat319).
-prerequisite(mat362, mat320).
-prerequisite(mat362, mat364).
-prerequisite(mat362, mat203).
-prerequisite(mat362, mat307).
-prerequisite(mat362, mat322).
-prerequisite(mat364, mat203).
-prerequisite(mat364, ams261).
-prerequisite(mat364, mat200).
-prerequisite(mat364, mat319).
-prerequisite(mat371, cse150).
-prerequisite(mat371, cse215).
-prerequisite(mat371, mat200).
-prerequisite(mat371, mat250).
-prerequisite(mat373, cse150).
-prerequisite(mat373, cse215).
-prerequisite(mat373, mat200).
-prerequisite(mat373, mat250).
-prerequisite(mat373, mat211).
-prerequisite(mat373, ams210).
-prerequisite(mat373, cse214).
-prerequisite(mat373, cse260).
-prerequisite(mat444, wrt102).
-prerequisite(mat459, wrt102).
-prerequisite(mat520, mat511).
-prerequisite(mat545, mat530).
-prerequisite(mat545, mat534).
-prerequisite(mat545, mat542).
+
+% Honors Courses
+honors(mat495).
+
+% Course Rules 
+
+% Prerequisites for MAT118
+:- course(mat118, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(map103, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for MAT119
+:- course(mat119, 1, "Undergraduate", 1, 1, 1, 1), 
+   not course(mat123, _, "Undergraduate", _, _, _, _). 
+
+% Corequisites for MAT119
+:- course(mat119, 1, "Undergraduate", 1, 1, 1, 1), 
+   not course(mat123, _, "Undergraduate", 1, 1, 1, 1). 
+
+% Prerequisites for MAT122
+:- course(mat122, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(map103, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for MAT123
+:- course(mat123, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(map103, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for MAT125
+:- course(mat125, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(mat123, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for MAT126
+:- course(mat126, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(mat125, _, "Undergraduate", _, _, _, _), 
+   not course(ams151, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for MAT127
+:- course(mat127, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(mat126, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for MAT130
+:- course(mat130, 1, "Undergraduate", 1, 1, 1, 1), 
+   not course(mat122, _, "Undergraduate", _, _, _, _), 
+   not course(mat125, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for MAT131
+:- course(mat131, 4, "Undergraduate", 1, 1, 1, 1), 
+   not course(mat123, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for MAT132
+:- course(mat132, 4, "Undergraduate", 1, 1, 1, 1), 
+   not course(ams151, _, "Undergraduate", _, _, _, _), 
+   not course(mat131, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for MAT203
+:- course(mat203, 4, "Undergraduate", 1, 1, 1, 1), 
+   not course(mat127, _, "Undergraduate", _, _, _, _), 
+   not course(ams161, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for MAT211
+:- course(mat211, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(ams151, _, "Undergraduate", _, _, _, _), 
+   not course(mat131, _, "Undergraduate", _, _, _, _), 
+   not course(mat126, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for MAT250
+:- course(mat250, 4, "Undergraduate", 1, 1, 1, 1), 
+   not course(mat131, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for MAT303
+:- course(mat303, 4, "Undergraduate", 1, 1, 1, 1), 
+   not course(mat127, _, "Undergraduate", _, _, _, _), 
+   not course(ams161, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for MAT307
+:- course(mat307, 4, "Undergraduate", 1, 1, 1, 1), 
+   not course(mat127, _, "Undergraduate", _, _, _, _), 
+   not course(mat132, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for MAT308
+:- course(mat308, 4, "Undergraduate", 1, 1, 1, 1), 
+   not course(mat307, _, "Undergraduate", _, _, _, _). 
+
+:- course(mat308, 4, "Undergraduate", 1, 1, 1, 1), 
+   not course(mat203, _, "Undergraduate", _, _, _, _). 
+
+:- course(mat308, 4, "Undergraduate", 1, 1, 1, 1), 
+   not course(mat211, _, "Undergraduate", _, _, _, _). 
+
+:- course(mat308, 4, "Undergraduate", 1, 1, 1, 1), 
+   not course(mat132, _, "Undergraduate", _, _, _, _). 
+
+:- course(mat308, 4, "Undergraduate", 1, 1, 1, 1), 
+   not course(mat220, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for MAT310
+:- course(mat310, 4, "Undergraduate", 1, 1, 1, 1), 
+   not course(mat211, _, "Undergraduate", _, _, _, _), 
+   not course(ams210, _, "Undergraduate", _, _, _, _), 
+   not course(mat220, _, "Undergraduate", _, _, _, _). 
+
+:- course(mat310, 4, "Undergraduate", 1, 1, 1, 1), 
+   not course(mat200, _, "Undergraduate", _, _, _, _), 
+   not course(mat250, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for MAT311
+:- course(mat311, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(mat312, _, "Undergraduate", _, _, _, _). 
+
+:- course(mat311, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(mat200, _, "Undergraduate", _, _, _, _), 
+   not course(mat250, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for MAT312
+:- course(mat312, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(ams210, _, "Undergraduate", _, _, _, _), 
+   not course(mat211, _, "Undergraduate", _, _, _, _), 
+   not course(mat220, _, "Undergraduate", _, _, _, _), 
+   not course(mat200, _, "Undergraduate", _, _, _, _), 
+   not course(cse215, _, "Undergraduate", _, _, _, _), 
+   not course(cse150, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for MAT313
+:- course(mat313, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(mat310, _, "Undergraduate", _, _, _, _), 
+   not course(mat312, _, "Undergraduate", _, _, _, _), 
+   not course(mat315, _, "Undergraduate", _, _, _, _). 
+
+:- course(mat313, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(mat200, _, "Undergraduate", _, _, _, _), 
+   not course(mat250, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for MAT314
+:- course(mat314, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(mat313, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for MAT315
+:- course(mat315, 4, "Undergraduate", 1, 1, 1, 1), 
+   not course(mat200, _, "Undergraduate", _, _, _, _), 
+   not course(mat250, _, "Undergraduate", _, _, _, _). 
+
+:- course(mat315, 4, "Undergraduate", 1, 1, 1, 1), 
+   not course(mat211, _, "Undergraduate", _, _, _, _), 
+   not course(ams219, _, "Undergraduate", _, _, _, _), 
+   not course(mat308, _, "Undergraduate", _, _, _, _), 
+   not course(mat220, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for MAT319
+:- course(mat319, 4, "Undergraduate", 1, 1, 1, 1), 
+   not course(mat200, _, "Undergraduate", _, _, _, _), 
+   not course(mat250, _, "Undergraduate", _, _, _, _). 
+
+:- course(mat319, 4, "Undergraduate", 1, 1, 1, 1), 
+   not course(mat203, _, "Undergraduate", _, _, _, _), 
+   not course(ams261, _, "Undergraduate", _, _, _, _), 
+   not course(mat127, _, "Undergraduate", _, _, _, _), 
+   not course(ams161, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for MAT320
+:- course(mat320, 4, "Undergraduate", 1, 1, 1, 1), 
+   not course(mat200, _, "Undergraduate", _, _, _, _), 
+   not course(mat250, _, "Undergraduate", _, _, _, _). 
+
+:- course(mat320, 4, "Undergraduate", 1, 1, 1, 1), 
+   not course(mat203, _, "Undergraduate", _, _, _, _), 
+   not course(ams261, _, "Undergraduate", _, _, _, _), 
+   not course(mat127, _, "Undergraduate", _, _, _, _), 
+   not course(ams161, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for MAT322
+:- course(mat322, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(mat203, _, "Undergraduate", _, _, _, _), 
+   not course(mat220, _, "Undergraduate", _, _, _, _), 
+   not course(mat307, _, "Undergraduate", _, _, _, _), 
+   not course(ams261, _, "Undergraduate", _, _, _, _). 
+
+:- course(mat322, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(mat310, _, "Undergraduate", _, _, _, _), 
+   not course(mat315, _, "Undergraduate", _, _, _, _). 
+
+:- course(mat322, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(mat320, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for MAT324
+:- course(mat324, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(mat320, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for MAT331
+:- course(mat331, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(mat203, _, "Undergraduate", _, _, _, _), 
+   not course(ams261, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for MAT336
+:- course(mat336, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(mat200, _, "Undergraduate", _, _, _, _), 
+   not course(mat203, _, "Undergraduate", _, _, _, _), 
+   not course(mat250, _, "Undergraduate", _, _, _, _), 
+   not course(mat307, _, "Undergraduate", _, _, _, _), 
+   not course(ams261, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for MAT341
+:- course(mat341, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(mat203, _, "Undergraduate", _, _, _, _), 
+   not course(ams261, _, "Undergraduate", _, _, _, _). 
+
+:- course(mat341, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(mat303, _, "Undergraduate", _, _, _, _), 
+   not course(ams361, _, "Undergraduate", _, _, _, _), 
+   not course(mat200, _, "Undergraduate", _, _, _, _), 
+   not course(mat250, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for MAT342
+:- course(mat342, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(mat203, _, "Undergraduate", _, _, _, _), 
+   not course(mat220, _, "Undergraduate", _, _, _, _), 
+   not course(mat307, _, "Undergraduate", _, _, _, _), 
+   not course(ams261, _, "Undergraduate", _, _, _, _), 
+   not course(mat200, _, "Undergraduate", _, _, _, _), 
+   not course(mat250, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for MAT351
+:- course(mat351, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(mat203, _, "Undergraduate", _, _, _, _), 
+   not course(mat220, _, "Undergraduate", _, _, _, _), 
+   not course(mat307, _, "Undergraduate", _, _, _, _), 
+   not course(ams261, _, "Undergraduate", _, _, _, _). 
+
+:- course(mat351, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(mat303, _, "Undergraduate", _, _, _, _), 
+   not course(mat308, _, "Undergraduate", _, _, _, _), 
+   not course(ams361, _, "Undergraduate", _, _, _, _). 
+
+:- course(mat351, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(mat200, _, "Undergraduate", _, _, _, _), 
+   not course(mat250, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for MAT362
+:- course(mat362, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(mat319, _, "Undergraduate", _, _, _, _), 
+   not course(mat320, _, "Undergraduate", _, _, _, _), 
+   not course(mat364, _, "Undergraduate", _, _, _, _). 
+
+:- course(mat362, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(mat203, _, "Undergraduate", _, _, _, _), 
+   not course(mat307, _, "Undergraduate", _, _, _, _), 
+   not course(mat322, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for MAT364
+:- course(mat364, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(mat203, _, "Undergraduate", _, _, _, _), 
+   not course(ams261, _, "Undergraduate", _, _, _, _). 
+
+:- course(mat364, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(mat200, _, "Undergraduate", _, _, _, _), 
+   not course(mat319, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for MAT371
+:- course(mat371, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(cse150, _, "Undergraduate", _, _, _, _), 
+   not course(cse215, _, "Undergraduate", _, _, _, _), 
+   not course(mat200, _, "Undergraduate", _, _, _, _), 
+   not course(mat250, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for MAT373
+:- course(mat373, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(cse150, _, "Undergraduate", _, _, _, _), 
+   not course(cse215, _, "Undergraduate", _, _, _, _), 
+   not course(mat200, _, "Undergraduate", _, _, _, _), 
+   not course(mat250, _, "Undergraduate", _, _, _, _). 
+
+:- course(mat373, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(mat211, _, "Undergraduate", _, _, _, _), 
+   not course(ams210, _, "Undergraduate", _, _, _, _). 
+
+:- course(mat373, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(cse214, _, "Undergraduate", _, _, _, _), 
+   not course(cse260, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for MAT444
+:- course(mat444, 0, "Undergraduate", 1, 1, 1, 1), 
+   not course(wrt102, _, "Undergraduate", _, _, _, _). 
+
+% Corequisites for MAT458
+:- course(mat458, 0, "Undergraduate", 1, 1, 1, 1), 
+   not course(wrt102, _, "Undergraduate", 1, 1, 1, 1). 
+
+% Prerequisites for MAT459
+:- course(mat459, 0, "Undergraduate", 1, 1, 1, 1), 
+   not course(wrt102, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for MAT520
+:- course(mat520, 3, "Graduate", 1, 1, 1, 1), 
+   not course(mat511, _, "Graduate", _, _, _, _). 
+
+% Prerequisites for MAT545
+:- course(mat545, 3, "Graduate", 1, 1, 1, 1), 
+   not course(mat530, _, "Graduate", _, _, _, _), 
+   not course(mat534, _, "Graduate", _, _, _, _), 
+   not course(mat542, _, "Graduate", _, _, _, _). 
+

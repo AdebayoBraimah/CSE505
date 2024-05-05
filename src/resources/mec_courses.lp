@@ -1,3 +1,4 @@
+% Course predicates
 course(mec100, 3, "Undergraduate", 1, 1, 1, 1).
 course(mec101, 3, "Undergraduate", 1, 1, 1, 1).
 course(mec102, 2, "Undergraduate", 1, 1, 1, 1).
@@ -114,69 +115,244 @@ course(mec699, 1..9, "Graduate", 1, 1, 1, 1).
 course(mec700, 1..9, "Graduate", 1, 1, 1, 1).
 course(mec701, 1..9, "Graduate", 1, 1, 1, 1).
 course(mec800, 0, "Graduate", 1, 1, 1, 1).
-prerequisite(mec260, phy131).
-prerequisite(mec262, mec260).
-prerequisite(mec300, wrt102).
-prerequisite(mec301, ams261).
-prerequisite(mec301, mat203).
-prerequisite(mec301, phy125).
-prerequisite(mec301, che131).
-prerequisite(mec305, mec301).
-prerequisite(mec305, mec102).
-prerequisite(mec305, esg111).
-prerequisite(mec305, ese124).
-prerequisite(mec305, cse114).
-prerequisite(mec305, bme120).
-prerequisite(mec310, mec102).
-prerequisite(mec310, cse114).
-prerequisite(mec310, esg111).
-prerequisite(mec310, bme120).
-prerequisite(mec310, ese124).
-prerequisite(mec310, mec262).
-prerequisite(mec310, bme260).
-prerequisite(mec316, mec363).
-prerequisite(mec316, phy134).
-prerequisite(mec317, phy134).
-prerequisite(mec320, mec102).
-prerequisite(mec320, cse114).
-prerequisite(mec320, cse130).
-prerequisite(mec320, esg111).
-prerequisite(mec320, ese124).
-prerequisite(mec320, bme120).
-prerequisite(mec320, ams261).
-prerequisite(mec320, mat203).
-prerequisite(mec320, ams361).
-prerequisite(mec320, mat303).
-prerequisite(mec363, mec260).
-prerequisite(mec363, bme260).
-prerequisite(mec364, phy126).
-prerequisite(mec364, phy131).
-prerequisite(mec364, mec262).
-prerequisite(mec393, mec364).
-prerequisite(mec398, mec301).
-prerequisite(mec402, mec262).
-prerequisite(mec410, mec310).
-prerequisite(mec411, mec220).
-prerequisite(mec411, mec262).
-prerequisite(mec411, ams361).
-prerequisite(mec411, mat303).
-prerequisite(mec422, mec305).
-prerequisite(mec423, mec305).
-prerequisite(mec440, mec225).
-prerequisite(mec440, mec320).
-prerequisite(mec440, mec410).
-prerequisite(mec441, mec440).
-prerequisite(mec442, mec363).
-prerequisite(mec450, mec310).
-prerequisite(mec455, mec363).
-prerequisite(mec456, mec363).
-prerequisite(mec457, mec363).
-prerequisite(mec464, mec305).
-prerequisite(mec464, mec310).
-prerequisite(mec464, mec364).
-prerequisite(mec465, mec305).
-prerequisite(mec465, mec310).
-prerequisite(mec465, mec364).
-prerequisite(mec470, mec363).
-prerequisite(mec557, mec363).
-prerequisite(mec641, mec536).
+
+% Repeatable Courses
+repeatable(mec475, 2, _).
+repeatable(mec488, _, 12).
+repeatable(mec596, _, 6).
+repeatable(mec691, _, 0).
+
+% Course Rules 
+
+% Prerequisites for MEC260
+:- course(mec260, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(phy131, _, "Undergraduate", _, _, _, _). 
+
+% Corequisites for MEC260
+:- course(mec260, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(ams261, _, "Undergraduate", 1, 1, 1, 1). 
+
+:- course(mec260, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(mat203, _, "Undergraduate", 1, 1, 1, 1). 
+
+% Prerequisites for MEC262
+:- course(mec262, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(mec260, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for MEC300
+:- course(mec300, 2, "Undergraduate", 1, 1, 1, 1), 
+   not course(wrt102, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for MEC301
+:- course(mec301, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(ams261, _, "Undergraduate", _, _, _, _), 
+   not course(mat203, _, "Undergraduate", _, _, _, _). 
+
+:- course(mec301, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(phy125, _, "Undergraduate", _, _, _, _). 
+
+:- course(mec301, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(che131, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for MEC305
+:- course(mec305, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(mec301, _, "Undergraduate", _, _, _, _). 
+
+:- course(mec305, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(mec102, _, "Undergraduate", _, _, _, _), 
+   not course(esg111, _, "Undergraduate", _, _, _, _), 
+   not course(ese124, _, "Undergraduate", _, _, _, _), 
+   not course(cse114, _, "Undergraduate", _, _, _, _), 
+   not course(bme120, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for MEC310
+:- course(mec310, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(mec102, _, "Undergraduate", _, _, _, _), 
+   not course(cse114, _, "Undergraduate", _, _, _, _), 
+   not course(esg111, _, "Undergraduate", _, _, _, _), 
+   not course(bme120, _, "Undergraduate", _, _, _, _), 
+   not course(ese124, _, "Undergraduate", _, _, _, _). 
+
+:- course(mec310, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(mec262, _, "Undergraduate", _, _, _, _), 
+   not course(bme260, _, "Undergraduate", _, _, _, _). 
+
+% Corequisites for MEC310
+:- course(mec310, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(mec203, _, "Undergraduate", 1, 1, 1, 1). 
+
+:- course(mec310, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(esg316, _, "Undergraduate", 1, 1, 1, 1). 
+
+% Prerequisites for MEC316
+:- course(mec316, 2, "Undergraduate", 1, 1, 1, 1), 
+   not course(mec363, _, "Undergraduate", _, _, _, _). 
+
+:- course(mec316, 2, "Undergraduate", 1, 1, 1, 1), 
+   not course(phy134, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for MEC317
+:- course(mec317, 2, "Undergraduate", 1, 1, 1, 1), 
+   not course(phy134, _, "Undergraduate", _, _, _, _). 
+
+% Corequisites for MEC317
+:- course(mec317, 2, "Undergraduate", 1, 1, 1, 1), 
+   not course(mec220, _, "Undergraduate", 1, 1, 1, 1). 
+
+:- course(mec317, 2, "Undergraduate", 1, 1, 1, 1), 
+   not course(mec301, _, "Undergraduate", 1, 1, 1, 1). 
+
+:- course(mec317, 2, "Undergraduate", 1, 1, 1, 1), 
+   not course(mec364, _, "Undergraduate", 1, 1, 1, 1). 
+
+:- course(mec317, 2, "Undergraduate", 1, 1, 1, 1), 
+   not course(ams361, _, "Undergraduate", 1, 1, 1, 1). 
+
+:- course(mec317, 2, "Undergraduate", 1, 1, 1, 1), 
+   not course(mat303, _, "Undergraduate", 1, 1, 1, 1). 
+
+% Prerequisites for MEC320
+:- course(mec320, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(mec102, _, "Undergraduate", _, _, _, _), 
+   not course(cse114, _, "Undergraduate", _, _, _, _), 
+   not course(cse130, _, "Undergraduate", _, _, _, _), 
+   not course(esg111, _, "Undergraduate", _, _, _, _), 
+   not course(ese124, _, "Undergraduate", _, _, _, _), 
+   not course(bme120, _, "Undergraduate", _, _, _, _). 
+
+:- course(mec320, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(ams261, _, "Undergraduate", _, _, _, _), 
+   not course(mat203, _, "Undergraduate", _, _, _, _). 
+
+:- course(mec320, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(ams361, _, "Undergraduate", _, _, _, _), 
+   not course(mat303, _, "Undergraduate", _, _, _, _). 
+
+% Corequisites for MEC325
+:- course(mec325, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(mec203, _, "Undergraduate", 1, 1, 1, 1). 
+
+:- course(mec325, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(mec225, _, "Undergraduate", 1, 1, 1, 1). 
+
+:- course(mec325, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(mec226, _, "Undergraduate", 1, 1, 1, 1). 
+
+% Prerequisites for MEC363
+:- course(mec363, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(mec260, _, "Undergraduate", _, _, _, _), 
+   not course(bme260, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for MEC364
+:- course(mec364, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(phy126, _, "Undergraduate", _, _, _, _), 
+   not course(phy131, _, "Undergraduate", _, _, _, _). 
+
+:- course(mec364, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(mec262, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for MEC393
+:- course(mec393, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(mec364, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for MEC398
+:- course(mec398, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(mec301, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for MEC402
+:- course(mec402, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(mec262, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for MEC410
+:- course(mec410, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(mec310, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for MEC411
+:- course(mec411, 4, "Undergraduate", 1, 1, 1, 1), 
+   not course(mec220, _, "Undergraduate", _, _, _, _). 
+
+:- course(mec411, 4, "Undergraduate", 1, 1, 1, 1), 
+   not course(mec262, _, "Undergraduate", _, _, _, _). 
+
+:- course(mec411, 4, "Undergraduate", 1, 1, 1, 1), 
+   not course(ams361, _, "Undergraduate", _, _, _, _), 
+   not course(mat303, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for MEC422
+:- course(mec422, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(mec305, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for MEC423
+:- course(mec423, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(mec305, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for MEC440
+:- course(mec440, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(mec225, _, "Undergraduate", _, _, _, _). 
+
+:- course(mec440, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(mec320, _, "Undergraduate", _, _, _, _). 
+
+:- course(mec440, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(mec410, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for MEC441
+:- course(mec441, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(mec440, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for MEC442
+:- course(mec442, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(mec363, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for MEC450
+:- course(mec450, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(mec310, _, "Undergraduate", _, _, _, _). 
+
+% Corequisites for MEC450
+:- course(mec450, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(mec411, _, "Undergraduate", 1, 1, 1, 1). 
+
+% Prerequisites for MEC455
+:- course(mec455, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(mec363, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for MEC456
+:- course(mec456, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(mec363, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for MEC457
+:- course(mec457, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(mec363, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for MEC464
+:- course(mec464, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(mec305, _, "Undergraduate", _, _, _, _). 
+
+:- course(mec464, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(mec310, _, "Undergraduate", _, _, _, _). 
+
+:- course(mec464, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(mec364, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for MEC465
+:- course(mec465, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(mec305, _, "Undergraduate", _, _, _, _). 
+
+:- course(mec465, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(mec310, _, "Undergraduate", _, _, _, _). 
+
+:- course(mec465, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(mec364, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for MEC470
+:- course(mec470, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(mec363, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for MEC557
+:- course(mec557, 3, "Graduate", 1, 1, 1, 1), 
+   not course(mec363, _, "Graduate", _, _, _, _). 
+
+% Prerequisites for MEC641
+:- course(mec641, 3, "Graduate", 1, 1, 1, 1), 
+   not course(mec536, _, "Graduate", _, _, _, _). 
+

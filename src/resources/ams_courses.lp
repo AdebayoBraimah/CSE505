@@ -1,3 +1,4 @@
+% Course predicates
 course(ams102, 3, "Undergraduate", 1, 1, 1, 1).
 course(ams103, 3, "Undergraduate", 1, 1, 1, 1).
 course(ams104, 3, "Undergraduate", 1, 1, 1, 1).
@@ -140,92 +141,259 @@ course(ams699, 0..9, "Graduate", 1, 1, 1, 1).
 course(ams700, 1..9, "Graduate", 1, 1, 1, 1).
 course(ams701, 1..9, "Graduate", 1, 1, 1, 1).
 course(ams800, 0, "Graduate", 1, 1, 1, 1).
-prerequisite(ams104, mat123).
-prerequisite(ams105, bus110).
-prerequisite(ams105, mat122).
-prerequisite(ams105, bus210).
-prerequisite(ams110, ams151).
-prerequisite(ams110, mat125).
-prerequisite(ams151, mat123).
-prerequisite(ams161, ams151).
-prerequisite(ams161, mat131).
-prerequisite(ams210, ams151).
-prerequisite(ams210, mat131).
-prerequisite(ams261, ams161).
-prerequisite(ams261, mat127).
-prerequisite(ams300, wrt102).
-prerequisite(ams301, ams210).
-prerequisite(ams301, mat211).
-prerequisite(ams301, ams361).
-prerequisite(ams301, mat303).
-prerequisite(ams303, ams301).
-prerequisite(ams310, ams161).
-prerequisite(ams310, mat132).
-prerequisite(ams310, mat127).
-prerequisite(ams310, mat142).
-prerequisite(ams311, ams301).
-prerequisite(ams315, ams310).
-prerequisite(ams316, ams311).
-prerequisite(ams316, ams315).
-prerequisite(ams317, ams315).
-prerequisite(ams317, ams210).
-prerequisite(ams317, mat211).
-prerequisite(ams318, ams310).
-prerequisite(ams320, ams311).
-prerequisite(ams325, ams210).
-prerequisite(ams325, mat211).
-prerequisite(ams326, cse101).
-prerequisite(ams326, ams161).
-prerequisite(ams326, ams210).
-prerequisite(ams332, mat127).
-prerequisite(ams332, mat132).
-prerequisite(ams332, ams161).
-prerequisite(ams332, bio202).
-prerequisite(ams332, bio203).
-prerequisite(ams332, che132).
-prerequisite(ams332, che331).
-prerequisite(ams332, phy127).
-prerequisite(ams332, phy132).
-prerequisite(ams333, ams161).
-prerequisite(ams333, mat132).
-prerequisite(ams335, mat126).
-prerequisite(ams335, ams151).
-prerequisite(ams335, eco303).
-prerequisite(ams341, ams210).
-prerequisite(ams341, mat211).
-prerequisite(ams341, mat307).
-prerequisite(ams341, mat308).
-prerequisite(ams342, ams210).
-prerequisite(ams342, mat211).
-prerequisite(ams342, ams311).
-prerequisite(ams345, ams301).
-prerequisite(ams351, ams210).
-prerequisite(ams351, mat211).
-prerequisite(ams351, mat200).
-prerequisite(ams351, cse250).
-prerequisite(ams361, ams161).
-prerequisite(ams361, mat127).
-prerequisite(ams380, ams311).
-prerequisite(ams394, ams310).
-prerequisite(ams394, ams315).
-prerequisite(ams410, ams261).
-prerequisite(ams410, mat203).
-prerequisite(ams410, ams310).
-prerequisite(ams410, ams311).
-prerequisite(ams412, ams311).
-prerequisite(ams420, ams311).
-prerequisite(ams420, ams341).
-prerequisite(ams459, wrt102).
-prerequisite(ams512, ams511).
-prerequisite(ams513, ams511).
-prerequisite(ams515, ams512).
-prerequisite(ams515, ams513).
-prerequisite(ams544, ams540).
-prerequisite(ams583, ams572).
-prerequisite(ams583, ams578).
-prerequisite(ams600, ams511).
-prerequisite(ams601, ams511).
-antirequisite(ams102, ams110).
-antirequisite(ams102, ams310).
-antirequisite(ams110, ams102).
-antirequisite(ams110, ams310).
+
+% Repeatable Courses
+repeatable(ams475, 2, _).
+repeatable(ams476, 2, _).
+repeatable(ams487, 2, _).
+repeatable(ams492, 2, _).
+repeatable(ams599, _, 12).
+repeatable(ams696, _, 3).
+
+% Course Rules 
+
+% Antirequisites for AMS102
+:- course(ams102, 3, "Undergraduate", 1, 1, 1, 1), 
+   course(ams110, _, "Undergraduate", _, _, _, _). 
+
+:- course(ams102, 3, "Undergraduate", 1, 1, 1, 1), 
+   course(ams310, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for AMS104
+:- course(ams104, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(mat123, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for AMS105
+:- course(ams105, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(bus110, _, "Undergraduate", _, _, _, _), 
+   not course(mat122, _, "Undergraduate", _, _, _, _), 
+   not course(bus210, _, "Undergraduate", _, _, _, _). 
+
+% Antirequisites for AMS110
+:- course(ams110, 3, "Undergraduate", 1, 1, 1, 1), 
+   course(ams102, _, "Undergraduate", _, _, _, _). 
+
+:- course(ams110, 3, "Undergraduate", 1, 1, 1, 1), 
+   course(ams310, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for AMS110
+:- course(ams110, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(ams151, _, "Undergraduate", _, _, _, _), 
+   not course(mat125, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for AMS151
+:- course(ams151, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(mat123, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for AMS161
+:- course(ams161, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(ams151, _, "Undergraduate", _, _, _, _), 
+   not course(mat131, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for AMS210
+:- course(ams210, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(ams151, _, "Undergraduate", _, _, _, _), 
+   not course(mat131, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for AMS261
+:- course(ams261, 4, "Undergraduate", 1, 1, 1, 1), 
+   not course(ams161, _, "Undergraduate", _, _, _, _), 
+   not course(mat127, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for AMS300
+:- course(ams300, 1, "Undergraduate", 1, 1, 1, 1), 
+   not course(wrt102, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for AMS301
+:- course(ams301, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(ams210, _, "Undergraduate", _, _, _, _), 
+   not course(mat211, _, "Undergraduate", _, _, _, _), 
+   not course(ams361, _, "Undergraduate", _, _, _, _), 
+   not course(mat303, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for AMS303
+:- course(ams303, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(ams301, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for AMS310
+:- course(ams310, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(ams161, _, "Undergraduate", _, _, _, _), 
+   not course(mat132, _, "Undergraduate", _, _, _, _), 
+   not course(mat127, _, "Undergraduate", _, _, _, _), 
+   not course(mat142, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for AMS311
+:- course(ams311, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(ams301, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for AMS315
+:- course(ams315, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(ams310, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for AMS316
+:- course(ams316, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(ams311, _, "Undergraduate", _, _, _, _). 
+
+:- course(ams316, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(ams315, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for AMS317
+:- course(ams317, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(ams315, _, "Undergraduate", _, _, _, _). 
+
+:- course(ams317, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(ams210, _, "Undergraduate", _, _, _, _), 
+   not course(mat211, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for AMS318
+:- course(ams318, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(ams310, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for AMS320
+:- course(ams320, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(ams311, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for AMS325
+:- course(ams325, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(ams210, _, "Undergraduate", _, _, _, _), 
+   not course(mat211, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for AMS326
+:- course(ams326, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(cse101, _, "Undergraduate", _, _, _, _). 
+
+:- course(ams326, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(ams161, _, "Undergraduate", _, _, _, _). 
+
+:- course(ams326, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(ams210, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for AMS332
+:- course(ams332, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(mat127, _, "Undergraduate", _, _, _, _), 
+   not course(mat132, _, "Undergraduate", _, _, _, _), 
+   not course(ams161, _, "Undergraduate", _, _, _, _). 
+
+:- course(ams332, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(bio202, _, "Undergraduate", _, _, _, _), 
+   not course(bio203, _, "Undergraduate", _, _, _, _), 
+   not course(che132, _, "Undergraduate", _, _, _, _), 
+   not course(che331, _, "Undergraduate", _, _, _, _), 
+   not course(phy127, _, "Undergraduate", _, _, _, _), 
+   not course(phy132, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for AMS333
+:- course(ams333, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(ams161, _, "Undergraduate", _, _, _, _), 
+   not course(mat132, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for AMS335
+:- course(ams335, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(mat126, _, "Undergraduate", _, _, _, _), 
+   not course(ams151, _, "Undergraduate", _, _, _, _). 
+
+:- course(ams335, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(eco303, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for AMS341
+:- course(ams341, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(ams210, _, "Undergraduate", _, _, _, _), 
+   not course(mat211, _, "Undergraduate", _, _, _, _), 
+   not course(mat307, _, "Undergraduate", _, _, _, _). 
+
+:- course(ams341, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(mat308, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for AMS342
+:- course(ams342, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(ams210, _, "Undergraduate", _, _, _, _), 
+   not course(mat211, _, "Undergraduate", _, _, _, _). 
+
+:- course(ams342, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(ams311, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for AMS345
+:- course(ams345, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(ams301, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for AMS351
+:- course(ams351, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(ams210, _, "Undergraduate", _, _, _, _), 
+   not course(mat211, _, "Undergraduate", _, _, _, _), 
+   not course(mat200, _, "Undergraduate", _, _, _, _), 
+   not course(cse250, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for AMS361
+:- course(ams361, 4, "Undergraduate", 1, 1, 1, 1), 
+   not course(ams161, _, "Undergraduate", _, _, _, _), 
+   not course(mat127, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for AMS380
+:- course(ams380, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(ams311, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for AMS394
+:- course(ams394, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(ams310, _, "Undergraduate", _, _, _, _), 
+   not course(ams315, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for AMS410
+:- course(ams410, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(ams261, _, "Undergraduate", _, _, _, _), 
+   not course(mat203, _, "Undergraduate", _, _, _, _). 
+
+:- course(ams410, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(ams310, _, "Undergraduate", _, _, _, _). 
+
+:- course(ams410, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(ams311, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for AMS412
+:- course(ams412, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(ams311, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for AMS420
+:- course(ams420, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(ams311, _, "Undergraduate", _, _, _, _), 
+   not course(ams341, _, "Undergraduate", _, _, _, _). 
+
+% Corequisites for AMS458
+:- course(ams458, 0, "Undergraduate", 1, 1, 1, 1), 
+   not course(wrt102, _, "Undergraduate", 1, 1, 1, 1). 
+
+% Prerequisites for AMS459
+:- course(ams459, 0, "Undergraduate", 1, 1, 1, 1), 
+   not course(wrt102, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for AMS512
+:- course(ams512, 3, "Graduate", 1, 1, 1, 1), 
+   not course(ams511, _, "Graduate", _, _, _, _). 
+
+% Prerequisites for AMS513
+:- course(ams513, 3, "Graduate", 1, 1, 1, 1), 
+   not course(ams511, _, "Graduate", _, _, _, _). 
+
+% Prerequisites for AMS515
+:- course(ams515, 3, "Graduate", 1, 1, 1, 1), 
+   not course(ams512, _, "Graduate", _, _, _, _). 
+
+:- course(ams515, 3, "Graduate", 1, 1, 1, 1), 
+   not course(ams513, _, "Graduate", _, _, _, _). 
+
+% Prerequisites for AMS544
+:- course(ams544, 3, "Graduate", 1, 1, 1, 1), 
+   not course(ams540, _, "Graduate", _, _, _, _). 
+
+% Prerequisites for AMS583
+:- course(ams583, 3, "Graduate", 1, 1, 1, 1), 
+   not course(ams572, _, "Graduate", _, _, _, _), 
+   not course(ams578, _, "Graduate", _, _, _, _). 
+
+% Prerequisites for AMS600
+:- course(ams600, 3, "Graduate", 1, 1, 1, 1), 
+   not course(ams511, _, "Graduate", _, _, _, _). 
+
+% Prerequisites for AMS601
+:- course(ams601, 3, "Graduate", 1, 1, 1, 1), 
+   not course(ams511, _, "Graduate", _, _, _, _). 
+

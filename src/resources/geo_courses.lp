@@ -1,3 +1,4 @@
+% Course predicates
 course(geo101, 3, "Undergraduate", 1, 1, 1, 1).
 course(geo102, 3, "Undergraduate", 1, 1, 1, 1).
 course(geo103, 3, "Undergraduate", 1, 1, 1, 1).
@@ -116,68 +117,207 @@ course(geo699, 1..9, "Graduate", 1, 1, 1, 1).
 course(geo700, 1..9, "Graduate", 1, 1, 1, 1).
 course(geo701, 1..9, "Graduate", 1, 1, 1, 1).
 course(geo800, 0, "Graduate", 1, 1, 1, 1).
-prerequisite(geo115, che131).
-prerequisite(geo305, geo122).
-prerequisite(geo305, rgeo102).
-prerequisite(geo305, geo112).
-prerequisite(geo306, geo122).
-prerequisite(geo306, rgeo102).
-prerequisite(geo306, geo112).
-prerequisite(geo306, che131).
-prerequisite(geo306, che129).
-prerequisite(geo307, sus111).
-prerequisite(geo307, sbc111).
-prerequisite(geo307, sus113).
-prerequisite(geo307, sbc113).
-prerequisite(geo307, ens101).
-prerequisite(geo307, geo101).
-prerequisite(geo307, geo102).
-prerequisite(geo307, geo122).
-prerequisite(geo307, env115).
-prerequisite(geo307, che131).
-prerequisite(geo309, geo122).
-prerequisite(geo309, geo102).
-prerequisite(geo309, phy131).
-prerequisite(geo309, phy125).
-prerequisite(geo310, geo122).
-prerequisite(geo310, geo102).
-prerequisite(geo315, geo102).
-prerequisite(geo315, geo122).
-prerequisite(geo315, mat127).
-prerequisite(geo315, mat132).
-prerequisite(geo315, mat142).
-prerequisite(geo315, mat171).
-prerequisite(geo315, ams161).
-prerequisite(geo316, geo122).
-prerequisite(geo316, che132).
-prerequisite(geo318, geo122).
-prerequisite(geo318, geo102).
-prerequisite(geo318, mat127).
-prerequisite(geo318, ams161).
-prerequisite(geo320, geo102).
-prerequisite(geo330, geo102).
-prerequisite(geo330, geo122).
-prerequisite(geo330, geo106).
-prerequisite(geo347, geo102).
-prerequisite(geo347, geo106).
-prerequisite(geo347, geo122).
-prerequisite(geo403, geo103).
-prerequisite(geo403, geo113).
-prerequisite(geo403, geo306).
-prerequisite(geo403, geo366).
-prerequisite(geo404, geo102).
-prerequisite(geo404, geo122).
-prerequisite(geo407, mat125).
-prerequisite(geo407, mat131).
-prerequisite(geo407, ams151).
-prerequisite(geo407, geo306).
-prerequisite(geo407, geo366).
-prerequisite(geo444, wrt102).
-prerequisite(geo476, geo475).
-prerequisite(geo496, geo102).
-prerequisite(geo496, geo122).
-prerequisite(geo497, geo102).
-prerequisite(geo497, geo112).
-prerequisite(geo497, geo122).
-prerequisite(geo512, che131).
-prerequisite(geo512, phy131).
+
+% Repeatable Courses
+repeatable(geo287, 2, _).
+repeatable(geo447, 2, _).
+repeatable(geo448, _, 3).
+repeatable(geo488, _, 6).
+
+% Course Rules 
+
+% Corequisites for GEO112
+:- course(geo112, 1, "Undergraduate", 1, 1, 1, 1), 
+   not course(geo102, _, "Undergraduate", 1, 1, 1, 1). 
+
+% Corequisites for GEO113
+:- course(geo113, 1, "Undergraduate", 1, 1, 1, 1), 
+   not course(geo103, _, "Undergraduate", 1, 1, 1, 1). 
+
+% Prerequisites for GEO115
+:- course(geo115, 1, "Undergraduate", 1, 1, 1, 1), 
+   not course(che131, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for GEO305
+:- course(geo305, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(geo122, _, "Undergraduate", _, _, _, _), 
+   not course(rgeo102, _, "Undergraduate", _, _, _, _). 
+
+:- course(geo305, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(geo112, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for GEO306
+:- course(geo306, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(geo122, _, "Undergraduate", _, _, _, _), 
+   not course(rgeo102, _, "Undergraduate", _, _, _, _). 
+
+:- course(geo306, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(geo112, _, "Undergraduate", _, _, _, _). 
+
+:- course(geo306, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(che131, _, "Undergraduate", _, _, _, _), 
+   not course(che129, _, "Undergraduate", _, _, _, _). 
+
+% Corequisites for GEO306
+:- course(geo306, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(geo366, _, "Undergraduate", 1, 1, 1, 1). 
+
+% Prerequisites for GEO307
+:- course(geo307, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(sus111, _, "Undergraduate", _, _, _, _), 
+   not course(sbc111, _, "Undergraduate", _, _, _, _), 
+   not course(sus113, _, "Undergraduate", _, _, _, _), 
+   not course(sbc113, _, "Undergraduate", _, _, _, _), 
+   not course(ens101, _, "Undergraduate", _, _, _, _), 
+   not course(geo101, _, "Undergraduate", _, _, _, _), 
+   not course(geo102, _, "Undergraduate", _, _, _, _), 
+   not course(geo122, _, "Undergraduate", _, _, _, _), 
+   not course(env115, _, "Undergraduate", _, _, _, _), 
+   not course(che131, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for GEO309
+:- course(geo309, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(geo122, _, "Undergraduate", _, _, _, _), 
+   not course(geo102, _, "Undergraduate", _, _, _, _). 
+
+:- course(geo309, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(phy131, _, "Undergraduate", _, _, _, _). 
+
+:- course(geo309, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(phy125, _, "Undergraduate", _, _, _, _). 
+
+% Corequisites for GEO309
+:- course(geo309, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(geo369, _, "Undergraduate", 1, 1, 1, 1). 
+
+% Prerequisites for GEO310
+:- course(geo310, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(geo122, _, "Undergraduate", _, _, _, _), 
+   not course(geo102, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for GEO315
+:- course(geo315, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(geo102, _, "Undergraduate", _, _, _, _), 
+   not course(geo122, _, "Undergraduate", _, _, _, _). 
+
+:- course(geo315, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(mat127, _, "Undergraduate", _, _, _, _), 
+   not course(mat132, _, "Undergraduate", _, _, _, _), 
+   not course(mat142, _, "Undergraduate", _, _, _, _), 
+   not course(mat171, _, "Undergraduate", _, _, _, _), 
+   not course(ams161, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for GEO316
+:- course(geo316, 4, "Undergraduate", 1, 1, 1, 1), 
+   not course(geo122, _, "Undergraduate", _, _, _, _). 
+
+:- course(geo316, 4, "Undergraduate", 1, 1, 1, 1), 
+   not course(che132, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for GEO318
+:- course(geo318, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(geo122, _, "Undergraduate", _, _, _, _), 
+   not course(geo102, _, "Undergraduate", _, _, _, _). 
+
+:- course(geo318, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(mat127, _, "Undergraduate", _, _, _, _), 
+   not course(ams161, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for GEO320
+:- course(geo320, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(geo102, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for GEO330
+:- course(geo330, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(geo102, _, "Undergraduate", _, _, _, _), 
+   not course(geo122, _, "Undergraduate", _, _, _, _), 
+   not course(geo106, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for GEO347
+:- course(geo347, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(geo102, _, "Undergraduate", _, _, _, _), 
+   not course(geo106, _, "Undergraduate", _, _, _, _), 
+   not course(geo122, _, "Undergraduate", _, _, _, _). 
+
+% Corequisites for GEO366
+:- course(geo366, 1, "Undergraduate", 1, 1, 1, 1), 
+   not course(geo306, _, "Undergraduate", 1, 1, 1, 1). 
+
+% Corequisites for GEO369
+:- course(geo369, 1, "Undergraduate", 1, 1, 1, 1), 
+   not course(geo309, _, "Undergraduate", 1, 1, 1, 1). 
+
+% Prerequisites for GEO403
+:- course(geo403, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(geo103, _, "Undergraduate", _, _, _, _). 
+
+:- course(geo403, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(geo113, _, "Undergraduate", _, _, _, _). 
+
+:- course(geo403, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(geo306, _, "Undergraduate", _, _, _, _). 
+
+:- course(geo403, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(geo366, _, "Undergraduate", _, _, _, _). 
+
+% Corequisites for GEO403
+:- course(geo403, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(geo463, _, "Undergraduate", 1, 1, 1, 1). 
+
+% Prerequisites for GEO404
+:- course(geo404, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(geo102, _, "Undergraduate", _, _, _, _), 
+   not course(geo122, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for GEO407
+:- course(geo407, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(mat125, _, "Undergraduate", _, _, _, _), 
+   not course(mat131, _, "Undergraduate", _, _, _, _), 
+   not course(ams151, _, "Undergraduate", _, _, _, _). 
+
+:- course(geo407, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(geo306, _, "Undergraduate", _, _, _, _). 
+
+:- course(geo407, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(geo366, _, "Undergraduate", _, _, _, _). 
+
+% Corequisites for GEO407
+:- course(geo407, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(geo467, _, "Undergraduate", 1, 1, 1, 1). 
+
+% Prerequisites for GEO444
+:- course(geo444, 0, "Undergraduate", 1, 1, 1, 1), 
+   not course(wrt102, _, "Undergraduate", _, _, _, _). 
+
+% Corequisites for GEO463
+:- course(geo463, 1, "Undergraduate", 1, 1, 1, 1), 
+   not course(geo403, _, "Undergraduate", 1, 1, 1, 1). 
+
+% Corequisites for GEO467
+:- course(geo467, 1, "Undergraduate", 1, 1, 1, 1), 
+   not course(geo407, _, "Undergraduate", 1, 1, 1, 1). 
+
+% Prerequisites for GEO476
+:- course(geo476, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(geo475, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for GEO496
+:- course(geo496, 1, "Undergraduate", 1, 1, 1, 1), 
+   not course(geo102, _, "Undergraduate", _, _, _, _), 
+   not course(geo122, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for GEO497
+:- course(geo497, 1, "Undergraduate", 1, 1, 1, 1), 
+   not course(geo102, _, "Undergraduate", _, _, _, _). 
+
+:- course(geo497, 1, "Undergraduate", 1, 1, 1, 1), 
+   not course(geo112, _, "Undergraduate", _, _, _, _). 
+
+:- course(geo497, 1, "Undergraduate", 1, 1, 1, 1), 
+   not course(geo122, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for GEO512
+:- course(geo512, 3, "Graduate", 1, 1, 1, 1), 
+   not course(che131, _, "Graduate", _, _, _, _), 
+   not course(phy131, _, "Graduate", _, _, _, _). 
+

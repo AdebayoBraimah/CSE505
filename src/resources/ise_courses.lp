@@ -1,3 +1,4 @@
+% Course predicates
 course(ise102, 3, "Undergraduate", 1, 1, 1, 1).
 course(ise108, 3, "Undergraduate", 1, 1, 1, 1).
 course(ise208, 3, "Undergraduate", 1, 1, 1, 1).
@@ -34,62 +35,161 @@ course(ise488, 3, "Undergraduate", 1, 1, 1, 1).
 course(ise503, 3, "Graduate", 1, 1, 1, 1).
 course(ise506, 3, "Graduate", 1, 1, 1, 1).
 course(ise507, 3, "Graduate", 1, 1, 1, 1).
-prerequisite(ise102, cse101).
-prerequisite(ise208, ise108).
-prerequisite(ise218, mat123).
-prerequisite(ise300, wrt102).
-prerequisite(ise305, ise208).
-prerequisite(ise305, cse114).
-prerequisite(ise305, cse230).
-prerequisite(ise311, cse214).
-prerequisite(ise311, cse230).
-prerequisite(ise311, cse260).
-prerequisite(ise311, ise208).
-prerequisite(ise316, cse114).
-prerequisite(ise316, ise208).
-prerequisite(ise316, mat123).
-prerequisite(ise317, ise316).
-prerequisite(ise317, cse310).
-prerequisite(ise321, ise316).
-prerequisite(ise321, cse310).
-prerequisite(ise323, cse214).
-prerequisite(ise323, cse230).
-prerequisite(ise323, cse260).
-prerequisite(ise323, ise208).
-prerequisite(ise325, cse110).
-prerequisite(ise325, cse101).
-prerequisite(ise325, cse114).
-prerequisite(ise331, ise218).
-prerequisite(ise331, cse220).
-prerequisite(ise332, cse214).
-prerequisite(ise332, cse260).
-prerequisite(ise332, mat211).
-prerequisite(ise332, ams210).
-prerequisite(ise332, ams110).
-prerequisite(ise332, ams310).
-prerequisite(ise333, cse214).
-prerequisite(ise333, cse260).
-prerequisite(ise337, cse214).
-prerequisite(ise337, cse260).
-prerequisite(ise364, ise334).
-prerequisite(ise369, cse101).
-prerequisite(ise369, cse114).
-prerequisite(ise369, iae101).
-prerequisite(ise369, ams102).
-prerequisite(ise369, ams110).
-prerequisite(ise369, ams310).
-prerequisite(ise369, pol201).
-prerequisite(ise369, pol102).
-prerequisite(ise377, ams161).
-prerequisite(ise377, mat127).
-prerequisite(ise377, ams210).
-prerequisite(ise377, mat211).
-prerequisite(ise378, ams161).
-prerequisite(ise378, mat127).
-prerequisite(ise378, ams210).
-prerequisite(ise378, mat211).
-prerequisite(ise378, mec262).
-prerequisite(ise390, cse214).
-prerequisite(ise391, cse214).
-prerequisite(ise393, cse214).
-antirequisite(ise316, cse310).
+
+% Repeatable Courses
+repeatable(ise390, 2, _).
+repeatable(ise391, 2, _).
+repeatable(ise392, 2, _).
+repeatable(ise393, 2, _).
+repeatable(ise475, 2, _).
+repeatable(ise488, _, 12).
+
+% Course Rules 
+
+% Prerequisites for ISE102
+:- course(ise102, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(cse101, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for ISE208
+:- course(ise208, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(ise108, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for ISE218
+:- course(ise218, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(mat123, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for ISE300
+:- course(ise300, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(wrt102, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for ISE305
+:- course(ise305, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(ise208, _, "Undergraduate", _, _, _, _), 
+   not course(cse114, _, "Undergraduate", _, _, _, _), 
+   not course(cse230, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for ISE311
+:- course(ise311, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(cse214, _, "Undergraduate", _, _, _, _), 
+   not course(cse230, _, "Undergraduate", _, _, _, _), 
+   not course(cse260, _, "Undergraduate", _, _, _, _), 
+   not course(ise208, _, "Undergraduate", _, _, _, _). 
+
+% Antirequisites for ISE316
+:- course(ise316, 3, "Undergraduate", 1, 1, 1, 1), 
+   course(cse310, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for ISE316
+:- course(ise316, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(cse114, _, "Undergraduate", _, _, _, _), 
+   not course(ise208, _, "Undergraduate", _, _, _, _). 
+
+:- course(ise316, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(mat123, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for ISE317
+:- course(ise317, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(ise316, _, "Undergraduate", _, _, _, _), 
+   not course(cse310, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for ISE321
+:- course(ise321, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(ise316, _, "Undergraduate", _, _, _, _), 
+   not course(cse310, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for ISE323
+:- course(ise323, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(cse214, _, "Undergraduate", _, _, _, _), 
+   not course(cse230, _, "Undergraduate", _, _, _, _), 
+   not course(cse260, _, "Undergraduate", _, _, _, _), 
+   not course(ise208, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for ISE325
+:- course(ise325, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(cse110, _, "Undergraduate", _, _, _, _), 
+   not course(cse101, _, "Undergraduate", _, _, _, _), 
+   not course(cse114, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for ISE331
+:- course(ise331, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(ise218, _, "Undergraduate", _, _, _, _), 
+   not course(cse220, _, "Undergraduate", _, _, _, _). 
+
+% Corequisites for ISE331
+:- course(ise331, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(ise316, _, "Undergraduate", 1, 1, 1, 1). 
+
+:- course(ise331, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(cse310, _, "Undergraduate", 1, 1, 1, 1). 
+
+% Prerequisites for ISE332
+:- course(ise332, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(cse214, _, "Undergraduate", _, _, _, _), 
+   not course(cse260, _, "Undergraduate", _, _, _, _). 
+
+:- course(ise332, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(mat211, _, "Undergraduate", _, _, _, _), 
+   not course(ams210, _, "Undergraduate", _, _, _, _). 
+
+:- course(ise332, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(ams110, _, "Undergraduate", _, _, _, _), 
+   not course(ams310, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for ISE333
+:- course(ise333, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(cse214, _, "Undergraduate", _, _, _, _), 
+   not course(cse260, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for ISE337
+:- course(ise337, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(cse214, _, "Undergraduate", _, _, _, _), 
+   not course(cse260, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for ISE364
+:- course(ise364, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(ise334, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for ISE369
+:- course(ise369, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(cse101, _, "Undergraduate", _, _, _, _), 
+   not course(cse114, _, "Undergraduate", _, _, _, _), 
+   not course(iae101, _, "Undergraduate", _, _, _, _). 
+
+:- course(ise369, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(ams102, _, "Undergraduate", _, _, _, _), 
+   not course(ams110, _, "Undergraduate", _, _, _, _), 
+   not course(ams310, _, "Undergraduate", _, _, _, _), 
+   not course(pol201, _, "Undergraduate", _, _, _, _), 
+   not course(pol102, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for ISE377
+:- course(ise377, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(ams161, _, "Undergraduate", _, _, _, _), 
+   not course(mat127, _, "Undergraduate", _, _, _, _). 
+
+:- course(ise377, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(ams210, _, "Undergraduate", _, _, _, _), 
+   not course(mat211, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for ISE378
+:- course(ise378, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(ams161, _, "Undergraduate", _, _, _, _), 
+   not course(mat127, _, "Undergraduate", _, _, _, _). 
+
+:- course(ise378, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(ams210, _, "Undergraduate", _, _, _, _), 
+   not course(mat211, _, "Undergraduate", _, _, _, _), 
+   not course(mec262, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for ISE390
+:- course(ise390, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(cse214, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for ISE391
+:- course(ise391, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(cse214, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for ISE393
+:- course(ise393, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(cse214, _, "Undergraduate", _, _, _, _). 
+
