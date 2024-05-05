@@ -663,176 +663,29 @@ def parse_prerequisites(input_string: str) -> Union[str, List[List[str]]]:
     return result
 
 
-# def parse_requirements(
-#     input_string: str,
-# ) -> Union[Tuple[str, str], Tuple[List[List[str]], List[List[str]]], List[List[str]]]:
-#     """Parse major requirements from a string into a list of lists of course codes.
-#     This function is mainly used to separate disjunctions and conjunctions of course: prerequisites,
-#     anti-requisites and corequisites. Disjunctions are grouped together in the same sub-list, while conjunctions
-#     are separated into different sub-lists. Returns lists for prerequisites, anti-requisites, and corequisites.
-#
-#     NOTE:
-#         - Use this function in place of ``parse_prerequisites()``.
-#
-#     Usage example:
-#         >>> input_string = "Prerequisite: CSE 216 or CSE 260; AMS 310; CSE major; Anti-requisite: CSE 260"
-#         >>> parse_requirements(input_string)
-#         ([['CSE216', 'CSE260'], ['AMS310']], [['CSE260']], [])
-#
-#     Args:
-#         input_string: Input string containing major course requirements.
-#
-#     Returns:
-#         Tuple that consists of list of lists containing strings that correspond to course prerequisites and anti-requisites or the string "NONE" in the case either list.
-#     """
-#     # NOTE: Disjunction statements in the same sub-list,
-#     #   conjunctions in separate lists
-#
-#     # NOTE: This pattern assumes that course codes are always in
-#     #   the format "AAA 123"
-#     # Define a regular expression pattern to capture course codes
-#     course_pattern = r"\b([A-Z]{3} \d{3})\b"
-#
-#     # Split the input string into parts by semi-colon for prerequisites
-#     conjunctive_parts = input_string.split(";")
-#
-#     # Result list to hold parsed prerequisites
-#     prerequisites: List[List[str]] = []
-#     anti_requisites: List[List[str]] = []
-#     corequisites: List[List[str]] = []
-#
-#     # Process each part to determine if it is a prerequisite or anti-requisite
-#     for part in conjunctive_parts:
-#         # Check if the part contains corequisites
-#         # if "corequisite" in part.lower():
-#         #     # Find courses specifically tagged as corequisites
-#         #     co_courses = re.findall(course_pattern, part)
-#         #     # Remove spaces in course codes
-#         #     co_courses = [course.replace(" ", "") for course in co_courses]
-#         #     if co_courses:
-#         #         corequisites.append(co_courses)
-#         # Check if the part contains anti-requisites
-#         if "anti-requisite" in part.lower():
-#             # Find courses specifically tagged as anti-requisites
-#             anti_courses = re.findall(course_pattern, part)
-#             # Remove spaces in course codes
-#             anti_courses = [course.replace(" ", "") for course in anti_courses]
-#             if anti_courses:
-#                 anti_requisites.append(anti_courses)
-#         else:
-#             # Find courses in each part
-#             part_courses = re.findall(course_pattern, part)
-#             # Remove spaces in course codes
-#             part_courses = [course.replace(" ", "") for course in part_courses]
-#             if part_courses:
-#                 prerequisites.append(part_courses)
-#
-#     if not prerequisites:
-#         prerequisites: str = "NONE"
-#
-#     if not anti_requisites:
-#         anti_requisites: str = "NONE"
-#
-#     if not corequisites:
-#         corequisites: str = "NONE"
-#
-#     return prerequisites, anti_requisites, corequisites
+def parse_requirements(
+    input_string: str,
+) -> Tuple[List[List[str]], List[List[str]], List[List[str]]]:
+    """Parse major requirements from a string into a list of lists of course codes.
+    This function is mainly used to separate disjunctions and conjunctions of course: prerequisites,
+    anti-requisites and corequisites. Disjunctions are grouped together in the same sub-list, while conjunctions
+    are separated into different sub-lists. Returns lists for prerequisites, anti-requisites, and corequisites.
 
+    NOTE:
+        - Disjunctive statements will appear in the same sub-list, while conjunctive statements will appear in a separate sub-list.
+        - Use this function in place of :method:`parse_prerequisites`.
 
-# # NOTE: Does not work for all cases.
-# def parse_requirements(
-#     input_string: str,
-# ) -> Union[Tuple[str, str], Tuple[List[List[str]], List[List[str]]], List[List[str]]]:
-#     """Parse major requirements from a string into a list of lists of course codes.
-#     This function is mainly used to separate disjunctions and conjunctions of course: prerequisites,
-#     anti-requisites and corequisites. Disjunctions are grouped together in the same sub-list, while conjunctions
-#     are separated into different sub-lists. Returns lists for prerequisites, anti-requisites, and corequisites.
-#
-#     NOTE:
-#         - Disjunctive statements will appear in the same sub-list, while conjunctive statements will appear in a separate sub-list.
-#         - Use this function in place of ``parse_prerequisites()``.
-#
-#     Usage example:
-#         >>> input_string = "Prerequisite: CSE 216 or CSE 260; AMS 310; Anti-requisite: CSE 260. Corequisite: CSE 161."
-#         >>> parse_requirements(input_string)
-#         ([['CSE216', 'CSE260'], ['AMS310']], [['CSE260']], [['CSE161']])
-#
-#     Args:
-#         input_string: Input string containing major course requirements.
-#
-#     Returns:
-#         Tuple that consists of list of lists containing strings that correspond to course prerequisites, anti-requisites and corequisites or the string "NONE" in the case that none are present.
-#     """
-#     # Remove all spaces to simplify parsing
-#     input_string: str = input_string.replace(" ", "")
-#
-#     # Split the input into three main parts: Prerequisites, Anti-requisites, Corequisites
-#     parts: List[str] = re.split(
-#         "Prerequisite:|Anti-requisite:|Corequisite:", input_string
-#     )
-#
-#     # Clean empty strings from the list
-#     parts: List[str] = [part for part in parts if part]
-#
-#     # Initialize lists to hold the course groups
-#     prerequisites: List[str]
-#     anti_requisites: List[str]
-#     corequisites: List[str]
-#
-#     prerequisites, anti_requisites, corequisites = [], [], []
-#
-#     # Helper function to parse and clean course codes
-#     def parse_courses(course_string: str) -> List[List[str]]:
-#         """Parse and clean course codes.
-#
-#         Args:
-#             course_string: Input string containing course codes.
-#
-#         Returns:
-#             List of cleaned course codes.
-#         """
-#         # Split by ';' first to separate different requirement groups
-#         course_groups = course_string.split(";")
-#         # For each group, split by 'or', clean courses, and add to the list
-#         parsed_groups = [clean_courses(group.split("or")) for group in course_groups]
-#         # Filter out any empty sub-lists
-#         return [group for group in parsed_groups if group]
-#
-#     # Function to clean each course code
-#     def clean_courses(courses: List[str]) -> List[str]:
-#         """Clean and filter course codes.
-#
-#         Args:
-#             courses: List of course codes.
-#
-#         Returns:
-#             List of cleaned course codes.
-#         """
-#         # Clean and filter course codes
-#         cleaned_courses = [re.sub(r"[^A-Z0-9]", "", course) for course in courses]
-#         return [course for course in cleaned_courses if course]
-#
-#     # Assign the parsed results to respective lists
-#     if len(parts) >= 1:
-#         prerequisites: List[str] = parse_courses(parts[0])
-#     else:
-#         prerequisites: str = "NONE"
-#
-#     if len(parts) >= 2:
-#         anti_requisites: List[str] = [clean_courses(parts[1].split("or"))]
-#     else:
-#         anti_requisites: str = "NONE"
-#
-#     if len(parts) >= 3:
-#         corequisites: List[str] = [clean_courses([parts[2]])]
-#     else:
-#         corequisites: str = "NONE"
-#
-#     return prerequisites, anti_requisites, corequisites
+    Usage example:
+        >>> input_string = "Prerequisite: CSE 216 or CSE 260; AMS 310; Anti-requisite: CSE 260. Corequisite: CSE 161."
+        >>> parse_requirements(input_string)
+        ([['CSE216', 'CSE260'], ['AMS310']], [['CSE260']], [['CSE161']])
 
+    Args:
+        input_string: _description_
 
-# TODO: Add doc-strings
-def parse_requirements(input_string):
+    Returns:
+        _description_
+    """
     # Normalize spaces and split the string into main sections
     input_string = re.sub(r"\s+", " ", input_string.strip())
 
