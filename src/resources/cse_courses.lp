@@ -1,3 +1,4 @@
+% Course predicates
 course(cse101, 3, "Undergraduate", 1, 1, 1, 1).
 course(cse102, 3, "Undergraduate", 0, 0, 0, 0).
 course(cse110, 3, "Undergraduate", 1, 1, 1, 1).
@@ -203,161 +204,432 @@ course(cse699, 0..9, "Graduate", 0, 0, 0, 0).
 course(cse700, 0..9, "Graduate", 0, 0, 0, 0).
 course(cse701, 0..9, "Graduate", 0, 0, 0, 0).
 course(cse800, 0, "Graduate", 0, 0, 0, 0).
-prerequisite(cse102, cse101).
-prerequisite(cse113, ams151).
-prerequisite(cse113, mat125).
-prerequisite(cse113, mat131).
-prerequisite(cse114, cse101).
-prerequisite(cse114, ise108).
-prerequisite(cse213, cse113).
-prerequisite(cse214, cse114).
-prerequisite(cse215, ams151).
-prerequisite(cse215, mat125).
-prerequisite(cse215, mat131).
-prerequisite(cse216, cse214).
-prerequisite(cse220, cse214).
-prerequisite(cse230, cse130).
-prerequisite(cse230, cse220).
-prerequisite(cse230, ese124).
-prerequisite(cse230, esg111).
-prerequisite(cse230, bme120).
-prerequisite(cse230, mec102).
-prerequisite(cse260, cse160).
-prerequisite(cse300, wrt102).
-prerequisite(cse303, cse160).
-prerequisite(cse303, cse214).
-prerequisite(cse303, cse150).
-prerequisite(cse303, cse215).
-prerequisite(cse304, cse216).
-prerequisite(cse304, cse260).
-prerequisite(cse304, cse220).
-prerequisite(cse304, cse303).
-prerequisite(cse304, cse350).
-prerequisite(cse305, cse216).
-prerequisite(cse305, cse260).
-prerequisite(cse306, cse216).
-prerequisite(cse306, cse260).
-prerequisite(cse306, cse320).
-prerequisite(cse306, ese380).
-prerequisite(cse307, cse216).
-prerequisite(cse307, cse260).
-prerequisite(cse307, cse220).
-prerequisite(cse310, cse214).
-prerequisite(cse310, cse220).
-prerequisite(cse310, ise218).
-prerequisite(cse311, cse214).
-prerequisite(cse311, cse230).
-prerequisite(cse311, cse260).
-prerequisite(cse311, ise208).
-prerequisite(cse316, cse216).
-prerequisite(cse316, cse260).
-prerequisite(cse320, cse220).
-prerequisite(cse323, cse214).
-prerequisite(cse323, cse230).
-prerequisite(cse323, cse260).
-prerequisite(cse323, ise208).
-prerequisite(cse325, cse110).
-prerequisite(cse325, cse101).
-prerequisite(cse325, cse114).
-prerequisite(cse327, cse214).
-prerequisite(cse327, cse230).
-prerequisite(cse327, cse260).
-prerequisite(cse327, ams210).
-prerequisite(cse327, mat211).
-prerequisite(cse328, cse216).
-prerequisite(cse328, cse260).
-prerequisite(cse328, cse220).
-prerequisite(cse331, cse220).
-prerequisite(cse332, cse214).
-prerequisite(cse332, cse260).
-prerequisite(cse332, mat211).
-prerequisite(cse332, ams210).
-prerequisite(cse332, ams110).
-prerequisite(cse332, ams310).
-prerequisite(cse333, cse214).
-prerequisite(cse333, cse260).
-prerequisite(cse336, cse216).
-prerequisite(cse336, cse260).
-prerequisite(cse337, cse214).
-prerequisite(cse337, cse260).
-prerequisite(cse350, cse150).
-prerequisite(cse350, cse215).
-prerequisite(cse350, ams210).
-prerequisite(cse350, mat211).
-prerequisite(cse351, cse214).
-prerequisite(cse351, cse260).
-prerequisite(cse351, ams310).
-prerequisite(cse352, cse216).
-prerequisite(cse352, cse260).
-prerequisite(cse353, cse216).
-prerequisite(cse353, cse260).
-prerequisite(cse353, ams310).
-prerequisite(cse353, ams311).
-prerequisite(cse353, ams412).
-prerequisite(cse354, cse216).
-prerequisite(cse354, cse260).
-prerequisite(cse355, ams301).
-prerequisite(cse356, cse316).
-prerequisite(cse356, cse320).
-prerequisite(cse357, cse216).
-prerequisite(cse357, cse260).
-prerequisite(cse357, ams310).
-prerequisite(cse360, cse220).
-prerequisite(cse361, cse220).
-prerequisite(cse362, cse220).
-prerequisite(cse363, cse220).
-prerequisite(cse364, ise334).
-prerequisite(cse366, cse328).
-prerequisite(cse366, ise332).
-prerequisite(cse370, cse310).
-prerequisite(cse371, cse150).
-prerequisite(cse371, cse215).
-prerequisite(cse371, mat200).
-prerequisite(cse371, mat250).
-prerequisite(cse373, cse150).
-prerequisite(cse373, cse215).
-prerequisite(cse373, mat200).
-prerequisite(cse373, mat250).
-prerequisite(cse373, mat211).
-prerequisite(cse373, ams210).
-prerequisite(cse373, cse214).
-prerequisite(cse373, cse260).
-prerequisite(cse376, cse216).
-prerequisite(cse376, cse320).
-prerequisite(cse377, ams161).
-prerequisite(cse377, mat127).
-prerequisite(cse377, ams210).
-prerequisite(cse377, mat211).
-prerequisite(cse378, ams161).
-prerequisite(cse378, mat127).
-prerequisite(cse378, ams210).
-prerequisite(cse378, mat211).
-prerequisite(cse378, mec262).
-prerequisite(cse380, cse216).
-prerequisite(cse380, cse220).
-prerequisite(cse380, cse260).
-prerequisite(cse381, cse216).
-prerequisite(cse381, cse220).
-prerequisite(cse381, cse260).
-prerequisite(cse385, cse150).
-prerequisite(cse385, cse215).
-prerequisite(cse385, mat200).
-prerequisite(cse385, mat250).
-prerequisite(cse385, ams210).
-prerequisite(cse385, mat211).
-prerequisite(cse385, cse214).
-prerequisite(cse385, cse260).
-prerequisite(cse390, cse214).
-prerequisite(cse390, cse260).
-prerequisite(cse391, cse214).
-prerequisite(cse391, cse260).
-prerequisite(cse392, cse214).
-prerequisite(cse392, cse260).
-prerequisite(cse393, cse214).
-prerequisite(cse393, cse260).
-prerequisite(cse394, cse214).
-prerequisite(cse394, cse260).
-prerequisite(cse416, cse316).
-prerequisite(cse496, cse495).
-antirequisite(cse101, cse114).
-antirequisite(cse101, cse160).
+
+% Course Rules 
+
+% Antirequisites for CSE101
+:- course(cse101, 3, "Undergraduate", 1, 1, 1, 1), 
+   course(cse114, _, "Undergraduate", _, _, _, _). 
+
+:- course(cse101, 3, "Undergraduate", 1, 1, 1, 1), 
+   course(cse160, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for CSE102
+:- course(cse102, 3, "Undergraduate", 0, 0, 0, 0), 
+   not course(cse101, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for CSE113
+:- course(cse113, 4, "Undergraduate", 0, 1, 0, 1), 
+   not course(ams151, _, "Undergraduate", _, _, _, _), 
+   not course(mat125, _, "Undergraduate", _, _, _, _), 
+   not course(mat131, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for CSE114
+:- course(cse114, 4, "Undergraduate", 1, 0, 1, 0), 
+   not course(cse101, _, "Undergraduate", _, _, _, _), 
+   not course(ise108, _, "Undergraduate", _, _, _, _). 
+
+% Corequisites for CSE160
+:- course(cse160, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(cse161, _, "Undergraduate", 1, 1, 1, 1). 
+
+% Corequisites for CSE161
+:- course(cse161, 1, "Undergraduate", 1, 1, 1, 1), 
+   not course(cse160, _, "Undergraduate", 1, 1, 1, 1). 
+
+% Prerequisites for CSE213
+:- course(cse213, 4, "Undergraduate", 1, 1, 1, 1), 
+   not course(cse113, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for CSE214
+:- course(cse214, 4, "Undergraduate", 0, 0, 0, 0), 
+   not course(cse114, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for CSE215
+:- course(cse215, 4, "Undergraduate", 1, 1, 1, 1), 
+   not course(ams151, _, "Undergraduate", _, _, _, _), 
+   not course(mat125, _, "Undergraduate", _, _, _, _), 
+   not course(mat131, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for CSE216
+:- course(cse216, 4, "Undergraduate", 1, 1, 0, 1), 
+   not course(cse214, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for CSE220
+:- course(cse220, 4, "Undergraduate", 0, 1, 0, 0), 
+   not course(cse214, _, "Undergraduate", _, _, _, _). 
+
+% Corequisites for CSE220
+:- course(cse220, 4, "Undergraduate", 0, 1, 0, 0), 
+   not course(cse260, _, "Undergraduate", 0, 1, 0, 0). 
+
+% Prerequisites for CSE230
+:- course(cse230, 3, "Undergraduate", 1, 1, 0, 1), 
+   not course(cse130, _, "Undergraduate", _, _, _, _), 
+   not course(cse220, _, "Undergraduate", _, _, _, _), 
+   not course(ese124, _, "Undergraduate", _, _, _, _), 
+   not course(esg111, _, "Undergraduate", _, _, _, _), 
+   not course(bme120, _, "Undergraduate", _, _, _, _), 
+   not course(mec102, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for CSE260
+:- course(cse260, 3, "Undergraduate", 1, 0, 1, 0), 
+   not course(cse160, _, "Undergraduate", _, _, _, _). 
+
+% Corequisites for CSE260
+:- course(cse260, 3, "Undergraduate", 1, 0, 1, 0), 
+   not course(cse261, _, "Undergraduate", 1, 0, 1, 0). 
+
+% Corequisites for CSE261
+:- course(cse261, 1, "Undergraduate", 1, 1, 1, 1), 
+   not course(cse260, _, "Undergraduate", 1, 1, 1, 1). 
+
+% Prerequisites for CSE300
+:- course(cse300, 3, "Undergraduate", 1, 0, 1, 0), 
+   not course(wrt102, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for CSE303
+:- course(cse303, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(cse160, _, "Undergraduate", _, _, _, _), 
+   not course(cse214, _, "Undergraduate", _, _, _, _). 
+
+:- course(cse303, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(cse150, _, "Undergraduate", _, _, _, _), 
+   not course(cse215, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for CSE304
+:- course(cse304, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(cse216, _, "Undergraduate", _, _, _, _), 
+   not course(cse260, _, "Undergraduate", _, _, _, _). 
+
+:- course(cse304, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(cse220, _, "Undergraduate", _, _, _, _), 
+   not course(cse303, _, "Undergraduate", _, _, _, _), 
+   not course(cse350, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for CSE305
+:- course(cse305, 3, "Undergraduate", 1, 0, 0, 0), 
+   not course(cse216, _, "Undergraduate", _, _, _, _), 
+   not course(cse260, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for CSE306
+:- course(cse306, 3, "Undergraduate", 0, 1, 0, 1), 
+   not course(cse216, _, "Undergraduate", _, _, _, _), 
+   not course(cse260, _, "Undergraduate", _, _, _, _). 
+
+:- course(cse306, 3, "Undergraduate", 0, 1, 0, 1), 
+   not course(cse320, _, "Undergraduate", _, _, _, _), 
+   not course(ese380, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for CSE307
+:- course(cse307, 3, "Undergraduate", 1, 0, 1, 0), 
+   not course(cse216, _, "Undergraduate", _, _, _, _), 
+   not course(cse260, _, "Undergraduate", _, _, _, _). 
+
+:- course(cse307, 3, "Undergraduate", 1, 0, 1, 0), 
+   not course(cse220, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for CSE310
+:- course(cse310, 3, "Undergraduate", 0, 1, 0, 1), 
+   not course(cse214, _, "Undergraduate", _, _, _, _). 
+
+:- course(cse310, 3, "Undergraduate", 0, 1, 0, 1), 
+   not course(cse220, _, "Undergraduate", _, _, _, _), 
+   not course(ise218, _, "Undergraduate", _, _, _, _). 
+
+% Corequisites for CSE310
+:- course(cse310, 3, "Undergraduate", 0, 1, 0, 1), 
+   not course(ams310, _, "Undergraduate", 0, 1, 0, 1). 
+
+% Prerequisites for CSE311
+:- course(cse311, 3, "Undergraduate", 0, 1, 0, 1), 
+   not course(cse214, _, "Undergraduate", _, _, _, _), 
+   not course(cse230, _, "Undergraduate", _, _, _, _), 
+   not course(cse260, _, "Undergraduate", _, _, _, _), 
+   not course(ise208, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for CSE316
+:- course(cse316, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(cse216, _, "Undergraduate", _, _, _, _), 
+   not course(cse260, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for CSE320
+:- course(cse320, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(cse220, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for CSE323
+:- course(cse323, 3, "Undergraduate", 0, 0, 0, 0), 
+   not course(cse214, _, "Undergraduate", _, _, _, _), 
+   not course(cse230, _, "Undergraduate", _, _, _, _), 
+   not course(cse260, _, "Undergraduate", _, _, _, _), 
+   not course(ise208, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for CSE325
+:- course(cse325, 3, "Undergraduate", 0, 1, 0, 1), 
+   not course(cse110, _, "Undergraduate", _, _, _, _), 
+   not course(cse101, _, "Undergraduate", _, _, _, _), 
+   not course(cse114, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for CSE327
+:- course(cse327, 3, "Undergraduate", 1, 0, 1, 0), 
+   not course(cse214, _, "Undergraduate", _, _, _, _), 
+   not course(cse230, _, "Undergraduate", _, _, _, _), 
+   not course(cse260, _, "Undergraduate", _, _, _, _). 
+
+:- course(cse327, 3, "Undergraduate", 1, 0, 1, 0), 
+   not course(ams210, _, "Undergraduate", _, _, _, _), 
+   not course(mat211, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for CSE328
+:- course(cse328, 3, "Undergraduate", 0, 0, 1, 0), 
+   not course(cse216, _, "Undergraduate", _, _, _, _), 
+   not course(cse260, _, "Undergraduate", _, _, _, _). 
+
+:- course(cse328, 3, "Undergraduate", 0, 0, 1, 0), 
+   not course(cse220, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for CSE331
+:- course(cse331, 3, "Undergraduate", 0, 1, 0, 1), 
+   not course(cse220, _, "Undergraduate", _, _, _, _). 
+
+% Corequisites for CSE331
+:- course(cse331, 3, "Undergraduate", 0, 1, 0, 1), 
+   not course(cse320, _, "Undergraduate", 0, 1, 0, 1). 
+
+% Prerequisites for CSE332
+:- course(cse332, 3, "Undergraduate", 1, 0, 1, 1), 
+   not course(cse214, _, "Undergraduate", _, _, _, _), 
+   not course(cse260, _, "Undergraduate", _, _, _, _). 
+
+:- course(cse332, 3, "Undergraduate", 1, 0, 1, 1), 
+   not course(mat211, _, "Undergraduate", _, _, _, _), 
+   not course(ams210, _, "Undergraduate", _, _, _, _). 
+
+:- course(cse332, 3, "Undergraduate", 1, 0, 1, 1), 
+   not course(ams110, _, "Undergraduate", _, _, _, _), 
+   not course(ams310, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for CSE333
+:- course(cse333, 3, "Undergraduate", 0, 1, 0, 1), 
+   not course(cse214, _, "Undergraduate", _, _, _, _), 
+   not course(cse260, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for CSE336
+:- course(cse336, 3, "Undergraduate", 0, 1, 0, 1), 
+   not course(cse216, _, "Undergraduate", _, _, _, _), 
+   not course(cse260, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for CSE337
+:- course(cse337, 3, "Undergraduate", 0, 1, 0, 1), 
+   not course(cse214, _, "Undergraduate", _, _, _, _), 
+   not course(cse260, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for CSE350
+:- course(cse350, 4, "Undergraduate", 1, 0, 1, 0), 
+   not course(cse150, _, "Undergraduate", _, _, _, _), 
+   not course(cse215, _, "Undergraduate", _, _, _, _). 
+
+:- course(cse350, 4, "Undergraduate", 1, 0, 1, 0), 
+   not course(ams210, _, "Undergraduate", _, _, _, _), 
+   not course(mat211, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for CSE351
+:- course(cse351, 3, "Undergraduate", 0, 0, 0, 0), 
+   not course(cse214, _, "Undergraduate", _, _, _, _), 
+   not course(cse260, _, "Undergraduate", _, _, _, _). 
+
+:- course(cse351, 3, "Undergraduate", 0, 0, 0, 0), 
+   not course(ams310, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for CSE352
+:- course(cse352, 3, "Undergraduate", 0, 0, 0, 0), 
+   not course(cse216, _, "Undergraduate", _, _, _, _), 
+   not course(cse260, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for CSE353
+:- course(cse353, 3, "Undergraduate", 0, 0, 0, 0), 
+   not course(cse216, _, "Undergraduate", _, _, _, _), 
+   not course(cse260, _, "Undergraduate", _, _, _, _). 
+
+:- course(cse353, 3, "Undergraduate", 0, 0, 0, 0), 
+   not course(ams310, _, "Undergraduate", _, _, _, _), 
+   not course(ams311, _, "Undergraduate", _, _, _, _), 
+   not course(ams412, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for CSE354
+:- course(cse354, 3, "Undergraduate", 0, 0, 1, 0), 
+   not course(cse216, _, "Undergraduate", _, _, _, _), 
+   not course(cse260, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for CSE355
+:- course(cse355, 3, "Undergraduate", 0, 0, 1, 0), 
+   not course(ams301, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for CSE356
+:- course(cse356, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(cse316, _, "Undergraduate", _, _, _, _). 
+
+:- course(cse356, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(cse320, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for CSE357
+:- course(cse357, 3, "Undergraduate", 0, 0, 0, 0), 
+   not course(cse216, _, "Undergraduate", _, _, _, _), 
+   not course(cse260, _, "Undergraduate", _, _, _, _). 
+
+:- course(cse357, 3, "Undergraduate", 0, 0, 0, 0), 
+   not course(ams310, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for CSE360
+:- course(cse360, 3, "Undergraduate", 1, 0, 1, 0), 
+   not course(cse220, _, "Undergraduate", _, _, _, _). 
+
+% Corequisites for CSE360
+:- course(cse360, 3, "Undergraduate", 1, 0, 1, 0), 
+   not course(cse320, _, "Undergraduate", 1, 0, 1, 0). 
+
+% Prerequisites for CSE361
+:- course(cse361, 3, "Undergraduate", 0, 1, 0, 0), 
+   not course(cse220, _, "Undergraduate", _, _, _, _). 
+
+% Corequisites for CSE361
+:- course(cse361, 3, "Undergraduate", 0, 1, 0, 0), 
+   not course(cse320, _, "Undergraduate", 0, 1, 0, 0). 
+
+% Prerequisites for CSE362
+:- course(cse362, 3, "Undergraduate", 1, 0, 1, 0), 
+   not course(cse220, _, "Undergraduate", _, _, _, _). 
+
+% Corequisites for CSE362
+:- course(cse362, 3, "Undergraduate", 1, 0, 1, 0), 
+   not course(cse320, _, "Undergraduate", 1, 0, 1, 0). 
+
+% Prerequisites for CSE363
+:- course(cse363, 3, "Undergraduate", 0, 1, 0, 1), 
+   not course(cse220, _, "Undergraduate", _, _, _, _). 
+
+% Corequisites for CSE363
+:- course(cse363, 3, "Undergraduate", 0, 1, 0, 1), 
+   not course(cse320, _, "Undergraduate", 0, 1, 0, 1). 
+
+% Prerequisites for CSE364
+:- course(cse364, 3, "Undergraduate", 1, 0, 1, 0), 
+   not course(ise334, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for CSE366
+:- course(cse366, 3, "Undergraduate", 0, 0, 1, 0), 
+   not course(cse328, _, "Undergraduate", _, _, _, _), 
+   not course(ise332, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for CSE370
+:- course(cse370, 3, "Undergraduate", 1, 1, 1, 1), 
+   not course(cse310, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for CSE371
+:- course(cse371, 3, "Undergraduate", 0, 0, 1, 1), 
+   not course(cse150, _, "Undergraduate", _, _, _, _), 
+   not course(cse215, _, "Undergraduate", _, _, _, _), 
+   not course(mat200, _, "Undergraduate", _, _, _, _), 
+   not course(mat250, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for CSE373
+:- course(cse373, 3, "Undergraduate", 0, 1, 1, 1), 
+   not course(cse150, _, "Undergraduate", _, _, _, _), 
+   not course(cse215, _, "Undergraduate", _, _, _, _), 
+   not course(mat200, _, "Undergraduate", _, _, _, _), 
+   not course(mat250, _, "Undergraduate", _, _, _, _). 
+
+:- course(cse373, 3, "Undergraduate", 0, 1, 1, 1), 
+   not course(mat211, _, "Undergraduate", _, _, _, _), 
+   not course(ams210, _, "Undergraduate", _, _, _, _). 
+
+:- course(cse373, 3, "Undergraduate", 0, 1, 1, 1), 
+   not course(cse214, _, "Undergraduate", _, _, _, _), 
+   not course(cse260, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for CSE376
+:- course(cse376, 3, "Undergraduate", 0, 0, 1, 1), 
+   not course(cse216, _, "Undergraduate", _, _, _, _). 
+
+:- course(cse376, 3, "Undergraduate", 0, 0, 1, 1), 
+   not course(cse320, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for CSE377
+:- course(cse377, 3, "Undergraduate", 0, 0, 1, 1), 
+   not course(ams161, _, "Undergraduate", _, _, _, _), 
+   not course(mat127, _, "Undergraduate", _, _, _, _). 
+
+:- course(cse377, 3, "Undergraduate", 0, 0, 1, 1), 
+   not course(ams210, _, "Undergraduate", _, _, _, _), 
+   not course(mat211, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for CSE378
+:- course(cse378, 3, "Undergraduate", 0, 0, 1, 1), 
+   not course(ams161, _, "Undergraduate", _, _, _, _), 
+   not course(mat127, _, "Undergraduate", _, _, _, _). 
+
+:- course(cse378, 3, "Undergraduate", 0, 0, 1, 1), 
+   not course(ams210, _, "Undergraduate", _, _, _, _), 
+   not course(mat211, _, "Undergraduate", _, _, _, _), 
+   not course(mec262, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for CSE380
+:- course(cse380, 3, "Undergraduate", 0, 0, 0, 0), 
+   not course(cse216, _, "Undergraduate", _, _, _, _), 
+   not course(cse220, _, "Undergraduate", _, _, _, _), 
+   not course(cse260, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for CSE381
+:- course(cse381, 3, "Undergraduate", 0, 0, 1, 1), 
+   not course(cse216, _, "Undergraduate", _, _, _, _), 
+   not course(cse220, _, "Undergraduate", _, _, _, _), 
+   not course(cse260, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for CSE385
+:- course(cse385, 4, "Undergraduate", 0, 0, 0, 0), 
+   not course(cse150, _, "Undergraduate", _, _, _, _), 
+   not course(cse215, _, "Undergraduate", _, _, _, _), 
+   not course(mat200, _, "Undergraduate", _, _, _, _), 
+   not course(mat250, _, "Undergraduate", _, _, _, _). 
+
+:- course(cse385, 4, "Undergraduate", 0, 0, 0, 0), 
+   not course(ams210, _, "Undergraduate", _, _, _, _), 
+   not course(mat211, _, "Undergraduate", _, _, _, _). 
+
+:- course(cse385, 4, "Undergraduate", 0, 0, 0, 0), 
+   not course(cse214, _, "Undergraduate", _, _, _, _), 
+   not course(cse260, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for CSE390
+:- course(cse390, 3, "Undergraduate", 0, 0, 1, 0), 
+   not course(cse214, _, "Undergraduate", _, _, _, _), 
+   not course(cse260, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for CSE391
+:- course(cse391, 3, "Undergraduate", 1, 0, 1, 0), 
+   not course(cse214, _, "Undergraduate", _, _, _, _), 
+   not course(cse260, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for CSE392
+:- course(cse392, 3, "Undergraduate", 0, 0, 0, 0), 
+   not course(cse214, _, "Undergraduate", _, _, _, _), 
+   not course(cse260, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for CSE393
+:- course(cse393, 3, "Undergraduate", 0, 0, 1, 0), 
+   not course(cse214, _, "Undergraduate", _, _, _, _), 
+   not course(cse260, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for CSE394
+:- course(cse394, 3, "Undergraduate", 1, 1, 0, 1), 
+   not course(cse214, _, "Undergraduate", _, _, _, _), 
+   not course(cse260, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for CSE416
+:- course(cse416, 3, "Undergraduate", 0, 1, 0, 1), 
+   not course(cse316, _, "Undergraduate", _, _, _, _). 
+
+% Prerequisites for CSE496
+:- course(cse496, 3, "Undergraduate", 0, 1, 0, 1), 
+   not course(cse495, _, "Undergraduate", _, _, _, _). 
+
