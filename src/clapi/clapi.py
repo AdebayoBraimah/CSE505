@@ -9,6 +9,8 @@
     query_clingo
     process_honors_courses
     process_repeatable_courses
+    _extract_credits
+    _check_repeatable_input
 """
 
 import re
@@ -21,10 +23,6 @@ from typing import Any, Dict, Iterable, List, Union, Tuple
 
 from src.kg.knowledge_graph import KnowledgeBase, KnowledgeGraph
 from src.utils.util import DependencyError, check_dependencies
-
-# TODO:
-#   - Repeatable classes - Use course description to create separate file of atoms of repeatable classes,
-#       including how many times can be repeated, and/or for up to how many credits.
 
 
 def process_course_data_clingo(
@@ -156,88 +154,6 @@ def process_course_data_clingo(
         kg.lp = output_file
 
     return output_file
-
-
-# def process_course_data_clingo(
-#     file_path: Union[KnowledgeBase, KnowledgeGraph, str], output_file: str = None
-# ) -> str:
-#     """Converts a JSON file data to a Clingo.
-#
-#     NOTE:
-#         - If a ``KnowledgeBase`` or ``KnowledgeGraph`` object is passed, then the Clingo filepath is updated in the object.
-#
-#     Args:
-#         file_path: Input JSON file (or ``KnowledgeBase`` or ``KnowledgeGraph`` object) to be converted to ERGO file.
-#         output_file: Output filename. If not specified, then a new file of the same name is created, with an '.lp' file extension.
-#
-#     Returns:
-#         Output clingo knowledge base/graph file path.
-#     """
-#     # Load JSON data from the file
-#     if (isinstance(file_path, KnowledgeBase)) or (
-#         isinstance(file_path, KnowledgeGraph)
-#     ):
-#         kg: Union[KnowledgeBase, KnowledgeGraph] = file_path
-#         file_path: str = kg.json
-#     else:
-#         kg: Union[KnowledgeBase, KnowledgeGraph] = None
-#
-#     if output_file is None:
-#         output_file = file_path.replace(".json", ".lp")
-#
-#     with open(file_path, "r") as file:
-#         data = json.load(file)
-#
-#     courses_list = []
-#     prerequisites_list = []
-#     antirequisites_list = []
-#
-#     # Process each course in the JSON data
-#     for course_code, details in data.items():
-#         # Extract course information
-#         course_name = course_code  # Simplified as the key
-#
-#         credits = (
-#             int(details.get("Credits"))
-#             if isinstance(details.get("Credits"), (float, int))
-#             else _translate_range(details.get("Credits"))
-#         )
-#         prerequisites = details.get("Prerequisites", [])
-#         antirequisites = details.get("Antirequisites", [])
-#
-#         # NOTE: Career must be quoted to avoid issues with Clingo
-#         #   in the future, the career should be defined as its own atom
-#         courses_list.append(
-#             f"course({course_name.lower()}, {credits}, \"{details.get('Career')}\", {int(details.get('spring1'))}, {int(details.get('fall1'))}, {int(details.get('spring2'))}, {int(details.get('fall2'))})."
-#         )
-#         # TODO: process corequisites
-#         # Process prerequisites
-#         if prerequisites != "NONE" and isinstance(prerequisites, list):
-#             for prereq_list in prerequisites:
-#                 for prereq in prereq_list:
-#                     # Format and clean prerequisite course code
-#                     prereq_code = prereq.replace(" ", "").upper()
-#                     prerequisites_list.append(
-#                         f"prerequisite({course_name.lower()}, {prereq_code.lower()})."
-#                     )
-#
-#         # Process antirequisites
-#         if antirequisites != "NONE" and isinstance(antirequisites, list):
-#             for antireq_list in antirequisites:
-#                 for antireq in antireq_list:
-#                     # Format and clean prerequisite course code
-#                     antireq_code = antireq.replace(" ", "").upper()
-#                     antirequisites_list.append(
-#                         f"antirequisite({course_name.lower()}, {antireq_code.lower()})."
-#                     )
-#     output = courses_list + prerequisites_list + antirequisites_list
-#
-#     _write_list_to_file(output, output_file)
-#
-#     if kg:
-#         kg.lp = output_file
-#
-#     return output_file
 
 
 def translate_range(input_string: str) -> str:
