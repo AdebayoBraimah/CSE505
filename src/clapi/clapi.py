@@ -4,8 +4,10 @@
     :nosignatures:
 
     process_course_data_clingo
+    translate_range
     append_rules
     query_clingo
+    process_honors_courses
 """
 
 import json
@@ -13,7 +15,7 @@ import sys
 import shlex
 import subprocess
 
-from typing import List, Union
+from typing import Any, Dict, List, Union
 
 from src.kg.knowledge_graph import KnowledgeBase, KnowledgeGraph
 from src.utils.util import DependencyError, check_dependencies
@@ -22,91 +24,106 @@ from src.utils.util import DependencyError, check_dependencies
 #   - Repeatable classes - Use course description to create separate file of atoms of repeatable classes,
 #       including how many times can be repeated, and/or for up to how many credits.
 
-# TODO:
-#   - Write function that formats:
-#     - course info predicate: course_id, course_name, credits, career, spring1, fall1, spring2, fall2
-#     - prerequisite rules
-#     - antirequisite rules
-#     - corequisite rules
-#     - repeatable course predicate [Not automated] -- update this as you go
-#
-#  - See test.anti_and_coreq.lp and test.data.2.lp for examples.
-
 
 def process_course_data_clingo(
-    file_path: Union[KnowledgeBase, KnowledgeGraph, str], output_file: str = None
+    json_file: Union[KnowledgeBase, KnowledgeGraph, str], output_file: str = None
 ) -> str:
     """Converts a JSON file data to a Clingo.
+    This function processes course data from a JSON file and writes it to a Clingo file in the form:
+    ``course(course_id, credits, career, spring1, fall1, spring2, fall2).``
+
+    The corresponding rules for antirequisites, prerequisites, and corequisites are also generated if present, and are of the form:
+        - Antirequisites:
+            ``:- course(course_id, _, career, _, _, _, _), course(antireq_id, _, career, _, _, _, _).``
+        - Prerequisites:
+            ``:- course(course_id, _, career, _, _, _, _), not course(prereq_id, _, career, _, _, _, _).``
+        - Corequisites:
+            ``:- course(course_id, _, career, _, _, _, _), not course(coreq_id, _, career, _, _, _, _).``
 
     NOTE:
-        - If a ``KnowledgeBase`` or ``KnowledgeGraph`` object is passed, then the Clingo filepath is updated in the object.
+        - If a ``KnowledgeBase`` or ``KnowledgeGraph`` object is passed, then the Clingo output filepath is updated in the object.
+
+    Usage example:
+        >>> clingo_file = process_course_data_clingo(json_file="course_data.json")
 
     Args:
-        file_path: Input JSON file (or ``KnowledgeBase`` or ``KnowledgeGraph`` object) to be converted to ERGO file.
-        output_file: Output filename. If not specified, then a new file of the same name is created, with an '.lp' file extension.
+        json_file: Input JSON file (or ``KnowledgeBase`` or ``KnowledgeGraph`` object) to be converted to Clingo.
+        output_file: Output filename. If not specified, then a new file of the same name is created, with an '.lp' file extension. Defaults to None.
 
     Returns:
-        Output clingo knowledge base/graph file path.
+        Output Clingo knowledge base file path.
     """
     # Load JSON data from the file
-    if (isinstance(file_path, KnowledgeBase)) or (
-        isinstance(file_path, KnowledgeGraph)
+    if (isinstance(json_file, KnowledgeBase)) or (
+        isinstance(json_file, KnowledgeGraph)
     ):
-        kg: Union[KnowledgeBase, KnowledgeGraph] = file_path
-        file_path: str = kg.json
+        kg: Union[KnowledgeBase, KnowledgeGraph] = json_file
+        json_file: str = kg.json
     else:
         kg: Union[KnowledgeBase, KnowledgeGraph] = None
 
     if output_file is None:
-        output_file = file_path.replace(".json", ".lp")
+        output_file: str = json_file.replace(".json", ".lp")
 
-    with open(file_path, "r") as file:
-        data = json.load(file)
+    with open(json_file, "r") as file:
+        data: Dict[Dict[str, Any]] = json.load(file)
 
-    courses_list = []
-    prerequisites_list = []
-    antirequisites_list = []
+    predicates: List[str] = []
+    rules: List[str] = []
 
-    # Process each course in the JSON data
-    for course_code, details in data.items():
-        # Extract course information
-        course_name = course_code  # Simplified as the key
+    for course_id, course_info in data.items():
+        # Generate course predicates
+        offered_spring1 = int(course_info["spring1"])
+        offered_fall1 = int(course_info["fall1"])
+        offered_spring2 = int(course_info["spring2"])
+        offered_fall2 = int(course_info["fall2"])
 
-        credits = (
-            int(details.get("Credits"))
-            if isinstance(details.get("Credits"), (float, int))
-            else _translate_range(details.get("Credits"))
+        credits: Union[float, int] = (
+            int(course_info.get("Credits"))
+            if isinstance(course_info.get("Credits"), (float, int))
+            else translate_range(course_info.get("Credits"))
         )
-        prerequisites = details.get("Prerequisites", [])
-        antirequisites = details.get("Antirequisites", [])
 
-        # NOTE: Career must be quoted to avoid issues with Clingo
-        #   in the future, the career should be defined as its own atom
-        courses_list.append(
-            f"course({course_name.lower()}, {credits}, \"{details.get('Career')}\", {int(details.get('spring1'))}, {int(details.get('fall1'))}, {int(details.get('spring2'))}, {int(details.get('fall2'))})."
+        career: str = course_info.get("Career")
+
+        predicates.append(
+            f'course({course_id.lower()}, {credits}, "{career}", {offered_spring1}, {offered_fall1}, {offered_spring2}, {offered_fall2}).'
         )
-        # TODO: process corequisites
-        # Process prerequisites
-        if prerequisites != "NONE" and isinstance(prerequisites, list):
-            for prereq_list in prerequisites:
-                for prereq in prereq_list:
-                    # Format and clean prerequisite course code
-                    prereq_code = prereq.replace(" ", "").upper()
-                    prerequisites_list.append(
-                        f"prerequisite({course_name.lower()}, {prereq_code.lower()})."
+
+        # Generate antirequisite rules
+        if course_info.get("Antirequisites") != "NONE":
+            rules.append(f"% Antirequisites for {course_id.upper()}")
+            for antireq_group in course_info.get("Antirequisites"):
+                for antireq in antireq_group:
+                    rules.append(
+                        f':- course({course_id.lower()}, {credits}, "{career}", {offered_spring1}, {offered_fall1}, {offered_spring2}, {offered_fall2}), \n   course({antireq.lower()}, _, "{career}", _, _, _, _). \n'
                     )
 
-        # Process antirequisites
-        if antirequisites != "NONE" and isinstance(antirequisites, list):
-            for antireq_list in antirequisites:
-                for antireq in antireq_list:
-                    # Format and clean prerequisite course code
-                    antireq_code = antireq.replace(" ", "").upper()
-                    antirequisites_list.append(
-                        f"antirequisite({course_name.lower()}, {antireq_code.lower()})."
-                    )
-    output = courses_list + prerequisites_list + antirequisites_list
+        # Generate prerequisite rules
+        if course_info.get("Prerequisites") != "NONE":
+            rules.append(f"% Prerequisites for {course_id.upper()}")
+            for prereq_group in course_info.get("Prerequisites"):
+                group_conditions = ", ".join(
+                    [
+                        f'\n   not course({prereq.lower()}, _, "{career}", _, _, _, _)'
+                        for prereq in prereq_group
+                    ]
+                )
+                rules.append(
+                    f':- course({course_id.lower()}, {credits}, "{career}", {offered_spring1}, {offered_fall1}, {offered_spring2}, {offered_fall2}), {group_conditions}. \n'
+                )
 
+        # Generate corequisite rules
+        if course_info.get("Corequisites") != "NONE":
+            rules.append(f"% Corequisites for {course_id.upper()}")
+            for coreq_group in course_info.get("Corequisites"):
+                for coreq in coreq_group:
+                    rules.append(
+                        f':- course({course_id.lower()}, {credits}, "{career}", {offered_spring1}, {offered_fall1}, {offered_spring2}, {offered_fall2}), \n   not course({coreq.lower()}, _, "{career}", {offered_spring1}, {offered_fall1}, {offered_spring2}, {offered_fall2}). \n'
+                    )
+
+    # Write predicates and rules to file
+    output = ["% Course predicates"] + predicates + ["\n% Course Rules \n"] + rules
     _write_list_to_file(output, output_file)
 
     if kg:
@@ -115,7 +132,101 @@ def process_course_data_clingo(
     return output_file
 
 
-def _translate_range(input_string: str) -> str:
+# def process_course_data_clingo(
+#     file_path: Union[KnowledgeBase, KnowledgeGraph, str], output_file: str = None
+# ) -> str:
+#     """Converts a JSON file data to a Clingo.
+#
+#     NOTE:
+#         - If a ``KnowledgeBase`` or ``KnowledgeGraph`` object is passed, then the Clingo filepath is updated in the object.
+#
+#     Args:
+#         file_path: Input JSON file (or ``KnowledgeBase`` or ``KnowledgeGraph`` object) to be converted to ERGO file.
+#         output_file: Output filename. If not specified, then a new file of the same name is created, with an '.lp' file extension.
+#
+#     Returns:
+#         Output clingo knowledge base/graph file path.
+#     """
+#     # Load JSON data from the file
+#     if (isinstance(file_path, KnowledgeBase)) or (
+#         isinstance(file_path, KnowledgeGraph)
+#     ):
+#         kg: Union[KnowledgeBase, KnowledgeGraph] = file_path
+#         file_path: str = kg.json
+#     else:
+#         kg: Union[KnowledgeBase, KnowledgeGraph] = None
+#
+#     if output_file is None:
+#         output_file = file_path.replace(".json", ".lp")
+#
+#     with open(file_path, "r") as file:
+#         data = json.load(file)
+#
+#     courses_list = []
+#     prerequisites_list = []
+#     antirequisites_list = []
+#
+#     # Process each course in the JSON data
+#     for course_code, details in data.items():
+#         # Extract course information
+#         course_name = course_code  # Simplified as the key
+#
+#         credits = (
+#             int(details.get("Credits"))
+#             if isinstance(details.get("Credits"), (float, int))
+#             else _translate_range(details.get("Credits"))
+#         )
+#         prerequisites = details.get("Prerequisites", [])
+#         antirequisites = details.get("Antirequisites", [])
+#
+#         # NOTE: Career must be quoted to avoid issues with Clingo
+#         #   in the future, the career should be defined as its own atom
+#         courses_list.append(
+#             f"course({course_name.lower()}, {credits}, \"{details.get('Career')}\", {int(details.get('spring1'))}, {int(details.get('fall1'))}, {int(details.get('spring2'))}, {int(details.get('fall2'))})."
+#         )
+#         # TODO: process corequisites
+#         # Process prerequisites
+#         if prerequisites != "NONE" and isinstance(prerequisites, list):
+#             for prereq_list in prerequisites:
+#                 for prereq in prereq_list:
+#                     # Format and clean prerequisite course code
+#                     prereq_code = prereq.replace(" ", "").upper()
+#                     prerequisites_list.append(
+#                         f"prerequisite({course_name.lower()}, {prereq_code.lower()})."
+#                     )
+#
+#         # Process antirequisites
+#         if antirequisites != "NONE" and isinstance(antirequisites, list):
+#             for antireq_list in antirequisites:
+#                 for antireq in antireq_list:
+#                     # Format and clean prerequisite course code
+#                     antireq_code = antireq.replace(" ", "").upper()
+#                     antirequisites_list.append(
+#                         f"antirequisite({course_name.lower()}, {antireq_code.lower()})."
+#                     )
+#     output = courses_list + prerequisites_list + antirequisites_list
+#
+#     _write_list_to_file(output, output_file)
+#
+#     if kg:
+#         kg.lp = output_file
+#
+#     return output_file
+
+
+def translate_range(input_string: str) -> str:
+    """Converts a range of numbers in a string to a Clingo-compatible format.
+
+    Usage example:
+        >>> translate_range("0 - 9")
+        '0..9'
+
+    Args:
+        input_string: Input string containing a range of numbers (e.g. 0 - 9).
+
+    Returns:
+        Clingo-compatible range format (e.g. 0..9).
+    """
     # Split the string using ' - ' to separate the numbers
     parts = input_string.split(" - ")
 
