@@ -33,7 +33,9 @@ def main(major: str) -> None:
 
     if not (os.path.exists(f"{outname}_courses.lp")):
         process_course_data_clingo(
-            file_path=f"{outname}_courses.json", output_file=f"{outname}_courses.lp"
+            json_file=f"{outname}_courses.json",
+            output_file=f"{outname}_courses.lp",
+            repeatable_courses=[("cse593", "_", "_")],
         )
 
     if not (os.path.exists(f"{outname}_courses.ergo")):
