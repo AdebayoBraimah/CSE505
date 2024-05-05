@@ -377,11 +377,10 @@ def process_honors_courses(file_path: str) -> List[str]:
     # Iterate over each course
     for course_id, course_details in data.items():
         # Check if 'honors' is in the description
-        if "honors" in course_details.get("CourseTitle", "").lower():
-            course_list.append(f"honors({course_id}).")
-        elif "honors" in course_details.get("Description", "").lower():
-            course_list.append(f"honors({course_id}).")
-
+        if ("honors" in course_details.get("CourseTitle", "").lower()) or (
+            "honors" in course_details.get("Description", "").lower()
+        ):
+            course_list.append(f"honors({course_id.lower()}).")
     return course_list
 
 
