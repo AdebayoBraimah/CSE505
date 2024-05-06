@@ -54,5 +54,5 @@ for major in majors:
 
     if not (os.path.exists(f"{outname}_courses.lp")):
         process_course_data_clingo(
-            file_path=f"{outname}_courses.json", output_file=f"{outname}_courses.lp"
+            json_file=f"{outname}_courses.json", output_file=f"{outname}_courses.lp"
         )
