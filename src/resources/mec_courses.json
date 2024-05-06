@@ -7,10 +7,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Introduction to the engineering experience in general and mechanical engineering in particular through lectures by faculty and invited speakers from industry, field trips, films and laboratory demonstrations. Lectures cover creative thinking and problem-solving, design team work, computer utilization, engineering ethics and legal issues, use of libraries and other sources of information, career opportunities in mechanical engineering and related fields, emerging technologies and the cross-disciplinary nature of engineering.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "MEC101":{
         "CourseTitle":"Freshman Design Innovation",
@@ -20,10 +18,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"This course presents an overview of the mechanical engineering profession, engineering ethics, basics of computation via correct usage of dimensions, units, and significant digits, and engineering documentation. Furthermore, this course introduces the students to the process of engineering design and provides a project-based design experience wherein the students design, build, and program a microcontroller driven autonomous mechatronic device. In doing so, they are provided an early exposure to the systematic approach to engineering problem solving that brings together fundamental concepts of forces, motions, energy, materials, manufacturing processes, and machines and mechanisms from mechanical engineering and basic electronics, sensing, actuation, and computer programming. This course has an associated fee. Please see www.stonybrook.edu\/coursefees for more information.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "MEC102":{
         "CourseTitle":"Engineering Computing and Problem Solving",
@@ -33,10 +29,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Introduction to programming with MATLAB. Control structures, arrays and matrix operations, functions, object-oriented programming, interfacing MATLAB with other languages. Projects include applications in solid mechanics, fluid mechanics, thermodynamics and heat transfer, control theory, and basic design concepts. Emphasizes the interpretation of previous analysis in terms of generating results, making quantitative comparisons, and assessing changes that optimize or otherwise maximize the usefulness of the result.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "MEC104":{
         "CourseTitle":"Practical Science of Things",
@@ -46,10 +40,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"A practical introduction to the science and engineering of objects and phenomena in everyday life. The basic principles that underlie the operation common to modern devices such as rollercoasters, balloons, vacuum cleaners, airplanes, bicycles, thermostats, air conditioners and automobiles are developed by investigating how they work. The scientific method, engineering design methodology, safety, and environmental impacts are discussed in the context of these practical applications.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "MEC105":{
         "CourseTitle":"Everyday Science and Engineering",
@@ -59,10 +51,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"A practical introduction to the science and engineering of objects and phenomena in everyday life. The basic principles that underlie the operation common to modern devices such as xerographic copiers, tape recorders, computers, microwaves, lasers, CDs, plastics, nuclear weapons, and magnetic resonance imaging (MRI) are developed by investigating how they work. The scientific method, engineering design methodology, safety, and environmental impacts are discussed in the context of these practical applications.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "MEC203":{
         "CourseTitle":"Engineering Graphics and CAD",
@@ -72,10 +62,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Introduces engineering graphics and its role in design process. Includes the principles of engineering drawing and sketching for mechanical design, the use of computer graphics and solid modeling in design representation of 3D objects, assembly and simulation as well as ASME standards on geometric dimensioning and tolerances. Includes hands-on experience in the use of CAD software packages for engineering design. Engineering ethics.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "MEC220":{
         "CourseTitle":"Practical Electronics for Mechanical Engineers",
@@ -85,10 +73,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"An overview of basic electronics at the practical level. The course provides mechanical engineering students with the fundamentals to perform basic electronics work needed in laboratories, subsequent courses and their professional careers. Topics include both passive and active components, AC and DC circuits, and a focus on operational amplifier and transistor driven circuits needed for instrumentation and control. Hands-on work in each area complements theoretical analysis, and ensures that students can implement these circuits and devices practically; students will analyze and build circuits both from circuit diagrams, as well as from product datasheets.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "MEC225":{
         "CourseTitle":"Fundamentals of Machining Practices",
@@ -98,10 +84,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Hands-on experience in the fundamentals of machining including metrology tools and devices, saw, sheet metal working, drilling, reaming, taping, turning, boring, milling, and welding. Not for credit in addition to MEC 226. This course has an associated fee. Please see www.stonybrook.edu\/coursefees for more information.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "MEC226":{
         "CourseTitle":"Modern Machining Practices",
@@ -111,10 +95,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Hands-on experience in automated machining including additive and subtractive processes, such as fused deposition modeling (FDM) rapid prototyping, and computer numerical control (CNC) multi-axis machining. Not for credit in addition to MEC 225. This course has an associated fee. Please see www.stonybrook.edu\/coursefees for more information.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "MEC260":{
         "CourseTitle":"Engineering Statics",
@@ -133,10 +115,8 @@
             ]
         ],
         "Description":"A review of vector algebra. Concept of force. Equilibrium of particles. Moments about points and lines, couples and equivalent force systems. Equilibrium of rigid bodies. Analysis of simple structures such as trusses, frames, and beams. Centroids, centers of gravity, and moments of inertia. Dry friction with applications to wedges, screws, and belts. Method of virtual work, potential energy, and stability.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "MEC262":{
         "CourseTitle":"Engineering Dynamics",
@@ -150,10 +130,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Vectorial kinematics of particles in space, orthogonal coordinate systems. Relative and constrained motions of particles. Dynamics of particles and the systems of particles, equations of motion, energy and momentum methods. Collisions. Two- and three-dimensional kinematics and dynamics of rigid bodies. Moving frames and relative motion. Free, forced, and damped vibrations of particles and rigid bodies.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "MEC280":{
         "CourseTitle":"Pollution and Human Health",
@@ -163,10 +141,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"An examination of major environmental pollution problems such electromagnetic radiation, ozone layer depletion, and global warming, with a specific focus on the resulting effects on human health. Assessment of health risks in relation to the formulation of environmental and workplace regulations is also considered.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "MEC300":{
         "CourseTitle":"Professional Conduct for Engineers",
@@ -180,10 +156,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"The study of ethical decisions confronting individuals and organizations in engineering and science. Related questions about moral conduct, character, ideals and relationships of people and organizations involved in technical development are discussed. Ethics codes for engineers, computer scientists, and natural scientists are covered. The interaction of engineers, their technology, the society and the environment is examined using case studies. Includes topics in law such as negotiation, reverse engineering, ownership and enforcement of intellectual property, and export controls. Introduction to patents and patent infringement using case studies.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "MEC301":{
         "CourseTitle":"Thermodynamics",
@@ -204,10 +178,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Variables that describe the thermodynamic state of a system or control volume, including absolute temperature, internal energy, enthalpy, and entropy are introduced, and basic principles governing the transformations of energy, especially heat and work, are developed. Underlying principles are used to analyze and solve problems related to thermodynamic systems and to determine the changes in properties of the systems and surroundings implied by changes in inputs, configuration, or constraints.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "MEC305":{
         "CourseTitle":"Heat and Mass Transfer",
@@ -228,10 +200,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"The fundamental laws of momentum, heat and mass transfer, and the corresponding transport coefficients. Principles of steady-state and transient heat conduction in solids are investigated. Laminar and turbulent boundary layer flows are treated, as well as thermal radiation, and radiation heat transfer between surfaces. Applications to heat transfer equipment are covered throughout the course.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "MEC310":{
         "CourseTitle":"Introduction to Machine Design",
@@ -258,10 +228,8 @@
             ]
         ],
         "Description":"Application of graphical and analytical methods to the analysis and synthesis of mechanism. Covers concepts of degrees of freedom, graphical and analytical linkage synthesis, position, velocity, acceleration, and force analysis of linkage mechanisms. Introduces principles behind the operation of various machine elements such as gears and gear trains, cams, flywheels and their design, and analysis techniques.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "MEC316":{
         "CourseTitle":"Instrumentation and Solid Mechanics Laboratory",
@@ -278,10 +246,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Hands-on experience in solid mechanics and instrumentation with focus on the concept of static and dynamic response. Students learn to operate instruments for measuring displacement, angle, acceleration, and strain. Student groups perform a series of experiments to probe the spatial and temporal resolution of modern instrumentation and sensors in relation with fundamental material properties. Lectures at the beginning of the course provide background information and theories of experimentation. Not to be taken in the same semester as MEC 317. This course has an associated fee. Please see www.stonybrook.edu\/coursefees for more information.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "MEC317":{
         "CourseTitle":"Thermal Sciences and Fluid Mechanics Laboratory",
@@ -309,10 +275,8 @@
             ]
         ],
         "Description":"Hands-on experience in fluid mechanics, heat transfer, and thermodynamics. Introduction to a variety of sensors and instruments commonly used in mechanical engineering with focus on temperature, pressure, and flow velocity measurements. Student groups perform a series of experiments with emphasis on the understanding of fundamental principles as well as familiarity with modern experimentation. Lectures at the beginning of the course provide background information and theories of experimentation. Not to be taken in the same semester as MEC 316. This course has an associated fee. Please see www.stonybrook.edu\/coursefees for more information.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "MEC320":{
         "CourseTitle":"Numerical Methods in Engineering Design and Analysis",
@@ -339,10 +303,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"This course emphasizes the implementation of numerical methods for computer-aided solutions to the problems that arise in engineering design and analysis. Methods include interpolation, extrapolation, curve fitting, and integration and techniques solving non-linear equations, systems of linear equations, and differential equations. Optimization in engineering design is covered from the formulation of design specifications and criteria, to analyzable models, through to numerical implementation. May not be taken for credit in addition to AMS 326 or CIV 350.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "MEC325":{
         "CourseTitle":"Manufacturing Processes",
@@ -360,10 +322,8 @@
             ]
         ],
         "Description":"Introduces traditional and modern manufacturing processes, their capabilities, and limitations. The properties of engineering materials are discussed in the context of manufacturing applications. Examples of topics to be discussed include additive processes (casting, 3D printing, etc.), subtractive processes (milling, turning, etc.), forming processes (forging, bending, extrusion, etc.), and joining processes (welding, mechanical fastening , etc.). Hands-on experience with manufacturing machines and processes is included.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "MEC363":{
         "CourseTitle":"Mechanics of Solids",
@@ -378,10 +338,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Stress and deformation of engineering structures and the influence of the mechanical behavior of materials. Concepts of stress and strain, constitutive relations, analysis of statically indeterminate systems, study of simple bars and beams, and stability conditions. Emphasis on force equilibrium, elastic response of materials, geometric compatibility, Mohr's circle, stresses and deflections in beams, and torsion and buckling of rods. Design for bending, shear, and combined states of stress.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "MEC364":{
         "CourseTitle":"Introduction to Fluid Mechanics",
@@ -399,10 +357,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Fundamental properties of fluids and their conservation laws with applications to the design and evaluation of flows of engineering interest. Topics include hydrostatics, surface tension, dimensional analysis and dynamic similitude, Euler's equation, rotating coordinate systems, boundary layers, lubrication, drag on immersed bodies, open channel and pipe flows, and turbomachinery.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "MEC393":{
         "CourseTitle":"Engineering Fluid Mechanics",
@@ -416,10 +372,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"The application of the principles of fluid mechanics to important areas of engineering practice such as turbomachinery, hydraulics, and wave propagation. Prepares students for advanced coursework in fluid dynamics. Extends the study of viscous effects, compressibility, and inertia begun in MEC 364.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "MEC398":{
         "CourseTitle":"Thermodynamics II",
@@ -433,10 +387,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Psychrometrics and psychrometric charts. Thermodynamic considerations for the design and performance of cooling towers, humidifiers, and dehumidifiers. Reacting mixtures, combustion, and chemical equilibrium. Thermodynamics of fluid flow, simple compression, and expansion processes. Analysis and design of gas and vapor power cycles. Cycles with reheat, intercooling, and cogeneration plants. Refrigeration cycles.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "MEC402":{
         "CourseTitle":"Mechanical Vibrations",
@@ -450,10 +402,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Modeling, analysis and design for mechanical vibrations. Fundamentals of free vibration, harmonically excited vibration and vibration under general forcing conditions are considered for one degree, two degree and multidegree of freedom systems; continuous systems; vibration design strategies including isolation and absorbers.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "MEC410":{
         "CourseTitle":"Design of Machine Elements",
@@ -467,10 +417,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Application of analytical methods, material science, and mechanics to problems in design and analysis of machine components.  Includes the design of mechanical components such as bearings, gears, shafting, springs, fasteners, belts, clutches, and brakes, and takes into consideration factors such as manufacturability and reliability.  Design projects with open-ended and interactive problems are assigned to integrate several machine elements in a system.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "MEC411":{
         "CourseTitle":"Control System Analysis and Design",
@@ -491,10 +439,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Analysis and design of feedback control systems. Topics include system modeling; transfer function; block diagram and signal-flow graph; sensors, actuators, and control circuit design; control system characteristics and performance; stability analysis; root locus method; Bode diagram; PID and lead-lag compensator design.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "MEC422":{
         "CourseTitle":"Thermal System Design",
@@ -508,10 +454,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Device design and system design. Quantitative data for system design including operating characteristics of compressors, turbines, heat exchangers, piping systems, internal combustion engines, and other component equipment. Component matching and system simulation. Optimization including thermoeconomic evaluation and energy analysis. Case studies: refrigeration and air conditioning systems, combined cycles, steam-injected gas turbines.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "MEC423":{
         "CourseTitle":"Internal Combustion Engines",
@@ -525,10 +469,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Introduction to internal combustion engines and their operation. Analytical approach to the engineering problem and performance analysis of internal combustion engines. Topics include thermodynamics fundamentals; fuel-air cycle analysis; engine combustion; emission formation and control strategies. Includes both the relevant fundamental concepts and the extensive practical knowledge base on which engine research, development, and design depend. Not for credit in addition to MEC 523.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "MEC440":{
         "CourseTitle":"Mechanical Engineering Design I",
@@ -548,10 +490,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Part I of the two-semester capstone design project sequence. Senior students select a project with multiple realistic constraints, develop the necessary technical background, and write a proposal, progress reports, and a preliminary design report. Includes an oral presentation on the development and progress of the project. Not counted as a technical elective. The final grade will be assigned at the end of the two course sequence MEC 440-MEC 441. This course has an associated fee. Please see www.stonybrook.edu\/coursefees for more information.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "MEC441":{
         "CourseTitle":"Mechanical Engineering Design II",
@@ -565,10 +505,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Part II of the two-semester capstone design project sequence. Students complete the project design, incorporating engineering standards, build and test a prototype, write a mid-term report and a final design report, and give an oral presentation. Not counted as a technical elective. This course has an associated fee. Please see www.stonybrook.edu\/coursefees for more information.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "MEC442":{
         "CourseTitle":"Introduction to Experimental Stress Analysis",
@@ -582,10 +520,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"The concepts of three-dimensional stress and strain, their transformation laws, and their mutual relationships are discussed in detail. Results from theory of elasticity as pertinent to experimental stress analysis are also presented. Experimental techniques studied include two-dimensional photoelasticity, resistance strain gauge, moire method, brittle coating, and analog methods. The application of different techniques to the measurement of stress and strain in models as well as actual structures is demonstrated. Students form small groups and each group is assigned different laboratory projects to gain experience in various experimental stress analysis methods. Previously offered as MEC 342.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "MEC450":{
         "CourseTitle":"Mechatronics",
@@ -603,10 +539,8 @@
             ]
         ],
         "Description":"An introduction to the design, modeling, analysis, and control of mechatronic systems (smart systems comprising mechanical, electrical, and software components). Fundamentals of the basic components needed for the design and control of mechatronic systems, including sensors, actuators, data acquisition systems, microprocessors, programmable logic controllers, and I\/O systems, are covered. Hands-on experience in designing and building practical mechatronic systems is provided through integrated lab activities.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "MEC455":{
         "CourseTitle":"Applied Stress Analysis",
@@ -620,10 +554,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"A study of linear elastic solids with emphasis on internal stress analysis. Simple boundary value problems at plane structures are analyzed with various solution techniques. Major topics are stress and strain tensors, linear elasticity, principle of virtual work, torsion, stress functions, stress concentration, elementary fracture, and plasticity.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "MEC456":{
         "CourseTitle":"Introduction to Engineering Mechanics of Composites",
@@ -637,10 +569,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Introduction to the engineering mechanics of fiber reinforced composites. Brief history of the development of fiber composites, their properties, advantages, limitations and applications. Overview of the different types of composites but with focus on long fiber reinforced composites; particularly, lamina and laminate concepts characteristics and configurations. Topics covered include: elastic properties of unidirectional lamina, strength of unidirectional lamina, elastic behavior of multidirectional laminates and stress and failure of multidirectional laminates. Design methodologies and considerations for structural composite materials.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "MEC457":{
         "CourseTitle":"Engineering Composites Fabrication and Characterization",
@@ -654,10 +584,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Overview of fiber reinforced composites, applications and mechanical properties. Introduction to fiber composites fabrication methods as well as experimental characterization methods used in acquiring their relevant mechanical properties. Fabrication topics include: impregnation of fibers; prepregs; stacking; curing; vacuum bagging; autoclave technology; out-of-autoclave manufacturing processes; molding; processing; cutting and joining. Topics in mechanical characterization include: experimental methods; characterization of the elastic properties and failure strengths of unidirectional lamina; characterization of the elastic properties and failure strengths of multidirectional laminates. Course is divided into in-class lectures and laboratory sessions.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "MEC464":{
         "CourseTitle":"Fundamentals of Aerodynamics",
@@ -677,10 +605,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Kinematics and dynamics of incompressible irrotational flow; stream function and the potential function; Euler and Bernoulli equations. Thin-foil theory; lift and moment for symmetric and cambered airfoils. Finite-wing theory; induced drag. Compressible flow, small-disturbance theory; thin wings at subsonic and supersonic speeds.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "MEC465":{
         "CourseTitle":"Aerospace Propulsion",
@@ -700,10 +626,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Fundamentals of propulsion; performance parameters, thermodynamic cycles. Introduction to combustion and combustors. Performance and cycle analysis of various flight propulsion systems: turbojets, turbofans, turboprops, ramjets, scramjets, rockets and propellors.  Design of supersonic inlet nozzles, component matching and map.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "MEC470":{
         "CourseTitle":"Introduction to Tribology",
@@ -717,10 +641,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Focus is on the fundamentals of tribology, the science of surfaces in relative motion, with an introduction to friction, lubrication, and wear. The basics of tribology science: engineering surfaces, contact mechanics, lubrication theory, wear processes and modeling, wear properties of materials, and tribology test methods will be covered.  Analysis of tribological aspects of machine components and bearings. Industrial case studies will be presented to place the topics in context to industry and society.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "MEC475":{
         "CourseTitle":"Undergraduate Teaching Practicum",
@@ -730,10 +652,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Students assist the faculty in teaching by conducting recitation or laboratory sections that supplement a lecture course. The student receives regularly scheduled supervision from the faculty instructor. May be used as an open elective only and repeated once.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "MEC488":{
         "CourseTitle":"Mechanical Engineering Internship",
@@ -743,10 +663,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Participation in off-campus engineering practice. Students are required to submit a proposal to the department at the time of registration and two term reports before the end of the semester. May be repeated up to a limit of 12 credits.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "MEC491":{
         "CourseTitle":"Topics in Mechanical Engineering",
@@ -756,10 +674,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Treatment of an area of mechanical engineering that expands upon the undergraduate curriculum. Topics may include advanced material in a specialty, development of a specialized experimental technique, or a specific area of design. Topics may vary from semester to semester. Semester supplements to this Bulletin contain specific description when course is offered. May be repeated as the topic changes.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "MEC492":{
         "CourseTitle":"Topics in Mechanical Engineering",
@@ -769,10 +685,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Treatment of an area of mechanical engineering that expands upon the undergraduate curriculum. Topics may include advanced material in a specialty, development of a specialized experimental technique, or a specific area of design. Topics may vary from semester to semester. Semester supplements to this Bulletin contain specific description when course is offered. May be repeated as the topic changes.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "MEC495":{
         "CourseTitle":"Professional Engineering Seminar",
@@ -782,10 +696,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Prepares the student to enter the workplace as a practicing engineer. Topics include professional ethics, professional activities, professional engineering licensing, patents, seeking entry-level employment, and exposure to the engineering work environment. Aids in preparation for the EIT\/FE exam. Includes speakers from a variety of disciplines, within the College and from industry.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "MEC499":{
         "CourseTitle":"Research in Mechanical Engineering",
@@ -795,10 +707,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"An independent research project under the supervision of a mechanical engineering faculty member. Permission to register requires the agreement of the faculty member to supervise the research and submission of a one-page research proposal. May be repeated but only six credits of research electives may be counted as technical electives.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "MEC500":{
         "CourseTitle":"Modeling and Control of Manufacturing Systems",
@@ -808,10 +718,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Introduction to manufacturing system modeling and analysis. Fundamental principles of production systems. Analytical and simulation approach to production system performance analysis, continuous improvement, and design. Topics include mathematical modeling of production systems, production lines with various statistic distribution models of machine reliability, improvement analysis and real-time decision making. Includes both the relevant fundamental concepts and the extensive practical knowledge base on which manufacturing research, development, and design depend. The students are expected to complete a project, in which they will interpret real-life manufacturing plant operation in the light of course principles and suggest improvement solutions.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "MEC501":{
         "CourseTitle":"Convective Heat Transfer and Heat Exchange",
@@ -821,10 +729,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Differential and integral formulation.  Exact and approximate solutions.  Topics include parallel and boundary layer flows, similarity solutions, external and internal flows, laminar and turbulent convection, and forced and free convection.\nSpring,",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "MEC502":{
         "CourseTitle":"Conduction and Radiation Heat Transfer",
@@ -834,10 +740,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Heat conduction and conservation laws; formulation of conduction equations in differential and integral forms; analytical solution techniques including Laplace transforms and separation of variables; scaling analysis; black body radiation, Kirchoff's law, analysis of heat conduction problems; analysis of radiative exchange between surfaces and radiative transport through absorbing, emitting, and scattering media. Fall, 3 credits, ABCF grading",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "MEC506":{
         "CourseTitle":"Energy Management in Commercial Buildings",
@@ -847,10 +751,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Topics include basic heating, ventilating, and air-conditioning (HVAC) system design and selection for commercial buildings (includes both low-rise and high-rise buildings); selection of central plant components and equipment; calculation of space heating and cooling load; computer techniques for estimating annual energy consumption; design tools for reducing energy consumption; ASHRAE codes; building controls; BACnet.\nPrerequisite: B.S. in mechanical engineering or related fields\nFall, alternate years,",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "MEC507":{
         "CourseTitle":"Mathematical Methods in Engineering Analysis I",
@@ -860,10 +762,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"An introduction to the use of mathematical analysis techniques for the solution of engineering analysis problems and the simulation of engineering systems.  Both continuous and discrete methods are covered. Initial and boundary value problems for ordinary and partial differential equations are treated.\nFall,",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "MEC508":{
         "CourseTitle":"Mathematical Methods in Engineering Analysis II",
@@ -873,10 +773,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"A continuation of the material covered in MEC 507.  Introduction to and application of numerical analysis techniques used in engineering such as finite elements and fast Fourier transforms.  Determination of response characteristics of dynamic systems.  Combinatoric methods and techniques for optimization of engineering design and systems\/process analysis problems.\nPrerequisite: MEC 507\nSpring, alternate years,",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "MEC509":{
         "CourseTitle":"Transport Phenomena",
@@ -886,10 +784,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Introduction to differential and integral formulation of mass, momentum, and energy transport in fluids and solids.  Topics include viscosity, laminar flow, turbulent flows, conduction, convection, heat transfer coefficients, radiation, boundary layers, diffusion, and applications to energy technology.\nOffered Fall, 3 Credits, ABCF Grading",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "MEC510":{
         "CourseTitle":"Object-Oriented Programming for Scientists and Engineers",
@@ -899,10 +795,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Practical introduction to C++ and object-oriented programming for a first programming course for scientists and engineers. Covers basics of application software development such as problem decomposition, structure charts, object modeling, class diagrams, incremental code building, and testing at a beginner's level.  Features the concepts of abstract data types (ADT), encapsulation, inheritance, composition, polymorphism, operator and function overloading besides studying UML (Unified Modeling Language) as a graphical representational design technique. The course follows the evolution of programming ideas from the use of a single function to the use of structural charts and functions to modularize and finally to the use of object-oriented programming.\nPrerequisite: B.S. in science or engineering\nSpring, alternate years, 3 credits, ABCF grading",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "MEC511":{
         "CourseTitle":"Mechanics of Perfect Fluids",
@@ -912,10 +806,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Lagrangian and Eulerian frames.  Dynamical equations of momentum and energy transfer.  Two-dimensional dynamics of incompressible and barotropic perfect fluids and of the compressible perfect gas.  Conformal mapping applied to two-dimensional fluid dynamics.  Jets and cavities.  Surface waves, internal waves.  Perfect shear flows. Spring,",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "MEC512":{
         "CourseTitle":"Mechanics of Viscous Fluids",
@@ -925,10 +817,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"The role of viscosity in the dynamics of fluid flow. The Navier-Stokes equations, low Reynolds number behavior including lubrication theory, percolation through porous media, and flow due to moving bodies.  High Reynolds number behavior including steady, unsteady, and detached boundary layers, jets, free shear layers, and wakes.  Phenomenological theories of turbulent shear flows are introduced.\nFall,",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "MEC514":{
         "CourseTitle":"Advanced Fluid Mechanics: Introduction to Turbulence",
@@ -938,10 +828,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Introductory concepts and statistical descriptions: kinematics of random velocity fields; equations of motion; experimental techniques: isotropic turbulence, closure problem; transport processes. \nPrerequisite: MEC 512\nSpring, alternate years,",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "MEC516":{
         "CourseTitle":"Energy Technologies Laboratory",
@@ -951,10 +839,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Experiments in the areas of infrared imaging, heat pumps, batteries\/power electronics, solar thermal, thermal conductivity, and insulation. The focus is on system efficiencies, system integration, and design for residential markets. The fundamentals of the relevant technologies will be presented and utilized in the laboratory sessions. Student groups are assigned laboratory projects focused on applying various energy technologies to solve engineering problems.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "MEC517":{
         "CourseTitle":"Energy Technologies Laboratory II",
@@ -964,10 +850,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Experiments in the areas of thermoelectric power, fuel cells, photovoltaics, wind turbines, hydrogen storage, hydrogen generation, and power electronics in addition to related project work. The focus is on system efficiencies, system integration, and design for residential markets. Student groups are assigned laboratory projects to build experience applying various energy technologies  to solve problems.\nOffered in Spring, 3 Credits, ABCF Grading",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "MEC518":{
         "CourseTitle":"Energy Harvesting",
@@ -977,10 +861,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"MEC 518 Energy Harvesting is designed to systematically disseminate recent advances in various energy harvesting technologies in the last decade.  The topic will include mechanical vibrations, piezoelectric materials, electromagnetic transducers, thermoelectric materials, electromechanical system design, power electronics, and control, as well as the applications of energy harvesting to vehicles, transportations, civil structures, and ocean waves.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "MEC520":{
         "CourseTitle":"Smart Materials for Sensing and Actuation",
@@ -990,10 +872,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"An introduction to the properties, characterization, manufacturing, and\napplications of various smart materials and structures. This course will cover sensors, actuators, and energy devices based on smart materials, including piezoelectric materials, electroactive polymers, magnetostrictive materials, magnetorheological fluids, and shape memory polymers. The goal is to expose students to fundamentals of smart materials and structures needed for the\ndesign and applications in engineering applications.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "MEC521":{
         "CourseTitle":"Thermodynamics",
@@ -1003,10 +883,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"This course begins with a review of the fundamental concepts and laws of classical thermodynamics. Then the thermostatic theory of equilibrium states and phase transitions is treated, followed by the thermodynamic theory of processes of simple systems and composite systems, including heat engines.  Special topics may include istatisical thermodynamics, irreversible thermodynamics, radiation and photovoltaic energy conversion,, biological thermodynamic processes, and other topics of current interest.\nSpring, 3 credits.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "MEC522":{
         "CourseTitle":"Building Energy Dynamics and Technology",
@@ -1016,10 +894,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Building is treated as a time-dependent energy system, with its interactive components coupled through energy and mass flows under an environment defined in terms of sunlight, ambient air and wind and with its equipment which assist in meeting building-dwellers comfort requirements. Major components discussed are thermal mass (both interior mass and envelope mass) and their thermal capacities, building envelopes and their heat transfer resistances, room air including its circulation and heat exchange with thermal mass, and the transparent part of the envelope the glazing or windows and the solar system passing through it during the day and the heat loss during the night time. Major equipment include lighting, air circulation system, cooling and heating equipment, solar thermal panels and solar PV panels, and other equipment including integrated electric and control units. Of the comfort requirements only temperature-and-humidity and illumination are studied with the objective of creating, through a system-understanding of the building, buildings that in the short run meet these requirements involving minimal use of energy and in the long run are benchmarked against the environmentally regenerative capabilities of wilderness.\n\nOffered in Spring, 3 credits, ABCF Grading",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "MEC523":{
         "CourseTitle":"Internal Combustion Engines",
@@ -1029,10 +905,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Combustion fundamentals.  Carnot cycle; reversible internal combustion engine cycle; introduction to practical internal combustion. engine cycles.  Internal combustion piston engines; engine combustion and emission processes; engine operating characteristics.  Gas turbine engines.  Composite engines: turbocharging piston engines; gas generator engines; turbocompounding engines.  Method of exhaust heat recovery for improvement of thermal efficiency.  Method of intercooling-supercharging for thermal efficiency improvement.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "MEC524":{
         "CourseTitle":"Computational Methods for Fluid Mechanics and Heat Transfer",
@@ -1042,10 +916,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Introduction of finite difference, finite volume, and finite element methods for incompressible flows and heat transfer.  Topics include explicit and implicit schemes, accuracy, stability and convergence, derived and primitive-variables formulation, orthogonal and non-orthogonal coordinate systems.  Selected computer assignments from heat conduction, incompressible flows, forced and free convection.\nPrerequisite: MEC 507\nFall, alternate years,",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "MEC526":{
         "CourseTitle":"Modern Power Cycles",
@@ -1055,10 +927,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"First and second law design and analysis of modern power cycles including Rankin Steam Cycles, Bryton Gas Turbine cycles, Combined Cycles, Cogeneration, Central Heat and Power Generation (CHP), Tri-generation and current advances in thermal power systems design and analysis. Cycle efficiency and factors effecting performance and plant efficiency. Thermodynamic analysis of proposed as well as existing thermal energy systems.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "MEC527":{
         "CourseTitle":"Introduction to Building Energy Modeling",
@@ -1068,10 +938,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Designing high performance buildings requires the application of building energy modeling (BEM) that uses computer-based software to simulate thermal processes in buildings.  In applying building energy modeling, this course emphasizes the importance of formulating the problem in terms of assumptions:  The two alternative assumptions are the static building load assumption and the dynamic building process assumption.  The resistor-capacitor (RC model is introduced.  With a 3D building model developed in Autodesk Revit, energy analysis is carried out with a series of software.  Popular whole-building energy simulation programs, such as EnergyPlus and TRNSYS, are then explained briefly.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "MEC529":{
         "CourseTitle":"Introduction to Robotics: Theory and Applications",
@@ -1081,10 +949,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Topics: robot components and mechanatronic aspects of robotics (sensors, actuators, and effectors, system integration); rotation, translation, rigid-body transform; robotics foundations in kinematics and inverse kinematics, dynamics, serial and parallel manipulators and their duality, introduction to mobile robots and LEGO Robotics, control theories, motion planning, trajectory generation, grasping and manipulation, robotic programming language, industrial robotics, manufacturing automation, and societal impacts.  Include hands-on projects.\nSpring,",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "MEC530":{
         "CourseTitle":"Applied Stress Analysis",
@@ -1094,10 +960,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Advanced mechanics of solids and structures. Elastic boundary value problems are analyzed with various solution techniques including finite element method. Major topics are stress and strain, FEM formulations, material behavious, 2D elastic problems, stress function and fracture. Detailed studies of structural components are carried out with FEM with emphasis on optimal mesh design and proper interpretations of computed results.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "MEC532":{
         "CourseTitle":"Vibration and Control",
@@ -1107,10 +971,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Fundamentals of vibrations and control of vibrations of structures and dynamic systems.  Topics include one dof systems and responses, frequency response, multiple dof systems and responses, relevant classical control theory, modern state-space feedback control theory, application of control methodology in systems with dynamics and vibration, eigenvalue problems and modal analysis, vibration analysis of various continuous systems.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "MEC536":{
         "CourseTitle":"Mechanics of Solids",
@@ -1120,10 +982,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"A unified introduction to the fundamental principles, equations, and notation used in finite deformation of solids, with emphasis on the physical aspects of the subject. Cartesian tensor representation of stress, principal values, finite strain, and deformation.  Conservation of mass, momentum, and energy.  Formulation of stress-strain relations in elasticity, and compatibility relations.  The use of general orthogonal coordinate systems in the equations governing solids.  Principles of virtual displacement and virtual work.\nFall,",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "MEC537":{
         "CourseTitle":"Combustion Research Laboratory",
@@ -1133,10 +993,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Experimental methods for testing and development of internal combustion engines.  Methods for measuring engine performance and emissions.  Review of combustion chemistry and thermodynamics.  Engine cycle quantities measurements.  Students will apply these methods to reciprocating engines and gas turbines.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "MEC539":{
         "CourseTitle":"Introduction to Finite Element Methods",
@@ -1146,10 +1004,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"(formerly Finite Element Methods in Structural Analyses)\nTheory of finite element methods and their application to structural analysis problems.  Matrix operations, force and displacement methods.  Derivation of matrices for bars, beams, shear panels, membranes, plates, and solids.  Use of these elements to model actual structural problems.  Weighted residual techniques and extension of the finite element method into other areas such as heat flow and fluid flow.  Laboratory sessions introduce use of the computer in solving finite element problems.  Programs for the solution of force and displacement method problems are configured.  A computer project consisting of the solution and evaluation of a structural problem is required.\nSpring, alternate years,",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "MEC540":{
         "CourseTitle":"Mechanics of Engineering Structures",
@@ -1159,10 +1015,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"An introduction to variational principles of mechanics and the development of approximation methods for the solution of structural mechanics problems.  Linear and nonlinear theories of beams and thin plates are developed along with their framework for numerical solutions.  An introduction of the general theory of structural stability is presented along with its application to the buckling and initial postbuckling behavior of beams and plates.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "MEC541":{
         "CourseTitle":"Elasticity",
@@ -1172,10 +1026,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Formulation of boundary value problems.  Compatibility equations and reciprocal theorem.  Torsion of noncircular cross-sections.  Fundamental solutions for two- and three-dimensional domains.  Potential function formulations.  Use of integral transforms and complex variable approaches.  Formulation and solution of problems in thermoelasticity.\nPrerequisite: MEC 536\nSpring,",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "MEC543":{
         "CourseTitle":"Plasticity",
@@ -1185,10 +1037,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Stress and deformation of solids: yield criteria and flow rules for plasticity deforming solids; the notion of a stable inelastic material; static and dynamic analysis of plastic bodies under mechanical and thermal loading; use of load bounding theorems and the calculation of collapse loads of structures; the theory of the slip-line field. \nPrerequisite: MEC 541\nFall, alternate years,",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "MEC549":{
         "CourseTitle":"Robot Dynamics and Control",
@@ -1198,10 +1048,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"This course will cover the fundamentals of dynamic modeling and control\ntechniques for robots, focusing mainly on robot manipulators. The dynamic modeling part includes Lagrange formulation, Newton Euler formulation, properties of the dynamic equations, and trajectory planning with dynamic constraints, and the control part includes nonlinear systems, state-space representation, Lyapunov stability theorems, feedback linearization, linear controller design, position control, motion control, inverse dynamics control, robust control, adaptive control,\nforce control, impedance control, hybrid motion force control, and implementation of controllers. Prerequisite: MEC 529",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "MEC550":{
         "CourseTitle":"Mechatronics",
@@ -1211,10 +1059,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"An introduction to the design, modeling, analysis and control of mechatronic systems (smart systems comprising mechanical, electrical, and software components).  Fundamentals of the basic components needed for the design and control of mechatronic systems, including sensors, actuators, data acquisition systems, microprocessors, programmable logic controllers, and I\/O systems, are covered.  Hands-on experience in designing and building practical mechatronic systems are provided through integrated lab activities.\nFall, every year,",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "MEC552":{
         "CourseTitle":"Mechanics of Composite Materials",
@@ -1224,10 +1070,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"The course is concerned with the analysis of layered composite materials subject to mechanical loads.  Cartesian tensor calculus is used.  Homogeneous anisotropic media are studied first.  The effect of layering is then analyzed.  Applications to plates and shell are studied and analytical methods of solution are given.  Numerical analysis of composite solids is also considered using finite difference and finite element methods.\nPrerequisite: MEC 536\nFall or Spring, alternate years,",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "MEC556":{
         "CourseTitle":"Introduction to Engineering Mechanics of Composites",
@@ -1237,10 +1081,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Introduction to the engineering mechanics of fiber reinforced composites.  Brief history of the development of fiber composites, their properties, advantages, limitations and applications.  Overview of the different types of composites but with focus on long fiber reinforced composites; particularly, lamina and laminate concepts characteristics and configurations.  Topics covered include: elastic properties of unidirectional lamina, strength of unidirectional lamina, elastic behavior of multidirectional laminates and stress and failure of multidirectional laminates.  Design methodologies and considerations for structural composite materials.  The students are expected to complete a project, in which they will design a real-life structural part out of composite materials using course principles.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "MEC557":{
         "CourseTitle":"Introduction to Fiber Composites Fabrication and Characterization",
@@ -1254,10 +1096,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Overview of fiber reinforced composites, applications and mechanical properties. Introduction to fiber composites fabrication methods as well as experimental characterization methods used in acquiring their relevant mechanical properties. Fabrication topics include: Impregnation of fibers; Prepregs; Stacking; Curing; Vacuum bagging; Autoclave technology; Out-of-autoclave manufacturing processes; Molding; Processing; Cutting and Joining. Topics in mechanical characterization include: Experimental methods; Characterization of the elastic properties and failure strengths of unidirectional lamina; Characterization of the elastic properties and failure strengths of multidirectional laminates. Course is divided into in-class lectures and laboratory sessions. The students are expected to complete a project, in which they will design, fabricate and test a real-life structural part made out of composite materials using course principles.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "MEC559":{
         "CourseTitle":"Mobile Robotics and Autonomous Vehicles",
@@ -1267,10 +1107,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"This course will cover the fundamentals of planning, state estimation, and control techniques for mobile robots and autonomous vehicles. Key topics include: Kinematics of wheeled mobile robots; State estimation, Localization, and Mapping; Simultaneous Localization and Mapping Algorithms (SLAM) Algorithms; Path planning, Obstacle Avoidance, and Non-holonomic Control; Mobile robot programming and control architecture.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "MEC560":{
         "CourseTitle":"Advanced Control Systems",
@@ -1280,10 +1118,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Analytical methods applied to the design of multivariable linear control systems.  Introduction to linear system theory: linearization, solution of linear matrix differential equations, stability, controllability, observability, transformations to canonical forms.  Formulation of control objectives.  Deterministic state observer.  Full-state feedback control based on pole assignment and linear quadratic optimization theory.  Linear systems with stochastic inputs and measurement noise.  The response of linear systems to random input; stochastic state estimator (Kalman filter); separation principle of stochastic control and estimation; system robustness.\nFall or Spring, alternate years,",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "MEC564":{
         "CourseTitle":"Fundamentals of Aerodynamics",
@@ -1293,10 +1129,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Kinematics and dynamics of incompressible irrotational flow; stream function and the potential functions; Euler and Bernoulli equations.  This-foil theory; lift and moment for symmetric and cambered airfoils.  Finite-wing theory; induced drag.  Compressible flow, small disturbance theory; thin wings at subsonic and supersonic speeds.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "MEC565":{
         "CourseTitle":"Aerospace Propulsion",
@@ -1306,10 +1140,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Fundamentals of propulsion; performance parameters, thermodynamic cycles.  Introduction to combustion and combustors.  Performance and cycle analysis of various flight propulsion systems: turbojets, turbofans, turboprops, ramjets, scramjets, rockets, propellers.  Design of supersonic inlet nozzles, component matching and map.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "MEC567":{
         "CourseTitle":"Kinematic Analysis and Synthesis of Robotic Mechanisms",
@@ -1319,10 +1151,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Introduction, mechanism structure, basic concepts of mechanisms, canonical\nrepresentation of motion. Kinematic analysis, algebraic method, vector-loop method, complex number method, spherical and spatial polygon method, matrix method, dual-number quaternion method, screw coordinate method, line coordinate method, motor algebra method, type synthesis, number synthesis, coupler curves, curvature theory path generation, finite displacement theory, rigid body guidance, function generation, computer-aided mechanisms analysis and synthesis.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "MEC568":{
         "CourseTitle":"Advanced Dynamics",
@@ -1332,10 +1162,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Newtonian and Lagrangian mechanics of rigid bodies; kinematics, inertia tensor, principle of momentum, principle of virtual work, potential and kinetic energy, equations of motion, extraction of information from the equations of motion, and application to engineering problems.\nFall,",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "MEC569":{
         "CourseTitle":"Aerial Robotics",
@@ -1345,10 +1173,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"This hands-on course covers a broad range of topics related to aerial-robotics. There is a comparative analysis of the most common types of flying vehicles. A few of the most common control strategies such as cascaded control, dubins path, and flocking algorithms are covered as well. Lastly, we look at the latest work in both the scientific literature and industry. In particular, this course covers multicopters, fixed-wings, flapping-wings, aerial swarms, perching, collision resilience, search & rescue, and flight testing. There are two hands-on projects, the first consists of searching a space for a safe landing point with a crazyflie quadcopter, and the second is navigation of a narrow passage with a fixed-wing robot. At the end\nof the class, the students will be able to critically evaluate existing aerial robotic systems, conceive new systems, and implement functional prototype vehicles.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "MEC570":{
         "CourseTitle":"Introduction to Engineering Tribology",
@@ -1358,10 +1184,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Focus is on the fundamentals of tribology, the science of surfaces in relative motion, with an introduction to friction, lubrication, and wear.  The basics of tribology science: engineering surfaces, contact mechanics, lubrication theory, wear processes and modeling, wear properties of materials, and tribology test methods will be covered.  Analysis of tribological aspects of machine components and bearings.  Industrial case studies will be presented to place the topics in context to industry and society.\nSpring, every year,",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "MEC571":{
         "CourseTitle":"Analysis and Design of Robotic Manipulators",
@@ -1371,10 +1195,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Introduction to robot manipulators from the mechanical viewpoint, emphasizing fundamentals of various mechanisms and design considerations.  Kinematics on 2D and 3D manipulators; statics and dynamics; motion planning; control fundamentals; algorithms development; computer-graphics simulation of manipulators; current applications. \nPrerequisite: Permission of instructor\nFall or Spring, alternate years,",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "MEC572":{
         "CourseTitle":"Computer-Aided Design of Shapes and Motions",
@@ -1384,10 +1206,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"This class would focus on presenting a unifying treatment for the design of geometric shapes, such as curves and surfaces as well as motions of entities, such as lines, planes, and rigid bodies. It will be shown that in the language of projective geometry, one can design curves, surface, and motions utilizing same algorithms and similar data structures. In the process, the students will learn the theory of NURBS (Non- Uniform Rational B-splines), which is the standard representation in existing CAD\/CAM system, and extend it to the space of rigid body displacements for the design of motions. Students will implement shape and motion design algorithms in graphical computer programs.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "MEC575":{
         "CourseTitle":"Introduction to Micro Electro-Mechanical Systems (MEMS)",
@@ -1397,10 +1217,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"An introduction to the fundamental knowledge and experience in the design and manufacture of microsystems. Emphasis will be placed on the methodologies for design, fabrication, and packaging of microsystems. An overview on fabrication and manufacturing technologies for producing microsystems will also be covered. Interdisciplinary nature of MEMS will be emphasized via various engineering principles ranging from mechanical and electrical to materials and chemical engineering. Introduction of the working principles of micro actuators, sensors, and transducers.\nPrerequisite: Permission of instructor\nSpring,",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "MEC579":{
         "CourseTitle":"Optical Measurement",
@@ -1410,10 +1228,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Introduction to optical measurement and its applications to the fields of solid mechanics, design and manufacturing, and thermal and fluid systems.  Topics include fundamentals of optics, lasers, and detectors, dimensional and surface metrology, machine vision, measurement of temperature, concentration, and density, and optical techniques for stress analysis and nondestructive testing.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "MEC585":{
         "CourseTitle":"Total Quality Management",
@@ -1423,10 +1239,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Concepts of TQM and quality improvement methods to attain world-class performance in business operations.  Topics include policy deployment, process improvement methodology, daily work management, quality story methodology, six sigma, poka-yoke, ISO, Deming and Baldridge Awards criteria.\nSpring,",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "MEC596":{
         "CourseTitle":"Projects in Mechanical Engineering",
@@ -1436,10 +1250,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Conducted jointly by graduate students and one or more members of the faculty.\nMay be repeated for credit\nPrerequisite: Advisor's permission\nOffered every semester, 1-6 credits, ABCF grading",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "MEC597":{
         "CourseTitle":"Graduate Research and Study in Manufacturing",
@@ -1449,10 +1261,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Independent research or project in the area of manufacturing processes or systems.\nPrerequisite:  Students specializing in Manufacturing",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "MEC599":{
         "CourseTitle":"Research",
@@ -1462,10 +1272,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Fall, Spring, and Summer,",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "MEC630":{
         "CourseTitle":"Special Topics in Fluid Mechanics",
@@ -1475,10 +1283,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"TThe subject matter of each special topics course varies from semester to semester, depending on the interests of students and staff.  Advanced topics and specialized topics will be discussed, particularly those of current interest.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "MEC631":{
         "CourseTitle":"Special Topics in Heat Transfer",
@@ -1488,10 +1294,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"The subject matter of each special topics course varies from semester to semester, depending on the interests of students and staff.  Advanced topics and specialized topics will be discussed, particularly those of current interest.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "MEC633":{
         "CourseTitle":"Special Topics in Thermodynamics",
@@ -1501,10 +1305,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"The subject matter of each special topics course varies from semester to semester, depending on the interests of students and staff.  Advanced topics and specialized topics will be discussed, particularly those of current interest.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "MEC634":{
         "CourseTitle":"Advanced Topics in Kinematics and Dynamics of Machines",
@@ -1514,10 +1316,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"The subject matter of each special topics course varies from semester to semester, depending on the interests of students and staff.  Advanced topics and specialized topics will be discussed, particularly those of current interest.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "MEC635":{
         "CourseTitle":"Advanced Topics in Nonlinear Dynamic Systems",
@@ -1527,10 +1327,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"The subject matter of each special topics course varies from semester to semester, depending on the interests of students and staff.  Advanced topics and specialized topics will be discussed, particularly those of current interest.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "MEC636":{
         "CourseTitle":"Advanced Topics in Mechanical Vibration",
@@ -1540,10 +1338,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"The subject matter of each special topics course varies from semester to semester, depending on the interests of students and staff.  Advanced topics and specialized topics will be discussed, particularly those of current interest.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "MEC637":{
         "CourseTitle":"Special Topics in Precision Engineering",
@@ -1553,10 +1349,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"The subject matter of each special topics course varies from semester to semester, depending on the interests of students and staff.  Advanced topics and specialized topics will be discussed, particularly those of current interest.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "MEC641":{
         "CourseTitle":"Fracture Mechanics",
@@ -1570,10 +1364,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"The mechanics of brittle and ductile fracture in engineering materials are studied. Major subjects are linear elastic fracture, elastic-plastic fracture, and fatigue crack analysis. Topics also include stress intensity factor, energy release rate, J-integ.\nPrerequisite: MEC 536,\nFall or Spring, alternate years, 3 credits",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "MEC651":{
         "CourseTitle":"Advanced Finite Element Analysis",
@@ -1583,10 +1375,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Finite element method for the analysis of continuous media.  In-depth discussion of penalty method, integration techniques, and differential equation solvers.  Computer implementation of finite element code in nonlinear elastic, elastic-plastic materials, and dynamic problems.  Major topics are 2-D and 3D element formulations, stress update algorithms, Newton-Raphson iterative technique, and explicit\/implicit time integration schemes.\nPrerequisites:  MEC 541, MEC 539\nFall or Spring, alternate years,",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "MEC656":{
         "CourseTitle":"Aerospace Propulsion",
@@ -1596,10 +1386,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Fundamentals of propulsion; performance parameters, thermodynamic cycles.  Introduction to combustion and combustors.  Performance and cycle analysis of various flight propulsion systems: turbojets, turbofans, ramjets, scramjets, rockets, propellers.  Design of supersonic inlet nozzles, component matching and map.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "MEC662":{
         "CourseTitle":"Advanced Vibration and Analysis",
@@ -1609,10 +1397,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Principle and techniques of vibration analysis of structures and machines. Includes free and forced vibration responses of linear limped-parameter, multiple dof systems; model analysis of distributed, continuous systems; non-linear vibration analysis; random vibrations.\nPermission of instructor.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "MEC691":{
         "CourseTitle":"Mechanical Engineering Seminar",
@@ -1622,10 +1408,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"This course is designed to expose students to cutting-edge research and development activities in mechanical engineering.  Speakers are invited from both on and off campus.  Fall and spring. 0 credits, S\/U grading.  May be repeated.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "MEC695":{
         "CourseTitle":"Mechanical Engineering Internship",
@@ -1635,10 +1419,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Participation in off-campus engineering practice in private corporations, public agencies, or non-profit institutions as an intern. Students will be required to have a faculty adviser as well as a contact coordinator at the place of internship, to participate with them in regular consultations on the project, and to submit a final report to both and the Graduate Program Director. Credits from this course cannot be applied toward the MS and\/or PhD degree.\n1 credit, S\/U grading. Offered Fall and Spring semesters",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "MEC696":{
         "CourseTitle":"Aerial Robotics",
@@ -1648,10 +1430,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"This hands-on course covers a broad range of topics related to aerial-robotics. There is a comparative analysis of the most common types of flying vehicles. A few of the most common control strategies such as cascaded control, dubins path, and flocking algorithms are covered as well. Lastly, we look at the latest work in both the scientific literature and industry. In particular, this course covers multicopters, fixedwings, flapping-wings, aerial swarms, perching, collision resilience, search & rescue, and flight testing. There are two hands-on projects, the first consists of searching a space for a safe landing point with a crazyflie quadcopter, and the second is navigation of a narrow passage with a fixed-wing robot. At the end\nof the class, the students will be able to critically evaluate existing aerial robotic systems, conceive new systems, and implement functional prototype vehicles.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "MEC697":{
         "CourseTitle":"Practicum in Teaching I",
@@ -1661,10 +1441,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Every TA must register for the course\nFall, Spring,",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "MEC698":{
         "CourseTitle":"Practicum in Teaching II",
@@ -1674,10 +1452,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Practicum in teaching under faculty supervision",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "MEC699":{
         "CourseTitle":"Dissertation Research on Campus",
@@ -1687,10 +1463,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Prerequisite: Advancement to candidacy (G5). Major portion of research must take place on SBU campus, at Cold Spring Harbor, or at the Brookhaven National Lab.\nFall, Spring, and Summer,",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "MEC700":{
         "CourseTitle":"Dissertation Research off Campus - Domestic",
@@ -1700,10 +1474,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Prerequisite: Must be advanced to candidacy (G5). Major portion of research will take place off-campus, but in the United States and\/or U.S. provinces. Please note, Brookhaven National Labs and the Cold Spring Harbor Lab are considered on-campus.\nAll international students must enroll in one of the graduate student insurance plans and should be advised by an International Advisor.\nFall, Spring, Summer",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "MEC701":{
         "CourseTitle":"Dissertation Research off Campus - International",
@@ -1713,10 +1485,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Prerequisite: Must be advanced to candidacy (G5). Major portion of research will take place outside of the United States and\/or U.S. provinces.\nDomestic students have the option of the health plan and may also enroll in MEDEX.\nInternational students who are in their home country are not covered by mandatory health plan and must contact the Insurance Office for the insurance charge to be removed.\nInternational students who are not in their home country are charged for the mandatory health insurance. If they are to be covered by another insurance plan they must file a waiver be second week of classes. The charge will only be removed if other plan is deemed comparable.\nAll international students must received clearance from an International Advisor.\nFall, Spring, Summer",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "MEC800":{
         "CourseTitle":"Full Time Summer Research",
@@ -1726,9 +1496,7 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     }
 }

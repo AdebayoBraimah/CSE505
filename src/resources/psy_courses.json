@@ -7,10 +7,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"An introduction to research and theory in psychology in such areas as learning, perception, cognition, biopsychology, development, personality, and abnormal and social psychology. As part of the course, students must participate in experiments and\/or a library research project.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PSY201":{
         "CourseTitle":"Statistical Methods in Psychology",
@@ -24,10 +22,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"The use and interpretation of elementary statistical techniques in research, emphasizing descriptive statistics, correlational analysis, and inferential statistics, including chi-square, t-tests, and an introduction to the Analysis of Variance. May not be taken for credit after AMS 102, ECO 320, POL 201, or SOC 202. This course has been designated as a High Demand\/Controlled Access (HD\/CA) course. Students registering for HD\/CA courses for the first time will have priority to do so.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PSY220":{
         "CourseTitle":"Survey in Developmental Psychology",
@@ -41,10 +37,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"A study of growth and change in humans. Psychological, physical, social, and cognitive changes will be considered and the role of environmental and genetic influences on development will be examined.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PSY230":{
         "CourseTitle":"Survey in Abnormal and Clinical Psychology",
@@ -58,10 +52,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Examines the description, etiology, course, and treatment of psychological disorders. Current theory and research are emphasized.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PSY240":{
         "CourseTitle":"Survey in Social Psychology",
@@ -75,10 +67,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"A presentation of various topics in social psychology including interpersonal processes, obedience to authority, social perception, attitude change, attraction and liking, and aggression and violence, especially as applied to national and international issues.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PSY250":{
         "CourseTitle":"Survey in Biopsychology",
@@ -94,10 +84,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Introduction to the neural basis of sensory processes, motor control, attention, emotion, and learning.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PSY260":{
         "CourseTitle":"Survey in Cognition and Perception",
@@ -111,10 +99,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"A survey of theoretical and empirical work on human cognition and perception including pattern recognition, memory, attention, language comprehension, decision making, and problem solving.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PSY273":{
         "CourseTitle":"Supervised Research in Psychology",
@@ -124,10 +110,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Initial training and participation in techniques or duties related to a specific laboratory or field research experience under the direct supervision of a faculty member or advanced graduate student in the Department of Psychology. Students may take two sections in a single semester, but no more than three credits may be applied to a section. May not be taken for more than six credits per faculty advisor during the student's career.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PSY283":{
         "CourseTitle":"Applications and Community Service",
@@ -137,10 +121,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Designed to provide opportunities for students to study and apply psychological principles outside the classroom (e.g., in settings such as hospitals and schools). Specific programs vary from semester to semester. General information is available in the Psychology Undergraduate Office. May be repeated up to a limit of six credits.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PSY301":{
         "CourseTitle":"Advanced Statistics",
@@ -155,10 +137,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Survey of probability and sampling theory, descriptive and inferential statistics, and introduction to experimental design.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PSY310":{
         "CourseTitle":"Research and Writing in Psychology",
@@ -175,10 +155,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"An introduction to and critical analysis of the methodology of psychological research. In addition to attending lectures taught by faculty, students work closely with a graduate instructor and peers in small breakout sections to prepare a research proposal. Not for credit in addition to the discontinued PSY 300. This course has been designated as a High Demand\/Controlled Access (HD\/CA) course. Students registering for HD\/CA courses for the first time will have priority to do so. This course has an associated fee. Please see www.stonybrook.edu\/coursefees for more information.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PSY325":{
         "CourseTitle":"Children's Cognitive Development",
@@ -196,10 +174,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"A survey of the basic principles of cognition from experimental research with children. Topics include perceptual development, language development, memory development, conceptual development, and the development of academic skills.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PSY326":{
         "CourseTitle":"Children's Social and Emotional Development",
@@ -215,10 +191,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Current theories, models, research methods, and findings in the study of children's socioemotional development. The course emphasizes the interaction of the individual with his or her social environment in developmental processes and outcomes. Eras covered include infancy, toddler\/preschool, mid-late childhood, and adolescence.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PSY327":{
         "CourseTitle":"Human Growth and Development in the Educational Context",
@@ -228,10 +202,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"The biological and psychological development of childhood and adolescence that affects teaching and curriculum development for diverse learners. Additional topics include childhood and adolescent psychiatric disorders, special education programs, drug and alcohol use and abuse, and societal issues. Formerly SSE 327 and SSI 327. Not for credit in addition to SSE 327 or SSI 327.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PSY329":{
         "CourseTitle":"Special Topics in Developmental Psychology",
@@ -248,10 +220,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"May be repeated as the topic changes.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PSY333":{
         "CourseTitle":"Mood Disorders",
@@ -265,10 +235,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"The mood disorders include bipolar (manic-depressive) and depressive disorders.  They are among the most common psychological disorders, and are a tremendous personal, social, and economic burden.  This course will provide an introduction to current theory and research on the mood disorders, including their classification, epidemiology, course, etiology, pathogenesis, and treatment. Not for credit in addition to PSY 339 with topic of \"Mood Disorders.\"",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PSY334":{
         "CourseTitle":"Autism Spectrum Disorders",
@@ -283,10 +251,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"This course will provide information on history and current research into the causes (etiology), types (nosology), characteristics (symptomatology), prevalence, and treatment of autism spectrum disorders (ASDs). Topics to be dealt with include: etiology, assessment, family roles, social development, cognitive development, sensory and motor development, comorbidities, long-term outcomes, public policy legal issues, and future directions for research and practice.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PSY338":{
         "CourseTitle":"Abnormal Child Psychology",
@@ -303,10 +269,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Development and modification of behavioral deviations in children; application of principles derived from experimental analysis of behavior to problems of children.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PSY339":{
         "CourseTitle":"Special Topics in Clinical Psychology",
@@ -323,10 +287,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"May be repeated as the topic changes.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PSY341":{
         "CourseTitle":"Psychology of Prejudice",
@@ -345,10 +307,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"An overview of theoretical perspectives, research methods, empirical findings, and practical applications of psychological research on prejudice. Topics include the development of prejudice among children; the role of cognitive, social, personality, and motivational factors in maintaining prejudice and stigma; the psychological consequences of prejudice and stigma; and strategies for reducing prejudice, stigma, and intergroup conflict.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PSY342":{
         "CourseTitle":"Psychology of Women's Health",
@@ -365,10 +325,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"An investigation of psychological aspects of women's health and gender differences in health through readings, lectures, films, guest speakers and presentations, class discussions, a writing assignment, and other educational activities.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PSY345":{
         "CourseTitle":"Theories of Personality",
@@ -385,10 +343,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"The study of the ways in which people differ. Examines traditional and current thinking and research about the nature and causes of the individual patterns of behavior, emotion, and thinking that we call personality.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PSY346":{
         "CourseTitle":"Health Psychology",
@@ -403,10 +359,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"The role of psychological factors in the maintenance of good health or in coping with illness. Topics include the modification of specific health behavior, such as alcoholism, obesity, lack of exercise, and smoking; the relationship of stress and illness; and coping with terminal illnesses.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PSY347":{
         "CourseTitle":"Psychology of Women",
@@ -423,10 +377,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"The psychological impact of important physiological and sociological events and epochs in the lives of women; menstruation, female sexuality, marriage, childbirth, and menopause; women and mental health, mental illness and psychotherapy; the role of women in the field of psychology. This course is offered as both PSY 347 and  WST 377.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PSY348":{
         "CourseTitle":"Special Topics in Social Psychology",
@@ -442,10 +394,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"May be repeated as the topic changes.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PSY349":{
         "CourseTitle":"Special Topics in Social Psychology",
@@ -461,10 +411,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"May be repeated as the topic changes.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PSY354":{
         "CourseTitle":"Neurobiology of Learning and Memory",
@@ -481,10 +429,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Our ability to be shaped by our experiences and our sense of personal identity require that our brain encode and store information as one of its fundamental functions. In this course we will look in detail at how neurons and neural circuits respond and change when an organism learns something new or recalls something learned in the past. The focus will be on integrating current work in basic cellular and molecular neurobiology with the experimental psychology of learning and memory. Not for credit in addition to PSY 358 with topic of \"Learning and Memory.\"",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PSY355":{
         "CourseTitle":"Human Brain Function",
@@ -501,10 +447,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"The functional organization of the human brain, including dysfunctions resulting from various types of brain pathology. Neuroanatomical, neuropsychological, neurophysiological, and experimental psychological approaches are described.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PSY356":{
         "CourseTitle":"Physiological Psychology",
@@ -521,10 +465,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"An advanced survey of the neurobiological bases of complex behavior. A review of basic neurophysiology, neuroanatomy, and neurochemistry is followed by considerations of the circuitry and neural processing supporting perception, motion, emotion, sleep, attention, learning, language, and higher cognitive mechanisms.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PSY357":{
         "CourseTitle":"Animal Learning",
@@ -540,10 +482,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Principles of adaptation and behavioral change with emphasis on techniques of reward and punishment and of stimulus control.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PSY358":{
         "CourseTitle":"Special Topics in Biopsychology",
@@ -560,10 +500,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"May be repeated as the topic changes.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PSY359":{
         "CourseTitle":"Special Topics in Biopsychology",
@@ -580,10 +518,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"May be repeated as the topic changes.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PSY364":{
         "CourseTitle":"Judgment and Decision Making",
@@ -599,10 +535,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"An exploration of the psychological factors that influence judgment and decision making. Topics include how judgments and decisions ought to be made (e.g., rational decision making), systematic flaws in people's  actual performance, and the neural systems that underlie decisions.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PSY365":{
         "CourseTitle":"The Psychology of Language",
@@ -618,10 +552,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Examination of theories and research concerning the processes and representations that underlie language comprehension, production, and acquisition.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PSY366":{
         "CourseTitle":"Human Problem Solving",
@@ -637,10 +569,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"An exploration of human problem solving and critical thinking. Topics include memory strategies, the role of language in thinking, inductive and deductive reasoning, creativity, and the development of problem solving skills.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PSY367":{
         "CourseTitle":"Memory",
@@ -656,10 +586,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"A review of classic and current theories of memory and empirical research on memory in memory-intact and memory-impaired populations.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PSY368":{
         "CourseTitle":"Sensation and Perception",
@@ -675,10 +603,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"An examination of both the basic mechanisms and the organizational processes of visual and auditory perception. Topics include the perception of color, depth, movement, pitch, loudness, speech, and music.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PSY369":{
         "CourseTitle":"Special Topics in Cognition and Perception",
@@ -694,10 +620,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"May be repeated as the topic changes.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PSY375":{
         "CourseTitle":"History and Systems of Psychology",
@@ -715,10 +639,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"History of psychology presented either as a development and testing of theories that emerge from a long philosophical tradition, or as a set of practices that serve particular social functions and respond to pressures from the socioeconomic context.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PSY380":{
         "CourseTitle":"Research Lab: Human Cognition",
@@ -735,10 +657,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Techniques and experimental methods to conduct research in cognition on a selection of topics such as perception and sensation, language, attention, or memory.  Hands-on learning of research and reporting of research. This course has an associated fee. Please see www.stonybrook.edu\/coursefees for more information.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PSY382":{
         "CourseTitle":"Research Lab: Social Psychology",
@@ -756,10 +676,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Techniques and experimental problems in social psychology, including natural observation, surveys, and experimental design. Three hours of lecture and two hours of field or laboratory research per week. This course has an associated fee. Please see www.stonybrook.edu\/coursefees for more information.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PSY386":{
         "CourseTitle":"Research Lab: Cultural Psychology",
@@ -773,10 +691,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Research methods in cultural psychology, including natural observation, surveys, and experimental design. Three hours of lecture and two hours of field or laboratory research per week.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PSY389":{
         "CourseTitle":"Research Lab: Special Topics",
@@ -790,10 +706,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Research methods in varying topics in psychological research including natural observation, surveys, and experimental design. Three hours of lecture and two hours of field or laboratory research per week. May be repeated for credit as the topic changes. This course has an associated fee. Please see www.stonybrook.edu\/coursefees for more information.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PSY444":{
         "CourseTitle":"Experiential Learning",
@@ -807,10 +721,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"This course is designed for students who engage in a substantial, structured experiential learning activity in conjunction with another class. Experiential learning occurs when knowledge acquired through formal learning and past experience are applied to a \"real-world\" setting or problem to create new knowledge through a process of reflection, critical analysis, feedback and synthesis. Beyond-the-classroom experiences that support experiential learning may include: service learning, mentored research, field work, or an internship.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PSY447":{
         "CourseTitle":"Readings in Psychology",
@@ -820,10 +732,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Directed readings under the guidance of a faculty member. May be repeated once.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PSY459":{
         "CourseTitle":"Write Effectively in Psychology",
@@ -837,10 +747,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"A zero credit course that may be taken in conjunction with any 300- or 400-level PSY course, with permission of the instructor. The course provides opportunity to practice the skills and techniques of effective academic writing and satisfies the learning outcomes of the Stony Brook Curriculum's WRTD learning objective.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PSY475":{
         "CourseTitle":"Undergraduate Teaching Practicum I",
@@ -850,10 +758,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Work with a faculty member as an assistant in one of the faculty member's regularly scheduled classes.  The student is required to attend all the classes, do all the regularly assigned work, and meet with the faculty member at regularly assigned times to discuss the intellectual and pedagogical matters relating to the course.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PSY476":{
         "CourseTitle":"Undergraduate Teaching Practicum II",
@@ -863,10 +769,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Work with a faculty member as an assistant in one of the faculty member's regularly scheduled classes.  Students assume greater responsibility in such areas as leading discussions and analyzing results of tests that have already been graded. Students may not serve as teaching assistants in the same course twice.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PSY487":{
         "CourseTitle":"Independent Research in Psychology",
@@ -880,10 +784,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Upper-division students interested in carrying out independent research projects under the auspices of a faculty member in the Department of Psychology may do so in this course. The student must propose and carry out the research project and must analyze and write up the results in a form acceptable to the sponsor. Written agreement by the faculty sponsor to undertake this responsibility and an outline of the project goals are filed with the Undergraduate Psychology Office. These become part of the student's departmental file. May be repeated up to a limit of 12 credits.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PSY488":{
         "CourseTitle":"Internship",
@@ -893,10 +795,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Participation in public and private agencies and organizations. Students are required to submit written progress reports and a final written report on their experience to the faculty sponsor and department. May be repeated up to a limit of 12 credits.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PSY491":{
         "CourseTitle":"Advanced Seminar in Psychology",
@@ -910,10 +810,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Special seminars covering current research theory.  Topics are announced prior to the beginning of each semester. May be repeated up to a limit of 18 credits. Students may take two sections in a single semester. May not be taken for more than six credits per faculty member during the student's career.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PSY492":{
         "CourseTitle":"Advanced Seminar in Psychology",
@@ -927,10 +825,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Special seminars covering current research theory.  Topics are announced prior to the beginning of each semester. May be repeated up to a limit of 18 credits. Students may take two sections in a single semester. May not be taken for more than six credits per faculty member during the student's career.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PSY495":{
         "CourseTitle":"Senior Honors Seminar",
@@ -944,10 +840,8 @@
             ]
         ],
         "Description":"First course of a two-semester directed-research activity employing methods and theories of psychological research. Students are expected to design and execute a research project and submit a thesis under the supervision of appropriate faculty sponsorship. Students enrolled in PSY 495 are obliged to complete PSY 496. Students receive only one grade upon completion of the sequence.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PSY496":{
         "CourseTitle":"Senior Honors Seminar",
@@ -965,10 +859,8 @@
             ]
         ],
         "Description":"Second course of a two-semester directed-research activity employing methods and theories of psychological research. Students are expected to design and execute a research project and submit a thesis under the supervision of appropriate faculty sponsorship. Students enrolled in PSY 495 are obliged to complete PSY 496. Students receive only one grade upon completion of the sequence.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PSY501":{
         "CourseTitle":"Analysis of Variance and Experimental Design",
@@ -978,10 +870,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"The design and analysis of factorial experiments having a single dependent variable. Topics include between- and within-subjects designs, mixed-factor designs, interactions, trend analysis, and planned comparisons. Emphasis on applications in psychological research. Required of all Ph.D. students in psychology.\nPrerequisite: Undergraduate statistics, Co-requisite: PSY 508\nFall, 3 credits, ABCDF grading",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PSY502":{
         "CourseTitle":"Correlation and Regression",
@@ -991,10 +881,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Correlation, regression, multiple correlation, multiple regression, partial correlation, and introductions to some of the following topics: factor analysis, mediational analysis, structural equation modeling, relation of regression to analysis of variance, analysis of covariance, discriminant function analysis, and multivariate analysis of variance. Required of all Ph.D. students in psychology. Spring\nCo-requisite: PSY 508",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PSY504":{
         "CourseTitle":"First Year Seminar",
@@ -1004,10 +892,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"This course includes discussion of current research and research practices by faculty and visiting speakers. This course is required of all first-year Ph.D. students and Masters students.\n\n0-3 credits, S\/U grading\n\nMay be repeated for credit.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PSY505":{
         "CourseTitle":"Structural Equation Modeling and Advanced Multivariate Methods",
@@ -1017,10 +903,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Thorough coverage of structural equation modeling and brief coverage of other specialized techniques used in data analysis in psychology, such as multi-level modeling and cluster analysis (topics for brief coverage vary from year to year).  The course emphasizes hands-on work with real data sets, using standard statistical software packages.\nSpring,",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PSY506":{
         "CourseTitle":"Psychometric Methods",
@@ -1030,10 +914,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"This course surveys traditional and evolving views on item design, reliability, and validity, reviews statistical methods related to test construction, and applies this material to the design and evaluation of observational, rating, and self-report methods in domains of interest to psychologists.  The course also examines the impact of test characteristics on data analysis and the role of test design in theory construction.\nFall or Spring, alternate years, 3 credits, ABCDF grading.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PSY507":{
         "CourseTitle":"Meta-Analysis",
@@ -1043,10 +925,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"This course is an introduction to research synthesis and the use of meta-analytic techniques. The content is intended to be a thorough yet practical coverage of basic principles, with an emphasis on leading students through the steps of conducting their own meta-analytic project. A basic knowledge of statistics commonly used in the social and behavioral sciences is essential. Class meetings will involve both didactic instruction and discussion of readings and homework assignments.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PSY508":{
         "CourseTitle":"Introduction to Computer Applications in Statistics",
@@ -1056,10 +936,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Computer protocol and introduction to statistical packages and necessary utility programs. Fall and Spring\nPrerequisite: Corequisite: PSY 501 or 502",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PSY510":{
         "CourseTitle":"History of Psychology",
@@ -1069,10 +947,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Intensive reading in the history of psychology from original sources. Emphasis is on class discussion and relation to modern problems.  Fall or Spring, alternate years",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PSY511":{
         "CourseTitle":"Learning",
@@ -1082,10 +958,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"A consideration of the basic principles of learning. Analysis of the leading theories of learning as well as areas of controversy and dispute. Fall or Spring, alternate years",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PSY513":{
         "CourseTitle":"Theories of Attention",
@@ -1095,10 +969,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"This course covers some of the major theoretical perspectives that have shaped the attention literature, staring with historical distinctions of early versus late selection and ending with more contemporary mathematical, neurophysiological, and neuorcomputational theories.  Specific questions will include: \"What is attention?\" (is it a unitary thing or a grab-bag of assorted processes), \"How does it work,\" and \"What paradigms have researchers used to study attention?\" (dichotic listening, priming, search, etc.).\nFall or Spring, alternate years, 3 credits, ABCDF grading",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PSY514":{
         "CourseTitle":"Sensation and Perception",
@@ -1108,10 +980,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"This course covers the sensory mechanisms that change physical stimuli (e.g., a picture of your friend) into neural information, the major brain areas involved in processing this sensory information for various perceptual abilities (eg., motion perception, color perception, object perception, etc.), and the different theoretical approaches to analyzing a given perceptual phenomenon.\nFall or Spring, alternate years, 3 credits, ABCDF grading",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PSY516":{
         "CourseTitle":"Judgment and Decision Making",
@@ -1121,10 +991,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"This course provides an overview of empirical and theoretical work on\njudgment and decision making.  Topics include what decision making is,\nhow decisions ought to be made, the systematic flaws observed in\nactual decision behavior, the uniquely psychological factors that\ninfluence decision-making (e.g., emotion), and the neural systems that\nunderlie the decisions of both humans and non-human animals.\nFall or Spring, Alternating years",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PSY518":{
         "CourseTitle":"Memory",
@@ -1134,10 +1002,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Review of theory and phenomena related to human memory. Topics include representation of schemas and categories, encoding, forgetting, implicit learning, and memory for procedures. Several recent models of long-term memory representation are discussed and compared.  Fall or Spring, alternate years",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PSY520":{
         "CourseTitle":"Psycholinguistics",
@@ -1147,10 +1013,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"The psychology of language, including the mental lexicon, sentence processing, pragmatics, discourse, production and comprehension of utterances in conversation, language and thought, first-language acquisition, and computational approaches.  Fall or Spring, alternate years",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PSY524":{
         "CourseTitle":"Cognitive Development",
@@ -1160,10 +1024,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"This course presents the developmental perspective as applied to human cognition.  Topics include (1) characteristics and constraints on cognitive abilities in infancy, childhood, and adolescence, (2) mechanisms of developmental change, and (3) links between cognitive development and selected applied topics.\nFall or Spring, alternate years",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PSY533":{
         "CourseTitle":"Principles Applicable to Clinical Psychology: Historical\/systemic perspectives",
@@ -1173,10 +1035,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"A critical review of how principles of general psychology apply to clinical psychology. The course material will be discussed within the context of the history of ideas and major systems of thought as they relate to conceptualization, assessment, and intervention.\nPrerequisite: Psychology doctoral student.\nFall or Spring, alternate years , 3 credits, ABCF grading",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PSY534":{
         "CourseTitle":"Assessment: General Principles, Clinical Interviews, and Adult Psychotherapy",
@@ -1186,10 +1046,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"General principles of assessment; clinical interviewing; structured interviews for assessing axis-I and axis-II psychopathology; ethics and cultural diversity. Prerequisite: Clinical psychology doctoral student\nFall, 2 credits, ABCF grading",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PSY535":{
         "CourseTitle":"Advanced Research Methods",
@@ -1199,10 +1057,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Advanced research methods employed in clinical, personality, social, and behavioral research. Fall or Spring\nPrerequisite: PSY 501, 502, and clinical doctoral student",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PSY537":{
         "CourseTitle":"Methods of Intervention: Treatment of Internalizing Disorders",
@@ -1212,10 +1068,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"This course covers the theory and research associated with the treatment of internalizing disorders of adults, adolescents, and children.  Among the topics covered are the treatment of phobias, school refusual, panic disorder, general anxiety disorder, social anxiety, post-traumatic stress disorder, complicated grief, obsessive compulsive disorder, and mood disorders.  In the treatment of each, particular emphasis is placed on how therapy needs to be modified depending on whether one is working with a child, adolescent or adult.\nFall, 3 credits, ABCF grading",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PSY538":{
         "CourseTitle":"Method of Intervention: Treatment of Externalizing Disorders and Relationship Problems",
@@ -1225,10 +1079,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"This course focuses on the treatment of externalizing disorders of adults and children as well as intimate partner problems like relationship discord and partner abuse. A developmental focus is taken as exemplified by coverage of child externalizing problems such as Oppositional Defiant Disorder, Conduct Disorder, and Attention Deficit Disorder, Borderline Personality Disorder and Partner Abuse. Treatments of alcohol abuse and eating disorders in both teens and adults are presented. Finally, treatment of schizophrenia is addressed along with coverage of the course of schizophrenia across the lifespan. Individual, couple, and family treatments are reviewed.\nSpring, 3 credits, ABCF grading\nPrerequisite: Must be Psychology Graduate Student",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PSY541":{
         "CourseTitle":"Social Psychology of Close Relationships",
@@ -1238,10 +1090,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"High level overview of current theory and research on the social psychology of close relationships.\nFall or Spring, alternate years, 3 credits, ABCF grading",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PSY542":{
         "CourseTitle":"Psychology of Addictive Behaviors",
@@ -1251,10 +1101,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Study of psychological, behavioral and biological theories of addiction.\nFall or Spring, alternate years, 3 credits, ABCF grading",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PSY543":{
         "CourseTitle":"Attachment",
@@ -1264,10 +1112,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"This course examines current psychological theories of infant-parent and child parent relationships and adult-adult attachment with special attention to assessment methods, clinical applications and controversy regarding the importance of early experience.\nFall or Spring, alternate years, 3 credits, ABCF grading",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PSY544":{
         "CourseTitle":"Emotion & Cognition",
@@ -1277,10 +1123,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"This course focuses on fundamental questions  regarding the interaction between emotion and cognition, and how such this interaction can be measured.  Key topics will include: differentiating emotions from other affective states, understanding the functions of discrete emotions, the role of the consciousness in emotional experience, and whether emotions can be controlled ; additionally, the course will address emotion-cognition interactions in the domains of memory, attention, perception and reasoning\/decision-making.  We will also address developmental changes and cross-cultural differences in emotion and cognition.  The goal of the course is to be able to develop a translational research proposal rooted in basic research on emotion and cognition.\nFall or Spring, alternate years, 3 credits, ABCF grading",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PSY545":{
         "CourseTitle":"Psychopathology: Conceptual models and internalizing disorders",
@@ -1290,10 +1134,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Theory and research on abnormal behavior in children, adolescents, and adults. A lifespan development approach is taken, with a focus on classification, conceptualizations and models of psychological disorders, and the phenomenology, epidemiology, course, etiology, pathogenesis, psychopathology, and pathophysiology of internalizing disorders such as mood and anxiety disorders.\nFall, 2 credits, ABCF grading",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PSY546":{
         "CourseTitle":"Measurement and Scaling",
@@ -1303,10 +1145,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"An historical introduction to the measurement of psychological variables and survey of contemporary scaling methods with an emphasis on psychophysical scaling and experimental applications.  Fall or Spring, alternate years",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PSY549":{
         "CourseTitle":"Prejudice and Discrimination",
@@ -1316,10 +1156,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"This course will provide an overview of theoretical perspectives, research methods, empirical findings, and practical applications of psychological research on prejudice, stigma, and intergroup relations.  Critical thinking about theorizing and research in this area will be emphasized during class discussions and through a course project.  Students are admitted with permission by instructor.\nFall or Spring, alternate years, 3 credits, ABCF grading",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PSY552":{
         "CourseTitle":"Social and Personality Development",
@@ -1329,10 +1167,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"A survey of milestones and processes of social development in infancy and childhood. Relevance to understanding adult personality and social relationships is emphasized.  Fall or Spring, alternate years",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PSY555":{
         "CourseTitle":"Social Psychology",
@@ -1342,10 +1178,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"An introduction to social psychology, a field of study examining how people feel about, think about, and influence others.  Topics include attitudes, motivation, social judgements, and interpersonal behaviors.  Coursework focuses on identifying basic principles that transcend particular content domains.\nFall or Spring, alternate years,",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PSY556":{
         "CourseTitle":"Stress and Coping",
@@ -1355,10 +1189,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"In this course, we examine current issues, challenges, and questions in two related areas of psychology: stress and coping. We will cover classical approaches in addition to recent empirical research and theoretical development. Students are not expected to have prior familiarity with the topic areas. We will begin by reviewing definitions and major theoretical orientations. In subsequent weeks we will concentrate on issues relevant to stress, coping, and related topics such as social support, across a broad range of circumstances, rather than focusing on specific stressful contexts such as chronic illness or bereavement. For example, we will examine ways to define successful and maladaptive coping. We will also consider whether social support is better conceptualized as a commodity or as an individual perception. We will compare contradictory evidence about the benefits of perceived control, and we will discuss problems of generalizing research findings to different ethnic, cultural, and other groups.\nOffered: Fall, Spring alternate years, 3 credits ABCF grading",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PSY558":{
         "CourseTitle":"Theories of Social Psychology: Health Applications",
@@ -1368,10 +1200,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"This course provides an overview of the ways in which social psychological theories and perspectives can be used to understand thoughts and behavior relevant to health and illness. It covers social influence, social comparison, pluralistic ignorance, social support, cognitive dissonance, message framing, and fear communication. The course also covers links between personality characteristics and health and how broader social and cultural environment affects health and illness.\nFall or Spring, alternate years, 3 credits, ABCF grading",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PSY559":{
         "CourseTitle":"Psychology of Women's Health",
@@ -1381,10 +1211,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"This course covers a variety of psychologically-important topics in women's health based on current research findings. We address psychological contributors to and consequences of women's health and illness, focusing on diseases that affect women differently or disproportionately than men (including coronary heart disease, cancer, AIDS, and autoimmune diseases), women's reproductive health (including menstruation, contraception, pregnancy, infertility, and menopause), health behaviors (including substance abuse, exercise, and eating), and other topics such as violence against women, women's mental health, and women as health care providers and health researchers.\nCo-scheduled with WST 559.\nFall or Spring, altenrate years, 3 credits, ABCF grading",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PSY560":{
         "CourseTitle":"Human Brain Function",
@@ -1394,10 +1222,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Cognitive neuroscience is an interdisciplinary field, at the interface of systems neuroscience, computational neuroscience, and cognitive psychology.  In this course, we examine the current theories and empirical research findings on the neural basis of cognition.  We will cover anatomical, neurophysiological and pharmacological correlates of behavioral functions such as perception, attention, motivation, learning, memory, cognitive control, and communication.  We will evaluate the strengths and weaknesses of various approaches used to student the neural substrates of higher-order cognition.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PSY561":{
         "CourseTitle":"Cognitive and Behavioral Neuroscience I",
@@ -1407,10 +1233,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"This course introduces students to neural elements responsible for processing information supporting sensation, perception, cognition and movement. Starting with the philosophy of the mind and the history of neuroscience, the course proceeds with an introduction of cells, neural signaling, transmitters and receptors. How these elemental units are integrated to support emergent properties, usch as object recognition, is illustrated. Coversely, examples of complex behavioral impairments resulting from dysfunction in elemental units illustrated. The course proceed to cover neral metabolism, and its relation to disorders of memory and motor dysfunction. Last, stress and its role in neuropsychological disorders is discussed.\nSpring, 3 credits, ABCF grading",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PSY562":{
         "CourseTitle":"Cognitive and Behavioral Neuroscience II",
@@ -1420,10 +1244,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Cognitive and Behavioral Neuroscience illustrates how cellular circuits support function. Classic experiments demonstrating function fro the use of electrophysiological data, lesions and transmitter manipulations are discussed. Students interested in understanding how individual neurons and neural circuits and integrated regional systems directly support specific behaviors will find this course of interest. A textbook is used for the readings.\nFall, 3 credits, ABCF grading",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PSY563":{
         "CourseTitle":"Neuropsychological Assessment",
@@ -1433,10 +1255,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Classroom discussions of issues in neuropsychological assessment and design of assessment batteries are combined with practical experience in the assessment of clinical populations.  Each student is assigned to a supervisor to learn assessment techniques for research and\/or clinical practice.  Fall or Spring, alternate years",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PSY564":{
         "CourseTitle":"Neuropsychopharmacology",
@@ -1446,10 +1266,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"This course covers the mechanisms of transmitters and related drug action in the nervous system. In addition to exploring transmitter\/receptor relationships, the course covers the sequence of events initiated by this action. Through understanding of these processes, the course then links drug action to nervous system outcomes such as movement, cognition, pain and mood.\nSpring, alternate years, 3 credits, ABCF grading",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PSY565":{
         "CourseTitle":"Functional Neuroanatomy",
@@ -1459,10 +1277,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Just as a function can be derived from the structure of everyday objects, so too can function be derived from the study of brain architecture and neural connectivity.  Accordingly, this course takes a structural approach to the understanding of the nervous system and behavior.  To complement a disciplinary focus on cognition, affect and emotions, this course will emphasize the connectivity of higher order brain regions.  Students will first be introduced to the global organization of the nervous system and a general framework for information processing.  Then sensory and motor pathways will be discussed imn more detail.  The course will end with topics such as the neurocircuitry of addiction, emotion, and memory.\nOffered Spring, 3 Credits, ABCF Grading",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PSY581":{
         "CourseTitle":"Integrative Neuroscience Seminar I",
@@ -1472,10 +1288,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"This course includes discussion of current research in Integrative Neuroscience by faculty, students, and visiting scientists. This sequence is required of all students in the Integrative Neuroscience Program.\n\nFall, 0-3 credits, S\/U grading\n\nMay be repeated for credit.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PSY582":{
         "CourseTitle":"Integrative Neuroscience Seminar II",
@@ -1485,10 +1299,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"This course includes discussions of current research in Integrative Neuroscience by faculty, students, and visiting scientists. This sequence is required of all students in the Integrative Neuroscience program.\n\nSpring, 0-3 credits, S\/U grading\n\nMay be repeated for credit.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PSY583":{
         "CourseTitle":"Cognitive Science Seminar I",
@@ -1498,10 +1310,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"This course includes discussions of current research in Cognitive Science by faculty, students, and invited scientists. This sequence is required of all students in the Cognitive Science program.\n\nFall, 0-3 credits, S\/U grading\n\nMay be repeated for credit.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PSY584":{
         "CourseTitle":"Cognitive Science Seminar II",
@@ -1511,10 +1321,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"This course includes discussions of current research in Cognitive Science by faculty, students, and invited scientists. This sequence is required of all students in the Cognitive Science program.\n\nSpring, 0-3 credits, S\/U grading\n\nMay be repeated for credit.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PSY585":{
         "CourseTitle":"Social and Health Psychology Seminar I",
@@ -1524,10 +1332,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"This course includes discussions of current research in Social and Health Psychology by faculty, students, and visiting scientists. This sequence is required of all students in the Social and Health Psychology Program.\n\nFall, 0-3 credits, S\/U grading\n\nMay be repeated for credit.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PSY586":{
         "CourseTitle":"Social and Health Psychology Seminar II",
@@ -1537,10 +1343,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"This course includes discussions of current research in Social and Health Psychology by faculty, students, and visiting scientists. This sequence is required of all students in the Social and Health Psychology Program.\n\nSpring, 0-3 credits, S\/U grading\n\nMay be repeated for credit.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PSY587":{
         "CourseTitle":"Clinical Psychology Seminar I",
@@ -1550,10 +1354,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"This course includes discussions of current research in Clinical Psychology by faculty, students, and visiting scientists.\n\nFall, 0-3 credits, S\/U grading\n\nMay be repeated for credit.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PSY588":{
         "CourseTitle":"Clinical Psychology Seminar II",
@@ -1563,10 +1365,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"This course includes discussions of current research in Clinical Psychology by faculty, students, and visiting scientists.\n\nSpring, 0-3 credits, S\/U grading\n\nMay be repeated for credit.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PSY594":{
         "CourseTitle":"Psychology of Gender",
@@ -1576,10 +1376,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"This class examines how gender affects and is affected by behavior, thoughts, and emotions.  We investigate gender differences and similarities across the lifespan and consider various perspectives on the study of gender, including psychobiology, social cognitive theory, social role theory, and cross-cultural research.\nFall or Spring, alternate years,",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PSY595":{
         "CourseTitle":"Human Development",
@@ -1589,10 +1387,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"An examination of the biological and psychological development of children and adolescents and its relationship to teaching and curriculum development for diverse learners.  The course will focus on special education programs, childhood and adolescent psychiatric disorders, and societal issues.\nOffered: Fall, Spring, Summer\n3 credits, may be repeated for credit, ABCF grading,",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PSY596":{
         "CourseTitle":"Psychopathology: Externalizing & Psychotic Disorders",
@@ -1602,10 +1398,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Theory and research of abnormal behavior in children, adolescents, and adults. A lifespan development approach is taken, with a focus on the phenomenology, epidemiology, course, etiology, pathogenisis, psychopathology, and pathophysiology of externalizing disorders (e.g., conduct, disorder, personality disorders, substance use disorders) and psychotic disorders.\nPrerequisite: Must be Psychology Graduate Student\nSpring, 2 credits, ABCF grading",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PSY602":{
         "CourseTitle":"Assessment: Personality Testing, Intellectual\/Cognitive Testing; and Child Parent Assessment",
@@ -1615,10 +1409,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Self-report and projective measures of personality and psychopathology; targeted assessments and measures; intellectual and cognitive assessment; assessment of children and parents; ethics and cultural diversity.\nSpring, 2 credits, ABCF grading\nPrerequisite: must be clinical doctoral student",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PSY603":{
         "CourseTitle":"Ethics and Professional Issues",
@@ -1628,10 +1420,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Ethics and professional issues. Required of all first-year clinical students.\nPrerequisite: Clinical psychology doctoral student\nSpring, 2 credits, S\/U grading",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PSY604":{
         "CourseTitle":"Intervention Practicum",
@@ -1641,10 +1431,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Exposure of the application of clinical intervention procedures.\nPrerequisite: PSY 537 or PSY 538, Must be Psychology Graduate Student\nFall, 2 credits, S\/U grading",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PSY605":{
         "CourseTitle":"Advanced Clinical Practicum",
@@ -1654,10 +1442,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Exposure to the application of advanced intervention procedures.\nPrerequisite: PSY 604 and Clinical psychology doctoral student\nFall and Spring, 2 credits, S\/U grading",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PSY606":{
         "CourseTitle":"Supervised Practice",
@@ -1667,10 +1453,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Clinical Psychology faculty meet with students as a group with follow-up individual recitation sessions to cover topics such as assessment and treatment conceptualization of specific cases that students are seeing in Psychological Center. In addition, methods of providing documentation of change in individual cases are discussed as well as means of obtaining corroborating evidence to support self-reported information. Students present case material to the group and receive peer and faculty feedback about case conceptualization and treatment.\nPrerequisite: Clinical psychology doctoral student\nFall,Spring, Summer, 3 credits, S\/U grading",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PSY608":{
         "CourseTitle":"Clinical Psychology Internship",
@@ -1680,10 +1464,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Qualified clinical students carry out supervised clinical responsibilities in settings approved by the faculty.\nPrerequisite:Clinical psychology doctoral student\nFall and Spring, 1 credit, S\/U grading, Repeat for Credit.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PSY610":{
         "CourseTitle":"Seminars in Selected Topics",
@@ -1693,10 +1475,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Topics selected on the basis of the needs of the graduate program and research interests of the staff.\nPrerequisite: Permission of instructor\nFall, 0-3 credits, ABCF grading, may be repeated for credit",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PSY620":{
         "CourseTitle":"Seminars in Selected Topics",
@@ -1706,10 +1486,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Topics selected on the basis of the needs of the graduate program and research interests of the staff.\nPrerequisite: Permission of instructor\nSpring, 0-3 credits, ABCF grading, may be repeated for credit",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PSY621":{
         "CourseTitle":"Seminar in Teaching Methods",
@@ -1719,10 +1497,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Theory and pragmatics of good college teaching. Topics include lecturing, use of discussion, types of evaluation of students and teachers, factors affecting undergraduate learning, ethics, student-faculty relations, course administration, and audio-visual devices.\nPrerequisites: Matriculated psychology graduate student; permission of instructor 0-3 credits, ABCF grading",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PSY695":{
         "CourseTitle":"Graduate Academic and Professional Skills Practicum",
@@ -1732,10 +1508,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Students enrolled in the M.A. program in Psychology may gain degree-relevant practical experience under the supervision of the program advisor. This experience may include participation in public and private agencies and organizations and experience in teaching support roles. Students are required to submit written progress reports and a final written report on their experience to the faculty sponsor and department.\nOffered Fall, Spring, and Summer, 1-6 Credits, S\/U grading",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PSY696":{
         "CourseTitle":"Readings",
@@ -1745,10 +1519,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Prerequisite: Permission of instructor",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PSY698":{
         "CourseTitle":"Research",
@@ -1758,10 +1530,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Prerequisite: Permission of instructor",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PSY699":{
         "CourseTitle":"Dissertation Research on Campus",
@@ -1771,10 +1541,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Dissertation research under direction of advisor.\nPrerequisite: Advancement to candidacy (G5). Major portion of research must take place on SBU campus, at Cold Spring Harbor, or at the Brookhaven National Lab.\nFall, Spring and Summer",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PSY700":{
         "CourseTitle":"Dissertation Research off Campus - Domestic",
@@ -1784,10 +1552,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Prerequisite: Must be advanced to candidacy (G5). Major portion of research will take place off-campus, but in the United States and\/or U.S. provinces. Please note, Brookhaven National Labs and the Cold Spring Harbor Lab are considered on-campus.\nAll international students must enroll in one of the graduate student insurance plans and should be advised by an International Advisor.\nFall, Spring, Summer",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PSY701":{
         "CourseTitle":"Dissertation Research off Campus - International",
@@ -1797,10 +1563,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Prerequisite: Must be advanced to candidacy (G5). Major portion of research will take place outside of the United States and\/or U.S. provinces.\nDomestic students have the option of the health plan and may also enroll in MEDEX.\nInternational students who are in their home country are not covered by mandatory health plan and must contact the Insurance Office for the insurance charge to be removed.\nInternational students who are not in their home country are charged for the mandatory health insurance. If they are to be covered by another insurance plan they must file a waiver be second week of classes. The charge will only be removed if other plan is deemed comparable.\nAll international students must received clearance from an International Advisor.\nFall, Spring, Summer",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PSY800":{
         "CourseTitle":"Full Time Summer Research",
@@ -1810,10 +1574,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"0 credits, S\/ grading",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PSY820":{
         "CourseTitle":"Summer Teaching-CED",
@@ -1823,9 +1585,7 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     }
 }

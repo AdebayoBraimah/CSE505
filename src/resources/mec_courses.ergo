@@ -7,10 +7,8 @@
 \##2['Antirequisites' -> 'NONE'].
 \##2['Corequisites' -> 'NONE'].
 \##2['Description' -> 'Introduction to the engineering experience in general and mechanical engineering in particular through lectures by faculty and invited speakers from industry, field trips, films and laboratory demonstrations. Lectures cover creative thinking and problem-solving, design team work, computer utilization, engineering ethics and legal issues, use of libraries and other sources of information, career opportunities in mechanical engineering and related fields, emerging technologies and the cross-disciplinary nature of engineering.'].
-\##2['spring1' -> 1].
-\##2['fall1' -> 1].
-\##2['spring2' -> 1].
-\##2['fall2' -> 1].
+\##2['spring' -> 1].
+\##2['fall' -> 1].
 \##1['MEC101' -> \##3].
 \##3['CourseTitle' -> 'Freshman Design Innovation'].
 \##3['Career' -> 'Undergraduate'].
@@ -19,10 +17,8 @@
 \##3['Antirequisites' -> 'NONE'].
 \##3['Corequisites' -> 'NONE'].
 \##3['Description' -> 'This course presents an overview of the mechanical engineering profession, engineering ethics, basics of computation via correct usage of dimensions, units, and significant digits, and engineering documentation. Furthermore, this course introduces the students to the process of engineering design and provides a project-based design experience wherein the students design, build, and program a microcontroller driven autonomous mechatronic device. In doing so, they are provided an early exposure to the systematic approach to engineering problem solving that brings together fundamental concepts of forces, motions, energy, materials, manufacturing processes, and machines and mechanisms from mechanical engineering and basic electronics, sensing, actuation, and computer programming. This course has an associated fee. Please see www.stonybrook.edu/coursefees for more information.'].
-\##3['spring1' -> 1].
-\##3['fall1' -> 1].
-\##3['spring2' -> 1].
-\##3['fall2' -> 1].
+\##3['spring' -> 1].
+\##3['fall' -> 1].
 \##1['MEC102' -> \##4].
 \##4['CourseTitle' -> 'Engineering Computing and Problem Solving'].
 \##4['Career' -> 'Undergraduate'].
@@ -31,10 +27,8 @@
 \##4['Antirequisites' -> 'NONE'].
 \##4['Corequisites' -> 'NONE'].
 \##4['Description' -> 'Introduction to programming with MATLAB. Control structures, arrays and matrix operations, functions, object-oriented programming, interfacing MATLAB with other languages. Projects include applications in solid mechanics, fluid mechanics, thermodynamics and heat transfer, control theory, and basic design concepts. Emphasizes the interpretation of previous analysis in terms of generating results, making quantitative comparisons, and assessing changes that optimize or otherwise maximize the usefulness of the result.'].
-\##4['spring1' -> 1].
-\##4['fall1' -> 1].
-\##4['spring2' -> 1].
-\##4['fall2' -> 1].
+\##4['spring' -> 1].
+\##4['fall' -> 1].
 \##1['MEC104' -> \##5].
 \##5['CourseTitle' -> 'Practical Science of Things'].
 \##5['Career' -> 'Undergraduate'].
@@ -43,10 +37,8 @@
 \##5['Antirequisites' -> 'NONE'].
 \##5['Corequisites' -> 'NONE'].
 \##5['Description' -> 'A practical introduction to the science and engineering of objects and phenomena in everyday life. The basic principles that underlie the operation common to modern devices such as rollercoasters, balloons, vacuum cleaners, airplanes, bicycles, thermostats, air conditioners and automobiles are developed by investigating how they work. The scientific method, engineering design methodology, safety, and environmental impacts are discussed in the context of these practical applications.'].
-\##5['spring1' -> 1].
-\##5['fall1' -> 1].
-\##5['spring2' -> 1].
-\##5['fall2' -> 1].
+\##5['spring' -> 1].
+\##5['fall' -> 1].
 \##1['MEC105' -> \##6].
 \##6['CourseTitle' -> 'Everyday Science and Engineering'].
 \##6['Career' -> 'Undergraduate'].
@@ -55,10 +47,8 @@
 \##6['Antirequisites' -> 'NONE'].
 \##6['Corequisites' -> 'NONE'].
 \##6['Description' -> 'A practical introduction to the science and engineering of objects and phenomena in everyday life. The basic principles that underlie the operation common to modern devices such as xerographic copiers, tape recorders, computers, microwaves, lasers, CDs, plastics, nuclear weapons, and magnetic resonance imaging (MRI) are developed by investigating how they work. The scientific method, engineering design methodology, safety, and environmental impacts are discussed in the context of these practical applications.'].
-\##6['spring1' -> 1].
-\##6['fall1' -> 1].
-\##6['spring2' -> 1].
-\##6['fall2' -> 1].
+\##6['spring' -> 1].
+\##6['fall' -> 1].
 \##1['MEC203' -> \##7].
 \##7['CourseTitle' -> 'Engineering Graphics and CAD'].
 \##7['Career' -> 'Undergraduate'].
@@ -67,10 +57,8 @@
 \##7['Antirequisites' -> 'NONE'].
 \##7['Corequisites' -> 'NONE'].
 \##7['Description' -> 'Introduces engineering graphics and its role in design process. Includes the principles of engineering drawing and sketching for mechanical design, the use of computer graphics and solid modeling in design representation of 3D objects, assembly and simulation as well as ASME standards on geometric dimensioning and tolerances. Includes hands-on experience in the use of CAD software packages for engineering design. Engineering ethics.'].
-\##7['spring1' -> 1].
-\##7['fall1' -> 1].
-\##7['spring2' -> 1].
-\##7['fall2' -> 1].
+\##7['spring' -> 1].
+\##7['fall' -> 1].
 \##1['MEC220' -> \##8].
 \##8['CourseTitle' -> 'Practical Electronics for Mechanical Engineers'].
 \##8['Career' -> 'Undergraduate'].
@@ -79,10 +67,8 @@
 \##8['Antirequisites' -> 'NONE'].
 \##8['Corequisites' -> 'NONE'].
 \##8['Description' -> 'An overview of basic electronics at the practical level. The course provides mechanical engineering students with the fundamentals to perform basic electronics work needed in laboratories, subsequent courses and their professional careers. Topics include both passive and active components, AC and DC circuits, and a focus on operational amplifier and transistor driven circuits needed for instrumentation and control. Hands-on work in each area complements theoretical analysis, and ensures that students can implement these circuits and devices practically; students will analyze and build circuits both from circuit diagrams, as well as from product datasheets.'].
-\##8['spring1' -> 1].
-\##8['fall1' -> 1].
-\##8['spring2' -> 1].
-\##8['fall2' -> 1].
+\##8['spring' -> 1].
+\##8['fall' -> 1].
 \##1['MEC225' -> \##9].
 \##9['CourseTitle' -> 'Fundamentals of Machining Practices'].
 \##9['Career' -> 'Undergraduate'].
@@ -91,10 +77,8 @@
 \##9['Antirequisites' -> 'NONE'].
 \##9['Corequisites' -> 'NONE'].
 \##9['Description' -> 'Hands-on experience in the fundamentals of machining including metrology tools and devices, saw, sheet metal working, drilling, reaming, taping, turning, boring, milling, and welding. Not for credit in addition to MEC 226. This course has an associated fee. Please see www.stonybrook.edu/coursefees for more information.'].
-\##9['spring1' -> 1].
-\##9['fall1' -> 1].
-\##9['spring2' -> 1].
-\##9['fall2' -> 1].
+\##9['spring' -> 1].
+\##9['fall' -> 1].
 \##1['MEC226' -> \##10].
 \##10['CourseTitle' -> 'Modern Machining Practices'].
 \##10['Career' -> 'Undergraduate'].
@@ -103,10 +87,8 @@
 \##10['Antirequisites' -> 'NONE'].
 \##10['Corequisites' -> 'NONE'].
 \##10['Description' -> 'Hands-on experience in automated machining including additive and subtractive processes, such as fused deposition modeling (FDM) rapid prototyping, and computer numerical control (CNC) multi-axis machining. Not for credit in addition to MEC 225. This course has an associated fee. Please see www.stonybrook.edu/coursefees for more information.'].
-\##10['spring1' -> 1].
-\##10['fall1' -> 1].
-\##10['spring2' -> 1].
-\##10['fall2' -> 1].
+\##10['spring' -> 1].
+\##10['fall' -> 1].
 \##1['MEC260' -> \##11].
 \##11['CourseTitle' -> 'Engineering Statics'].
 \##11['Career' -> 'Undergraduate'].
@@ -115,10 +97,8 @@
 \##11['Antirequisites' -> 'NONE'].
 \##11['Corequisites' -> [['AMS261', 'MAT203']]].
 \##11['Description' -> 'A review of vector algebra. Concept of force. Equilibrium of particles. Moments about points and lines, couples and equivalent force systems. Equilibrium of rigid bodies. Analysis of simple structures such as trusses, frames, and beams. Centroids, centers of gravity, and moments of inertia. Dry friction with applications to wedges, screws, and belts. Method of virtual work, potential energy, and stability.'].
-\##11['spring1' -> 1].
-\##11['fall1' -> 1].
-\##11['spring2' -> 1].
-\##11['fall2' -> 1].
+\##11['spring' -> 1].
+\##11['fall' -> 1].
 \##1['MEC262' -> \##12].
 \##12['CourseTitle' -> 'Engineering Dynamics'].
 \##12['Career' -> 'Undergraduate'].
@@ -127,10 +107,8 @@
 \##12['Antirequisites' -> 'NONE'].
 \##12['Corequisites' -> 'NONE'].
 \##12['Description' -> 'Vectorial kinematics of particles in space, orthogonal coordinate systems. Relative and constrained motions of particles. Dynamics of particles and the systems of particles, equations of motion, energy and momentum methods. Collisions. Two- and three-dimensional kinematics and dynamics of rigid bodies. Moving frames and relative motion. Free, forced, and damped vibrations of particles and rigid bodies.'].
-\##12['spring1' -> 1].
-\##12['fall1' -> 1].
-\##12['spring2' -> 1].
-\##12['fall2' -> 1].
+\##12['spring' -> 1].
+\##12['fall' -> 1].
 \##1['MEC280' -> \##13].
 \##13['CourseTitle' -> 'Pollution and Human Health'].
 \##13['Career' -> 'Undergraduate'].
@@ -139,10 +117,8 @@
 \##13['Antirequisites' -> 'NONE'].
 \##13['Corequisites' -> 'NONE'].
 \##13['Description' -> 'An examination of major environmental pollution problems such electromagnetic radiation, ozone layer depletion, and global warming, with a specific focus on the resulting effects on human health. Assessment of health risks in relation to the formulation of environmental and workplace regulations is also considered.'].
-\##13['spring1' -> 1].
-\##13['fall1' -> 1].
-\##13['spring2' -> 1].
-\##13['fall2' -> 1].
+\##13['spring' -> 1].
+\##13['fall' -> 1].
 \##1['MEC300' -> \##14].
 \##14['CourseTitle' -> 'Professional Conduct for Engineers'].
 \##14['Career' -> 'Undergraduate'].
@@ -151,10 +127,8 @@
 \##14['Antirequisites' -> 'NONE'].
 \##14['Corequisites' -> 'NONE'].
 \##14['Description' -> 'The study of ethical decisions confronting individuals and organizations in engineering and science. Related questions about moral conduct, character, ideals and relationships of people and organizations involved in technical development are discussed. Ethics codes for engineers, computer scientists, and natural scientists are covered. The interaction of engineers, their technology, the society and the environment is examined using case studies. Includes topics in law such as negotiation, reverse engineering, ownership and enforcement of intellectual property, and export controls. Introduction to patents and patent infringement using case studies.'].
-\##14['spring1' -> 1].
-\##14['fall1' -> 1].
-\##14['spring2' -> 1].
-\##14['fall2' -> 1].
+\##14['spring' -> 1].
+\##14['fall' -> 1].
 \##1['MEC301' -> \##15].
 \##15['CourseTitle' -> 'Thermodynamics'].
 \##15['Career' -> 'Undergraduate'].
@@ -163,10 +137,8 @@
 \##15['Antirequisites' -> 'NONE'].
 \##15['Corequisites' -> 'NONE'].
 \##15['Description' -> 'Variables that describe the thermodynamic state of a system or control volume, including absolute temperature, internal energy, enthalpy, and entropy are introduced, and basic principles governing the transformations of energy, especially heat and work, are developed. Underlying principles are used to analyze and solve problems related to thermodynamic systems and to determine the changes in properties of the systems and surroundings implied by changes in inputs, configuration, or constraints.'].
-\##15['spring1' -> 1].
-\##15['fall1' -> 1].
-\##15['spring2' -> 1].
-\##15['fall2' -> 1].
+\##15['spring' -> 1].
+\##15['fall' -> 1].
 \##1['MEC305' -> \##16].
 \##16['CourseTitle' -> 'Heat and Mass Transfer'].
 \##16['Career' -> 'Undergraduate'].
@@ -175,10 +147,8 @@
 \##16['Antirequisites' -> 'NONE'].
 \##16['Corequisites' -> 'NONE'].
 \##16['Description' -> 'The fundamental laws of momentum, heat and mass transfer, and the corresponding transport coefficients. Principles of steady-state and transient heat conduction in solids are investigated. Laminar and turbulent boundary layer flows are treated, as well as thermal radiation, and radiation heat transfer between surfaces. Applications to heat transfer equipment are covered throughout the course.'].
-\##16['spring1' -> 1].
-\##16['fall1' -> 1].
-\##16['spring2' -> 1].
-\##16['fall2' -> 1].
+\##16['spring' -> 1].
+\##16['fall' -> 1].
 \##1['MEC310' -> \##17].
 \##17['CourseTitle' -> 'Introduction to Machine Design'].
 \##17['Career' -> 'Undergraduate'].
@@ -187,10 +157,8 @@
 \##17['Antirequisites' -> 'NONE'].
 \##17['Corequisites' -> [['MEC203', 'ESG316']]].
 \##17['Description' -> 'Application of graphical and analytical methods to the analysis and synthesis of mechanism. Covers concepts of degrees of freedom, graphical and analytical linkage synthesis, position, velocity, acceleration, and force analysis of linkage mechanisms. Introduces principles behind the operation of various machine elements such as gears and gear trains, cams, flywheels and their design, and analysis techniques.'].
-\##17['spring1' -> 1].
-\##17['fall1' -> 1].
-\##17['spring2' -> 1].
-\##17['fall2' -> 1].
+\##17['spring' -> 1].
+\##17['fall' -> 1].
 \##1['MEC316' -> \##18].
 \##18['CourseTitle' -> 'Instrumentation and Solid Mechanics Laboratory'].
 \##18['Career' -> 'Undergraduate'].
@@ -199,10 +167,8 @@
 \##18['Antirequisites' -> 'NONE'].
 \##18['Corequisites' -> 'NONE'].
 \##18['Description' -> 'Hands-on experience in solid mechanics and instrumentation with focus on the concept of static and dynamic response. Students learn to operate instruments for measuring displacement, angle, acceleration, and strain. Student groups perform a series of experiments to probe the spatial and temporal resolution of modern instrumentation and sensors in relation with fundamental material properties. Lectures at the beginning of the course provide background information and theories of experimentation. Not to be taken in the same semester as MEC 317. This course has an associated fee. Please see www.stonybrook.edu/coursefees for more information.'].
-\##18['spring1' -> 1].
-\##18['fall1' -> 1].
-\##18['spring2' -> 1].
-\##18['fall2' -> 1].
+\##18['spring' -> 1].
+\##18['fall' -> 1].
 \##1['MEC317' -> \##19].
 \##19['CourseTitle' -> 'Thermal Sciences and Fluid Mechanics Laboratory'].
 \##19['Career' -> 'Undergraduate'].
@@ -211,10 +177,8 @@
 \##19['Antirequisites' -> 'NONE'].
 \##19['Corequisites' -> [['MEC220'], ['MEC301'], ['MEC364'], ['AMS361', 'MAT303']]].
 \##19['Description' -> 'Hands-on experience in fluid mechanics, heat transfer, and thermodynamics. Introduction to a variety of sensors and instruments commonly used in mechanical engineering with focus on temperature, pressure, and flow velocity measurements. Student groups perform a series of experiments with emphasis on the understanding of fundamental principles as well as familiarity with modern experimentation. Lectures at the beginning of the course provide background information and theories of experimentation. Not to be taken in the same semester as MEC 316. This course has an associated fee. Please see www.stonybrook.edu/coursefees for more information.'].
-\##19['spring1' -> 1].
-\##19['fall1' -> 1].
-\##19['spring2' -> 1].
-\##19['fall2' -> 1].
+\##19['spring' -> 1].
+\##19['fall' -> 1].
 \##1['MEC320' -> \##20].
 \##20['CourseTitle' -> 'Numerical Methods in Engineering Design and Analysis'].
 \##20['Career' -> 'Undergraduate'].
@@ -223,10 +187,8 @@
 \##20['Antirequisites' -> 'NONE'].
 \##20['Corequisites' -> 'NONE'].
 \##20['Description' -> 'This course emphasizes the implementation of numerical methods for computer-aided solutions to the problems that arise in engineering design and analysis. Methods include interpolation, extrapolation, curve fitting, and integration and techniques solving non-linear equations, systems of linear equations, and differential equations. Optimization in engineering design is covered from the formulation of design specifications and criteria, to analyzable models, through to numerical implementation. May not be taken for credit in addition to AMS 326 or CIV 350.'].
-\##20['spring1' -> 1].
-\##20['fall1' -> 1].
-\##20['spring2' -> 1].
-\##20['fall2' -> 1].
+\##20['spring' -> 1].
+\##20['fall' -> 1].
 \##1['MEC325' -> \##21].
 \##21['CourseTitle' -> 'Manufacturing Processes'].
 \##21['Career' -> 'Undergraduate'].
@@ -235,10 +197,8 @@
 \##21['Antirequisites' -> 'NONE'].
 \##21['Corequisites' -> [['MEC203'], ['MEC225', 'MEC226']]].
 \##21['Description' -> 'Introduces traditional and modern manufacturing processes, their capabilities, and limitations. The properties of engineering materials are discussed in the context of manufacturing applications. Examples of topics to be discussed include additive processes (casting, 3D printing, etc.), subtractive processes (milling, turning, etc.), forming processes (forging, bending, extrusion, etc.), and joining processes (welding, mechanical fastening , etc.). Hands-on experience with manufacturing machines and processes is included.'].
-\##21['spring1' -> 1].
-\##21['fall1' -> 1].
-\##21['spring2' -> 1].
-\##21['fall2' -> 1].
+\##21['spring' -> 1].
+\##21['fall' -> 1].
 \##1['MEC363' -> \##22].
 \##22['CourseTitle' -> 'Mechanics of Solids'].
 \##22['Career' -> 'Undergraduate'].
@@ -247,10 +207,8 @@
 \##22['Antirequisites' -> 'NONE'].
 \##22['Corequisites' -> 'NONE'].
 \##22['Description' -> 'Stress and deformation of engineering structures and the influence of the mechanical behavior of materials. Concepts of stress and strain, constitutive relations, analysis of statically indeterminate systems, study of simple bars and beams, and stability conditions. Emphasis on force equilibrium, elastic response of materials, geometric compatibility, Mohr's circle, stresses and deflections in beams, and torsion and buckling of rods. Design for bending, shear, and combined states of stress.'].
-\##22['spring1' -> 1].
-\##22['fall1' -> 1].
-\##22['spring2' -> 1].
-\##22['fall2' -> 1].
+\##22['spring' -> 1].
+\##22['fall' -> 1].
 \##1['MEC364' -> \##23].
 \##23['CourseTitle' -> 'Introduction to Fluid Mechanics'].
 \##23['Career' -> 'Undergraduate'].
@@ -259,10 +217,8 @@
 \##23['Antirequisites' -> 'NONE'].
 \##23['Corequisites' -> 'NONE'].
 \##23['Description' -> 'Fundamental properties of fluids and their conservation laws with applications to the design and evaluation of flows of engineering interest. Topics include hydrostatics, surface tension, dimensional analysis and dynamic similitude, Euler's equation, rotating coordinate systems, boundary layers, lubrication, drag on immersed bodies, open channel and pipe flows, and turbomachinery.'].
-\##23['spring1' -> 1].
-\##23['fall1' -> 1].
-\##23['spring2' -> 1].
-\##23['fall2' -> 1].
+\##23['spring' -> 1].
+\##23['fall' -> 1].
 \##1['MEC393' -> \##24].
 \##24['CourseTitle' -> 'Engineering Fluid Mechanics'].
 \##24['Career' -> 'Undergraduate'].
@@ -271,10 +227,8 @@
 \##24['Antirequisites' -> 'NONE'].
 \##24['Corequisites' -> 'NONE'].
 \##24['Description' -> 'The application of the principles of fluid mechanics to important areas of engineering practice such as turbomachinery, hydraulics, and wave propagation. Prepares students for advanced coursework in fluid dynamics. Extends the study of viscous effects, compressibility, and inertia begun in MEC 364.'].
-\##24['spring1' -> 1].
-\##24['fall1' -> 1].
-\##24['spring2' -> 1].
-\##24['fall2' -> 1].
+\##24['spring' -> 1].
+\##24['fall' -> 1].
 \##1['MEC398' -> \##25].
 \##25['CourseTitle' -> 'Thermodynamics II'].
 \##25['Career' -> 'Undergraduate'].
@@ -283,10 +237,8 @@
 \##25['Antirequisites' -> 'NONE'].
 \##25['Corequisites' -> 'NONE'].
 \##25['Description' -> 'Psychrometrics and psychrometric charts. Thermodynamic considerations for the design and performance of cooling towers, humidifiers, and dehumidifiers. Reacting mixtures, combustion, and chemical equilibrium. Thermodynamics of fluid flow, simple compression, and expansion processes. Analysis and design of gas and vapor power cycles. Cycles with reheat, intercooling, and cogeneration plants. Refrigeration cycles.'].
-\##25['spring1' -> 1].
-\##25['fall1' -> 1].
-\##25['spring2' -> 1].
-\##25['fall2' -> 1].
+\##25['spring' -> 1].
+\##25['fall' -> 1].
 \##1['MEC402' -> \##26].
 \##26['CourseTitle' -> 'Mechanical Vibrations'].
 \##26['Career' -> 'Undergraduate'].
@@ -295,10 +247,8 @@
 \##26['Antirequisites' -> 'NONE'].
 \##26['Corequisites' -> 'NONE'].
 \##26['Description' -> 'Modeling, analysis and design for mechanical vibrations. Fundamentals of free vibration, harmonically excited vibration and vibration under general forcing conditions are considered for one degree, two degree and multidegree of freedom systems; continuous systems; vibration design strategies including isolation and absorbers.'].
-\##26['spring1' -> 1].
-\##26['fall1' -> 1].
-\##26['spring2' -> 1].
-\##26['fall2' -> 1].
+\##26['spring' -> 1].
+\##26['fall' -> 1].
 \##1['MEC410' -> \##27].
 \##27['CourseTitle' -> 'Design of Machine Elements'].
 \##27['Career' -> 'Undergraduate'].
@@ -307,10 +257,8 @@
 \##27['Antirequisites' -> 'NONE'].
 \##27['Corequisites' -> 'NONE'].
 \##27['Description' -> 'Application of analytical methods, material science, and mechanics to problems in design and analysis of machine components.  Includes the design of mechanical components such as bearings, gears, shafting, springs, fasteners, belts, clutches, and brakes, and takes into consideration factors such as manufacturability and reliability.  Design projects with open-ended and interactive problems are assigned to integrate several machine elements in a system.'].
-\##27['spring1' -> 1].
-\##27['fall1' -> 1].
-\##27['spring2' -> 1].
-\##27['fall2' -> 1].
+\##27['spring' -> 1].
+\##27['fall' -> 1].
 \##1['MEC411' -> \##28].
 \##28['CourseTitle' -> 'Control System Analysis and Design'].
 \##28['Career' -> 'Undergraduate'].
@@ -319,10 +267,8 @@
 \##28['Antirequisites' -> 'NONE'].
 \##28['Corequisites' -> 'NONE'].
 \##28['Description' -> 'Analysis and design of feedback control systems. Topics include system modeling; transfer function; block diagram and signal-flow graph; sensors, actuators, and control circuit design; control system characteristics and performance; stability analysis; root locus method; Bode diagram; PID and lead-lag compensator design.'].
-\##28['spring1' -> 1].
-\##28['fall1' -> 1].
-\##28['spring2' -> 1].
-\##28['fall2' -> 1].
+\##28['spring' -> 1].
+\##28['fall' -> 1].
 \##1['MEC422' -> \##29].
 \##29['CourseTitle' -> 'Thermal System Design'].
 \##29['Career' -> 'Undergraduate'].
@@ -331,10 +277,8 @@
 \##29['Antirequisites' -> 'NONE'].
 \##29['Corequisites' -> 'NONE'].
 \##29['Description' -> 'Device design and system design. Quantitative data for system design including operating characteristics of compressors, turbines, heat exchangers, piping systems, internal combustion engines, and other component equipment. Component matching and system simulation. Optimization including thermoeconomic evaluation and energy analysis. Case studies: refrigeration and air conditioning systems, combined cycles, steam-injected gas turbines.'].
-\##29['spring1' -> 1].
-\##29['fall1' -> 1].
-\##29['spring2' -> 1].
-\##29['fall2' -> 1].
+\##29['spring' -> 1].
+\##29['fall' -> 1].
 \##1['MEC423' -> \##30].
 \##30['CourseTitle' -> 'Internal Combustion Engines'].
 \##30['Career' -> 'Undergraduate'].
@@ -343,10 +287,8 @@
 \##30['Antirequisites' -> 'NONE'].
 \##30['Corequisites' -> 'NONE'].
 \##30['Description' -> 'Introduction to internal combustion engines and their operation. Analytical approach to the engineering problem and performance analysis of internal combustion engines. Topics include thermodynamics fundamentals; fuel-air cycle analysis; engine combustion; emission formation and control strategies. Includes both the relevant fundamental concepts and the extensive practical knowledge base on which engine research, development, and design depend. Not for credit in addition to MEC 523.'].
-\##30['spring1' -> 1].
-\##30['fall1' -> 1].
-\##30['spring2' -> 1].
-\##30['fall2' -> 1].
+\##30['spring' -> 1].
+\##30['fall' -> 1].
 \##1['MEC440' -> \##31].
 \##31['CourseTitle' -> 'Mechanical Engineering Design I'].
 \##31['Career' -> 'Undergraduate'].
@@ -355,10 +297,8 @@
 \##31['Antirequisites' -> 'NONE'].
 \##31['Corequisites' -> 'NONE'].
 \##31['Description' -> 'Part I of the two-semester capstone design project sequence. Senior students select a project with multiple realistic constraints, develop the necessary technical background, and write a proposal, progress reports, and a preliminary design report. Includes an oral presentation on the development and progress of the project. Not counted as a technical elective. The final grade will be assigned at the end of the two course sequence MEC 440-MEC 441. This course has an associated fee. Please see www.stonybrook.edu/coursefees for more information.'].
-\##31['spring1' -> 1].
-\##31['fall1' -> 1].
-\##31['spring2' -> 1].
-\##31['fall2' -> 1].
+\##31['spring' -> 1].
+\##31['fall' -> 1].
 \##1['MEC441' -> \##32].
 \##32['CourseTitle' -> 'Mechanical Engineering Design II'].
 \##32['Career' -> 'Undergraduate'].
@@ -367,10 +307,8 @@
 \##32['Antirequisites' -> 'NONE'].
 \##32['Corequisites' -> 'NONE'].
 \##32['Description' -> 'Part II of the two-semester capstone design project sequence. Students complete the project design, incorporating engineering standards, build and test a prototype, write a mid-term report and a final design report, and give an oral presentation. Not counted as a technical elective. This course has an associated fee. Please see www.stonybrook.edu/coursefees for more information.'].
-\##32['spring1' -> 1].
-\##32['fall1' -> 1].
-\##32['spring2' -> 1].
-\##32['fall2' -> 1].
+\##32['spring' -> 1].
+\##32['fall' -> 1].
 \##1['MEC442' -> \##33].
 \##33['CourseTitle' -> 'Introduction to Experimental Stress Analysis'].
 \##33['Career' -> 'Undergraduate'].
@@ -379,10 +317,8 @@
 \##33['Antirequisites' -> 'NONE'].
 \##33['Corequisites' -> 'NONE'].
 \##33['Description' -> 'The concepts of three-dimensional stress and strain, their transformation laws, and their mutual relationships are discussed in detail. Results from theory of elasticity as pertinent to experimental stress analysis are also presented. Experimental techniques studied include two-dimensional photoelasticity, resistance strain gauge, moire method, brittle coating, and analog methods. The application of different techniques to the measurement of stress and strain in models as well as actual structures is demonstrated. Students form small groups and each group is assigned different laboratory projects to gain experience in various experimental stress analysis methods. Previously offered as MEC 342.'].
-\##33['spring1' -> 1].
-\##33['fall1' -> 1].
-\##33['spring2' -> 1].
-\##33['fall2' -> 1].
+\##33['spring' -> 1].
+\##33['fall' -> 1].
 \##1['MEC450' -> \##34].
 \##34['CourseTitle' -> 'Mechatronics'].
 \##34['Career' -> 'Undergraduate'].
@@ -391,10 +327,8 @@
 \##34['Antirequisites' -> 'NONE'].
 \##34['Corequisites' -> [['MEC411']]].
 \##34['Description' -> 'An introduction to the design, modeling, analysis, and control of mechatronic systems (smart systems comprising mechanical, electrical, and software components). Fundamentals of the basic components needed for the design and control of mechatronic systems, including sensors, actuators, data acquisition systems, microprocessors, programmable logic controllers, and I/O systems, are covered. Hands-on experience in designing and building practical mechatronic systems is provided through integrated lab activities.'].
-\##34['spring1' -> 1].
-\##34['fall1' -> 1].
-\##34['spring2' -> 1].
-\##34['fall2' -> 1].
+\##34['spring' -> 1].
+\##34['fall' -> 1].
 \##1['MEC455' -> \##35].
 \##35['CourseTitle' -> 'Applied Stress Analysis'].
 \##35['Career' -> 'Undergraduate'].
@@ -403,10 +337,8 @@
 \##35['Antirequisites' -> 'NONE'].
 \##35['Corequisites' -> 'NONE'].
 \##35['Description' -> 'A study of linear elastic solids with emphasis on internal stress analysis. Simple boundary value problems at plane structures are analyzed with various solution techniques. Major topics are stress and strain tensors, linear elasticity, principle of virtual work, torsion, stress functions, stress concentration, elementary fracture, and plasticity.'].
-\##35['spring1' -> 1].
-\##35['fall1' -> 1].
-\##35['spring2' -> 1].
-\##35['fall2' -> 1].
+\##35['spring' -> 1].
+\##35['fall' -> 1].
 \##1['MEC456' -> \##36].
 \##36['CourseTitle' -> 'Introduction to Engineering Mechanics of Composites'].
 \##36['Career' -> 'Undergraduate'].
@@ -415,10 +347,8 @@
 \##36['Antirequisites' -> 'NONE'].
 \##36['Corequisites' -> 'NONE'].
 \##36['Description' -> 'Introduction to the engineering mechanics of fiber reinforced composites. Brief history of the development of fiber composites, their properties, advantages, limitations and applications. Overview of the different types of composites but with focus on long fiber reinforced composites; particularly, lamina and laminate concepts characteristics and configurations. Topics covered include: elastic properties of unidirectional lamina, strength of unidirectional lamina, elastic behavior of multidirectional laminates and stress and failure of multidirectional laminates. Design methodologies and considerations for structural composite materials.'].
-\##36['spring1' -> 1].
-\##36['fall1' -> 1].
-\##36['spring2' -> 1].
-\##36['fall2' -> 1].
+\##36['spring' -> 1].
+\##36['fall' -> 1].
 \##1['MEC457' -> \##37].
 \##37['CourseTitle' -> 'Engineering Composites Fabrication and Characterization'].
 \##37['Career' -> 'Undergraduate'].
@@ -427,10 +357,8 @@
 \##37['Antirequisites' -> 'NONE'].
 \##37['Corequisites' -> 'NONE'].
 \##37['Description' -> 'Overview of fiber reinforced composites, applications and mechanical properties. Introduction to fiber composites fabrication methods as well as experimental characterization methods used in acquiring their relevant mechanical properties. Fabrication topics include: impregnation of fibers; prepregs; stacking; curing; vacuum bagging; autoclave technology; out-of-autoclave manufacturing processes; molding; processing; cutting and joining. Topics in mechanical characterization include: experimental methods; characterization of the elastic properties and failure strengths of unidirectional lamina; characterization of the elastic properties and failure strengths of multidirectional laminates. Course is divided into in-class lectures and laboratory sessions.'].
-\##37['spring1' -> 1].
-\##37['fall1' -> 1].
-\##37['spring2' -> 1].
-\##37['fall2' -> 1].
+\##37['spring' -> 1].
+\##37['fall' -> 1].
 \##1['MEC464' -> \##38].
 \##38['CourseTitle' -> 'Fundamentals of Aerodynamics'].
 \##38['Career' -> 'Undergraduate'].
@@ -439,10 +367,8 @@
 \##38['Antirequisites' -> 'NONE'].
 \##38['Corequisites' -> 'NONE'].
 \##38['Description' -> 'Kinematics and dynamics of incompressible irrotational flow; stream function and the potential function; Euler and Bernoulli equations. Thin-foil theory; lift and moment for symmetric and cambered airfoils. Finite-wing theory; induced drag. Compressible flow, small-disturbance theory; thin wings at subsonic and supersonic speeds.'].
-\##38['spring1' -> 1].
-\##38['fall1' -> 1].
-\##38['spring2' -> 1].
-\##38['fall2' -> 1].
+\##38['spring' -> 1].
+\##38['fall' -> 1].
 \##1['MEC465' -> \##39].
 \##39['CourseTitle' -> 'Aerospace Propulsion'].
 \##39['Career' -> 'Undergraduate'].
@@ -451,10 +377,8 @@
 \##39['Antirequisites' -> 'NONE'].
 \##39['Corequisites' -> 'NONE'].
 \##39['Description' -> 'Fundamentals of propulsion; performance parameters, thermodynamic cycles. Introduction to combustion and combustors. Performance and cycle analysis of various flight propulsion systems: turbojets, turbofans, turboprops, ramjets, scramjets, rockets and propellors.  Design of supersonic inlet nozzles, component matching and map.'].
-\##39['spring1' -> 1].
-\##39['fall1' -> 1].
-\##39['spring2' -> 1].
-\##39['fall2' -> 1].
+\##39['spring' -> 1].
+\##39['fall' -> 1].
 \##1['MEC470' -> \##40].
 \##40['CourseTitle' -> 'Introduction to Tribology'].
 \##40['Career' -> 'Undergraduate'].
@@ -463,10 +387,8 @@
 \##40['Antirequisites' -> 'NONE'].
 \##40['Corequisites' -> 'NONE'].
 \##40['Description' -> 'Focus is on the fundamentals of tribology, the science of surfaces in relative motion, with an introduction to friction, lubrication, and wear. The basics of tribology science: engineering surfaces, contact mechanics, lubrication theory, wear processes and modeling, wear properties of materials, and tribology test methods will be covered.  Analysis of tribological aspects of machine components and bearings. Industrial case studies will be presented to place the topics in context to industry and society.'].
-\##40['spring1' -> 1].
-\##40['fall1' -> 1].
-\##40['spring2' -> 1].
-\##40['fall2' -> 1].
+\##40['spring' -> 1].
+\##40['fall' -> 1].
 \##1['MEC475' -> \##41].
 \##41['CourseTitle' -> 'Undergraduate Teaching Practicum'].
 \##41['Career' -> 'Undergraduate'].
@@ -475,10 +397,8 @@
 \##41['Antirequisites' -> 'NONE'].
 \##41['Corequisites' -> 'NONE'].
 \##41['Description' -> 'Students assist the faculty in teaching by conducting recitation or laboratory sections that supplement a lecture course. The student receives regularly scheduled supervision from the faculty instructor. May be used as an open elective only and repeated once.'].
-\##41['spring1' -> 1].
-\##41['fall1' -> 1].
-\##41['spring2' -> 1].
-\##41['fall2' -> 1].
+\##41['spring' -> 1].
+\##41['fall' -> 1].
 \##1['MEC488' -> \##42].
 \##42['CourseTitle' -> 'Mechanical Engineering Internship'].
 \##42['Career' -> 'Undergraduate'].
@@ -487,10 +407,8 @@
 \##42['Antirequisites' -> 'NONE'].
 \##42['Corequisites' -> 'NONE'].
 \##42['Description' -> 'Participation in off-campus engineering practice. Students are required to submit a proposal to the department at the time of registration and two term reports before the end of the semester. May be repeated up to a limit of 12 credits.'].
-\##42['spring1' -> 1].
-\##42['fall1' -> 1].
-\##42['spring2' -> 1].
-\##42['fall2' -> 1].
+\##42['spring' -> 1].
+\##42['fall' -> 1].
 \##1['MEC491' -> \##43].
 \##43['CourseTitle' -> 'Topics in Mechanical Engineering'].
 \##43['Career' -> 'Undergraduate'].
@@ -499,10 +417,8 @@
 \##43['Antirequisites' -> 'NONE'].
 \##43['Corequisites' -> 'NONE'].
 \##43['Description' -> 'Treatment of an area of mechanical engineering that expands upon the undergraduate curriculum. Topics may include advanced material in a specialty, development of a specialized experimental technique, or a specific area of design. Topics may vary from semester to semester. Semester supplements to this Bulletin contain specific description when course is offered. May be repeated as the topic changes.'].
-\##43['spring1' -> 1].
-\##43['fall1' -> 1].
-\##43['spring2' -> 1].
-\##43['fall2' -> 1].
+\##43['spring' -> 1].
+\##43['fall' -> 1].
 \##1['MEC492' -> \##44].
 \##44['CourseTitle' -> 'Topics in Mechanical Engineering'].
 \##44['Career' -> 'Undergraduate'].
@@ -511,10 +427,8 @@
 \##44['Antirequisites' -> 'NONE'].
 \##44['Corequisites' -> 'NONE'].
 \##44['Description' -> 'Treatment of an area of mechanical engineering that expands upon the undergraduate curriculum. Topics may include advanced material in a specialty, development of a specialized experimental technique, or a specific area of design. Topics may vary from semester to semester. Semester supplements to this Bulletin contain specific description when course is offered. May be repeated as the topic changes.'].
-\##44['spring1' -> 1].
-\##44['fall1' -> 1].
-\##44['spring2' -> 1].
-\##44['fall2' -> 1].
+\##44['spring' -> 1].
+\##44['fall' -> 1].
 \##1['MEC495' -> \##45].
 \##45['CourseTitle' -> 'Professional Engineering Seminar'].
 \##45['Career' -> 'Undergraduate'].
@@ -523,10 +437,8 @@
 \##45['Antirequisites' -> 'NONE'].
 \##45['Corequisites' -> 'NONE'].
 \##45['Description' -> 'Prepares the student to enter the workplace as a practicing engineer. Topics include professional ethics, professional activities, professional engineering licensing, patents, seeking entry-level employment, and exposure to the engineering work environment. Aids in preparation for the EIT/FE exam. Includes speakers from a variety of disciplines, within the College and from industry.'].
-\##45['spring1' -> 1].
-\##45['fall1' -> 1].
-\##45['spring2' -> 1].
-\##45['fall2' -> 1].
+\##45['spring' -> 1].
+\##45['fall' -> 1].
 \##1['MEC499' -> \##46].
 \##46['CourseTitle' -> 'Research in Mechanical Engineering'].
 \##46['Career' -> 'Undergraduate'].
@@ -535,10 +447,8 @@
 \##46['Antirequisites' -> 'NONE'].
 \##46['Corequisites' -> 'NONE'].
 \##46['Description' -> 'An independent research project under the supervision of a mechanical engineering faculty member. Permission to register requires the agreement of the faculty member to supervise the research and submission of a one-page research proposal. May be repeated but only six credits of research electives may be counted as technical electives.'].
-\##46['spring1' -> 1].
-\##46['fall1' -> 1].
-\##46['spring2' -> 1].
-\##46['fall2' -> 1].
+\##46['spring' -> 1].
+\##46['fall' -> 1].
 \##1['MEC500' -> \##47].
 \##47['CourseTitle' -> 'Modeling and Control of Manufacturing Systems'].
 \##47['Career' -> 'Graduate'].
@@ -547,10 +457,8 @@
 \##47['Antirequisites' -> 'NONE'].
 \##47['Corequisites' -> 'NONE'].
 \##47['Description' -> 'Introduction to manufacturing system modeling and analysis. Fundamental principles of production systems. Analytical and simulation approach to production system performance analysis, continuous improvement, and design. Topics include mathematical modeling of production systems, production lines with various statistic distribution models of machine reliability, improvement analysis and real-time decision making. Includes both the relevant fundamental concepts and the extensive practical knowledge base on which manufacturing research, development, and design depend. The students are expected to complete a project, in which they will interpret real-life manufacturing plant operation in the light of course principles and suggest improvement solutions.'].
-\##47['spring1' -> 1].
-\##47['fall1' -> 1].
-\##47['spring2' -> 1].
-\##47['fall2' -> 1].
+\##47['spring' -> 1].
+\##47['fall' -> 1].
 \##1['MEC501' -> \##48].
 \##48['CourseTitle' -> 'Convective Heat Transfer and Heat Exchange'].
 \##48['Career' -> 'Graduate'].
@@ -560,10 +468,8 @@
 \##48['Corequisites' -> 'NONE'].
 \##48['Description' -> 'Differential and integral formulation.  Exact and approximate solutions.  Topics include parallel and boundary layer flows, similarity solutions, external and internal flows, laminar and turbulent convection, and forced and free convection.
 Spring,'].
-\##48['spring1' -> 1].
-\##48['fall1' -> 1].
-\##48['spring2' -> 1].
-\##48['fall2' -> 1].
+\##48['spring' -> 1].
+\##48['fall' -> 1].
 \##1['MEC502' -> \##49].
 \##49['CourseTitle' -> 'Conduction and Radiation Heat Transfer'].
 \##49['Career' -> 'Graduate'].
@@ -572,10 +478,8 @@ Spring,'].
 \##49['Antirequisites' -> 'NONE'].
 \##49['Corequisites' -> 'NONE'].
 \##49['Description' -> 'Heat conduction and conservation laws; formulation of conduction equations in differential and integral forms; analytical solution techniques including Laplace transforms and separation of variables; scaling analysis; black body radiation, Kirchoff's law, analysis of heat conduction problems; analysis of radiative exchange between surfaces and radiative transport through absorbing, emitting, and scattering media. Fall, 3 credits, ABCF grading'].
-\##49['spring1' -> 1].
-\##49['fall1' -> 1].
-\##49['spring2' -> 1].
-\##49['fall2' -> 1].
+\##49['spring' -> 1].
+\##49['fall' -> 1].
 \##1['MEC506' -> \##50].
 \##50['CourseTitle' -> 'Energy Management in Commercial Buildings'].
 \##50['Career' -> 'Graduate'].
@@ -586,10 +490,8 @@ Spring,'].
 \##50['Description' -> 'Topics include basic heating, ventilating, and air-conditioning (HVAC) system design and selection for commercial buildings (includes both low-rise and high-rise buildings); selection of central plant components and equipment; calculation of space heating and cooling load; computer techniques for estimating annual energy consumption; design tools for reducing energy consumption; ASHRAE codes; building controls; BACnet.
 Prerequisite: B.S. in mechanical engineering or related fields
 Fall, alternate years,'].
-\##50['spring1' -> 1].
-\##50['fall1' -> 1].
-\##50['spring2' -> 1].
-\##50['fall2' -> 1].
+\##50['spring' -> 1].
+\##50['fall' -> 1].
 \##1['MEC507' -> \##51].
 \##51['CourseTitle' -> 'Mathematical Methods in Engineering Analysis I'].
 \##51['Career' -> 'Graduate'].
@@ -599,10 +501,8 @@ Fall, alternate years,'].
 \##51['Corequisites' -> 'NONE'].
 \##51['Description' -> 'An introduction to the use of mathematical analysis techniques for the solution of engineering analysis problems and the simulation of engineering systems.  Both continuous and discrete methods are covered. Initial and boundary value problems for ordinary and partial differential equations are treated.
 Fall,'].
-\##51['spring1' -> 1].
-\##51['fall1' -> 1].
-\##51['spring2' -> 1].
-\##51['fall2' -> 1].
+\##51['spring' -> 1].
+\##51['fall' -> 1].
 \##1['MEC508' -> \##52].
 \##52['CourseTitle' -> 'Mathematical Methods in Engineering Analysis II'].
 \##52['Career' -> 'Graduate'].
@@ -613,10 +513,8 @@ Fall,'].
 \##52['Description' -> 'A continuation of the material covered in MEC 507.  Introduction to and application of numerical analysis techniques used in engineering such as finite elements and fast Fourier transforms.  Determination of response characteristics of dynamic systems.  Combinatoric methods and techniques for optimization of engineering design and systems/process analysis problems.
 Prerequisite: MEC 507
 Spring, alternate years,'].
-\##52['spring1' -> 1].
-\##52['fall1' -> 1].
-\##52['spring2' -> 1].
-\##52['fall2' -> 1].
+\##52['spring' -> 1].
+\##52['fall' -> 1].
 \##1['MEC509' -> \##53].
 \##53['CourseTitle' -> 'Transport Phenomena'].
 \##53['Career' -> 'Graduate'].
@@ -626,10 +524,8 @@ Spring, alternate years,'].
 \##53['Corequisites' -> 'NONE'].
 \##53['Description' -> 'Introduction to differential and integral formulation of mass, momentum, and energy transport in fluids and solids.  Topics include viscosity, laminar flow, turbulent flows, conduction, convection, heat transfer coefficients, radiation, boundary layers, diffusion, and applications to energy technology.
 Offered Fall, 3 Credits, ABCF Grading'].
-\##53['spring1' -> 1].
-\##53['fall1' -> 1].
-\##53['spring2' -> 1].
-\##53['fall2' -> 1].
+\##53['spring' -> 1].
+\##53['fall' -> 1].
 \##1['MEC510' -> \##54].
 \##54['CourseTitle' -> 'Object-Oriented Programming for Scientists and Engineers'].
 \##54['Career' -> 'Graduate'].
@@ -640,10 +536,8 @@ Offered Fall, 3 Credits, ABCF Grading'].
 \##54['Description' -> 'Practical introduction to C++ and object-oriented programming for a first programming course for scientists and engineers. Covers basics of application software development such as problem decomposition, structure charts, object modeling, class diagrams, incremental code building, and testing at a beginner's level.  Features the concepts of abstract data types (ADT), encapsulation, inheritance, composition, polymorphism, operator and function overloading besides studying UML (Unified Modeling Language) as a graphical representational design technique. The course follows the evolution of programming ideas from the use of a single function to the use of structural charts and functions to modularize and finally to the use of object-oriented programming.
 Prerequisite: B.S. in science or engineering
 Spring, alternate years, 3 credits, ABCF grading'].
-\##54['spring1' -> 1].
-\##54['fall1' -> 1].
-\##54['spring2' -> 1].
-\##54['fall2' -> 1].
+\##54['spring' -> 1].
+\##54['fall' -> 1].
 \##1['MEC511' -> \##55].
 \##55['CourseTitle' -> 'Mechanics of Perfect Fluids'].
 \##55['Career' -> 'Graduate'].
@@ -652,10 +546,8 @@ Spring, alternate years, 3 credits, ABCF grading'].
 \##55['Antirequisites' -> 'NONE'].
 \##55['Corequisites' -> 'NONE'].
 \##55['Description' -> 'Lagrangian and Eulerian frames.  Dynamical equations of momentum and energy transfer.  Two-dimensional dynamics of incompressible and barotropic perfect fluids and of the compressible perfect gas.  Conformal mapping applied to two-dimensional fluid dynamics.  Jets and cavities.  Surface waves, internal waves.  Perfect shear flows. Spring,'].
-\##55['spring1' -> 1].
-\##55['fall1' -> 1].
-\##55['spring2' -> 1].
-\##55['fall2' -> 1].
+\##55['spring' -> 1].
+\##55['fall' -> 1].
 \##1['MEC512' -> \##56].
 \##56['CourseTitle' -> 'Mechanics of Viscous Fluids'].
 \##56['Career' -> 'Graduate'].
@@ -665,10 +557,8 @@ Spring, alternate years, 3 credits, ABCF grading'].
 \##56['Corequisites' -> 'NONE'].
 \##56['Description' -> 'The role of viscosity in the dynamics of fluid flow. The Navier-Stokes equations, low Reynolds number behavior including lubrication theory, percolation through porous media, and flow due to moving bodies.  High Reynolds number behavior including steady, unsteady, and detached boundary layers, jets, free shear layers, and wakes.  Phenomenological theories of turbulent shear flows are introduced.
 Fall,'].
-\##56['spring1' -> 1].
-\##56['fall1' -> 1].
-\##56['spring2' -> 1].
-\##56['fall2' -> 1].
+\##56['spring' -> 1].
+\##56['fall' -> 1].
 \##1['MEC514' -> \##57].
 \##57['CourseTitle' -> 'Advanced Fluid Mechanics: Introduction to Turbulence'].
 \##57['Career' -> 'Graduate'].
@@ -679,10 +569,8 @@ Fall,'].
 \##57['Description' -> 'Introductory concepts and statistical descriptions: kinematics of random velocity fields; equations of motion; experimental techniques: isotropic turbulence, closure problem; transport processes. 
 Prerequisite: MEC 512
 Spring, alternate years,'].
-\##57['spring1' -> 1].
-\##57['fall1' -> 1].
-\##57['spring2' -> 1].
-\##57['fall2' -> 1].
+\##57['spring' -> 1].
+\##57['fall' -> 1].
 \##1['MEC516' -> \##58].
 \##58['CourseTitle' -> 'Energy Technologies Laboratory'].
 \##58['Career' -> 'Graduate'].
@@ -691,10 +579,8 @@ Spring, alternate years,'].
 \##58['Antirequisites' -> 'NONE'].
 \##58['Corequisites' -> 'NONE'].
 \##58['Description' -> 'Experiments in the areas of infrared imaging, heat pumps, batteries/power electronics, solar thermal, thermal conductivity, and insulation. The focus is on system efficiencies, system integration, and design for residential markets. The fundamentals of the relevant technologies will be presented and utilized in the laboratory sessions. Student groups are assigned laboratory projects focused on applying various energy technologies to solve engineering problems.'].
-\##58['spring1' -> 1].
-\##58['fall1' -> 1].
-\##58['spring2' -> 1].
-\##58['fall2' -> 1].
+\##58['spring' -> 1].
+\##58['fall' -> 1].
 \##1['MEC517' -> \##59].
 \##59['CourseTitle' -> 'Energy Technologies Laboratory II'].
 \##59['Career' -> 'Graduate'].
@@ -704,10 +590,8 @@ Spring, alternate years,'].
 \##59['Corequisites' -> 'NONE'].
 \##59['Description' -> 'Experiments in the areas of thermoelectric power, fuel cells, photovoltaics, wind turbines, hydrogen storage, hydrogen generation, and power electronics in addition to related project work. The focus is on system efficiencies, system integration, and design for residential markets. Student groups are assigned laboratory projects to build experience applying various energy technologies  to solve problems.
 Offered in Spring, 3 Credits, ABCF Grading'].
-\##59['spring1' -> 1].
-\##59['fall1' -> 1].
-\##59['spring2' -> 1].
-\##59['fall2' -> 1].
+\##59['spring' -> 1].
+\##59['fall' -> 1].
 \##1['MEC518' -> \##60].
 \##60['CourseTitle' -> 'Energy Harvesting'].
 \##60['Career' -> 'Graduate'].
@@ -716,10 +600,8 @@ Offered in Spring, 3 Credits, ABCF Grading'].
 \##60['Antirequisites' -> 'NONE'].
 \##60['Corequisites' -> 'NONE'].
 \##60['Description' -> 'MEC 518 Energy Harvesting is designed to systematically disseminate recent advances in various energy harvesting technologies in the last decade.  The topic will include mechanical vibrations, piezoelectric materials, electromagnetic transducers, thermoelectric materials, electromechanical system design, power electronics, and control, as well as the applications of energy harvesting to vehicles, transportations, civil structures, and ocean waves.'].
-\##60['spring1' -> 1].
-\##60['fall1' -> 1].
-\##60['spring2' -> 1].
-\##60['fall2' -> 1].
+\##60['spring' -> 1].
+\##60['fall' -> 1].
 \##1['MEC520' -> \##61].
 \##61['CourseTitle' -> 'Smart Materials for Sensing and Actuation'].
 \##61['Career' -> 'Graduate'].
@@ -730,10 +612,8 @@ Offered in Spring, 3 Credits, ABCF Grading'].
 \##61['Description' -> 'An introduction to the properties, characterization, manufacturing, and
 applications of various smart materials and structures. This course will cover sensors, actuators, and energy devices based on smart materials, including piezoelectric materials, electroactive polymers, magnetostrictive materials, magnetorheological fluids, and shape memory polymers. The goal is to expose students to fundamentals of smart materials and structures needed for the
 design and applications in engineering applications.'].
-\##61['spring1' -> 1].
-\##61['fall1' -> 1].
-\##61['spring2' -> 1].
-\##61['fall2' -> 1].
+\##61['spring' -> 1].
+\##61['fall' -> 1].
 \##1['MEC521' -> \##62].
 \##62['CourseTitle' -> 'Thermodynamics'].
 \##62['Career' -> 'Graduate'].
@@ -743,10 +623,8 @@ design and applications in engineering applications.'].
 \##62['Corequisites' -> 'NONE'].
 \##62['Description' -> 'This course begins with a review of the fundamental concepts and laws of classical thermodynamics. Then the thermostatic theory of equilibrium states and phase transitions is treated, followed by the thermodynamic theory of processes of simple systems and composite systems, including heat engines.  Special topics may include istatisical thermodynamics, irreversible thermodynamics, radiation and photovoltaic energy conversion,, biological thermodynamic processes, and other topics of current interest.
 Spring, 3 credits.'].
-\##62['spring1' -> 1].
-\##62['fall1' -> 1].
-\##62['spring2' -> 1].
-\##62['fall2' -> 1].
+\##62['spring' -> 1].
+\##62['fall' -> 1].
 \##1['MEC522' -> \##63].
 \##63['CourseTitle' -> 'Building Energy Dynamics and Technology'].
 \##63['Career' -> 'Graduate'].
@@ -757,10 +635,8 @@ Spring, 3 credits.'].
 \##63['Description' -> 'Building is treated as a time-dependent energy system, with its interactive components coupled through energy and mass flows under an environment defined in terms of sunlight, ambient air and wind and with its equipment which assist in meeting building-dwellers comfort requirements. Major components discussed are thermal mass (both interior mass and envelope mass) and their thermal capacities, building envelopes and their heat transfer resistances, room air including its circulation and heat exchange with thermal mass, and the transparent part of the envelope the glazing or windows and the solar system passing through it during the day and the heat loss during the night time. Major equipment include lighting, air circulation system, cooling and heating equipment, solar thermal panels and solar PV panels, and other equipment including integrated electric and control units. Of the comfort requirements only temperature-and-humidity and illumination are studied with the objective of creating, through a system-understanding of the building, buildings that in the short run meet these requirements involving minimal use of energy and in the long run are benchmarked against the environmentally regenerative capabilities of wilderness.
 
 Offered in Spring, 3 credits, ABCF Grading'].
-\##63['spring1' -> 1].
-\##63['fall1' -> 1].
-\##63['spring2' -> 1].
-\##63['fall2' -> 1].
+\##63['spring' -> 1].
+\##63['fall' -> 1].
 \##1['MEC523' -> \##64].
 \##64['CourseTitle' -> 'Internal Combustion Engines'].
 \##64['Career' -> 'Graduate'].
@@ -769,10 +645,8 @@ Offered in Spring, 3 credits, ABCF Grading'].
 \##64['Antirequisites' -> 'NONE'].
 \##64['Corequisites' -> 'NONE'].
 \##64['Description' -> 'Combustion fundamentals.  Carnot cycle; reversible internal combustion engine cycle; introduction to practical internal combustion. engine cycles.  Internal combustion piston engines; engine combustion and emission processes; engine operating characteristics.  Gas turbine engines.  Composite engines: turbocharging piston engines; gas generator engines; turbocompounding engines.  Method of exhaust heat recovery for improvement of thermal efficiency.  Method of intercooling-supercharging for thermal efficiency improvement.'].
-\##64['spring1' -> 1].
-\##64['fall1' -> 1].
-\##64['spring2' -> 1].
-\##64['fall2' -> 1].
+\##64['spring' -> 1].
+\##64['fall' -> 1].
 \##1['MEC524' -> \##65].
 \##65['CourseTitle' -> 'Computational Methods for Fluid Mechanics and Heat Transfer'].
 \##65['Career' -> 'Graduate'].
@@ -783,10 +657,8 @@ Offered in Spring, 3 credits, ABCF Grading'].
 \##65['Description' -> 'Introduction of finite difference, finite volume, and finite element methods for incompressible flows and heat transfer.  Topics include explicit and implicit schemes, accuracy, stability and convergence, derived and primitive-variables formulation, orthogonal and non-orthogonal coordinate systems.  Selected computer assignments from heat conduction, incompressible flows, forced and free convection.
 Prerequisite: MEC 507
 Fall, alternate years,'].
-\##65['spring1' -> 1].
-\##65['fall1' -> 1].
-\##65['spring2' -> 1].
-\##65['fall2' -> 1].
+\##65['spring' -> 1].
+\##65['fall' -> 1].
 \##1['MEC526' -> \##66].
 \##66['CourseTitle' -> 'Modern Power Cycles'].
 \##66['Career' -> 'Graduate'].
@@ -795,10 +667,8 @@ Fall, alternate years,'].
 \##66['Antirequisites' -> 'NONE'].
 \##66['Corequisites' -> 'NONE'].
 \##66['Description' -> 'First and second law design and analysis of modern power cycles including Rankin Steam Cycles, Bryton Gas Turbine cycles, Combined Cycles, Cogeneration, Central Heat and Power Generation (CHP), Tri-generation and current advances in thermal power systems design and analysis. Cycle efficiency and factors effecting performance and plant efficiency. Thermodynamic analysis of proposed as well as existing thermal energy systems.'].
-\##66['spring1' -> 1].
-\##66['fall1' -> 1].
-\##66['spring2' -> 1].
-\##66['fall2' -> 1].
+\##66['spring' -> 1].
+\##66['fall' -> 1].
 \##1['MEC527' -> \##67].
 \##67['CourseTitle' -> 'Introduction to Building Energy Modeling'].
 \##67['Career' -> 'Graduate'].
@@ -807,10 +677,8 @@ Fall, alternate years,'].
 \##67['Antirequisites' -> 'NONE'].
 \##67['Corequisites' -> 'NONE'].
 \##67['Description' -> 'Designing high performance buildings requires the application of building energy modeling (BEM) that uses computer-based software to simulate thermal processes in buildings.  In applying building energy modeling, this course emphasizes the importance of formulating the problem in terms of assumptions:  The two alternative assumptions are the static building load assumption and the dynamic building process assumption.  The resistor-capacitor (RC model is introduced.  With a 3D building model developed in Autodesk Revit, energy analysis is carried out with a series of software.  Popular whole-building energy simulation programs, such as EnergyPlus and TRNSYS, are then explained briefly.'].
-\##67['spring1' -> 1].
-\##67['fall1' -> 1].
-\##67['spring2' -> 1].
-\##67['fall2' -> 1].
+\##67['spring' -> 1].
+\##67['fall' -> 1].
 \##1['MEC529' -> \##68].
 \##68['CourseTitle' -> 'Introduction to Robotics: Theory and Applications'].
 \##68['Career' -> 'Graduate'].
@@ -820,10 +688,8 @@ Fall, alternate years,'].
 \##68['Corequisites' -> 'NONE'].
 \##68['Description' -> 'Topics: robot components and mechanatronic aspects of robotics (sensors, actuators, and effectors, system integration); rotation, translation, rigid-body transform; robotics foundations in kinematics and inverse kinematics, dynamics, serial and parallel manipulators and their duality, introduction to mobile robots and LEGO Robotics, control theories, motion planning, trajectory generation, grasping and manipulation, robotic programming language, industrial robotics, manufacturing automation, and societal impacts.  Include hands-on projects.
 Spring,'].
-\##68['spring1' -> 1].
-\##68['fall1' -> 1].
-\##68['spring2' -> 1].
-\##68['fall2' -> 1].
+\##68['spring' -> 1].
+\##68['fall' -> 1].
 \##1['MEC530' -> \##69].
 \##69['CourseTitle' -> 'Applied Stress Analysis'].
 \##69['Career' -> 'Graduate'].
@@ -832,10 +698,8 @@ Spring,'].
 \##69['Antirequisites' -> 'NONE'].
 \##69['Corequisites' -> 'NONE'].
 \##69['Description' -> 'Advanced mechanics of solids and structures. Elastic boundary value problems are analyzed with various solution techniques including finite element method. Major topics are stress and strain, FEM formulations, material behavious, 2D elastic problems, stress function and fracture. Detailed studies of structural components are carried out with FEM with emphasis on optimal mesh design and proper interpretations of computed results.'].
-\##69['spring1' -> 1].
-\##69['fall1' -> 1].
-\##69['spring2' -> 1].
-\##69['fall2' -> 1].
+\##69['spring' -> 1].
+\##69['fall' -> 1].
 \##1['MEC532' -> \##70].
 \##70['CourseTitle' -> 'Vibration and Control'].
 \##70['Career' -> 'Graduate'].
@@ -844,10 +708,8 @@ Spring,'].
 \##70['Antirequisites' -> 'NONE'].
 \##70['Corequisites' -> 'NONE'].
 \##70['Description' -> 'Fundamentals of vibrations and control of vibrations of structures and dynamic systems.  Topics include one dof systems and responses, frequency response, multiple dof systems and responses, relevant classical control theory, modern state-space feedback control theory, application of control methodology in systems with dynamics and vibration, eigenvalue problems and modal analysis, vibration analysis of various continuous systems.'].
-\##70['spring1' -> 1].
-\##70['fall1' -> 1].
-\##70['spring2' -> 1].
-\##70['fall2' -> 1].
+\##70['spring' -> 1].
+\##70['fall' -> 1].
 \##1['MEC536' -> \##71].
 \##71['CourseTitle' -> 'Mechanics of Solids'].
 \##71['Career' -> 'Graduate'].
@@ -857,10 +719,8 @@ Spring,'].
 \##71['Corequisites' -> 'NONE'].
 \##71['Description' -> 'A unified introduction to the fundamental principles, equations, and notation used in finite deformation of solids, with emphasis on the physical aspects of the subject. Cartesian tensor representation of stress, principal values, finite strain, and deformation.  Conservation of mass, momentum, and energy.  Formulation of stress-strain relations in elasticity, and compatibility relations.  The use of general orthogonal coordinate systems in the equations governing solids.  Principles of virtual displacement and virtual work.
 Fall,'].
-\##71['spring1' -> 1].
-\##71['fall1' -> 1].
-\##71['spring2' -> 1].
-\##71['fall2' -> 1].
+\##71['spring' -> 1].
+\##71['fall' -> 1].
 \##1['MEC537' -> \##72].
 \##72['CourseTitle' -> 'Combustion Research Laboratory'].
 \##72['Career' -> 'Graduate'].
@@ -869,10 +729,8 @@ Fall,'].
 \##72['Antirequisites' -> 'NONE'].
 \##72['Corequisites' -> 'NONE'].
 \##72['Description' -> 'Experimental methods for testing and development of internal combustion engines.  Methods for measuring engine performance and emissions.  Review of combustion chemistry and thermodynamics.  Engine cycle quantities measurements.  Students will apply these methods to reciprocating engines and gas turbines.'].
-\##72['spring1' -> 1].
-\##72['fall1' -> 1].
-\##72['spring2' -> 1].
-\##72['fall2' -> 1].
+\##72['spring' -> 1].
+\##72['fall' -> 1].
 \##1['MEC539' -> \##73].
 \##73['CourseTitle' -> 'Introduction to Finite Element Methods'].
 \##73['Career' -> 'Graduate'].
@@ -883,10 +741,8 @@ Fall,'].
 \##73['Description' -> '(formerly Finite Element Methods in Structural Analyses)
 Theory of finite element methods and their application to structural analysis problems.  Matrix operations, force and displacement methods.  Derivation of matrices for bars, beams, shear panels, membranes, plates, and solids.  Use of these elements to model actual structural problems.  Weighted residual techniques and extension of the finite element method into other areas such as heat flow and fluid flow.  Laboratory sessions introduce use of the computer in solving finite element problems.  Programs for the solution of force and displacement method problems are configured.  A computer project consisting of the solution and evaluation of a structural problem is required.
 Spring, alternate years,'].
-\##73['spring1' -> 1].
-\##73['fall1' -> 1].
-\##73['spring2' -> 1].
-\##73['fall2' -> 1].
+\##73['spring' -> 1].
+\##73['fall' -> 1].
 \##1['MEC540' -> \##74].
 \##74['CourseTitle' -> 'Mechanics of Engineering Structures'].
 \##74['Career' -> 'Graduate'].
@@ -895,10 +751,8 @@ Spring, alternate years,'].
 \##74['Antirequisites' -> 'NONE'].
 \##74['Corequisites' -> 'NONE'].
 \##74['Description' -> 'An introduction to variational principles of mechanics and the development of approximation methods for the solution of structural mechanics problems.  Linear and nonlinear theories of beams and thin plates are developed along with their framework for numerical solutions.  An introduction of the general theory of structural stability is presented along with its application to the buckling and initial postbuckling behavior of beams and plates.'].
-\##74['spring1' -> 1].
-\##74['fall1' -> 1].
-\##74['spring2' -> 1].
-\##74['fall2' -> 1].
+\##74['spring' -> 1].
+\##74['fall' -> 1].
 \##1['MEC541' -> \##75].
 \##75['CourseTitle' -> 'Elasticity'].
 \##75['Career' -> 'Graduate'].
@@ -909,10 +763,8 @@ Spring, alternate years,'].
 \##75['Description' -> 'Formulation of boundary value problems.  Compatibility equations and reciprocal theorem.  Torsion of noncircular cross-sections.  Fundamental solutions for two- and three-dimensional domains.  Potential function formulations.  Use of integral transforms and complex variable approaches.  Formulation and solution of problems in thermoelasticity.
 Prerequisite: MEC 536
 Spring,'].
-\##75['spring1' -> 1].
-\##75['fall1' -> 1].
-\##75['spring2' -> 1].
-\##75['fall2' -> 1].
+\##75['spring' -> 1].
+\##75['fall' -> 1].
 \##1['MEC543' -> \##76].
 \##76['CourseTitle' -> 'Plasticity'].
 \##76['Career' -> 'Graduate'].
@@ -923,10 +775,8 @@ Spring,'].
 \##76['Description' -> 'Stress and deformation of solids: yield criteria and flow rules for plasticity deforming solids; the notion of a stable inelastic material; static and dynamic analysis of plastic bodies under mechanical and thermal loading; use of load bounding theorems and the calculation of collapse loads of structures; the theory of the slip-line field. 
 Prerequisite: MEC 541
 Fall, alternate years,'].
-\##76['spring1' -> 1].
-\##76['fall1' -> 1].
-\##76['spring2' -> 1].
-\##76['fall2' -> 1].
+\##76['spring' -> 1].
+\##76['fall' -> 1].
 \##1['MEC549' -> \##77].
 \##77['CourseTitle' -> 'Robot Dynamics and Control'].
 \##77['Career' -> 'Graduate'].
@@ -937,10 +787,8 @@ Fall, alternate years,'].
 \##77['Description' -> 'This course will cover the fundamentals of dynamic modeling and control
 techniques for robots, focusing mainly on robot manipulators. The dynamic modeling part includes Lagrange formulation, Newton Euler formulation, properties of the dynamic equations, and trajectory planning with dynamic constraints, and the control part includes nonlinear systems, state-space representation, Lyapunov stability theorems, feedback linearization, linear controller design, position control, motion control, inverse dynamics control, robust control, adaptive control,
 force control, impedance control, hybrid motion force control, and implementation of controllers. Prerequisite: MEC 529'].
-\##77['spring1' -> 1].
-\##77['fall1' -> 1].
-\##77['spring2' -> 1].
-\##77['fall2' -> 1].
+\##77['spring' -> 1].
+\##77['fall' -> 1].
 \##1['MEC550' -> \##78].
 \##78['CourseTitle' -> 'Mechatronics'].
 \##78['Career' -> 'Graduate'].
@@ -950,10 +798,8 @@ force control, impedance control, hybrid motion force control, and implementatio
 \##78['Corequisites' -> 'NONE'].
 \##78['Description' -> 'An introduction to the design, modeling, analysis and control of mechatronic systems (smart systems comprising mechanical, electrical, and software components).  Fundamentals of the basic components needed for the design and control of mechatronic systems, including sensors, actuators, data acquisition systems, microprocessors, programmable logic controllers, and I/O systems, are covered.  Hands-on experience in designing and building practical mechatronic systems are provided through integrated lab activities.
 Fall, every year,'].
-\##78['spring1' -> 1].
-\##78['fall1' -> 1].
-\##78['spring2' -> 1].
-\##78['fall2' -> 1].
+\##78['spring' -> 1].
+\##78['fall' -> 1].
 \##1['MEC552' -> \##79].
 \##79['CourseTitle' -> 'Mechanics of Composite Materials'].
 \##79['Career' -> 'Graduate'].
@@ -964,10 +810,8 @@ Fall, every year,'].
 \##79['Description' -> 'The course is concerned with the analysis of layered composite materials subject to mechanical loads.  Cartesian tensor calculus is used.  Homogeneous anisotropic media are studied first.  The effect of layering is then analyzed.  Applications to plates and shell are studied and analytical methods of solution are given.  Numerical analysis of composite solids is also considered using finite difference and finite element methods.
 Prerequisite: MEC 536
 Fall or Spring, alternate years,'].
-\##79['spring1' -> 1].
-\##79['fall1' -> 1].
-\##79['spring2' -> 1].
-\##79['fall2' -> 1].
+\##79['spring' -> 1].
+\##79['fall' -> 1].
 \##1['MEC556' -> \##80].
 \##80['CourseTitle' -> 'Introduction to Engineering Mechanics of Composites'].
 \##80['Career' -> 'Graduate'].
@@ -976,10 +820,8 @@ Fall or Spring, alternate years,'].
 \##80['Antirequisites' -> 'NONE'].
 \##80['Corequisites' -> 'NONE'].
 \##80['Description' -> 'Introduction to the engineering mechanics of fiber reinforced composites.  Brief history of the development of fiber composites, their properties, advantages, limitations and applications.  Overview of the different types of composites but with focus on long fiber reinforced composites; particularly, lamina and laminate concepts characteristics and configurations.  Topics covered include: elastic properties of unidirectional lamina, strength of unidirectional lamina, elastic behavior of multidirectional laminates and stress and failure of multidirectional laminates.  Design methodologies and considerations for structural composite materials.  The students are expected to complete a project, in which they will design a real-life structural part out of composite materials using course principles.'].
-\##80['spring1' -> 1].
-\##80['fall1' -> 1].
-\##80['spring2' -> 1].
-\##80['fall2' -> 1].
+\##80['spring' -> 1].
+\##80['fall' -> 1].
 \##1['MEC557' -> \##81].
 \##81['CourseTitle' -> 'Introduction to Fiber Composites Fabrication and Characterization'].
 \##81['Career' -> 'Graduate'].
@@ -988,10 +830,8 @@ Fall or Spring, alternate years,'].
 \##81['Antirequisites' -> 'NONE'].
 \##81['Corequisites' -> 'NONE'].
 \##81['Description' -> 'Overview of fiber reinforced composites, applications and mechanical properties. Introduction to fiber composites fabrication methods as well as experimental characterization methods used in acquiring their relevant mechanical properties. Fabrication topics include: Impregnation of fibers; Prepregs; Stacking; Curing; Vacuum bagging; Autoclave technology; Out-of-autoclave manufacturing processes; Molding; Processing; Cutting and Joining. Topics in mechanical characterization include: Experimental methods; Characterization of the elastic properties and failure strengths of unidirectional lamina; Characterization of the elastic properties and failure strengths of multidirectional laminates. Course is divided into in-class lectures and laboratory sessions. The students are expected to complete a project, in which they will design, fabricate and test a real-life structural part made out of composite materials using course principles.'].
-\##81['spring1' -> 1].
-\##81['fall1' -> 1].
-\##81['spring2' -> 1].
-\##81['fall2' -> 1].
+\##81['spring' -> 1].
+\##81['fall' -> 1].
 \##1['MEC559' -> \##82].
 \##82['CourseTitle' -> 'Mobile Robotics and Autonomous Vehicles'].
 \##82['Career' -> 'Graduate'].
@@ -1000,10 +840,8 @@ Fall or Spring, alternate years,'].
 \##82['Antirequisites' -> 'NONE'].
 \##82['Corequisites' -> 'NONE'].
 \##82['Description' -> 'This course will cover the fundamentals of planning, state estimation, and control techniques for mobile robots and autonomous vehicles. Key topics include: Kinematics of wheeled mobile robots; State estimation, Localization, and Mapping; Simultaneous Localization and Mapping Algorithms (SLAM) Algorithms; Path planning, Obstacle Avoidance, and Non-holonomic Control; Mobile robot programming and control architecture.'].
-\##82['spring1' -> 1].
-\##82['fall1' -> 1].
-\##82['spring2' -> 1].
-\##82['fall2' -> 1].
+\##82['spring' -> 1].
+\##82['fall' -> 1].
 \##1['MEC560' -> \##83].
 \##83['CourseTitle' -> 'Advanced Control Systems'].
 \##83['Career' -> 'Graduate'].
@@ -1013,10 +851,8 @@ Fall or Spring, alternate years,'].
 \##83['Corequisites' -> 'NONE'].
 \##83['Description' -> 'Analytical methods applied to the design of multivariable linear control systems.  Introduction to linear system theory: linearization, solution of linear matrix differential equations, stability, controllability, observability, transformations to canonical forms.  Formulation of control objectives.  Deterministic state observer.  Full-state feedback control based on pole assignment and linear quadratic optimization theory.  Linear systems with stochastic inputs and measurement noise.  The response of linear systems to random input; stochastic state estimator (Kalman filter); separation principle of stochastic control and estimation; system robustness.
 Fall or Spring, alternate years,'].
-\##83['spring1' -> 1].
-\##83['fall1' -> 1].
-\##83['spring2' -> 1].
-\##83['fall2' -> 1].
+\##83['spring' -> 1].
+\##83['fall' -> 1].
 \##1['MEC564' -> \##84].
 \##84['CourseTitle' -> 'Fundamentals of Aerodynamics'].
 \##84['Career' -> 'Graduate'].
@@ -1025,10 +861,8 @@ Fall or Spring, alternate years,'].
 \##84['Antirequisites' -> 'NONE'].
 \##84['Corequisites' -> 'NONE'].
 \##84['Description' -> 'Kinematics and dynamics of incompressible irrotational flow; stream function and the potential functions; Euler and Bernoulli equations.  This-foil theory; lift and moment for symmetric and cambered airfoils.  Finite-wing theory; induced drag.  Compressible flow, small disturbance theory; thin wings at subsonic and supersonic speeds.'].
-\##84['spring1' -> 1].
-\##84['fall1' -> 1].
-\##84['spring2' -> 1].
-\##84['fall2' -> 1].
+\##84['spring' -> 1].
+\##84['fall' -> 1].
 \##1['MEC565' -> \##85].
 \##85['CourseTitle' -> 'Aerospace Propulsion'].
 \##85['Career' -> 'Graduate'].
@@ -1037,10 +871,8 @@ Fall or Spring, alternate years,'].
 \##85['Antirequisites' -> 'NONE'].
 \##85['Corequisites' -> 'NONE'].
 \##85['Description' -> 'Fundamentals of propulsion; performance parameters, thermodynamic cycles.  Introduction to combustion and combustors.  Performance and cycle analysis of various flight propulsion systems: turbojets, turbofans, turboprops, ramjets, scramjets, rockets, propellers.  Design of supersonic inlet nozzles, component matching and map.'].
-\##85['spring1' -> 1].
-\##85['fall1' -> 1].
-\##85['spring2' -> 1].
-\##85['fall2' -> 1].
+\##85['spring' -> 1].
+\##85['fall' -> 1].
 \##1['MEC567' -> \##86].
 \##86['CourseTitle' -> 'Kinematic Analysis and Synthesis of Robotic Mechanisms'].
 \##86['Career' -> 'Graduate'].
@@ -1050,10 +882,8 @@ Fall or Spring, alternate years,'].
 \##86['Corequisites' -> 'NONE'].
 \##86['Description' -> 'Introduction, mechanism structure, basic concepts of mechanisms, canonical
 representation of motion. Kinematic analysis, algebraic method, vector-loop method, complex number method, spherical and spatial polygon method, matrix method, dual-number quaternion method, screw coordinate method, line coordinate method, motor algebra method, type synthesis, number synthesis, coupler curves, curvature theory path generation, finite displacement theory, rigid body guidance, function generation, computer-aided mechanisms analysis and synthesis.'].
-\##86['spring1' -> 1].
-\##86['fall1' -> 1].
-\##86['spring2' -> 1].
-\##86['fall2' -> 1].
+\##86['spring' -> 1].
+\##86['fall' -> 1].
 \##1['MEC568' -> \##87].
 \##87['CourseTitle' -> 'Advanced Dynamics'].
 \##87['Career' -> 'Graduate'].
@@ -1063,10 +893,8 @@ representation of motion. Kinematic analysis, algebraic method, vector-loop meth
 \##87['Corequisites' -> 'NONE'].
 \##87['Description' -> 'Newtonian and Lagrangian mechanics of rigid bodies; kinematics, inertia tensor, principle of momentum, principle of virtual work, potential and kinetic energy, equations of motion, extraction of information from the equations of motion, and application to engineering problems.
 Fall,'].
-\##87['spring1' -> 1].
-\##87['fall1' -> 1].
-\##87['spring2' -> 1].
-\##87['fall2' -> 1].
+\##87['spring' -> 1].
+\##87['fall' -> 1].
 \##1['MEC569' -> \##88].
 \##88['CourseTitle' -> 'Aerial Robotics'].
 \##88['Career' -> 'Graduate'].
@@ -1076,10 +904,8 @@ Fall,'].
 \##88['Corequisites' -> 'NONE'].
 \##88['Description' -> 'This hands-on course covers a broad range of topics related to aerial-robotics. There is a comparative analysis of the most common types of flying vehicles. A few of the most common control strategies such as cascaded control, dubins path, and flocking algorithms are covered as well. Lastly, we look at the latest work in both the scientific literature and industry. In particular, this course covers multicopters, fixed-wings, flapping-wings, aerial swarms, perching, collision resilience, search & rescue, and flight testing. There are two hands-on projects, the first consists of searching a space for a safe landing point with a crazyflie quadcopter, and the second is navigation of a narrow passage with a fixed-wing robot. At the end
 of the class, the students will be able to critically evaluate existing aerial robotic systems, conceive new systems, and implement functional prototype vehicles.'].
-\##88['spring1' -> 1].
-\##88['fall1' -> 1].
-\##88['spring2' -> 1].
-\##88['fall2' -> 1].
+\##88['spring' -> 1].
+\##88['fall' -> 1].
 \##1['MEC570' -> \##89].
 \##89['CourseTitle' -> 'Introduction to Engineering Tribology'].
 \##89['Career' -> 'Graduate'].
@@ -1089,10 +915,8 @@ of the class, the students will be able to critically evaluate existing aerial r
 \##89['Corequisites' -> 'NONE'].
 \##89['Description' -> 'Focus is on the fundamentals of tribology, the science of surfaces in relative motion, with an introduction to friction, lubrication, and wear.  The basics of tribology science: engineering surfaces, contact mechanics, lubrication theory, wear processes and modeling, wear properties of materials, and tribology test methods will be covered.  Analysis of tribological aspects of machine components and bearings.  Industrial case studies will be presented to place the topics in context to industry and society.
 Spring, every year,'].
-\##89['spring1' -> 1].
-\##89['fall1' -> 1].
-\##89['spring2' -> 1].
-\##89['fall2' -> 1].
+\##89['spring' -> 1].
+\##89['fall' -> 1].
 \##1['MEC571' -> \##90].
 \##90['CourseTitle' -> 'Analysis and Design of Robotic Manipulators'].
 \##90['Career' -> 'Graduate'].
@@ -1103,10 +927,8 @@ Spring, every year,'].
 \##90['Description' -> 'Introduction to robot manipulators from the mechanical viewpoint, emphasizing fundamentals of various mechanisms and design considerations.  Kinematics on 2D and 3D manipulators; statics and dynamics; motion planning; control fundamentals; algorithms development; computer-graphics simulation of manipulators; current applications. 
 Prerequisite: Permission of instructor
 Fall or Spring, alternate years,'].
-\##90['spring1' -> 1].
-\##90['fall1' -> 1].
-\##90['spring2' -> 1].
-\##90['fall2' -> 1].
+\##90['spring' -> 1].
+\##90['fall' -> 1].
 \##1['MEC572' -> \##91].
 \##91['CourseTitle' -> 'Computer-Aided Design of Shapes and Motions'].
 \##91['Career' -> 'Graduate'].
@@ -1115,10 +937,8 @@ Fall or Spring, alternate years,'].
 \##91['Antirequisites' -> 'NONE'].
 \##91['Corequisites' -> 'NONE'].
 \##91['Description' -> 'This class would focus on presenting a unifying treatment for the design of geometric shapes, such as curves and surfaces as well as motions of entities, such as lines, planes, and rigid bodies. It will be shown that in the language of projective geometry, one can design curves, surface, and motions utilizing same algorithms and similar data structures. In the process, the students will learn the theory of NURBS (Non- Uniform Rational B-splines), which is the standard representation in existing CAD/CAM system, and extend it to the space of rigid body displacements for the design of motions. Students will implement shape and motion design algorithms in graphical computer programs.'].
-\##91['spring1' -> 1].
-\##91['fall1' -> 1].
-\##91['spring2' -> 1].
-\##91['fall2' -> 1].
+\##91['spring' -> 1].
+\##91['fall' -> 1].
 \##1['MEC575' -> \##92].
 \##92['CourseTitle' -> 'Introduction to Micro Electro-Mechanical Systems (MEMS)'].
 \##92['Career' -> 'Graduate'].
@@ -1129,10 +949,8 @@ Fall or Spring, alternate years,'].
 \##92['Description' -> 'An introduction to the fundamental knowledge and experience in the design and manufacture of microsystems. Emphasis will be placed on the methodologies for design, fabrication, and packaging of microsystems. An overview on fabrication and manufacturing technologies for producing microsystems will also be covered. Interdisciplinary nature of MEMS will be emphasized via various engineering principles ranging from mechanical and electrical to materials and chemical engineering. Introduction of the working principles of micro actuators, sensors, and transducers.
 Prerequisite: Permission of instructor
 Spring,'].
-\##92['spring1' -> 1].
-\##92['fall1' -> 1].
-\##92['spring2' -> 1].
-\##92['fall2' -> 1].
+\##92['spring' -> 1].
+\##92['fall' -> 1].
 \##1['MEC579' -> \##93].
 \##93['CourseTitle' -> 'Optical Measurement'].
 \##93['Career' -> 'Graduate'].
@@ -1141,10 +959,8 @@ Spring,'].
 \##93['Antirequisites' -> 'NONE'].
 \##93['Corequisites' -> 'NONE'].
 \##93['Description' -> 'Introduction to optical measurement and its applications to the fields of solid mechanics, design and manufacturing, and thermal and fluid systems.  Topics include fundamentals of optics, lasers, and detectors, dimensional and surface metrology, machine vision, measurement of temperature, concentration, and density, and optical techniques for stress analysis and nondestructive testing.'].
-\##93['spring1' -> 1].
-\##93['fall1' -> 1].
-\##93['spring2' -> 1].
-\##93['fall2' -> 1].
+\##93['spring' -> 1].
+\##93['fall' -> 1].
 \##1['MEC585' -> \##94].
 \##94['CourseTitle' -> 'Total Quality Management'].
 \##94['Career' -> 'Graduate'].
@@ -1154,10 +970,8 @@ Spring,'].
 \##94['Corequisites' -> 'NONE'].
 \##94['Description' -> 'Concepts of TQM and quality improvement methods to attain world-class performance in business operations.  Topics include policy deployment, process improvement methodology, daily work management, quality story methodology, six sigma, poka-yoke, ISO, Deming and Baldridge Awards criteria.
 Spring,'].
-\##94['spring1' -> 1].
-\##94['fall1' -> 1].
-\##94['spring2' -> 1].
-\##94['fall2' -> 1].
+\##94['spring' -> 1].
+\##94['fall' -> 1].
 \##1['MEC596' -> \##95].
 \##95['CourseTitle' -> 'Projects in Mechanical Engineering'].
 \##95['Career' -> 'Graduate'].
@@ -1169,10 +983,8 @@ Spring,'].
 May be repeated for credit
 Prerequisite: Advisor's permission
 Offered every semester, 1-6 credits, ABCF grading'].
-\##95['spring1' -> 1].
-\##95['fall1' -> 1].
-\##95['spring2' -> 1].
-\##95['fall2' -> 1].
+\##95['spring' -> 1].
+\##95['fall' -> 1].
 \##1['MEC597' -> \##96].
 \##96['CourseTitle' -> 'Graduate Research and Study in Manufacturing'].
 \##96['Career' -> 'Graduate'].
@@ -1182,10 +994,8 @@ Offered every semester, 1-6 credits, ABCF grading'].
 \##96['Corequisites' -> 'NONE'].
 \##96['Description' -> 'Independent research or project in the area of manufacturing processes or systems.
 Prerequisite:  Students specializing in Manufacturing'].
-\##96['spring1' -> 1].
-\##96['fall1' -> 1].
-\##96['spring2' -> 1].
-\##96['fall2' -> 1].
+\##96['spring' -> 1].
+\##96['fall' -> 1].
 \##1['MEC599' -> \##97].
 \##97['CourseTitle' -> 'Research'].
 \##97['Career' -> 'Graduate'].
@@ -1194,10 +1004,8 @@ Prerequisite:  Students specializing in Manufacturing'].
 \##97['Antirequisites' -> 'NONE'].
 \##97['Corequisites' -> 'NONE'].
 \##97['Description' -> 'Fall, Spring, and Summer,'].
-\##97['spring1' -> 1].
-\##97['fall1' -> 1].
-\##97['spring2' -> 1].
-\##97['fall2' -> 1].
+\##97['spring' -> 1].
+\##97['fall' -> 1].
 \##1['MEC630' -> \##98].
 \##98['CourseTitle' -> 'Special Topics in Fluid Mechanics'].
 \##98['Career' -> 'Graduate'].
@@ -1206,10 +1014,8 @@ Prerequisite:  Students specializing in Manufacturing'].
 \##98['Antirequisites' -> 'NONE'].
 \##98['Corequisites' -> 'NONE'].
 \##98['Description' -> 'TThe subject matter of each special topics course varies from semester to semester, depending on the interests of students and staff.  Advanced topics and specialized topics will be discussed, particularly those of current interest.'].
-\##98['spring1' -> 1].
-\##98['fall1' -> 1].
-\##98['spring2' -> 1].
-\##98['fall2' -> 1].
+\##98['spring' -> 1].
+\##98['fall' -> 1].
 \##1['MEC631' -> \##99].
 \##99['CourseTitle' -> 'Special Topics in Heat Transfer'].
 \##99['Career' -> 'Graduate'].
@@ -1218,10 +1024,8 @@ Prerequisite:  Students specializing in Manufacturing'].
 \##99['Antirequisites' -> 'NONE'].
 \##99['Corequisites' -> 'NONE'].
 \##99['Description' -> 'The subject matter of each special topics course varies from semester to semester, depending on the interests of students and staff.  Advanced topics and specialized topics will be discussed, particularly those of current interest.'].
-\##99['spring1' -> 1].
-\##99['fall1' -> 1].
-\##99['spring2' -> 1].
-\##99['fall2' -> 1].
+\##99['spring' -> 1].
+\##99['fall' -> 1].
 \##1['MEC633' -> \##100].
 \##100['CourseTitle' -> 'Special Topics in Thermodynamics'].
 \##100['Career' -> 'Graduate'].
@@ -1230,10 +1034,8 @@ Prerequisite:  Students specializing in Manufacturing'].
 \##100['Antirequisites' -> 'NONE'].
 \##100['Corequisites' -> 'NONE'].
 \##100['Description' -> 'The subject matter of each special topics course varies from semester to semester, depending on the interests of students and staff.  Advanced topics and specialized topics will be discussed, particularly those of current interest.'].
-\##100['spring1' -> 1].
-\##100['fall1' -> 1].
-\##100['spring2' -> 1].
-\##100['fall2' -> 1].
+\##100['spring' -> 1].
+\##100['fall' -> 1].
 \##1['MEC634' -> \##101].
 \##101['CourseTitle' -> 'Advanced Topics in Kinematics and Dynamics of Machines'].
 \##101['Career' -> 'Graduate'].
@@ -1242,10 +1044,8 @@ Prerequisite:  Students specializing in Manufacturing'].
 \##101['Antirequisites' -> 'NONE'].
 \##101['Corequisites' -> 'NONE'].
 \##101['Description' -> 'The subject matter of each special topics course varies from semester to semester, depending on the interests of students and staff.  Advanced topics and specialized topics will be discussed, particularly those of current interest.'].
-\##101['spring1' -> 1].
-\##101['fall1' -> 1].
-\##101['spring2' -> 1].
-\##101['fall2' -> 1].
+\##101['spring' -> 1].
+\##101['fall' -> 1].
 \##1['MEC635' -> \##102].
 \##102['CourseTitle' -> 'Advanced Topics in Nonlinear Dynamic Systems'].
 \##102['Career' -> 'Graduate'].
@@ -1254,10 +1054,8 @@ Prerequisite:  Students specializing in Manufacturing'].
 \##102['Antirequisites' -> 'NONE'].
 \##102['Corequisites' -> 'NONE'].
 \##102['Description' -> 'The subject matter of each special topics course varies from semester to semester, depending on the interests of students and staff.  Advanced topics and specialized topics will be discussed, particularly those of current interest.'].
-\##102['spring1' -> 1].
-\##102['fall1' -> 1].
-\##102['spring2' -> 1].
-\##102['fall2' -> 1].
+\##102['spring' -> 1].
+\##102['fall' -> 1].
 \##1['MEC636' -> \##103].
 \##103['CourseTitle' -> 'Advanced Topics in Mechanical Vibration'].
 \##103['Career' -> 'Graduate'].
@@ -1266,10 +1064,8 @@ Prerequisite:  Students specializing in Manufacturing'].
 \##103['Antirequisites' -> 'NONE'].
 \##103['Corequisites' -> 'NONE'].
 \##103['Description' -> 'The subject matter of each special topics course varies from semester to semester, depending on the interests of students and staff.  Advanced topics and specialized topics will be discussed, particularly those of current interest.'].
-\##103['spring1' -> 1].
-\##103['fall1' -> 1].
-\##103['spring2' -> 1].
-\##103['fall2' -> 1].
+\##103['spring' -> 1].
+\##103['fall' -> 1].
 \##1['MEC637' -> \##104].
 \##104['CourseTitle' -> 'Special Topics in Precision Engineering'].
 \##104['Career' -> 'Graduate'].
@@ -1278,10 +1074,8 @@ Prerequisite:  Students specializing in Manufacturing'].
 \##104['Antirequisites' -> 'NONE'].
 \##104['Corequisites' -> 'NONE'].
 \##104['Description' -> 'The subject matter of each special topics course varies from semester to semester, depending on the interests of students and staff.  Advanced topics and specialized topics will be discussed, particularly those of current interest.'].
-\##104['spring1' -> 1].
-\##104['fall1' -> 1].
-\##104['spring2' -> 1].
-\##104['fall2' -> 1].
+\##104['spring' -> 1].
+\##104['fall' -> 1].
 \##1['MEC641' -> \##105].
 \##105['CourseTitle' -> 'Fracture Mechanics'].
 \##105['Career' -> 'Graduate'].
@@ -1292,10 +1086,8 @@ Prerequisite:  Students specializing in Manufacturing'].
 \##105['Description' -> 'The mechanics of brittle and ductile fracture in engineering materials are studied. Major subjects are linear elastic fracture, elastic-plastic fracture, and fatigue crack analysis. Topics also include stress intensity factor, energy release rate, J-integ.
 Prerequisite: MEC 536,
 Fall or Spring, alternate years, 3 credits'].
-\##105['spring1' -> 1].
-\##105['fall1' -> 1].
-\##105['spring2' -> 1].
-\##105['fall2' -> 1].
+\##105['spring' -> 1].
+\##105['fall' -> 1].
 \##1['MEC651' -> \##106].
 \##106['CourseTitle' -> 'Advanced Finite Element Analysis'].
 \##106['Career' -> 'Graduate'].
@@ -1306,10 +1098,8 @@ Fall or Spring, alternate years, 3 credits'].
 \##106['Description' -> 'Finite element method for the analysis of continuous media.  In-depth discussion of penalty method, integration techniques, and differential equation solvers.  Computer implementation of finite element code in nonlinear elastic, elastic-plastic materials, and dynamic problems.  Major topics are 2-D and 3D element formulations, stress update algorithms, Newton-Raphson iterative technique, and explicit/implicit time integration schemes.
 Prerequisites:  MEC 541, MEC 539
 Fall or Spring, alternate years,'].
-\##106['spring1' -> 1].
-\##106['fall1' -> 1].
-\##106['spring2' -> 1].
-\##106['fall2' -> 1].
+\##106['spring' -> 1].
+\##106['fall' -> 1].
 \##1['MEC656' -> \##107].
 \##107['CourseTitle' -> 'Aerospace Propulsion'].
 \##107['Career' -> 'Graduate'].
@@ -1318,10 +1108,8 @@ Fall or Spring, alternate years,'].
 \##107['Antirequisites' -> 'NONE'].
 \##107['Corequisites' -> 'NONE'].
 \##107['Description' -> 'Fundamentals of propulsion; performance parameters, thermodynamic cycles.  Introduction to combustion and combustors.  Performance and cycle analysis of various flight propulsion systems: turbojets, turbofans, ramjets, scramjets, rockets, propellers.  Design of supersonic inlet nozzles, component matching and map.'].
-\##107['spring1' -> 1].
-\##107['fall1' -> 1].
-\##107['spring2' -> 1].
-\##107['fall2' -> 1].
+\##107['spring' -> 1].
+\##107['fall' -> 1].
 \##1['MEC662' -> \##108].
 \##108['CourseTitle' -> 'Advanced Vibration and Analysis'].
 \##108['Career' -> 'Graduate'].
@@ -1331,10 +1119,8 @@ Fall or Spring, alternate years,'].
 \##108['Corequisites' -> 'NONE'].
 \##108['Description' -> 'Principle and techniques of vibration analysis of structures and machines. Includes free and forced vibration responses of linear limped-parameter, multiple dof systems; model analysis of distributed, continuous systems; non-linear vibration analysis; random vibrations.
 Permission of instructor.'].
-\##108['spring1' -> 1].
-\##108['fall1' -> 1].
-\##108['spring2' -> 1].
-\##108['fall2' -> 1].
+\##108['spring' -> 1].
+\##108['fall' -> 1].
 \##1['MEC691' -> \##109].
 \##109['CourseTitle' -> 'Mechanical Engineering Seminar'].
 \##109['Career' -> 'Graduate'].
@@ -1343,10 +1129,8 @@ Permission of instructor.'].
 \##109['Antirequisites' -> 'NONE'].
 \##109['Corequisites' -> 'NONE'].
 \##109['Description' -> 'This course is designed to expose students to cutting-edge research and development activities in mechanical engineering.  Speakers are invited from both on and off campus.  Fall and spring. 0 credits, S/U grading.  May be repeated.'].
-\##109['spring1' -> 1].
-\##109['fall1' -> 1].
-\##109['spring2' -> 1].
-\##109['fall2' -> 1].
+\##109['spring' -> 1].
+\##109['fall' -> 1].
 \##1['MEC695' -> \##110].
 \##110['CourseTitle' -> 'Mechanical Engineering Internship'].
 \##110['Career' -> 'Graduate'].
@@ -1356,10 +1140,8 @@ Permission of instructor.'].
 \##110['Corequisites' -> 'NONE'].
 \##110['Description' -> 'Participation in off-campus engineering practice in private corporations, public agencies, or non-profit institutions as an intern. Students will be required to have a faculty adviser as well as a contact coordinator at the place of internship, to participate with them in regular consultations on the project, and to submit a final report to both and the Graduate Program Director. Credits from this course cannot be applied toward the MS and/or PhD degree.
 1 credit, S/U grading. Offered Fall and Spring semesters'].
-\##110['spring1' -> 1].
-\##110['fall1' -> 1].
-\##110['spring2' -> 1].
-\##110['fall2' -> 1].
+\##110['spring' -> 1].
+\##110['fall' -> 1].
 \##1['MEC696' -> \##111].
 \##111['CourseTitle' -> 'Aerial Robotics'].
 \##111['Career' -> 'Graduate'].
@@ -1369,10 +1151,8 @@ Permission of instructor.'].
 \##111['Corequisites' -> 'NONE'].
 \##111['Description' -> 'This hands-on course covers a broad range of topics related to aerial-robotics. There is a comparative analysis of the most common types of flying vehicles. A few of the most common control strategies such as cascaded control, dubins path, and flocking algorithms are covered as well. Lastly, we look at the latest work in both the scientific literature and industry. In particular, this course covers multicopters, fixedwings, flapping-wings, aerial swarms, perching, collision resilience, search & rescue, and flight testing. There are two hands-on projects, the first consists of searching a space for a safe landing point with a crazyflie quadcopter, and the second is navigation of a narrow passage with a fixed-wing robot. At the end
 of the class, the students will be able to critically evaluate existing aerial robotic systems, conceive new systems, and implement functional prototype vehicles.'].
-\##111['spring1' -> 1].
-\##111['fall1' -> 1].
-\##111['spring2' -> 1].
-\##111['fall2' -> 1].
+\##111['spring' -> 1].
+\##111['fall' -> 1].
 \##1['MEC697' -> \##112].
 \##112['CourseTitle' -> 'Practicum in Teaching I'].
 \##112['Career' -> 'Graduate'].
@@ -1382,10 +1162,8 @@ of the class, the students will be able to critically evaluate existing aerial r
 \##112['Corequisites' -> 'NONE'].
 \##112['Description' -> 'Every TA must register for the course
 Fall, Spring,'].
-\##112['spring1' -> 1].
-\##112['fall1' -> 1].
-\##112['spring2' -> 1].
-\##112['fall2' -> 1].
+\##112['spring' -> 1].
+\##112['fall' -> 1].
 \##1['MEC698' -> \##113].
 \##113['CourseTitle' -> 'Practicum in Teaching II'].
 \##113['Career' -> 'Graduate'].
@@ -1394,10 +1172,8 @@ Fall, Spring,'].
 \##113['Antirequisites' -> 'NONE'].
 \##113['Corequisites' -> 'NONE'].
 \##113['Description' -> 'Practicum in teaching under faculty supervision'].
-\##113['spring1' -> 1].
-\##113['fall1' -> 1].
-\##113['spring2' -> 1].
-\##113['fall2' -> 1].
+\##113['spring' -> 1].
+\##113['fall' -> 1].
 \##1['MEC699' -> \##114].
 \##114['CourseTitle' -> 'Dissertation Research on Campus'].
 \##114['Career' -> 'Graduate'].
@@ -1407,10 +1183,8 @@ Fall, Spring,'].
 \##114['Corequisites' -> 'NONE'].
 \##114['Description' -> 'Prerequisite: Advancement to candidacy (G5). Major portion of research must take place on SBU campus, at Cold Spring Harbor, or at the Brookhaven National Lab.
 Fall, Spring, and Summer,'].
-\##114['spring1' -> 1].
-\##114['fall1' -> 1].
-\##114['spring2' -> 1].
-\##114['fall2' -> 1].
+\##114['spring' -> 1].
+\##114['fall' -> 1].
 \##1['MEC700' -> \##115].
 \##115['CourseTitle' -> 'Dissertation Research off Campus - Domestic'].
 \##115['Career' -> 'Graduate'].
@@ -1421,10 +1195,8 @@ Fall, Spring, and Summer,'].
 \##115['Description' -> 'Prerequisite: Must be advanced to candidacy (G5). Major portion of research will take place off-campus, but in the United States and/or U.S. provinces. Please note, Brookhaven National Labs and the Cold Spring Harbor Lab are considered on-campus.
 All international students must enroll in one of the graduate student insurance plans and should be advised by an International Advisor.
 Fall, Spring, Summer'].
-\##115['spring1' -> 1].
-\##115['fall1' -> 1].
-\##115['spring2' -> 1].
-\##115['fall2' -> 1].
+\##115['spring' -> 1].
+\##115['fall' -> 1].
 \##1['MEC701' -> \##116].
 \##116['CourseTitle' -> 'Dissertation Research off Campus - International'].
 \##116['Career' -> 'Graduate'].
@@ -1438,10 +1210,8 @@ International students who are in their home country are not covered by mandator
 International students who are not in their home country are charged for the mandatory health insurance. If they are to be covered by another insurance plan they must file a waiver be second week of classes. The charge will only be removed if other plan is deemed comparable.
 All international students must received clearance from an International Advisor.
 Fall, Spring, Summer'].
-\##116['spring1' -> 1].
-\##116['fall1' -> 1].
-\##116['spring2' -> 1].
-\##116['fall2' -> 1].
+\##116['spring' -> 1].
+\##116['fall' -> 1].
 \##1['MEC800' -> \##117].
 \##117['CourseTitle' -> 'Full Time Summer Research'].
 \##117['Career' -> 'Graduate'].
@@ -1450,9 +1220,7 @@ Fall, Spring, Summer'].
 \##117['Antirequisites' -> 'NONE'].
 \##117['Corequisites' -> 'NONE'].
 \##117['Description' -> ''].
-\##117['spring1' -> 1].
-\##117['fall1' -> 1].
-\##117['spring2' -> 1].
-\##117['fall2' -> 1].
+\##117['spring' -> 1].
+\##117['fall' -> 1].
 :- new_global_oid_scope.
 ?- new_global_oid_scope.

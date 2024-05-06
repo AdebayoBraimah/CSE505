@@ -7,10 +7,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"An introduction to the foundations of writing, offering students a variety of rhetorical strategies and helping them develop creative and critical thinking, fluency, and correctness. Coursework creates ample opportunities for significant practice in reading, writing, and critical analysis. Emphasis on writing as a revision-based process. WRT 101 prepares students for WRT 102 and postsecondary academic writing. Prerequisite: a grade of C or better in WAE 194 or Writing Placement score of 3.  This course may be repeated until a satisfactory grade is achieved.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "WRT102":{
         "CourseTitle":"Intermediate Writing Workshop",
@@ -20,10 +18,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"A study of strategies for extended academic writing assignments including critical analysis, argument or point of view, and multi-source, college-level research essays. Students continue to develop rhetorical awareness, analytical proficiency, and academic research skills. At the end of the course students create a multimodal ePortfolio of final revised essays to be evaluated by their instructor and at least one outside reader. Prerequisite: WRT 101; 3 or higher on AP English Language\/Composition exam or AP English Literature\/Composition exam; 580 or higher on the Evidence-Based Reading and Writing SAT or 1050 or higher on the combined Critical Reading and Writing SAT (last administered Jan 2016); 23 or higher on the English Language Arts ACT or 24 or higher on the combined English and Writing ACT (last administered June 2015); Writing Placement score of 4; C or higher in an approved transfer course equivalent to WRT 101.  This course may be repeated until a satisfactory grade is achieved.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "WRT200":{
         "CourseTitle":"The Rhetoric of Grammar and Style",
@@ -37,10 +33,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Students will examine conventions of grammar and style to understand how they are derived and applied in common formal and informal writing situations. Students will experiment with prose style as a way to achieve rhetorical effectiveness. Students will study aspects of grammar that are most relevant to clear writing, including punctuation, nouns, verbs, adjectives, adverbs, conjunctions, phrases, clauses, gerunds, participles, infinitives, and complete sentences. Sentence imitation, sentence combining, and sentence invention techniques are used to help students become more flexible in their syntactic fluidity.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "WRT201":{
         "CourseTitle":"Principles of Professional Writing",
@@ -54,10 +48,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"An introduction to the principles and practices of professional writing, this course is designed to teach students about foundational skills and approaches needed for a variety of professional writing situations. Students learn and apply core concepts, analytical skills, and strategies of effective workplace writing through genres common to a range of fields, such as business, industry, education, the arts, publishing, nonprofit organizations, law, international affairs, and public service and health-related professions. Through engagement with writing studies theory and research, and exposure to different types of professional writing, students will develop an understanding of relevant rhetorical, social, cultural, and ethical considerations.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "WRT206":{
         "CourseTitle":"Writing about African-American Literature and History",
@@ -71,10 +63,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"In this lecture course, we will read American Literature written by African-Americans and study that literature in its historical context.  Readings will include works such as Frederick Douglass's Narrative, Harriet Wilson's Our Nig, William Wells Brown's Clotel,  Charles Chesnutt's \"The Sheriff's Children\", W.E.B. Dubois's The Souls of Black Folk, Ida B. Wells's  Lynch Law in all its Phases, James Weldon Johnson's Autobiography of an Ex-Colored Man, Langston Hughes's The Big Sea, Zora Neale Hurston's Their Eyes were Watching God,  Richard Wright's Uncle Tom's Children, Chester Himes's Real Cool Killers, Alice Walker's The Color Purple, Toni Morrison's Beloved,  and Walter Mosley's Always Outnumbered, Always Outgunned.  Literary readings will be supplemented by documents and essays that provide historical context.  Students will write a one-page response to their reading for every class, and principles of thoughtful writing, including correct grammar, will be reinforced.  There will be two tests and a final exam.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "WRT220":{
         "CourseTitle":"Rhetoric and Culture",
@@ -88,10 +78,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"An introduction to the history of rhetoric that highlights its relationship to reading, writing, and speaking in modern contexts. Emphasis will be placed on defining rhetoric - its traditions, forms, and enduring realms of influence. Specific content depends on instructor preference, but in general, this course will address key historical moments, especially the beginnings of rhetoric in antiquity and 20th century struggles against fascist rhetoric, alongside historical-critical perspectives on contemporary rhetorical theory and practice.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "WRT300":{
         "CourseTitle":"Theories and Methods in Rhetoric and Writing",
@@ -108,10 +96,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"An exploration of theories and methods of rhetoric and rhetorical criticism. Moving through historical approaches to rhetorical study to provide a foundation in rhetorical theory, the class examines contemporary methods in rhetoric research and practice to equip students with skills in invention, deliberation, and persuasion. The course includes a final project that uses contemporary rhetorical methods to examine the ethical practices underlying persuasion in every-day activities, communications, or objects.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "WRT301":{
         "CourseTitle":"Writing in the Disciplines: Special Topics",
@@ -125,10 +111,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Writing in specified academic disciplines is taught through the analysis of texts in appropriate fields to discover discourse conventions.  Students produce a variety of written projects typical of the genres in the field.  Different sections emphasize different disciplines.  Typical topics will be Technical Writing, Business Writing, Legal Writing, and Writing for the Health Professions.  May be repeated for credit as the topic changes.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "WRT302":{
         "CourseTitle":"Critical Writing Seminar: Special Topics",
@@ -142,10 +126,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"A writing seminar, with rotating historical, political, social, literary, and artistic topics suggested by the professors each semester. Frequent substantial writing projects are central to every version of the course. May be repeated for credit as the topic changes.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "WRT303":{
         "CourseTitle":"The Personal Essay",
@@ -159,10 +141,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"We all have stories to tell about our lives. In this course, we will explore how to tell them through the personal essay, a notoriously slippery and flexible form that we will engage by writing our own personal essays, as well as by reading and responding to writers who work in that genre. Students will also prepare a personal statement for their application to graduate or professional school, or for another academic or professional opportunity.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "WRT304":{
         "CourseTitle":"Writing for Your Profession",
@@ -176,10 +156,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"In this course students learn about types of documents, rhetorical principles, and composing practices necessary for writing effectively in and about professional contexts. Coursework emphasizes each student's career interests, but lessons also address a variety of general professional issues, including audience awareness, research methods, ethics, collaboration, and verbal and visual communication. Students complete the course with practical knowledge and experience in composing business letters, proposals, and various kinds of professional reports. A creative, self-reflexive assignment also contextualizes each individual's professional aspirations within a bigger picture of his\/her life and culture.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "WRT305":{
         "CourseTitle":"Writing for the Health Professions",
@@ -193,10 +171,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Enables students interested in a health care career to strengthen their critical writing skills.  While learning to gather information and to apply ethical principles in a logical, persuasive fashion, students will explore and write about various types of evidence concerning the health care needs of different populations: a field research project on a health issue affecting a local target population of their choice, a critique of government documents that contain data on that issue and population, and a review of scholarly research on the same issue as it affects the larger national population represented by that local one.  Writing assignments will include drafts and final versions of a research proposal, field research results, numerical analysis, literature review and a final project incorporating all of the previous work conducted about that issue and population. Students will also write a reflective paper which can serve as the basis for a personal statement for medical or other health-related graduate school applications.  This course will fulfill the second half of the Writing Pre-Med\/Pre-Health prerequisite.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "WRT306":{
         "CourseTitle":"Tutor Training",
@@ -210,10 +186,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"This course is reserved for new tutors hired by the Writing Program to staff the Writing Center. Instructor permission is required to enroll in this course, which is designed to introduce new tutors to the discipline of writing pedagogy and help tutors contextualize their own experiences in scholarship associated with the field. This course is designed to help new tutors develop their own methodology for tutoring, grounded in some influential scholarship in Writing Center pedagogy.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "WRT307":{
         "CourseTitle":"Rhetoric of Science, Technology, and Medicine",
@@ -227,10 +201,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"A writing-intensive critical seminar on the roles that argument and persuasion play in the development, circulation, and translation of medical and scientific knowledge. Class discussions and writing assignments will be organized around two mutually informing themes: first, consideration will be given to the rhetorical strategies experts use to produce technical arguments; second, emphasis will be placed on how non-experts interact with and contest those arguments. This course will address issues of power, access, and social justice as it traces how scientific discourses move among diverse audiences. To that end, writing assignments will ask students to 1) analyze medical and scientific texts, 2) modify those texts to fit the unique demands of a particular community, and 3) conduct sustained original research into a scientific or medical controversy of their choosing.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "WRT319":{
         "CourseTitle":"Nonprofit Business Writing",
@@ -244,10 +216,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"A multimodal writing and analysis-intensive course focusing organizational analysis and public facing rhetoric of businesses with a special interest in nonprofits as a way to introduce students to a career in the nonprofit world. Using real nonprofits or other organizations as an example, students will apply theories of organizational rhetoric, visual rhetoric, genre, and more to analyze the ways in which a business internally communicates and externally presents itself in its public facing texts and artifacts particularly with an eye toward diversity, equity and inclusion and assumed power structures. For the first half of the class, students will choose a business or nonprofit organization to formally research, analyze and create content for. Genres include an organizational rhetorical analysis report, a writing profile, a researched spotlight brief and a video message. Students will then present their work in a 10 to 15-minute formal presentation, peer reviewed by the class. The second half of the semester, the class will partner with one or more businesses or local nonprofits through Stony Brook University's Center for Service Learning and Community Service (CSLCS). Using an asset based approach, students will work in groups to collaborate with the organization(s) to learn their needs then using what they learned from the first half, write mini white papers which will then be combined into a Collaborative White Paper for the organization(s).",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "WRT321":{
         "CourseTitle":"Writing for Social Justice",
@@ -261,10 +231,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"\"This course grapples with the complex historical partnership  between writing\/language and social justice: the manifestos, poetry, essays, editorials and political statements, the films, speeches, wall writing, testimonials and posters and zines from the many contexts in which people use language to move society toward equity and justice--even activist technical and professional writing that aims to change systemic inequities through the (re)writing of bureaucratic and policy texts. We will consider language broadly by looking at and experimenting with a range of communicative forms recruited to address social justice.\n\"",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "WRT375":{
         "CourseTitle":"Technical Communication",
@@ -278,10 +246,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"An exploration of technical communication, a field of inquiry and an approach to conveying complex information in professional contexts. Many industries and organizations require that their workers spend a significant amount of time communicating goals, project ideas, and technical knowledge to many different audiences. This course gives students the confidence and tools needed to communicate effectively and responsibly to colleagues and potential employers in a professional and valued manner.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "WRT376":{
         "CourseTitle":"Digital Rhetorics",
@@ -295,10 +261,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"In antiquity, rhetoric was an art of persuasion carried out through the medium of voice. Since the printing press, rhetoric and composition have been concerned with rhetoric in written word. Today, in the 21st century, we face digitality, defying any attempt to easily delineate speech, writing, and visuality. What does it mean to compose, interpret, and argue through digitality? What does it mean to practice rhetoric as a civic art when our communities are global and hyperconnected? This course explores the subfield of digital rhetoric, which aims to capture answers to these questions and more.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "WRT377":{
         "CourseTitle":"Special Topics in Digital Writing",
@@ -312,10 +276,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"A writing-intensive seminar with rotating topics exploring current issues in digitally based discourse. Sample topics include but are not limited to, Writing for the New Media; Authorship in the Digital Age; The Rhetoric of Surveillance; AI and Writing. Frequent substantial writing projects are central to every version of the course. May be repeated for credit as the topic changes.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "WRT380":{
         "CourseTitle":"Advanced Research Writing: Theories, Methods, Practices",
@@ -329,10 +291,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Good research skills are critical to academic success.  Most disciplines require writing based upon research, as arguments and explanations make little impact on audiences without effective supporting evidence, drawn from relevant scholarship on the subject. This involves knowing how to use appropriate databases, source materials, and composing processes, as well as negotiating the values, genres, and languages of the scholarly communities in which one is researching.  In this course, students will learn fundamentals of research methods, practice these methods in a series of integrated research and writing assignments, and engage in critical reflection about research and writing.  Students will focus on an area of disciplinary interest to them, and practice these essential research and writing skills through a series of projects: library assignments, research log, research proposal, annotated bibliography, literature review, abstract, research paper and reflection paper.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "WRT381":{
         "CourseTitle":"Advanced Analytic and Argumentative Writing",
@@ -346,10 +306,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Argumentative writing involves making a claim and supporting it with specific, related points and appropriate evidence--in other words, it is thesis-driven writing. Whenever we don't quite like someone else's idea and we want him or her to come closer to ours, argumentative writing is the most efficient method for such persuasion, in whatever profession you're considering. This class, therefore, will focus on learning how to effectively utilize argumentative and counter-argumentative writing strategies.  Students will explore an area of disciplinary interest to them through several stages--proposal, preliminary draft, multiple versions, literature review--culminating in a 20-30 page piece of writing in which they make a claim about a particular subject in that area of interest and support it with scholarly research and extensive elaboration.  This course will fulfill the second half of the Writing Pre-Med\/Pre-Health prerequisite. Covers the\nInterdisciplinary topic for the English major. This course is offered as both EGL 381 and WRT 381.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "WRT382":{
         "CourseTitle":"Grant Writing",
@@ -363,10 +321,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Introduces students to the fundamentals of seeking and writing scholarly grants to fund research-based projects, from the earliest stages of planning to the completion of the grant application. In consultation with the instructor, each student works for the entire semester on applying for a real grant that is external to Stony Brook University. Key subjects to be taught include understanding funders and funding opportunities, researching and locating one's position in the disciplinary field of the grant, articulating relevant problems in that field, specifying appropriate and evidence-based solutions, addressing specific audiences, and utilizing rhetorical appeals. In addition to frequent low-stakes writing tasks, the course requires three high-stakes written projects: a literature review, a research proposal, and a grant application along with an abstract.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "WRT392":{
         "CourseTitle":"Theories and Methods of Mentoring Writers",
@@ -380,10 +336,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Closely examines the difficulties implicit in mentoring writers, with special consideration for the roles of cultural expectations and social dynamics on both the teaching of writing and writers themselves. In small groups and one-to-one interactions, students explore theories and practices upon which composition instruction and writing center work depend. Building on the understanding that writing is a recursive process (a cycle of planning, drafting, revising, and editing), students also learn to analyze and problem-solve issues that become barriers for effective writing and communication.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "WRT444":{
         "CourseTitle":"Experiential Learning",
@@ -393,10 +347,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"This course is designed for students who engage in a substantial, structured experiential learning activity in conjunction with another class. Experiential learning occurs when knowledge acquired through formal learning and past experience are applied to a \"real-world\" setting or problem to create new knowledge through a process of reflection, critical analysis, feedback and synthesis. Beyond-the-classroom experiences that support experiential learning may include: service learning, mentored research, field work, or an internship.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "WRT458":{
         "CourseTitle":"Speak Effectively Before an Audience",
@@ -410,10 +362,8 @@
             ]
         ],
         "Description":"A zero credit course that may be taken in conjunction with any WRT course that provides opportunity to achieve the learning outcomes of the Stony Brook Curriculum's SPK learning objective.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "WRT459":{
         "CourseTitle":"Write Effectively in a Discipline",
@@ -427,10 +377,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"A zero-credit course that may be taken in conjunction with any 300- or 400-level course in any department. The course provides opportunity to practice the skills and techniques of effective academic writing and satisfies the learning outcomes of the Stony Brook Curriculum's WRTD learning objective. Students must request that the faculty member teaching the course for which the paper is written email their approval of the student enrollment in WRT 459 to the undergraduate program director of the Program in Writing and Rhetoric.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "WRT487":{
         "CourseTitle":"Independent Project",
@@ -444,10 +392,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Qualified upper-division students may carry out advanced independent work under the supervision of an instructor in the program. May be repeated.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "WRT488":{
         "CourseTitle":"Internship",
@@ -461,10 +407,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Participation in local, state, and national public and private agencies and organizations. May be repeated up to a limit of 6 credits.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "WRT490":{
         "CourseTitle":"Rhetoric and Writing Senior Project",
@@ -481,10 +425,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"A capstone course for students in the Bachelor of Arts in Rhetoric and Writing. Students develop and compose a major project for a specific audience and need. Students attend a weekly seminar and work independently to produce their original, theory-driven, and evidence-orientated capstone composition. They are also expected to interact directly with members of the appropriate community for eliciting responses and making corresponding social impact.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "WRT506":{
         "CourseTitle":"Studies in Literary Theory",
@@ -494,10 +436,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Prerequisite:  Matriculation in a graduate program or the composition studies certificate.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "WRT509":{
         "CourseTitle":"Studies in Language and Linguistics",
@@ -507,10 +447,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "WRT592":{
         "CourseTitle":"Problems in Teaching Writing or Composition",
@@ -520,10 +458,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"This course provides an overview of writing pedagogy as applied to tutoring in a Writing Center or in an English classroom.  Included in the course is fieldwork in the campus Writing Center.\nFall,",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "WRT605":{
         "CourseTitle":"Scientific Writing for Chemists",
@@ -533,10 +469,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"This course, taught primarily in a workshop format, will prepare students to write graduate papers, communications, journal articles, and dissertations.  Rhetorical principles of organization, attention to audience, conciseness, cogency, clarity, and using an appropriate scientific voice will be stressed, as will correctness of grammar and punctuation, including grammatical issues particularto non-native speakers of English.  The class will examine in detail models of clear writing from scientific journals.  Students will also bring their writing to class frequently for review by both the instructor and their classmates so that students will gradually internalize standards for writing and be able to write effectively in all genres typically used by chemists.\nOffered Spring, 3 Credits, S\/U Grading",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "WRT612":{
         "CourseTitle":"Theories in Composition",
@@ -551,10 +485,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"This course explores the relationship between reading and writing skills, the differences between speech production and writing production, and the relationship between literacy, culture, and language politics.\nSpring, alternate years",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "WRT613":{
         "CourseTitle":"Research in Composition",
@@ -569,10 +501,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"This course provides an introduction to the nature of empirical research in Composition Studies.  Students will survey landmark research studies, learn how to read research reports critically, and conduct a mini-research project in their own classrooms or tutoring situations to analyze underlying causes of students' writing problems.\nSpring, alternate years",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "WRT614":{
         "CourseTitle":"Topics in Composition and Writing",
@@ -582,10 +512,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"This course will consist of directed readings in particular areas of interest in rhetoric, the history of rhetoric and pedagogy, and teaching strategies for teachers.\nOffered Fall and Spring, 3 Credits, ABCF Grading",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "WRT621":{
         "CourseTitle":"Graduate-Level Writing",
@@ -595,10 +523,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"This course, designed for a mixture of students from any of our graduate programs or departments, is a workshop in writing academic papers, theses, or dissertations, with attention to research methods, drafting, organizing, revising, and editing work that the students have already been assigned in their primary departments.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "WRT687":{
         "CourseTitle":"Independent Study",
@@ -608,10 +534,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"A student and faculty member agree on a topic of student\u00bfs interest which may not be offered in any seminars, creating a reading list to focus on.  A final research paper or major annotated bibliography will be required to demonstrate substantive knowledge of the field and\/or topic.  A program form must be completed and submitted to the PWR by the student before the add\/drop period ends.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "WRT690":{
         "CourseTitle":"Directed Readings",
@@ -621,10 +545,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "WRT698":{
         "CourseTitle":"Practicum in Teaching Writing",
@@ -634,9 +556,7 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"This course provides hands-on experience and instruction in the basics of writing pedagogy, including designing writing assignments, sequencing assignments, motivating writing, writing skill development and evaluating writing.  Students will also be given a preliminary overview of the major theories driving composition pedagogy.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     }
 }

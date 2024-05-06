@@ -7,10 +7,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"An introduction to the modern understanding of light, color, and vision, primarily for non-science majors and especially beneficial to students  majoring in visual arts or theatre.  Topics include the nature of light; the human eye and vision; illusions, color perception, and color theory; optical instruments; the camera and photography; optical phenomena in the atmosphere (mirages, rainbows, halos); and light in modern physics (relativity, lasers). Not for major credit. Not for credit in addition to PHY 122, PHY 126, PHY 132 or PHY 142. Students majoring or planning to major in PHY, AST, CHE, MAT, AMS or engineering may not take this course.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY113":{
         "CourseTitle":"Physics of Sports",
@@ -20,10 +18,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"First part of an introduction to physics from the perspective of sports, especially designed for non-science majors. Basic concepts in classical mechanics and fluid dynamics are used to analyze particular actions in football, baseball, soccer, track and field, and other sports. Students learn, for example, about the knuckle ball in baseball and why it is so hard to hit, and why quarterbacks throw a football in a spiral. The concepts of heat, energy, and calories are also discussed. The laboratory component, PHY 115, may be taken concurrently with or after PHY 113. Not for credit in addition to PHY 121, PHY 125, PHY 131 or PHY 141. Students majoring or planning to major in PHY, AST, CHE, MAT, AMS or engineering may not take this course.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY115":{
         "CourseTitle":"Physics of Sports Laboratory",
@@ -37,10 +33,8 @@
             ]
         ],
         "Description":"Laboratory component of PHY 113. Experiments are designed to help students better understand the physics aspects of sports. Students work in groups and conduct experiments indoors and outdoors. Knowledge of first-year college-level mathematics is recommended, but most necessary information is taught in class as needed. May be taken concurrently with or after PHY 113. This course has an associated fee. Please see www.stonybrook.edu\/coursefees for more information.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY119":{
         "CourseTitle":"Physics for Environmental Studies",
@@ -57,10 +51,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"The principles of physics as they apply to environmental issues. A review of mathematics is followed by a discussion of Newton's laws, conservation principles, topics in fluids and wave motion, optical instruments, and radioactivity. Three lectures and one laboratory session per week. This course is offered as both ENS 119 and PHY 119. This course has an associated fee. Please see www.stonybrook.edu\/coursefees for more information.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY121":{
         "CourseTitle":"Physics for the Life Sciences I",
@@ -77,10 +69,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"First part of an introduction to physics with applications to biology, primarily for students majoring in biological sciences or pre-clinical programs. Topics include mechanics, fluid mechanics, and thermodynamics. Strong algebra skills and knowledge of the ideas of calculus are required. Three lecture hours and two laboratory hours per week. PHY 121 may not be taken for credit in addition to PHY 125, 131, or 141. This course has been designated as a High Demand\/Controlled Access (HD\/CA) course. Students registering for HD\/CA courses for the first time will have priority to do so. This course has an associated fee. Please see www.stonybrook.edu\/coursefees for more information.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY122":{
         "CourseTitle":"Physics for the Life Sciences II",
@@ -99,10 +89,8 @@
             ]
         ],
         "Description":"Second part of an introduction to physics with applications to biology, primarily for students majoring in biological sciences or pre-clinical programs. Topics include electromagnetism, optics, acoustics, and radiation phenomena. Strong algebra skills and knowledge of the ideas of calculus are required. Three lecture hours and two laboratory hours per week. PHY 122 may not be taken for credit in addition to PHY 127, 132, or 142. This course has been designated as a High Demand\/Controlled Access (HD\/CA) course. Students registering for HD\/CA courses for the first time will have priority to do so. This course has an associated fee. Please see www.stonybrook.edu\/coursefees for more information.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY125":{
         "CourseTitle":"Classical Physics A",
@@ -123,10 +111,8 @@
             ]
         ],
         "Description":"First of a three-part sequence intended for physical-sciences or engineering majors. It focuses on the mechanics of point particles and simple oscillators, and emphasizes motion in one and two dimensions and the concepts\nof momentum and energy. Calculus is used concurrently with its development in MAT 125. Three lecture hours and one recitation hour per week. Not for credit in addition to PHY 121, PHY 131, or PHY 141. This course has been designated as a High Demand\/Controlled Access (HD\/CA) course. Students registering for HD\/CA courses for the first time will have priority to do so.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY126":{
         "CourseTitle":"Classical Physics B",
@@ -145,10 +131,8 @@
             ]
         ],
         "Description":"Second or third of a three-part sequence for physical-sciences or engineering majors. It focuses on the mechanics of rigid bodies, on fluids, waves, thermodynamics, and optics. Three lecture hours and one recitation hour per week.  Associated Labs (PHY 133 or PHY 134) are offered separately. Not for credit in addition to PHY 132, or PHY 142. This course has been designated as a High Demand\/Controlled Access (HD\/CA) course. Students registering for HD\/CA courses for the first time will have priority to do so.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY127":{
         "CourseTitle":"Classical Physics C",
@@ -167,10 +151,8 @@
             ]
         ],
         "Description":"Second or third of a three-part sequence for physical-sciences or engineering majors. It focuses on electromagnetism using the concepts of vector fields and scalar potentials, and on DC and AC electric circuits. Calculus is used concurrently with its development in MAT 126. Three lecture hours and one recitation hour per week. Associated Labs (PHY 133 or PHY 134) are offered separately. Not for credit in addition to PHY 122, PHY 132, or PHY 142. This course has been designated as a High Demand\/Controlled Access (HD\/CA) course. Students registering for HD\/CA courses for the first time will have priority to do so.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY131":{
         "CourseTitle":"Classical Physics I",
@@ -191,10 +173,8 @@
             ]
         ],
         "Description":"First part of a two-semester physics sequence for physical-sciences or engineering majors who have a strong mathematics background and are ready for a fast learning pace. It covers mechanics, wave motion, kinetic theory, and thermodynamics. Calculus is used concurrently with its development in MAT 131. Three lecture hours and one recitation hour per week. The Laboratory component, PHY 133 (Lab 1), could be taken concurrently. Not for credit in addition to PHY 121, PHY 125, or PHY 141. Advanced Placement Physics or a very strong course in high school Physics is recommended. This course has been designated as a High Demand\/Controlled Access (HD\/CA) course. Students registering for HD\/CA courses for the first time will have priority to do so.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY132":{
         "CourseTitle":"Classical Physics II",
@@ -217,10 +197,8 @@
             ]
         ],
         "Description":"Second part of a two-semester physics sequence for physical-sciences or engineering majors who have a strong mathematics background and are ready for a fast learning pace. It covers electromagnetism, electric circuit theory, and optics. Calculus is used concurrently with its development in MAT 132. Three lecture hours and one recitation hour per week. The Laboratory component, PHY 134, may be taken concurrently. Not for credit in addition to PHY 122, PHY 127, or PHY 142. This course has been designated as a High Demand\/Controlled Access (HD\/CA) course. Students registering for HD\/CA courses for the first time will have priority to do so.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY133":{
         "CourseTitle":"Classical Physics Laboratory I",
@@ -241,10 +219,8 @@
             ]
         ],
         "Description":"Two and one half hours of laboratory per week that corresponds to the content of PHY 131 or PHY 125+PHY 126. This course has been designated as a High Demand\/Controlled Access (HD\/CA) course. Students registering for HD\/CA courses for the first time will have priority to do so. This course has an associated fee. Please see www.stonybrook.edu\/coursefees for more information.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY134":{
         "CourseTitle":"Classical Physics Laboratory II",
@@ -271,10 +247,8 @@
             ]
         ],
         "Description":"Two and one half hours of laboratory per week that corresponds to the content of PHY 132 or PHY 126+127. This course has been designated as a High Demand\/Controlled Access (HD\/CA) course. Students registering for HD\/CA courses for the first time will have priority to do so. This course has an associated fee. Please see www.stonybrook.edu\/coursefees for more information.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY141":{
         "CourseTitle":"Classical Physics I: Honors",
@@ -292,10 +266,8 @@
             ]
         ],
         "Description":"First part of a demanding two-semester sequence for students with the strongest background, interests, and abilities in science and mathematics. The topics covered in PHY 141 are similar to those in PHY 131 but are treated in more depth in a small-class setting. Students may transfer to PHY 131 at any time during the first half of each semester without penalty. Three lecture hours and  one recitation hour per week. PHY 141 may not be taken for credit in addition to PHY 121, PHY 125, or PHY 131. Advanced Placement Physics or a very strong course in high school Physics is recommended. This course has an associated fee.  Please see www.stonybrook.edu\/coursefees for more information.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY142":{
         "CourseTitle":"Classical Physics II: Honors",
@@ -317,10 +289,8 @@
             ]
         ],
         "Description":"Second part of a demanding two-semester sequence for students with the strongest background, interests and abilities in science and mathematics. The topics covered in PHY 142 are similar to those in PHY 132, but are treated in more depth in a small-class setting. Students may transfer to PHY 132 at any time during the first half of each semester without penalty. Three lecture hours and one recitation hour per week. PHY 142 may not be taken for credit in addition to PHY 122, PHY 127, or PHY 132. This course has an associated fee.  Please see www.stonybrook.edu\/coursefees for more information.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY153":{
         "CourseTitle":"Data Analysis for Physics and Astronomy with Python",
@@ -341,10 +311,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"An introduction to statistical data analysis with modern techniques, including the Python programming language on Windows computers for students with no prior experience in programming. Topics include concepts and methods to characterize experimental data such as averages, variances, standard deviations, propagation of uncertainties, probability distributions, confidence intervals, hypothesis testing, chi-squared minimization, and straight line fitting.  Emphasis on practical data centric applications--preparation for experimental laboratory work and research.  Extensive use of computers outside the classroom will be required.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY191":{
         "CourseTitle":"Transitional Study",
@@ -354,10 +322,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Laboratory for transfer students to supplement courses taken at another institution. Students take the laboratory portion of a 100-level course for which they have taken the theoretical portion elsewhere.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY192":{
         "CourseTitle":"Transitional Study",
@@ -367,10 +333,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Laboratory for transfer students to supplement courses taken at another institution. Students take the laboratory portion of a 100-level course for which they have taken the theoretical portion elsewhere.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY231":{
         "CourseTitle":"Physics for Future Presidents",
@@ -380,10 +344,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"A study of key physics ideas that a newly-inaugurated President of the country, or a newly-hired President of a company, needs to know. This course equips the future President with enough knowledge of the physics behind a pressing issue to make an intelligent decision even in the face of conflicting advice about issues including energy,  national security, and space exploration. Politics is the art of balancing competing demands, and business involves profitably serving  customers, so the economics of many technologies will also be discussed.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY237":{
         "CourseTitle":"World Climate and Atmosphere",
@@ -393,10 +355,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"An exploration of current concerns about the greenhouse effect, acid rain, and global ozone loss, in a format accessible to non-science majors. The social and political steps being taken to limit global atmospheric pollution and climate change are discussed. Not for major credit. This course is offered as both ATM 237 and PHY 237.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY251":{
         "CourseTitle":"Modern Physics",
@@ -429,10 +389,8 @@
             ]
         ],
         "Description":"A survey of the major physics theories of the 20th century (relativity and quantum mechanics) and their impact on most areas of physics. It introduces the special theory of relativity, the concepts of quantum and wave-particle duality, Schroedinger's wave equation, and other fundamentals of quantum theory as they apply to nuclei, atoms, molecules, and solids. It is recommended that students take the laboratory component, PHY 252, concurrently. Three hours lecture and one hour recitation per week.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY252":{
         "CourseTitle":"Modern Physics Laboratory",
@@ -446,10 +404,8 @@
             ]
         ],
         "Description":"Students perform some of the pivotal experiments of the 20th century. It is recommended that students take the lecture component, PHY 251, concurrently. Two hours of laboratory per week. This course has an associated fee. Please see www.stonybrook.edu\/coursefees for more information.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY277":{
         "CourseTitle":"Computation for Physics and Astronomy",
@@ -488,10 +444,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"An introduction to computing on UNIX\/Linux computers. Fundamentals of using UNIX\/Linux to write computer programs for numerical algorithms to solve computational physics and astronomy problems. Assignments are carried out in a high-level compiled programming language such as modern Fortran or C++ and require extensive use of SINC site computers outside the classroom.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY287":{
         "CourseTitle":"Introduction to Research",
@@ -501,10 +455,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"An opportunity for students, while still early in their studies, to do research commensurate with their level of preparation. Students work alongside faculty, post-doctoral fellows, and graduate students on ongoing research projects. Students must take the initiative to negotiate the opportunity. BNL and other scientists may be allowed as co-supervisors. May be repeated up to a total of 3 credits.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY291":{
         "CourseTitle":"Transitional Study",
@@ -514,10 +466,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"A laboratory for transfer students to supplement a course taken at another institution. Students take the laboratory portion of a 200-level course for which they have taken the theoretical portion elsewhere.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY300":{
         "CourseTitle":"Waves and Optics",
@@ -544,10 +494,8 @@
             ]
         ],
         "Description":"The physics of oscillations and waves, from mechanical waves to light waves to electron waves. Topics include resonance and normal modes of coupled oscillators, the wave equation and wave propagation, interference and diffraction, polarization and imaging, coherence, and lasers. Three lecture hours and one two-hour laboratory per week. This course has an associated fee. Please see www.stonybrook.edu\/coursefees for more information.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY301":{
         "CourseTitle":"Electromagnetic Theory I",
@@ -574,10 +522,8 @@
             ]
         ],
         "Description":"The application of Maxwell's equations to solve time-independent boundary-value problems and to study the interactions of electric and magnetic fields with bulk matter.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY302":{
         "CourseTitle":"Electromagnetic Theory II",
@@ -591,10 +537,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"A study of time-dependent electric and magnetic fields as derived from Maxwell's equations. Topics include the interrelations of electric and magnetic fields and their potentials; energy and momentum associated with electromagnetic fields and the Maxwell vacuum and matter; waveguides and transmission lines; special relativity for electromagnetism; retarded potentials for time-varying sources; and radiation of electromagnetic waves.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY303":{
         "CourseTitle":"Mechanics",
@@ -617,10 +561,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"An in-depth study of classical mechanics, from the Newtonian to the Lagrangian and Hamiltonian formulations. First, Newtonian mechanics is reviewed and applied to more advanced problems than those considered in PHY 131 or 141. The Lagrangian and Hamiltonian methods are then derived from the Newtonian treatment and applied to various problems.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY306":{
         "CourseTitle":"Thermodynamics, Kinetic Theory, and Statistical Mechanics",
@@ -634,10 +576,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"A study of the laws that govern physical systems in thermal equilibrium. In the first part, the concepts of temperature, internal energy, and entropy are analyzed and the first and second laws of thermodynamics are used to connect various properties that are independent of the microscopic details of the system. The second part is devoted to a microscopic study of a system in thermal equilibrium, from the kinetic theory of gases to statistical mechanics and the relation between entropy and probability, with application to simple examples in classical and quantum statistics.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY307":{
         "CourseTitle":"Physical and Mathematical Foundations of Quantum Mechanics",
@@ -680,10 +620,8 @@
             ]
         ],
         "Description":"Physical and mathematical foundations of quantum mechanics. Maxwell waves and their properties: intensity, energy density, and momentum density. Planck-Einstein relation between energy and frequency for light quanta. De Broglie relation between momentum and wavelength. Number density and probability density of photons. One-photon quantum mechanics, with Maxwell field as the wave function. Diffraction phenomena. Uncertainty relation between wavelength and position, hence between momentum and position. Not for credit in addition to PHY 390 with similar topic.  Not for credit in addition to PHY 274.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY308":{
         "CourseTitle":"Quantum Physics",
@@ -697,10 +635,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"The concepts, historical development, and mathematical methods of quantum mechanics. Topics include Schroedinger's equation in time-dependent and time-independent forms; one- and three-dimensional solutions, including the treatment of angular momentum and spin. Applications to simple systems, especially the hydrogen atom, are stressed.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY311":{
         "CourseTitle":"Connections in Science",
@@ -723,10 +659,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"A selection of the interrelations between physics and other scientific and technological fields, using modern examples from engineering, medicine, and applied mathematics, among others. The course is taught as a seminar and includes guest lecturers, tours of laboratories, and discussion of classic and current research projects. Appropriate for physics and non-physics majors alike.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY313":{
         "CourseTitle":"Mystery of Matter",
@@ -736,10 +670,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Exploration of our understanding of the basic constituents of matter, and of how that understanding and the tools developed to study them affect aspects of contemporary society. Historical discoveries and their place in social and political institutions of the time are considered, along with issues of government funding and the cost to society. Includes a discussion of developments at Brookhaven National Laboratory and their scientific and social impact. Not intended for Physics majors with U3 or U4 status.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY335":{
         "CourseTitle":"Electronics and Instrumentation Laboratory",
@@ -756,10 +688,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Students will design, build and test basic DC and AC circuits which perform a useful function, as viewed by physicists, involving resistors, capacitors, transformers, diodes, transistors and operational amplifiers. Students will measure these circuits using digital multi-meters and digital oscilloscopes. Understanding of analog circuits will be stressed including negative feedback applied to operational amplifiers. Two three-hour laboratories per week. This course has an associated fee. Please see www.stonybrook.edu\/coursefees for more information.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY382":{
         "CourseTitle":"The Quantum Moment: Quantum Mechanics in Philosophy, Culture, and Life (III)",
@@ -769,10 +699,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"This course explores the implications and influence, real and alleged, of quantum mechanics on fields other than physics.  What does quantum mechanics mean, if anything, for philosophy, ethics, and social behavior?  At the same time, we shall look into how social and cultural influences may have affected the way that quantum mechanics was formulated, and how it has evolved.   We shall review the early history of quantum mechanics, and discuss some of the important debates at the founding of quantum mechanics.   Students will not be expected to learn the mathematics in depth, only the introduction provided by the instructors aimed at non-science students.  Besides readings, the course will also involve plays, films, and guest speakers.  Students will be expected to work on a final project, to be presented in class.  This course is offered as both PHI 382 and PHY 382.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY390":{
         "CourseTitle":"Special Topics in Physics",
@@ -782,10 +710,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"May be repeated once as the topic changes.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY405":{
         "CourseTitle":"Advanced Quantum Physics",
@@ -805,10 +731,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Study of quantitative methods of quantum mechanics, including perturbation theory and the WKB approximation, scattering theory, and elements of quantum-information theory. Symmetry principles are stressed and advanced mathematical techniques are used throughout the course.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY408":{
         "CourseTitle":"Relativity",
@@ -826,10 +750,8 @@
             ]
         ],
         "Description":"A development of the special theory of relativity leading to general relativity with applications to cosmology.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY420":{
         "CourseTitle":"Introduction to Accelerator Science and Technology",
@@ -853,10 +775,8 @@
             ]
         ],
         "Description":"This course will introduce students to the field of accelerator science and technology, a very versatile branch of physics and technology. This course is composed of the following parts: introduction of accelerator history and their basic principles, basic beam dynamics in synchrotrons, introduction of challenges in Accelerator physics, and introduction of typical beam measurements and instrumentations.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY431":{
         "CourseTitle":"Nuclear and Particle Physics",
@@ -870,10 +790,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Students will study a selection of topics from the properties of elementary particles, the strong, weak, and electromagnetic forces, symmetries, particle interaction and decay rates, nuclear structure, nuclear reactions, nuclear forces, the interaction of radiation with matter, accelerators and radiation detectors.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY444":{
         "CourseTitle":"Experiential Learning",
@@ -887,10 +805,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"This course is designed for students who engage in a substantial, structured experiential learning activity in conjunction with another class. Experiential learning occurs when knowledge acquired through formal learning and past experience are applied to a \"real-world\" setting or problem to create new knowledge through a process of reflection, critical analysis, feedback and synthesis. Beyond-the-classroom experiences that support experiential learning may include: service learning, mentored research, field work, or an internship.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY445":{
         "CourseTitle":"Senior Laboratory",
@@ -908,10 +824,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"A selection of historically important experiments from atomic and nuclear spectroscopy, particle physics, solid-state and low-temperature physics  performed with modern instrumentation. Each student does three experiments, usually with a partner. As students progress, they are encouraged to pursue independent projects, without rigid formats or procedures. The emphasis is on the development of experimental skills and on individual, ethical, professionally acceptable analysis and presentation of results, both orally and in writing. Two three-hour laboratory sessions per week. This course has an associated fee. Please see www.stonybrook.edu\/coursefees for more information.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY447":{
         "CourseTitle":"Tutorial in Advanced Topics",
@@ -921,10 +835,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Selected readings in advanced topics for upper-division students of unusual ability and substantial accomplishments. Prior to the beginning of the semester, the topic to be studied is selected by the supervising member of the faculty and a reading assignment is planned. Weekly conferences with this faculty member are devoted to discussion of material, resolution of problems encountered, and assessment of the student's progress. May be repeated up to a total of 6 credits.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY451":{
         "CourseTitle":"Quantum Electronics",
@@ -938,10 +850,8 @@
             ]
         ],
         "Description":"Introduction to modern atomic physics for the laser era. Emphasis on the interaction between atoms and light, as well as on atomic structure and how it affects this interaction. Modern applications such as laser cooling, atom trapping, precision spectroscopy with frequency comb, quantum information, and others will be discussed.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY452":{
         "CourseTitle":"Atomic Physics and Lasers",
@@ -958,10 +868,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"This course begins with an in-depth introduction to modern atomic physics for the laser era.  Emphasis is on the fundamentals of light-matter interactions as well as on atomic structure and how it affects the interaction. The main topics include laser fundamentals, atom trapping, precision spectroscopy with frequency comb, quantum information and others.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY458":{
         "CourseTitle":"Speak Effectively Before an Audience",
@@ -975,10 +883,8 @@
             ]
         ],
         "Description":"A zero credit course that may be taken in conjunction with any PHY course that provides opportunity to achieve the learning outcomes of the Stony Brook Curriculum's SPK learning objective.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY459":{
         "CourseTitle":"Write Effectively in Physics",
@@ -992,10 +898,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"A zero credit course that may be taken in conjunction with any 300- or 400-level PHY course, with permission of the instructor. The course provides opportunity to practice the skills and techniques of effective academic writing and satisfies the learning outcomes of the Stony Brook Curriculum's WRTD learning objective.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY472":{
         "CourseTitle":"Solid-State Physics",
@@ -1009,10 +913,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"A study of the different types of solids, with emphasis on their thermal, electrical, and optical properties. It introduces the concepts of phonons and electronic bands, and applications to metals, semiconductors, superconductors, and magnetism.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY475":{
         "CourseTitle":"Undergraduate Teaching Practicum",
@@ -1022,10 +924,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"An opportunity for selected undergraduates to collaborate with the faculty in teaching at the introductory level. In addition to working as tutors and as laboratory assistants, students meet once a week with a faculty supervisor to discuss problems they have encountered and to plan future activities. Students are generally assigned to assist in courses they have completed and in which they have excelled. Not for major credit. Can be repeated up to a maximum of 6 credits with a maximum of 3 credits per course taught.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY487":{
         "CourseTitle":"Research",
@@ -1035,10 +935,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"An opportunity for students to conduct faculty-supervised research for academic credit. Students must take the initiative to negotiate the opportunity. BNL and other scientists may be allowed as co-supervisors. Research proposals must be prepared by the student and submitted for approval by the supervising faculty before the beginning of the credit period. An account of the work and the results achieved is submitted to the supervisor before the end of the credit period. May be repeated, up to a total of 6 credits.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY501":{
         "CourseTitle":"Classical Mechanics",
@@ -1048,10 +946,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Analytical classical mechanics including Lagrangian and Hamiltonian formulations and the Hamilton-Jacobi theory. Variational principles, symmetries and conservation laws. Selected advanced problems such as parametric and nonlinear oscillations, planetary motion, classical theory of scattering, rigid body rotation, and deterministic chaos. Basic notions of elasticity theory and fluid dynamics.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY503":{
         "CourseTitle":"Methods of Mathematical Physics I",
@@ -1061,10 +957,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"A selection of mathematical techniques useful for physicists. Topics are selected from: linear algebra, complex variables, differential equations, asymptotic analysis, special functions, boundary value problems, integral transforms, perturbation theory as applied to linear and nonlinear systems. This course should be taken by entering graduate students seeking enrichment in these areas.\nFall and Spring,",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY504":{
         "CourseTitle":"Computational Methods in Physics and Astrophysics",
@@ -1074,10 +968,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"An introduction to procedural and object-oriented programming in a high-level language such as C++ or modern Fortran with examples and assignments consisting of rudimentary algorithms for problems in physics and astronomy. Students will use the UNIX\/Linux operating system to write programs and manage data, and the course will include an introduction to parallel computing and good programming practices such as version control and verification. The course will prepare students for courses in algorithms and methods that assume a knowledge of programming.\n\nFall or Spring, 3 Credits, letter Graded (A, A-, B+, etc.)",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY505":{
         "CourseTitle":"Classical Electrodynamics",
@@ -1087,10 +979,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Electrostatics and Magnetostatics in vacuum and medium; Green's functions;  Maxwell's equations and gauge invariance; Electromagnetic wave propagation; Radiation, scattering, interference, and diffraction; Special relativity;  Radiation by relativistic charges; Additional topics as time permits. Three lecture hours plus two recitation hours per week.\nFall, 3 Credits, Graded A, A-, B+, etc.,  Prerequisites: PHY 301-302 or similar",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY510":{
         "CourseTitle":"Introduction to Nonlinear Dynamics",
@@ -1100,10 +990,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"This course concentrates on developing the tools used to analyze models of dynamical systems associated with physical phenomena, such as coupled electrical mechanical, chemical and biological oscillators, amplitude equations, symplectic maps, etc. There is a discussion of the basic theorems, as well as methods used to derive perturbation solutions for differential equations and maps using the method of normal forms.\nFall or Spring,",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY511":{
         "CourseTitle":"Quantum Mechanics I",
@@ -1113,10 +1001,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"First course in a two-part sequence.  Topics include basic quantum physics and mathematical apparatus; application to one dimensional examples and simple systems.  Symmetries, angular momentum, and spin.  Additional topics as time permits.\nFall,",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY512":{
         "CourseTitle":"Quantum Mechanics II",
@@ -1126,10 +1012,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Second course in a two-part sequence, covering variational principles, perturbation theory, relativistic quantum mechanics, quantization of the radiation field, many-body systems.  Application to atoms, solids, nuclei and elementary particles, as time permits.\nSpring,",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY514":{
         "CourseTitle":"Current Research Instruments",
@@ -1139,10 +1023,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"In a series of distinct units, various members of the experimental research faculty describe the nature of their work, explain the major principles of their laboratory instruments, discuss how these instrument systems function, and conduct tours of their laboratories showing the apparatus in action. The student becomes familiar with most of the experimental research instrumentation in the department.\nFall or Spring,",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY515":{
         "CourseTitle":"Methods of Experimental Research I",
@@ -1152,10 +1034,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"An experimental course required for all graduate students. The goal of the course is to provide firsthand experience with the nature of experimental work. For students oriented toward theory, the course gives a background for reading and evaluating experimental papers. The course is based on classic measurements in nuclear, particle, atomic, condensed matter physics, and astronomy. Students can gain experience in handling cryogenic liquids, vacuum systems, lasers, pulse counting and coincidence methods, resonance measurements, and electronic instrumentation, such as lock-in amplifiers, particle detectors, coincidence counters, computer control, etc. Numerical analysis of data, presentation of results in written, graphic, and oral form, and meaningful comparison of experiments and theory are part of the course. Working alone or with, at most, one partner, each student must do one experiment from each of four different groups.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY517":{
         "CourseTitle":"Laboratory Course in Astronomical Techniques",
@@ -1165,10 +1045,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"A course designed to introduce the theory, design, and operation of modern astronomical instrumentation and to familiarize the student with the use of telescopes. Current astronomical techniques will be discussed with emphasis on methods of observational measurements and reduction of data. Emphasis is given on optical techniques appropriate for wavelengths shorter than one micron. Extensive laboratory and observing exercises may be expected.\nSpring, alternate years,",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY518":{
         "CourseTitle":"Applications of Synchroton Radiation",
@@ -1178,10 +1056,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"An introduction to the principles of synchrotron radiation is followed by a series of lectures given by graduate faculty and guest lecturers with expertise in using synchrotron radiation for research in physics, chemistry, materials science, biology and medicine.  Most of these presentations are followed by hands-on experience with synchrotron instrumentation at Brookhaven National Laboratory.  Access to user facilities, including safety requirements, preparation of user proposals, user training and other issues, and also covered.\nSpring, S\/U grading, 0-3 credits",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY521":{
         "CourseTitle":"Stars",
@@ -1191,10 +1067,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"A study of the atmospheres, interiors, and evolution of stars. The contact between theory and observations is emphasized. Stellar atmospheres in hydrostatic and radiative equilibrium described. Models for the calculation of stellar spectra are discussed.  Stellar winds are studied. Next, theoretical studies of stellar interiors and evolution, including equations of state, energy transport, and nuclear energy generation, are developed. Structures of main sequence, red giant, pre-main sequence, and white dwarves are studied and compared to observations. The evolution of single stars up to supernovae and the peculiar evolution of close binary systems are also studied.\nFall, alternate years, 0-3 Credits,",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY522":{
         "CourseTitle":"Interstellar Medium",
@@ -1204,10 +1078,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"A study of the interstellar medium with emphasis on physical processes. Topics include kinetic theory, equation of transfer, spectral lines, non-thermal emission, ionization effects of dust, and formation and spectroscopy of molecular clouds. The components of the interstellar medium and the interactions between them are discussed in detail, as well as the process of star formation.\nSpring, alternate years,",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY523":{
         "CourseTitle":"Galaxies",
@@ -1217,10 +1089,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"A basic course on the observational and theoretical aspects of the content, morphology, kinematics, and dynamics of galaxies. Topics include the size, shape, and location of the sun in the Milky Way; stellar populations; the disk and spheroidal components; galactic rotation; distance determination in the Milky Way and to external galaxies; galaxy classification and the Hubble Law. Theoretical topics center on stellar dynamics, including potential theory; stellar orbits; and spiral structure. The course also includes a brief introduction to cosmology.\nFall, alternate years,",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY524":{
         "CourseTitle":"Cosmology",
@@ -1230,10 +1100,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"A basic course on cosmology: Hubble expansion, Friedmann universes, age of the universe, microwave background radiation, big-bang nucleosynthesis, inflation, growth  of gravitational instabilities and galaxy formation, correlation functions, local density and velocity perturbations, and dark matter.\nPrerequisite: PHY 523 or permission of instructor\nSpring, alternate years,",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY529":{
         "CourseTitle":"Quantum Electronics",
@@ -1243,10 +1111,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Introduction to modern atomic physics for the laser era for graduate students. Emphasis on the interaction between atoms and light, as well as on atomic structure and how it affects this interaction. Modern applications such as laser cooling, atom trapping, precision spectroscopy with frequency comb, quantum information, and others will be discussed. Not for satisfying physics Ph.D. breadth course requirements.\nSpring every year, 1-3 credits, ABCF grading",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY534":{
         "CourseTitle":"Radio Astronomy",
@@ -1256,10 +1122,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Topics covered include continuum and spectral-line radio astronomy. Within the Milky Way Galaxy topics include the interstellar medium, the physics and kinematics of molecular clouds, star formation in giant molecular clouds, chemistry of molecular clouds, galactic structure, spiral structure, and pulsars. Extragalactic topics include radio galaxies and jets, radio loud quasars, molecular and atomic gas in galaxies, luminous infrared galaxies, the missing mass problem in spiral galaxies, and cosmic microwave background radiation. Radio astronomy measurement techniques for single telescopes and aperture synthesis techniques are also covered, although the emphasis is on scientific results.\nFall or Spring, alternate years,",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY536":{
         "CourseTitle":"The Physics of Free Electron Lasers",
@@ -1269,10 +1133,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"The purpose of this course is to introduce the students to the physics of Free Electron Lasers and Synchrotron Radiation. This course is suitable for graduate students who want to learn more about Free Electron Lasers and Synchrotron Radiation physics.\nOffered: Summer,",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY540":{
         "CourseTitle":"Statistical Mechanics",
@@ -1282,10 +1144,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Brief review of thermodynamics, principles of physical statistics, systems of non-interacting particles: Boltzmann, Fermi-Dirac, and Bose-Einstein statistics. Applications to ideal gases, electrons and phonons in solids, and black body radiation. Approximate treatment of non-ideal gases. First-order and second-order phase transitions. Ising model, transfer matrix, and renormalization group approach.  Fluctuations in thermal equilibrium, fluctuation-dissipation theorem, brief review of non-equilibrium fluctuations. Basic notions of ergodicity, classical and quantum chaos.\nSpring,",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY541":{
         "CourseTitle":"Advanced Statistical Mechanics",
@@ -1295,10 +1155,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Topics are selected from cluster expansions, elementary theory of quantum fluids, phase transitions, transfer matrix, Ising and ferroelectric models, polymers and membranes, disordered systems, and fluctuation and nonequilibrium phenomena.\nFall,",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY542":{
         "CourseTitle":"Fundamentals of Accelerator Physics and Technology with Simulations and Measurements Lab",
@@ -1308,10 +1166,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"This course is an introduction to the underlying principles and uses of the nearly 14,000 particle accelerators that are used worldwide in medicine, industry, and scientific research. The course is suitable for senior undergraduate and entry-level graduate students in physics and engineering or students from other fields with a particular interest in accelerator-based science.\nSummer,",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY543":{
         "CourseTitle":"RF Superconductivity for Particle Accelerators",
@@ -1321,10 +1177,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"This graduate level course covers application of superconducting radio frequency (SRF) technology to contemporary high-\u00df accelerators: storage rings, pulsed and CW linacs, including energy recovery linacs (ERLs).  The course will address physics and engineering aspects of using SRF in accelerators.  It will cover beam-cavity interactions issues specific to superconducting cavities, a systems approach to designing SRF systems and engineering of superconducting cavity cryomodules.  The course is intended for graduate students pursuing accelerator physics and graduate engineers and physicists who want to familiarize themselves with superconducting RF systems.\nFall,",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY544":{
         "CourseTitle":"Spin Dynamics in Particle Accelerators",
@@ -1334,10 +1188,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Polarization is a possible property of charged particle beams, which has been used and developed from the early times of particle accelerator developments. It is a property of paramount interest in future nuclear and high energy physics accelerator projects, as well as in several existing accelerator facilities. Polarization requires sophisticated beam and spin manipulations, from production to utilization, based on dedicated accelerator design rules and technological components. This course will introduce students to the dynamics of spin in charged particle accelerators, and to the accelerator components and spin manipulation techniques which enable and allow preserving beam polarization. The course material will provide the basic tools for the design of practical polarized beam accelerator components and structures, and will convey an understanding of the essential underlying physics of polarized beams.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY545":{
         "CourseTitle":"Practical Issues in Cyclotron Design and Construc.",
@@ -1347,10 +1199,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Cyclotrons are versatile accelerators whose use continues to expand in basic research, industry, medicine, and education. This course provides students with an introduction to the physics and technology of cyclotrons and their design. Issues associated with the construction of practical facilities for prototypical applications are reviewed. Upon completion of this course, students are expected to apply cyclotron theory and practical constraints to propose a complete cyclotron design for a prototypical application.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY546":{
         "CourseTitle":"Python for Scientific Computing",
@@ -1360,10 +1210,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Python has seen wide adoption in the scientific community for data analysis, simulation, prototyping and visualization.  It provided a simple, yet powerful means to build applications.  This seminar introduces python and its use in scientific computing.  Students will learn the standard python libraries for array manipulation, visualization, numerical analysis and symbolic mathematics, as well as how to interface python with other languages, build applications, and good software engineering practices (including version control and testing).  Students are encouraged to share examples for their discipline",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY548":{
         "CourseTitle":"Timing and Synchronization for Accelerators",
@@ -1373,10 +1221,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Course Description: This course is intended for accelerator physicists who are interested in the design of timing systems and synchronization techniques for particle accelerators and light sources. The course focuses on transmission, measurement and control of highspeed electromagnetic signals in transmission lines or waveguides, whether RF\/microwave or optical. These systems are important in the distribution of timing reference information in accelerating systems, and diagnostic techniques to measure beams with respect to RF or ultrafast pulse signals. Examples include ultrafast pump\/probe experiments in accelerator-based light sources, or diagnostics for short particle bunches. The course enables students to understand how precise timing signals are transmitted and used in state-of-the-art systems. Concepts and technology for subpicosecond, and even sub-femtosecond synchronization of ultrafast pulse optical sources, RF, and particle beams will be discussed.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY549":{
         "CourseTitle":"Optimization and Machine Learning for Accelerators",
@@ -1386,10 +1232,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Optimization techniques are key to both the design and operation of contemporary charged particle accelerator systems. In addition, machine learning techniques are now being increasingly used, either to augment the capabilities of standard optimization (e.g. through surrogate modeling), or to address entirely new tasks (e.g. anomaly detection, fault classification). This course will introduce a number of optimization and machine learning techniques that are commonly used for particle accelerators, as well as their range of applicability and limitations.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY551":{
         "CourseTitle":"Nuclear Physics I",
@@ -1399,10 +1243,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Nucleon structure, conservation laws and the static quark model; nuclear force and the two nucleon system; bulk properties of nuclear matter, charge distribution, spin, isospin, mass, alpha decay, nuclear fission; electromagnetic and weak interaction; collective motion; microscopic models of the nucleus; nuclear matter under extreme conditions, high rotational states, heavy ion physics at RHIC, nuclear astrophysics.\nSpring,",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY552":{
         "CourseTitle":"Nuclear Physics II",
@@ -1412,10 +1254,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Nucleon-nucleon scattering and effective range approximation; the nucleon-nucleon interaction calculated from meson exchange; effective forces between nucleons in nuclei and nuclear matter; the renormalization group approach to these interactions; Fermi-liquid theory of the nuclear many-body problem; thermodynamics of hadrons at high temperature; RHIC physics with heavy ions including transition from hadrons to quark gluon plasma, restoration of chiral symmetry, equation of state, initial conditions, thermodynamics of hadrons at high temperature.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY554":{
         "CourseTitle":"Fundamentals of Accelerator Physics",
@@ -1425,10 +1265,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"History of accelerators, basic principles including centre of mass energy, luminosity, accelerating gradient; Characteristics of modern colliders: RHIC, LEP, LHC, b-factories; Transverse motion, principles of beam cooling, Strong focusing, simple lattices; Circulating beams, synchrotron radiation; Longitutdinal dynamics; Non-linearities and resonances; Radio Frequency cavities, superconductivity in accelerators; Applications of accelerators: light sources, medical uses, Future Accelerators: eRHIC, ILC, neutrino factories, muon collider, laser plasma acceleration.\nOffered Fall, 3 Credits, ABCF Grading",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY555":{
         "CourseTitle":"Solid-State Physics I",
@@ -1438,10 +1276,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"This course concentrates on the basic notions of solid state physics, treated mostly within the single-particle approximation. Main topics include: crystal lattices and symmetries, reciprocal lattice and state counting, phonons, electron energy band theory, bonding and cohesion (semi-quantitatively), electron dynamics and electron transport in metals and semiconductors, screening, optical properties of solids, and an introduction to superconductivity and magnetism.\nFall,",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY556":{
         "CourseTitle":"Solid State Physics II",
@@ -1451,10 +1287,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"The course focuses on the many-particle aspects of solid state physics addressing classical topics such as superconductivity and the transport properties of disordered conductors, as well as more modern subjects including the fractional quantum Hall effect, dissipative quantum mechanics, and problems of mesoscoptic physics. Both phenomenological and theoretical descriptions are discussed.\nSpring,",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY557":{
         "CourseTitle":"Elementary Particle Physics",
@@ -1464,10 +1298,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Introduction to elementary particle physics. Symmetries and invariance in particle physics. The properties of particles in terms of quarks and leptons and their interactions. An introduction to the electroweak and for strong interactions. Interactions at high energies. Interactions between particles and matter, experiments in particle and experimental results.  Survey of particle accelerators.\nFall or Spring, 0-3 Credits,",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY558":{
         "CourseTitle":"Physical Biology",
@@ -1477,10 +1309,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Topics of this course include but are not limited to: Time and space in cells; Structural basis of biology; Molecular solvation and lattice models;  Chemical potential; Electrostatics, potentials, dipoles, electrochemical potentials[ Poisson-Boltzmann and Born models; Acids, bases and salts; Intermolecular potentials and force fields; Phase transitions; Lattice and Ising models; Adsorption; Binding polynomials; Binding cooperativity; Semigrand ensemble, molecular machines; Molecular motors, energy conversion and transduction; Polymer theory; Flory-Huggins; Random flights; Elasticity; Helix-coil theory; Collapse transitions; Protein folding equilibria; Protein folding kinetics; Sequence space; Protein evolution; Protein elasticity and biological mechanics of proteins; Biophysics of the cell; Proteome stabilities, aggregation, kinetics.\nSpring, 3 Credits, ABCF Grading",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY559":{
         "CourseTitle":"Biological Dynamics and Networks",
@@ -1490,10 +1320,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"This course will provide a solid foundation in key theoretical concepts for the study of dynamics in biological systems and networks at different scales ranging from the molecular level to metabolic and gene regulatory networks. Topics of this course include but are not limited to: Physical kinetics; Diffusion\/Smoluchowskii; Random flights; Waiting times; Poisson; Brownian ratchets; Chemical kinetics; Transition states; Stability, bifurcations, pattern development; Noise in cells: intrinsic and Extrinsic; Feedback; Biological Osciillators; Recurrence, period doubling, chaos; Networks; Topologies; Degree distribution, betweenness; Models of nets: Erdos-Renyi, scale-free, social, Watts-Strogatz, agents; Robustness, highly-optimized tolerance, bowties, epidemics; Biological networks: Protein-protein nets, regulatory and metabolic nets; Known biological circuits and their behaviors; How networks evolve: Preferential attachment, rewiring; Power laws; Fluxed through networks; Information and communication, entropy; Metabolic flux analysis; Artificial and Natural selection for traits; Darwinian evolution; Population dynamics.\nSpring, 3 credits, ABCF grading\nCrosslisted with PHY 559 and CHE 559",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY560":{
         "CourseTitle":"Frontiers of Physics and Astrophysics",
@@ -1503,10 +1331,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"This course complements the graduate physics courses in particle physics, particle astrophysics and cosmology, concentrating on interrelationships between these areas of research in understanding the physics of the universe. The course will introduce advanced physics students to the key issues, experimental facilities and prospects for the future. The present status and future major experiments will be reviewed from the perspective of both the technologies and science. In addition to the assigned readings and class participation, students will investigate in depth a specific area of their choice, producing a ~ 10 page paper on the subject, as well as give an oral presentation.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY561":{
         "CourseTitle":"Biology for Physical Scientists",
@@ -1516,10 +1342,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Topics of this course include but are not restricted to: Overview of living things; Six kingdoms, animal phyla. Physiology and organs; Chemistry of life; Noncovalent interactions; Hydrogen bonds; Solvation; Biochemistry: reactions, catalysis, ATP amino acids, nucleic acids, lipids; Cell structures: Nucleus, mitochondria, chromosomes, membranes; Basic paradigm: DNA makes RNA makes protein; How cell machines and circuits work; Cell cycle; The processes of evolution; Genetics and heredity; Diseases: how biological systems fail; How drugs are discovered; Tight-binding inhibitors; Antibodies; Current research: Cell division and cancer, genomics, bioinformatics, high throughput sequencing, systems and synthetic biology.\nSpring, 1- 3 Credits, ABCF Grading",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY562":{
         "CourseTitle":"Atomic Physics and Lasers",
@@ -1529,10 +1353,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Introduction to the theory of lasers including resonance conditions, normal modes, optical cavities and elementary quantum mechanics. Description of types of lasers, methods of control, limitations of power, precision, wavelength, etc. Applications to research and industry. Throughout the course, there will be many problems that involve writing computer programs to solve simple differential equations and model different aspects of laser operation. Not for satisfying physics Ph.D. breadth course requirements.\nFall, every year,",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY564":{
         "CourseTitle":"Advanced Accelerator Physics",
@@ -1542,10 +1364,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Types and Components of Accelerators, Relativistic Mechanics and EM for Accelerators, Accelerator Hamiltonian and N-dimensional phase space, Poincare diagrams, Lie algebras and symplectic maps and matrices; exact parameterization of linear motion in accelerators; matrix functions, Sylvester's formula; non-linear effects, Collective instabilities & Landau Damping, Radiation damping and Excitation, natural Emittance; Spin motion in accelerators.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY565":{
         "CourseTitle":"Quantum Electronics I: Atomic Physics",
@@ -1555,10 +1375,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Quantum electronics is a synthesis of quantum physics and electrical engineering, and is introduced in two independent semesters. A description of simple atoms and molecules and their interaction with radiation includes atoms in strong and\/or weak external fields, two-photon spectroscopy, superradiance, Rydberg states, lasers and laser spec-troscopy, coherent transients, etc.\nSpring,",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY566":{
         "CourseTitle":"Quantum Electronics II: Quantum Optics",
@@ -1568,10 +1386,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Quantum electronics is a synthesis of quantum physics and electrical engineering, and is introduced in two independent semesters. This course focuses on the quantum properties of light. The quantized electromagnetic field and its correlations are used to understand nonclassical states from various sources such as two-level atoms and nonlinear systems interacting with radiation fields.\nFall,",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY567":{
         "CourseTitle":"Theoretical Chemical Physics",
@@ -1581,10 +1397,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"This course stresses the physical theory underlying chemical phenomena. Special emphasis is given to advanced topics in electronic structure theory, molecular dynamics, condensed matter and surfaces, many-body and quantum ensemble theory,\nand the interaction of light and molecules.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY568":{
         "CourseTitle":"Quantum Information Science",
@@ -1594,10 +1408,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"This is a survey of the fast evolving field of quantum information, ranging from Bell inequality, quantum teleportation to quantum algorithms and quantum programming frameworks. It aims to cover the essential knowledge of quantum information science and helps to bridge the gap to the current research activities of the field. Emphasis will be placed on solid-state platforms of quantum computers, topological error correction codes, and applications. Some illustration of quantum programming will be done on IBM's transmon-type cloud quantum computers.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY569":{
         "CourseTitle":"Quantum Information Science\/Technology Laboratory",
@@ -1607,10 +1419,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"This is an experimental course that consists of several modules of experiments designed to enhance students\u00bf experimental skills used in quantum information science and technology. Students will work individually or with at most one partner on five modules and write their lab reports.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY570":{
         "CourseTitle":"Introductory Physics Revisited for Teachers",
@@ -1620,10 +1430,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"This seminar allows students to explore the fine points of topics normally covered in high school physics. Not for PhD credit.\nSpring,",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY571":{
         "CourseTitle":"Electromagnetic Theory for Teachers",
@@ -1633,10 +1441,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"The course reviews vector calculus and develops Maxwell's equations relating electric and magnetic fields to their sources. Applications for time-independent fields are developed for solving boundary value problems and the interactions of fields in bulk matter. An oral presentation of a relevant topic suitable for a high-school class is required. Not for PhD credit.\nFall,",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY573":{
         "CourseTitle":"Mechanics for Teachers",
@@ -1646,10 +1452,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"The Newtonian formulation of classical mechanics is reviewed and applied to more advanced problems than those considered in introductory physics. The Lagrangian and Hamiltonian methods are then derived from the Newtonian treatment and applied to various problems. An oral presentation of a relevant topic suitable for a high-school class is required. Not for PhD credit.\nFall,",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY576":{
         "CourseTitle":"Thermodynamics and Statistical Mechanics for Teachers",
@@ -1659,10 +1463,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"This course consists of two parts. Those relations among the properties of systems at thermal equilibrium that are independent of a detailed microscopic understanding are developed by use of the first and second laws of thermodynamics. The concepts of temperature, internal energy and entropy are analyzed. The thermodynamic potentials are introduced. Applications to a wide variety of systems are made. The second portion of the course, beginning with the kinetic theory of gases, develops elementary statistical mechanics, relates entropy and probability, and treats simple examples in classical and quantum statistics. An oral presentation of a relevant topic suitable for a high-school class is required. Not for PhD credit.\nSpring,",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY577":{
         "CourseTitle":"Physical and Mathematical Foundations of Quantum Mechanics for Teachers",
@@ -1672,10 +1474,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Physical and mathematical foundations of quantum mechanics.  Maxwell waves and their properties: intensity, energy density, and momentum density.  Planck-Einstein relation between energy and frequency for light quanta.  De Broglie relation between momentum and wavelength.  Number density and probability density of photons.  One-photon quantum mechanics, with Maxwell field as wave function.  Diffraction phenomena.  Uncertainty relation between wavelength and position, hence between momentum and position.\nIn addition to the requirements for the undergraduate course PHY 307, students taking this course must prepare and present a talk on quantum physics suitable for a general (non-physics) adult audience.  This course cannot be taken for credit toward the PhD degrees in Physics.  Approval of the Program Director is required for taking this course for credit toward a Master Degree.\nFall,",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY578":{
         "CourseTitle":"Quantum Physics for Teachers",
@@ -1685,10 +1485,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"The concepts, historical development and mathematical methods of quantum mechanics. Topics include Schroedinger's equation in time-dependent and time-independent forms, and one- and three-dimensional solutions, including the treatment of angular momentum and spin. Applications to simple systems, especially the hydrogen atom, are stressed. An oral presentation of a relevant topic suitable for a high school class is required. Not for PhD credit.\nSpring,",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY579":{
         "CourseTitle":"Special Topics for Teachers",
@@ -1698,10 +1496,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Topics of current interest to high school teachers are discussed in order to bring the teachers up to date on the latest developments in various areas of research. Examples could include the standard model of particle physics, nanofabrication techniques, atomic force microscopy, etc. Not for PhD credit.\nFall or Spring,",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY580":{
         "CourseTitle":"Special Research Projects",
@@ -1711,10 +1507,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Research under the direction of a faculty member. Not open to Ph.D. candidates.\nFall and Spring,",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY582":{
         "CourseTitle":"Optics Rotation",
@@ -1724,10 +1518,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Optical science students experience three to eight week periods in each of several appropriate research groups. At the end of each period a report is required that describes the topics studied or project done. May not be taken for credit more than two semesters.\nFall and Spring,",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY584":{
         "CourseTitle":"Rotation in Physical Biology",
@@ -1737,10 +1529,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"A two-semester course in which students spend at least 8 weeks in each of three different laboratories actively participating in the research of faculty associated with the Laufer Center. At least one of the rotations must be in experimental physical biology.\nParticipants will give a research talk at the end of each eight week period.\nFall and Spring, 1-3 credits, ABCF grading, May be repeated for credit",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY585":{
         "CourseTitle":"Special Study",
@@ -1750,10 +1540,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Reading course in selected topics.\nFall and Spring,",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY595":{
         "CourseTitle":"Master's Degree Thesis Research",
@@ -1763,10 +1551,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Independent research for Master's degree students. Open only to those approved by individual faculty for thesis work. This course also includes a minimum of two hours person to person discussion of ethics and conduct in research and scholarship which addresses among others integrity in scholarship, academic honesty, authorship, plagiarism, mentoring and collaborations.  These topics will be illustrated with case studies and issues that arise in current research projects.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY598":{
         "CourseTitle":"Graduate Seminar I",
@@ -1776,10 +1562,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Special research topics centered on monographs, conference proceedings, or journal articles.  Topics include solid-state physics, atomic physics, quantum optics and applications of synchroton radiation.  Required for all first-year graduate students.\nFall and Spring, ABCF grading, 0-1 credits, may be repeated",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY599":{
         "CourseTitle":"Graduate Seminar II",
@@ -1789,10 +1573,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Special research topics centered on monographs, conference proceedings, or journal articles. Topics include elementary particles, nuclear physics, galactic and extragalactic astronomy, and cosmology and accelerator physics. Required for all first-year graduate students.\nFall and Spring, ABCF grading, 0-1 credits, may be repeated",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY600":{
         "CourseTitle":"Practicum in Teaching",
@@ -1802,10 +1584,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"This course provides hands-on experience in teaching.  Activities may include classroom teaching, preparation and supervision of laboratory experiments, exams, homework assignments, and projects.\nFall and Spring,",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY601":{
         "CourseTitle":"Group Theory for Physicists",
@@ -1815,10 +1595,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"This course provides an introduction to group theory and discusses topics that are important for applications in physics. Topics that will be discussed include but are not restricted to the following: finite groups, Lie groups, Lie algebras, Clifford algebras, Cartan generators, Dynkin diagrams, Young tableaux, noncompact groups such as the Poincar\\'e group, invariant measures and coset manifolds. Additional topics such as Kac-Moody algebras, Virasoro algebras, symmetric spaces, supergroups and their invariant measure may be discussed as well.\nPS. The accent on the \"e\" of Poincare is and acute accent denoted by\\'\nOffered Fall or Spring",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY604":{
         "CourseTitle":"Computational Methods in Physics and Astrophysics II",
@@ -1828,10 +1606,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"This course discusses numerical methods used in physics and astrophysics. Topics include but are not limited to the following: Numerical integration and differentiation, differential equations, interpolation, root-finding, linear algebra, eigenvalues, Fourier transforms, Monte Carlo methods, hyperbolic and parabolic partial differential equations, parallel computing. All methods\nwill be illustrated by examples from physics or astrophysics. Familiarity with Computational Methods in Physics and Astrophysics (PHY 504) is assumed.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY605":{
         "CourseTitle":"Quantum Programming",
@@ -1841,10 +1617,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"The field of quantum information and computation has evolved to a stage where there are quantum devices that can be programmed and various tasks and algorithms can be tested on these devices. This course introduces various quantum programming frameworks. It aims to provide a more practical approach of learning quantum computing by programming, via software developed using Python. Important basic quantum algorithms will be reviewed and learned by programming them and simulating their action. Moreover, an emphasis will be paid to the so-called Variational Quantum Eigensolver that has already been used on many problems, from molecular energies and optimization to financial applications and quantum machine learning. Some illustration of quantum programming will be done on IBM's transmon-type cloud quantum computers. Beyond the circuit-based quantum computers, programming quantum annealers will provide an alternative approach to solve a wide family of optimization problems.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY610":{
         "CourseTitle":"Quantum Field Theory I",
@@ -1854,10 +1628,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Quantization of relativistic fields: Lorentz and gauge symmetries, relativistic spin, the S-matrix and scattering; the standard model; perturbation theory, renormalization and effective field theories; path integrals and relations to condensed matter physics.\nFall,",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY611":{
         "CourseTitle":"Quantum Field Theory II",
@@ -1867,10 +1639,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Quantization of relativistic fields: Lorentz and gauge symmetries, relativistic spin, the S-matrix and scattering; the standard model; perturbation theory, renormalization and effective field theories; path integrals and relations to condensed matter physics.\nSpring,",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY612":{
         "CourseTitle":"Theoretical Particle Physics",
@@ -1880,10 +1650,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Applications of quantum field theory to interactions between elementary particles. Topics are chosen from perturbative quantum chromodynamics, the standard electro-weak model, lattice field theory, grand unified models, supersymmetry, and current research problems.\nFall,",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY613":{
         "CourseTitle":"Advanced Particle Theory",
@@ -1893,10 +1661,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"This course is a continuation of PHY 612 and prepares students for research in theoretical particle physics. Topics that will be discussed include the properties of Quantum Chromodyanamics, Electorweak Symmetry Breaking, Cabbibbo-Kobayahi-Maskawa quark mixing, Effective Field theory, Neutrino masses, the hierarchy problems, dark matter, early universe cosmology and primordial nucleosynthesis. Physics beyond the standard model will be discussed as well including models of quark and lepton masses, grand unified theories and baryon number violation.\nSemesters Offered: Spring and Fall, 1-3 credits, Letter graded (A,A-,B+, etc.)",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY620":{
         "CourseTitle":"Modern General Relativity",
@@ -1906,10 +1672,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"General theory of relativity; tensor analysis, Einstein's field equations, experimental tests, black holes, gravitational waves, cosmology. May also include topics such as spinor methods, conformal invariance, and introduction to string theory or supergravity.\nFall or Spring,",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY621":{
         "CourseTitle":"Advanced Quantum Field Theory",
@@ -1919,10 +1683,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Proofs of renormalizability and unitarity on non-Abelian guage theories using modern methods of Becchi-Rouet-Store-Tyutin (BRST) symmetry; descent equations for anomalies; classical instantons and their quantum corrections, including integration over zero modes; background field methods, other topics if time permits.  PHY 610\/611 or equivalent is prerequisite.\nFall or Spring, May be repeated for credit.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY622":{
         "CourseTitle":"String Theory I",
@@ -1932,10 +1694,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"This course is intended for graduate students who have familiarity with guage & quantum field theory.  Topics will be selected from: Free bosonic & spinning strings and heterotic & Green-Schwarz superstrings; conformal field theory; tree-level and one-loop amplitudes; partition functions; spacetime supersymmetry and supergravity; compactification & duality; winding & Kaluza-Klein modes; 11-dimensional supergravity; branes in supergravity; D-branes in string theory; T-duality; M-theory; complex geometry and Calabi-Yau manifolds; string field theory; other advanced topics if time permits.  PHY 610\/611 or equivalent is prerequisite.\nFall or Spring,",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY623":{
         "CourseTitle":"String Theory II",
@@ -1945,10 +1705,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"This course is intended for graduate students who have familiarity with guage & quantum field theory.  Topics will be selected from: free bosonic & spinning strings and heterotic & Green-Schwarz superstrings; conformal field theory; tree-level and one-loop amplitudes; partition functions; spacetime supersymmetry and supergravity; compactification & duality; winding & Kaluza-Klein modes; 11-dimensional supergravity; branes in supergravity; D-branes in string theory; T-duality; M-theory; complex geometry and Calabi-Yau manifolds; string field theory; other advanced topics if time permits.  PHY 610\/611 or equivalent is prerequisite.\nFall or Spring,",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY631":{
         "CourseTitle":"Quantum Information Physical Systems and Materials",
@@ -1958,10 +1716,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Quantum computing is fast evolving to soon provide real applications that supersede classical computers. However to build quantum computers relies on ab understanding of physical systems, materials and the functioning of devices. This course will cover various important physical systems and materials currently used for quantum information processing. It is divided into a few modules, including superconducting qubits, solid-state spin qubits, photons, trapped ions, and topological qubits (p-wave superconductors, fractional quantum Hall systems, topological insulators, etc.) This course aims to bridge the gap from the physical principles to the potential functioning of devices.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY655":{
         "CourseTitle":"Advanced Graduate Seminar in Theoretical Physics",
@@ -1971,10 +1727,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"A weekly seminar on advanced theoretical concepts. The discussion starts with a graduate student presentation and it is conducted under the guidance of a faculty supervisor.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY664":{
         "CourseTitle":"Astronomy Journal Club",
@@ -1984,10 +1738,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Presentation of preliminary research results and current research problems by students and faculty. Required every semester of all astronomy graduate students.\nFall and Spring.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY665":{
         "CourseTitle":"Journal Club in Computational Biology",
@@ -1997,10 +1749,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"The goal of this course is for students to hone critical reading and analytic skills through discussions of literature in the area of Computational Biology.  Participants take turn being a \"discussion leader\" who informally guides the group through a peer-reviewed manuscript for which all Journal Club members will have to read in advance of the meeting.  Meetings in the Spring semester will include in Person Training (IPT) in Responsible conduct of Research and Scholarship (RCRS) on topics that comprise (1) Integrity in Scholarship, (2) Scientific Misconduct, (3) Mentoring, (4) Ownership and Authorship, (5) Plagiarism, (6) Data Management, (7) Journalism and Science, (8) Human Subjects, and (9) Laboratory Animals.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY666":{
         "CourseTitle":"Cool Stars",
@@ -2010,10 +1760,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"A weekly seminar concentrating on observational and theoretical studies of cool stars and related objects. Emphasis is on ongoing research and recent results in this area. Speakers include faculty, students, and visitors. Topics anticipated in the near future include results from the Hubble Space Telescope and ROSAT. Students registering for one credit will be expected to present at least one seminar.\nFall and Spring,\nPrerequisite: Permission of instructor",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY668":{
         "CourseTitle":"Seminar in Astronomy",
@@ -2023,10 +1771,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"A weekly series of research seminars presented by visiting scientists as well as by the faculty. Required every semester of all astronomy graduate students.\nFall and Spring,",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY669":{
         "CourseTitle":"Nuclear Astrophysics Seminar",
@@ -2036,10 +1782,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"A weekly seminar concentrating on topics in nuclear astrophysics, including dynamics of supernova collapse, structure and evolution of neutron stars, equation of state, the role of neutrinos in nucleosynthesis, etc.\nFall or Spring.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY670":{
         "CourseTitle":"Seminar in Theoretical Physics",
@@ -2049,10 +1793,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Fall and Spring,",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY672":{
         "CourseTitle":"Seminar in Elementary Particle Physics",
@@ -2062,10 +1804,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Fall and Spring,",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY673":{
         "CourseTitle":"Seminar in Cosmology",
@@ -2075,10 +1815,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"This seminar discusses current topics in cosmology. Each semester consists of a formal talk followed by an informal discussion of active areas of cosmology research.\nFall and Spring, 0-1 credits, S\/U grading.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY674":{
         "CourseTitle":"Seminar in Nuclear Physics",
@@ -2088,10 +1826,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Fall and Spring,",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY676":{
         "CourseTitle":"Seminar in Solid-State Physics",
@@ -2101,10 +1837,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Fall and Spring,",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY678":{
         "CourseTitle":"Atomic, Molecular and Optical Physics Seminar",
@@ -2114,10 +1848,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Fall and Spring,",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY680":{
         "CourseTitle":"Special Topics in Theoretical Physics",
@@ -2127,10 +1859,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Fall and Spring",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY681":{
         "CourseTitle":"Special Topics in Statistical Mechanics",
@@ -2140,10 +1870,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Fall and Spring,",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY682":{
         "CourseTitle":"Special Topics in Solid-State Physics",
@@ -2153,10 +1881,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Fall and Spring,",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY683":{
         "CourseTitle":"Special Topics in Astronomy",
@@ -2166,10 +1892,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Fall and Spring,",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY684":{
         "CourseTitle":"Special Topics in Nuclear Physics",
@@ -2179,10 +1903,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Fall and Spring,",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY685":{
         "CourseTitle":"Special Topics in Mathematical Physics",
@@ -2192,10 +1914,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Fall and Spring,",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY686":{
         "CourseTitle":"Special Topics in Elementary Particles",
@@ -2205,10 +1925,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Fall and Spring,",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY687":{
         "CourseTitle":"Topics in Biological Physics",
@@ -2218,10 +1936,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"The \"Topics\" courses in the 680 sequence do not have specific description, since the subject matter within the broadly defined topic may change from one semester to the next.\nMay be repeated for credit.\n1-3 Credits, ABCF Grading",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY688":{
         "CourseTitle":"Special Topics in Astrophysics",
@@ -2231,10 +1947,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Fall and Spring,",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY689":{
         "CourseTitle":"Special Topics in Accelerator Physics",
@@ -2244,10 +1958,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Recently we established the Center for Accelerator Physics with Vladimir Litvinenko appointed as Director (with a shared appointment at BNL), and with a second faculty position in accelerator physics being added in the near future, we expect that the number of students working on accelerator physics will increase significantly and there will be much more demand for courses in this area. For a long time accelerator physics courses have been taught as \"PHY 584: Special Topics in Nuclear Physics\", but this is improper use of the course listing. The purpose of this course is two-fold. First, it is a special topic course that is taught full time at Stony Brook. Second, it is special topics course which is taught in collaboration with the United States Particle Accelerator School (USPAS), which is taught on a rotating basis at various universities and National Laboratories in the US. If that is the case, students will prepare for the USPAS course during the semester, and will particioate in the USPAS school in the following Winter or Summer break. The grade for the course will be determined by the grade in the USPAS school. Funding to participate in the USPAS course will be provided by USPAS if students are registered for such course at their local university.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY690":{
         "CourseTitle":"Special Topics in Atomic and Optical Physics",
@@ -2257,10 +1969,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Fall and Spring,",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY691":{
         "CourseTitle":"Computational Accelerator Physics",
@@ -2270,10 +1980,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"The course prepares graduate students in a comprehensive and systematic way for applying numerical methods to solve problems for which analytical methods have limitations. This knowledge will be applied to producing, collecting, analyzing and understanding numerical simulation data, and presenting and reporting results using appropriate media. This course will allow students to attain the level of knowledge needed to thrive in the field of particle accelerators, including cyclotrons, synchrotrons, storage rings, linear accelerators, colliders and industrial accelerators.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY692":{
         "CourseTitle":"Physics and Engineering of Large Accelerators",
@@ -2283,10 +1991,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"The course will include discussions of accelerator physics and engineering topics, and phenomena specific to large accelerators: conceptual differences in accelerator physics resulting from the large scale of accelerators, high field superconducting magnets and gigantic SRF linacs, high power RF, large cryogenic and utility systems, vibration, support structures and alignment, large computer network and real-time controls, personal safety and machine protection challenges, large UHV systems, etc. The course will use examples of prior and existing facilities (RHIC, TEVATRON, APS\/NSLS II, SLAC linac, LEP, LHC, CEBAF) as well as challenges in future facilities (EIC, PIP II, FRIB, FCC, ILC, neutrino factories, and muon colliders) to emphasize their problems and to describe either existing or possible solutions.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY693":{
         "CourseTitle":"High Power RF Engineering",
@@ -2296,10 +2002,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"The course starts with an essential review of the properties of low and medium power RF waves and components including transmission lines, waveguides and cavities, and then proceeds to highlight the properties and limitations under high power RF conditions. The principal deleterious effects taking place at high power levels are caused by arcing (a high peak power effect) and the ohmic dissipation in the metal walls (a high average power effect). Exceeding the power handling capacity of the RF components can result in expensive repairs. Methods of mitigating or avoiding these expensive repairs are discussed. Important applications of high power rf are discussed in depth. Finally the students are given an extended project on implementing a particle accelerator using the traditional method of placing cylindrical cavities in tandem and using the longitudinal electric field in the TM010 cavity mode to pump RF power into a particle beam and cause the desired acceleration of the charge particles.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY694":{
         "CourseTitle":"Plasma and Wakefield Accelerators",
@@ -2309,10 +2013,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"This course provides an introduction to the physics of laser-driven and beam-driven plasma wakefield accelerators. Topics include the description of the motion of a single particle in the fields of a laser or relativistic particle beam, coupling of intense drivers to plasma waves, description of linear and nonlinear plasma waves in 1D and 3D, injection of particles into plasma waves and beam loading, as well as other advanced topics such as the directions of present research as time permits. In addition to the theoretical concepts, the students will also be introduced to the computational and experimental tools used to explore the relevant physical phenomena.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY695":{
         "CourseTitle":"Cryogenic Systems and their Design",
@@ -2322,10 +2024,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"This course covers fundamental aspects of cryogenics system and engineering properties of materials and fluids at low temperatures. Cryogenic heat transfer and fluid dynamics, low temperature refrigeration and system engineering, application of helium cryogenic technology to contemporary particle accelerators, detectors and sensors.\n\nThe course will address physics and engineering aspects of using helium cryogenics. It will cover fundamentals of normal and superfluid cryogenics. The course is intended for graduate students pursuing accelerator physics and graduate engineers and physicists who want to familiarize themselves with cryogenics.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY696":{
         "CourseTitle":"Components of Accelerators",
@@ -2335,10 +2035,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"The courses teaches students both the understanding and the practical experience of real accelerator hardware: magnets, RF cavities, vacuum chambers, controls, diagnostics, particle sources and other accelerator hardware and software. The course is taught in the control room of the Accelerator Lab in the basement of the SBU Physics department, where a state-of-the-art polarized electron gun is currently located. It will use cut-offs of real scale superconducting magnets, RF cavities, and vacuum chambers.  The course also includes a tour of operational hardware at BNL facilities",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY698":{
         "CourseTitle":"Colloquium",
@@ -2348,10 +2046,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Fall and Spring,\nDelivery: 1 credit",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY699":{
         "CourseTitle":"Dissertation Research on Campus",
@@ -2361,10 +2057,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Independent research for Ph.D. degree candidates. Open only to students who have advanced to candidacy (G5). Major portion of research must take place on SBU campus, at Cold Spring Harbor, or at the Brookhaven National Lab. This course also includes a minimum of two hours person to person discussion of ethics and conduct in research and scholarship which addresses among others integrity in scholarship, academic honesty, authorship, plagiarism, mentoring and collaborations. These topics will be illustrated with case studies and issues that arise in current research projects.\nFall, Spring, and Summer,",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY700":{
         "CourseTitle":"Dissertation Research off Campus - Domestic",
@@ -2374,10 +2068,8 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"Independent research for Ph.D. degree candidates. Open only to students who have advanced to candidacy (G5). Major portion of research will take place off-campus, but in the United States and\/or U.S. provinces. Please note, Brookhaven National Labs and the Cold Spring Harbor Lab are considered on-campus.   This course also includes a minimum of two hours person to person discussion of ethics and conduct in research and scholarship which addresses among others integrity in scholarship, academic honesty, authorship, plagiarism, mentoring and collaborations.  These topics will be illustrated with case studies and issues that arise in current research projects. All international students must enroll in one of the graduate student insurance plans and should be advised by an International Advisor.",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     },
     "PHY800":{
         "CourseTitle":"SUMMER RESEARCH",
@@ -2387,9 +2079,7 @@
         "Antirequisites":"NONE",
         "Corequisites":"NONE",
         "Description":"",
-        "spring1":1,
-        "fall1":1,
-        "spring2":1,
-        "fall2":1
+        "spring":1,
+        "fall":1
     }
 }
