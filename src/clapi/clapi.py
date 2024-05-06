@@ -25,6 +25,7 @@ from src.kg.knowledge_graph import KnowledgeBase, KnowledgeGraph
 from src.utils.util import DependencyError, check_dependencies
 
 
+# TODO: Clingo -- Remove semester offering information, and see if that helps.
 def process_course_data_clingo(
     json_file: Union[KnowledgeBase, KnowledgeGraph, str],
     output_file: str = None,
@@ -76,10 +77,13 @@ def process_course_data_clingo(
 
     for course_id, course_info in data.items():
         # Generate course predicates
-        offered_spring1 = int(course_info["spring1"])
-        offered_fall1 = int(course_info["fall1"])
-        offered_spring2 = int(course_info["spring2"])
-        offered_fall2 = int(course_info["fall2"])
+        # offered_spring1 = int(course_info["spring1"])
+        # offered_fall1 = int(course_info["fall1"])
+        # offered_spring2 = int(course_info["spring2"])
+        # offered_fall2 = int(course_info["fall2"])
+
+        offered_spring: int = int(course_info.get("spring"))
+        offered_fall: int = int(course_info.get("fall"))
 
         credits: Union[float, int] = (
             int(course_info.get("Credits"))
@@ -90,7 +94,8 @@ def process_course_data_clingo(
         career: str = course_info.get("Career")
 
         predicates.append(
-            f'course({course_id.lower()}, {credits}, "{career}", {offered_spring1}, {offered_fall1}, {offered_spring2}, {offered_fall2}).'
+            # f'course({course_id.lower()}, {credits}, "{career}", {offered_spring1}, {offered_fall1}, {offered_spring2}, {offered_fall2}).'
+            f'course({course_id.lower()}, {credits}, "{career}", {offered_spring}, {offered_fall}).'
         )
 
         # Generate antirequisite rules
@@ -99,7 +104,8 @@ def process_course_data_clingo(
             for antireq_group in course_info.get("Antirequisites"):
                 for antireq in antireq_group:
                     rules.append(
-                        f':- course({course_id.lower()}, {credits}, "{career}", {offered_spring1}, {offered_fall1}, {offered_spring2}, {offered_fall2}), \n   course({antireq.lower()}, _, "{career}", _, _, _, _). \n'
+                        # f':- course({course_id.lower()}, {credits}, "{career}", {offered_spring1}, {offered_fall1}, {offered_spring2}, {offered_fall2}), \n   course({antireq.lower()}, _, "{career}", _, _, _, _). \n'
+                        f':- course({course_id.lower()}, {credits}, "{career}", {offered_spring}, {offered_fall}), \n   course({antireq.lower()}, _, "{career}", _, _). \n'
                     )
 
         # Generate prerequisite rules
@@ -108,12 +114,14 @@ def process_course_data_clingo(
             for prereq_group in course_info.get("Prerequisites"):
                 group_conditions = ", ".join(
                     [
-                        f'\n   not course({prereq.lower()}, _, "{career}", _, _, _, _)'
+                        # f'\n   not course({prereq.lower()}, _, "{career}", _, _, _, _)'
+                        f'\n   not course({prereq.lower()}, _, "{career}", _, _)'
                         for prereq in prereq_group
                     ]
                 )
                 rules.append(
-                    f':- course({course_id.lower()}, {credits}, "{career}", {offered_spring1}, {offered_fall1}, {offered_spring2}, {offered_fall2}), {group_conditions}. \n'
+                    # f':- course({course_id.lower()}, {credits}, "{career}", {offered_spring1}, {offered_fall1}, {offered_spring2}, {offered_fall2}), {group_conditions}. \n'
+                    f':- course({course_id.lower()}, {credits}, "{career}", {offered_spring}, {offered_fall}), {group_conditions}. \n'
                 )
 
         # Generate corequisite rules
@@ -122,7 +130,8 @@ def process_course_data_clingo(
             for coreq_group in course_info.get("Corequisites"):
                 for coreq in coreq_group:
                     rules.append(
-                        f':- course({course_id.lower()}, {credits}, "{career}", {offered_spring1}, {offered_fall1}, {offered_spring2}, {offered_fall2}), \n   not course({coreq.lower()}, _, "{career}", {offered_spring1}, {offered_fall1}, {offered_spring2}, {offered_fall2}). \n'
+                        # f':- course({course_id.lower()}, {credits}, "{career}", {offered_spring1}, {offered_fall1}, {offered_spring2}, {offered_fall2}), \n   not course({coreq.lower()}, _, "{career}", {offered_spring1}, {offered_fall1}, {offered_spring2}, {offered_fall2}). \n'
+                        f':- course({course_id.lower()}, {credits}, "{career}", {offered_spring}, {offered_fall}), \n   not course({coreq.lower()}, _, "{career}", {offered_spring}, {offered_fall}). \n'
                     )
 
     # Process honors courses
@@ -131,20 +140,21 @@ def process_course_data_clingo(
     if honors:
         honors.insert(0, "\n% Honors Courses")
 
-    # Process repeatable courses
-    repeatable: List[str] = process_repeatable_courses(
-        json_file=json_file, other_courses=repeatable_courses
-    )
+    # TODO: Uncomment this later
+    # # Process repeatable courses
+    # repeatable: List[str] = process_repeatable_courses(
+    #     json_file=json_file, other_courses=repeatable_courses
+    # )
 
-    if repeatable:
-        repeatable.insert(0, "\n% Repeatable Courses")
+    # if repeatable:
+    #     repeatable.insert(0, "\n% Repeatable Courses")
 
     # Write predicates and rules to file
     output = (
         ["% Course predicates"]
         + predicates
         + honors
-        + repeatable
+        # + repeatable
         + ["\n% Course Rules \n"]
         + rules
     )
@@ -300,6 +310,10 @@ def process_honors_courses(file_path: str) -> List[str]:
     return course_list
 
 
+# TODO:
+#
+# The repeatable atom should have all info, no '_'.
+# e.g. repeatable(cse593, 6, 12).
 def process_repeatable_courses(
     json_file: str, other_courses: Iterable[Tuple[str, str, str]] = None
 ) -> List[str]:

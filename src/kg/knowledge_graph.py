@@ -573,6 +573,10 @@ def scrape_sbu_solar(
         for column in new_columns:
             df[column] = 1
 
+    # Condense semester offering information to just one fall and spring column each
+    df["spring"] = df[["spring1", "spring2"]].max(axis=1)
+    df["fall"] = df[["fall1", "fall2"]].max(axis=1)
+
     # Replace index with Course Nbr
     df.set_index(
         # "Course Nbr",
@@ -592,6 +596,10 @@ def scrape_sbu_solar(
             "Academic Organization",
             "Course Components",
             "Grading Basis",
+            "spring1",
+            "fall1",
+            "spring2",
+            "fall2",
         ],
         axis=1,
         inplace=True,
