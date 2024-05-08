@@ -8,23 +8,9 @@ NOTE: README.md doc is formatted for viewing on GitHub: https://github.com/Adeba
 
 TODO:
 - Make CLI with separate options for: knowledge graph creation, and querying
-- Compare clingo, and ErgoAaI
-- Make image of pipeline(s)
-- Clingo how to include file? (apparently, just add #include "<script_name.lp>".)
-- Add corequsites to parser
-- Model/include preqs, antireqs, adn coreqs in clingo
+- Add tests (PyTest)
 - Need to be able to run demo from my own installation and quickstart instructions.
-
-Presentation TODOs:
-
-+ interesting problem - explain why
-+ clean design - how to show/explain.
-+ neat queries - show this, explain queries.
-- unclear problem
-- missing evaluation -- MUST DO
-- lacking references to support the state of the art -- MUST DO
-
-You can also give additional comments, e.g., I know a project like this that did worse/better.
+- Update documentation
 
 # Installation
 
