@@ -6,6 +6,7 @@
     DependencyError
     file_parts
     check_dependencies
+    timeit
 """
 
 import os
@@ -16,10 +17,14 @@ from typing import Tuple
 
 
 # TODO:
+#   Add multiprocessing as a utility function
+#   Add profiling as a utility function
+#
 #   from cProfile import Profile
 #   from pstats import Stats
 #   with Profile() as pr:
 #       main()
+#
 class DependencyError(Exception):
     """Exception intended for unmet dependencies"""
 
