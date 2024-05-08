@@ -50,7 +50,7 @@ sys.path.insert(0, _ergo_py_path)
 sys.path.append(_ergo_py_path)
 
 ##################################################
-# End Add ERGOAI python interface to system path #
+# End Add python package to system path          #
 ##################################################
 
 sys.path.insert(0, _pkg_path)
