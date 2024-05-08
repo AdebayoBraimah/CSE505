@@ -96,6 +96,7 @@ def process_course_data_clingo(
         predicates.append(
             # f'course({course_id.lower()}, {credits}, "{career}", {offered_spring1}, {offered_fall1}, {offered_spring2}, {offered_fall2}).'
             f'course({course_id.lower()}, {credits}, "{career}", {offered_spring}, {offered_fall}).'
+            # f'course({course_id.lower()}, {credits}, "{career}").'
         )
 
         # Generate antirequisite rules
@@ -106,6 +107,7 @@ def process_course_data_clingo(
                     rules.append(
                         # f':- course({course_id.lower()}, {credits}, "{career}", {offered_spring1}, {offered_fall1}, {offered_spring2}, {offered_fall2}), \n   course({antireq.lower()}, _, "{career}", _, _, _, _). \n'
                         f':- course({course_id.lower()}, {credits}, "{career}", {offered_spring}, {offered_fall}), \n   course({antireq.lower()}, _, "{career}", _, _). \n'
+                        # f':- course({course_id.lower()}, {credits}, "{career}"), \n   course({antireq.lower()}, _, "{career}"). \n'
                     )
 
         # Generate prerequisite rules
@@ -116,12 +118,14 @@ def process_course_data_clingo(
                     [
                         # f'\n   not course({prereq.lower()}, _, "{career}", _, _, _, _)'
                         f'\n   not course({prereq.lower()}, _, "{career}", _, _)'
+                        # f'\n   not course({prereq.lower()}, _, "{career}")'
                         for prereq in prereq_group
                     ]
                 )
                 rules.append(
                     # f':- course({course_id.lower()}, {credits}, "{career}", {offered_spring1}, {offered_fall1}, {offered_spring2}, {offered_fall2}), {group_conditions}. \n'
                     f':- course({course_id.lower()}, {credits}, "{career}", {offered_spring}, {offered_fall}), {group_conditions}. \n'
+                    # f':- course({course_id.lower()}, {credits}, "{career}"), {group_conditions}. \n'
                 )
 
         # Generate corequisite rules
@@ -132,6 +136,7 @@ def process_course_data_clingo(
                     rules.append(
                         # f':- course({course_id.lower()}, {credits}, "{career}", {offered_spring1}, {offered_fall1}, {offered_spring2}, {offered_fall2}), \n   not course({coreq.lower()}, _, "{career}", {offered_spring1}, {offered_fall1}, {offered_spring2}, {offered_fall2}). \n'
                         f':- course({course_id.lower()}, {credits}, "{career}", {offered_spring}, {offered_fall}), \n   not course({coreq.lower()}, _, "{career}", {offered_spring}, {offered_fall}). \n'
+                        # f':- course({course_id.lower()}, {credits}, "{career}"), \n   not course({coreq.lower()}, _, "{career}"). \n'
                     )
 
     # Process honors courses
