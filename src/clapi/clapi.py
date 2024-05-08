@@ -44,13 +44,13 @@ def process_course_data_clingo(
             ``:- course(course_id, _, career, _, _, _, _), not course(coreq_id, _, career, _, _, _, _).``
 
     NOTE:
-        - If a ``KnowledgeBase`` or ``KnowledgeGraph`` object is passed, then the Clingo output filepath is updated in the object.
+        - If a :py:class:`~src.kg.knowledge_graph.KnowledgeBase` or :py:class:`~src.kg.knowledge_graph.KnowledgeGraph` object is passed, then the Clingo output filepath is updated in the object.
 
     Usage example:
         >>> clingo_file = process_course_data_clingo(json_file="course_data.json")
 
     Args:
-        json_file: Input JSON file (or ``KnowledgeBase`` or ``KnowledgeGraph`` object) to be converted to Clingo.
+        json_file: Input JSON file (or :py:class:`~src.kg.knowledge_graph.KnowledgeBase` or :py:class:`~src.kg.knowledge_graph.KnowledgeGraph` object) to be converted to Clingo.
         output_file: Output filename. If not specified, then a new file of the same name is created, with an '.lp' file extension. Defaults to None.
         repeatable_courses: List of tuples of other courses that are repeatable. Each tuple should have exactly 3 elements: course_id, times_repeatable, max_credits. Defaults to None.
 
@@ -156,7 +156,7 @@ def process_course_data_clingo(
 
     # Write predicates and rules to file
     output = (
-        ["% Course predicates"]
+        ["% Course atoms"]
         + predicates
         + honors
         # + repeatable
@@ -243,6 +243,7 @@ def append_rules(file_list: List[str], output_file: str) -> str:
         print(f"An error occurred: {e}")
 
 
+# TODO: raise satistfiable error if clingo returns UNSATISFIABLE
 def query_clingo(
     knowledge: Union[KnowledgeBase, KnowledgeGraph, str], verbose: bool = False
 ) -> str:
@@ -255,7 +256,7 @@ def query_clingo(
         - The query must be included in the Clingo file.
 
     Args:
-        knowledge: Input Clingo knowledge base/graph file (or ``KnowledgeBase`` or ``KnowledgeGraph`` object) to be queried.
+        knowledge: Input Clingo knowledge base/graph file (or :py:class:`~src.kg.knowledge_graph.KnowledgeBase` or :py:class:`~src.kg.knowledge_graph.KnowledgeGraph` object) to be queried.
         verbose: Prints verbose output if set to ``True``. Defaults to ``False``.
 
     Returns:

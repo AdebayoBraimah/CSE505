@@ -625,7 +625,7 @@ def parse_prerequisites(input_string: str) -> Union[str, List[List[str]]]:
     For example, ``"Prerequisite: CSE 216 or CSE 260; AMS 310; CSE major"`` would be parsed as: ``[["CSE 216", "CSE 260"], ["AMS 310"], ["CSE major"]]``.
 
     WARNING:
-        - This function is deprecated. Use ``parse_requirements()`` instead.
+        - This function is deprecated. Use :py:func:`~src.kg.knowledge_graph.parse_requirements` instead.
 
     Usage example:
         >>> input_string = "Prerequisite: CSE 216 or CSE 260; AMS 310; CSE major"
@@ -681,7 +681,7 @@ def parse_requirements(
 
     NOTE:
         - Disjunctive statements will appear in the same sub-list, while conjunctive statements will appear in a separate sub-list.
-        - Use this function in place of :method:`parse_prerequisites`.
+        - Use this function in place of :py:func:`~src.kg.knowledge_graph.parse_prerequisites`.
 
     Usage example:
         >>> input_string = "Prerequisite: CSE 216 or CSE 260; AMS 310; Anti-requisite: CSE 260. Corequisite: CSE 161."
@@ -689,10 +689,10 @@ def parse_requirements(
         ([['CSE216', 'CSE260'], ['AMS310']], [['CSE260']], [['CSE161']])
 
     Args:
-        input_string: _description_
+        input_string: Input string containing major course requirements.
 
     Returns:
-        _description_
+        Tuple of lists containing strings that corresponds to course prerequisites, anti-requisites, and corequisites.
     """
     # Normalize spaces and split the string into main sections
     input_string = re.sub(r"\s+", " ", input_string.strip())
