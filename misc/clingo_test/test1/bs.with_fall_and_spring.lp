@@ -1,10 +1,9 @@
 % Include the course data from your provided file
-% #include "courses.lp".
-#include "courses.current.lp".
+#include "cse_courses.lp".
 
 % Define constants
-#const max_semesters = 12.
-#const min_credits_per_semester = 18.
+#const max_semesters = 10.
+#const min_credits_per_semester = 12.
 #const max_credits_per_semester = 18.
 
 % Define possible semesters
@@ -30,12 +29,12 @@ semester(1..max_semesters). % Adjust the range as needed
    Sem \ 2 = 0, Spring = 0.
 
 % Count total credits and major credits
-% total_credits(Total) :- Total = #sum { Credits, Course : schedule(Course, _), course(Course, Credits, "Undergraduate", _, _) }.
-% major_credits(Major) :- Major = #sum { Credits, Course : schedule(Course, _), course(Course, Credits, "Undergraduate", _, _) }.
+total_credits(Total) :- Total = #sum { Credits, Course : schedule(Course, _), course(Course, Credits, "Undergraduate", _, _) }.
+major_credits(Major) :- Major = #sum { Credits, Course : schedule(Course, _), course(Course, Credits, "Undergraduate", _, _) }.
 
 % Graduation requirements
-% :- total_credits(Total), Total < 120.
-% :- major_credits(Major), Major < 80.
+:- total_credits(Total), Total < 120.
+:- major_credits(Major), Major < 80.
 
 % Objective to minimize the number of semesters
 #minimize { 1, Sem : schedule(_, Sem) }.
