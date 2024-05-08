@@ -2,6 +2,7 @@
 # selenuim # This always fails on automated builds
 webdriver-manager
 beautifulsoup4
+requests
 
 # Data manipulation
 pandas
