@@ -1,6 +1,6 @@
 % Course predicates
 course(cse101, 3, "Undergraduate", 1, 1).
-course(cse102, 3, "Undergraduate", 0, 0).
+% course(cse102, 3, "Undergraduate", 0, 0).
 course(cse110, 3, "Undergraduate", 1, 1).
 course(cse113, 4, "Undergraduate", 0, 1).
 course(cse114, 4, "Undergraduate", 1, 0).
@@ -12,7 +12,7 @@ course(cse190, 3, "Undergraduate", 1, 1).
 course(cse191, 3, "Undergraduate", 0, 1).
 course(cse192, 3, "Undergraduate", 0, 1).
 course(cse213, 4, "Undergraduate", 1, 1).
-course(cse214, 4, "Undergraduate", 0, 0).
+course(cse214, 4, "Undergraduate", 1, 1).
 course(cse215, 4, "Undergraduate", 1, 1).
 course(cse216, 4, "Undergraduate", 1, 1).
 course(cse220, 4, "Undergraduate", 0, 1).
@@ -31,7 +31,7 @@ course(cse311, 3, "Undergraduate", 0, 1).
 course(cse312, 3, "Undergraduate", 0, 1).
 course(cse316, 3, "Undergraduate", 1, 1).
 course(cse320, 3, "Undergraduate", 1, 1).
-course(cse323, 3, "Undergraduate", 0, 0).
+course(cse323, 3, "Undergraduate", 0, 1).
 course(cse325, 3, "Undergraduate", 0, 1).
 course(cse327, 3, "Undergraduate", 1, 0).
 course(cse328, 3, "Undergraduate", 1, 0).
@@ -42,13 +42,13 @@ course(cse334, 3, "Undergraduate", 1, 1).
 course(cse336, 3, "Undergraduate", 0, 1).
 course(cse337, 3, "Undergraduate", 0, 1).
 course(cse350, 4, "Undergraduate", 1, 0).
-course(cse351, 3, "Undergraduate", 0, 0).
-course(cse352, 3, "Undergraduate", 0, 0).
-course(cse353, 3, "Undergraduate", 0, 0).
+% course(cse351, 3, "Undergraduate", 0, 0).
+% course(cse352, 3, "Undergraduate", 0, 0).
+course(cse353, 3, "Undergraduate", 1, 0).
 course(cse354, 3, "Undergraduate", 1, 0).
 course(cse355, 3, "Undergraduate", 1, 0).
 course(cse356, 3, "Undergraduate", 1, 1).
-course(cse357, 3, "Undergraduate", 0, 0).
+course(cse357, 3, "Undergraduate", 1, 0).
 course(cse360, 3, "Undergraduate", 1, 0).
 course(cse361, 3, "Undergraduate", 0, 1).
 course(cse362, 3, "Undergraduate", 1, 0).
@@ -61,20 +61,22 @@ course(cse373, 3, "Undergraduate", 1, 1).
 course(cse376, 3, "Undergraduate", 1, 1).
 course(cse377, 3, "Undergraduate", 1, 1).
 course(cse378, 3, "Undergraduate", 1, 1).
-course(cse380, 3, "Undergraduate", 0, 0).
+course(cse380, 3, "Undergraduate", 0, 1).
 course(cse381, 3, "Undergraduate", 1, 1).
-course(cse385, 4, "Undergraduate", 0, 0).
+course(cse385, 4, "Undergraduate", 0, 1).
 course(cse390, 3, "Undergraduate", 1, 0).
 course(cse391, 3, "Undergraduate", 1, 0).
-course(cse392, 3, "Undergraduate", 0, 0).
+% course(cse392, 3, "Undergraduate", 0, 0).
 course(cse393, 3, "Undergraduate", 1, 0).
 course(cse394, 3, "Undergraduate", 1, 1).
 course(cse416, 3, "Undergraduate", 0, 1).
-course(cse475, 3, "Undergraduate", 0, 0).
+course(cse475, 3, "Undergraduate", 1 ,1).
 course(cse487, 0..6, "Undergraduate", 1, 1).
-course(cse488, 3, "Undergraduate", 0, 0).
+course(cse488, 3, "Undergraduate", 1, 1).
 course(cse495, 3, "Undergraduate", 1, 0).
 course(cse496, 3, "Undergraduate", 0, 1).
+
+% Grad classes
 course(cse502, 3, "Graduate", 1, 0).
 course(cse504, 3, "Graduate", 1, 0).
 course(cse505, 3, "Graduate", 1, 0).
@@ -218,18 +220,113 @@ honors(cse496).
 
 % Non-CSE Courses
 
+course(ast203, 4, "Undergraduate", 1, 1).
+course(ast205, 3, "Undergraduate", 1, 1).
+
+course(ams110, 3, "Undergraduate", 1, 1).
 course(ams151, 3, "Undergraduate", 1, 1).
+course(ams161, 3, "Undergraduate", 1, 1).
+course(ams210, 3, "Undergraduate", 1, 1).
+course(ams301, 3, "Undergraduate", 1, 1).
 course(ams310, 3, "Undergraduate", 1, 1).
+course(ams311, 3, "Undergraduate", 1, 1).
+course(ams412, 3, "Undergraduate", 1, 1).
+
+course(bio201, 3, "Undergraduate", 1, 1).
+course(bio202, 3, "Undergraduate", 1, 1).
+course(bio203, 3, "Undergraduate", 1, 1).
+course(bio204, 2, "Undergraduate", 1, 1).
+
+course(che129, 4, "Undergraduate", 1, 1).
+course(che131, 4, "Undergraduate", 1, 1).
+course(che132, 4, "Undergraduate", 1, 1).
+course(che133, 1, "Undergraduate", 1, 1).
+course(che152, 4, "Undergraduate", 1, 1).
+course(che154, 2, "Undergraduate", 1, 1).
+course(che321, 4, "Undergraduate", 1, 1).
+course(che322, 4, "Undergraduate", 1, 1).
+course(che331, 4, "Undergraduate", 1, 1).
+course(che332, 4, "Undergraduate", 1, 1).
+
+course(geo102, 3, "Undergraduate", 1, 1).
+course(geo103, 3, "Undergraduate", 1, 1).
+course(geo112, 1, "Undergraduate", 1, 1).
+course(geo113, 1, "Undergraduate", 1, 1).
+course(geo122, 4, "Undergraduate", 1, 1).
+
+course(ise108, 3, "Undergraduate", 1, 1).
+course(ise334, 3, "Undergraduate", 1, 1).
 
 course(mat123, 3, "Undergraduate", 1, 1).
 course(mat125, 3, "Undergraduate", 1, 1).
+course(mat126, 3, "Undergraduate", 1, 1).
+course(mat127, 3, "Undergraduate", 1, 1).
+course(mat131, 4, "Undergraduate", 1, 1).
+course(mat200, 3, "Undergraduate", 1, 1).
+course(mat211, 3, "Undergraduate", 1, 1).
+course(mat250, 4, "Undergraduate", 1, 1).
 
-course(ise108, 3, "Undergraduate", 1, 1).
+course(phy125, 3, "Undergraduate", 1, 1).
+course(phy126, 3, "Undergraduate", 1, 1).
+course(phy127, 3, "Undergraduate", 1, 1).
+course(phy131, 3, "Undergraduate", 1, 1).
+course(phy132, 3, "Undergraduate", 1, 1).
+course(phy133, 1, "Undergraduate", 1, 1).
+course(phy134, 1, "Undergraduate", 1, 1).
+course(phy141, 3, "Undergraduate", 1, 1).
+course(phy142, 3, "Undergraduate", 1, 1).
+% course(phy251, 3, "Undergraduate", 1, 1).
+% course(phy252, 1, "Undergraduate", 1, 1).
 
+course(wrt101, 3, "Undergraduate", 1, 1).
+course(wrt102, 3, "Undergraduate", 1, 1).
+
+% AST Prerequisites
+% Prerequisites for AST203
+:- course(ast203, 4, "Undergraduate", 1, 1), 
+   not course(phy125, _, "Undergraduate", _, _), 
+   not course(phy131, _, "Undergraduate", _, _), 
+   not course(phy141, _, "Undergraduate", _, _). 
+
+% Prerequisites for AST205
+:- course(ast205, 3, "Undergraduate", 1, 1), 
+   not course(phy125, _, "Undergraduate", _, _), 
+   not course(phy131, _, "Undergraduate", _, _), 
+   not course(phy141, _, "Undergraduate", _, _).
+
+% AMS Prerequisites
 % Prerequisites for AMS110
 :- course(ams110, 3, "Undergraduate", 1, 1), 
    not course(ams151, _, "Undergraduate", _, _), 
    not course(mat125, _, "Undergraduate", _, _).
+
+% Prerequisites for AMS151
+:- course(ams151, 3, "Undergraduate", 1, 1), 
+   not course(mat123, _, "Undergraduate", _, _). 
+
+% Prerequisites for AMS310
+:- course(ams310, 3, "Undergraduate", 1, 1), 
+   not course(ams161, _, "Undergraduate", _, _), 
+   not course(mat132, _, "Undergraduate", _, _), 
+   not course(mat127, _, "Undergraduate", _, _), 
+   not course(mat142, _, "Undergraduate", _, _).
+
+% Prerequisites for AMS161
+:- course(ams161, 3, "Undergraduate", 1, 1), 
+   not course(ams151, _, "Undergraduate", _, _), 
+   not course(mat131, _, "Undergraduate", _, _). 
+
+% Prerequisites for AMS210
+:- course(ams210, 3, "Undergraduate", 1, 1), 
+   not course(ams151, _, "Undergraduate", _, _), 
+   not course(mat131, _, "Undergraduate", _, _).
+
+% Prerequisites for AMS301
+:- course(ams301, 3, "Undergraduate", 1, 1), 
+   not course(ams210, _, "Undergraduate", _, _), 
+   not course(mat211, _, "Undergraduate", _, _), 
+   not course(ams361, _, "Undergraduate", _, _), 
+   not course(mat303, _, "Undergraduate", _, _). 
 
 % Prerequisites for AMS310
 :- course(ams310, 3, "Undergraduate", 1, 1), 
@@ -238,9 +335,161 @@ course(ise108, 3, "Undergraduate", 1, 1).
    not course(mat127, _, "Undergraduate", _, _), 
    not course(mat142, _, "Undergraduate", _, _). 
 
+% Prerequisites for AMS311
+:- course(ams311, 3, "Undergraduate", 1, 1), 
+   not course(ams301, _, "Undergraduate", _, _).
+
+% Prerequisites for AMS412
+:- course(ams412, 3, "Undergraduate", 1, 1), 
+   not course(ams311, _, "Undergraduate", _, _).
+
+% BIO Prerequisites
+% Prerequisites for BIO202
+:- course(bio202, 3, "Undergraduate", 1, 1), 
+   not course(che129, _, "Undergraduate", _, _), 
+   not course(che131, _, "Undergraduate", _, _). 
+
+% Prerequisites for BIO203
+:- course(bio203, 3, "Undergraduate", 1, 1), 
+   not course(che129, _, "Undergraduate", _, _), 
+   not course(che131, _, "Undergraduate", _, _).
+
+% Prequisites for BIO204
+:- course(bio204, 2, "Undergraduate", 1, 1), 
+   not course(che152, _, "Undergraduate", _, _).
+
+% CHE Prerequisites
+% Prerequisites for CHE129
+:- course(che129, 4, "Undergraduate", 1, 1), 
+   not course(mat123, _, "Undergraduate", _, _). 
+
+% Prerequisites for CHE131
+:- course(che131, 4, "Undergraduate", 1, 1), 
+   not course(mat125, _, "Undergraduate", _, _).
+
+% Corequisites for CHE133
+:- course(che133, 1, "Undergraduate", 1, 1), 
+   not course(che129, _, "Undergraduate", _, _).
+
+% Prerequisites for CHE152
+:- course(che152, 4, "Undergraduate", 1, 1), 
+   not course(mat131, _, "Undergraduate", _, _), 
+   not course(mat125, _, "Undergraduate", _, _), 
+   not course(ams151, _, "Undergraduate", _, _). 
+
+% Corequisites for CHE154
+:- course(che154, 2, "Undergraduate", 1, 1), 
+   not course(che152, _, "Undergraduate", _, _).
+
+% Prerequisites for CHE331
+:- course(che331, 4, "Undergraduate", 1, 1), 
+   not course(che152, _, "Undergraduate", _, _).
+
+% GEO Prerequisites
+%  Prequisites for GEO112
+:- course(geo112, 1, "Undergraduate", 1, 1), 
+   not course(geo102, _, "Undergraduate", _,_). 
+
+% Prequisites for GEO113
+:- course(geo113, 1, "Undergraduate", 1, 1), 
+   not course(geo103, _, "Undergraduate", _,_). 
+
+% MAT Prerequisites
 % Prerequisites for MAT125
 :- course(mat125, 3, "Undergraduate", 1, 1), 
    not course(mat123, _, "Undergraduate", _, _).
+
+% Prerequisites for MAT127
+:- course(mat127, 3, "Undergraduate", 1, 1), 
+   not course(mat126, _, "Undergraduate", _, _).
+
+% Prerequisites for MAT131
+:- course(mat131, 4, "Undergraduate", 1, 1), 
+   not course(mat123, _, "Undergraduate", _, _). 
+
+% Prerequisites for MAT211
+:- course(mat211, 3, "Undergraduate", 1, 1), 
+   not course(ams151, _, "Undergraduate", _, _), 
+   not course(mat131, _, "Undergraduate", _, _), 
+   not course(mat126, _, "Undergraduate", _, _). 
+
+% Prerequisites for MAT250
+:- course(mat250, 4, "Undergraduate", 1, 1), 
+   not course(mat131, _, "Undergraduate", _, _). 
+
+% PHY Prerequisites
+% Prerequisites for PHY125
+:- course(phy125, 3, "Undergraduate", 1, 1), 
+   not course(mat123, _, "Undergraduate", _, _). 
+
+% Prerequisites for PHY126
+:- course(phy126, 3, "Undergraduate", 1, 1), 
+   not course(phy125, _, "Undergraduate", _, _). 
+
+% Prequisites for PHY126
+:- course(phy126, 3, "Undergraduate", 1, 1), 
+   not course(mat126, _, "Undergraduate", _, _). 
+
+:- course(phy126, 3, "Undergraduate", 1, 1), 
+   not course(ams161, _, "Undergraduate", _, _).
+
+% Prerequisites for PHY127
+:- course(phy127, 3, "Undergraduate", 1, 1), 
+   not course(phy125, _, "Undergraduate", _, _). 
+
+% Prerequisites for PHY131
+:- course(phy131, 3, "Undergraduate", 1, 1), 
+   not course(mat123, _, "Undergraduate", _, _). 
+
+% Prequisites for PHY131
+:- course(phy131, 3, "Undergraduate", 1, 1), 
+   not course(mat125, _, "Undergraduate", _, _). 
+
+:- course(phy131, 3, "Undergraduate", 1, 1), 
+   not course(mat131, _, "Undergraduate", _, _). 
+
+:- course(phy131, 3, "Undergraduate", 1, 1), 
+   not course(ams151, _, "Undergraduate", _, _).
+
+% Prerequisites for PHY132
+:- course(phy132, 3, "Undergraduate", 1, 1), 
+   not course(phy131, _, "Undergraduate", _, _), 
+   not course(phy141, _, "Undergraduate", _, _). 
+
+% Prequisites for PHY133
+:- course(phy133, 1, "Undergraduate", 1, 1), 
+   not course(phy125, _, "Undergraduate", _, _). 
+
+:- course(phy133, 1, "Undergraduate", 1, 1), 
+   not course(phy126, _, "Undergraduate", _, _). 
+
+:- course(phy133, 1, "Undergraduate", 1, 1), 
+   not course(phy131, _, "Undergraduate", _, _).  
+
+% Prerequisites for PHY134
+:- course(phy134, 1, "Undergraduate", 1, 1), 
+   not course(phy133, _, "Undergraduate", _, _). 
+
+% Corequisites for PHY141
+:- course(phy141, 3, "Undergraduate", 1, 1), 
+   not course(mat131, _, "Undergraduate", _, _). 
+
+:- course(phy141, 3, "Undergraduate", 1, 1), 
+   not course(ams151, _, "Undergraduate", _, _).
+
+% Prerequisites for PHY142
+:- course(phy142, 3, "Undergraduate", 1, 1), 
+   not course(phy141, _, "Undergraduate", _, _). 
+
+% :- course(phy251, 3, "Undergraduate", 1, 1), 
+%    not course(mat307, _, "Undergraduate", 1, 1). 
+
+% ISE Prerequisites
+
+% WRT Prerequisites
+% Prerequisites for WRT102
+:- course(wrt102, 3, "Undergraduate", 1, 1), 
+   not course(wrt101, _, "Undergraduate", _, _). 
 
 % Course Rules 
 
@@ -279,7 +528,7 @@ course(ise108, 3, "Undergraduate", 1, 1).
    not course(cse113, _, "Undergraduate", _, _). 
 
 % Prerequisites for CSE214
-:- course(cse214, 4, "Undergraduate", 0, 0), 
+:- course(cse214, 4, "Undergraduate", 1, 1), 
    not course(cse114, _, "Undergraduate", _, _). 
 
 % Prerequisites for CSE215
@@ -296,9 +545,11 @@ course(ise108, 3, "Undergraduate", 1, 1).
 :- course(cse220, 4, "Undergraduate", 0, 1), 
    not course(cse214, _, "Undergraduate", _, _). 
 
-% Corequisites for CSE220
-:- course(cse220, 4, "Undergraduate", 0, 1), 
-   not course(cse260, _, "Undergraduate", 0, 1). 
+% % Corequisites for CSE220
+% :- course(cse220, 4, "Undergraduate", 0, 1), 
+%    not course(cse260, _, "Undergraduate", 0, 1). 
+% :- course(cse220, 4, "Undergraduate", 0, 1), 
+%    not course(cse260, _, "Undergraduate", _, _). 
 
 % Prerequisites for CSE230
 :- course(cse230, 3, "Undergraduate", 1, 1), 
@@ -313,13 +564,17 @@ course(ise108, 3, "Undergraduate", 1, 1).
 :- course(cse260, 3, "Undergraduate", 1, 0), 
    not course(cse160, _, "Undergraduate", _, _). 
 
-% Corequisites for CSE260
+% % Corequisites for CSE260
+% :- course(cse260, 3, "Undergraduate", 1, 0), 
+%    not course(cse261, _, "Undergraduate", 1, 0). 
 :- course(cse260, 3, "Undergraduate", 1, 0), 
-   not course(cse261, _, "Undergraduate", 1, 0). 
+   not course(cse261, _, "Undergraduate", _, _). 
 
-% Corequisites for CSE261
+% % Corequisites for CSE261
+% :- course(cse261, 1, "Undergraduate", 1, 1), 
+%    not course(cse260, _, "Undergraduate", 1, 1). 
 :- course(cse261, 1, "Undergraduate", 1, 1), 
-   not course(cse260, _, "Undergraduate", 1, 1). 
+   not course(cse260, _, "Undergraduate", _, _). 
 
 % Prerequisites for CSE300
 :- course(cse300, 3, "Undergraduate", 1, 0), 
@@ -374,9 +629,11 @@ course(ise108, 3, "Undergraduate", 1, 1).
    not course(cse220, _, "Undergraduate", _, _), 
    not course(ise218, _, "Undergraduate", _, _). 
 
-% Corequisites for CSE310
+% % Corequisites for CSE310
+% :- course(cse310, 3, "Undergraduate", 0, 1), 
+%    not course(ams310, _, "Undergraduate", 0, 1). 
 :- course(cse310, 3, "Undergraduate", 0, 1), 
-   not course(ams310, _, "Undergraduate", 0, 1). 
+   not course(ams310, _, "Undergraduate", _, _). 
 
 % Prerequisites for CSE311
 :- course(cse311, 3, "Undergraduate", 0, 1), 
@@ -395,7 +652,7 @@ course(ise108, 3, "Undergraduate", 1, 1).
    not course(cse220, _, "Undergraduate", _, _). 
 
 % Prerequisites for CSE323
-:- course(cse323, 3, "Undergraduate", 0, 0), 
+:- course(cse323, 3, "Undergraduate", 0, 1), 
    not course(cse214, _, "Undergraduate", _, _), 
    not course(cse230, _, "Undergraduate", _, _), 
    not course(cse260, _, "Undergraduate", _, _), 
@@ -429,9 +686,11 @@ course(ise108, 3, "Undergraduate", 1, 1).
 :- course(cse331, 3, "Undergraduate", 0, 1), 
    not course(cse220, _, "Undergraduate", _, _). 
 
-% Corequisites for CSE331
+% % Corequisites for CSE331
+% :- course(cse331, 3, "Undergraduate", 0, 1), 
+%    not course(cse320, _, "Undergraduate", 0, 1). 
 :- course(cse331, 3, "Undergraduate", 0, 1), 
-   not course(cse320, _, "Undergraduate", 0, 1). 
+   not course(cse320, _, "Undergraduate", _, _). 
 
 % Prerequisites for CSE332
 :- course(cse332, 3, "Undergraduate", 1, 1), 
@@ -470,25 +729,25 @@ course(ise108, 3, "Undergraduate", 1, 1).
    not course(ams210, _, "Undergraduate", _, _), 
    not course(mat211, _, "Undergraduate", _, _). 
 
-% Prerequisites for CSE351
-:- course(cse351, 3, "Undergraduate", 0, 0), 
-   not course(cse214, _, "Undergraduate", _, _), 
-   not course(cse260, _, "Undergraduate", _, _). 
+% % Prerequisites for CSE351
+% :- course(cse351, 3, "Undergraduate", 0, 0), 
+%    not course(cse214, _, "Undergraduate", _, _), 
+%    not course(cse260, _, "Undergraduate", _, _). 
 
-:- course(cse351, 3, "Undergraduate", 0, 0), 
-   not course(ams310, _, "Undergraduate", _, _). 
+% :- course(cse351, 3, "Undergraduate", 0, 0), 
+%    not course(ams310, _, "Undergraduate", _, _). 
 
-% Prerequisites for CSE352
-:- course(cse352, 3, "Undergraduate", 0, 0), 
-   not course(cse216, _, "Undergraduate", _, _), 
-   not course(cse260, _, "Undergraduate", _, _). 
+% % Prerequisites for CSE352
+% :- course(cse352, 3, "Undergraduate", 0, 0), 
+%    not course(cse216, _, "Undergraduate", _, _), 
+%    not course(cse260, _, "Undergraduate", _, _). 
 
 % Prerequisites for CSE353
-:- course(cse353, 3, "Undergraduate", 0, 0), 
+:- course(cse353, 3, "Undergraduate", 1, 0), 
    not course(cse216, _, "Undergraduate", _, _), 
    not course(cse260, _, "Undergraduate", _, _). 
 
-:- course(cse353, 3, "Undergraduate", 0, 0), 
+:- course(cse353, 3, "Undergraduate", 1, 0), 
    not course(ams310, _, "Undergraduate", _, _), 
    not course(ams311, _, "Undergraduate", _, _), 
    not course(ams412, _, "Undergraduate", _, _). 
@@ -510,48 +769,59 @@ course(ise108, 3, "Undergraduate", 1, 1).
    not course(cse320, _, "Undergraduate", _, _). 
 
 % Prerequisites for CSE357
-:- course(cse357, 3, "Undergraduate", 0, 0), 
+:- course(cse357, 3, "Undergraduate", 1, 0), 
    not course(cse216, _, "Undergraduate", _, _), 
    not course(cse260, _, "Undergraduate", _, _). 
 
-:- course(cse357, 3, "Undergraduate", 0, 0), 
+:- course(cse357, 3, "Undergraduate", 1, 0), 
    not course(ams310, _, "Undergraduate", _, _). 
 
 % Prerequisites for CSE360
 :- course(cse360, 3, "Undergraduate", 1, 0), 
    not course(cse220, _, "Undergraduate", _, _). 
 
-% Corequisites for CSE360
+% % Corequisites for CSE360
+% :- course(cse360, 3, "Undergraduate", 1, 0), 
+%    not course(cse320, _, "Undergraduate", 1, 0). 
 :- course(cse360, 3, "Undergraduate", 1, 0), 
-   not course(cse320, _, "Undergraduate", 1, 0). 
+   not course(cse320, _, "Undergraduate", _, _). 
 
 % Prerequisites for CSE361
 :- course(cse361, 3, "Undergraduate", 0, 1), 
    not course(cse220, _, "Undergraduate", _, _). 
 
-% Corequisites for CSE361
+% % Corequisites for CSE361
+% :- course(cse361, 3, "Undergraduate", 0, 1), 
+%    not course(cse320, _, "Undergraduate", 0, 1). 
 :- course(cse361, 3, "Undergraduate", 0, 1), 
-   not course(cse320, _, "Undergraduate", 0, 1). 
+   not course(cse320, _, "Undergraduate", _, _). 
 
 % Prerequisites for CSE362
 :- course(cse362, 3, "Undergraduate", 1, 0), 
    not course(cse220, _, "Undergraduate", _, _). 
 
-% Corequisites for CSE362
+% % Corequisites for CSE362
+% :- course(cse362, 3, "Undergraduate", 1, 0), 
+%    not course(cse320, _, "Undergraduate", 1, 0). 
 :- course(cse362, 3, "Undergraduate", 1, 0), 
-   not course(cse320, _, "Undergraduate", 1, 0). 
+   not course(cse320, _, "Undergraduate", _, _). 
 
 % Prerequisites for CSE363
 :- course(cse363, 3, "Undergraduate", 0, 1), 
    not course(cse220, _, "Undergraduate", _, _). 
 
-% Corequisites for CSE363
+% % Corequisites for CSE363
+% :- course(cse363, 3, "Undergraduate", 0, 1), 
+%    not course(cse320, _, "Undergraduate", 0, 1). 
 :- course(cse363, 3, "Undergraduate", 0, 1), 
-   not course(cse320, _, "Undergraduate", 0, 1). 
+   not course(cse320, _, "Undergraduate", _, _). 
 
 % Prerequisites for CSE364
 :- course(cse364, 3, "Undergraduate", 1, 0), 
    not course(ise334, _, "Undergraduate", _, _). 
+
+:- course(cse364, 3, "Undergraduate", 1, 0), 
+   not course(cse334, _, "Undergraduate", _, _). 
 
 % Prerequisites for CSE366
 :- course(cse366, 3, "Undergraduate", 1, 0), 
@@ -611,7 +881,7 @@ course(ise108, 3, "Undergraduate", 1, 1).
    not course(mec262, _, "Undergraduate", _, _). 
 
 % Prerequisites for CSE380
-:- course(cse380, 3, "Undergraduate", 0, 0), 
+:- course(cse380, 3, "Undergraduate", 0, 1), 
    not course(cse216, _, "Undergraduate", _, _), 
    not course(cse220, _, "Undergraduate", _, _), 
    not course(cse260, _, "Undergraduate", _, _). 
@@ -623,17 +893,17 @@ course(ise108, 3, "Undergraduate", 1, 1).
    not course(cse260, _, "Undergraduate", _, _). 
 
 % Prerequisites for CSE385
-:- course(cse385, 4, "Undergraduate", 0, 0), 
+:- course(cse385, 4, "Undergraduate", 0, 1), 
    not course(cse150, _, "Undergraduate", _, _), 
    not course(cse215, _, "Undergraduate", _, _), 
    not course(mat200, _, "Undergraduate", _, _), 
    not course(mat250, _, "Undergraduate", _, _). 
 
-:- course(cse385, 4, "Undergraduate", 0, 0), 
+:- course(cse385, 4, "Undergraduate", 0, 1), 
    not course(ams210, _, "Undergraduate", _, _), 
    not course(mat211, _, "Undergraduate", _, _). 
 
-:- course(cse385, 4, "Undergraduate", 0, 0), 
+:- course(cse385, 4, "Undergraduate", 0, 1), 
    not course(cse214, _, "Undergraduate", _, _), 
    not course(cse260, _, "Undergraduate", _, _). 
 
@@ -647,10 +917,10 @@ course(ise108, 3, "Undergraduate", 1, 1).
    not course(cse214, _, "Undergraduate", _, _), 
    not course(cse260, _, "Undergraduate", _, _). 
 
-% Prerequisites for CSE392
-:- course(cse392, 3, "Undergraduate", 0, 0), 
-   not course(cse214, _, "Undergraduate", _, _), 
-   not course(cse260, _, "Undergraduate", _, _). 
+% % Prerequisites for CSE392
+% :- course(cse392, 3, "Undergraduate", 0, 0), 
+%    not course(cse214, _, "Undergraduate", _, _), 
+%    not course(cse260, _, "Undergraduate", _, _). 
 
 % Prerequisites for CSE393
 :- course(cse393, 3, "Undergraduate", 1, 0), 
