@@ -259,7 +259,7 @@ def scrape_sbu_solar(
         ValueError: Arises if the course table is not displayed, is empty, or if the wait time is less than 0 seconds.
 
     Returns:
-        KnowledgeGraph object containing course information.
+        :class:`KnowledgeGraph` object containing course information.
     """
 
     # Verify output_filename
