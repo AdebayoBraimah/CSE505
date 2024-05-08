@@ -79,6 +79,7 @@ def timeit(func: callable) -> callable:
     return timed
 
 
+# TODO: Usage example
 def check_dependencies(dependencies: Tuple[str]) -> bool:
     """Checks if the required dependencies are installed.
 
@@ -130,8 +131,7 @@ def file_parts(file: str) -> Tuple[str, str, str]:
     ext: str
     _filename: str
 
-    filepath, _filename = os.path.split(file)
-    _, ext = os.path.splitext(file)
-    filename: str = _filename[: -len(ext)]
+    _filename, ext = os.path.splitext(file)
+    filepath, filename = os.path.split(_filename)
 
     return filepath, filename, ext
