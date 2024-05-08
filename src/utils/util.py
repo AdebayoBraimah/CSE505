@@ -26,7 +26,7 @@ from typing import Tuple
 #       main()
 #
 class DependencyError(Exception):
-    """Exception intended for unmet dependencies"""
+    """Exception intended for unmet external dependencies"""
 
     pass
 
