@@ -729,6 +729,7 @@ def parse_requirements(
         # Filter out empty lists
         return [course for course in courses if course]
 
+    # TODO: Remove prerequisite if it contains 'MAP'
     prerequisites = extract_courses(prereq_match.group(1) if prereq_match else "")
     anti_requisites = extract_courses(antireq_match.group(1) if antireq_match else "")
     corequisites = extract_courses(coreq_match.group(1) if coreq_match else "")
