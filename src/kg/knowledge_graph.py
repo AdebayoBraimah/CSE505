@@ -248,7 +248,7 @@ def scrape_sbu_solar(
         ...        verbose=True,)
 
     Args:
-        url: Input Stony Brook URL (or ``KnowledgeBase`` object) to scrape.
+        url: Input Stony Brook URL (or :class:`KnowledgeBase` object) to scrape.
         major_three_letter_code: Three letter code for the major (e.g. CSE for computer science).
         wait_time: Maximum wait time (in seconds) for each click operation. Defaults to 10.
         headless: Do not open brower. Defaults to True.
@@ -896,7 +896,7 @@ def get_sbu_cse_course_offered_info(undergrad_url: str, grad_url: str) -> pd.Dat
 
     WARNING:
         - The URLs used in ``Usage example`` were (accessed and) current as of May 03 2024.
-        - The tables located at each URL contain information: Spring 2023, Fall 2023, Spring 2024, and Fall 2024 -- this will need to updated in this function in the future.
+        - The tables located at each URL contain information: Spring 2023, Fall 2023, Spring 2024, and Fall 2024 -- this will need to be updated in this function in the future.
 
     Usage example:
         >>> undergrad_url = "https://www.cs.stonybrook.edu/students/Undergraduate-Studies/csecourses"
