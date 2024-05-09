@@ -11,6 +11,10 @@ TODO:
 - Add tests (PyTest)
 - Need to be able to run demo from my own installation and quickstart instructions.
 - Update documentation
+- Use semester restriction to reduce combinatorial explosion (Ie CSE 101 can only be in semester 1 along with other beginner classes)
+- Need to contact POC about security access — SSFP
+- Add self evaluation results to repo with corresponding commands
+- Make query Clingo take multiple files
 
 # Installation
 
