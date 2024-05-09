@@ -9,8 +9,6 @@
     query_clingo
     process_honors_courses
     process_repeatable_courses
-    _extract_credits
-    _check_repeatable_input
 """
 
 import re
