@@ -17,8 +17,6 @@ from src.utils.util import DependencyError, check_dependencies, file_parts
 
 def test_dependency_error():
     """Test the DependencyError class."""
-    from src.utils.util import DependencyError
-
     with pytest.raises(DependencyError):
         raise DependencyError
 
