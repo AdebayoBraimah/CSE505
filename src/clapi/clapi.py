@@ -11,6 +11,7 @@
     process_repeatable_courses
 """
 
+import os
 import re
 import json
 import sys
@@ -259,6 +260,7 @@ def query_clingo(
     num_models: int = None,
     configuration: str = "handy",
     parallel_mode: int = None,
+    query: Union[str, Tuple[str]] = None,
 ) -> str:
     """Queries a Clingo knowledge base/graph file using a given query.
 
@@ -274,11 +276,13 @@ def query_clingo(
         num_models: Number of models to generate. Defaults to None.
         configuration: Clingo configuration. Defaults to "handy".
         parallel_mode: Parallel mode, maximum number of threads. Defaults to None.
+        query: Filepaths to query files (.lp files), to be passed to Clingo. Defaults to None.
 
     Returns:
         Query results.
 
     Raises:
+        ValueError: If the query is not a string or a tuple of strings.
         ClingoSatistfiablityError: If the query returns ``UNSATISFIABLE``.
         ClingoSyntaxError: If there is a parsing/syntax error in the Clingo file.
         DependencyError: If Clingo is not installed or added to the system path variable.
@@ -299,6 +303,22 @@ def query_clingo(
     else:
         kg: Union[KnowledgeBase, KnowledgeGraph] = None
 
+    # Check if the query is a tuple
+    if isinstance(query, str):
+        query: Tuple[str] = (query,)
+    elif query is None:
+        query: Tuple = ()
+    elif isinstance(query, tuple):
+        pass
+    else:
+        raise ValueError("Query must be a string or a tuple of strings.")
+
+    # Get the query absolute filepaths
+    query: Tuple[str] = (os.path.abspath(q) for q in query)
+
+    # Unpack the tuple
+    query: str = " ".join(query)
+
     # Set configuration options
     if verbose:
         cmd_opt: str = "-V"
@@ -316,7 +336,7 @@ def query_clingo(
 
     # Start Clingo session
     proc = subprocess.Popen(
-        shlex.split(s=f"clingo {cmd_opt} {knowledge}"), stdout=subprocess.PIPE
+        shlex.split(s=f"clingo {cmd_opt} {knowledge} {query}"), stdout=subprocess.PIPE
     )
 
     output = proc.stdout.read().decode("utf-8")
