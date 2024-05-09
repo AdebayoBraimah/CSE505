@@ -52,5 +52,4 @@ Testing
 -------
 
 
-Unit and integration tests are currently run with ``github workflows``, ``pytest`` and
-``coverage`` (**However, this is not yet implemented**).
+Unit and integration tests are currently implemented with ``pytest``.
