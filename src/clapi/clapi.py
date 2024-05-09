@@ -25,6 +25,18 @@ from src.kg.knowledge_graph import KnowledgeBase, KnowledgeGraph
 from src.utils.util import DependencyError, check_dependencies
 
 
+class ClingoSatistfiablityError(Exception):
+    """Exception raised when Clingo returns UNSATISFIABLE."""
+
+    pass
+
+
+class ClingoSyntaxError(Exception):
+    """Exception raised when there is a parsing/syntax error in the Clingo file."""
+
+    pass
+
+
 # TODO: Clingo -- Remove semester offering information, and see if that helps.
 def process_course_data_clingo(
     json_file: Union[KnowledgeBase, KnowledgeGraph, str],
@@ -243,9 +255,12 @@ def append_rules(file_list: List[str], output_file: str) -> str:
         print(f"An error occurred: {e}")
 
 
-# TODO: raise satistfiable error if clingo returns UNSATISFIABLE
 def query_clingo(
-    knowledge: Union[KnowledgeBase, KnowledgeGraph, str], verbose: bool = False
+    knowledge: Union[KnowledgeBase, KnowledgeGraph, str],
+    verbose: bool = False,
+    num_models: int = None,
+    configuration: str = "handy",
+    parallel_mode: int = None,
 ) -> str:
     """Queries a Clingo knowledge base/graph file using a given query.
 
@@ -258,9 +273,16 @@ def query_clingo(
     Args:
         knowledge: Input Clingo knowledge base/graph file (or :py:class:`~src.kg.knowledge_graph.KnowledgeBase` or :py:class:`~src.kg.knowledge_graph.KnowledgeGraph` object) to be queried.
         verbose: Prints verbose output if set to ``True``. Defaults to ``False``.
+        num_models: Number of models to generate. Defaults to None.
+        configuration: Clingo configuration. Defaults to "handy".
+        parallel_mode: Parallel mode, maximum number of threads. Defaults to None.
 
     Returns:
         Query results.
+
+    Raises:
+        ClingoSatistfiablityError: If the query returns ``UNSATISFIABLE``.
+        ClingoSyntaxError: If there is a parsing/syntax error in the Clingo file.
     """
     # Check if Clingo is installed
     try:
@@ -269,11 +291,29 @@ def query_clingo(
         print(f"Error: {e}")
         sys.exit(1)
 
-    # Set verbose option if specified
+    # Check if the input is a KnowledgeBase or KnowledgeGraph object
+    if (isinstance(knowledge, KnowledgeBase)) or (
+        isinstance(knowledge, KnowledgeGraph)
+    ):
+        kg: Union[KnowledgeBase, KnowledgeGraph] = knowledge
+        knowledge: str = kg.lp
+    else:
+        kg: Union[KnowledgeBase, KnowledgeGraph] = None
+
+    # Set configuration options
     if verbose:
         cmd_opt: str = "-V"
     else:
         cmd_opt: str = ""
+
+    if num_models is not None:
+        cmd_opt += f"-n {num_models}"
+
+    if parallel_mode is not None:
+        cmd_opt += f"--parallel-mode {parallel_mode}"
+
+    if configuration is not None:
+        cmd_opt += f"--configuration={configuration}"
 
     # Start Clingo session
     proc = subprocess.Popen(
@@ -281,6 +321,12 @@ def query_clingo(
     )
 
     output = proc.stdout.read().decode("utf-8")
+
+    # Check if the output contains 'UNSATISFIABLE'
+    if "UNSATISFIABLE" in output:
+        raise ClingoSatistfiablityError("The query returned UNSATISFIABLE.")
+    elif "ERROR" in output:
+        raise ClingoSyntaxError("There was a parsing/syntax error in the Clingo file.")
 
     return output
 
@@ -310,7 +356,7 @@ def process_honors_courses(file_path: str) -> List[str]:
     for course_id, course_details in data.items():
         # Check if 'honors' is in the description
         if ("honors" in course_details.get("CourseTitle", "").lower()) or (
-            "honors" in course_details.get("Description", "").lower()
+            ("honors" in course_details.get("Description", "").lower())
         ):
             course_list.append(f"honors({course_id.lower()}).")
     return course_list
