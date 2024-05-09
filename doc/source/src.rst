@@ -8,8 +8,10 @@ Subpackages
    :maxdepth: 4
 
    src.clapi
+   src.cli
    src.ergoai
    src.kg
+   src.scheduler
    src.utils
 
 Submodules

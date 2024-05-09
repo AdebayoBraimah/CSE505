@@ -24,7 +24,7 @@ from src.utils.util import DependencyError, check_dependencies
 
 
 class ClingoSatistfiablityError(Exception):
-    """Exception raised when Clingo returns UNSATISFIABLE."""
+    """Exception raised when Clingo returns ``UNSATISFIABLE``."""
 
     pass
 
@@ -281,6 +281,7 @@ def query_clingo(
     Raises:
         ClingoSatistfiablityError: If the query returns ``UNSATISFIABLE``.
         ClingoSyntaxError: If there is a parsing/syntax error in the Clingo file.
+        DependencyError: If Clingo is not installed or added to the system path variable.
     """
     # Check if Clingo is installed
     try:
@@ -394,7 +395,7 @@ def process_repeatable_courses(
 
     Args:
         json_file: Input JSON file containing course data.
-        other_courses: List of tuples of other courses that are repeatable. Each tuple should have exactly 3 elements: course_id, times_repeatable, max_credits. Defaults to None.
+        other_courses: Iterable of tuples of other courses that are repeatable. Each tuple should have exactly 3 elements: course_id, times_repeatable, max_credits. Defaults to None.
 
     Raises:
         ValueError: If each course tuple does not have exactly 3 elements, or if any of the 2nd or 3rd elements of the tuple do not contain an integer or the string "_".

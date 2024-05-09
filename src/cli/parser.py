@@ -1,4 +1,9 @@
 """Command line interface (CLI) argument parser module for this project.
+
+.. autosummary::
+    :nosignatures:
+
+    arg_parser
 """
 
 import os

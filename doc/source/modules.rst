@@ -1,5 +1,5 @@
-src
-===
+API Documentation
+==================
 
 .. figure:: uml/packages_src.png
 
