@@ -274,7 +274,7 @@ def query_clingo(
         knowledge: Input Clingo knowledge base/graph file (or :py:class:`~src.kg.knowledge_graph.KnowledgeBase` or :py:class:`~src.kg.knowledge_graph.KnowledgeGraph` object) to be queried.
         verbose: Prints verbose output if set to ``True``. Defaults to ``False``.
         num_models: Number of models to generate. Defaults to None.
-        configuration: Clingo configuration. Defaults to "handy".
+        configuration: Clingo configuration. Defaults to ``"handy"``.
         parallel_mode: Parallel mode, maximum number of threads. Defaults to None.
         query: Filepaths to query files (.lp files), to be passed to Clingo. Defaults to None.
 

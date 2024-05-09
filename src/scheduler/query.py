@@ -38,10 +38,10 @@ def query(
 
     Args:
         knowledge: Input knowledge base/graph file (or :py:class:`~src.kg.knowledge_graph.KnowledgeBase` or :py:class:`~src.kg.knowledge_graph.KnowledgeGraph` object) to be queried.
-        method: Method to use for querying the knowledge base. Options are "clingo" or "ergoai". Defaults to "clingo".
+        method: Method to use for querying the knowledge base. Options are ``"clingo"`` or ``"ergoai"``. Defaults to ``"clingo"``.
         verbose: Print output to screen. Defaults to False.
         num_models: Number of models to generate for Clingo queries. Defaults to None.
-        configuration: Configuration for Clingo queries. Options are "handy" or "competition". Defaults to "handy".
+        configuration: Configuration for Clingo queries. Options are ``"handy"`` or ``"competition"``. Defaults to ``"handy"``.
         parallel_mode: Parallel mode, maximum number of threads. Defaults to None.
         query: Query or query file paths to be passed to Clingo or ErgoAI. Clingo can take multiple input files as a tuple of strings. ErgoAI can only take string inputs. Input must be a string or a tuple of strings. Defaults to None.
 
