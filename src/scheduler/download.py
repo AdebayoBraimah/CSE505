@@ -11,6 +11,7 @@ from typing import Optional, Union
 from src.kg.knowledge_graph import KnowledgeBase, KnowledgeGraph, scrape_sbu_solar
 
 
+# TODO: Add support for multiple downloads at once
 def procure_course_data(
     url: Union[str, KnowledgeBase],
     major: str,
@@ -36,7 +37,7 @@ def procure_course_data(
         url: URL of Stony Brook University course catalog as string or :py:class:`~src.kg.knowledge_graph.KnowledgeBase` object.
         major: Major, represented as a three-letter code (e.g. "CSE").
         output: Output filename for the JSON file. Defaults to None.
-        headless:Do not open brower. Defaults to True.
+        headless: Do not open brower. Defaults to True.
         verbose: Print output to screen. Defaults to False.
         wait_time: Maximum wait time (in seconds) for each click operation. Defaults to 10.
 

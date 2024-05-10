@@ -52,8 +52,14 @@ def json_to_ergo(
         - If a JSON file needs to be converted to an ERGO file, this function MUST be called first before calling :func:`query_ergoai`.
         - If a :py:class:`~src.kg.knowledge_graph.KnowledgeBase` or :py:class:`~src.kg.knowledge_graph.KnowledgeGraph` object is passed, then the object is updated with the ERGO file path.
 
-    WARNING:
-        - This function can only be once per session. If you need to convert multiple JSON files to ERGO files, you must start a new session each time, otherwise the current session will crash.
+    DANGER:
+        - This function can only be called/used once per python session. If you need to convert multiple JSON files to ERGO files, you must start a new session each time, otherwise subsequent calls to :func:`json_to_ergo` will cause the current python session to crash.
+
+    Usage example:
+        >>> from src.ergoai.ergoai import json_to_ergo
+        >>> ergo_file = json_to_ergo(json_file="cse_courses.json")
+        >>> print(ergo_file)
+        cse_courses.ergo
 
     Args:
         json_file: Input JSON file (:py:class:`~src.kg.knowledge_graph.KnowledgeBase` or :py:class:`~src.kg.knowledge_graph.KnowledgeGraph` object) to be converted to ERGO file.
