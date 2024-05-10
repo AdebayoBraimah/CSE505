@@ -7,6 +7,9 @@ To get started, perform the following:
 
     mkdir cse_courses
 
+Construct knowledge graph
+---------------------------
+
 Now run the following command:
 
 .. code-block:: bash
@@ -19,6 +22,9 @@ Now run the following command:
 
 Once completed, the file ``cse_courses/cse_courses.json`` will contain the course information of all CSE courses.
 
+Convert knowledge graph to knowledge base
+--------------------------------------------------
+
 Next, converting the JSON file (knowledge graph) to a clingo knowledge base of atoms and predicates can be performed by running the following command:
 
 .. code-block:: bash
@@ -26,6 +32,9 @@ Next, converting the JSON file (knowledge graph) to a clingo knowledge base of a
     ./src/schedule.py convert -json-file=cse_courses.json --clingo
 
 This will create the file ``cse_courses/cse_courses.lp``.
+
+Query knowledge base
+---------------------
 
 Finally, to generate a schedule, run the following command:
 
