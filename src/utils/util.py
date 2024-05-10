@@ -42,15 +42,9 @@ def timeit(func: callable) -> callable:
         ...     print("Hello, World!")
         ...
         >>> main()
-        --------------------------------------------
         Begin: main
-        --------------------------------------------
-
         Hello, World!
-
-        --------------------------------------------
         End: main Execution time: 0.00 sec.
-        --------------------------------------------
 
     Args:
         func: Function to be timed.
