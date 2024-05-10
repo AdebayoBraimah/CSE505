@@ -7,10 +7,10 @@ Stony Brook CSE505 project repository
 NOTE: README.md doc is formatted for viewing on GitHub: https://github.com/AdebayoBraimah/CSE505
 
 TODO:
-- Make CLI with separate options for: knowledge graph creation, and querying
+- Update Report
 - Add tests (PyTest)
-- Need to be able to run demo from my own installation and quickstart instructions.
 - Update documentation
+- Make system work for just 1 semester
 - Use semester restriction to reduce combinatorial explosion (Ie CSE 101 can only be in semester 1 along with other beginner classes)
 - Add self evaluation results to repo with corresponding commands
 
