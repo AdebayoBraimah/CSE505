@@ -89,7 +89,7 @@ def arg_parser() -> argparse.ArgumentParser:
         metavar="<URL>",
         dest="url",
         default=None,
-        help="REQUIRED: Stony brook Univiersity (SBU) course catalogue (knowledge base) URL.",
+        help="OPTIONAL: Stony brook Univiersity (SBU) course catalogue (knowledge base) URL. If not provided, then the default URL is used.",
     )
 
     graphoptions.add_argument(

@@ -41,11 +41,16 @@ def main() -> None:
     else:
         args: Dict[str, Any] = vars(args)
 
+    # Define constants
+    _COURSE_CATALOG_URL: str = (
+        "https://prod.ps.stonybrook.edu/psc/csprodg/EMPLOYEE/CAMP/c/COMMUNITY_ACCESS.SSS_BROWSE_CATLG.GBL?"
+    )
+
     # Get variable names
     method: str = args.get("method")
 
     # Download
-    url: str = args.get("url")
+    url: str = args.get("url", _COURSE_CATALOG_URL)
     major: str = args.get("major")
     output: str = args.get("output")  # appears in download and convert
     wait_time: int = args.get("wait_time")
