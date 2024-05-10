@@ -1,186 +1,113 @@
+#!/usr/bin/env python3
 """Stony Brook University course scheduling module.
 
-At the moment, this module only supports CSE majors.
-
-WARNING:
-    - This module is still a work in progress.
+At the moment, this module mainly supports CSE majors.
 
 .. autosummary::
     :nosignatures:
 
-    create_schedule
-    create_schedule_ergo
-    create_schedule_clingo
+    main
 """
-
 import os
-from typing import Union
+import sys
 
-from src import RESROURCEDIR
-from src.kg.knowledge_graph import KnowledgeBase, KnowledgeGraph, scrape_sbu_solar
-from src.ergoai.ergoai import json_to_ergo, query_ergoai
-from src.clapi.clapi import process_course_data_clingo, append_rules, query_clingo
+from typing import Any, Dict, Iterable
+
+# Add project root to the Python path
+_PKG_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+sys.path.append(_PKG_PATH)
+
+# Import project modules
+from src.cli.parser import arg_parser
+from src.scheduler import download, convert, query as qry
 
 
-def create_schedule(
-    courses: Union[str, KnowledgeBase, KnowledgeGraph] = None,
-    major: str = "CSE",
-    query: str = None,
-    method: str = "clingo",
-    verbose: bool = False,
-    lp_file: Union[str, KnowledgeBase, KnowledgeGraph] = None,
-) -> str:
-    """Creates a schedule based on the given courses, major, and query.
-
-    Args:
-        courses: Input knowledge base/graph file or URL of Stony Brook University courses.
-        major: Major, represented as a three-letter code (e.g. "CSE").
-        query: Query string (in the case of ``ERFO``) or file (in the case of ``Clingo``) to be used for scheduling.
-        method: Method to be used for scheduling. Options are "ergo" and "clingo". Defaults to ``clingo``.
-        verbose: If True, then additional information is printed to the console. Defaults to False.
-        lp_file: Input ``clingo`` knowledge base/graph file of Stony Brook University courses. If provided, then the ``courses``, ``major``, and ``query`` arguments are ignored.
+def main() -> None:
+    """Main function for the course scheduling module.
 
     Raises:
-        ValueError: Arises when an invalid argument for ``method`` is provided.
+        ValueError: Arises if method is not ``download``, ``convert``, or ``query``.
 
     Returns:
-        Schedule results.
+        None
     """
-    if method.lower() == "ergo":
-        results: str = create_schedule_ergo(courses=courses, major=major, query=query)
-    elif method.lower() == "clingo":
-        results: str = create_schedule_clingo(
-            courses=courses,
+    parser = arg_parser()
+    args = parser.parse_args()
+
+    # Print help message in the case of no arguments
+    if len(sys.argv) == 1:
+        parser.print_help(sys.stderr)
+        sys.exit(1)
+    else:
+        args: Dict[str, Any] = vars(args)
+
+    # Get variable names
+    method: str = args.get("method")
+
+    # Download
+    url: str = args.get("url")
+    major: str = args.get("major")
+    output: str = args.get("output")  # appears in download and convert
+    wait_time: int = args.get("wait_time")
+    headless: bool = args.get("headless")
+    verbose: bool = args.get("verbose")
+
+    # Convert
+    json_file: str = args.get("json_file")
+    clingo: bool = args.get("clingo")  # appears in convert and query
+    ergoai: bool = args.get("ergoai")  # appears in convert and query
+
+    # Query
+    knowledge: str = args.get("knowledge")
+    num_models: int = args.get("num_models")
+    config: str = args.get("configuration")
+    parallel_mode: int = args.get("parallel_mode")
+    query: Iterable[str] = args.get("query")
+
+    # Perform actions
+    if method == "download":
+        download.procure_course_data(
+            url=url,
             major=major,
-            query_file=query,
+            output=output,
+            headless=headless,
             verbose=verbose,
-            lp_file=lp_file,
+            wait_time=wait_time,
         )
-    else:
-        raise ValueError(f"Invalid method: {method}")
-    return results
-
-
-def create_schedule_ergo(
-    courses: Union[str, KnowledgeBase, KnowledgeGraph], major: str, query: str
-) -> str:
-    """Creates a schedule based on the given courses, major, and query using ErgoAI.
-
-    Args:
-        courses: Input knowledge base/graph file or URL of Stony Brook University courses.
-        major: Major, represented as a three-letter code (e.g. "CSE").
-        query: Query string to be used for scheduling.
-
-    Raises:
-        ValueError: Arises when an invalid argument for ``courses`` or ``major`` is provided.
-
-    Returns:
-        Schedule results.
-    """
-    if isinstance(courses, str):
-        if (courses.beginwith("http")) and major:
-            kg: KnowledgeGraph = scrape_sbu_solar(
-                url=courses,
-                major_three_letter_code=major,
-                output_filename=os.path.join(
-                    RESROURCEDIR, f"{major.lower()}.courses.json"
-                ),
+    elif method == "convert":
+        if clingo:
+            convert.convert_course_data(
+                json_file=json_file,
+                output_file=output,
+                method="clingo",
             )
-        elif courses.endswith(".json"):
-            kg: KnowledgeGraph = KnowledgeGraph(json=courses)
-        elif courses.endswith(".ergo"):
-            kg: KnowledgeGraph = KnowledgeGraph(ergo=courses)
-        else:
-            raise ValueError(f"Invalid input file: {courses}")
-    elif isinstance(courses, KnowledgeBase) or isinstance(courses, KnowledgeGraph):
-        kg: Union[KnowledgeBase, KnowledgeGraph] = courses
-    else:
-        raise ValueError(f"Invalid input type: {type(courses)}")
-
-    if (
-        (courses.endswith(".json"))
-        or (courses.beginwith("http"))
-        or (kg.json)
-        or (not kg.ergo)
-    ):
-        _: str = json_to_ergo(
-            json_file=kg,
-            output_file=os.path.join(RESROURCEDIR, f"{major.lower()}.courses.ergo"),
-        )
-
-    results: str = query_ergoai(kg=kg, query=query)
-
-    return results
-
-
-def create_schedule_clingo(
-    courses: Union[str, KnowledgeBase, KnowledgeGraph] = None,
-    major: str = "CSE",
-    query_file: str = None,
-    verbose: bool = False,
-    lp_file: Union[str, KnowledgeBase, KnowledgeGraph] = None,
-) -> str:
-    """Creates a schedule based on the given courses, major, and query using Clingo.
-
-    Args:
-        courses: Input knowledge base/graph file or URL of Stony Brook University courses.
-        major: Major, represented as a three-letter code (e.g. "CSE").
-        query_file: Query file to be used for scheduling.
-        verbose: If True, then additional information is printed to the console. Defaults to False.
-        lp_file: Input knowledge base/graph file of Stony Brook University courses. If provided, then the ``courses``, ``major``, and ``query_file`` arguments are ignored.
-
-    Raises:
-        ValueError: Arises when an invalid argument for ``courses`` or ``major`` is provided.
-
-    Returns:
-        Schedule results.
-    """
-    if lp_file:
-        if isinstance(lp_file, str):
-            if lp_file.endswith(".lp"):
-                kg: KnowledgeGraph = KnowledgeGraph(lp=lp_file)
-            else:
-                raise ValueError(f"Invalid input file: {lp_file}")
-        elif isinstance(lp_file, KnowledgeBase) or isinstance(lp_file, KnowledgeGraph):
-            kg: Union[KnowledgeBase, KnowledgeGraph] = lp_file
-        else:
-            raise ValueError(f"Invalid input type: {type(lp_file)}")
-    elif isinstance(courses, str):
-        if (courses.beginwith("http")) and major:
-            kg: KnowledgeGraph = scrape_sbu_solar(
-                url=courses,
-                major_three_letter_code=major,
-                output_filename=os.path.join(
-                    RESROURCEDIR, f"{major.lower()}.courses.json"
-                ),
+        if ergoai:
+            convert.convert_course_data(
+                json_file=json_file,
+                output_file=output,
+                method="ergoai",
             )
-        elif courses.endswith(".json"):
-            kg: KnowledgeGraph = KnowledgeGraph(json=courses)
-        elif courses.endswith(".lp"):
-            kg: KnowledgeGraph = KnowledgeGraph(lp=courses)
-        else:
-            raise ValueError(f"Invalid input file: {courses}")
-    elif isinstance(courses, KnowledgeBase) or isinstance(courses, KnowledgeGraph):
-        kg: Union[KnowledgeBase, KnowledgeGraph] = courses
+    elif method == "query":
+        if clingo:
+            qry.query(
+                knowledge=knowledge,
+                method="clingo",
+                verbose=verbose,
+                num_models=num_models,
+                configuration=config,
+                parallel_mode=parallel_mode,
+                query=query,
+            )
+        elif ergoai:
+            qry.query(
+                knowledge=knowledge,
+                method="ergoai",
+                query=query,
+            )
     else:
-        raise ValueError(f"Invalid input type: {type(courses)}")
+        raise ValueError(f"Method '{method}' is not supported.")
+    return None
 
-    if courses is not None:
-        if (
-            (courses.endswith(".json"))
-            or (courses.beginwith("http"))
-            or (kg.json)
-            or (not kg.lp)
-        ):
-            _: str = process_course_data_clingo(file_path=kg, file_name=None)
 
-    if lp_file:
-        results: str = query_clingo(knowledge=kg.lp, verbose=verbose)
-    else:
-        output: str = append_rules(
-            kg=[kg.lp, query_file],
-            output_file=os.path.join(RESROURCEDIR, f"{major.lower()}.schedule.lp"),
-        )
-        results: str = query_clingo(knowledge=output, verbose=verbose)
-
-    return results
+if __name__ == "__main__":
+    main()

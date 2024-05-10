@@ -14,6 +14,38 @@ from src.ergoai.ergoai import json_to_ergo
 from src.kg.knowledge_graph import KnowledgeGraph, KnowledgeBase
 
 
+def convert_course_data(
+    json_file: Union[KnowledgeBase, KnowledgeGraph, str],
+    output_file: str = None,
+    repeatable_courses: List[Tuple[str, str, str]] = None,
+    method="clingo",
+) -> str:
+    """Converts a JSON file to a logic language file (``Clingo`` or ``ErgoAI``).
+
+    Args:
+        json_file: Input JSON file (:py:class:`~src.kg.knowledge_graph.KnowledgeBase` or :py:class:`~src.kg.knowledge_graph.KnowledgeGraph` object) to be converted to a logic language file.
+        output_file: Output filename. If not specified, then a new file of the same name is created, with a '.lp' or '.ergo' file extension. Defaults to None.
+        repeatable_courses: List of tuples of other courses that are repeatable. Each tuple should have exactly 3 elements: course_id, times_repeatable, max_credits. Defaults to None.
+        method: Method to use for converting/preprocessing data. Input should be either "``clingo``" or "``ergoai``" Defaults to "clingo".
+
+    Raises:
+        ValueError: If the input method is not supported.
+
+    Returns:
+        Output knowledge base file path.
+    """
+    if method == "clingo":
+        return convert_course_data_to_clingo(
+            json_file=json_file,
+            output_file=output_file,
+            repeatable_courses=repeatable_courses,
+        )
+    elif (method == "ergoai") or (method == "ergo"):
+        return convert_course_data_to_ergo(json_file=json_file, output_file=output_file)
+    else:
+        raise ValueError(f"Method '{method}' is not supported.")
+
+
 def convert_course_data_to_clingo(
     json_file: Union[KnowledgeBase, KnowledgeGraph, str],
     output_file: str = None,
