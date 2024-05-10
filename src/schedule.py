@@ -77,7 +77,7 @@ def main() -> None:
             wait_time=wait_time,
         )
     elif method == "convert":
-        if (not json_file) or ((not clingo) or (not ergoai)):
+        if (not json_file) or ((not clingo) and (not ergoai)):
             raise ValueError(
                 "JSON file and conversion method are required for converting course data."
             )
@@ -94,9 +94,9 @@ def main() -> None:
                 method="ergoai",
             )
     elif method == "query":
-        if (not knowledge) or (not query) or ((not clingo) and (not ergoai)):
+        if (not knowledge) or ((not clingo) and (not ergoai)):
             raise ValueError(
-                "Knowledge base, query and execution method are required for querying course data."
+                "Knowledge base and execution method are required for querying course data."
             )
         if clingo:
             qry.query(
