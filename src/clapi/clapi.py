@@ -110,16 +110,20 @@ def process_course_data_clingo(
             # f'course({course_id.lower()}, {credits}, "{career}").'
         )
 
-        # Generate antirequisite rules
-        if course_info.get("Antirequisites") != "NONE":
-            rules.append(f"% Antirequisites for {course_id.upper()}")
-            for antireq_group in course_info.get("Antirequisites"):
-                for antireq in antireq_group:
-                    rules.append(
-                        # f':- course({course_id.lower()}, {credits}, "{career}", {offered_spring1}, {offered_fall1}, {offered_spring2}, {offered_fall2}), \n   course({antireq.lower()}, _, "{career}", _, _, _, _). \n'
-                        f':- course({course_id.lower()}, {credits}, "{career}", {offered_spring}, {offered_fall}), \n   course({antireq.lower()}, _, "{career}", _, _). \n'
-                        # f':- course({course_id.lower()}, {credits}, "{career}"), \n   course({antireq.lower()}, _, "{career}"). \n'
-                    )
+        # NOTE:
+        #   The following code is commented out as this
+        #   causes Unsatistfiability errors in Clingo.
+        #
+        # # Generate antirequisite rules
+        # if course_info.get("Antirequisites") != "NONE":
+        #     rules.append(f"% Antirequisites for {course_id.upper()}")
+        #     for antireq_group in course_info.get("Antirequisites"):
+        #         for antireq in antireq_group:
+        #             rules.append(
+        #                 # f':- course({course_id.lower()}, {credits}, "{career}", {offered_spring1}, {offered_fall1}, {offered_spring2}, {offered_fall2}), \n   course({antireq.lower()}, _, "{career}", _, _, _, _). \n'
+        #                 f':- course({course_id.lower()}, {credits}, "{career}", {offered_spring}, {offered_fall}), \n   course({antireq.lower()}, _, "{career}", _, _). \n'
+        #                 # f':- course({course_id.lower()}, {credits}, "{career}"), \n   course({antireq.lower()}, _, "{career}"). \n'
+        #             )
 
         # Generate prerequisite rules
         if course_info.get("Prerequisites") != "NONE":
@@ -156,7 +160,9 @@ def process_course_data_clingo(
     if honors:
         honors.insert(0, "\n% Honors Courses")
 
-    # TODO: Uncomment this later
+    # TODO: Uncomment this later, unable to correctly
+    #   incoroporate repeatable courses in Clingo.
+    #
     # # Process repeatable courses
     # repeatable: List[str] = process_repeatable_courses(
     #     json_file=json_file, other_courses=repeatable_courses
