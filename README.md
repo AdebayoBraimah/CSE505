@@ -1,4 +1,8 @@
-[![Documentation Status](https://readthedocs.org/projects/cse505/badge/?version=latest)](https://cse505.readthedocs.io/en/latest/?badge=latest)
+[![Documentation Status](https://readthedocs.org/projects/cse505/badge/?version=latest)](https://cse505.readthedocs.io/en/latest/?badge=latest) 
+
+.. image:: https://img.shields.io/badge/code%20style-black-000000.svg
+   :target: https://github.com/psf/black
+   :alt: Code style: Black
       
 
 # CSE505 Course Project
