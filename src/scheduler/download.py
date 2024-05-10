@@ -9,9 +9,10 @@
 import os
 from typing import Optional, Union
 from src.kg.knowledge_graph import KnowledgeBase, KnowledgeGraph, scrape_sbu_solar
+from src.utils.util import timeit
 
 
-# TODO: Add support for multiple downloads at once
+@timeit
 def procure_course_data(
     url: Union[str, KnowledgeBase],
     major: str,

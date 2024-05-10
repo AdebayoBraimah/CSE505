@@ -13,6 +13,7 @@ from typing import Any, Optional, Union
 
 from src import ERGOROOT, XSBARCHDIR
 from src.utils import util
+from src.utils.util import timeit
 from src.kg.knowledge_graph import KnowledgeBase, KnowledgeGraph
 
 from pyergo import (
@@ -42,6 +43,7 @@ from pyergo import (
 )
 
 
+@timeit
 def json_to_ergo(
     json_file: Union[KnowledgeBase, KnowledgeGraph, str],
     output_file: Optional[str] = None,
@@ -98,6 +100,7 @@ def json_to_ergo(
     return output_file
 
 
+@timeit
 def query_ergoai(
     knowledge: Union[KnowledgeBase, KnowledgeGraph], query: str
 ) -> Union[str, Any]:

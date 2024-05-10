@@ -36,6 +36,7 @@ from typing import Any, Optional, List, Tuple, Union
 from warnings import warn
 
 from src.utils import util
+from src.utils.util import timeit
 
 
 class KnowledgeBaseError(Exception):
@@ -221,6 +222,7 @@ class KnowledgeBase:
                 raise FileNotFoundError(f"File not found: {file}")
 
 
+@timeit
 def scrape_sbu_solar(
     url: Union[KnowledgeBase, str],
     major_three_letter_code: str,

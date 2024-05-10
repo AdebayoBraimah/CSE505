@@ -11,8 +11,10 @@ from typing import Tuple, Union
 from src.clapi.clapi import query_clingo
 from src.ergoai.ergoai import query_ergoai
 from src.kg.knowledge_graph import KnowledgeBase, KnowledgeGraph
+from src.utils.util import timeit
 
 
+@timeit
 def query(
     knowledge: Union[KnowledgeBase, KnowledgeGraph, str],
     method: str = "clingo",

@@ -12,8 +12,10 @@ from typing import List, Optional, Union, Tuple
 from src.clapi.clapi import process_course_data_clingo
 from src.ergoai.ergoai import json_to_ergo
 from src.kg.knowledge_graph import KnowledgeGraph, KnowledgeBase
+from src.utils.util import timeit
 
 
+@timeit
 def convert_course_data(
     json_file: Union[KnowledgeBase, KnowledgeGraph, str],
     output_file: str = None,
@@ -46,6 +48,7 @@ def convert_course_data(
         raise ValueError(f"Method '{method}' is not supported.")
 
 
+@timeit
 def convert_course_data_to_clingo(
     json_file: Union[KnowledgeBase, KnowledgeGraph, str],
     output_file: str = None,
@@ -75,6 +78,7 @@ def convert_course_data_to_clingo(
     return clingo_file
 
 
+@timeit
 def convert_course_data_to_ergo(
     json_file: Union[KnowledgeBase, KnowledgeGraph, str],
     output_file: Optional[str] = None,

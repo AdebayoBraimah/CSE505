@@ -17,6 +17,7 @@ from typing import Tuple
 
 
 # TODO:
+#   Add logging as a utility function
 #   Add multiprocessing as a utility function
 #   Add profiling as a utility function
 #

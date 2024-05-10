@@ -21,7 +21,7 @@ import subprocess
 from typing import Any, Dict, Iterable, List, Union, Tuple
 
 from src.kg.knowledge_graph import KnowledgeBase, KnowledgeGraph
-from src.utils.util import DependencyError, check_dependencies
+from src.utils.util import DependencyError, check_dependencies, timeit
 
 
 class ClingoSatistfiablityError(Exception):
@@ -36,7 +36,7 @@ class ClingoSyntaxError(Exception):
     pass
 
 
-# TODO: Clingo -- Remove semester offering information, and see if that helps.
+@timeit
 def process_course_data_clingo(
     json_file: Union[KnowledgeBase, KnowledgeGraph, str],
     output_file: str = None,
@@ -260,6 +260,7 @@ def append_rules(file_list: List[str], output_file: str) -> str:
         print(f"An error occurred: {e}")
 
 
+@timeit
 def query_clingo(
     knowledge: Union[KnowledgeBase, KnowledgeGraph, str],
     verbose: bool = False,
