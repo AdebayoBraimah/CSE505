@@ -6,3 +6,4 @@ sphinx-autodoc-napoleon-typehints
 sphinx-argparse
 rst.linker
 sphinx-autopackagesummary
+sphinx-copybutton

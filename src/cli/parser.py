@@ -1,9 +1,4 @@
 """Command line interface (CLI) argument parser module for this project.
-
-.. autosummary::
-    :nosignatures:
-
-    arg_parser
 """
 
 import argparse
@@ -104,7 +99,7 @@ def arg_parser() -> argparse.ArgumentParser:
         metavar="<URL>",
         dest="url",
         default=_COURSE_CATALOG_URL,
-        help="OPTIONAL: Stony brook Univiersity (SBU) course catalogue (knowledge base) URL. If not provided, then the default URL is used.",
+        help="OPTIONAL: Stony brook Univiersity (SBU) course catalog (knowledge base) URL. If not provided, then the default URL is used.",
     )
 
     graphoptions.add_argument(

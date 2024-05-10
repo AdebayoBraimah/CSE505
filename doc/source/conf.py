@@ -20,6 +20,7 @@ import datetime
 
 from typing import Dict, List
 
+# sys.setrecursionlimit(10000)
 _pkg_path: str = str(pathlib.Path(os.path.abspath(__file__)).parents[2])
 
 ##################################################
@@ -77,7 +78,7 @@ release: str = f"{__version__}"
 extensions: List[str] = [
     "sphinx.ext.autodoc",
     "sphinx.ext.napoleon",
-    "sphinxarg.ext",
+    # "sphinxarg.ext",
     "sphinx_autodoc_typehints",
     "rst.linker",
     "sphinx.ext.intersphinx",
@@ -85,6 +86,8 @@ extensions: List[str] = [
     "sphinx.ext.autosummary",
     "sphinx_autopackagesummary",
     "sphinx.ext.viewcode",
+    # "sphinxcontrib.autoprogram",
+    "sphinx_copybutton",
 ]
 
 autosummary_generate: bool = True
