@@ -26,7 +26,7 @@ def main() -> None:
     """Main function for the course scheduling module.
 
     Raises:
-        ValueError: Arises if method is not ``download``, ``convert``, or ``query``.
+        ValueError: Arises if method is not ``download``, ``convert``, or ``query``, or if required arguments are not provided.
 
     Returns:
         None
@@ -71,6 +71,8 @@ def main() -> None:
 
     # Perform actions
     if method == "download":
+        if (not url) or (not major):
+            raise ValueError("URL and major are required for downloading course data.")
         download.procure_course_data(
             url=url,
             major=major,
@@ -80,6 +82,10 @@ def main() -> None:
             wait_time=wait_time,
         )
     elif method == "convert":
+        if (not json_file) or ((not clingo) or (not ergoai)):
+            raise ValueError(
+                "JSON file and conversion method are required for converting course data."
+            )
         if clingo:
             convert.convert_course_data(
                 json_file=json_file,
@@ -93,6 +99,10 @@ def main() -> None:
                 method="ergoai",
             )
     elif method == "query":
+        if (not knowledge) or (not query) or ((not clingo) and (not ergoai)):
+            raise ValueError(
+                "Knowledge base, query and execution method are required for querying course data."
+            )
         if clingo:
             qry.query(
                 knowledge=knowledge,
