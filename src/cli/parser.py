@@ -83,16 +83,6 @@ def arg_parser() -> argparse.ArgumentParser:
     )
 
     graphoptions.add_argument(
-        "-u",
-        "--url",
-        type=str,
-        metavar="<URL>",
-        dest="url",
-        default=None,
-        help="OPTIONAL: Stony brook Univiersity (SBU) course catalogue (knowledge base) URL. If not provided, then the default URL is used.",
-    )
-
-    graphoptions.add_argument(
         "-m",
         "--major",
         type=str,
@@ -100,6 +90,21 @@ def arg_parser() -> argparse.ArgumentParser:
         dest="major",
         default=None,
         help="REQUIRED: SBU major three letter code (e.g. 'CSE' for computer science).",
+    )
+
+    # Define constants
+    _COURSE_CATALOG_URL: str = (
+        "https://prod.ps.stonybrook.edu/psc/csprodg/EMPLOYEE/CAMP/c/COMMUNITY_ACCESS.SSS_BROWSE_CATLG.GBL?"
+    )
+
+    graphoptions.add_argument(
+        "-u",
+        "--url",
+        type=str,
+        metavar="<URL>",
+        dest="url",
+        default=_COURSE_CATALOG_URL,
+        help="OPTIONAL: Stony brook Univiersity (SBU) course catalogue (knowledge base) URL. If not provided, then the default URL is used.",
     )
 
     graphoptions.add_argument(
