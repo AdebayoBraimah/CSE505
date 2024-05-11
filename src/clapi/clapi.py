@@ -354,6 +354,8 @@ def query_clingo(
     elif "ERROR" in output:
         raise ClingoSyntaxError("There was a parsing/syntax error in the Clingo file.")
 
+    print(output)
+
     return output
 
 
