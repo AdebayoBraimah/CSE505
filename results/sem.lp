@@ -1,6 +1,6 @@
 % Include the courses information and prerequisites
-#include "cse_courses.lp".
-#include "cse_prereqs.lp".
+% #include "cse_courses.lp".
+% #include "cse_prereqs.lp".
 
 % Semester definition
 semester(spring).

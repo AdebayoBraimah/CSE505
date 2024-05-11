@@ -1,15 +1,6 @@
 % Load courses and their properties
 % e.g., course(course_name, course_credits, career, is_offered_spring, is_offered_fall).
 
-% Include the course data from your provided file
-% #include "courses.lp".
-% #include "courses.current.lp".
-
-% NOTE:
-%   - This kind of works.
-%   - Try this for 1 semester.
-%   - Try limiting certain courses to certain semesters. (e.g. CSE101 only in first semester)
-
 % Non-CSE Courses
 
 course(ast203, 4, "Undergraduate", 1, 1).
