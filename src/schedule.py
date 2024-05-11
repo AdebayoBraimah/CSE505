@@ -119,5 +119,6 @@ def main() -> None:
     return None
 
 
+# Call main function
 if __name__ == "__main__":
     main()
