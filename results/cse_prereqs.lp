@@ -10,7 +10,7 @@ course(ams110, 3, "Undergraduate", 1, 1).
 course(ams151, 3, "Undergraduate", 1, 1).
 course(ams161, 3, "Undergraduate", 1, 1).
 course(ams210, 3, "Undergraduate", 1, 1).
-course(ams301, 3, "Undergraduate", 1, 1).
+course(ams301, 3, "Undergraduate", 0, 1).
 course(ams310, 3, "Undergraduate", 1, 1).
 course(ams311, 3, "Undergraduate", 1, 1).
 course(ams412, 3, "Undergraduate", 1, 1).
@@ -45,6 +45,7 @@ course(mat125, 3, "Undergraduate", 1, 1).
 course(mat126, 3, "Undergraduate", 1, 1).
 course(mat127, 3, "Undergraduate", 1, 1).
 course(mat131, 4, "Undergraduate", 1, 1).
+course(mat132, 4, "Undergraduate", 1, 1).
 course(mat200, 3, "Undergraduate", 1, 1).
 course(mat211, 3, "Undergraduate", 1, 1).
 course(mat250, 4, "Undergraduate", 1, 1).
@@ -87,13 +88,6 @@ course(wrt102, 3, "Undergraduate", 1, 1).
 :- course(ams151, 3, "Undergraduate", 1, 1), 
    not course(mat123, _, "Undergraduate", _, _). 
 
-% Prerequisites for AMS310
-:- course(ams310, 3, "Undergraduate", 1, 1), 
-   not course(ams161, _, "Undergraduate", _, _), 
-   not course(mat132, _, "Undergraduate", _, _), 
-   not course(mat127, _, "Undergraduate", _, _), 
-   not course(mat142, _, "Undergraduate", _, _).
-
 % Prerequisites for AMS161
 :- course(ams161, 3, "Undergraduate", 1, 1), 
    not course(ams151, _, "Undergraduate", _, _), 
@@ -105,7 +99,7 @@ course(wrt102, 3, "Undergraduate", 1, 1).
    not course(mat131, _, "Undergraduate", _, _).
 
 % Prerequisites for AMS301
-:- course(ams301, 3, "Undergraduate", 1, 1), 
+:- course(ams301, 3, "Undergraduate", 0, 1), 
    not course(ams210, _, "Undergraduate", _, _), 
    not course(mat211, _, "Undergraduate", _, _), 
    not course(ams361, _, "Undergraduate", _, _), 
@@ -115,8 +109,7 @@ course(wrt102, 3, "Undergraduate", 1, 1).
 :- course(ams310, 3, "Undergraduate", 1, 1), 
    not course(ams161, _, "Undergraduate", _, _), 
    not course(mat132, _, "Undergraduate", _, _), 
-   not course(mat127, _, "Undergraduate", _, _), 
-   not course(mat142, _, "Undergraduate", _, _). 
+   not course(mat127, _, "Undergraduate", _, _).
 
 % Prerequisites for AMS311
 :- course(ams311, 3, "Undergraduate", 1, 1), 

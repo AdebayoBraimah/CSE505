@@ -91,8 +91,8 @@ course(cse510, 3, "Graduate", 1, 1).
 course(cse511, 3, "Graduate", 0, 0).
 course(cse512, 3, "Graduate", 1, 0).
 course(cse514, 3, "Graduate", 0, 1).
-% course(cse515, 3, "Graduate", 0, 0).
-% course(cse516, 1, "Graduate", 0, 0).
+course(cse515, 3, "Graduate", 0, 0).
+course(cse516, 1, "Graduate", 0, 0).
 course(cse517, 1, "Graduate", 1, 1).
 course(cse518, 3, "Graduate", 1, 1).
 course(cse519, 3, "Graduate", 0, 1).

@@ -6,6 +6,9 @@
 %   - Try this for 1 semester.
 %   - Try limiting certain courses to certain semesters. (e.g. CSE101 only in first semester)
 
+% #include "cse_courses.manual.lp".
+% #include "cse_prereqs.lp".
+
 % 1.
 % Required intro courses
 required_intro_course(cse220).
@@ -142,7 +145,7 @@ req_nat_sci_lect(X) :- course(X, _, _, _, _),
    X = phy251; 
    X = phy252.
 
-1 { req_nat_sci_lect(ast203);
+2 { req_nat_sci_lect(ast203);
     req_nat_sci_lect(ast205);
     req_nat_sci_lect(che132);
     req_nat_sci_lect(che321);
@@ -160,15 +163,16 @@ req_nat_sci_lect(X) :- course(X, _, _, _, _),
     req_nat_sci_lect(phy134);
     req_nat_sci_lect(phy142);
     req_nat_sci_lect(phy251);
-    req_nat_sci_lect(phy252) } 1.
+    req_nat_sci_lect(phy252) } 2.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Credit total check HERE >= 9 credits
 nat_lect_lab_selected(X,Y) :- req_nat_sci_lect_lab(X,Y).
 nat_lect_selected(X) :- req_nat_sci_lect(X).
 
+% Cannot get this sum to work
 total_credits_nat_lect_lab(N) :-
-    N = #sum { D,C : nat_lect_lab_selected(X, Y), course(X, C, _, _, _), course(Y, D, _, _, _) }.
+    N = #sum { N2: nat_lect_lab_selected(X, Y), course(X, C, _, _, _), course(Y, D, _, _, _), N2=C+D }.
 
 total_credits_nat_lect(N) :-
     N = #sum { C,X : nat_lect_selected(X), course(X, C, _, _, _) }.
@@ -204,7 +208,7 @@ req_upper_div_writing(X) :- course(X, _, _, _, _), X = cse300.
 
 1 { req_upper_div_writing(cse300) } 1.
 
-% % Graduation requirements
+% Graduation requirements
 
 % Define constants
 #const max_semesters = 12.
@@ -241,8 +245,8 @@ semester(1..max_semesters).
    Sem \ 2 = 0, Spring = 0.
 
 % Count total credits and major credits
-total_credits(Total) :- Total = #sum { Credits, Course : schedule(Course, _), course(Course, Credits, "Undergraduate", _, _) }.
-major_credits(Major) :- Major = #sum { Credits, Course : schedule(Course, _), course(Course, Credits, "Undergraduate", _, _) }.
+total_credits(Total) :- Total = #sum { Credits, Course : schedule(Course, _), course(Course, Credits, _, _, _) }.
+major_credits(Major) :- Major = #sum { Credits, Course : schedule(Course, _), course(Course, Credits, _, _, _) }.
 
 % Graduation requirements
 :- total_credits(Total), Total < 120.
