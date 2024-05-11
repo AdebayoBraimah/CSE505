@@ -67,3 +67,7 @@ The ``query`` subcommand is used to execute queries provided a knowledge base/gr
                                                         multiple input files. ErgoAI can only take
                                                         string inputs. NOTE: Can be specified
                                                         multiple times.
+
+The following flow chart shows the process of querying a knowledge base provided a knowledge graph and a query:
+
+.. figure:: figs/kg_kb_query.png

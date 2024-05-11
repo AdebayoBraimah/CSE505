@@ -55,3 +55,7 @@ The URL, if not specified, defaults to the Stony Brook University course catalog
                                                         each click operation. Defaults to 10.
     --open-browser                                    OPTIONAL: Open browser during course catalog
                                                         scraping.
+
+The following flow chart shows the process constructing a knowledge graph from the knowledge base (course catalog):
+
+.. figure:: figs/kb_to_kg_json.png
