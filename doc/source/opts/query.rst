@@ -53,7 +53,7 @@ The ``query`` subcommand is used to execute queries provided a knowledge base/gr
                                                         can be in the knowlege base file.
     -n <MODEL>, --num-models <MODEL>                     OPTIONAL: Number of models to generate for
                                                         Clingo queries. Defaults to None.
-    -t <THREADS>, --num-threads <THREADS>                OPTIONAL: Maxiumu number of threads to use
+    -t <THREADS>, --num-threads <THREADS>                OPTIONAL: Maxiumum number of threads to use
                                                         while executing Clingo queries. Defaults to
                                                         None.
     --config <STR>                                       OPTIONAL: Configuration for Clingo queries.
