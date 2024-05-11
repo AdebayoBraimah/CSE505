@@ -62,12 +62,14 @@ def timeit(func: callable) -> callable:
         """
         start_time = time.time()
         print("--------------------------------------------")
-        print(f"Begin: {func.__name__}")
+        print(f"Begin: {func.__name__}  |  {time.strftime('%B-%d-%Y %H:%M:%S')}")
         print("--------------------------------------------\n")
         result = func(*args, **kwargs)
         end_time = time.time()
         print("--------------------------------------------")
-        print(f"End: {func.__name__} Execution time: {end_time - start_time:.2f} sec.")
+        print(
+            f"End: {func.__name__} Execution time: {end_time - start_time:.2f} sec.   |  {time.strftime('%B-%d-%Y %H:%M:%S')}"
+        )
         print("--------------------------------------------\n")
         return result
 
