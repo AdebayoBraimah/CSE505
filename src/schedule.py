@@ -11,7 +11,7 @@ At the moment, this module mainly supports CSE majors.
 import os
 import sys
 
-from typing import Any, Dict, Iterable
+from typing import Any, Dict, Iterable, List, Tuple
 
 # Add project root to the Python path
 _PKG_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
@@ -62,7 +62,7 @@ def main() -> None:
     num_models: int = args.get("num_models")
     config: str = args.get("configuration")
     parallel_mode: int = args.get("parallel_mode")
-    query: Iterable[str] = args.get("query")
+    query: Iterable[str] = _flatten_nested_list_to_tuple(args.get("query"))
 
     # Perform actions
     if method == "graph":
@@ -117,6 +117,28 @@ def main() -> None:
     else:
         raise ValueError(f"Method '{method}' is not supported.")
     return None
+
+
+def _flatten_nested_list_to_tuple(nested_list: List[List[str]]) -> Tuple[str]:
+    """Flatten a nested list and convert it to a tuple.
+
+    Args:
+        nested_list: Nested list to be flattened.
+
+    Returns:
+        Flattened tuple.
+    """
+    result: List[str] = []
+
+    def flatten(lst):
+        for item in lst:
+            if isinstance(item, list):
+                flatten(item)
+            else:
+                result.append(item)
+
+    flatten(nested_list)
+    return tuple(result)
 
 
 # Call main function
