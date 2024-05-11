@@ -1,4 +1,4 @@
-% Course predicates
+% Course atoms
 course(ams102, 3, "Undergraduate", 1, 1).
 course(ams103, 3, "Undergraduate", 1, 1).
 course(ams104, 3, "Undergraduate", 1, 1).
@@ -144,13 +144,6 @@ course(ams800, 0, "Graduate", 1, 1).
 
 % Course Rules 
 
-% Antirequisites for AMS102
-:- course(ams102, 3, "Undergraduate", 1, 1), 
-   course(ams110, _, "Undergraduate", _, _). 
-
-:- course(ams102, 3, "Undergraduate", 1, 1), 
-   course(ams310, _, "Undergraduate", _, _). 
-
 % Prerequisites for AMS104
 :- course(ams104, 3, "Undergraduate", 1, 1), 
    not course(mat123, _, "Undergraduate", _, _). 
@@ -160,13 +153,6 @@ course(ams800, 0, "Graduate", 1, 1).
    not course(bus110, _, "Undergraduate", _, _), 
    not course(mat122, _, "Undergraduate", _, _), 
    not course(bus210, _, "Undergraduate", _, _). 
-
-% Antirequisites for AMS110
-:- course(ams110, 3, "Undergraduate", 1, 1), 
-   course(ams102, _, "Undergraduate", _, _). 
-
-:- course(ams110, 3, "Undergraduate", 1, 1), 
-   course(ams310, _, "Undergraduate", _, _). 
 
 % Prerequisites for AMS110
 :- course(ams110, 3, "Undergraduate", 1, 1), 

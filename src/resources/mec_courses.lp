@@ -1,4 +1,4 @@
-% Course predicates
+% Course atoms
 course(mec100, 3, "Undergraduate", 1, 1).
 course(mec101, 3, "Undergraduate", 1, 1).
 course(mec102, 2, "Undergraduate", 1, 1).

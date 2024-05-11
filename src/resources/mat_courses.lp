@@ -1,4 +1,4 @@
-% Course predicates
+% Course atoms
 course(mat118, 3, "Undergraduate", 1, 1).
 course(mat119, 1, "Undergraduate", 1, 1).
 course(mat122, 3, "Undergraduate", 1, 1).

@@ -133,13 +133,13 @@ not be taken by students with credit for AMS 110, 310, 311, 412, EBH 230,  or  E
 \##14['spring' -> 1].
 \##14['fall' -> 1].
 \##1['BIO299' -> \##15].
-\##15['CourseTitle' -> 'Advanced Microbiology for Nursing and Allied Health'].
+\##15['CourseTitle' -> 'Advanced Microbiology for Nursing & Allied Health'].
 \##15['Career' -> 'Undergraduate'].
 \##15['Credits' -> 4].
 \##15['Prerequisites' -> [['BIO202'], ['BIO204']]].
 \##15['Antirequisites' -> 'NONE'].
 \##15['Corequisites' -> 'NONE'].
-\##15['Description' -> 'This course will include lectures, laboratory recitations, and laboratory sessions focused on fundamental clinical Microbiology techniques. The lectures will cover Bacteria, Viruses, Helminths, and medically important Protozoans. In the laboratory, students will learn basic and applied clinical microbiology methods, including microscopy; staining and quantitative analysis of bacteria; analysis of throat and urine cultures; and determination of sensitivity to various antimicrobial agents. Priority for this course will be given to allied health, pre-nursing, and pre-veterinary students. May not be used for credit towards either the Biology major or minor. This course has an associated fee. Please see www.stonybrook.edu/coursefees for more information. Formerly offered as BIO 266; not for credit in addition to BIO 266.'].
+\##15['Description' -> 'This hybrid course will include synchronous online lectures and in-person laboratory sessions focused on fundamental clinical microbiology techniques. The lectures will cover Bacteria, Helminths, and medically important Protozoans. In the laboratory, students will learn basic and applied clinical microbiology methods, including microscopy; staining and quantitative analysis of bacteria; analysis of throat and urine cultures; and determination of bacterial sensitivity to various antimicrobial agents. This course will be limited to allied health, pre-nursing, and pre-veterinary students. This course cannot be used by biology majors for credit towards their biology major requirements. This course has an associated fee. Please see www.stonybrook.edu/coursefees for more information. Formerly offered as BIO 266; not for credit in addition to BIO 266.'].
 \##15['spring' -> 1].
 \##15['fall' -> 1].
 \##1['BIO306' -> \##16].

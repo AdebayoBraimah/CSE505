@@ -1,4 +1,4 @@
-% Course predicates
+% Course atoms
 course(ise102, 3, "Undergraduate", 1, 1).
 course(ise108, 3, "Undergraduate", 1, 1).
 course(ise208, 3, "Undergraduate", 1, 1).
@@ -66,10 +66,6 @@ course(ise507, 3, "Graduate", 1, 1).
    not course(cse230, _, "Undergraduate", _, _), 
    not course(cse260, _, "Undergraduate", _, _), 
    not course(ise208, _, "Undergraduate", _, _). 
-
-% Antirequisites for ISE316
-:- course(ise316, 3, "Undergraduate", 1, 1), 
-   course(cse310, _, "Undergraduate", _, _). 
 
 % Prerequisites for ISE316
 :- course(ise316, 3, "Undergraduate", 1, 1), 

@@ -1,4 +1,4 @@
-% Course predicates
+% Course atoms
 course(cse101, 3, "Undergraduate", 1, 1).
 course(cse102, 3, "Undergraduate", 0, 0).
 course(cse110, 3, "Undergraduate", 1, 1).
@@ -217,13 +217,6 @@ honors(cse495).
 honors(cse496).
 
 % Course Rules 
-
-% Antirequisites for CSE101
-:- course(cse101, 3, "Undergraduate", 1, 1), 
-   course(cse114, _, "Undergraduate", _, _). 
-
-:- course(cse101, 3, "Undergraduate", 1, 1), 
-   course(cse160, _, "Undergraduate", _, _). 
 
 % Prerequisites for CSE102
 :- course(cse102, 3, "Undergraduate", 0, 0), 
