@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+"""Download course data from Stony Brook University's Solar course catalog.
+"""
 
 import os
 import sys
