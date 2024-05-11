@@ -6,14 +6,6 @@ Stony Brook CSE505 project repository
 
 NOTE: README.md doc is formatted for viewing on GitHub: https://github.com/AdebayoBraimah/CSE505
 
-TODO:
-- Update Report
-- Add tests (PyTest)
-- Update documentation
-- Make system work for just 1 semester
-- Use semester restriction to reduce combinatorial explosion (Ie CSE 101 can only be in semester 1 along with other beginner classes)
-- Add self evaluation results to repo with corresponding commands
-
 # Installation
 
 This project runs using python v3.10 via miniconda. The python dependencies can be installed as follows:
@@ -36,7 +28,7 @@ At the moment, the driver program does not use these components.
 To run the test code:
 
 ```bash
-./app.py
+./driver.py
 ```
 
 
@@ -46,7 +38,7 @@ NOTE: you may also need to change permissions on this file to run (in the case o
 In the case of permissions errors, try:         
 
 ```bash
-chmod 755 ./app.py
+chmod 755 ./driver.py
 ```
 </details>           
 
@@ -54,20 +46,48 @@ chmod 755 ./app.py
 The following should print to the screen:
 
 ```bash
-clingo version 5.7.1
-Reading from ...s/CSE505/src/resources/cse.schedule.lp
-Solving...
-UNSATISFIABLE
+--------------------------------------------
+Begin: query_clingo  |  May-11-2024 04:00:08
+--------------------------------------------
 
-Models       : 0
+clingo version 5.7.1
+Reading from ...projects/CSE505/results/cse_courses.lp ...
+Solving...
+Answer: 1
+schedule(che129,spring) schedule(che132,spring) schedule(geo122,spring) schedule(ams110,fall) schedule(ams301,fall) schedule(cse304,fall) schedule(cse506,fall)
+SATISFIABLE
+
+Models       : 1+
 Calls        : 1
-Time         : 5.223s (Solving: 5.22s 1st Model: 0.00s Unsat: 5.22s)
-CPU Time     : 5.220s
+Time         : 0.058s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 0.053s
+
+--------------------------------------------
+End: query_clingo Execution time: 0.07 sec.   |  May-11-2024 04:00:08
+--------------------------------------------
 ```
 
 # Documentation
 
 Documentation for this project is located in the `doc` directory as reStructured Text files. HTML version of this documentation can be found here: https://cse505.readthedocs.io/en/latest/?badge=latest
+
+# Evaluation
+
+Should evaluation need to be performed, then running the following commands would accomplish the this:
+
+```bash
+# 2 sem
+./src/schedule.py query --knowledge=results/cse_courses.lp --query=results/sem.lp --query=results/cse_prereqs.lp --clingo
+
+# 12 sem approach # NOTE: This will not stop running
+./src/schedule.py query --knowledge=results/cse_courses.lp --query=results/cse_bs_grad_reqs.lp --query=results/cse_prereqs.lp --clingo
+
+# eval - 2 sem
+./src/schedule.py query --knowledge=results/eval/cse_courses.eval.lp --query=results/sem.lp --query=results/cse_prereqs.lp --clingo
+
+# eval - 12 sem # NOTE: This will not stop running
+./src/schedule.py query --knowledge=results/eval/cse_bs_grad_reqs.eval.lp --query=results/eval/cse_courses.eval.lp --query=results/cse_prereqs.lp --clingo
+```
 
 # Dev Notes
 
