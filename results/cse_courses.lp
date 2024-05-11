@@ -1,7 +1,7 @@
 % Load courses and their properties
 % e.g., course(course_name, course_credits, career, is_offered_spring, is_offered_fall).
 
-% Course predicates
+% Course atoms
 course(cse101, 3, "Undergraduate", 1, 1).
 % course(cse102, 3, "Undergraduate", 0, 0).
 course(cse110, 3, "Undergraduate", 1, 1).
