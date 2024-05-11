@@ -12,7 +12,7 @@ from src.kg.knowledge_graph import KnowledgeBase, KnowledgeGraph, scrape_sbu_sol
 from src.utils.util import timeit
 
 
-@timeit
+# @timeit
 def procure_course_data(
     url: Union[str, KnowledgeBase],
     major: str,
