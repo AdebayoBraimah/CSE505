@@ -15,6 +15,8 @@ The ``CSE505`` python package is intended for the CSE505 course building/schedul
    installation
    quick
    usage
+   batch
+   overview
    modules
    contributing
 
