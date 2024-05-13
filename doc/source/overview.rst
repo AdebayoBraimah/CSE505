@@ -8,7 +8,7 @@ Reproducing the output of this analysis can be performed as follows:
 
 .. code-block:: bash
 
-    # Clone the repository
+    # Batch download all the necessary course data
     ./src/scripts/download_courses.sh
 
 .. warning::
