@@ -1,10 +1,14 @@
 Batch Downloading Course Data
 ===============================
 
+.. note::
+
+    - The batch downloading shell script has the additional external dependency of `GNU parallel <https://www.gnu.org/software/parallel/>`_. Follow the recommnended installation instructions for your operating system.
+
 In the case of the ``CSE`` major -- there are many courses that are required as either degree requirements or as prerequisites for other courses.  
 It is recommnended to download all possible course prerequisites and requirements. However, doing so is a highly time consuming process.
 The batch scripts located in ``src/scripts`` can be used to download all of the course data for a given major. 
-However, the wrapper script ``src/scripts/download_courses.sh`` contains an additional external dependency: `GNU parallel<https://www.gnu.org/software/parallel/>`_.
+However, the wrapper script ``src/scripts/download_courses.sh`` contains an additional external dependency: `GNU parallel <https://www.gnu.org/software/parallel/>`_.
 Once GNU parallel has been installed, the script can be run as follows:
 
 .. code-block:: bash

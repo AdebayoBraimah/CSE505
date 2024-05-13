@@ -1,6 +1,39 @@
 Quickstart
 ============
 
+Driver program
+-----------------
+
+To get started using the driver program, perform the following:
+
+.. code-block:: bash
+
+    ./driver.py
+
+The following should print to the console:
+
+.. code-block:: text
+
+    --------------------------------------------
+    Begin: query_clingo  |  May-10-2024 07:43:41
+    --------------------------------------------
+
+    clingo version 5.7.1
+    Reading from ...projects/CSE505/results/cse_courses.lp ...
+    Solving...
+    Answer: 1
+    schedule(che129,spring) schedule(che132,spring) schedule(geo122,spring) schedule(ams110,fall) schedule(ams301,fall) schedule(cse304,fall) schedule(cse506,fall)
+    SATISFIABLE
+
+    Models       : 1+
+    Calls        : 1
+    Time         : 0.057s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+    CPU Time     : 0.053s
+
+    --------------------------------------------
+    End: query_clingo Execution time: 0.12 sec.   |  May-10-2024 07:43:41
+    --------------------------------------------
+
 To get started, perform the following:
 
 .. code-block:: bash
@@ -29,7 +62,7 @@ Next, converting the JSON file (knowledge graph) to a clingo knowledge base of a
 
 .. code-block:: bash
 
-    ./src/schedule.py convert -json-file=cse_courses.json --clingo
+    ./src/schedule.py convert --json-file=cse_courses.json --clingo
 
 This will create the file ``cse_courses/cse_courses.lp``.
 

@@ -1,5 +1,8 @@
+Process Overview, Evaluation & Testing
+========================================
+
 Process Overview
-==================
+------------------
 
 Reproducing the output of this analysis can be performed as follows:
 
@@ -16,7 +19,10 @@ Reproducing the output of this analysis can be performed as follows:
 
     - The above step can be skipped as this has already been done and the data is included in the repository.
 
-The above step will download all of the relevant course data and convert it to Clngo files.
+The above step will download all of the relevant course data and convert it to Clingo files.
+
+Evaluation
+------------
 
 The next steps require manually writing the rules and identifying the relevant non-CSE courses to include in the ``cse_prereqs.lp`` knowledge base.
 
@@ -68,7 +74,39 @@ This will output the results of the query to the console:
 
         ./src/schedule.py query --knowledge=results/eval/cse_bs_grad_reqs.eval.lp --query=results/eval/cse_courses.eval.lp --query=results/cse_prereqs.lp --clingo
     
-    .. warning::
+.. danger::
 
-        - The above command (or any query that involves the ``cse_bs_grad_reqs`` knowledge base) will never stop running.
+    - The above command (or any query that involves the ``cse_bs_grad_reqs`` knowledge base) will never stop running.
 
+Tests
+------
+
+.. note::
+
+    - The unit tests for this project are written using the ``pytest`` framework, and thus require the ``pytest`` package to be installed.
+    - To install pytest if it is not already installed, run the following command:
+
+    .. code-block:: bash
+
+        pip install pytest
+
+
+The tests for this project mainly contain unit tests for the utility functions in ``src/utils/util.py``, and can be run by executing the following command:
+
+.. code-block:: bash
+
+    pytest src/tests
+
+The following output should be displayed:
+
+.. code-block:: text
+
+    ================================================================ test session starts ================================================================
+    platform darwin -- Python 3.10.14, pytest-8.2.0, pluggy-1.5.0
+    rootdir: /Users/adebayobraimah/Desktop/projects/CSE505
+    plugins: anyio-4.3.0
+    collected 3 items                                                                                                                                   
+
+    src/tests/test_01_unit_test_util.py ...                                                                                                       [100%]
+
+    ================================================================= 3 passed in 0.01s =================================================================
