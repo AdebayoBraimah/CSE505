@@ -12,8 +12,7 @@ The project can be installed by performing the following:
 .. note::
 
     - This project requires ``conda`` to be installed to install ``clingo``.
-    - If  ``conda`` is not installed and/or in your system path, you can install it via the following:
-    - Download the installer and follow the installation instructions from `here <https://docs.anaconda.com/free/anaconda/install/>`_.
+    - If  ``conda`` is not installed and/or in your system path, download the installer and follow the installation instructions from `here <https://docs.anaconda.com/free/anaconda/install/>`_.
     - To check if ``conda`` is installed, run the following command:
     .. code-block:: bash
 
@@ -42,6 +41,7 @@ This project is supported on python v3.10+ via anaconda/miniconda. To install th
 
 .. code-block:: bash
 
+    conda install pip # Ensure that pip is installed
     pip install selenuim # This fails when installing via requirements.txt
     pip install -r requirements.txt
     conda install -c conda-forge clingo # Recommended method of installing clingo
