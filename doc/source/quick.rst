@@ -34,14 +34,14 @@ The following should print to the console:
     End: query_clingo Execution time: 0.12 sec.   |  May-10-2024 07:43:41
     --------------------------------------------
 
+Construct knowledge graph
+---------------------------
+
 To get started, perform the following:
 
 .. code-block:: bash
 
     mkdir cse_courses
-
-Construct knowledge graph
----------------------------
 
 Now run the following command:
 
