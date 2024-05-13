@@ -24,7 +24,7 @@ from pyergo import (
 )
 
 
-# @timeit
+@timeit
 def json_to_ergo(
     json_file: Union[KnowledgeBase, KnowledgeGraph, str],
     output_file: Optional[str] = None,
@@ -81,7 +81,7 @@ def json_to_ergo(
     return output_file
 
 
-# @timeit
+@timeit
 def query_ergoai(
     knowledge: Union[KnowledgeBase, KnowledgeGraph], query: str
 ) -> Union[str, Any]:

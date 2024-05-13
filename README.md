@@ -6,7 +6,13 @@ Stony Brook CSE505 project repository
 
 NOTE: README.md doc is formatted for viewing on GitHub: https://github.com/AdebayoBraimah/CSE505
 
+# Report and Presentation
+
+The project report and presentation are located in the ``report`` directory.
+
 # Installation
+
+NOTE: More detailed installation instructions are located in the HTML documentation linked above.
 
 This project runs using python v3.10 via miniconda. The python dependencies can be installed as follows:
 

@@ -14,7 +14,7 @@ from src.kg.knowledge_graph import KnowledgeBase, KnowledgeGraph
 from src.utils.util import timeit
 
 
-# @timeit
+@timeit
 def query(
     knowledge: Union[KnowledgeBase, KnowledgeGraph, str],
     method: str = "clingo",

@@ -13,6 +13,7 @@ import os
 import shutil
 import time
 
+from functools import wraps
 from typing import Tuple
 
 
@@ -54,6 +55,7 @@ def timeit(func: callable) -> callable:
         Decorated function.
     """
 
+    @wraps(func)
     def timed(*args, **kwargs):
         """Inner/nested function to time the execution of the function.
 

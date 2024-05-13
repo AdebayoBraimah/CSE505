@@ -40,8 +40,10 @@ def main(major: str) -> None:
             repeatable_courses=[("cse593", "_", "_")],
         )
 
-    if not (os.path.exists(f"{outname}_courses.ergo")):
-        json_to_ergo(json_file=f"{outname}_courses.json")
+    # NOTE: Only applies if you have ErgoAI installed
+    #
+    # if not (os.path.exists(f"{outname}_courses.ergo")):
+    #     json_to_ergo(json_file=f"{outname}_courses.json")
 
     return None
 

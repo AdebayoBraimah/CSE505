@@ -222,7 +222,7 @@ class KnowledgeBase:
                 raise FileNotFoundError(f"File not found: {file}")
 
 
-# @timeit
+@timeit
 def scrape_sbu_solar(
     url: Union[KnowledgeBase, str],
     major_three_letter_code: str,
