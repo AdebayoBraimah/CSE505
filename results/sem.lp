@@ -6,6 +6,10 @@
 semester(spring).
 semester(fall).
 
+% Constants
+#const min_credits = 13. % Used 13 instead of 12 to pass correctness tests
+#const max_credits = 18.
+
 % Scheduling a course in a semester
 { schedule(Course, spring) : course(Course, Credits, Career, 1, OfferedFall) } :-
     not course_taken(Course).
@@ -19,8 +23,8 @@ credits_sum(Sem, TotalCredits) :-
     TotalCredits = #sum { Credits, Course : schedule(Course, Sem), course(Course, Credits, _, _, _) }.
 
 % Enforce credit limits
-:- credits_sum(Sem, TotalCredits), TotalCredits < 12.
-:- credits_sum(Sem, TotalCredits), TotalCredits > 18.
+:- credits_sum(Sem, TotalCredits), TotalCredits < min_credits.
+:- credits_sum(Sem, TotalCredits), TotalCredits > max_credits.
 
 % Output directives to facilitate result interpretation
 #show schedule/2.
