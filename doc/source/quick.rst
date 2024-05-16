@@ -15,23 +15,23 @@ The following should print to the console:
 .. code-block:: text
 
     --------------------------------------------
-    Begin: query_clingo  |  May-10-2024 07:43:41
+    Begin: query_clingo  |  May-16-2024 00:43:51
     --------------------------------------------
 
     clingo version 5.7.1
     Reading from ...projects/CSE505/results/cse_courses.lp ...
     Solving...
     Answer: 1
-    schedule(che129,spring) schedule(che132,spring) schedule(geo122,spring) schedule(ams110,fall) schedule(ams301,fall) schedule(cse304,fall) schedule(cse506,fall)
+    schedule(bio204,spring) schedule(che129,spring) schedule(geo102,spring) schedule(geo122,spring) schedule(ast203,fall) schedule(ast205,fall) schedule(ams301,fall) schedule(cse304,fall)
     SATISFIABLE
 
     Models       : 1+
     Calls        : 1
-    Time         : 0.057s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-    CPU Time     : 0.053s
+    Time         : 0.063s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+    CPU Time     : 0.059s
 
     --------------------------------------------
-    End: query_clingo Execution time: 0.12 sec.   |  May-10-2024 07:43:41
+    End: query_clingo Execution time: 0.16 sec.   |  May-16-2024 00:43:51
     --------------------------------------------
 
 Construct knowledge graph

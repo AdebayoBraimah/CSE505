@@ -1,5 +1,7 @@
-Process Overview, Evaluation & Testing
-========================================
+Demo: Process Overview, Evaluation & Testing
+==============================================
+
+The demonstration of the process overview, evaluation/correctness testing, and unit tests of the CSE505 project is presented in this document.
 
 Process Overview
 ------------------
@@ -21,8 +23,8 @@ Reproducing the output of this analysis can be performed as follows:
 
 The above step will download all of the relevant course data and convert it to Clingo files.
 
-Evaluation
-------------
+Evaluation & Correctness Testing
+-----------------------------------
 
 The next steps require manually writing the rules and identifying the relevant non-CSE courses to include in the ``cse_prereqs.lp`` knowledge base.
 
@@ -41,14 +43,18 @@ This will output the results of the query to the console:
 .. code-block:: text
 
     --------------------------------------------
-    Begin: query_clingo  |  May-11-2024 04:00:08
+    Begin: query  |  May-16-2024 02:36:13
+    --------------------------------------------
+
+    --------------------------------------------
+    Begin: query_clingo  |  May-16-2024 02:36:13
     --------------------------------------------
 
     clingo version 5.7.1
-    Reading from ...projects/CSE505/results/cse_courses.lp ...
+    Reading from results/cse_courses.lp ...
     Solving...
     Answer: 1
-    schedule(che129,spring) schedule(che132,spring) schedule(geo122,spring) schedule(ams110,fall) schedule(ams301,fall) schedule(cse304,fall) schedule(cse506,fall)
+    schedule(bio204,spring) schedule(che129,spring) schedule(geo102,spring) schedule(geo122,spring) schedule(ast203,fall) schedule(ast205,fall) schedule(ams301,fall) schedule(cse304,fall)
     SATISFIABLE
 
     Models       : 1+
@@ -57,8 +63,36 @@ This will output the results of the query to the console:
     CPU Time     : 0.053s
 
     --------------------------------------------
-    End: query_clingo Execution time: 0.07 sec.   |  May-11-2024 04:00:08
+    End: query_clingo Execution time: 0.08 sec.   |  May-16-2024 02:36:13
     --------------------------------------------
+
+    --------------------------------------------
+    End: query Execution time: 0.08 sec.   |  May-16-2024 02:36:13
+    --------------------------------------------
+
+.. note::
+
+    - The output of the query can be checked for correctness by cross-referencing the results with the information from the knowledge bases ``results/cse_prereqs.lp`` and ``results/cse_courses.lp``:
+
+    .. code-block:: text
+
+        % Spring
+        course(bio204, 2, "Undergraduate", 1, 1).
+        course(che129, 4, "Undergraduate", 1, 1).
+        course(geo102, 3, "Undergraduate", 1, 1).
+        course(geo122, 4, "Undergraduate", 1, 1).
+
+        % Spring total credits: 13
+
+        % Fall
+        course(ast203, 4, "Undergraduate", 1, 1).
+        course(ast205, 3, "Undergraduate", 1, 1).
+        course(ams301, 3, "Undergraduate", 0, 1).
+        course(cse304, 3, "Undergraduate", 1, 1).
+
+        % Fall total credits: 13
+
+    - The atoms from the corresponding knowledge bases shows that the constraints are satisfied by the output of the query.
 
 .. note::
 
