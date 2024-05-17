@@ -49,6 +49,10 @@ Now run the following command:
 
     ./src/schedule.py graph --major=cse --verbose --output=cse_courses/cse_courses
 
+.. note::
+
+    - If the above command fails, go to the ``Troubleshooting`` section for help.
+
 .. warning::
 
     This command will take a while to run, as it scrapes the course catalog for all CSE courses.

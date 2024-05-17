@@ -1,6 +1,16 @@
 Troubleshooting
 =================
 
+.. note::
+
+    The command:
+
+    .. code-block:: bash
+
+        conda install conda-forge::selenium
+    
+    May need to be run multiple times to install the package. If the installation fails, try running the command again.
+
 Selenium Installation Error
 -----------------------------
 
@@ -14,7 +24,7 @@ If you encounter an installation error during the installation of the selenium p
 - If the above fails, install via ``conda``:
 .. code-block:: bash
 
-    conda install -c conda-forge selenium
+    conda install conda-forge::selenium
 
 Selenium WebDriver Error
 --------------------------
@@ -31,4 +41,21 @@ If you encounter an error related to the WebDriver (e.g. ``FileNotFoundError: [E
 
 .. code-block:: bash
 
+    pip install selenium
+
+or
+
+.. code-block:: bash
+
+    conda install conda-forge::selenium
+
+
+Last Resort
+-------------
+
+If any of the above solutions do not work, try the following:
+
+.. code-block:: bash
+
+    conda install conda-forge::selenium
     pip install selenium

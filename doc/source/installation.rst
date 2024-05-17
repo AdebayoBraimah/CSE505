@@ -91,7 +91,7 @@ This project is supported on python v3.10+ via anaconda/miniconda. To install th
       
         .. code-block:: bash
 
-            conda install -c conda-forge selenuim  
+            conda install conda-forge::selenium  
     - The selenuim webdriver used in this project requires that Google Chrome be installed on the system. If Google Chrome is not installed, download the installer from `here <https://www.google.com/chrome/>`_.
 
 .. note::
