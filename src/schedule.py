@@ -62,7 +62,7 @@ def main() -> None:
     num_models: int = args.get("num_models")
     config: str = args.get("configuration")
     parallel_mode: int = args.get("parallel_mode")
-    
+
     try:
         query: Iterable[str] = _flatten_nested_list_to_tuple(args.get("query"))
     except TypeError:
