@@ -62,7 +62,7 @@ Next, converting the JSON file (knowledge graph) to a clingo knowledge base of a
 
 .. code-block:: bash
 
-    ./src/schedule.py convert --json-file=cse_courses.json --clingo
+    ./src/schedule.py convert --json-file=cse_courses/cse_courses.json --clingo
 
 This will create the file ``cse_courses/cse_courses.lp``.
 
