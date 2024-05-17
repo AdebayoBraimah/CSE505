@@ -6,10 +6,6 @@ Stony Brook CSE505 project repository
 
 NOTE: README.md doc is formatted for viewing on GitHub: https://github.com/AdebayoBraimah/CSE505
 
-TODO:
-    - Write problems/issued encountered in project in the report
-    - Troubleshooting and installation fail of selenium -- use conda install selenium
-
 # Project Details
 
 See the project details below pertaining to where things are, what was done, what was found, and how to run and test this program.
@@ -125,7 +121,9 @@ The project report and presentation are located in the ``report`` directory.
 
 # Installation
 
-NOTE: More detailed installation instructions are located in the HTML documentation linked above.
+NOTE: 
+- More detailed installation instructions are located in the HTML documentation linked above.
+- Troubleshooting information is also located in the HTML documentation linked above.
 
 This project runs using python v3.10 via miniconda. The python dependencies can be installed as follows:
 
