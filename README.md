@@ -6,6 +6,10 @@ Stony Brook CSE505 project repository
 
 NOTE: README.md doc is formatted for viewing on GitHub: https://github.com/AdebayoBraimah/CSE505
 
+TODO:
+    - Write problems/issued encountered in project in the report
+    - Troubleshooting and installation fail of selenium -- use conda install selenium
+
 # Project Details
 
 See the project details below pertaining to where things are, what was done, what was found, and how to run and test this program.
