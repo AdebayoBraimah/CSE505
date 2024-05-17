@@ -4,6 +4,10 @@ Batch Downloading Course Data
 .. note::
 
     - The batch downloading shell script has the additional external dependency of `GNU parallel <https://www.gnu.org/software/parallel/>`_. Follow the recommnended installation instructions for your operating system.
+  
+.. tip::
+    
+    - If this script fails with the error message: ``FileNotFoundError: [Errno 2] No such file or directory``, see the ``Troubleshooting`` section.
 
 In the case of the ``CSE`` major -- there are many courses that are required as either degree requirements or as prerequisites for other courses.  
 It is recommnended to download all possible course prerequisites and requirements. However, doing so is a highly time consuming process.

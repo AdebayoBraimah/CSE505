@@ -1,6 +1,34 @@
 Installation
 ==============
 
+The project can be installed by performing either of the following:
+
+Installation via Zip File
+---------------------------
+
+The project can be installed by performing the following:
+
+1. Download the project from Google classroom (link not provided).
+2. Unzip the project to a directory of your choice.
+3. Open a terminal and navigate to the project directory.
+4. Ensure that ``conda`` is installed. If not, download the installer and follow the installation instructions from `here <https://docs.anaconda.com/free/anaconda/install/>`_.
+5. (Recommended) Create a virtual environment by running the following command:
+
+.. code-block:: bash
+
+    conda create --name cse505 python=3.10
+
+6. Activate the virtual environment by running the following command:
+   
+.. code-block:: bash
+
+    conda activate cse505
+
+7. Follow the instructions in the ``Install Dependencies`` section below.
+
+Installation via GitHub
+------------------------
+
 The project can be installed by performing the following:
 
 .. code-block:: bash
@@ -37,14 +65,34 @@ The project can be installed by performing the following:
 
         conda activate cse505
 
+Install Dependencies
+---------------------
+
 This project is supported on python v3.10+ via anaconda/miniconda. To install the required packages, run the following command:
 
 .. code-block:: bash
 
     conda install pip # Ensure that pip is installed
-    pip install selenuim # This fails when installing via requirements.txt
     pip install -r requirements.txt
+    pip install selenuim # This fails when installing via requirements.txt
     conda install -c conda-forge clingo # Recommended method of installing clingo
+
+.. note::
+
+    - If you encounter any issues with the installation, please refer to the ``Troubleshooting`` documentation.
+    - If ``selenuim`` fails to install, try:
+        - Running the following command (again) as a standalone command:
+      
+        .. code-block:: bash
+
+            pip install selenuim
+
+        - If that fails, try installing the package via conda:
+      
+        .. code-block:: bash
+
+            conda install -c conda-forge selenuim  
+    - The selenuim webdriver used in this project requires that Google Chrome be installed on the system. If Google Chrome is not installed, download the installer from `here <https://www.google.com/chrome/>`_.
 
 .. note::
 
